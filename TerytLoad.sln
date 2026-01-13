@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerytLoad", "TerytLoad\TerytLoad.csproj", "{A6AD0C7E-25C7-49FC-8FA3-B22730B9830B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressLibrary", "..\AddressLibrary\AddressLibrary\AddressLibrary.csproj", "{509FB5D4-2149-0A0E-B255-0EAE8F69305E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6AD0C7E-25C7-49FC-8FA3-B22730B9830B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AD0C7E-25C7-49FC-8FA3-B22730B9830B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AD0C7E-25C7-49FC-8FA3-B22730B9830B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AD0C7E-25C7-49FC-8FA3-B22730B9830B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509FB5D4-2149-0A0E-B255-0EAE8F69305E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509FB5D4-2149-0A0E-B255-0EAE8F69305E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509FB5D4-2149-0A0E-B255-0EAE8F69305E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509FB5D4-2149-0A0E-B255-0EAE8F69305E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93AB5FAC-7C2B-4B58-B26D-498236899EF5}
+	EndGlobalSection
+EndGlobal

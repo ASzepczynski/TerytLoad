@@ -1,0 +1,252 @@
+﻿@page
+@model TerytLoad.Pages.BrowseTerytModel
+@{
+    ViewData["Title"] = "Przeglądarka surowych danych TERYT";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">📊 Przeglądarka surowych danych TERYT</h1>
+    
+    <div class="alert alert-warning">
+        <strong>ℹ️ Uwaga:</strong> To są surowe dane z tabel TERYT (TerytTerc, TerytSimc, TerytUlic).
+        Dla struktury hierarchicznej użyj <a asp-page="/Browse" class="alert-link">Przeglądarki struktury</a>.
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.CurrentPath))
+    {
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a asp-page="/BrowseTeryt">🏠 Start</a>
+                </li>
+                @if (!string.IsNullOrEmpty(Model.WojKod))
+                {
+                    <li class="breadcrumb-item">
+                        <a asp-page="/BrowseTeryt" asp-route-wojKod="@Model.WojKod">
+                            Województwo
+                        </a>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(Model.PowKod))
+                {
+                    <li class="breadcrumb-item">
+                        <a asp-page="/BrowseTeryt" 
+                           asp-route-wojKod="@Model.WojKod"
+                           asp-route-powKod="@Model.PowKod">
+                            Powiat
+                        </a>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(Model.GmiKod))
+                {
+                    <li class="breadcrumb-item">
+                        <a asp-page="/BrowseTeryt" 
+                           asp-route-wojKod="@Model.WojKod"
+                           asp-route-powKod="@Model.PowKod"
+                           asp-route-gmiKod="@Model.GmiKod">
+                            Gmina
+                        </a>
+                    </li>
+                }
+                @if (!string.IsNullOrEmpty(Model.MiejSymbol))
+                {
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Miejscowość
+                    </li>
+                }
+            </ol>
+        </nav>
+
+        <div class="alert alert-info">
+            <strong>📍 Bieżąca lokalizacja:</strong> @Model.CurrentPath
+        </div>
+    }
+
+    @if (string.IsNullOrEmpty(Model.WojKod))
+    {
+        <!-- Poziom 1: Województwa (TERYT_TERC) -->
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h3 class="mb-0">🏛️ Województwa - TERYT_TERC (@Model.Wojewodztwa.Count)</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    @foreach (var woj in Model.Wojewodztwa)
+                    {
+                        <div class="col-md-4 mb-3">
+                            <a asp-page="/BrowseTeryt" 
+                               asp-route-wojKod="@woj.Wojewodztwo" 
+                               class="btn btn-outline-primary btn-lg w-100 text-start">
+                                <i class="bi bi-geo-alt"></i> @woj.Nazwa
+                                <br/>
+                                <small class="text-muted">Kod: @woj.Wojewodztwo</small>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else if (string.IsNullOrEmpty(Model.PowKod))
+    {
+        <!-- Poziom 2: Powiaty (TERYT_TERC) -->
+        <div class="card">
+            <div class="card-header bg-success text-white">
+                <h3 class="mb-0">🏘️ Powiaty - TERYT_TERC (@Model.Powiaty.Count)</h3>
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    @foreach (var powiat in Model.Powiaty)
+                    {
+                        <a asp-page="/BrowseTeryt" 
+                           asp-route-wojKod="@Model.WojKod"
+                           asp-route-powKod="@(powiat.Wojewodztwo + powiat.Powiat)" 
+                           class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">@powiat.Nazwa</h5>
+                                <small class="text-muted">Kod: @(powiat.Wojewodztwo + powiat.Powiat)</small>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else if (string.IsNullOrEmpty(Model.GmiKod))
+    {
+        <!-- Poziom 3: Gminy (TERYT_TERC) -->
+        <div class="card">
+            <div class="card-header bg-warning text-dark">
+                <h3 class="mb-0">🏘️ Gminy - TERYT_TERC (@Model.Gminy.Count)</h3>
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    @foreach (var gmina in Model.Gminy)
+                    {
+                        var kodGminy = gmina.Wojewodztwo + gmina.Powiat + gmina.Gmina + gmina.RodzajGminy;
+                        <a asp-page="/BrowseTeryt" 
+                           asp-route-wojKod="@Model.WojKod"
+                           asp-route-powKod="@Model.PowKod"
+                           asp-route-gmiKod="@kodGminy" 
+                           class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">@gmina.Nazwa</h5>
+                                <span>
+                                    <span class="badge bg-secondary">Rodzaj: @gmina.RodzajGminy</span>
+                                    <small class="text-muted">Kod: @kodGminy</small>
+                                </span>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else if (string.IsNullOrEmpty(Model.MiejSymbol))
+    {
+        <!-- Poziom 4: Miejscowości (TERYT_SIMC) -->
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h3 class="mb-0">🏘️ Miejscowości - TERYT_SIMC (@Model.Miejscowosci.Count)</h3>
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    @foreach (var miejscowosc in Model.Miejscowosci)
+                    {
+                        <a asp-page="/BrowseTeryt" 
+                           asp-route-wojKod="@Model.WojKod"
+                           asp-route-powKod="@Model.PowKod"
+                           asp-route-gmiKod="@Model.GmiKod"
+                           asp-route-miejSymbol="@miejscowosc.Symbol" 
+                           class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">@miejscowosc.Nazwa</h5>
+                                <span>
+                                    @if (!string.IsNullOrEmpty(miejscowosc.RodzajMiasta))
+                                    {
+                                        <span class="badge bg-secondary">Rodzaj: @miejscowosc.RodzajMiasta</span>
+                                    }
+                                    <small class="text-muted">Symbol: @miejscowosc.Symbol</small>
+                                </span>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <!-- Poziom 5: Ulice (TERYT_ULIC) -->
+        <div class="card">
+            <div class="card-header bg-danger text-white">
+                <h3 class="mb-0">🛣️ Ulice - TERYT_ULIC (@Model.Ulice.Count)</h3>
+            </div>
+            <div class="card-body">
+                @if (Model.Ulice.Any())
+                {
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Symbol ulicy</th>
+                                    <th>Cecha</th>
+                                    <th>Nazwa główna</th>
+                                    <th>Nazwa dodatkowa</th>
+                                    <th>Symbol miejscowości</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var ulica in Model.Ulice)
+                                {
+                                    <tr>
+                                        <td><small class="text-muted">@ulica.SymbolUlicy</small></td>
+                                        <td>@ulica.Cecha</td>
+                                        <td><strong>@ulica.Nazwa1</strong></td>
+                                        <td>@ulica.Nazwa2</td>
+                                        <td><small class="text-muted">@ulica.Symbol</small></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-warning">
+                        <i class="bi bi-exclamation-triangle"></i> Brak ulic w tej miejscowości
+                    </div>
+                }
+            </div>
+        </div>
+    }
+
+    <div class="mt-4">
+        <a asp-page="/Index" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> Powrót do strony głównej
+        </a>
+        <a asp-page="/Browse" class="btn btn-primary ms-2">
+            <i class="bi bi-diagram-3"></i> Przeglądarka struktury hierarchicznej
+        </a>
+    </div>
+</div>
+
+<style>
+    .breadcrumb {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        border-radius: 0.25rem;
+    }
+    
+    .btn-outline-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .list-group-item:hover {
+        background-color: #f8f9fa;
+        transform: translateX(5px);
+        transition: all 0.2s ease;
+    }
+</style>

@@ -1,0 +1,241 @@
+﻿@page
+@model TerytLoad.Pages.BrowseModel
+@{
+    ViewData["Title"] = "Przeglądarka struktury TERYT";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">🗺️ Przeglądarka struktury terytorialnej Polski</h1>
+
+    @if (!string.IsNullOrEmpty(Model.CurrentPath))
+    {
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a asp-page="/Browse">🏠 Start</a>
+                </li>
+                @if (Model.WojewodztwoId.HasValue)
+                {
+                    <li class="breadcrumb-item">
+                        <a asp-page="/Browse" asp-route-wojewodztwoId="@Model.WojewodztwoId">
+                            Województwo
+                        </a>
+                    </li>
+                }
+                @if (Model.PowiatId.HasValue)
+                {
+                    <li class="breadcrumb-item">
+                        <a asp-page="/Browse" 
+                           asp-route-wojewodztwoId="@Model.WojewodztwoId"
+                           asp-route-powiatId="@Model.PowiatId">
+                            Powiat
+                        </a>
+                    </li>
+                }
+                @if (Model.GminaId.HasValue)
+                {
+                    <li class="breadcrumb-item">
+                        <a asp-page="/Browse" 
+                           asp-route-wojewodztwoId="@Model.WojewodztwoId"
+                           asp-route-powiatId="@Model.PowiatId"
+                           asp-route-gminaId="@Model.GminaId">
+                            Gmina
+                        </a>
+                    </li>
+                }
+                @if (Model.MiejscowoscId.HasValue)
+                {
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Miejscowość
+                    </li>
+                }
+            </ol>
+        </nav>
+
+        <div class="alert alert-info">
+            <strong>📍 Bieżąca lokalizacja:</strong> @Model.CurrentPath
+        </div>
+    }
+
+    @if (!Model.WojewodztwoId.HasValue)
+    {
+        <!-- Poziom 1: Województwa -->
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h3 class="mb-0">🏛️ Województwa (@Model.Wojewodztwa.Count)</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    @foreach (var woj in Model.Wojewodztwa)
+                    {
+                        <div class="col-md-4 mb-3">
+                            <a asp-page="/Browse" 
+                               asp-route-wojewodztwoId="@woj.Id" 
+                               class="btn btn-outline-primary btn-lg w-100 text-start">
+                                <i class="bi bi-geo-alt"></i> @woj.Nazwa
+                                <br/>
+                                <small class="text-muted">Kod: @woj.Kod</small>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else if (!Model.PowiatId.HasValue)
+    {
+        <!-- Poziom 2: Powiaty -->
+        <div class="card">
+            <div class="card-header bg-success text-white">
+                <h3 class="mb-0">🏘️ Powiaty (@Model.Powiaty.Count)</h3>
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    @foreach (var powiat in Model.Powiaty)
+                    {
+                        <a asp-page="/Browse" 
+                           asp-route-wojewodztwoId="@Model.WojewodztwoId"
+                           asp-route-powiatId="@powiat.Id" 
+                           class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">@powiat.Nazwa</h5>
+                                <small class="text-muted">Kod: @powiat.Kod</small>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else if (!Model.GminaId.HasValue)
+    {
+        <!-- Poziom 3: Gminy -->
+        <div class="card">
+            <div class="card-header bg-warning text-dark">
+                <h3 class="mb-0">🏘️ Gminy (@Model.Gminy.Count)</h3>
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    @foreach (var gmina in Model.Gminy)
+                    {
+                        <a asp-page="/Browse" 
+                           asp-route-wojewodztwoId="@Model.WojewodztwoId"
+                           asp-route-powiatId="@Model.PowiatId"
+                           asp-route-gminaId="@gmina.Id" 
+                           class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">@gmina.Nazwa</h5>
+                                <span>
+                                    <span class="badge bg-secondary">@gmina.RodzajGminy.Nazwa</span>
+                                    <small class="text-muted">Kod: @gmina.Kod</small>
+                                </span>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else if (!Model.MiejscowoscId.HasValue)
+    {
+        <!-- Poziom 4: Miejscowości -->
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h3 class="mb-0">🏘️ Miejscowości (@Model.Miejscowosci.Count)</h3>
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    @foreach (var miejscowosc in Model.Miejscowosci)
+                    {
+                        <a asp-page="/Browse" 
+                           asp-route-wojewodztwoId="@Model.WojewodztwoId"
+                           asp-route-powiatId="@Model.PowiatId"
+                           asp-route-gminaId="@Model.GminaId"
+                           asp-route-miejscowoscId="@miejscowosc.Id" 
+                           class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">@miejscowosc.Nazwa</h5>
+                                <span>
+                                    @if (miejscowosc.RodzajMiejscowosci != null)
+                                    {
+                                        <span class="badge bg-secondary">@miejscowosc.RodzajMiejscowosci.Nazwa</span>
+                                    }
+                                    <small class="text-muted">Symbol: @miejscowosc.Symbol</small>
+                                </span>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <!-- Poziom 5: Ulice -->
+        <div class="card">
+            <div class="card-header bg-danger text-white">
+                <h3 class="mb-0">🛣️ Ulice (@Model.Ulice.Count)</h3>
+            </div>
+            <div class="card-body">
+                @if (Model.Ulice.Any())
+                {
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Cecha</th>
+                                    <th>Nazwa główna</th>
+                                    <th>Nazwa dodatkowa</th>
+                                    <th>Symbol</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var ulica in Model.Ulice)
+                                {
+                                    <tr>
+                                        <td>@ulica.Cecha</td>
+                                        <td><strong>@ulica.Nazwa1</strong></td>
+                                        <td>@ulica.Nazwa2</td>
+                                        <td><small class="text-muted">@ulica.Symbol</small></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-warning">
+                        <i class="bi bi-exclamation-triangle"></i> Brak ulic w tej miejscowości
+                    </div>
+                }
+            </div>
+        </div>
+    }
+
+    <div class="mt-4">
+        <a asp-page="/Index" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> Powrót do strony głównej
+        </a>
+    </div>
+</div>
+
+<style>
+    .breadcrumb {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        border-radius: 0.25rem;
+    }
+    
+    .btn-outline-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .list-group-item:hover {
+        background-color: #f8f9fa;
+        transform: translateX(5px);
+        transition: all 0.2s ease;
+    }
+</style>

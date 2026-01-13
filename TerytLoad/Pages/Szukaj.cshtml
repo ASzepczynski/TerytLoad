@@ -1,0 +1,189 @@
+﻿@page
+@model TerytLoad.Pages.SzukajModel
+@{
+    ViewData["Title"] = "Wyszukiwanie kodów pocztowych";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">
+        <i class="bi bi-search"></i> Wyszukiwanie kodów pocztowych
+    </h1>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form method="post">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <label asp-for="SearchParams.Kod" class="form-label">
+                            <i class="bi bi-mailbox"></i> Kod pocztowy
+                        </label>
+                        <input asp-for="SearchParams.Kod" class="form-control form-control-sm" placeholder="np. 00-001" />
+                        <small class="form-text text-muted">Opcjonalny</small>
+                        <span asp-validation-for="SearchParams.Kod" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label asp-for="SearchParams.Miejscowosc" class="form-label">
+                            <i class="bi bi-geo-alt"></i> Miejscowość
+                        </label>
+                        <input asp-for="SearchParams.Miejscowosc" class="form-control form-control-sm" placeholder="np. Warszawa" />
+                        <small class="form-text text-muted">Opcjonalna</small>
+                        <span asp-validation-for="SearchParams.Miejscowosc" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label asp-for="SearchParams.Ulica" class="form-label">
+                            <i class="bi bi-signpost-2"></i> Ulica
+                        </label>
+                        <input asp-for="SearchParams.Ulica" class="form-control form-control-sm" placeholder="np. Marszałkowska" />
+                        <small class="form-text text-muted">Opcjonalna</small>
+                    </div>
+
+                    <div class="col-md-2">
+                        <label asp-for="SearchParams.NumerDomu" class="form-label">
+                            <i class="bi bi-house-door"></i> Nr domu
+                        </label>
+                        <input asp-for="SearchParams.NumerDomu" class="form-control form-control-sm" placeholder="15" />
+                        <small class="form-text text-muted">Opcjonalny</small>
+                    </div>
+
+                    <div class="col-md-1">
+                        <label asp-for="SearchParams.NumerMieszkania" class="form-label">
+                            <i class="bi bi-door-closed"></i> M.
+                        </label>
+                        <input asp-for="SearchParams.NumerMieszkania" class="form-control form-control-sm" placeholder="10" />
+                        <small class="form-text text-muted">Opcj.</small>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-search"></i> Szukaj
+                        </button>
+                        <button type="submit" asp-page-handler="Clear" class="btn btn-secondary ms-2">
+                            <i class="bi bi-x-circle"></i> Wyczyść
+                        </button>
+                    </div>
+                </div>
+
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    <div class="alert alert-danger mt-3 mb-0" role="alert">
+                        <i class="bi bi-exclamation-triangle"></i> @Model.ErrorMessage
+                    </div>
+                }
+            </form>
+        </div>
+    </div>
+
+    @if (Model.Wyniki != null && Model.Wyniki.Count > 0)
+    {
+        <div class="card shadow-sm">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0">
+                    <i class="bi bi-check-circle"></i> Znaleziono @Model.Wyniki.Count wynik(ów)
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped table-sm mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th><i class="bi bi-mailbox"></i> Kod</th>
+                                <th><i class="bi bi-signpost-2"></i> Ulica</th>
+                                <th><i class="bi bi-house-door"></i> Numery</th>
+                                <th><i class="bi bi-geo-alt"></i> Miejscowość</th>
+                                <th><i class="bi bi-map"></i> Gmina</th>
+                                <th><i class="bi bi-pin-map"></i> Powiat</th>
+                                <th><i class="bi bi-globe"></i> Województwo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var wynik in Model.Wyniki)
+                            {
+                                <tr>
+                                    <td class="fw-bold">@wynik.KodPocztowy.Kod</td>
+                                    <td>
+                                        @if (wynik.Ulica != null)
+                                        {
+                                            @if (!string.IsNullOrEmpty(wynik.Ulica.Nazwa2))
+                                            {
+                                                <span class="text-muted small">@wynik.Ulica.Nazwa2</span>
+                                                <br />
+                                            }
+                                            <span>@wynik.Ulica.Nazwa1</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted fst-italic small">brak ulicy</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (!string.IsNullOrEmpty(wynik.KodPocztowy.Numery))
+                                        {
+                                            <small class="text-muted">@wynik.KodPocztowy.Numery</small>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted fst-italic small">wszystkie</span>
+                                        }
+                                    </td>
+                                    <td>@wynik.Miejscowosc?.Nazwa</td>
+                                    <td>
+                                        @if (wynik.Miejscowosc?.Gmina != null)
+                                        {
+                                            <text>@wynik.Miejscowosc.Gmina.Nazwa</text>
+                                            @if (wynik.Miejscowosc.Gmina.RodzajGminy != null)
+                                            {
+                                                <br />
+                                                <small class="text-muted">(@wynik.Miejscowosc.Gmina.RodzajGminy.Nazwa)</small>
+                                            }
+                                        }
+                                    </td>
+                                    <td>@wynik.Miejscowosc?.Gmina?.Powiat?.Nazwa</td>
+                                    <td>@wynik.Miejscowosc?.Gmina?.Powiat?.Wojewodztwo?.Nazwa</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-info mt-3">
+            <h6><i class="bi bi-info-circle"></i> Pełny adres pierwszego wyniku:</h6>
+            <p class="mb-0">@Model.Wyniki.First().PelnyAdres</p>
+        </div>
+    }
+    else if (Model.Wyniki != null && Model.Wyniki.Count == 0)
+    {
+        <div class="alert alert-warning" role="alert">
+            <h5 class="alert-heading"><i class="bi bi-exclamation-circle"></i> Brak wyników</h5>
+            <p class="mb-0">Nie znaleziono żadnych kodów pocztowych pasujących do podanych kryteriów.</p>
+        </div>
+    }
+
+    <div class="card mt-4 border-info">
+        <div class="card-header bg-info text-white">
+            <h6 class="mb-0"><i class="bi bi-info-circle"></i> Instrukcja wyszukiwania</h6>
+        </div>
+        <div class="card-body">
+            <p class="mb-2"><strong>Możliwe scenariusze:</strong></p>
+            <ul class="mb-2">
+                <li><strong>Kod + Ulica + Numer:</strong> Znajdź dokładny adres</li>
+                <li><strong>Miejscowość + Ulica + Numer:</strong> Znajdź kod pocztowy</li>
+                <li><strong>Kod + Miejscowość:</strong> Wszystkie adresy w miejscowości</li>
+                <li><strong>Miejscowość (bez ulicy):</strong> Kody bez konkretnej ulicy</li>
+            </ul>
+            <p class="mb-0 small">
+                <strong>Format numerów:</strong> <code>1-5</code>, <code>7-9(n)</code> (nieparzyste), 
+                <code>2-10(p)</code> (parzyste), <code>11-DK</code> (do końca)
+            </p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,96 @@
+﻿@page
+@model TerytLoad.Pages.DatabaseModel
+@{
+    ViewData["Title"] = "Zarządzanie bazą danych";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Zarządzanie bazą danych Address</h1>
+
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <pre style="white-space: pre-wrap; margin: 0; font-family: 'Courier New', monospace; font-size: 14px;">@Model.Message</pre>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card mb-4 border-danger">
+        <div class="card-header bg-danger text-white">
+            <h3 class="mb-0">⚠️ Usuń bazę danych</h3>
+        </div>
+        <div class="card-body">
+            <p class="card-text text-danger"><strong>UWAGA:</strong> Ta operacja usunie całą bazę danych <strong>Address</strong> wraz ze wszystkimi danymi!</p>
+            <p class="card-text">Użyj tej opcji, jeśli chcesz przebudować bazę od nowa (np. po dodaniu nowych tabel).</p>
+            <form method="post" asp-page-handler="DeleteDatabase" onsubmit="return confirm('Czy na pewno chcesz usunąć całą bazę danych? Ta operacja jest nieodwracalna!');">
+                <button type="submit" class="btn btn-danger btn-lg">
+                    <span>🗑️</span> Usuń bazę danych
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+            <h3 class="mb-0">🚀 Załaduj dane TERYT</h3>
+        </div>
+        <div class="card-body">
+            <p class="card-text">Kliknij poniżej, aby:</p>
+            <ol>
+                <li>Automatycznie załadować wszystkie pliki ZIP z folderu <code>AppData\Teryt</code></li>
+                <li>Rozpakować i zaimportować dane do odpowiednich tabel (SIMC, TERC, ULIC, WMRODZ, PNA)</li>
+            </ol>
+            <p class="text-muted">
+                <strong>Uwaga:</strong> Proces może potrwać kilka minut w zależności od rozmiaru plików. Zakładamy, że baza danych i tabele już istnieją.
+            </p>
+            <form method="post" asp-page-handler="CreateAndLoad">
+                <button type="submit" class="btn btn-success btn-lg">
+                    <span>⚡</span> Załaduj dane TERYT
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card border-warning mb-4">
+        <div class="card-header bg-warning text-dark">
+            <h3 class="mb-0">🗑️ Wyczyść wszystkie dane</h3>
+        </div>
+        <div class="card-body">
+            <p class="card-text text-warning">
+                <strong>UWAGA:</strong> Ta operacja usunie <strong>wszystkie dane</strong> z bazy danych <strong>Address</strong>, 
+                ale <strong>zachowa strukturę tabel</strong>!
+            </p>
+            <p class="card-text">Zostaną usunięte dane z tabel:</p>
+            <ul>
+                <li>KodyPocztowe, Ulice, Miejscowosci, Gminy, Powiaty, Wojewodztwa</li>
+                <li>RodzajeMiejscowosci, RodzajeGmin</li>
+                <li>TerytSimc, TerytTerc, TerytUlic, TerytWmRodz, Pna</li>
+            </ul>
+            <form method="post" asp-page-handler="DeleteDatabase" 
+                  onsubmit="return confirm('Czy na pewno chcesz usunąć wszystkie dane? Struktura tabel zostanie zachowana.');">
+                <button type="submit" class="btn btn-warning btn-lg">
+                    <span>🗑️</span> Wyczyść wszystkie dane
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header bg-info text-white">
+            <h5 class="mb-0">ℹ️ Informacje</h5>
+        </div>
+        <div class="card-body">
+            <p><strong>Folder źródłowy:</strong> <code>AppData\Teryt</code> (w katalogu projektu)</p>
+            <p><strong>Format plików:</strong> Pliki ZIP</p>
+            <p><strong>Separator CSV:</strong> średnik (<code>;</code>)</p>
+            <p><strong>Rozpoznawane pliki:</strong></p>
+            <ul>
+                <li>CSV zawierające <code>SIMC</code> (z "Urzedowy") → tabela <strong>TerytSimc</strong></li>
+                <li>CSV zawierające <code>TERC</code> (z "Urzedowy") → tabela <strong>TerytTerc</strong></li>
+                <li>CSV zawierające <code>ULIC</code> (z "Urzedowy") → tabela <strong>TerytUlic</strong></li>
+                <li>CSV zawierające <code>WMRODZ</code> → tabela <strong>TerytWmRodz</strong></li>
+                <li>PDF o nazwie <code>pna.pdf</code> → tabela <strong>Pna</strong></li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,87 @@
+using AddressLibrary.Data;
+using AddressLibrary.Services.AddressSearch;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace TerytLoad.Pages
+{
+    public class SearchAddressesModel : PageModel
+    {
+        private readonly AddressDbContext _context;
+
+        public SearchAddressesModel(AddressDbContext context)
+        {
+            _context = context;
+        }
+
+        [BindProperty]
+        public List<AddressInputRow> Addresses { get; set; } = new();
+
+        public List<AddressResultRow> Results { get; set; } = new();
+
+        public class AddressInputRow
+        {
+            public string? KodPocztowy { get; set; }
+            public string Miejscowosc { get; set; } = string.Empty;
+            public string? Ulica { get; set; }
+            public string? NumerDomu { get; set; }
+            public string? NumerMieszkania { get; set; }
+        }
+
+        public class AddressResultRow
+        {
+            public string Status { get; set; } = string.Empty;
+            public string? ZnalezionyKodPocztowy { get; set; }
+            public string? Miejscowosc { get; set; }
+            public string? Ulica { get; set; }
+            public string? Message { get; set; }
+        }
+
+        public void OnGet()
+        {
+            // Inicjalizuj kilka przyk³adowych wierszy
+            Addresses = new List<AddressInputRow>
+            {
+                new AddressInputRow(),
+                new AddressInputRow(),
+                new AddressInputRow()
+            };
+        }
+
+        public async Task<IActionResult> OnPostSearchAsync()
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            var searchService = new AddressSearchService(_context);
+            await searchService.InitializeAsync();
+
+            var requests = Addresses
+                .Where(a => !string.IsNullOrWhiteSpace(a.Miejscowosc))
+                .Select(a => new AddressSearchRequest
+                {
+                    KodPocztowy = a.KodPocztowy,
+                    Miejscowosc = a.Miejscowosc,
+                    Ulica = a.Ulica,
+                    NumerDomu = a.NumerDomu,
+                    NumerMieszkania = a.NumerMieszkania
+                })
+                .ToList();
+
+            var results = await searchService.SearchBatchAsync(requests);
+
+            Results = results.Select(r => new AddressResultRow
+            {
+                Status = r.Status.ToString(),
+                ZnalezionyKodPocztowy = r.KodPocztowy?.Kod,
+                Miejscowosc = r.Miejscowosc?.Nazwa,
+                Ulica = r.Ulica != null ? $"{r.Ulica.Cecha} {r.Ulica.Nazwa1}" : null,
+                Message = r.Message
+            }).ToList();
+
+            return Page();
+        }
+    }
+}

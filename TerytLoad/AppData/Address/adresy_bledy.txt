@@ -1,0 +1,161 @@
+﻿ID|Status|Komunikat|Kod_Źródło|Kod_Wynik|Miejscowosc_Źródło|Miejscowosc_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik
+A1454|BŁĄD|Nie znaleziono ulicy 'Dunin-Wąsowicz' w miejscowości KRAKOW|30-112|30-112|*KRAKOW|Kraków|*|Dunin-Wąsowicz|24|24|42|42|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1223551|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+ZA1236599|BŁĄD|Nie znaleziono ulicy 'Zyndrama' w miejscowości ŁĄCKO|33-390|33-390|ŁĄCKO|Łącko|*|Zyndrama|315|315|||MAŁOPOLSKIE|MAŁOPOLSKIE|NOWOSĄDECKI|nowosądecki|ŁĄCKO|Łącko
+A1259841|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1219916|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A916|BŁĄD|Nie znaleziono ulicy 'Fieldorfa Nila' w miejscowości Kraków|31-202|31-202|Kraków|Kraków|*|Fieldorfa Nila|3|3|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344704|BŁĄD|Nie znaleziono ulicy 'E.Kwiatkowskiego' w miejscowości KRAKÓW|30-134|30-134|KRAKÓW|Kraków|*|E.Kwiatkowskiego|22|22|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A943|BŁĄD|Nie znaleziono ulicy 'UL.W.POLA' w miejscowości WIELICZKA|32-020|32-020|WIELICZKA|Wieliczka|*|UL.W.POLA|12|12|112|112|MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A953|BŁĄD|Nie znaleziono ulicy 'Beliny Prażmowskiego' w miejscowości KRAKÓW|31-514|31-514|KRAKÓW|Kraków|*|Beliny Prażmowskiego|52|52|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1374874|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A978|BŁĄD|Nie znaleziono ulicy 'Św.Leonarda' w miejscowości BOCHNIA|32-700|32-700|BOCHNIA|Bochnia|*|Św.Leonarda|3A|3A|||MAŁOPOLSKIE|MAŁOPOLSKIE|BOCHEŃSKI|bocheński|BOCHNIA|Bochnia
+A994|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|30-218|30-218|KRAKÓW|Kraków|*|ul. Jadwigi|275B|275B|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1352892|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*Orląt Lwowskich||*||*||*||*||*|
+A1276759|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A472|BŁĄD|Nie znaleziono ulicy 'os.Dywizjonu 303 nr' w miejscowości KRAKÓW|31-875|31-875|KRAKÓW|Kraków|*|os.Dywizjonu 303 nr|46|46|25|25|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A11781|BŁĄD|Nie znaleziono ulicy '-' w miejscowości BYTOM 14|41-914|41-914|*BYTOM 14|Bytom|*|-|||||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Bytom|*WIERZCHLAS|Bytom
+A1219921|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1901047|BŁĄD|Nie znaleziono ulicy 'NIEMSTÓW' w miejscowości CIESZANÓW|37-611|37-611|CIESZANÓW|Cieszanów|*|NIEMSTÓW|87|87|||*|PODKARPACKIE|*|lubaczowski|*|Cieszanów
+A536|BŁĄD|Nie znaleziono ulicy 'Ks.Wincentego Turka' w miejscowości KRAKÓW|30-718|30-718|KRAKÓW|Kraków|*|Ks.Wincentego Turka|5|5|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A541|BŁĄD|Nie znaleziono ulicy 'FRANCESCO NULLO' w miejscowości KRAKÓW|31-543|31-543|KRAKÓW|Kraków|*|FRANCESCO NULLO|13|13|52|52|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A579|BŁĄD|Nie znaleziono ulicy 'Dunin Wąsiwicza' w miejscowości KRAKÓW|30-112|30-112|KRAKÓW|Kraków|*|Dunin Wąsiwicza|24|24|40|40|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2090|BŁĄD|Nie znaleziono ulicy 'Dunin Wąsowicza' w miejscowości KRAKÓW|30-112|30-112|KRAKÓW|Kraków|*|Dunin Wąsowicza|24|24|39|39|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1227782|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1347813|BŁĄD|Nie znaleziono miejscowości: KRYNICA ZDRÓJ|*33-380||*KRYNICA ZDRÓJ||*Żródlana||*51||*1||*||*||*|
+A727|BŁĄD|Nie znaleziono ulicy 'os.II Pułku Lotniczego' w miejscowości Kraków|31-870|31-870|Kraków|Kraków|*|os.II Pułku Lotniczego|50|50|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7782|BŁĄD|Nie znaleziono ulicy 'MARCINA BORELOWSKIEGO LELEWELA' w miejscowości KRAKÓW|30-108|30-108|KRAKÓW|Kraków|*|MARCINA BORELOWSKIEGO LELEWELA|17|17|15|15|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+ZA1190950|BŁĄD|Nie znaleziono miejscowości: BIELSKO BIAŁA|*43-305||*BIELSKO BIAŁA||*Hetmańska||*32||*||*ŚLĄSKIE||*BIELSKO-BIAŁA||*BIELSKO-BIAŁA|
+A1344679|BŁĄD|Nie znaleziono ulicy 'J.Bema' w miejscowości KĘDZIERZYN-KOŹLE|47-224|47-224|KĘDZIERZYN-KOŹLE|Kędzierzyn-Koźle|*|J.Bema|21|21|||*|OPOLSKIE|*|kędzierzyńsko-kozielski|*|Kędzierzyn-Koźle
+A23148|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||*KRAKOW|Kraków|*|Brak|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+ZA1341742|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|30-418|30-418|KRAKÓW|Kraków|*|ul. Zakopiańska|2b|2b|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344707|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|00-925|00-925|WARSZAWA|Warszawa|*|al. Aleja Niepodległości|208|208|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A1880187|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|01-424|01-424|WARSZAWA|Warszawa|*|al. Aleja Prymasa Tysiąclecia|76C|76C|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A1056|BŁĄD|Nie znaleziono ulicy 'Rotmistrza Dunin-Wąsowicza' w miejscowości KRAKÓW|30-112|30-112|KRAKÓW|Kraków|*|Rotmistrza Dunin-Wąsowicza|24|24|31|31|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A40788|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||KRAKÓW|Kraków|*|Brak|||||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1127|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|31-420|31-420|Kraków|Kraków|*|ul. Powstańców|46|46|71|71|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1128|BŁĄD|Nie znaleziono ulicy 'UL.BATALIONU SKAŁA' w miejscowości Kraków|31-273|31-273|Kraków|Kraków|*|UL.BATALIONU SKAŁA|8|8|63|63|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1336939|BŁĄD|Nazwa miejscowości jest wymagana|*38-207||*||*||*||*||*PODKARPACKIE||*||*|
+A1135|BŁĄD|Nie znaleziono ulicy 'Św.Teresy' w miejscowości Kraków|31-162|31-162|Kraków|Kraków|*|Św.Teresy|14|14|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1163|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|31-422|31-422|Kraków|Kraków|*|ul. Powstańców|30b|30b|44|44|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1331413|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||KRAKÓW|Kraków|*|Brak|||||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1165|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|31-422|31-422|KRAKÓW|Kraków|*|ul. Powstańców|26|26|157|157|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1927021|BŁĄD|Nie znaleziono ulicy 'Kokotów' w miejscowości WĘGRZCE WIELKIE|32-002|32-002|WĘGRZCE WIELKIE|Węgrzce Wielkie|*|Kokotów|271|271|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1277543|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1200|BŁĄD|Nie znaleziono ulicy 'Zamojskiego' w miejscowości Kraków|30-519|30-519|Kraków|Kraków|*|Zamojskiego|3|3|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1207|BŁĄD|Nie znaleziono ulicy 'Fika' w miejscowości Kraków|31-214|31-214|Kraków|Kraków|*|Fika|19|19|92|92|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1435580|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||KRAKÓW|Kraków|*|Brak|||||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1276762|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A18|BŁĄD|Nie znaleziono ulicy 'św.Stanisława' w miejscowości KRAKÓW|31-071|31-071|KRAKÓW|Kraków|*|św.Stanisława|6|6|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1190383|BŁĄD|Nie znaleziono miejscowości: DZIALOSZYCE|*28-540||*DZIALOSZYCE||*Jakubowice||*87||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1344787|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|05-507|05-507|CIECISZEW|Cieciszew|*|Brak|4a|4a|||MAZOWIECKIE|MAZOWIECKIE|PIASECZYŃSKI|piaseczyński|*PIASECZNO|Konstancin-Jeziorna
+A1890200|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A790|BŁĄD|Nie znaleziono ulicy 'J.Lea' w miejscowości Kraków|30-133|30-133|Kraków|Kraków|*|J.Lea|238|238|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344801|BŁĄD|Nie znaleziono ulicy 'J.Pawła II' w miejscowości KOSZALIN|75-452|75-452|KOSZALIN|Koszalin|*|J.Pawła II|8b|8b|22|22|ZACHODNIOPOMORSKIE|ZACHODNIOPOMORSKIE|KOSZALIN|Koszalin|KOSZALIN|Koszalin
+A126|BŁĄD|Nie znaleziono ulicy 'Os.Jagielońskie' w miejscowości Krakow|31-836|31-836|*Krakow|Kraków|*|Os.Jagielońskie|32|32|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1915517|BŁĄD|Nie znaleziono ulicy 'Płoskie' w miejscowości ZAMOŚĆ|22-400|22-400|ZAMOŚĆ|Zamość|*|Płoskie|71|71|||*|LUBELSKIE|*|Zamość|*|Zamość
+A158|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|31-422|31-422|Kraków|Kraków|*|ul. Powstańców|46|46|71|71|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1393142|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1276763|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1811813|BŁĄD|Nie znaleziono miejscowości: KRAKÓE|*30-052||*KRAKÓE||*Lea||*20A||*||*||*||*|
+A1617768|BŁĄD|Nie znaleziono ulicy 'Karwowo Szlacheckie' w miejscowości BODZANÓW|09-470|09-470|BODZANÓW|Bodzanów|*|Karwowo Szlacheckie|28|28|||*|MAŁOPOLSKIE|*|wielicki|*|Biskupice
+A1344744|BŁĄD|Nie znaleziono ulicy 'Demoniówka 1/1B' w miejscowości KIELCE|25-413|25-413|KIELCE|Kielce|*|Demoniówka 1/1B||1/1b|||*|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+A40310|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||KRAKÓW|Kraków|*|Brak|||||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+AP1332926|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A322|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|31-858|31-858|KRAKÓW|Kraków|*|os. Osiedle Kościuszkowskie|6|6|318|318|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A11210|BŁĄD|Nie znaleziono miejscowości: JASTRZEBIE ZDROJ|*44-330||*JASTRZEBIE ZDROJ||*Kasztanowa||*2||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+ZA1236424|BŁĄD|Nie znaleziono ulicy '3 Maja' w miejscowości OŚWIĘCIM|32-600|32-600|OŚWIĘCIM|Oświęcim|*|3 Maja|7|7|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|OŚWIĘCIMSKI|oświęcimski|OŚWIĘCIM|Oświęcim
+ZA1206946|BŁĄD|Nie znaleziono ulicy 'Z.Nałkowskiej' w miejscowości KIELCE|25-546|25-546|KIELCE|Kielce|*|Z.Nałkowskiej|1|1|15|15|ŚWIĘTOKRZYSKIE|ŚWIĘTOKRZYSKIE|KIELCE|Kielce|KIELCE|Kielce
+A1902273|BŁĄD|Nie znaleziono ulicy 'Królowej Jadwogi' w miejscowości POZNAŃ|61-872|61-872|POZNAŃ|Poznań|*|Królowej Jadwogi|43|43|||*|WIELKOPOLSKIE|*|Poznań|*|Poznań
+AP177|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1915126|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A3561|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|30-669|30-669|*KRAKOW|Kraków|*|ul. Okólna|28|28|48|48|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1910821|BŁĄD|Nie znaleziono ulicy 'W.Przyborowskiego' w miejscowości DOMASZOWICE|25-351|25-351|DOMASZOWICE|Domaszowice|*|W.Przyborowskiego|170|170|||*|OPOLSKIE|*|namysłowski|*|Domaszowice
+A1190596|BŁĄD|Nie znaleziono miejscowości: BIEZDZIERDZA|*38-214||*BIEZDZIERDZA||*Sieklowka||*78||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1344882|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||KRAKÓW|Kraków|*|Brak|||||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344661|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|30-230|30-230|SKALNIK|Skalnik|*|Brak|27|27|||PODKARPACKIE|PODKARPACKIE|JASIELSKI|jasielski|NOWY ŻMIGRÓD|Nowy Żmigród
+A1344664|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|30-230|30-230|SKALNIK|Skalnik|*|Brak|56|56|||PODKARPACKIE|PODKARPACKIE|JASIELSKI|jasielski|*JASŁO|Nowy Żmigród
+A1348600|BŁĄD|Nie znaleziono ulicy 'Mietel' w miejscowości STOPNICA|28-130|28-130|STOPNICA|Stopnica|*|Mietel|34|34|||*|ŚWIĘTOKRZYSKIE|*|buski|*|Stopnica
+A1278053|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A23150|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||*KRAKOW|Kraków|*|Brak|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1622240|BŁĄD|Nie znaleziono miejscowości: CHRZCZANY K/SOCHACZEWA|*||*CHRZCZANY K/SOCHACZEWA||*||*34||*||*||*||*|
+A1374875|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1344672|BŁĄD|Nie znaleziono ulicy 'Tyszecka' w miejscowości GLIWICE|44-102|44-102|GLIWICE|Gliwice|*|Tyszecka|2|2|||*|ŚLĄSKIE|*|Gliwice|*|Gliwice
+A18088|BŁĄD|Nie znaleziono ulicy 'PKiN' w miejscowości WARSZAWA|00-901|00-901|WARSZAWA|Warszawa|*|PKiN|||||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1344883|BŁĄD|Nie znaleziono ulicy 'Regulice' w miejscowości ALWERNIA|32-566|32-566|ALWERNIA|Alwernia|*|Regulice|247|247|||*|MAŁOPOLSKIE|*|chrzanowski|*|Alwernia
+A3789|BŁĄD|Nie znaleziono ulicy 'os.II Pułku Lotniczego' w miejscowości Kraków|31-867|31-867|Kraków|Kraków|*|os.II Pułku Lotniczego|9|9|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344885|BŁĄD|Nie znaleziono miejscowości: OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*os.Rosochy||*26||*17||*||*||*|
+A1878040|BŁĄD|Nie znaleziono ulicy 'M.Konopnickiej' w miejscowości JASIEŃ|32-800|32-800|JASIEŃ|Jasień|*|M.Konopnickiej|63|63|||*|KUJAWSKO-POMORSKIE|*|lipnowski|*|Tłuchowo
+A1884|BŁĄD|Nie znaleziono ulicy 'Wieniawy Długoszowskiego' w miejscowości KRAKÓW|31-398|31-398|KRAKÓW|Kraków|*|Wieniawy Długoszowskiego|10|10|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2959|BŁĄD|Nie znaleziono ulicy 'Jawornik' w miejscowości Myślenice|32-400|32-400|Myślenice|Myślenice|*|Jawornik|574|574|||MAŁOPOLSKIE|MAŁOPOLSKIE|MYŚLENICKI|myślenicki|MYŚLENICE|Myślenice
+A1393143|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1884210|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A2988|BŁĄD|Nie znaleziono miejscowości: Kraków NOWA-HUTA|*31-941||*Kraków NOWA-HUTA||*oś.Kolorowe||*45||*4||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A3016|BŁĄD|Nie znaleziono ulicy 'G.Zapolskiej' w miejscowości Kraków|30-126|30-126|Kraków|Kraków|*|G.Zapolskiej|27|27|63|63|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3099|BŁĄD|Nie znaleziono ulicy 'Armii Kraków' w miejscowości Kraków|30-433|30-433|Kraków|Kraków|*|Armii Kraków|50a|50a|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1393144|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1393248|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A3209|BŁĄD|Nie znaleziono ulicy 'Slomiana' w miejscowości Krakow|30-316|30-316|*Krakow|Kraków|*|Slomiana|4|4|76|76|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3219|BŁĄD|Nie znaleziono ulicy 'Batalionu Skała AK' w miejscowości KRAKÓW|31-273|31-273|KRAKÓW|Kraków|*|Batalionu Skała AK|2a|2a|19|19|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1393145|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A23580|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||*KRAKOW|Kraków|*|Brak|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+AP1806247|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1344817|BŁĄD|Nie znaleziono miejscowości: CZERWIONKA|*44-230||*CZERWIONKA||*Jana Pawła II||*4E||*3||*||*||*|
+A19348|BŁĄD|Nie znaleziono ulicy 'J.Fafary' w miejscowości Kraków|31-410|31-410|Kraków|Kraków|*|J.Fafary|2|2|29|29|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1393146|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1884592|BŁĄD|Nie znaleziono ulicy 'Pasterka' w miejscowości KUDOWA-ZDRÓJ|57-350|57-350|KUDOWA-ZDRÓJ|Kudowa-Zdrój|*|Pasterka|6|6|||*|DOLNOŚLĄSKIE|*|kłodzki|*|Kudowa-Zdrój
+A1393249|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A2849|BŁĄD|Nie znaleziono ulicy 'CHAŁUBIŃSKIEGO' w miejscowości SWOSZOWICE|30-698|30-698|SWOSZOWICE|Swoszowice|*|CHAŁUBIŃSKIEGO|13|13|||*MAŁOPOLSKIE|ŚWIĘTOKRZYSKIE|*KRAKÓW|kazimierski|*KRAKÓW|Czarnocin
+A1344852|BŁĄD|Nie znaleziono ulicy 'Przebieczany' w miejscowości WIELICZKA|32-020|32-020|WIELICZKA|Wieliczka|*|Przebieczany|260|260|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1901423|BŁĄD|Nazwa miejscowości jest wymagana|*71-042||*||*Bieszczadzka||*27||*||*||*||*|
+A1393250|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+AP2452|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+AP18|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+AP612|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+AP3720|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A2012|BŁĄD|Nie znaleziono ulicy 'Piekary' w miejscowości Liszki|32-060|32-060|Liszki|Liszki|*|Piekary|166|166|||*MAŁOPOLSKIE|ŁÓDZKIE|*KRAKOWSKI|łęczycki|*LISZKI|Łęczyca
+A1393251|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A2052|BŁĄD|Nie znaleziono ulicy 'Jakuba Wujka' w miejscowości KRAKÓW|30-397|30-397|KRAKÓW|Kraków|*|Jakuba Wujka|23|23|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2077|BŁĄD|Nie znaleziono ulicy 'Borelowskiego Lelewela' w miejscowości KRAKÓW|30-108|30-108|KRAKÓW|Kraków|*|Borelowskiego Lelewela|13|13|22|22|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1608733|BŁĄD|Nie znaleziono ulicy 'M.Konopnickiej' w miejscowości PSZÓW|44-370|44-370|PSZÓW|Pszów|*|M.Konopnickiej|90A|90A|||*|ŚLĄSKIE|*|wodzisławski|*|Pszów
+A2146|BŁĄD|Nie znaleziono ulicy 'Francesco Nullo' w miejscowości Kraków|31-543|31-543|Kraków|Kraków|*|Francesco Nullo|20|20|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2153|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|31-101|31-101|Kraków|Kraków|*|ul. Straszewskiego|12|12|3|3|*ŁÓDZKIE|MAŁOPOLSKIE|*ZDUŃSKOWOLSKI|Kraków|*ZAPOLICE|Kraków
+ZA1330473|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|31-635|31-635|KRAKÓW|Kraków|*|os. Osiedle Oświecenia|1|1|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A23396|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||*KRAKOW|Kraków|*|Brak|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A2238|BŁĄD|Nie znaleziono ulicy 'Grota Roweckiego' w miejscowości KRAKÓW|30-348|30-348|KRAKÓW|Kraków|*|Grota Roweckiego|39|39|47|47|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1921136|BŁĄD|Nie znaleziono ulicy 'Karaś' w miejscowości IŁAWA|14-200|14-200|IŁAWA|Iława|*|Karaś|44A|44A|||*|WARMIŃSKO-MAZURSKIE|*|iławski|*|Iława
+A40500|BŁĄD|Nie znaleziono miejscowości: WESOLA|*||*WESOLA||*-||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1325777|BŁĄD|Nie znaleziono ulicy 'Św.Wojciecha' w miejscowości MODLNICA|32-085|32-085|MODLNICA|Modlnica|*|Św.Wojciecha|89|89|||*|MAŁOPOLSKIE|*|krakowski|*|Wielka Wieś
+A1344936|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||KRAKÓW|Kraków|*|Brak|||||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+AP1830205|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1794|BŁĄD|Nie znaleziono ulicy 'K.Wielkiego' w miejscowości KRAKÓW|30-074|30-074|KRAKÓW|Kraków|*|K.Wielkiego|77|77|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1796|BŁĄD|Nie znaleziono ulicy 'Ks.Józefa' w miejscowości KRAKÓW|30-243|30-243|KRAKÓW|Kraków|*|Ks.Józefa|212|212|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1797|BŁĄD|Nie znaleziono ulicy 'Na Blonie' w miejscowości Krakow|30-147|30-147|*Krakow|Kraków|*|Na Blonie|9a|9a|364|364|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1823|BŁĄD|Nie znaleziono miejscowości: Kraków Nowa Huta|*31-580||*Kraków Nowa Huta||*Wężyka||*17||*1||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1824|BŁĄD|Nie znaleziono ulicy 'Grota Roweckiego' w miejscowości Kraków|30-348|30-348|Kraków|Kraków|*|Grota Roweckiego|21|21|23|23|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1842|BŁĄD|Nie znaleziono ulicy 'Kr.Jadwigi' w miejscowości Kraków|||Kraków|Kraków|*|Kr.Jadwigi|34|34|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7925|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||*Krakow|Kraków|*|ul. Lea|7C|7C|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A7950|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|31-624|31-624|KRAKÓW|Kraków|*|os. Osiedle Piastów|28|28|84|84|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7951|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|30-227|30-227|KRAKÓW|Kraków|*|al. Aleja Kasztanowa|21B|21B|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1393252|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1344951|BŁĄD|Nie znaleziono ulicy 'Głowaciego' w miejscowości DĘBICA|39-200|39-200|DĘBICA|Dębica|*|Głowaciego|8|8|||*|PODKARPACKIE|*|dębicki|*|Dębica
+A7956|BŁĄD|Nie znaleziono ulicy 'Marszałka Pilsudskiego' w miejscowości PRZEWORSK|37-200|37-200|PRZEWORSK|Przeworsk|*|Marszałka Pilsudskiego|7|7|||PODKARPACKIE|PODKARPACKIE|PRZEWORSKI|przeworski|PRZEWORSK|Przeworsk
+AP1804164|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1365434|BŁĄD|Nie znaleziono ulicy 'K.Wallenroda' w miejscowości KRAKÓW|30-867|30-867|KRAKÓW|Kraków|*|K.Wallenroda|55|55|51|51|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8004|BŁĄD|Nie znaleziono ulicy 'Regulice' w miejscowości Regulice|32-066|32-066|Regulice|Regulice|*|Regulice|436|436|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|chrzanowski|*WIERZCHLAS|Alwernia
+A1878479|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A1905176|BŁĄD|Nie znaleziono ulicy 'Frazerów' w miejscowości LUBLIN|20-209|20-209|LUBLIN|Lublin|*|Frazerów|3|3|||*|LUBELSKIE|*|Lublin|*|Lublin
+A1190709|BŁĄD|Nie znaleziono miejscowości: OSTROWIEC SWIETOKRZYS|*27-400||*OSTROWIEC SWIETOKRZYS||*||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A8050|BŁĄD|Nie znaleziono miejscowości: Kraków-NOWA HUTA|*31-916||*Kraków-NOWA HUTA||*oś. Ogrodowe||*11||*6||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A8051|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|32-066|32-066|OKLEŚNA|Okleśna|*|Brak|44|44|||MAŁOPOLSKIE|MAŁOPOLSKIE|CHRZANOWSKI|chrzanowski|ALWERNIA|Alwernia
+A1348602|BŁĄD|Nie znaleziono ulicy 'Branowicka' w miejscowości STALOWA WOLA|37-464|37-464|STALOWA WOLA|Stalowa Wola|*|Branowicka|144|144|||*|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+AG1279055|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|||OLSZTYN|Olsztyn|*|Brak|||||*|WARMIŃSKO-MAZURSKIE|*|Olsztyn|*|Olsztyn
+A8055|BŁĄD|Nie znaleziono ulicy 'ul. Kr. Jadwigi' w miejscowości KRAKÓW|30-218|30-218|KRAKÓW|Kraków|*|ul. Kr. Jadwigi|292|292|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8057|BŁĄD|Nie znaleziono ulicy 'Marszałka Piłsudskiego' w miejscowości KRAKÓW|31-109|31-109|KRAKÓW|Kraków|*|Marszałka Piłsudskiego|8|8|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8058|BŁĄD|Nie znaleziono ulicy 'Kingi' w miejscowości KROŚCIENKO|34-450|34-450|KROŚCIENKO|Krościenko|*|Kingi|55a|55a|||*MAŁOPOLSKIE|PODKARPACKIE|*NOWOTARSKI|bieszczadzki|*KROŚCIENKO NAD DUNAJCEM|Ustrzyki Dolne
+A7860|BŁĄD|Nie znaleziono ulicy 'Wolasa' w miejscowości KRAKÓW|31-273|31-273|KRAKÓW|Kraków|*|Wolasa|6|6|11|11|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1333435|BŁĄD|Nazwa miejscowości jest wymagana|*32-800||*||*Ogrodowa||*1||*18||*||*||*|
+A1393253|BŁĄD|Nazwa miejscowości jest wymagana|*||*||*||*||*||*||*||*|
+A18530|BŁĄD|Nie znaleziono ulicy 'Fika' w miejscowości Kraków|31-214|31-214|Kraków|Kraków|*|Fika|21|21|54|54|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1904873|BŁĄD|Nie znaleziono ulicy 'Rudka' w miejscowości WOJNICZ|32-830|32-830|WOJNICZ|Wojnicz|*|Rudka|48|48|||*|MAŁOPOLSKIE|*|tarnowski|*|Wojnicz
+A2557|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|31-422|31-422|Kraków|Kraków|*|ul. Powstańców|30A|30A|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków

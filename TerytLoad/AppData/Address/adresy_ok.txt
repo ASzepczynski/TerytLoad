@@ -1,0 +1,841 @@
+﻿ID|Kod_Źródło|Kod_Wynik|Miejscowosc_Źródło|Miejscowosc_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik
+A1475445|34-400|34-400|NOWY TARG|Nowy Targ|ul.Krakowska|ul. Krakowska|1|1|||*|MAŁOPOLSKIE|*|nowotarski|*|Nowy Targ
+A1701425|*05-800|05-803|PRUSZKÓW|Pruszków|*Kraszewskiego|ul. Kraszewskiego|13|13|||*|MAZOWIECKIE|*|pruszkowski|*|Pruszków
+TU1418430|37-543|37-543|LASZKI|Laszki|||27|27|||PODKARPACKIE|PODKARPACKIE|JAROSŁAWSKI|jarosławski|LASZKI|Laszki
+A1394|31-413|31-413|*Krakow|Kraków|*Zaułek Wileński|ul. Zaułek Wileński|1|1|67|67|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1395|31-534|31-534|KRAKÓW|Kraków|*Daszyńskiego|al. Aleja Ignacego Daszyńskiego|27|27|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344678|43-190|43-190|MIKOŁÓW|Mikołów|*Wyzwolenia|ul. Wyzwolenia|27|27|||*|ŚLĄSKIE|*|mikołowski|*|Mikołów
+A94|*30-612|30-611|KRAKÓW|Kraków|*Wysłouchów|ul. Wysłouchów|46|46|29|29|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344729|50-440|50-440|WROCŁAW|Wrocław|*Kościuszki|ul. Kościuszki|135|135|||*|DOLNOŚLĄSKIE|*|Wrocław|*|Wrocław
+A1185580|31-126|31-126|KRAKÓW|Kraków|*Michałowskiego|ul. Michałowskiego|2|2|6|6|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A100|30-075|30-075|KRAKÓW|Kraków|*Bytomska|ul. Bytomska|16|16|24|24|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A101|*30-054|30-079|*Krakow|Kraków|*Kijowska|al. Aleja Kijowska|34|34|4|4|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1440|31-916|31-916|KRAKÓW|Kraków|*Oś.Ogrodowe|os. Osiedle Ogrodowe|15|15|61|61|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19612|31-111|31-111|KRAKÓW|Kraków|*al.Krasińskiego|al. Aleja Zygmunta Krasińskiego|13|13|4|4|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1444|30-065|30-065|KRAKÓW|Kraków|*ul.Walerego Goetla 12|ul. Goetla|12|12 12|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1445|30-412|30-412|KRAKÓW|Kraków|*Zbrojarzy|ul. Zbrojarzy|61|61|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1243165|30-821|30-821|KRAKÓW|Kraków|*Anny Libera|ul. Libera|25|25|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1448|*30-328|30-329|Kraków|Kraków|*Praska|ul. Praska|28A|28A|39|39|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1450|30-047|30-047|KRAKÓW|Kraków|*Szymanowskiego|ul. Szymanowskiego|14|14|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1879796|32-410|32-410|DOBCZYCE|Dobczyce|*Kilińskiego|ul. Kilińskiego|72|72|||*|MAŁOPOLSKIE|*|myślenicki|*|Dobczyce
+A1898436|10-419|10-419|OLSZTYN|Olsztyn|*Żelazna|ul. Żelazna|2|2|||*|WARMIŃSKO-MAZURSKIE|*|Olsztyn|*|Olsztyn
+A1346981|*01-524|05-075|WARSZAWA|Warszawa|*Wojska Polskiego|pl. Plac Wojska Polskiego|4.|4.|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A19610|01-447|01-447|WARSZAWA|Warszawa|*Newelska|ul. Newelska|6|6|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1466|*31-214|31-235|KRAKÓW|Kraków|*os.Witkowice Nowe|os. Osiedle Witkowice Nowe|62|62|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1183225|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|85|85|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1492|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|5|5|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1493|30-011|30-011|KRAKÓW|Kraków|*Wrocławska|ul. Wrocławska|31|31|1|1|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1500|30-058|30-058|KRAKÓW|Kraków|*Lea|ul. Lea|111-115|111-115|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1501|30-147|30-147|KRAKÓW|Kraków|*Wiedeńska|ul. Wiedeńska|34|34|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+ZA1236715|30-057|30-057|KRAKÓW|Kraków|*Chocimska|ul. Chocimska|19|19|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1518|*31-457|31-462|Kraków|Kraków|*Pszona|ul. Pszona|41|41|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1522|31-457|31-457|KRAKÓW|Kraków|*Meissnera|ul. Meissnera|4|4|80|80|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1528|*30-370|30-380|KRAKÓW|Kraków|*Falista|ul. Falista|10|10|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1541|30-095|30-095|KRAKÓW|Kraków|*Złoty Róg|ul. Złoty Róg|50|50|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+ZA1236816|30-102|30-102|KRAKÓW|Kraków|*Ujejskiego|ul. Ujejskiego|10|10|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+ZA1236820|*42-200|42-208|CZĘSTOCHOWA|Częstochowa|*Bohaterów Katynia|ul. Bohaterów Katynia|27|27|31|31|ŚLĄSKIE|ŚLĄSKIE|CZĘSTOCHOWA|Częstochowa|CZĘSTOCHOWA|Częstochowa
+ZA1236634|23-460|23-460|SAMSONÓWKA|Samsonówka|||13|13|||LUBELSKIE|LUBELSKIE|BIŁGORAJSKI|biłgorajski|JÓZEFÓW|Józefów
+A1343838|44-100|44-100|GLIWICE|Gliwice|*Jasnogórska|ul. Jasnogórska|11|11|105|105|*|ŚLĄSKIE|*|Gliwice|*|Gliwice
+A1560|30-237|30-237|KRAKÓW|Kraków|*Wilczy Stok|ul. Wilczy Stok|5|5|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1561|30-147|30-147|KRAKÓW|Kraków|*Prystora|ul. Prystora|14|14|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344693|31-002|31-002|KRAKÓW|Kraków|*Poselska|ul. Poselska|20|20|15|15|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A893|30-075|30-075|*Krakow|Kraków|*Bytomska|ul. Bytomska|16|16|15|15|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1571|30-149|30-149|KRAKÓW|Kraków|*Balicka|ul. Balicka|14B|14B|40|40|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1347805|32-020|32-020|WIELICZKA|Wieliczka|*Kopernika|ul. Kopernika|44|44|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A841|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|19|19|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A845|30-049|30-049|*Krakow|Kraków|*Czarnowiejska|ul. Czarnowiejska|103|103|3|3|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1182463|30-059|30-059|KRAKÓW|Kraków|*Mickiewicza|al. Aleja Adama Mickiewicza|30|30|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A865|30-348|30-348|KRAKÓW|Kraków|*Jahody|ul. Jahody|2|2|20|20|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A867|30-103|30-103|KRAKÓW|Kraków|*Włóczków|ul. Włóczków|6|6|34|34|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1347809|*40-203|40-237|KATOWICE|Katowice|*al.Roździeńskiego|skwer Roździeńskiego|188|188|||*|ŚLĄSKIE|*|Katowice|*|Katowice
+A869|31-235|31-235|KRAKÓW|Kraków|*Suche Łąki|ul. Suche Łąki|20|20|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A870|31-422|31-422|KRAKÓW|Kraków|*Strzelców|ul. Strzelców|15a|15a|74|74|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A871|30-147|30-147|KRAKÓW|Kraków|*Na Błonie|ul. Na Błonie|13B|13B|49|49|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A872|31-465|31-465|KRAKÓW|Kraków|*Żwirki i Wigury|ul. Żwirki i Wigury|18|18|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A874|31-939|31-939|Kraków|Kraków|*os.Kolorowe|os. Osiedle Kolorowe|11a|11a|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A875|*31-240|31-214|KRAKÓW|Kraków|*Bałtycka|ul. Bałtycka|26|26|36|36|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A878|30-054|30-054|*Krakow|Kraków|*Czarnowiejska|ul. Czarnowiejska|30|30|9|9|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A879|30-112|30-112|*Krakow|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|24|24|3|3|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A883|31-214|31-214|KRAKÓW|Kraków|*Mackiewicza|ul. Mackiewicza|25|25|66|66|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A884|30-838|30-838|KRAKÓW|Kraków|*Telimeny|ul. Telimeny|17|17|68|68|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A888|*31-462|31-457|Kraków|Kraków|*Meissnera|ul. Meissnera|4|4|62|62|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A895|31-934|31-934|KRAKÓW|Kraków|*Osiedle Centrum E|os. Osiedle Centrum E|21|21|12|12|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1347811|40-164|40-164|KATOWICE|Katowice|*Ordona|ul. Ordona|20a|20a|||*|ŚLĄSKIE|*|Katowice|*|Katowice
+A1344700|*44-100|44-122|GLIWICE|Gliwice|*Czapli|ul. Czapli|69|69|||*|ŚLĄSKIE|*|Gliwice|*|Gliwice
+A906|30-313|30-313|Kraków|Kraków|*Mieszczańska|ul. Mieszczańska|2|2|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A911|30-054|30-054|*Krakow|Kraków|*Czarnowiejska|ul. Czarnowiejska|30|30|8|8|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+ZA1343067|44-350|44-350|GORZYCE|Gorzyce|*Wyzwolenia|ul. Wyzwolenia|22|22|||ŚLĄSKIE|ŚLĄSKIE|WODZISŁAWSKI|wodzisławski|GORZYCE|Gorzyce
+A918|30-049|30-049|KRAKÓW|Kraków|*Czarnowiejska|ul. Czarnowiejska|91|91|12|12|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A919|32-050|32-050|SKAWINA|Skawina|*Sadowa|ul. Sadowa|11 A|11 A|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|SKAWINA|Skawina
+A931|30-686|30-686|KRAKÓW|Kraków|*Podedworze|ul. Podedworze|2|2|66|66|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A934|30-413|30-413|KRAKÓW|Kraków|*Huculska|ul. Huculska|23|23|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1178011|30-147|30-147|KRAKÓW|Kraków|*Na Błonie|ul. Na Błonie|3b|3b|61|61|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A936|30-019|30-019|Kraków|Kraków|*Mazowiecka|ul. Mazowiecka|46|46|19|19|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A942|32-052|32-052|GOŁUCHOWICE|Gołuchowice|||111|111|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|SKAWINA|Skawina
+A947|43-460|43-460|WISŁA|Wisła|*Partecznik|ul. Partecznik|5a|5a|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|cieszyński|*WIERZCHLAS|Wisła
+A950|30-316|30-316|Kraków|Kraków|*Słomiana|ul. Słomiana|20|20|60|60|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A952|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|10|10|87|87|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A956|30-527|30-527|KRAKÓW|Kraków|*Piwna|ul. Piwna|19|19|24|24|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A957|30-316|30-316|KRAKÓW|Kraków|*Słomiana|ul. Słomiana|6|6|78|78|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1880186|38-400|38-400|KROSNO|Krosno|*Kletówki|ul. Kletówki|54b|54b|||*|PODKARPACKIE|*|Krosno|*|Krosno
+A960|30-023|30-023|KRAKÓW|Kraków|*Mazowiecka|ul. Mazowiecka|104|104|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A963|30-334|30-334|Kraków|Kraków|*Komandosów|ul. Komandosów|6|6|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A977|30-123|30-123|KRAKÓW|Kraków|*Staszczyka|ul. Staszczyka|3|3|30|30|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1898090|05-850|05-850|OŻARÓW MAZOWIECKI|Ożarów Mazowiecki|*Kręta|ul. Kręta|36|36|||*|MAZOWIECKIE|*|warszawski zachodni|*|Ożarów Mazowiecki
+A987|31-324|31-324|Kraków|Kraków|*Różyckiego|ul. Różyckiego|6|6|82|82|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A988|31-318|31-318|Kraków|Kraków|*Jaremy|ul. Jaremy|14a|14a|61|61|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1181144|37-500|37-500|JAROSŁAW|Jarosław|*Krakowska|ul. Krakowska|54|54|||*ŁÓDZKIE|PODKARPACKIE|*WIELUŃSKI|jarosławski|*WIERZCHLAS|Jarosław
+A991|*31-212|31-272|Kraków|Kraków|*Krowoderskich Zuchów|ul. Krowoderskich Zuchów|24|24|119|119|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A992|30-348|30-348|KRAKÓW|Kraków|*Bobrzyńskiego|ul. Bobrzyńskiego|45|45|54|54|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A993|30-695|30-695|KRAKÓW|Kraków|*Schweitzera|ul. Schweitzera|21|21|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1008|30-572|30-572|Kraków|Kraków|*Stoigniewa|ul. Stoigniewa|6|6|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1010|31-419|31-419|Kraków|Kraków|*Kwartowa|ul. Kwartowa|1|1|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1013|*30-047|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|14|14|29|29|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1015|31-231|31-231|KRAKÓW|Kraków|*Siewna|ul. Siewna|23|23|68|68|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1017|31-216|31-216|KRAKÓW|Kraków|*Bobrzeckiej|ul. Bobrzeckiej|7|7|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1018|30-409|30-409|Kraków|Kraków|*Bułgarska|ul. Bułgarska|38|38|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A11736|*42-201|42-217|CZĘSTOCHOWA|Częstochowa|*Sobieskiego|ul. Jana III Sobieskiego|9|9|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Częstochowa|*WIERZCHLAS|Częstochowa
+A463|32-440|32-440|SUŁKOWICE|Sułkowice|*Ptasznica|ul. Ptasznica|6|6|||MAŁOPOLSKIE|MAŁOPOLSKIE|MYŚLENICKI|myślenicki|SUŁKOWICE|Sułkowice
+A465|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|33|33|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A467|30-049|30-049|*Krakow|Kraków|*Czarnowiejska|ul. Czarnowiejska|103|103|29|29|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A469|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|13|13|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A473|31-610|31-610|*Krakow|Kraków|*os.Tysiaclecia|os. Osiedle Tysiąclecia|55|55|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A475|30-212|30-212|KRAKÓW|Kraków|ul. Fabijańskich|ul. Fabijańskich|16|16|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A482|32-700|32-700|Bochnia|Bochnia|*Windakiewicza|ul. Windakiewicza|22|22|12|12|MAŁOPOLSKIE|MAŁOPOLSKIE|BOCHEŃSKI|bocheński|BOCHNIA|Bochnia
+A485|30-049|30-049|Kraków|Kraków|*Czarnowiejska|ul. Czarnowiejska|41-43|41-43|78|78|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A494|30-112|30-112|KRAKÓW|Kraków|*Dunin-Wąsowicza|ul. Dunin-Wąsowicza|26|26|4|4|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A498|30-686|30-686|KRAKÓW|Kraków|*Podedworze|ul. Podedworze|12|12|54|54|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A506|30-112|30-112|*Krakow|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|24|24|30|30|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A514|30-684|30-684|Kraków|Kraków|*Okólna|ul. Okólna|8|8|9|9|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A519|30-133|30-133|Kraków|Kraków|*Lea|ul. Lea|162|162|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+ZA1264521|32-050|32-050|SKAWINA|Skawina|*Sikorskiego|ul. Sikorskiego|8|8|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|SKAWINA|Skawina
+A526|31-978|31-978|Kraków|Kraków|*os.Szkolne|os. Osiedle Szkolne|33|33|77|77|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A530|*31-559|31-560|Kraków|Kraków|*Na Szaniec|ul. Na Szaniec|8|8|34|34|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A531|30-147|30-147|KRAKÓW|Kraków|*Na Błonie|ul. Na Błonie|3B|3B|82|82|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1343941|32-700|32-700|BOCHNIA|Bochnia|*Partyzantów|ul. Partyzantów|2|2|||*|MAŁOPOLSKIE|*|bocheński|*|Bochnia
+A534|31-952|31-952|KRAKÓW|Kraków|*os. Urocze|os. Osiedle Urocze|1|1|141|141|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A535|30-147|30-147|KRAKÓW|Kraków|*Na Błonie|ul. Na Błonie|11a|11a|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+T1891783|30-059|30-059|KRAKÓW|Kraków|*reymonta|ul. Reymonta|17|17|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A539|30-150|30-150|Kraków|Kraków|*Armii Krajowej|ul. Armii Krajowej|89|89|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A540|31-422|31-422|KRAKÓW|Kraków|*Strzelców|ul. Strzelców|21|21|65|65|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A543|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|41|41|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A551|30-123|30-123|KRAKÓW|Kraków|*Staszczyka|ul. Staszczyka|3|3|22|22|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7937|31-221|31-221|Kraków|Kraków|*Białoprądnicka|ul. Białoprądnicka|24B|24B|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A553|30-087|30-087|KRAKÓW|Kraków|*Zaczarowane Koło|ul. Zaczarowane Koło|5|5|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A556|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|63|63|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1901243|30-150|30-150|KRAKÓW|Kraków|*Armii Krajowej|ul. Armii Krajowej|19|19|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A563|31-422|31-422|KRAKÓW|Kraków|*Majora|ul. Majora|34|34|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A569|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|5|5|28|28|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A578|*32-546|32-540|MŁOSZOWA|Młoszowa|*Szembeka|ul. Szembeka|71|71|||MAŁOPOLSKIE|MAŁOPOLSKIE|CHRZANOWSKI|chrzanowski|*CHRZANÓW|Trzebinia
+A583|31-539|31-539|*Krakow|Kraków|*Kotlarska|ul. Kotlarska|7|7|20|20|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A590|31-215|31-215|KRAKÓW|Kraków|*Korczaka|ul. Korczaka|4|4|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A593|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|6|6|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1190219|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|52|52|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A603|31-422|31-422|KRAKÓW|Kraków|*Strzelców|ul. Strzelców|17|17|29|29|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1706780|27-600|27-600|SANDOMIERZ|Sandomierz|*Mickiewicza|ul. Mickiewicza|23|23|13|13|*|ŚWIĘTOKRZYSKIE|*|sandomierski|*|Sandomierz
+A1185448|31-548|31-548|KRAKÓW|Kraków|*al.Pokoju|al. Aleja Pokoju|1a|1a|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A612|31-809|31-809|KRAKÓW|Kraków|*os. Strusia|os. Osiedle Józefa Strusia|14|14|34|34|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A622|*30-054|30-049|KRAKÓW|Kraków|*Czarnowiejska|ul. Czarnowiejska|103|103|28|28|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A623|31-519|31-519|Kraków|Kraków|*Bolesława Chrobrego|ul. Bolesława Chrobrego|23|23|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A626|30-071|30-071|Kraków|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|22|22|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A627|31-328|31-328|Kraków|Kraków|*Stachiewicza|ul. Stachiewicza|40|40|86|86|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A635|*31-871|30-233|KRAKÓW|Kraków|*Os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|5|303 5|115|115|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A639|30-112|30-112|KRAKÓW|Kraków|*Dunin-Wąsowicza|ul. Dunin-Wąsowicza|26|26|30|30|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A648|30-019|30-019|Kraków|Kraków|*Mazowiecka|ul. Mazowiecka|44|44|26|26|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A649|31-272|31-272|KRAKÓW|Kraków|*Krowoderskich Zuchów|ul. Krowoderskich Zuchów|26|26|89|89|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A655|31-318|31-318|KRAKÓW|Kraków|*Jaremy|ul. Jaremy|11|11|39|39|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A659|31-234|31-234|KRAKÓW|Kraków|*Kuźnicy Kołłątajowskiej|ul. Kuźnicy Kołłątajowskiej|12|12|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A661|30-364|30-364|KRAKÓW|Kraków|*Pychowicka|ul. Pychowicka|1|1|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A672|30-071|30-071|Kraków|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|96|96|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A679|31-469|31-469|KRAKÓW|Kraków|*Młyńska|ul. Młyńska|2|2|69|69|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A681|30-809|30-809|Kraków|Kraków|*Ściegiennego|ul. Ściegiennego|73|73|80|80|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A683|30-837|30-837|Kraków|Kraków|*Aleksandry|ul. Aleksandry|9|9|68|68|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2867|*31-875|30-233|KRAKÓW|Kraków|*os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|27|303 27|20|20|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1346654|43-330|43-330|WILAMOWICE|Wilamowice|*Kościuszki|ul. Kościuszki|8A|8A|||*|ŚLĄSKIE|*|bielski|*|Wilamowice
+A701|30-047|30-047|KRAKÓW|Kraków|*Karłowicza|ul. Karłowicza|13|13|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A707|30-147|30-147|KRAKÓW|Kraków|*Na Błonie|ul. Na Błonie|3|3|51|51|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A715|30-148|30-148|Kraków|Kraków|*FILTROWA|ul. Filtrowa|3|3|21|21|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1191548|32-100|32-100|PROSZOWICE|Proszowice|*Partyzantow|ul. Partyzantów|41|41|1|1|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|proszowicki|*WIERZCHLAS|Proszowice
+A239|30-112|30-112|*Krakow|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|24|24|45|45|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A729|31-216|31-216|KRAKÓW|Kraków|*Mikołaja Reja|ul. Reja|15|15|36|36|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A734|30-076|30-076|KRAKÓW|Kraków|*Zakątek|ul. Zakątek|5|5|52|52|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A743|30-049|30-049|*Krakow|Kraków|*Czarnowiejska|ul. Czarnowiejska|103|103|24|24|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A748|30-075|30-075|KRAKÓW|Kraków|*Racławicka|ul. Racławicka|20|20|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1844|30-071|30-071|*KRAKOW|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|108|108|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A754|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|24|24|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A39560|42-400|42-400|ZAWIERCIE|Zawiercie|*Jagiellońska|ul. Jagiellońska|||||*MAŁOPOLSKIE|ŚLĄSKIE|*KRAKÓW|zawierciański|*KRAKÓW|Zawiercie
+A1342567|31-137|31-137|KRAKÓW|Kraków|*Siemiradzkiego|ul. Siemiradzkiego|11|11|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A760|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|64|64|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A763|30-399|30-399|KRAKÓW|Kraków|*Żyzna|ul. Żyzna|11C|11C|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A5847|*30-575|30-572|KRAKÓW|Kraków|*Stoigniewa|ul. Stoigniewa|18|18|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1646753|*43-100|43-109|TYCHY|Tychy|*Główna|ul. Główna|103|103|||*|ŚLĄSKIE|*|Tychy|*|Tychy
+A772|30-066|30-066|Kraków|Kraków|*Beniowskiego|ul. Beniowskiego|13|13|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A773|30-347|30-347|KRAKÓW|Kraków|*Kapelanka|ul. Kapelanka|3|3|24|24|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A12869|*42-200|42-202|CZĘSTOCHOWA|Częstochowa|*Rejtana|ul. Rejtana|6|6|||*|ŚLĄSKIE|*|Częstochowa|*|Częstochowa
+A1427|30-132|30-132|KRAKÓW|Kraków|*Altanowa|ul. Altanowa|18|18|37|37|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1031|30-112|30-112|KRAKÓW|Kraków|*Dunin-Wąsowicza|ul. Dunin-Wąsowicza|24|24|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1343933|72-420|72-420|DZIWNÓW|Dziwnów|*Mickiewicza|ul. Mickiewicza|21|21|||*|ZACHODNIOPOMORSKIE|*|kamieński|*|Dziwnów
+A1041|31-481|31-481|KRAKÓW|Kraków|*Promienistych|ul. Promienistych|5|5|60|60|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1185345|*30-860|30-837|KRAKÓW|Kraków|*Aleksandry|ul. Aleksandry|25|25|51|51|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1047|30-145|30-145|KRAKÓW|Kraków|*Hamernia|ul. Hamernia|19|19|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1048|31-158|31-158|Kraków|Kraków|*Krowoderska|ul. Krowoderska|63a|63a|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1052|30-347|30-347|KRAKÓW|Kraków|*Kapelanka|ul. Kapelanka|3|3|54|54|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1057|*30-698|30-689|Kraków|Kraków|*Przy Kuźni|ul. Przy Kuźni|3A|3A|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A29088|30-150|30-150|KRAKÓW|Kraków|*Armii Krajowej|ul. Armii Krajowej|93|93|143|143|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1066|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|68|68|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1068|*31-559|31-560|KRAKÓW|Kraków|*Na Szaniec|ul. Na Szaniec|3|3|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1069|30-150|30-150|KRAKÓW|Kraków|*Armii Krajowej|ul. Armii Krajowej|89|89|33|33|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1088|31-213|31-213|KRAKÓW|Kraków|*Turystyczna|ul. Turystyczna|5|5|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344183|31-315|31-315|KRAKÓW|Kraków|*Radzikowskiego|ul. Radzikowskiego|79|79|35|35|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1124|31-608|31-608|KRAKÓW|Kraków|*oś. Tysiąclecia|os. Osiedle Tysiąclecia|24|24|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1125|*31-127|30-127|Kraków|Kraków|*Świętego Wojciecha|ul. Wojciecha|1|1|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1126|31-050|31-050|Kraków|Kraków|*Brzozowa|ul. Brzozowa|8|8|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1134|31-444|31-444|KRAKÓW|Kraków|*Śliczna|ul. Śliczna|15|15|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1880699|67-200|67-200|GŁOGÓW|Głogów|*Sienkiewicza|ul. Sienkiewicza|4a|4a|50|50|*|DOLNOŚLĄSKIE|*|głogowski|*|Głogów
+A1136|30-065|30-065|KRAKÓW|Kraków|*Radwańskiego|ul. Radwańskiego|3|3|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1138|30-394|30-394|KRAKÓW|Kraków|*HUFCOWA|ul. Hufcowa|18B|18B|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1139|31-325|31-325|Kraków|Kraków|*Palacha|ul. Palacha|7|7|42|42|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1142|30-698|30-698|Kraków|Kraków|*Gołąba|ul. Gołąba|16A|16A|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1144|30-047|30-047|Kraków|Kraków|*Karłowicza|ul. Karłowicza|21|21|4|4|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1145|31-344|31-344|KRAKÓW|Kraków|*Na Polach|ul. Na Polach|70C|70C|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344709|*|05-500|STARA IWICZNA|Stara Iwiczna|*Nowa|ul. Nowa|17|17|||*|MAZOWIECKIE|*|piaseczyński|*|Lesznowola
+A1190375|26-110|26-110|*SKARZYSKO-KAMIENNA|Skarżysko-Kamienna|*Paryska|ul. Paryska|219|219|11|11|*ŁÓDZKIE|ŚWIĘTOKRZYSKIE|*WIELUŃSKI|skarżyski|*WIERZCHLAS|Skarżysko-Kamienna
+A1151|30-432|30-432|Kraków|Kraków|*Jasielska|ul. Jasielska|4|4|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344710|32-048|32-048|*JERZMANOWICE 154|Jerzmanowice|||||||*|MAŁOPOLSKIE|*|krakowski|*|Jerzmanowice-Przeginia
+A1167|31-139|31-139|Kraków|Kraków|*ŁOBZOWSKA|ul. Łobzowska|23|23|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1173|*00-000|30-138|KRAKÓW|Kraków|*Strzałkowskiego|ul. Bzymka-Strzałkowskiego|6|6|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1179|30-019|30-019|Kraków|Kraków|*Mazowiecka|ul. Mazowiecka|49|49|43|43|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1180|31-229|31-229|KRAKÓW|Kraków|*Danka|ul. Danka|8|8|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1181|31-432|31-432|KRAKÓW|Kraków|*Mieszka I|ul. Mieszka I|24|24|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1197909|43-300|43-300|BIELSKO-BIAŁA|Bielsko-Biała|*Sobieskiego|ul. Jana Sobieskiego|6|6|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Bielsko-Biała|*WIERZCHLAS|Bielsko-Biała
+A1185|31-932|31-932|KRAKÓW|Kraków|*os.Centrum D|os. Osiedle Centrum D|3|3|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1191|30-117|30-117|KRAKÓW|Kraków|*Salwatorska|ul. Salwatorska|23|23|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1193|31-148|31-148|KRAKÓW|Kraków|*Helclów|ul. Helclów|15|15|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1194|30-683|30-683|KRAKÓW|Kraków|*Nowosądecka|ul. Nowosądecka|25|25|38|38|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1347574|04-796|04-796|WARSZAWA|Warszawa|*Heliotropów|ul. Heliotropów|38|38|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A1196|30-074|30-074|KRAKÓW|Kraków|*Kazimierza Wielkiego|ul. Kazimierza Wielkiego|113|113|9|9|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1197|30-071|30-071|KRAKÓW|Kraków|*Skarbinskiego|ul. Skarbińskiego|10|10|47|47|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1198|30-147|30-147|KRAKÓW|Kraków|*Kowalskiego|ul. Kowalskiego|2|2|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1347576|32-300|32-300|OLKUSZ|Olkusz|*Partyzantów|ul. Partyzantów|8|8|||*|MAŁOPOLSKIE|*|olkuski|*|Olkusz
+A1203|*31-875|30-233|KRAKÓW|Kraków|*OS. Dywizjonu 303|rondo Rondo 308 Dywizjonu|46|303 46|55|55|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1206|30-014|30-014|KRAKÓW|Kraków|*Litewska|ul. Litewska|24|24|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1212|*31-873|30-233|Kraków|Kraków|*Osiedle Dywizjonu 303|rondo Rondo 308 Dywizjonu|28|303 28|2A|2A|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344711|*25-953|25-378|KIELCE|Kielce|*Zgoda|ul. Zgoda|21|21|||*|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+A1217|32-500|32-500|CHRZANÓW|Chrzanów|*Grunwaldzka|ul. Grunwaldzka|15|15|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|CHRZANOWSKI|chrzanowski|CHRZANÓW|Chrzanów
+A1218|31-630|31-630|Kraków|Kraków|*Osiedle Kombatantów|os. Osiedle Kombatantów|10|10|136|136|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A9|30-112|30-112|KRAKÓW|Kraków|*Dunin-Wąsowicza|ul. Dunin-Wąsowicza|24|24|12|12|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A10|30-079|30-079|Kraków|Kraków|*Kijowska|al. Aleja Kijowska|48|48|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A5864|30-611|30-611|Kraków|Kraków|*Zubrzyckiego|ul. Sas-Zubrzyckiego|2|2|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A14|31-148|31-148|KRAKÓW|Kraków|*Helclów|ul. Helclów|15/17|15/17|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A15|31-314|31-314|Kraków|Kraków|*Zygmuntowska|ul. Zygmuntowska|29|29|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A22|32-095|32-095|KRASIENIEC ZAKUPNY|Krasieniec Zakupny|||90|90|||MAŁOPOLSKIE|MAŁOPOLSKIE|*CHRZANOWSKI|krakowski|*CHRZANÓW|Iwanowice
+A23|30-112|30-112|KRAKÓW|Kraków|*Dunin-Wąsowicza|ul. Dunin-Wąsowicza|24|24|55|55|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A31|30-019|30-019|KRAKÓW|Kraków|*Mazowiecka|ul. Mazowiecka|44|44|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1886138|87-100|87-100|TORUŃ|Toruń|*Długa|ul. Długa|25|25|39 lok.|39 lok.|*|KUJAWSKO-POMORSKIE|*|Toruń|*|Toruń
+A34|30-112|30-112|KRAKÓW|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|3|3|44|44|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1185578|*30-647|30-612|KRAKÓW|Kraków|*Witosa|ul. Witosa|31|31|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A42|31-235|31-235|KRAKÓW|Kraków|*os.Witkowice Nowe|os. Osiedle Witkowice Nowe|61|61|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A43|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|26|26|26|26|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A47|30-065|30-065|*Krakow|Kraków|*Chodowieckiego|ul. Chodowieckiego|5|5|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A58|30-394|30-394|KRAKÓW|Kraków|*Dobrowolskiego|ul. Dobrowolskiego|16A|16A|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A63|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|43|43|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A68|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|2|2|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A69|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|1|1|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A79|30-619|30-619|Kraków|Kraków|*Turniejowa|ul. Turniejowa|65A|65A|75|75|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1893978|32-085|32-085|Tomaszowice|Tomaszowice|*różana|ul. Różana|65|65|1|1|*|MAŁOPOLSKIE|*|krakowski|*|Wielka Wieś
+A74|31-524|31-524|KRAKÓW|Kraków|*Grunwaldzka|ul. Grunwaldzka|15|15|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A81|30-112|30-112|*Krakow|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|24|24|19|19|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1344728|47-120|47-120|ZAWADZKIE|Zawadzkie|*oś.Świerkle|ul. Osiedle Świerkle|10|10|||*|OPOLSKIE|*|strzelecki|*|Zawadzkie
+A1190637|*26-940|26-670|PIONKI|Pionki|*Leśna|ul. Leśna|23|23|19|19|MAZOWIECKIE|MAZOWIECKIE|*KOZIENICKI|radomski|*KOZIENICE|Pionki
+A91|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|34|34|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A92|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1627769|83-200|83-200|STAROGARD GDAŃSKI|Starogard Gdański|*Obronców Wybrzeża|ul. Obrońców Wybrzeża|48|48|||POMORSKIE|POMORSKIE|STAROGARDZKI|starogardzki|STAROGARD GDAŃSKI|Starogard Gdański
+A785|31-064|31-064|Kraków|Kraków|*Augustiańska|ul. Augustiańska|10|10|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344730|41-600|41-600|ŚWIĘTOCHŁOWICE|Świętochłowice|*Ceramiczna|ul. Ceramiczna|1|1|||*|ŚLĄSKIE|*|Świętochłowice|*|Świętochłowice
+A107|30-123|30-123|KRAKÓW|Kraków|*Staszczyka|ul. Staszczyka|3|3|20|20|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A108|30-513|30-513|*Krakow|Kraków|*Smolki|ul. Smolki|12b|12b|1|1|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1185808|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|5|5|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1344732|87-100|87-100|TORUŃ|Toruń|*Poniatowskiego|ul. Poniatowskiego|9|9|4|4|*|KUJAWSKO-POMORSKIE|*|Toruń|*|Toruń
+A1344735|30-426|30-426|KRAKÓW|Kraków|*Montwiłła-Mireckiego|ul. Montwiłła-Mireckiego|22|22|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1922024|96-200|96-200|RAWA MAZOWIECKA|Rawa Mazowiecka|*Księże Domki|ul. Księże Domki|41|41|||*|ŁÓDZKIE|*|rawski|*|Rawa Mazowiecka
+A113|31-623|31-623|Kraków|Kraków|*os.Piastów|os. Osiedle Piastów|14|14|50|50|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A115|*31-432|31-342|KRAKÓW|Kraków|*Radzikowskiego|ul. Radzikowskiego|131|131|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A128|*30-070|30-067|Kraków|Kraków|*Piastowska|ul. Piastowska|51|51|47|47|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1624357|30-611|30-611|KRAKÓW|Kraków|UL.Wysłouchów|ul. Wysłouchów|||||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A132|30-122|30-122|*Krakow|Kraków|*Rydla|ul. Rydla|13|13|24|24|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A140|30-150|30-150|Kraków|Kraków|*Armii Krajowej|ul. Armii Krajowej|55|55|55|55|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1701265|32-340|32-340|SULISŁAWICE|Sulisławice|||43|43|||MAŁOPOLSKIE|MAŁOPOLSKIE|OLKUSKI|olkuski|WOLBROM|Wolbrom
+A151|30-812|30-812|KRAKÓW|Kraków|*Bieżanowska|ul. Bieżanowska|75A|75A|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1343852|72-400|72-400|KAMIEŃ POMORSKI|Kamień Pomorski|*Moniuszki|ul. Moniuszki|2|2|||*|ZACHODNIOPOMORSKIE|*|kamieński|*|Kamień Pomorski
+A157|*|32-080|Zabierzów|Zabierzów|*Polna|ul. Polna|23|23|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|krakowski|*WIERZCHLAS|Zabierzów
+A297|30-112|30-112|*Krakow|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|26|26|18|18|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A159|31-416|31-416|Kraków|Kraków|*Dobrego Pasterza|ul. Dobrego Pasterza|127|127|36|36|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A162|30-118|30-118|KRAKÓW|Kraków|*Fałata|ul. Fałata|12|12|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A163|30-049|30-049|*Krakow|Kraków|*Czarnowiejska|ul. Czarnowiejska|103|103|22|22|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A164|31-563|31-563|Kraków|Kraków|*Zwycięstwa|ul. Zwycięstwa|1|1|38|38|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A166|30-112|30-112|KRAKÓW|Kraków|*Dunin-Wąsowicza|ul. Dunin-Wąsowicza|26|26|12|12|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A169|30-112|30-112|*Krakow|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|26|26|10|10|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A171|30-071|30-071|*Krakow|Kraków|*Gramatyka|ul. Gramatyka|7a|7a|8|8|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A5881|30-127|30-127|KRAKÓW|Kraków|*WESELE|ul. Wesele|20|20|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A174|30-252|30-252|KRAKÓW|Kraków|*Przegorzalska|ul. Przegorzalska|10A|10A|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A175|30-045|30-045|KRAKÓW|Kraków|*Królewska|ul. Królewska|66|66|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344740|00-656|00-656|WARSZAWA|Warszawa|*Śniadeckich|ul. Śniadeckich|8|8|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A181|30-717|30-717|KRAKÓW|Kraków|*Koszykarska|ul. Koszykarska|18A|18A|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1342534|02-103|02-103|WARSZAWA|Warszawa|*Hankiewicza|ul. Hankiewicza|1|1|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A188|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|116|116|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A189|30-069|30-069|Kraków|Kraków|*Obopólna|ul. Obopólna|3|3|36|36|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A228|31-162|31-162|KRAKÓW|Kraków|*Staszica|ul. Staszica|14|14|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A231|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|42|42|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A234|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|78|78|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A235|30-071|30-071|*KRAKOW|Kraków|*Skarbińskiego|ul. Skarbińskiego|203|203|19|19|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A236|*30-054|30-075|*Krakow|Kraków|*Bytomska|ul. Bytomska|16|16|39|39|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A237|30-054|30-054|*Krakow|Kraków|*Czarnowiejska|ul. Czarnowiejska|32|32|1|1|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1252958|00-732|00-732|WARSZAWA|Warszawa|*Czerska|ul. Czerska|18|18|131|131|MAZOWIECKIE|MAZOWIECKIE|WARSZAWA|Warszawa|*MOKOTÓW|Warszawa
+A245|31-207|31-207|KRAKÓW|Kraków|*Siemaszki|ul. Siemaszki|37|37|76|76|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A247|30-213|30-213|KRAKÓW|Kraków|*Emaus|ul. Emaus|19|19|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A10823|43-300|43-300|BIELSKO-BIAŁA|Bielsko-Biała|*Leszczyńska|ul. Leszczyńska|6|6|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Bielsko-Biała|*WIERZCHLAS|Bielsko-Biała
+A1914475|34-600|34-600|LIMANOWA|Limanowa|ul. Tarnowska|ul. Tarnowska|9 D|9 D|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|limanowski|*|Limanowa
+A253|39-300|39-300|MIELEC|Mielec|*Wyspiańskiego|ul. Wyspiańskiego|3|3|1|1|PODKARPACKIE|PODKARPACKIE|MIELECKI|mielecki|MIELEC|Mielec
+A1342560|54-142|54-142|WROCŁAW|Wrocław|*Dokerska|ul. Dokerska|22|22|3|3|DOLNOŚLĄSKIE|DOLNOŚLĄSKIE|WROCŁAW|Wrocław|WROCŁAW|Wrocław
+A256|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|3|3|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A262|*30-648|31-116|*Krakow|Kraków|*Studencka|ul. Studencka|29|29|13|13|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A263|*30-124|30-123|Kraków|Kraków|*Staszczyka|ul. Staszczyka|3|3|19|19|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A10863|31-157|31-157|*KRAKOW|Kraków|*Plac Matejki|pl. Plac Jana Matejki|12|12|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A266|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|12|12|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1185807|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|26|26|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A270|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|72|72|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A272|30-075|30-075|*Krakow|Kraków|*Bytomska|ul. Bytomska|16|16|10|10|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1344743|32-400|32-400|MYŚLENICE|Myślenice|*Cegielskiego|ul. Cegielskiego|1|1|||*|MAŁOPOLSKIE|*|myślenicki|*|Myślenice
+A274|30-049|30-049|*Krakow|Kraków|*Czarnowiejska|ul. Czarnowiejska|103|103|36|36|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A280|31-476|31-476|KRAKÓW|Kraków|*Lublańska|ul. Lublańska|16|16|81|81|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A5868|30-049|30-049|Kraków|Kraków|*Konarskiego|ul. Konarskiego|21A|21A|6A|6A|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A286|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|35|35|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A288|30-049|30-049|*Krakow|Kraków|*Czarnowiejska|ul. Czarnowiejska|103|103|42|42|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A289|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|79|79|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A291|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|17|17|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A295|30-123|30-123|*Krakow|Kraków|*Staszczyka|ul. Staszczyka|3|3|21|21|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A296|30-112|30-112|*Krakow|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|24|24|5|5|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A299|30-075|30-075|*Krakow|Kraków|*Bytomska|ul. Bytomska|16|16|9|9|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A2648|30-695|30-695|KRAKÓW|Kraków|*Schweitzera|ul. Schweitzera|5|5|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2209|31-303|31-303|KRAKÓW|Kraków|*STACHIEWICZA|ul. Stachiewicza|31|31|69|69|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A303|31-443|31-443|Kraków|Kraków|*Łąkowa|ul. Łąkowa|16|16|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7833|31-519|31-519|KRAKÓW|Kraków|*Jaworskiego|ul. Jaworskiego|18|18|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A305|*30-610|30-611|KRAKÓW|Kraków|*Beskidzka|ul. Beskidzka|37|37|23|23|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A317|30-009|30-009|KRAKÓW|Kraków|*Emilii Plater|ul. Plater|2|2|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A324|30-698|30-698|KRAKÓW|Kraków|*SIARCZANOGÓRSKA|ul. Siarczanogórska|26J|26J|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A326|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|7|7|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1346639|31-156|31-156|KRAKÓW|Kraków|*Zacisze|ul. Zacisze|12|12|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344766|30-047|30-047|KRAKÓW|Kraków|*Szymanowskiego|ul. Szymanowskiego|14|14|38|38|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1343685|*50-445|50-446|WROCŁAW|Wrocław|*Pułaskiego|ul. Pułaskiego|14|14|12|12|DOLNOŚLĄSKIE|DOLNOŚLĄSKIE|WROCŁAW|Wrocław|WROCŁAW|Wrocław
+A336|30-112|30-112|Kraków|Kraków|*Dunin-Wąsowicza|ul. Dunin-Wąsowicza|26|26|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1342563|*30-252|30-251|KRAKÓW|Kraków|*Szyszko-Bohusza|ul. Szyszko-Bohusza|2|2|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A340|30-112|30-112|*Krakow|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|26|26|28|28|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A2922|31-231|31-231|*Krakow|Kraków|*Siewna|ul. Siewna|23|23|91|91|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2925|31-227|31-227|Kraków|Kraków|*Jasna|ul. Jasna|1|1|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2932|30-638|30-638|Kraków|Kraków|*Czarnogórska|ul. Czarnogórska|1|1|38|38|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1720958|02-014|02-014|WARSZAWA|Warszawa|*Nowogrodzka|ul. Nowogrodzka|68|68|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A2934|30-071|30-071|Kraków|Kraków|*Skarbińskiego|ul. Skarbińskiego|10|10|75|75|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3472|31-272|31-272|Kraków|Kraków|*Krowoderskich Zuchów|ul. Krowoderskich Zuchów|18|18|9|9|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1195872|30-658|30-658|KRAKÓW|Kraków|*Łużycka|ul. Łużycka|49|49|13|13|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1344874|25-561|25-561|KIELCE|Kielce|*Witosa|ul. Witosa|80|80|||*|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+A3517|30-049|30-049|*Krakow|Kraków|*Chopina|ul. Chopina|24|24|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3518|31-421|31-421|Kraków|Kraków|*Jana Kaczary|ul. Kaczary|5|5|54|54|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3519|30-658|30-658|*KRAKOW|Kraków|*łużycka|ul. Łużycka|63|63|198|198|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A3523|*31-875|30-233|Kraków|Kraków|*os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|47|303 47|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3529|30-075|30-075|KRAKÓW|Kraków|*Bytomska|ul. Bytomska|16|16|19|19|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3536|*31-047|30-233|Kraków|Kraków|*Kościuszki|park Park im. Tadeusza Kościuszki|57|57|57|57|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3538|31-115|31-115|*Krakow|Kraków|*Pl.Sikorskiego|pl. Plac gen. Władysława Sikorskiego|3|3|5A|5A|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3554|*30-575|30-572|KRAKÓW|Kraków|*Stoigniewa|ul. Stoigniewa|24|24|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3556|31-326|31-326|KRAKÓW|Kraków|*Wielkotyrnowska|ul. Wielkotyrnowska|21|21|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3558|30-698|30-698|Kraków|Kraków|*Grzepskiego|ul. Grzepskiego|20|20|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3560|30-058|30-058|KRAKÓW|Kraków|*Lea|ul. Lea|115|115|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1858961|44-295|44-295|SUMINA|Sumina|*Rybnicka|ul. Rybnicka|31|31|||*|ŚLĄSKIE|*|rybnicki|*|Lyski
+A1344877|41-608|41-608|ŚWIĘTOCHŁOWICE|Świętochłowice|*Sportowa|ul. Sportowa|27|27|||*|ŚLĄSKIE|*|Świętochłowice|*|Świętochłowice
+A3569|31-271|31-271|Kraków|Kraków|*Krowoderskich Zuchów|ul. Krowoderskich Zuchów|25|25|74|74|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3577|31-231|31-231|KRAKÓW|Kraków|*Siewna|ul. Siewna|23|23|67|67|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344878|02-676|02-676|WARSZAWA|Warszawa|*Postępu|ul. Postępu|13|13|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A3592|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|5|5|13|13|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3598|31-207|31-207|KRAKÓW|Kraków|*Siemaszki|ul. Siemaszki|38|38|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3600|31-548|31-548|*Krakow|Kraków|*Al.POKOJU|al. Aleja Pokoju|21|21|34|34|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3605|30-408|30-408|KRAKÓW|Kraków|*Odrzańska|ul. Odrzańska|4|4|101|101|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3607|31-567|31-567|KRAKÓW|Kraków|*Widok|ul. Widok|39a|39a|35|35|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3611|31-062|31-062|Kraków|Kraków|*Krakowska|ul. Krakowska|13|13|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3614|30-111|30-111|KRAKÓW|Kraków|*FOCHA|al. Aleja Marszałka Ferdinanda Focha|25|25|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3618|31-475|31-475|KRAKÓW|Kraków|*Miechowity|ul. Miechowity|21|21|21|21|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3623|*31-873|30-233|Kraków|Kraków|*Osiedle Dywizjonu 303|rondo Rondo 308 Dywizjonu|25|303 25|57|57|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1348125|38-200|38-200|JASŁO|Jasło|*Dworcowa|ul. Dworcowa|1|1|1|1|PODKARPACKIE|PODKARPACKIE|JASIELSKI|jasielski|JASŁO|Jasło
+A3631|31-312|31-312|KRAKÓW|Kraków|*Lentza|ul. Lentza|2|2|20|20|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1348128|53-336|53-336|WROCŁAW|Wrocław|*Radosna|ul. Radosna|20|20|6|6|DOLNOŚLĄSKIE|DOLNOŚLĄSKIE|WROCŁAW|Wrocław|WROCŁAW|Wrocław
+A3639|30-548|30-548|KRAKÓW|Kraków|*Lwowska|ul. Lwowska|18|18|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344880|35-232|35-232|RZESZÓW|Rzeszów|*Miłocińska|ul. Miłocińska|17|17|||*|PODKARPACKIE|*|Rzeszów|*|Rzeszów
+A3642|30-209|30-209|KRAKÓW|Kraków|*KRÓLOWEJ JADWIGI|ul. Jadwigi|56|56|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3649|*31-103|31-303|Kraków|Kraków|*Stachiewicza|ul. Stachiewicza|25|25|94|94|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3650|30-047|30-047|KRAKÓW|Kraków|*Chopina|ul. Chopina|10|10|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1332309|34-130|34-130|ZEBRZYDOWICE|Zebrzydowice|||375|375|||*|MAŁOPOLSKIE|*|wadowicki|*|Kalwaria Zebrzydowska
+A3655|30-328|30-328|KRAKÓW|Kraków|*Czechosłowacka|ul. Czechosłowacka|9|9|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3662|30-611|30-611|Kraków|Kraków|*Beskidzka|ul. Beskidzka|37|37|28|28|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3672|41-500|41-500|CHORZÓW|Chorzów|*Powstańców|pl. Powstańców Śląskich|5|5|14|14|*MAŁOPOLSKIE|ŚLĄSKIE|*KRAKÓW|Chorzów|*KRAKÓW|Chorzów
+A3675|30-049|30-049|KRAKÓW|Kraków|*Czarnowiejska|ul. Czarnowiejska|103|103|38|38|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3684|32-040|32-040|ŚWIĄTNIKI GÓRNE|Świątniki Górne|*Graniczna|ul. Graniczna|55|55|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|ŚWIĄTNIKI GÓRNE|Świątniki Górne
+A1185419|30-653|30-653|KRAKÓW|Kraków|*Kordiana|ul. Kordiana|66|66|27|27|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3694|31-272|31-272|KRAKÓW|Kraków|*Krowoderskich Zuchów|ul. Krowoderskich Zuchów|18|18|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3695|31-419|31-419|KRAKÓW|Kraków|*Rozrywka|ul. Rozrywka|22|22|45|45|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3697|31-609|31-609|KRAKÓW|Kraków|*Osiedle Tysiąclecia|os. Osiedle Tysiąclecia|29|29|23|23|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3701|30-408|30-408|KRAKÓW|Kraków|*Borsucza|ul. Borsucza|7|7|53|53|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3702|*30-054|31-212|KRAKÓW|Kraków|*Imbramowska|ul. Imbramowska|1|1|40|40|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1190473|34-300|34-300|*ZYWIEC|Żywiec|*700-lecia|os. Osiedle 700-lecia|15|15|51|51|*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|żywiecki|*WIERZCHLAS|Żywiec
+A1389314|34-440|34-440|KLUSZKOWCE|Kluszkowce|*Kamieniarska|ul. Kamieniarska|30a|30a|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|nowotarski|*|Czorsztyn
+ZA1370533|31-580|31-580|KRAKÓW|Kraków|*Nowohucka|ul. Nowohucka|3|3|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1752351|31-271|31-271|KRAKÓW|Kraków|*KROWODERSKICH ZUCHÓW|ul. Krowoderskich Zuchów|19|19|29|29|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1389330|67-200|67-200|GŁOGÓW|Głogów|ul. Przemysława Głogowskiego|ul. Przemysława Głogowskiego|1|1|||*|DOLNOŚLĄSKIE|*|głogowski|*|Głogów
+A1389335|30-864|30-864|KRAKÓW|Kraków|*Smolenia|ul. Smolenia|18|18|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1219|31-428|31-428|KRAKÓW|Kraków|*Chrobrego|ul. Bolesława Chrobrego|29|29|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1221|30-638|30-638|KRAKÓW|Kraków|*Białoruska|ul. Białoruska|4|4|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1222|30-087|30-087|KRAKÓW|Kraków|*Rydla|ul. Rydla|45|45|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1223|30-079|30-079|KRAKÓW|Kraków|*Królewska|ul. Królewska|90|90|40|40|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1415644|32-447|32-447|SIEPRAW|Siepraw|*BRZEG|ul. Brzeg|6|6|||MAŁOPOLSKIE|MAŁOPOLSKIE|MYŚLENICKI|myślenicki|SIEPRAW|Siepraw
+A1228|30-019|30-019|KRAKÓW|Kraków|*Mazowiecka|ul. Mazowiecka|44|44|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1229|30-317|30-317|KRAKÓW|Kraków|*Skwerowa|ul. Skwerowa|29|29|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1174382|30-102|30-102|KRAKÓW|Kraków|ul.Syrokomli|ul. Syrokomli|22|22|1|1|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1231|31-456|31-456|KRAKÓW|Kraków|*Ugorek|ul. Ugorek|4|4|65|65|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1232|*31-422|31-423|KRAKÓW|Kraków|*ŁEPKOWSKIEGO|ul. Łepkowskiego|12|12|39|39|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1343816|45-830|45-830|OPOLE|Opole|*Romera|ul. Romera|9|9|||OPOLSKIE|OPOLSKIE|OPOLE|Opole|OPOLE|Opole
+A1234|31-932|31-932|KRAKÓW|Kraków|*os. Centrum D|os. Osiedle Centrum D|4|4|12|12|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1235|30-237|30-237|KRAKÓW|Kraków|*Junacka|ul. Junacka|25|25|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1209736|05-830|05-830|NADARZYN|Nadarzyn|||||||*|MAZOWIECKIE|*|pruszkowski|*|Nadarzyn
+A1237|*32-404|30-404|*Krakow|Kraków|*Cegielniana|ul. Cegielniana|20|20|38|38|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1239|31-207|31-207|Kraków|Kraków|*Siemaszki|ul. Siemaszki|30b|30b|37|37|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1242|31-214|31-214|Kraków|Kraków|*Narutowicza|ul. Narutowicza|22|22|47|47|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1245|31-503|31-503|Kraków|Kraków|*Strzelecka|ul. Strzelecka|19|19|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1247|30-251|30-251|KRAKÓW|Kraków|*Żemaitisa|ul. Żemaitisa|14|14|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2333|30-316|30-316|KRAKÓW|Kraków|*Słomiana|ul. Słomiana|9|9|11|11|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1248|31-015|31-015|KRAKÓW|Kraków|*Pijarska|ul. Pijarska|1|1|4A|4A|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1249|31-271|31-271|KRAKÓW|Kraków|*Krowoderskich Zuchów|ul. Krowoderskich Zuchów|25|25|65|65|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1250|31-271|31-271|KRAKÓW|Kraków|*KLUCZBORSKA|ul. Kluczborska|33|33|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1251|*30-830|30-809|KRAKÓW|Kraków|*Ściegiennego|ul. Ściegiennego|73|73|88|88|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1254|31-521|31-521|KRAKÓW|Kraków|*Norwida|ul. Norwida|5|5|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1255|30-316|30-316|Kraków|Kraków|*Słomiana|ul. Słomiana|27|27|64|64|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1257|31-518|31-518|KRAKÓW|Kraków|*Orląt Lwowskich|ul. Orląt Lwowskich|5|5|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1258|31-534|31-534|Kraków|Kraków|*Daszyńskiego|al. Aleja Ignacego Daszyńskiego|26|26|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1260|30-020|30-020|KRAKÓW|Kraków|*Wójtowska|ul. Wójtowska|9|9|108|108|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1261|30-074|30-074|KRAKÓW|Kraków|*Kazimierza Wielkiego|ul. Kazimierza Wielkiego|42-48|42-48|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1262|30-240|30-240|KRAKÓW|Kraków|*Rzepichy|ul. Rzepichy|30B|30B|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1263|31-870|31-870|KRAKÓW|Kraków|*2 PUŁKU LOTNICZEGO|os. Osiedle 2 Pułku Lotniczego|45|45|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1264|31-212|31-212|KRAKÓW|Kraków|*Imbramowska|ul. Imbramowska|1|1|33|33|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1267|31-147|31-147|KRAKÓW|Kraków|*Długa|ul. Długa|17|17|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1268|31-419|31-419|KRAKÓW|Kraków|*Rozrywka|ul. Rozrywka|20|20|22|22|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1270|*31-524|31-518|KRAKÓW|Kraków|*Sowińskiego|ul. Sowińskiego|4|4|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1273|31-315|31-315|Kraków|Kraków|*Radzikowskiego|ul. Radzikowskiego|81|81|62|62|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1274|30-446|30-446|*Krakow|Kraków|*Kadłubka|ul. Kadłubka|11|11|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1278|31-608|31-608|KRAKÓW|Kraków|*Os.Tysiąclecia|os. Osiedle Tysiąclecia|24|24|30|30|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1281|30-350|30-350|KRAKÓW|Kraków|*Zachodnia|ul. Zachodnia|8|8|53|53|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1343671|*40-272|40-018|KATOWICE|Katowice|*Sowińskiego|ul. Sowińskiego|31|31|5|5|ŚLĄSKIE|ŚLĄSKIE|KATOWICE|Katowice|KATOWICE|Katowice
+A1284|31-067|31-067|KRAKÓW|Kraków|*HIERONIMA WIETORA|ul. Wietora|4|4|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1288|30-611|30-611|Kraków|Kraków|*Wysłouchów|ul. Wysłouchów|29|29|25|25|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1343677|72-400|72-400|KAMIEŃ POMORSKI|Kamień Pomorski|*Mieszka I|ul. Mieszka I|5b|5b|||*|ZACHODNIOPOMORSKIE|*|kamieński|*|Kamień Pomorski
+A1292|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|69|69|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1297|31-324|31-324|KRAKÓW|Kraków|*Bukietowa|ul. Bukietowa|11|11|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7841|30-065|30-065|KRAKÓW|Kraków|*Walerego Goetla|ul. Goetla|19|19|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1307|30-128|30-128|Kraków|Kraków|*Przybyszewskiego|ul. Przybyszewskiego|37|37|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1309|30-867|30-867|KRAKÓW|Kraków|*Konrada Wallenroda|ul. Wallenroda|55|55|21|21|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1310|30-611|30-611|Kraków|Kraków|*Wysłouchów|ul. Wysłouchów|37|37|36|36|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1314|30-040|30-040|KRAKÓW|Kraków|*Królewska|ul. Królewska|49|49|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1316|30-147|30-147|Kraków|Kraków|*Na Błonie|ul. Na Błonie|9a|9a|189|189|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1891783|54-004|54-004|WROCŁAW|Wrocław|*Kącka|ul. Kącka|4|4|||DOLNOŚLĄSKIE|DOLNOŚLĄSKIE|WROCŁAW|Wrocław|WROCŁAW|Wrocław
+A1320|30-087|30-087|KRAKÓW|Kraków|*Rydla|ul. Rydla|45A|45A|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1322|32-020|32-020|LEDNICA GÓRNA|Lednica Górna|||271|271|||MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A19649|*31-875|30-233|KRAKÓW|Kraków|*os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|51|303 51|84|84|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1329|30-658|30-658|KRAKÓW|Kraków|*Łużycka|ul. Łużycka|65|65|130|130|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7842|30-071|30-071|*Krakow|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|118|118|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1333|31-154|31-154|KRAKÓW|Kraków|*Pawia|ul. Pawia|8|8|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1335|30-394|30-394|KRAKÓW|Kraków|*Winnicka|ul. Winnicka|11|11|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1190470|32-700|32-700|BOCHNIA|Bochnia|*Gipsowa|ul. Gipsowa|10 a|10 a|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|bocheński|*WIERZCHLAS|Bochnia
+A1343|31-228|31-228|KRAKÓW|Kraków|*Nad Sudołem|ul. Nad Sudołem|14|14|37|37|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344|30-123|30-123|Kraków|Kraków|*Staszczyka|ul. Staszczyka|3|3|44|44|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1347|30-619|30-619|*Krakow|Kraków|*Gołaśka|ul. Gołaśka|1|1|44|44|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1353|30-239|30-239|KRAKÓW|Kraków|*Niezapominajek|ul. Niezapominajek|19|19|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A5885|30-611|30-611|KRAKÓW|Kraków|*Malwowa|ul. Malwowa|10D|10D|15|15|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1361|31-042|31-042|Kraków|Kraków|*Rynek Główny|rynek Rynek Główny|6|6|11|11|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19640|32-406|32-406|CZECHÓWKA|Czechówka|||162|162|||MAŁOPOLSKIE|MAŁOPOLSKIE|MYŚLENICKI|myślenicki|SIEPRAW|Siepraw
+A1171999|30-239|30-239|KRAKÓW|Kraków|*Niezapominajek|ul. Niezapominajek|5|5|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1369|30-117|30-117|KRAKÓW|Kraków|*Salwatorska|ul. Salwatorska|29|29|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1387|*30-364|30-236|KRAKÓW|Kraków|*Bronisława Czecha|ul. Czecha|16|16|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1393|31-423|31-423|Kraków|Kraków|*Łepkowskiego|ul. Łepkowskiego|9|9|36|36|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3710|*30-127|30-126|KRAKÓW|Kraków|*Zapolskiej|ul. Zapolskiej|42|42|91|91|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19084|30-302|30-302|KRAKÓW|Kraków|*Konopnickiej|ul. Konopnickiej|28|28|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A3714|30-014|30-014|Kraków|Kraków|*Litewska|ul. Litewska|28|28|67|67|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1176037|27-400|27-400|OSTROWIEC ŚWIĘTOKRZYSKI|Ostrowiec Świętokrzyski|*Kilinskiego|ul. Kilińskiego|22|22|||*ŁÓDZKIE|ŚWIĘTOKRZYSKIE|*WIELUŃSKI|ostrowiecki|*WIERZCHLAS|Ostrowiec Świętokrzyski
+A3722|30-216|30-216|KRAKÓW|Kraków|*Pod Sikornikiem|ul. Pod Sikornikiem|2|2|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3727|30-118|30-118|Kraków|Kraków|*Fałata|ul. Fałata|14|14|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3735|31-279|31-279|Kraków|Kraków|*Łokietka|ul. Władysława Łokietka|49|49|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3739|31-519|31-519|KRAKÓW|Kraków|*Bolesława Chrobrego|ul. Bolesława Chrobrego|6|6|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3743|31-033|31-033|KRAKÓW|Kraków|*Westerplatte|ul. Westerplatte|3|3|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1348601|32-100|32-100|PROSZOWICE|Proszowice|*Partyzantów|ul. Partyzantów|39|39|51|51|*|MAŁOPOLSKIE|*|proszowicki|*|Proszowice
+A1344884|*|31-579|KRAKÓW|Kraków|*Narciarska|ul. Narciarska|2H|2H|45|45|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3753|30-427|30-427|KRAKÓW|Kraków|*Jagodowa|ul. Jagodowa|17|17|34|34|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3768|30-043|30-043|KRAKÓW|Kraków|*Al.Artura Grottgera|al. Aleja Artura Grottgera|34|34|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3769|*31-228|31-223|Kraków|Kraków|*Pachońskiego|ul. Pachońskiego|6|6|78|78|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3778|30-638|30-638|KRAKÓW|Kraków|*Białoruska|ul. Białoruska|8|8|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3779|31-234|31-234|KRAKÓW|Kraków|*Dożynkowa|ul. Dożynkowa|8A|8A|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3786|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|77|77|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3787|30-150|30-150|Kraków|Kraków|*Armii Krajowej|ul. Armii Krajowej|2|2|99|99|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3792|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|10|10|25|25|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1856|30-110|30-110|Kraków|Kraków|*Filarecka|ul. Filarecka|20a|20a|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1863|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|7|7|42|42|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1864|32-060|32-060|BUDZYŃ|Budzyń|||63|63|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|LISZKI|Liszki
+A1865|31-559|31-559|KRAKÓW|Kraków|*Grzegórzecka|ul. Grzegórzecka|67C|67C|68|68|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1869|30-150|30-150|Kraków|Kraków|*Armii Krajowej|ul. Armii Krajowej|93|93|49|49|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1871|30-015|30-015|KRAKÓW|Kraków|*Świętokrzyska|ul. Świętokrzyska|8|8|9|9|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1876|31-214|31-214|Kraków|Kraków|*Mackiewicza|ul. Mackiewicza|25|25|81|81|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1880|30-019|30-019|*Krakow|Kraków|*Mazowiecka|ul. Mazowiecka|46|46|22|22|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1881|31-009|31-009|*Krakow|Kraków|*Szewska|ul. Szewska|15|15|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1882|30-227|30-227|KRAKÓW|Kraków|*Kasztanowa|al. Aleja Kasztanowa|44 A|44 A|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2714|*|31-564|KRAKÓW|Kraków|*Pokoju|al. Aleja Pokoju|30|30|20|20|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1883|31-524|31-524|KRAKÓW|Kraków|*Garczyńskiego|ul. Garczyńskiego|15|15|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1887|30-408|30-408|KRAKÓW|Kraków|*Borsucza|ul. Borsucza|5|5|93|93|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1891|30-833|30-833|*Krakow|Kraków|*Wenedy|ul. Lilli Wenedy|11|11|49|49|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1893|30-833|30-833|KRAKÓW|Kraków|*Lilli Wenedy|ul. Lilli Wenedy|15|15|45|45|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1897|31-131|31-131|KRAKÓW|Kraków|*Karmelicka|ul. Karmelicka|27|27|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1190207|30-071|30-071|KRAKÓW|Kraków|*Gramatyka|ul. Gramatyka|7|7|8|8|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1905|30-686|30-686|*KRAKOW|Kraków|*Podedworze|ul. Podedworze|8|8|35|35|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19324|31-103|31-103|KRAKÓW|Kraków|*Felicjanek|ul. Felicjanek|1|1|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1886848|59-700|59-700|BOLESŁAWIEC|Bolesławiec|*Kościuszki|ul. Kościuszki|21|21|||*|DOLNOŚLĄSKIE|*|bolesławiecki|*|Bolesławiec
+A2938|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|7|7|28|28|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2945|30-071|30-071|KRAKÓW|Kraków|*Gramatyka|ul. Gramatyka|7A|7A|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19320|41-902|41-902|BYTOM|Bytom|*Powstańców Śląskich|pl. Powstańców Śląskich|6|6|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Bytom|*WIERZCHLAS|Bytom
+A2961|*30-073|30-065|KRAKÓW|Kraków|*Goetla|ul. Goetla|45|45|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344824|43-300|43-300|BIELSKO-BIAŁA|Bielsko-Biała|*Jutrzenki|ul. Jutrzenki|22|22|||ŚLĄSKIE|ŚLĄSKIE|*|Bielsko-Biała|*|Bielsko-Biała
+ZA1314199|37-125|37-125|CZARNA|Czarna|||393|393|||PODKARPACKIE|PODKARPACKIE|ŁAŃCUCKI|łańcucki|CZARNA|Czarna
+A2983|30-347|30-347|Kraków|Kraków|*Kapelanka|ul. Kapelanka|3|3|63|63|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2986|*31-875|30-233|KRAKÓW|Kraków|*os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|51|303 51|99|99|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2987|*30-363|30-349|KRAKÓW|Kraków|*Miłkowskiego|ul. Miłkowskiego|8|8|51|51|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2998|30-049|30-049|Kraków|Kraków|*Czarnowiejska|ul. Czarnowiejska|73|73|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1190545|31-135|31-135|*KRAKOW|Kraków|*Batorego|ul. Stefana Batorego|4a|4a|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3009|30-316|30-316|KRAKÓW|Kraków|*Słomiana|ul. Słomiana|21|21|45|45|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3010|31-221|31-221|Kraków|Kraków|*Białoprądnicka|ul. Białoprądnicka|24A|24A|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3030|30-072|30-072|*Krakow|Kraków|*Nawojki|ul. Nawojki|6|6|79|79|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3036|30-147|30-147|Kraków|Kraków|*Na Błonie|ul. Na Błonie|9a|9a|281|281|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3039|*31-529|30-233|Kraków|Kraków|*os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|46|303 46|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3055|31-807|31-807|Kraków|Kraków|*Osiedle Strusia|os. Osiedle Józefa Strusia|3|3|69|69|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3064|30-682|30-682|Kraków|Kraków|*Spółdzielców|ul. Spółdzielców|15|15|92|92|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3066|31-002|31-002|KRAKÓW|Kraków|*Poselska|ul. Poselska|20|20|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3084|30-395|30-395|Kraków|Kraków|*OBROŃCÓW HELU|ul. Obrońców Helu|3|3|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3087|30-629|30-629|KRAKÓW|Kraków|*Dauna|ul. Dauna|32|32|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3088|*31-542|31-408|KRAKÓW|Kraków|*Sądowa|ul. Sadowa|7|7|27|27|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3129|30-150|30-150|Kraków|Kraków|*Armii Krajowej|ul. Armii Krajowej|93|93|45|45|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1888914|96-100|96-100|SKIERNIEWICE|Skierniewice|*Unii Europejskiej|ul. Unii Europejskiej|18|18|||*|ŁÓDZKIE|*|Skierniewice|*|Skierniewice
+A3141|*31-875|30-233|Kraków|Kraków|*os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|43|303 43|23|23|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A3152|*30-830|30-809|KRAKÓW|Kraków|*Ściegiennego|ul. Ściegiennego|69|69|192|192|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3157|30-619|30-619|Kraków|Kraków|*Gołaśka|ul. Gołaśka|6|6|24|24|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3162|*31-874|30-233|KRAKÓW|Kraków|*os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|40|303 40|31|31|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3170|32-061|32-061|PRZEGINIA DUCHOWNA|Przeginia Duchowna|||67|67|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|CZERNICHÓW|Czernichów
+A3178|30-133|30-133|Kraków|Kraków|*Juliusza Lea|ul. Lea|219|219|33|33|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3184|32-050|32-050|Skawina|Skawina|*Spółdzielcza|ul. Spółdzielcza|2|2|9|9|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|SKAWINA|Skawina
+A1344633|34-600|34-600|LIMANOWA|Limanowa|*Tarnowska|ul. Tarnowska|1|1|||*|MAŁOPOLSKIE|*|limanowski|*|Limanowa
+A7785|*30-252|30-251|*Krakow|Kraków|*Żemaitisa|ul. Żemaitisa|12|12|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A3212|30-085|30-085|Kraków|Kraków|*Grenadierów|ul. Grenadierów|1|1|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3224|31-066|31-066|Kraków|Kraków|ul. Skawińska|ul. Skawińska|15|15|9|9|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3225|31-419|31-419|KRAKÓW|Kraków|*Rozrywka|ul. Rozrywka|20|20|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2665|30-055|30-055|Kraków|Kraków|*Kawiory|ul. Kawiory|39|39|13|13|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2690|30-065|30-065|*Krakow|Kraków|*Chodowieckiego|ul. Chodowieckiego|7|7|27|27|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A38698|04-979|04-979|WARSZAWA|Warszawa|*Popradzka|ul. Popradzka|14|14|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A2692|30-129|30-129|KRAKÓW|Kraków|*Bandtkiego|ul. Bandtkiego|11|11|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2693|30-658|30-658|KRAKÓW|Kraków|*Łużycka|ul. Łużycka|51|51|74|74|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2694|32-700|32-700|BOCHNIA|Bochnia|ul. Karosek|ul. Karosek|79a|79a|||MAŁOPOLSKIE|MAŁOPOLSKIE|*KRAKÓW|bocheński|*KRAKÓW|Bochnia
+A2702|30-058|30-058|Kraków|Kraków|*Lea|ul. Lea|115|115|54|54|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A21645692|33-100|33-100|TARNÓW|Tarnów|*Kaczkowskiego|ul. Kaczkowskiego|6|6|||*|MAŁOPOLSKIE|*|Tarnów|*|Tarnów
+A2705|30-147|30-147|KRAKÓW|Kraków|*Na Błonie|ul. Na Błonie|9|9|27|27|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2709|31-444|31-444|KRAKÓW|Kraków|*Ostatnia|ul. Ostatnia|2 H|2 H|63|63|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2711|30-112|30-112|KRAKÓW|Kraków|*Dunin-Wąsowicza|ul. Dunin-Wąsowicza|26|26|20|20|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2716|31-107|31-107|Kraków|Kraków|*Smoleńsk|ul. Smoleńsk|12|12|12|12|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2728|30-074|30-074|*Krakow|Kraków|*Kazimierza Wielkiego|ul. Kazimierza Wielkiego|79|79|12|12|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2740|*31-871|30-233|KRAKÓW|Kraków|*Osiedle Dywizjonu 303|rondo Rondo 308 Dywizjonu|50|303 50|26|26|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2742|30-868|30-868|Kraków|Kraków|*Kurczaba|ul. Kurczaba|12|12|26|26|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2763|*31-422|31-423|Kraków|Kraków|*Łepkowskiego|ul. Łepkowskiego|2|2|66|66|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2769|30-054|30-054|Kraków|Kraków|*Spokojna|ul. Spokojna|17|17|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1883946|31-939|31-939|KRAKÓW|Kraków|*OS. KOLOROWE|os. Osiedle Kolorowe|11A|11A|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1190359|30-072|30-072|KRAKÓW|Kraków|*Budryka|ul. Budryka|7|7|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2787|*31-875|30-233|Kraków|Kraków|*os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|51|303 51|104|104|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2789|30-066|30-066|Kraków|Kraków|*Beniowskiego|ul. Beniowskiego|13|13|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344820|67-100|67-100|NOWA SÓL|Nowa Sól|*Wrocławska|ul. Wrocławska|29|29|11|11|*|LUBUSKIE|*|nowosolski|*|Nowa Sól
+A2796|30-150|30-150|KRAKÓW|Kraków|*Armii Krajowej|ul. Armii Krajowej|77|77|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2800|30-227|30-227|KRAKÓW|Kraków|*Al.Kasztanowa|al. Aleja Kasztanowa|12|12|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2805|*31-957|31-422|KRAKÓW|Kraków|*Strzelców|ul. Strzelców|15B|15B|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19354|31-315|31-315|KRAKÓW|Kraków|*Radzikowskiego|ul. Radzikowskiego|77|77|39|39|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2827|30-051|30-051|*KRAKOW|Kraków|*Urzednicza|ul. Urzędnicza|3|3|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2836|*20-059|30-052|KRAKÓW|Kraków|*Lea|ul. Lea|53|53|44|44|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2843|*31-045|30-611|Kraków|Kraków|*Bojki|ul. Bojki|1|1|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1879301|41-902|41-902|BYTOM|Bytom|*Parkowa|ul. Parkowa|2|2|||*|ŚLĄSKIE|*|Bytom|*|Bytom
+A19346|30-218|30-218|KRAKÓW|Kraków|*ROBLA|ul. Robla|1|1|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1347758|50-237|50-237|WROCŁAW|Wrocław|*Kręta|ul. Kręta|5|5|5|5|*|DOLNOŚLĄSKIE|*|Wrocław|*|Wrocław
+A2875|32-020|32-020|WIELICZKA|Wieliczka|*AYWASA|ul. Aywasa|8|8|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A2876|31-436|31-436|KRAKÓW|Kraków|*Wieniawskiego|ul. Wieniawskiego|19|19|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2877|*30-698|31-701|KRAKÓW|Kraków|*Jar|ul. Zielony Jar|11|11|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19341|*30-648|30-638|Kraków|Kraków|*Czarnogórska|ul. Czarnogórska|6|6|44|44|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1332079|39-300|39-300|MIELEC|Mielec|*Kocjana|ul. Kocjana|7|7|22|22|PODKARPACKIE|PODKARPACKIE|MIELECKI|mielecki|MIELEC|Mielec
+A2882|31-315|31-315|KRAKÓW|Kraków|*Radzikowskiego|ul. Radzikowskiego|77|77|39|39|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344822|57-250|57-250|ZŁOTY STOK|Złoty Stok|*Wojska Polskiego|ul. Wojska Polskiego|1|1|||*|DOLNOŚLĄSKIE|*|ząbkowicki|*|Złoty Stok
+A2907|32-020|32-020|WIELICZKA|Wieliczka|*AYWASA|ul. Aywasa|8|8|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A1344823|40-301|40-301|KATOWICE|Katowice|*Budowlana|ul. Budowlana|5|5|||*|ŚLĄSKIE|*|Katowice|*|Katowice
+A3447|30-074|30-074|KRAKÓW|Kraków|*Kazimierza Wielkiego|ul. Kazimierza Wielkiego|57|57|15-16|15-16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3456|30-619|30-619|KRAKÓW|Kraków|*Gołaśka|ul. Gołaśka|15|15|24|24|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19185|*|30-669|KRAKÓW|Kraków|*Okolna|ul. Okólna|3|3|81|81|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1893432|32-050|32-050|SKAWINA|Skawina|*Leśna|ul. Leśna|130|130|1|1|*|MAŁOPOLSKIE|*|krakowski|*|Skawina
+A1937|31-202|31-202|Kraków|Kraków|*Prądnicka|ul. Prądnicka|66|66|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1950|32-084|32-084|MNIKÓW|Mników|||167|167|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|LISZKI|Liszki
+A1953|30-657|30-657|KRAKÓW|Kraków|*Gromady Grudziaż|ul. Gromady Grudziąż|19|19|25|25|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1961|30-133|30-133|Kraków|Kraków|*Juliusza Lea|ul. Lea|158|158|12|12|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1963|30-123|30-123|KRAKÓW|Kraków|*STASZCZYKA|ul. Staszczyka|3|3|40|40|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1967|32-020|32-020|Wieliczka|Wieliczka|*os.Kosciuszki|ul. Kościuszki|4|4|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A1977|*31-228|31-223|KRAKÓW|Kraków|*Pachonskiego|ul. Pachońskiego|6|6|30|30|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1978|32-084|32-084|MNIKÓW|Mników|||106|106|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|LISZKI|Liszki
+A1981|31-303|31-303|KRAKÓW|Kraków|*Stachiewicza|ul. Stachiewicza|23|23|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1997|30-395|30-395|KRAKÓW|Kraków|*Mochnaniec|ul. Mochnaniec|2|2|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1998|31-344|31-344|KRAKÓW|Kraków|*Ojcowska|ul. Ojcowska|31|31|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2003|30-538|30-538|KRAKÓW|Kraków|*Radosna|ul. Radosna|3|3|13|13|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1185832|31-935|31-935|KRAKÓW|Kraków|*os.Handlowe|os. Osiedle Handlowe|5|5|25|25|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2015|32-420|32-420|GDÓW|Gdów|*ŁAPANOWSKA|ul. Łapanowska|345|345|||MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|*WIELICZKA|Gdów
+A2017|32-060|32-060|KASZÓW|Kaszów|||540|540|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|LISZKI|Liszki
+A2030|30-091|30-091|KRAKÓW|Kraków|*Bronowicka|ul. Bronowicka|69|69|108|108|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A2031|31-261|31-261|KRAKÓW|Kraków|*Wybickiego|ul. Wybickiego|3|3|85|85|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2032|32-084|32-084|MNIKÓW|Mników|||61|61|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|LISZKI|Liszki
+ZA1331288|*31-103|30-864|KRAKÓW|Kraków|*Mała|ul. Mała Góra|3|3|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1905177|83-110|83-110|TCZEW|Tczew|ul. Jagiellońska|ul. Jagiellońska|55U|55U|||POMORSKIE|POMORSKIE|*|tczewski|*|Tczew
+ZA1330991|32-060|32-060|LISZKI|Liszki|||49|49|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|LISZKI|Liszki
+A1879797|32-410|32-410|DOBCZYCE|Dobczyce|*Zarabie|ul. Zarabie|2E|2E|||*|MAŁOPOLSKIE|*|myślenicki|*|Dobczyce
+A2043|30-394|30-394|KRAKÓW|Kraków|*Skotnicka|ul. Skotnicka|97|97|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2044|32-700|32-700|CIKOWICE|Cikowice|||34|34|||MAŁOPOLSKIE|MAŁOPOLSKIE|BOCHEŃSKI|bocheński|BOCHNIA|Bochnia
+A2048|31-422|31-422|KRAKÓW|Kraków|*Strzelców|ul. Strzelców|15A|15A|61|61|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2064|31-106|31-106|KRAKÓW|Kraków|*Plac Kossaka|pl. Plac Juliusza Kossaka|2|2|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2066|30-698|30-698|KRAKÓW|Kraków|*Jacka Szarskiego|ul. Szarskiego|20a|20a|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2070|30-150|30-150|Kraków|Kraków|*Armii Krajowej|ul. Armii Krajowej|7|7|44|44|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2056|30-699|30-699|KRAKÓW|Kraków|*Drużbackiej|ul. Drużbackiej|89|89|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2082|30-074|30-074|Kraków|Kraków|*Kazimierza Wielkiego|ul. Kazimierza Wielkiego|113|113|45|45|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1901237|*81-394|81-393|GDYNIA|Gdynia|*Żwirki i Wigury|ul. Żwirki i Wigury|9|9|2|2|*|POMORSKIE|*|Gdynia|*|Gdynia
+A2096|30-868|30-868|*Krakow|Kraków|*Kurczaba|ul. Kurczaba|9|9|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2109|30-864|30-864|KRAKÓW|Kraków|*Mała Góra|ul. Mała Góra|20|20|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19516|32-082|32-082|BOLECHOWICE|Bolechowice|*Zielona|ul. Zielona Boczna|245|245|||*ŁÓDZKIE|MAŁOPOLSKIE|*|krakowski|*|Zabierzów
+A2114|30-349|30-349|KRAKÓW|Kraków|*Lipińskiego|ul. Lipińskiego|18|18|43|43|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8160|*30-438|30-440|KRAKÓW|Kraków|*Marusarzówny|ul. Marusarzówny|27|27|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19509|30-103|30-103|KRAKÓW|Kraków|*Tatarska|ul. Tatarska|5|5|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+ZA1330560|30-334|30-334|KRAKÓW|Kraków|*Komandosów|ul. Komandosów|5|5|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1878448|08-410|08-410|WOLA RĘBKOWSKA|Wola Rębkowska|*Przemysłowa|ul. Przemysłowa|58|58|||*|MAZOWIECKIE|*|garwoliński|*|Garwolin
+A2158|*31-612|30-612|Kraków|Kraków|*Witosa|ul. Witosa|37|37|40|40|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+ZA1330360|30-230|30-230|KRAKÓW|Kraków|*Jeleniowa|ul. Jeleniowa|6|6|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2165|30-150|30-150|Kraków|Kraków|*Armii Krajowej|ul. Armii Krajowej|7|7|114|114|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344917|00-195|00-195|WARSZAWA|Warszawa|*Słomińskiego|ul. Słomińskiego|15|15|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A2178|30-611|30-611|KRAKÓW|Kraków|*Beskidzka|ul. Beskidzka|41|41|77|77|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344918|30-243|30-243|KRAKÓW|Kraków|*Księcia Józefa|ul. Józefa|148a|148a|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2147|*|30-298|*Krakow|Kraków|*Jadwigi|ul. Majówny|8|8|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A2183|30-404|30-404|KRAKÓW|Kraków|*Cegielniana|ul. Cegielniana|24|24|12|12|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2187|30-069|30-069|Kraków|Kraków|*Obopólna|ul. Obopólna|3|3|15|15|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344919|*31-217|30-611|KRAKÓW|Kraków|*Wysłouchów|ul. Wysłouchów|46|46|64|64|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344930|31-928|31-928|KRAKÓW|Kraków|*oś.Centrum B|os. Osiedle Centrum B|11|11|58|58|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A19468|*31-139|31-039|KRAKÓW|Kraków|*Dietla|ul. Dietla|64|64|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A2231|30-611|30-611|*Krakow|Kraków|*Halszki|ul. Halszki|11|11|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2241|30-047|30-047|KRAKÓW|Kraków|*Szymanowskiego|ul. Szymanowskiego|1|1|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2243|30-611|30-611|Kraków|Kraków|*Zubrzyckiego|ul. Sas-Zubrzyckiego|9|9|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2267|31-351|31-351|KRAKÓW|Kraków|*Zielony Most|ul. Zielony Most|7|7|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2271|30-660|30-660|KRAKÓW|Kraków|*Trybuny Ludów|ul. Trybuny Ludów|46|46|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2285|30-071|30-071|Kraków|Kraków|*Skarbińskiego|ul. Skarbińskiego|24|24|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8010|31-617|31-617|KRAKÓW|Kraków|*os. Złotego Wieku|os. Osiedle Złotego Wieku|28|28|44|44|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344925|*02-525|02-593|WARSZAWA|Warszawa|*Biały Kamień|ul. Biały Kamień|8B|8B|18|18|MAZOWIECKIE|MAZOWIECKIE|WARSZAWA|Warszawa|*MOKOTÓW|Warszawa
+A2334|31-413|31-413|Kraków|Kraków|*Wileńska|ul. Wileńska|9a|9a|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2354|30-505|30-505|KRAKÓW|Kraków|*Mitery|ul. Mitery|13|13|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1915060|31-141|31-141|KRAKÓW|Kraków|*Krowoderska|ul. Krowoderska|21|21|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A40047|*30-401|30-363|*KRAKOW|Kraków|*Rydlowka|ul. Rydlówka|5|5|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A2381|31-324|31-324|Kraków|Kraków|*Różyckiego|ul. Różyckiego|7|7|103|103|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2384|31-235|31-235|KRAKÓW|Kraków|*Suche Łąki|ul. Suche Łąki|9|9|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A40048|*31-587|31-574|KRAKÓW|Kraków|*Ciepłownicza|ul. Ciepłownicza|54|54|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A2389|31-027|31-027|Kraków|Kraków|*Mikołajska|ul. Mikołajska|7|7|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2393|30-239|30-239|KRAKÓW|Kraków|*Niezapominajek|ul. Niezapominajek|5|5|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2399|30-316|30-316|Kraków|Kraków|*Słomiana|ul. Słomiana|22|22|73|73|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2404|43-100|43-100|TYCHY|Tychy|Al.Niepodległości|al. Niepodległości|31|31|27|27|ŚLĄSKIE|ŚLĄSKIE|TYCHY|Tychy|TYCHY|Tychy
+A2411|30-129|30-129|KRAKÓW|Kraków|*Cicha|ul. Cicha|17|17|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2427|32-084|32-084|CHROSNA|Chrosna|||116|116|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|LISZKI|Liszki
+A2428|30-657|30-657|Kraków|Kraków|*Gromady Grudziąż|ul. Gromady Grudziąż|23|23|11|11|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2437|31-422|31-422|KRAKÓW|Kraków|*Strzelców|ul. Strzelców|9A|9A|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+ZA1291389|30-075|30-075|KRAKÓW|Kraków|*Racławicka|ul. Racławicka|14|14|31|31|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1752|31-217|31-217|*Krakow|Kraków|*Grazyny|ul. Grażyny|9|9|21|21|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1758|*31-228|31-229|KRAKÓW|Kraków|*Danka|ul. Danka|5|5|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1762|30-095|30-095|Kraków|Kraków|*Złoty Róg|ul. Złoty Róg|32|32|92|92|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1763|30-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|77|77|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1767|30-826|30-826|KRAKÓW|Kraków|*Bieżanowska|ul. Bieżanowska|84|84|104|104|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1768|31-422|31-422|KRAKÓW|Kraków|*Strzelców|ul. Strzelców|17|17|69|69|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1770|*31-875|30-233|KRAKÓW|Kraków|*os.Dywizjonu 303|rondo Rondo 308 Dywizjonu|43|303 43|67|67|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1773|31-422|31-422|Kraków|Kraków|*Majora|ul. Majora|28|28|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1774|30-316|30-316|*Krakow|Kraków|*Słomiana|ul. Słomiana|9|9|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1776|32-087|32-087|ZIELONKI|Zielonki|ul.Sympatyczna|ul. Sympatyczna|24|24|||MAŁOPOLSKIE|MAŁOPOLSKIE|*KRAKÓW|krakowski|*KRAKÓW|Zielonki
+A1778|*31-462|31-457|KRAKÓW|Kraków|*Meissnera|ul. Meissnera|6|6|143|143|*ŁÓDZKIE|MAŁOPOLSKIE|*ZDUŃSKOWOLSKI|Kraków|*ZAPOLICE|Kraków
+A1781|30-150|30-150|KRAKÓW|Kraków|*Armii Krajowej|ul. Armii Krajowej|87|87|21|21|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1783|30-010|30-010|Kraków|Kraków|*Składowa|ul. Składowa|14|14|20|20|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1784|30-444|30-444|LIBERTÓW|Libertów|*LIGUSTROWA|ul. Ligustrowa|21|21|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|MOGILANY|Mogilany
+A1785|*30-005|30-065|Kraków|Kraków|*Chodowieckiego|ul. Chodowieckiego|7|7|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1786|30-147|30-147|KRAKÓW|Kraków|*Na Błonie|ul. Na Błonie|3b|3b|86|86|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1789|31-831|31-831|KRAKÓW|Kraków|*Cienista|ul. Cienista|39|39|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1791|32-020|32-020|Wieliczka|Wieliczka|*Lednicka|ul. Lednicka|5|5|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A1793|30-218|30-218|KRAKÓW|Kraków|*Królowej Jadwigi|ul. Jadwigi|314|314|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1798|31-126|31-126|KRAKÓW|Kraków|*Czarnowiejska|ul. Czarnowiejska|3/5|3/5|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1800|30-073|30-073|Kraków|Kraków|*Reymonta|ul. Reymonta|44|44|11|11|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1801|30-404|30-404|KRAKÓW|Kraków|*Nowotarska|ul. Nowotarska|6|6|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1803|*30-437|30-498|KRAKÓW|Kraków|*Wachholza|ul. Wachholza|18|18|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1804|*30-681|30-724|*Krakow|Kraków|*Seweryna|ul. Goszczyńskiego|14|14|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1806|*30-014|30-011|Kraków|Kraków|*OBOŹNA|ul. Oboźna|11|11|27|27|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1807|30-071|30-071|Kraków|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|49|49|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1809|*31-965|31-962|*Krakow|Kraków|*Os.Krakowiaków|os. Osiedle Krakowiaków|5|5|55|55|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1810|31-153|31-153|KRAKÓW|Kraków|*Szlak|ul. Szlak|20|20|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1814|30-054|30-054|KRAKÓW|Kraków|*Spokojna|ul. Spokojna|32|32|24|24|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1816|30-071|30-071|KRAKÓW|Kraków|*Skarbinskiego|ul. Skarbińskiego|2|2|89|89|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1817|30-838|30-838|Kraków|Kraków|*Telimeny|ul. Telimeny|17|17|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1819|30-240|30-240|KRAKÓW|Kraków|*Zakamycze|ul. Zakamycze|62|62|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1820|31-413|31-413|Kraków|Kraków|*Wileńska|ul. Wileńska|9|9|24|24|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1825|30-868|30-868|KRAKÓW|Kraków|*Kurczaba|ul. Kurczaba|33|33|65|65|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1828|30-009|30-009|KRAKÓW|Kraków|*Friedleina|ul. Friedleina|40|40|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1829|30-150|30-150|*Krakow|Kraków|*Armii Krajowej|ul. Armii Krajowej|89|89|28|28|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1833|30-014|30-014|Kraków|Kraków|*Litewska|ul. Litewska|22|22|66|66|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1835|31-033|31-033|KRAKÓW|Kraków|*Westerplatte|ul. Westerplatte|5|5|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1837|30-347|30-347|KRAKÓW|Kraków|*Kapelanka|ul. Kapelanka|3|3|29|29|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1843|30-079|30-079|KRAKÓW|Kraków|*Królewska|ul. Królewska|94|94|27|27|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1845|30-408|30-408|*Krakow|Kraków|*Odrzańska|ul. Odrzańska|4|4|93|93|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1847|31-532|31-532|KRAKÓW|Kraków|*Prochowa|ul. Prochowa|5|5|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1850|32-095|32-095|WIDOMA|Widoma|||58|58|||MAŁOPOLSKIE|MAŁOPOLSKIE|*PROSZOWICKI|krakowski|*PROSZOWICE|Iwanowice
+A1853|31-344|31-344|Kraków|Kraków|*Ojcowska|ul. Ojcowska|23A|23A|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7924|30-150|30-150|KRAKÓW|Kraków|*Armii Krajowej|ul. Armii Krajowej|85|85|44|44|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7926|30-079|30-079|KRAKÓW|Kraków|*Al.Kijowska|al. Aleja Kijowska|48|48|61|61|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7928|31-419|31-419|KRAKÓW|Kraków|*Kwartowa|ul. Kwartowa|1|1|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7929|30-316|30-316|Kraków|Kraków|*Słomiana|ul. Słomiana|20|20|60|60|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7930|31-231|31-231|KRAKÓW|Kraków|*Siewna|ul. Siewna|23b|23b|31|31|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8526|*31-413|30-689|Kraków|Kraków|*Łamana|ul. Łamana|4|4|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7938|32-020|32-020|Wieliczka|Wieliczka|*Siemiradzkiego|ul. Siemiradzkiego|22|22|||MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A7940|30-548|30-548|KRAKÓW|Kraków|*Lwowska|ul. Lwowska|16|16|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7941|31-540|31-540|KRAKÓW|Kraków|*Rzeźnicza|ul. Rzeźnicza|2|2|37|37|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7942|30-364|30-364|Kraków|Kraków|*Kamieniarska|ul. Kamieniarska|31|31|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7943|31-065|31-065|*Krakow|Kraków|*Paulinska|ul. Paulińska|2|2|13|13|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7944|30-334|30-334|KRAKÓW|Kraków|*Komandosów|ul. Komandosów|10|10|36|36|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7809|32-566|32-566|Alwernia|Alwernia|*Rynek|rynek Rynek|4|4|||MAŁOPOLSKIE|MAŁOPOLSKIE|CHRZANOWSKI|chrzanowski|ALWERNIA|Alwernia
+A7949|30-316|30-316|KRAKÓW|Kraków|*Słomiana|ul. Słomiana|15|15|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7953|30-150|30-150|KRAKÓW|Kraków|*Armii Krajowej|ul. Armii Krajowej|7|7|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7954|30-085|30-085|KRAKÓW|Kraków|*Grenadierów|ul. Grenadierów|1|1|9|9|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7957|30-072|30-072|KRAKÓW|Kraków|*Budryka|ul. Budryka|9|9|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+ZA1344842|42-624|42-624|OSSY|Ossy|*Leśna|ul. Leśna|2A|2A|||ŚLĄSKIE|ŚLĄSKIE|TARNOGÓRSKI|tarnogórski|OŻAROWICE|Ożarowice
+A7811|30-085|30-085|KRAKÓW|Kraków|*GRENADIERÓW|ul. Grenadierów|1|1|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7211|*30-939|31-939|KRAKÓW|Kraków|*os.Kolorowe|os. Osiedle Kolorowe|12|12|83|83|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7210|*30-312|30-311|Kraków|Kraków|*WIERZBOWA|ul. Wierzbowa|4|4|9|9|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7962|31-651|31-651|KRAKÓW|Kraków|*Mistrzejowicka|ul. Mistrzejowicka|49|49|35|35|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7208|30-023|30-023|Kraków|Kraków|*Mazowiecka|ul. Mazowiecka|131|131|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7965|30-513|30-513|*Krakow|Kraków|*Smolki|ul. Smolki|12b|12b|5|5|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A7966|31-015|31-015|KRAKÓW|Kraków|*PIJARSKA|ul. Pijarska|5|5|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7967|31-044|31-044|KRAKÓW|Kraków|*Grodzka|ul. Grodzka|60|60|21|21|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344954|30-059|30-059|KRAKÓW|Kraków|*al. Mickiewicza 30|al. Aleja Adama Mickiewicza||30|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+ZA1315691|30-091|30-091|KRAKÓW|Kraków|*Bronowicka|ul. Bronowicka|71|71|98|98|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7972|31-214|31-214|KRAKÓW|Kraków|*Mackiewicza|ul. Mackiewicza|16|16|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7801|*30-109|30-108|KRAKÓW|Kraków|*Borelowskiego-Lelewela|ul. Borelowskiego-Lelewela|8|8|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7154|30-809|30-809|KRAKÓW|Kraków|*Ściegiennego|ul. Ściegiennego|73|73|126|126|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A9342|31-934|31-934|Kraków|Kraków|*OŚ. CENTRUM E|os. Osiedle Centrum E|17|17|15|15|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1907194|*37-464|37-450|PILCHÓW|Pilchów|*Lawendowa|ul. Lawendowa|1|1|||*|PODKARPACKIE|*|stalowowolski|*|Zaleszany
+A7977|31-422|31-422|KRAKÓW|Kraków|*Strzelców|ul. Strzelców|21|21|34|34|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7805|30-856|30-856|KRAKÓW|Kraków|*Imielna|ul. Imielna|8|8|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7979|31-201|31-201|KRAKÓW|Kraków|*Bratysławska|ul. Bratysławska|2|2|B84|B84|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7100|31-540|31-540|Kraków|Kraków|*Semperitowców|ul. Semperitowców|7|7|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7792|31-620|31-620|Kraków|Kraków|*Bohaterów Wrzesnia|os. Osiedle Bohaterów Września|17|17|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7982|32-015|32-015|KŁAJ|Kłaj|||464|464|||MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|KŁAJ|Kłaj
+A7983|30-075|30-075|KRAKÓW|Kraków|*Racławicka|ul. Racławicka|24|24|39|39|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7992|30-133|30-133|KRAKÓW|Kraków|*Lea|ul. Lea|210 B|210 B|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7994|30-658|30-658|Kraków|Kraków|*Łużycka|ul. Łużycka|53|53|100|100|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7995|32-052|32-052|RADZISZÓW|Radziszów|*Cicha|ul. Cicha|3|3|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|SKAWINA|Skawina
+A7996|*00-000|31-052|Kraków|Kraków|*Starowiślna|ul. Starowiślna|81|81|12|12|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7045|32-020|32-020|WIELICZKA|Wieliczka|*Piłsudskiego|ul. Piłsudskiego|72 A|72 A|||MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A1881161|02-271|02-271|WARSZAWA|Warszawa|*Centralna|ul. Centralna|28|28|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A7998|30-076|30-076|KRAKÓW|Kraków|*Zakątek|ul. Zakątek|13|13|35|35|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A7999|31-410|31-410|KRAKÓW|Kraków|*Białych Brzóz|ul. Białych Brzóz|5|5|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8001|32-566|32-566|REGULICE|Regulice|*Bazaltowa|ul. Bazaltowa|1|1|||MAŁOPOLSKIE|MAŁOPOLSKIE|CHRZANOWSKI|chrzanowski|ALWERNIA|Alwernia
+A7791|30-109|30-109|Kraków|Kraków|*Bolesława Prusa|ul. Prusa|11|11|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8003|30-057|30-057|KRAKÓW|Kraków|*Chocimska|ul. Chocimska|1|1|29|29|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7855|31-157|31-157|KRAKÓW|Kraków|*pl. Matejki|pl. Plac Jana Matejki|6|6|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8007|30-069|30-069|KRAKÓW|Kraków|*Obopólna|ul. Obopólna|3|3|26|26|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8012|31-235|31-235|Kraków|Kraków|*os.Witkowice Nowe|os. Osiedle Witkowice Nowe|42|42|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8014|30-619|30-619|KRAKÓW|Kraków|*Gołaśka|ul. Gołaśka|11|11|37|37|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+ZA1334632|30-835|30-835|KRAKÓW|Kraków|*Teligi|ul. Teligi|4|4|49|49|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8017|30-069|30-069|*Krakow|Kraków|*Obopolna|ul. Obopólna|3|3|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6968|30-072|30-072|KRAKÓW|Kraków|*Nawojki|ul. Nawojki|4|4|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8018|30-611|30-611|KRAKÓW|Kraków|*Beskidzka|ul. Beskidzka|35|35|21|21|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6965|30-551|30-551|Kraków|Kraków|*Limanowskiego|ul. Limanowskiego|41|41|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6962|31-463|31-463|KRAKÓW|Kraków|*Narzymskiego|ul. Narzymskiego|24|24|35|35|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6960|30-323|30-323|KRAKÓW|Kraków|*Tyniecka|ul. Tyniecka|10b|10b|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8019|30-130|30-130|KRAKÓW|Kraków|*Rydla|ul. Rydla|6|6|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6952|31-261|31-261|Kraków|Kraków|*Rusznikarska|ul. Rusznikarska|13|13|56|56|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8020|30-110|30-110|KRAKÓW|Kraków|*Filarecka|ul. Filarecka|24|24|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8022|31-464|31-464|*KRAKOW|Kraków|*Widna|ul. Widna|26|26|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8024|31-564|31-564|KRAKÓW|Kraków|*Widok|ul. Widok|14|14|26|26|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8026|30-611|30-611|KRAKÓW|Kraków|*Jakuba Bojki|ul. Bojki|1|1|26|26|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8028|*30-611|30-612|KRAKÓW|Kraków|*Daliowa|ul. Daliowa|8|8|47|47|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8029|30-868|30-868|Kraków|Kraków|*Kurczaba|ul. Kurczaba|7|7|50|50|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8031|31-538|31-538|*Krakow|Kraków|*Siedleckiego|ul. Siedleckiego|1|1|11|11|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A8032|31-276|31-276|KRAKÓW|Kraków|*Opolska|ul. Opolska|21|21|89|89|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1343883|64-920|64-920|PIŁA|Piła|*Śniadeckich|ul. Śniadeckich|5a|5a|9|9|WIELKOPOLSKIE|WIELKOPOLSKIE|PILSKI|pilski|PIŁA|Piła
+A8035|30-150|30-150|KRAKÓW|Kraków|*Armii Krajowej|ul. Armii Krajowej|87|87|61|61|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1343884|64-920|64-920|PIŁA|Piła|*Kadetów|ul. Kadetów|49|49|||WIELKOPOLSKIE|WIELKOPOLSKIE|PILSKI|pilski|PIŁA|Piła
+A8037|32-090|32-090|WAGANOWICE|Waganowice|||53|53|||MAŁOPOLSKIE|MAŁOPOLSKIE|*KRAKÓW|krakowski|*KRAKÓW|Słomniki
+A8042|30-334|30-334|KRAKÓW|Kraków|*Komandosów|ul. Komandosów|12|12|70|70|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6830|*31-559|31-560|*KRAKOW|Kraków|*Na szaniec|ul. Na Szaniec|10|10|7|7|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A7857|30-065|30-065|KRAKÓW|Kraków|*Walerego Goetla|ul. Goetla|30|30|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7858|31-160|31-160|KRAKÓW|Kraków|*Kolberga|ul. Kolberga|7|7|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7859|30-065|30-065|KRAKÓW|Kraków|*Piastowska|ul. Piastowska|35|35|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6802|*30-083|30-069|KRAKÓW|Kraków|*Smoluchowskiego|ul. Smoluchowskiego|10|10|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6799|30-529|30-529|Kraków|Kraków|*JÓZEFIŃSKA|ul. Józefińska|5|5|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6774|30-612|30-612|KRAKÓW|Kraków|*Witosa|ul. Witosa|35|35|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1744902|43-200|43-200|PSZCZYNA|Pszczyna|*ul.Moniuszki 55|ul. Moniuszki||55|||*|ŚLĄSKIE|*|pszczyński|*|Pszczyna
+A8046|30-334|30-334|KRAKÓW|Kraków|*Komandosów|ul. Komandosów|5|5|69|69|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8047|*31-071|30-071|KRAKÓW|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|25|25|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6767|30-440|30-440|KRAKÓW|Kraków|*Janowskiego|ul. Janowskiego|104|104|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8048|30-150|30-150|*Krakow|Kraków|*Armii Krajowej|ul. Armii Krajowej|87|87|17|17|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8052|*31-708|31-711|KRAKÓW|Kraków|*Płomyczka|ul. Płomyczka|4|4|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6722|31-117|31-117|KRAKÓW|Kraków|*Wenecja|ul. Wenecja|4A|4A|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6716|30-103|30-103|KRAKÓW|Kraków|*Włóczków|ul. Włóczków|11A|11A|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1661950|31-571|31-571|KRAKÓW|Kraków|*Stanisława Lema|ul. Lema|5|5|57|57|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8056|31-231|31-231|*Krakow|Kraków|*Siewna|ul. Siewna|23|23|33|33|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6699|40-131|40-131|KATOWICE|Katowice|*Broniewskiego|ul. Broniewskiego|1a|1a|50|50|ŚLĄSKIE|ŚLĄSKIE|KATOWICE|Katowice|KATOWICE|Katowice
+A6698|30-071|30-071|Kraków|Kraków|*Skarbińskiego|ul. Skarbińskiego|2|2|110|110|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1654452|*02-489|02-490|WARSZAWA|Warszawa|*Dukatowa|ul. Dukatowa|18|18|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A8060|30-305|30-305|KRAKÓW|Kraków|*Pułaskiego|ul. Pułaskiego|10|10|62|62|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8061|31-422|31-422|KRAKÓW|Kraków|*Strzelców|ul. Strzelców|19a|19a|40|40|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8062|31-069|31-069|KRAKÓW|Kraków|*Smocza|ul. Smocza|8|8|10|10|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6667|*30-830|30-809|KRAKÓW|Kraków|*Ściegiennego|ul. Ściegiennego|57|57|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6666|31-618|31-618|Kraków|Kraków|*oś.Złotego Wieku|os. Osiedle Złotego Wieku|68|68|20|20|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7861|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|5|5|32|32|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6622|30-611|30-611|KRAKÓW|Kraków|ul. Beskidzka|ul. Beskidzka|24|24|47|47|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6582|31-921|31-921|KRAKÓW|Kraków|*OS.STALOWE|os. Osiedle Stalowe|7|7|31|31|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1908544|30-059|30-059|KRAKÓW|Kraków|*Al.Mickiewicza|al. Aleja Adama Mickiewicza|30|30|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1345004|*80-605|80-760|GDAŃSK|Gdańsk|*Sienna|ul. Sienna Grobla|45|45|||*|POMORSKIE|*|Gdańsk|*|Gdańsk
+A7850|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|7|7|12|12|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1907199|35-105|35-105|RZESZÓW|Rzeszów|*Przemysłowa|ul. Przemysłowa|11|11|||*|PODKARPACKIE|*|Rzeszów|*|Rzeszów
+A7822|30-611|30-611|KRAKÓW|Kraków|*Beskidzka|ul. Beskidzka|26|26|9|9|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A6541|30-864|30-864|KRAKÓW|Kraków|*Gardowskiego|ul. Gardowskiego|19|19|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A7847|30-611|30-611|KRAKÓW|Kraków|*Zubrzyckiego|ul. Sas-Zubrzyckiego|8|8|19|19|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1921586|62-030|62-030|LUBOŃ|Luboń|*Jachtowa|ul. Jachtowa|3|3|8|8|*|WIELKOPOLSKIE|*|poznański|*|Luboń
+A18545|30-072|30-072|KRAKÓW|Kraków|*Nawojki|ul. Nawojki|6-8|6-8|33|33|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A18512|30-046|30-046|Kraków|Kraków|*Konarskiego|ul. Konarskiego|52|52|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A18833|30-720|30-720|KRAKÓW|Kraków|*Krzywda|ul. Krzywda|19A|19A|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2453|31-117|31-117|Kraków|Kraków|*Wenecja|ul. Wenecja|4B|4B|4|4|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2458|31-159|31-159|Kraków|Kraków|*al.Słowackiego|al. Aleja Juliusza Słowackiego|9|9|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2464|31-619|31-619|Kraków|Kraków|*Zawieyskiego|ul. Zawieyskiego|4|4|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2465|*|30-698|Kraków|Kraków|*Matematyków|ul. Matematyków Krakowskich|75|75|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2472|30-109|30-109|Kraków|Kraków|*Prusa|ul. Prusa|1|1|8|8|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2473|30-243|30-243|KRAKÓW|Kraków|*Księcia Józefa|ul. Józefa|365|365|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2483|30-830|30-830|KRAKÓW|Kraków|*Nad Potokiem|ul. Nad Potokiem|25|25|25|25|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2497|30-092|30-092|Kraków|Kraków|*Kmietowicza|ul. Kmietowicza|13|13|2|2|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2502|30-334|30-334|KRAKÓW|Kraków|*Komandosów|ul. Komandosów|15|15|22|22|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8736|30-611|30-611|KRAKÓW|Kraków|*Halszki|ul. Halszki|9|9|87|87|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2514|30-389|30-389|KRAKÓW|Kraków|*Wicherkiewicza|ul. Wicherkiewicza|1|1|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2522|30-150|30-150|KRAKÓW|Kraków|*ARMII KRAJOWEJ|ul. Armii Krajowej|93|93|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2523|*30-838|31-327|KRAKÓW|Kraków|*Heleny|ul. Modrzejewskiej|20|20|49|49|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A2524|30-419|30-419|KRAKÓW|Kraków|*Hoffmanowej|ul. Hoffmanowej|1|1|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2537|*31-537|31-534|Kraków|Kraków|*Daszyńskiego|al. Aleja Ignacego Daszyńskiego|20|20|15|15|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2539|31-111|31-111|KRAKÓW|Kraków|*Krasińskiego|al. Aleja Zygmunta Krasińskiego|21|21|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2542|*31-114|30-233|Kraków|Kraków|*Kościuszki|park Park im. Tadeusza Kościuszki|65|65|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2544|30-612|30-612|KRAKÓW|Kraków|*Daliowa|ul. Daliowa|10|10|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2550|32-060|32-060|PIEKARY|Piekary|||285|285|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|LISZKI|Liszki
+A1925201|32-080|32-080|ZABIERZÓW|Zabierzów|*Krakowska|ul. Krakowska|69|69|||*|MAŁOPOLSKIE|*|krakowski|*|Zabierzów
+A1572|30-698|30-698|KRAKÓW|Kraków|*Chrzanowskiego|ul. Chrzanowskiego|48|48|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1573|30-065|30-065|KRAKÓW|Kraków|*Chodowieckiego|ul. Chodowieckiego|5|5|22|22|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1578|30-065|30-065|KRAKÓW|Kraków|*Goetla|ul. Goetla|10|10|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków

@@ -1,0 +1,41 @@
+﻿@page
+@model TerytLoad.Pages.BuildHierarchyModel
+@{
+    ViewData["Title"] = "Budowanie struktury hierarchicznej";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">🏗️ Budowanie struktury hierarchicznej</h1>
+
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <pre style="white-space: pre-wrap; margin: 0; font-family: 'Courier New', monospace; font-size: 14px;">@Model.Message</pre>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card mb-4">
+        <div class="card-header bg-warning text-dark">
+            <h3 class="mb-0">🔨 Zbuduj strukturę hierarchiczną</h3>
+        </div>
+        <div class="card-body">
+            <p class="card-text">Kliknij poniżej, aby zbudować strukturę hierarchiczną Polski na podstawie danych TERYT:</p>
+            <ol>
+                <li><strong>Województwa</strong> - 16 województw</li>
+                <li><strong>Powiaty</strong> - powiaty w każdym województwie</li>
+                <li><strong>Gminy</strong> - gminy w każdym powiecie</li>
+                <li><strong>Miejscowości</strong> - miejscowości w każdej gminie</li>
+                <li><strong>Ulice</strong> - ulice w każdej miejscowości</li>
+            </ol>
+            <p class="text-danger">
+                <strong>UWAGA:</strong> Ta operacja usunie istniejące dane hierarchiczne i zbuduje je od nowa. Proces może potrwać kilka minut.
+            </p>
+            <form method="post" asp-page-handler="Build">
+                <button type="submit" class="btn btn-warning btn-lg">
+                    <span>🏗️</span> Zbuduj strukturę hierarchiczną
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

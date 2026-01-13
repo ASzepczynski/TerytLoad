@@ -1,0 +1,105 @@
+﻿@page
+@model TerytLoad.Pages.SearchAddressesModel
+@{
+    ViewData["Title"] = "Wyszukiwanie adresów";
+}
+
+<div class="container mt-4">
+    <h1>🔍 Masowe wyszukiwanie adresów</h1>
+    <p class="lead">Wpisz adresy do wyszukania kodów pocztowych</p>
+
+    <form method="post" asp-page-handler="Search">
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Dane wejściowe</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Kod pocztowy</th>
+                            <th>Miejscowość *</th>
+                            <th>Ulica</th>
+                            <th>Nr domu</th>
+                            <th>Nr mieszkania</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.Addresses.Count; i++)
+                        {
+                            <tr>
+                                <td>
+                                    <input asp-for="Addresses[i].KodPocztowy" class="form-control" placeholder="XX-XXX" />
+                                </td>
+                                <td>
+                                    <input asp-for="Addresses[i].Miejscowosc" class="form-control" placeholder="np. Warszawa" />
+                                </td>
+                                <td>
+                                    <input asp-for="Addresses[i].Ulica" class="form-control" placeholder="np. Marszałkowska" />
+                                </td>
+                                <td>
+                                    <input asp-for="Addresses[i].NumerDomu" class="form-control" placeholder="np. 10" />
+                                </td>
+                                <td>
+                                    <input asp-for="Addresses[i].NumerMieszkania" class="form-control" placeholder="np. 5" />
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-search"></i> Wyszukaj
+                </button>
+            </div>
+        </div>
+    </form>
+
+    @if (Model.Results.Any())
+    {
+        <div class="card">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0">Wyniki wyszukiwania</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Kod pocztowy</th>
+                            <th>Miejscowość</th>
+                            <th>Ulica</th>
+                            <th>Informacje</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var result in Model.Results)
+                        {
+                            var statusClass = result.Status == "Success" ? "table-success" : 
+                                            result.Status == "MultipleMatches" ? "table-warning" : "table-danger";
+                            <tr class="@statusClass">
+                                <td>
+                                    @if (result.Status == "Success")
+                                    {
+                                        <span class="badge bg-success">✓ Sukces</span>
+                                    }
+                                    else if (result.Status == "MultipleMatches")
+                                    {
+                                        <span class="badge bg-warning">⚠ Wiele</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger">✗ Błąd</span>
+                                    }
+                                </td>
+                                <td>@result.ZnalezionyKodPocztowy</td>
+                                <td>@result.Miejscowosc</td>
+                                <td>@result.Ulica</td>
+                                <td>@result.Message</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>

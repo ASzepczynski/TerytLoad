@@ -1,0 +1,133 @@
+﻿@page
+@model TerytLoad.Pages.IndexModel
+@{
+    ViewData["Title"] = "Strona główna";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">System zarządzania danymi TERYT</h1>
+        <p class="lead">Witaj w systemie importu i zarządzania danymi adresowymi TERYT</p>
+        <p class="text-muted">© 2025-2026 Andrzej Szepczyński</p>
+        
+        <div class="mt-5">
+            <a asp-page="/Database" class="btn btn-primary btn-lg me-2">
+                <i class="bi bi-database"></i> Baza danych
+            </a>
+            <a asp-page="/BuildHierarchy" class="btn btn-info btn-lg me-2">
+                <i class="bi bi-diagram-3"></i> Struktura hierarchiczna
+            </a>
+            <a asp-page="/Browse" class="btn btn-success btn-lg">
+                <i class="bi bi-search"></i> Przeglądarka
+            </a>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-database"></i> Baza danych</h5>
+                    <p class="card-text">Zarządzaj bazą danych, importuj pliki CSV TERYT i ładuj dane z plików ZIP.</p>
+                    <a asp-page="/Database" class="btn btn-primary">Otwórz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-file-text"></i> Ładowanie PNA (CSV)</h5>
+                    <p class="card-text">Załaduj dane PNA (Poczta Polska) z pliku CSV do bazy danych.</p>
+                    <a asp-page="/LoadPnaCsv" class="btn btn-primary">Załaduj</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-diagram-3"></i> Struktura hierarchiczna</h5>
+                    <p class="card-text">Zbuduj hierarchiczną strukturę terytorialną Polski (województwa, powiaty, gminy, miejscowości, ulice).</p>
+                    <a asp-page="/BuildHierarchy" class="btn btn-info">Zbuduj</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mt-3">
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-mailbox"></i> Kody pocztowe</h5>
+                    <p class="card-text">Załaduj kody pocztowe na podstawie danych PNA i struktury hierarchicznej.</p>
+                    <a asp-page="/LoadPostalCodes" class="btn btn-secondary">Załaduj</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-map"></i> Przeglądarka struktury</h5>
+                    <p class="card-text">Przeglądaj hierarchiczną strukturę terytorialną Polski (województwa → powiaty → gminy → miejscowości → ulice).</p>
+                    <a asp-page="/Browse" class="btn btn-success">Przeglądaj</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-table"></i> Surowe dane TERYT</h5>
+                    <p class="card-text">Przeglądaj surowe tabele TERYT (TERC, SIMC, ULIC) bezpośrednio z plików importowanych.</p>
+                    <a asp-page="/BrowseTeryt" class="btn btn-outline-secondary">Przeglądaj</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-4 mb-3">
+            <div class="card h-100 border-success">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-search"></i> Wyszukiwanie</h5>
+                    <p class="card-text">Wyszukaj pojedyncze adresy w bazie danych PNA.</p>
+                    <a asp-page="/Szukaj" class="btn btn-success">Szukaj</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100 border-primary">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-check2-square"></i> Masowa weryfikacja</h5>
+                    <p class="card-text">Masowa weryfikacja adresów z pliku - sprawdź poprawność wielu adresów jednocześnie.</p>
+                    <a asp-page="/VerifyAddresses" class="btn btn-primary">Weryfikuj</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100 border-warning">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-file-pdf"></i> Ładowanie PDF (stare)</h5>
+                    <p class="card-text">Stara metoda ładowania danych PNA z pliku PDF.</p>
+                    <a asp-page="/LoadPdf" class="btn btn-outline-warning">Załaduj</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-info mt-5" role="alert">
+        <h4 class="alert-heading"><i class="bi bi-info-circle"></i> Informacje o systemie</h4>
+        <p>System zarządzania danymi TERYT umożliwia:</p>
+        <ul>
+            <li>Import danych z plików CSV TERYT (TerytTerc, TerytSimc, TerytUlic, TerytWmRodz)</li>
+            <li>Import danych PNA (Poczta Polska) z plików CSV (kodowanie CP-1250)</li>
+            <li>Import danych PNA z plików PDF (stara metoda)</li>
+            <li>Budowanie hierarchicznej struktury terytorialnej Polski</li>
+            <li>Ładowanie i dopasowywanie kodów pocztowych do struktury hierarchicznej</li>
+            <li>Przeglądanie danych w formie hierarchicznej (województwa → ulice)</li>
+            <li>Przeglądanie surowych danych TERYT</li>
+            <li>Wyszukiwanie pojedynczych adresów</li>
+            <li><strong>Masowa weryfikacja adresów z pliku</strong></li>
+        </ul>
+        <hr>
+        <p class="mb-0 text-muted">© 2025-2026 Andrzej Szepczyński. Wszelkie prawa zastrzeżone.</p>
+    </div>
+</div>
