@@ -7,8 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Functions\**" />
+    <Content Remove="Functions\**" />
+    <EmbeddedResource Remove="Functions\**" />
+    <None Remove="Functions\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="AppData\Logs\" />
-    <Folder Include="Functions\" />
   </ItemGroup>
 
   <ItemGroup>
