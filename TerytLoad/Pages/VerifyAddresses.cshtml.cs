@@ -82,26 +82,16 @@ namespace TerytLoad.Pages
 
             try
             {
-                // ✅ ZMIANA: Przekazuj KATALOG, a nie pełną ścieżkę do pliku
                 var outputDirectory = Path.GetDirectoryName(appDataPath)!;
 
-                // Ścieżka do logu diagnostycznego
-                var logFilePath = Path.Combine(
-                    _env.ContentRootPath,
-                    "AppData", "Logs", "SearchLog.txt"
-                );
-
-                Console.WriteLine($"[VerifyAddresses] Ścieżka logu: {logFilePath}");
-                Console.WriteLine($"[VerifyAddresses] Katalog wynikowy: {outputDirectory}");
+                // Ścieżka do logu diagnostycznego (wyłączona dla wydajności)
+                // var logFilePath = Path.Combine(_env.ContentRootPath, "AppData", "Logs", "SearchLog.txt");
 
                 Console.WriteLine($"[SignalR] Wysyłam początkowy komunikat...");
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", 0, 100,
                     $"🔄 Rozpoczęto przetwarzanie pliku: {Path.GetFileName(appDataPath)}\n" +
-                    $"⚠️ Limit: {MAX_RECORDS_TO_PROCESS:N0} rekordów\n\n" +
-                    $"📄 Log diagnostyczny będzie zapisany w:\n{logFilePath}");
-
-                var startTime = DateTime.Now;
+                    $"⚠️ Limit: {MAX_RECORDS_TO_PROCESS:N0} rekordów\n");
 
                 // Inicjalizuj AddressSearchService
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
@@ -117,10 +107,18 @@ namespace TerytLoad.Pages
 
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", 0, 100,
-                    $"✓ Serwis wyszukiwania zainicjalowany w {initTime:F1}s");
+                    $"✓ Serwis wyszukiwania zainicjaliony w {initTime:F1}s");
 
-                // Utwórz serwis weryfikacji Z LOGOWANIEM
-                var verificationService = new AddressVerificationService(searchService, logFilePath);
+                // 🚀 Utwórz serwis weryfikacji BEZ LOGOWANIA (dla maksymalnej wydajności)
+                var logsDirectory = Path.Combine(_env.ContentRootPath, "AppData", "Logs");
+                if (!Directory.Exists(logsDirectory))
+                {
+                    Directory.CreateDirectory(logsDirectory);
+                }
+                var logFilePath = Path.Combine(logsDirectory, "SearchLog.txt");
+                Console.WriteLine($"[VerifyAddresses] 📝 Włączono logowanie diagnostyczne: {logFilePath}");
+
+                var verificationService = new AddressVerificationService(searchService, logFilePath: logFilePath);
 
                 var results = new List<VerificationResult>();
 
@@ -201,27 +199,17 @@ namespace TerytLoad.Pages
                 Console.WriteLine($"[VerifyAddresses] ========== ZAKOŃCZENIE PĘTLI PRZETWARZANIA ({DateTime.Now:HH:mm:ss.fff}) ==========");
                 Console.WriteLine($"[VerifyAddresses] ⏱️ Czas przetwarzania pętli: {processingTime:F2}s ({processedCount / processingTime:F0} rek/s)");
 
+                // 🆕 DODAJ TU: Zapisz log diagnostyczny
+                await verificationService.SaveDiagnosticLogAsync();
+                Console.WriteLine($"[VerifyAddresses] ✓ Log diagnostyczny zapisany");
+
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", totalLines, totalLines,
                     $"💾 Zapisywanie {results.Count:N0} wyników do pliku...");
 
                 var saveStartTime = DateTime.Now;
-                // ✅ ZMIANA: Przekazuj katalog zamiast pełnej ścieżki do pliku
                 await _resultsWriter.SaveResultsAsync(outputDirectory, results);
                 var saveTime = (DateTime.Now - saveStartTime).TotalSeconds;
-
-                Console.WriteLine($"[VerifyAddresses] ✓ Zapisano wyniki w {saveTime:F2}s");
-
-                // ZAPISZ LOG DIAGNOSTYCZNY
-                await _hubContext.Clients.All.SendAsync("ReceiveProgress",
-                    "verify-addresses", totalLines, totalLines,
-                    "📝 Zapisywanie logu diagnostycznego...");
-
-                var logStartTime = DateTime.Now;
-                await verificationService.SaveDiagnosticLogAsync();
-                var logTime = (DateTime.Now - logStartTime).TotalSeconds;
-
-                Console.WriteLine($"[VerifyAddresses] ✓ Zapisano log w {logTime:F2}s");
 
                 var totalTime = (DateTime.Now - totalStartTime).TotalSeconds;
 
@@ -232,23 +220,23 @@ namespace TerytLoad.Pages
                              $"   • Ostrzeżenia: {warningCount:N0}\n" +
                              $"   • Brak: {failureCount:N0}\n\n" +
                              $"⏱️ Czasy wykonania:\n" +
-                             $"   • Inicjalizacja: {initTime:F2}s\n" +
+                             $"   • Inicjalizacja cache: {initTime:F2}s\n" +
                              $"   • Wczytanie pliku: {readTime:F0}ms\n" +
                              $"   • Przetwarzanie pętli: {processingTime:F2}s\n" +
                              $"   • Zapis wyników: {saveTime:F2}s\n" +
-                             $"   • Zapis logu: {logTime:F2}s\n" +
                              $"   • CZAS CAŁKOWITY: {totalTime:F2}s\n" +
-                             $"   • Prędkość: {processedCount / processingTime:F0} rek/s\n\n" +
+                             $"   • Prędkość: {(processingTime > 0 ? processedCount / processingTime : 0):F0} rek/s\n\n" +
                              $"📄 Wyniki zapisano do:\n" +
                              $"   • adresy_ok.txt ({successCount:N0} rekordów)\n" +
-                             $"   • adresy_bledy.txt ({failureCount + warningCount:N0} rekordów)\n\n" +
-                             $"📝 Log diagnostyczny zapisano do:\n{logFilePath}";
+                             $"   • adresy_bledy.txt ({failureCount + warningCount:N0} rekordów)";
 
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", totalLines, totalLines, summary);
 
+                // ✅ Zostaw tylko końcowe podsumowanie w konsoli
                 Console.WriteLine($"[VerifyAddresses] ========== ZAKOŃCZONO WERYFIKACJĘ ({DateTime.Now:HH:mm:ss.fff}) ==========");
                 Console.WriteLine($"[VerifyAddresses] ⏱️ Czas całkowity: {totalTime:F2}s");
+                Console.WriteLine($"[VerifyAddresses] 📊 Sukces: {successCount} | Ostrzeżenia: {warningCount} | Błędy: {failureCount}");
             }
             catch (Exception ex)
             {

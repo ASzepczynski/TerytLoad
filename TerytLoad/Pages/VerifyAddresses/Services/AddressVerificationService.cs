@@ -13,18 +13,21 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
     {
         private readonly AddressSearchService _searchService;
         private readonly AddressDataParser _parser;
-        private readonly StringBuilder _diagnosticLog;
+        private readonly StringBuilder? _diagnosticLog;
         private readonly string? _logFilePath;
+        private readonly bool _enableLogging;
 
         public AddressVerificationService(AddressSearchService searchService, string? logFilePath = null)
         {
             _searchService = searchService;
             _parser = new AddressDataParser();
-            _diagnosticLog = new StringBuilder();
             _logFilePath = logFilePath;
+            _enableLogging = !string.IsNullOrEmpty(logFilePath);
 
-            if (!string.IsNullOrEmpty(_logFilePath))
+            if (_enableLogging)
             {
+                _diagnosticLog = new StringBuilder();
+                
                 // Utwórz katalog jeśli nie istnieje
                 var logDir = Path.GetDirectoryName(_logFilePath);
                 if (!string.IsNullOrEmpty(logDir) && !Directory.Exists(logDir))
@@ -83,9 +86,13 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
         /// </summary>
         private async Task<VerificationResult> VerifyAddressAsync(AddressData sourceData)
         {
-            LogDiagnostic($"\n{'=',-80}");
-            LogDiagnostic($"ID: {sourceData.Id}");
-            LogDiagnostic($"Adres źródłowy: {sourceData.Kod}, {sourceData.Miejscowosc}, {sourceData.Ulica} {sourceData.Budynek}/{sourceData.Lokal}");
+            // 🚀 OPTYMALIZACJA: Loguj tylko jeśli włączone
+            if (_enableLogging)
+            {
+                LogDiagnostic($"\n{'=',-80}");
+                LogDiagnostic($"ID: {sourceData.Id}");
+                LogDiagnostic($"Adres źródłowy: {sourceData.Kod}, {sourceData.Miejscowosc}, {sourceData.Ulica} {sourceData.Budynek}/{sourceData.Lokal}");
+            }
 
             // Utwórz żądanie wyszukiwania
             var searchRequest = new AddressSearchRequest
@@ -97,11 +104,11 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                 NumerMieszkania = sourceData.Lokal
             };
 
-            // Wykonaj wyszukiwanie
-            var searchResult = await _searchService.SearchAsync(searchRequest);
+            // Wykonaj wyszukiwanie Z diagnostyką (tylko gdy włączone logowanie)
+            var searchResult = await _searchService.SearchAsync(searchRequest, enableDiagnostics: _enableLogging);
 
-            // Zapisz log diagnostyczny z wyszukiwania
-            if (!string.IsNullOrEmpty(searchResult.DiagnosticInfo))
+            // 🚀 OPTYMALIZACJA: Nie loguj DiagnosticInfo (i tak jest pusty gdy diagnostyka wyłączona)
+            if (_enableLogging && !string.IsNullOrEmpty(searchResult.DiagnosticInfo))
             {
                 LogDiagnostic("--- Log wyszukiwania ---");
                 LogDiagnostic(searchResult.DiagnosticInfo);
@@ -110,9 +117,11 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             // Mapuj wynik na VerificationResult
             var result = MapSearchResultToVerificationResult(sourceData, searchResult);
 
-            LogDiagnostic($"Status końcowy: {result.Status}");
-            // ✅ ZAWSZE WYPISUJ ErrorMessage (nawet jeśli jest pusty)
-            LogDiagnostic($"Komunikat: {result.ErrorMessage ?? "(brak)"}");
+            if (_enableLogging)
+            {
+                LogDiagnostic($"Status końcowy: {result.Status}");
+                LogDiagnostic($"Komunikat: {result.ErrorMessage ?? "(brak)"}");
+            }
 
             return result;
         }
@@ -122,14 +131,14 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
         /// </summary>
         public async Task SaveDiagnosticLogAsync()
         {
-            if (!string.IsNullOrEmpty(_logFilePath))
+            if (_enableLogging && _diagnosticLog != null)
             {
                 _diagnosticLog.AppendLine();
                 _diagnosticLog.AppendLine($"=== KONIEC LOGU - {DateTime.Now:yyyy-MM-dd HH:mm:ss} ===");
 
                 try
                 {
-                    await File.WriteAllTextAsync(_logFilePath, _diagnosticLog.ToString(), Encoding.UTF8);
+                    await File.WriteAllTextAsync(_logFilePath!, _diagnosticLog.ToString(), Encoding.UTF8);
                     Console.WriteLine($"[AddressVerificationService] ✓ Log diagnostyczny zapisany: {_logFilePath}");
                 }
                 catch (Exception ex)
@@ -144,7 +153,8 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
         /// </summary>
         private void LogDiagnostic(string message)
         {
-            if (!string.IsNullOrEmpty(_logFilePath))
+            // 🚀 OPTYMALIZACJA: Sprawdź flagę zamiast string
+            if (_enableLogging && _diagnosticLog != null)
             {
                 _diagnosticLog.AppendLine(message);
             }
@@ -241,7 +251,6 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                 Ulica = searchResult.Ulica != null
                     ? $"{searchResult.Ulica.Cecha} {searchResult.Ulica.Nazwa1}".Trim()
                     : sourceData.Ulica,
-                // ✅ Użyj znormalizowanych numerów z wyniku wyszukiwania
                 Budynek = searchResult.NormalizedBuildingNumber ?? sourceData.Budynek,
                 Lokal = searchResult.NormalizedApartmentNumber ?? sourceData.Lokal,
                 Wojewodztwo = searchResult.Miejscowosc?.Gmina?.Powiat?.Wojewodztwo?.Nazwa ?? sourceData.Wojewodztwo,
@@ -262,7 +271,6 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                 Ulica = searchResult.Ulica != null
                     ? $"{searchResult.Ulica.Cecha} {searchResult.Ulica.Nazwa1}".Trim()
                     : (string.IsNullOrWhiteSpace(sourceData.Ulica) ? "Brak" : sourceData.Ulica),
-                // ✅ Również tutaj użyj znormalizowanych numerów
                 Budynek = searchResult.NormalizedBuildingNumber ?? sourceData.Budynek,
                 Lokal = searchResult.NormalizedApartmentNumber ?? sourceData.Lokal,
                 Wojewodztwo = searchResult.Miejscowosc?.Gmina?.Powiat?.Wojewodztwo?.Nazwa ?? sourceData.Wojewodztwo,
