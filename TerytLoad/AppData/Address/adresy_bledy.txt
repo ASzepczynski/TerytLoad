@@ -1,11 +1,6 @@
 ﻿ID|Status|Komunikat|Kod_Źródło|Kod_Wynik|Miejscowosc_Źródło|Miejscowosc_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik
-A1454|BŁĄD|Nie znaleziono ulicy 'Dunin-Wąsowicz' w miejscowości KRAKOW|30-112|30-112|*KRAKOW|Kraków|*|Dunin-Wąsowicz|24|24|42|42|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
 A953|BŁĄD|Nie znaleziono ulicy 'Beliny Prażmowskiego' w miejscowości KRAKÓW|31-514|31-514|KRAKÓW|Kraków|*|Beliny Prażmowskiego|52|52|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
-A957|BŁĄD|Nie znaleziono ulicy 'Slomiana' w miejscowości KRAKÓW|30-316|30-316|KRAKÓW|Kraków|*|Slomiana|6|6|78|78|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
-A541|BŁĄD|Nie znaleziono ulicy 'FRANCESCO NULLO' w miejscowości KRAKÓW|31-543|31-543|KRAKÓW|Kraków|*|FRANCESCO NULLO|13|13|52|52|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
-A1056|BŁĄD|Nie znaleziono ulicy 'Rotmistrza Dunin-Wąsowicza' w miejscowości KRAKÓW|30-112|30-112|KRAKÓW|Kraków|*|Rotmistrza Dunin-Wąsowicza|24|24|31|31|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
-A1927021|BŁĄD|Nie znaleziono ulicy 'Kokotów' w miejscowości WĘGRZCE WIELKIE|32-002|32-002|WĘGRZCE WIELKIE|Węgrzce Wielkie|*|Kokotów|271|271|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
-A1207|BŁĄD|Nie znaleziono ulicy 'Fika' w miejscowości Kraków|31-214|31-214|Kraków|Kraków|*|Fika|19|19|92|92|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1927021|BŁĄD|Błędna nazwa ulicy 'Kokotów'|32-002|32-002|WĘGRZCE WIELKIE|Węgrzce Wielkie|*|Kokotów|271|271|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1207|BŁĄD|Błędna nazwa ulicy 'Fika'|31-214|31-214|Kraków|Kraków|*|Fika|19|19|92|92|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
 A1344787|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|05-507|05-507|CIECISZEW|Cieciszew|*|Brak|4a|4a|||MAZOWIECKIE|MAZOWIECKIE|PIASECZYŃSKI|piaseczyński|*PIASECZNO|Konstancin-Jeziorna
-A126|BŁĄD|Nie znaleziono ulicy 'Os.Jagielońskie' w miejscowości Krakow|31-836|31-836|*Krakow|Kraków|*|Os.Jagielońskie|32|32|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
 2473|BŁĄD|Znaleziono wiele dopasowań (2)|30-243|30-243|KRAKÓW|Kraków|*|ul. Józefa|365|365|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków

@@ -15,7 +15,7 @@ namespace TerytLoad.Pages
         public List<TerytTerc> Wojewodztwa { get; set; } = new();
         public List<TerytTerc> Powiaty { get; set; } = new();
         public List<TerytTerc> Gminy { get; set; } = new();
-        public List<TerytSimc> Miejscowosci { get; set; } = new();
+        public List<TerytSimc> Miasta { get; set; } = new();
         public List<TerytUlic> Ulice { get; set; } = new();
 
         [BindProperty(SupportsGet = true)]
@@ -100,7 +100,7 @@ namespace TerytLoad.Pages
                     var pow = Powiaty.FirstOrDefault(p => p.Wojewodztwo + p.Powiat == PowKod);
                     CurrentPath = $"{woj?.Nazwa} > {pow?.Nazwa} > {gmina.Nazwa}";
 
-                    Miejscowosci = await context.TerytSimc
+                    Miasta = await context.TerytSimc
                         .Where(s => s.Wojewodztwo + s.Powiat + s.Gmina + s.RodzajGminy == GmiKod)
                         .OrderBy(s => s.Nazwa)
                         .ToListAsync();
@@ -110,15 +110,15 @@ namespace TerytLoad.Pages
             // Jeœli wybrano miejscowoœæ, za³aduj ulice (tabela TERYT_ULIC)
             if (!string.IsNullOrEmpty(MiejSymbol))
             {
-                var miejscowosc = await context.TerytSimc
+                var miasto = await context.TerytSimc
                     .FirstOrDefaultAsync(s => s.Symbol == MiejSymbol);
 
-                if (miejscowosc != null)
+                if (miasto != null)
                 {
                     var woj = Wojewodztwa.FirstOrDefault(w => w.Wojewodztwo == WojKod);
                     var pow = Powiaty.FirstOrDefault(p => p.Wojewodztwo + p.Powiat == PowKod);
                     var gmi = Gminy.FirstOrDefault(g => g.Wojewodztwo + g.Powiat + g.Gmina + g.RodzajGminy == GmiKod);
-                    CurrentPath = $"{woj?.Nazwa} > {pow?.Nazwa} > {gmi?.Nazwa} > {miejscowosc.Nazwa}";
+                    CurrentPath = $"{woj?.Nazwa} > {pow?.Nazwa} > {gmi?.Nazwa} > {miasto.Nazwa}";
 
                     Ulice = await context.TerytUlic
                         .Where(u => u.Symbol == MiejSymbol)

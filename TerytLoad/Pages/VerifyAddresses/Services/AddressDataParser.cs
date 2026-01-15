@@ -19,7 +19,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             {
                 Id = parts[0],
                 Kod = parts[1],
-                Miejscowosc = parts[2],
+                Miasto = parts[2],
                 Ulica = parts[3],
                 Budynek = parts[4],
                 Lokal = parts[5],

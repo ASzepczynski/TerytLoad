@@ -15,7 +15,7 @@ namespace TerytLoad.Pages
         public List<Wojewodztwo> Wojewodztwa { get; set; } = new();
         public List<Powiat> Powiaty { get; set; } = new();
         public List<Gmina> Gminy { get; set; } = new();
-        public List<Miejscowosc> Miejscowosci { get; set; } = new();
+        public List<Miasto> Miasta { get; set; } = new();
         public List<Ulica> Ulice { get; set; } = new();
 
         [BindProperty(SupportsGet = true)]
@@ -28,7 +28,7 @@ namespace TerytLoad.Pages
         public int? GminaId { get; set; }
 
         [BindProperty(SupportsGet = true)]
-        public int? MiejscowoscId { get; set; }
+        public int? MiastoId { get; set; }
 
         public string CurrentPath { get; set; } = string.Empty;
 
@@ -99,8 +99,8 @@ namespace TerytLoad.Pages
                 {
                     CurrentPath = $"{gmina.Powiat.Wojewodztwo.Nazwa} > {gmina.Powiat.Nazwa} > {gmina.Nazwa}";
 
-                    Miejscowosci = await context.Miejscowosci
-                        .Include(m => m.RodzajMiejscowosci)
+                    Miasta = await context.Miasta
+                        .Include(m => m.RodzajMiasta)
                         .Where(m => m.GminaId == GminaId.Value && m.Id != -1)
                         .OrderBy(m => m.Nazwa)
                         .ToListAsync();
@@ -108,20 +108,20 @@ namespace TerytLoad.Pages
             }
 
             // Jeœli wybrano miejscowoœæ, za³aduj ulice
-            if (MiejscowoscId.HasValue)
+            if (MiastoId.HasValue)
             {
-                var miejscowosc = await context.Miejscowosci
+                var miasto = await context.Miasta
                     .Include(m => m.Gmina)
                     .ThenInclude(g => g.Powiat)
                     .ThenInclude(p => p.Wojewodztwo)
-                    .FirstOrDefaultAsync(m => m.Id == MiejscowoscId.Value);
+                    .FirstOrDefaultAsync(m => m.Id == MiastoId.Value);
 
-                if (miejscowosc != null)
+                if (miasto != null)
                 {
-                    CurrentPath = $"{miejscowosc.Gmina.Powiat.Wojewodztwo.Nazwa} > {miejscowosc.Gmina.Powiat.Nazwa} > {miejscowosc.Gmina.Nazwa} > {miejscowosc.Nazwa}";
+                    CurrentPath = $"{miasto.Gmina.Powiat.Wojewodztwo.Nazwa} > {miasto.Gmina.Powiat.Nazwa} > {miasto.Gmina.Nazwa} > {miasto.Nazwa}";
 
                     Ulice = await context.Ulice
-                        .Where(u => u.MiejscowoscId == MiejscowoscId.Value && u.Id != -1)
+                        .Where(u => u.MiastoId == MiastoId.Value && u.Id != -1)
                         .OrderBy(u => u.Cecha)
                         .ThenBy(u => u.Nazwa1)
                         .ToListAsync();

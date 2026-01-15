@@ -147,26 +147,26 @@
         <!-- Poziom 4: Miejscowości (TERYT_SIMC) -->
         <div class="card">
             <div class="card-header bg-info text-white">
-                <h3 class="mb-0">🏘️ Miejscowości - TERYT_SIMC (@Model.Miejscowosci.Count)</h3>
+                <h3 class="mb-0">🏘️ Miejscowości - TERYT_SIMC (@Model.Miasta.Count)</h3>
             </div>
             <div class="card-body">
                 <div class="list-group">
-                    @foreach (var miejscowosc in Model.Miejscowosci)
+                    @foreach (var miasto in Model.Miasta)
                     {
                         <a asp-page="/BrowseTeryt" 
                            asp-route-wojKod="@Model.WojKod"
                            asp-route-powKod="@Model.PowKod"
                            asp-route-gmiKod="@Model.GmiKod"
-                           asp-route-miejSymbol="@miejscowosc.Symbol" 
+                           asp-route-miejSymbol="@miasto.Symbol" 
                            class="list-group-item list-group-item-action">
                             <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">@miejscowosc.Nazwa</h5>
+                                <h5 class="mb-1">@miasto.Nazwa</h5>
                                 <span>
-                                    @if (!string.IsNullOrEmpty(miejscowosc.RodzajMiasta))
+                                    @if (!string.IsNullOrEmpty(miasto.RodzajMiasta))
                                     {
-                                        <span class="badge bg-secondary">Rodzaj: @miejscowosc.RodzajMiasta</span>
+                                        <span class="badge bg-secondary">Rodzaj: @miasto.RodzajMiasta</span>
                                     }
-                                    <small class="text-muted">Symbol: @miejscowosc.Symbol</small>
+                                    <small class="text-muted">Symbol: @miasto.Symbol</small>
                                 </span>
                             </div>
                         </a>

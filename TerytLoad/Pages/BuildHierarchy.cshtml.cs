@@ -46,7 +46,7 @@ namespace TerytLoad.Pages
                 var wojCount = context.Wojewodztwa.Count(w => w.Id != -1);
                 var powCount = context.Powiaty.Count(p => p.Id != -1);
                 var gmCount = context.Gminy.Count(g => g.Id != -1);
-                var mjsCount = context.Miejscowosci.Count(m => m.Id != -1);
+                var mjsCount = context.Miasta.Count(m => m.Id != -1);
                 var ulCount = context.Ulice.Count(u => u.Id != -1);
 
                 messageBuilder.AppendLine($"✅ SUKCES! Utworzono strukturę hierarchiczną:\n");

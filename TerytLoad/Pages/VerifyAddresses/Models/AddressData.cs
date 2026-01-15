@@ -6,7 +6,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Models
     {
         public string Id { get; set; } = "";
         public string Kod { get; set; } = "";
-        public string Miejscowosc { get; set; } = "";
+        public string Miasto { get; set; } = "";
         public string Ulica { get; set; } = "";
         public string Budynek { get; set; } = "";
         public string Lokal { get; set; } = "";

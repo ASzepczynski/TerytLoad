@@ -91,14 +91,14 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             {
                 LogDiagnostic($"\n{'=',-80}");
                 LogDiagnostic($"ID: {sourceData.Id}");
-                LogDiagnostic($"Adres źródłowy: {sourceData.Kod}, {sourceData.Miejscowosc}, {sourceData.Ulica} {sourceData.Budynek}/{sourceData.Lokal}");
+                LogDiagnostic($"Adres źródłowy: {sourceData.Kod}, {sourceData.Miasto}, {sourceData.Ulica} {sourceData.Budynek}/{sourceData.Lokal}");
             }
 
             // Utwórz żądanie wyszukiwania
             var searchRequest = new AddressSearchRequest
             {
                 KodPocztowy = sourceData.Kod,
-                Miejscowosc = sourceData.Miejscowosc,
+                Miasto = sourceData.Miasto,
                 Ulica = sourceData.Ulica,
                 NumerDomu = sourceData.Budynek,
                 NumerMieszkania = sourceData.Lokal
@@ -186,7 +186,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                     result.ErrorMessage = searchResult.Message ?? "Znaleziono wiele dopasowań";
                     break;
 
-                case AddressSearchStatus.MiejscowoscNotFound:
+                case AddressSearchStatus.MiastoNotFound:
                     result.Status = "BŁĄD";
                     result.ErrorMessage = searchResult.Message ?? "Nie znaleziono miejscowości";
                     break;
@@ -198,7 +198,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                         result.Status = "BŁĄD";
                         result.ErrorMessage = "Wymagane podanie ulicy";
                         // Jeśli znaleziono miejscowość, dodaj ją do wyniku
-                        if (searchResult.Miejscowosc != null)
+                        if (searchResult.Miasto != null)
                         {
                             result.FoundData = CreatePartialFoundAddress(searchResult, sourceData);
                         }
@@ -208,7 +208,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                         result.Status = "BŁĄD";
                         result.ErrorMessage = searchResult.Message ?? "Nie znaleziono podanej ulicy";
                         // Jeśli znaleziono miejscowość, dodaj ją do wyniku
-                        if (searchResult.Miejscowosc != null)
+                        if (searchResult.Miasto != null)
                         {
                             result.FoundData = CreatePartialFoundAddress(searchResult, sourceData);
                         }
@@ -219,7 +219,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                     result.Status = "BŁĄD";
                     result.ErrorMessage = searchResult.Message ?? "Nie znaleziono kodu pocztowego";
                     // Jeśli znaleziono miejscowość lub ulicę, dodaj do wyniku
-                    if (searchResult.Miejscowosc != null || searchResult.Ulica != null)
+                    if (searchResult.Miasto != null || searchResult.Ulica != null)
                     {
                         result.FoundData = CreatePartialFoundAddress(searchResult, sourceData);
                     }
@@ -247,15 +247,15 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             return new AddressData
             {
                 Kod = searchResult.KodPocztowy?.Kod ?? sourceData.Kod,
-                Miejscowosc = searchResult.Miejscowosc?.Nazwa ?? sourceData.Miejscowosc,
+                Miasto = searchResult.Miasto?.Nazwa ?? sourceData.Miasto,
                 Ulica = searchResult.Ulica != null
                     ? $"{searchResult.Ulica.Cecha} {searchResult.Ulica.Nazwa1}".Trim()
                     : sourceData.Ulica,
                 Budynek = searchResult.NormalizedBuildingNumber ?? sourceData.Budynek,
                 Lokal = searchResult.NormalizedApartmentNumber ?? sourceData.Lokal,
-                Wojewodztwo = searchResult.Miejscowosc?.Gmina?.Powiat?.Wojewodztwo?.Nazwa ?? sourceData.Wojewodztwo,
-                Powiat = searchResult.Miejscowosc?.Gmina?.Powiat?.Nazwa ?? sourceData.Powiat,
-                Gmina = searchResult.Miejscowosc?.Gmina?.Nazwa ?? sourceData.Gmina
+                Wojewodztwo = searchResult.Miasto?.Gmina?.Powiat?.Wojewodztwo?.Nazwa ?? sourceData.Wojewodztwo,
+                Powiat = searchResult.Miasto?.Gmina?.Powiat?.Nazwa ?? sourceData.Powiat,
+                Gmina = searchResult.Miasto?.Gmina?.Nazwa ?? sourceData.Gmina
             };
         }
 
@@ -267,15 +267,15 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             return new AddressData
             {
                 Kod = searchResult.KodPocztowy?.Kod ?? sourceData.Kod,
-                Miejscowosc = searchResult.Miejscowosc?.Nazwa ?? sourceData.Miejscowosc,
+                Miasto = searchResult.Miasto?.Nazwa ?? sourceData.Miasto,
                 Ulica = searchResult.Ulica != null
                     ? $"{searchResult.Ulica.Cecha} {searchResult.Ulica.Nazwa1}".Trim()
-                    : (string.IsNullOrWhiteSpace(sourceData.Ulica) ? "Brak" : sourceData.Ulica),
+                    : sourceData.Ulica, // 🔧 Zostaw puste pole, nie "Brak"
                 Budynek = searchResult.NormalizedBuildingNumber ?? sourceData.Budynek,
                 Lokal = searchResult.NormalizedApartmentNumber ?? sourceData.Lokal,
-                Wojewodztwo = searchResult.Miejscowosc?.Gmina?.Powiat?.Wojewodztwo?.Nazwa ?? sourceData.Wojewodztwo,
-                Powiat = searchResult.Miejscowosc?.Gmina?.Powiat?.Nazwa ?? sourceData.Powiat,
-                Gmina = searchResult.Miejscowosc?.Gmina?.Nazwa ?? sourceData.Gmina
+                Wojewodztwo = searchResult.Miasto?.Gmina?.Powiat?.Wojewodztwo?.Nazwa ?? sourceData.Wojewodztwo,
+                Powiat = searchResult.Miasto?.Gmina?.Powiat?.Nazwa ?? sourceData.Powiat,
+                Gmina = searchResult.Miasto?.Gmina?.Nazwa ?? sourceData.Gmina
             };
         }
     }

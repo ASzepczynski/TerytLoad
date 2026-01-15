@@ -43,7 +43,7 @@
                         </a>
                     </li>
                 }
-                @if (Model.MiejscowoscId.HasValue)
+                @if (Model.MiastoId.HasValue)
                 {
                     <li class="breadcrumb-item active" aria-current="page">
                         Miejscowość
@@ -136,31 +136,31 @@
             </div>
         </div>
     }
-    else if (!Model.MiejscowoscId.HasValue)
+    else if (!Model.MiastoId.HasValue)
     {
         <!-- Poziom 4: Miejscowości -->
         <div class="card">
             <div class="card-header bg-info text-white">
-                <h3 class="mb-0">🏘️ Miejscowości (@Model.Miejscowosci.Count)</h3>
+                <h3 class="mb-0">🏘️ Miejscowości (@Model.Miasta.Count)</h3>
             </div>
             <div class="card-body">
                 <div class="list-group">
-                    @foreach (var miejscowosc in Model.Miejscowosci)
+                    @foreach (var miasto in Model.Miasta)
                     {
                         <a asp-page="/Browse" 
                            asp-route-wojewodztwoId="@Model.WojewodztwoId"
                            asp-route-powiatId="@Model.PowiatId"
                            asp-route-gminaId="@Model.GminaId"
-                           asp-route-miejscowoscId="@miejscowosc.Id" 
+                           asp-route-miastoId="@miasto.Id" 
                            class="list-group-item list-group-item-action">
                             <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">@miejscowosc.Nazwa</h5>
+                                <h5 class="mb-1">@miasto.Nazwa</h5>
                                 <span>
-                                    @if (miejscowosc.RodzajMiejscowosci != null)
+                                    @if (miasto.RodzajMiasta != null)
                                     {
-                                        <span class="badge bg-secondary">@miejscowosc.RodzajMiejscowosci.Nazwa</span>
+                                        <span class="badge bg-secondary">@miasto.RodzajMiasta.Nazwa</span>
                                     }
-                                    <small class="text-muted">Symbol: @miejscowosc.Symbol</small>
+                                    <small class="text-muted">Symbol: @miasto.Symbol</small>
                                 </span>
                             </div>
                         </a>

@@ -50,7 +50,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             // Nagłówek BEZ kolumn Status i Komunikat
             sb.AppendLine("ID|" +
                          "Kod_Źródło|Kod_Wynik|" +
-                         "Miejscowosc_Źródło|Miejscowosc_Wynik|" +
+                         "Miasto_Źródło|Miasto_Wynik|" +
                          "Ulica_Źródło|Ulica_Wynik|" +
                          "Budynek_Źródło|Budynek_Wynik|" +
                          "Lokal_Źródło|Lokal_Wynik|" +
@@ -64,7 +64,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                 {
                     sb.AppendLine($"{result.SourceId}|" +
                                  $"{_normalizer.MarkIfDifferent(result.SourceData.Kod, result.FoundData.Kod)}|{result.FoundData.Kod}|" +
-                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Miejscowosc, result.FoundData.Miejscowosc)}|{result.FoundData.Miejscowosc}|" +
+                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Miasto, result.FoundData.Miasto)}|{result.FoundData.Miasto}|" +
                                  $"{_normalizer.MarkIfDifferent(result.SourceData.Ulica, result.FoundData.Ulica)}|{result.FoundData.Ulica}|" +
                                  $"{result.SourceData.Budynek}|{result.FoundData.Budynek}|" +
                                  $"{result.SourceData.Lokal}|{result.FoundData.Lokal}|" +
@@ -87,7 +87,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             // Nagłówek Z kolumnami Status i Komunikat
             sb.AppendLine("ID|Status|Komunikat|" +
                          "Kod_Źródło|Kod_Wynik|" +
-                         "Miejscowosc_Źródło|Miejscowosc_Wynik|" +
+                         "Miasto_Źródło|Miasto_Wynik|" +
                          "Ulica_Źródło|Ulica_Wynik|" +
                          "Budynek_Źródło|Budynek_Wynik|" +
                          "Lokal_Źródło|Lokal_Wynik|" +
@@ -104,7 +104,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                     // Częściowe dopasowanie (znaleziono miejscowość, ale błąd z ulicą itp.)
                     sb.AppendLine($"{result.SourceId}|{result.Status}|{komunikat}|" +
                                  $"{_normalizer.MarkIfDifferent(result.SourceData.Kod, result.FoundData.Kod)}|{result.FoundData.Kod}|" +
-                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Miejscowosc, result.FoundData.Miejscowosc)}|{result.FoundData.Miejscowosc}|" +
+                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Miasto, result.FoundData.Miasto)}|{result.FoundData.Miasto}|" +
                                  $"*|{result.FoundData.Ulica}|" +
                                  $"{result.SourceData.Budynek}|{result.FoundData.Budynek}|" +
                                  $"{result.SourceData.Lokal}|{result.FoundData.Lokal}|" +
@@ -117,7 +117,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                     // Całkowity brak dopasowania
                     sb.AppendLine($"{result.SourceId}|{result.Status}|{komunikat}|" +
                                  $"*{result.SourceData.Kod}||" +
-                                 $"*{result.SourceData.Miejscowosc}||" +
+                                 $"*{result.SourceData.Miasto}||" +
                                  $"*{result.SourceData.Ulica}||" +
                                  $"*{result.SourceData.Budynek}||" +
                                  $"*{result.SourceData.Lokal}||" +

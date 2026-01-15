@@ -1,13 +1,20 @@
 ﻿ID|Kod_Źródło|Kod_Wynik|Miejscowosc_Źródło|Miejscowosc_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik
 A1440|31-916|31-916|KRAKÓW|Kraków|*Oś.Ogrodowe|os. Osiedle Ogrodowe|15|15|61|61|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1454|30-112|30-112|*KRAKOW|Kraków|*Dunin-Wąsowicz|ul. Dunin-Wąsowicza|24|24|42|42|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
 A879|30-112|30-112|*Krakow|Kraków|*Dunin-Wasowicza|ul. Dunin-Wąsowicza|24|24|3|3|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A957|30-316|30-316|KRAKÓW|Kraków|*Słomiana|ul. Słomiana|6|6|78|78|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A957|30-316|30-316|KRAKÓW|Kraków|*Slomiana|ul. Słomiana|6|6|78|78|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
 A1880186|38-400|38-400|KROSNO|Krosno|*Kletówki|ul. Kletówki|54b|54b|||*|PODKARPACKIE|*|Krosno|*|Krosno
 A978|32-700|32-700|BOCHNIA|Bochnia|*Św.Leonarda|ul. Leonarda|3A|3A|||MAŁOPOLSKIE|MAŁOPOLSKIE|BOCHEŃSKI|bocheński|BOCHNIA|Bochnia
 A494|30-112|30-112|KRAKÓW|Kraków|*Dunin-Wąsowicza|ul. Dunin-Wąsowicza|26|26|4|4|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
 A536|*30-718|30-717|KRAKÓW|Kraków|*Ks.Wincentego Turka|ul. Turka|5|5|16|16|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A541|31-543|31-543|KRAKÓW|Kraków|*FRANCESCO NULLO|ul. Nullo|13|13|52|52|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
 A7782|30-108|30-108|KRAKÓW|Kraków|*MARCINA BORELOWSKIEGO LELEWELA|ul. Borelowskiego-Lelewela|17|17|15|15|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1056|30-112|30-112|KRAKÓW|Kraków|*Rotmistrza Dunin-Wąsowicza|ul. Dunin-Wąsowicza|24|24|31|31|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1056|*30-112|30-732|KRAKÓW|Kraków|*płk Dąbka|ul. Dąbka|24|24|31|31|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
 A1125|*31-127|30-127|Kraków|Kraków|*Świętego Wojciecha|ul. Wojciecha|1|1|7|7|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
 A42|31-235|31-235|KRAKÓW|Kraków|*os.Witkowice Nowe|os. Osiedle Witkowice Nowe|61|61|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
 A790|30-133|30-133|Kraków|Kraków|*J.Lea|ul. Lea|238|238|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A126|31-836|31-836|*Krakow|Kraków|*Os.Jagielońskie|os. Osiedle Jagiellońskie|32|32|18|18|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
 A158|31-422|31-422|Kraków|Kraków|*Powstańców|ul. Powstańców|46|46|71|71|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
 A2557|31-422|31-422|Kraków|Kraków|*Powstańców|ul. Powstańców|30A|30A|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków

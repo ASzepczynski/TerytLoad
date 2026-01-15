@@ -45,7 +45,7 @@ namespace TerytLoad.Pages
                 var parameters = new KodPocztowySearchService.SearchParameters
                 {
                     Kod = SearchParams.Kod,
-                    Miejscowosc = SearchParams.Miejscowosc,
+                    Miasto = SearchParams.Miasto,
                     Ulica = SearchParams.Ulica,
                     NumerDomu = SearchParams.NumerDomu,
                     NumerMieszkania = SearchParams.NumerMieszkania
@@ -91,7 +91,7 @@ namespace TerytLoad.Pages
         public string? Kod { get; set; }
 
         [Display(Name = "Miejscowość")]
-        public string? Miejscowosc { get; set; }
+        public string? Miasto { get; set; }
 
         [Display(Name = "Ulica")]
         public string? Ulica { get; set; }

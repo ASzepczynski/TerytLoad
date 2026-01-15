@@ -23,12 +23,12 @@
                     </div>
 
                     <div class="col-md-3">
-                        <label asp-for="SearchParams.Miejscowosc" class="form-label">
+                        <label asp-for="SearchParams.Miasto" class="form-label">
                             <i class="bi bi-geo-alt"></i> Miejscowość
                         </label>
-                        <input asp-for="SearchParams.Miejscowosc" class="form-control form-control-sm" placeholder="np. Warszawa" />
+                        <input asp-for="SearchParams.Miasto" class="form-control form-control-sm" placeholder="np. Warszawa" />
                         <small class="form-text text-muted">Opcjonalna</small>
-                        <span asp-validation-for="SearchParams.Miejscowosc" class="text-danger small"></span>
+                        <span asp-validation-for="SearchParams.Miasto" class="text-danger small"></span>
                     </div>
 
                     <div class="col-md-3">
@@ -129,20 +129,20 @@
                                             <span class="text-muted fst-italic small">wszystkie</span>
                                         }
                                     </td>
-                                    <td>@wynik.Miejscowosc?.Nazwa</td>
+                                    <td>@wynik.Miasto?.Nazwa</td>
                                     <td>
-                                        @if (wynik.Miejscowosc?.Gmina != null)
+                                        @if (wynik.Miasto?.Gmina != null)
                                         {
-                                            <text>@wynik.Miejscowosc.Gmina.Nazwa</text>
-                                            @if (wynik.Miejscowosc.Gmina.RodzajGminy != null)
+                                            <text>@wynik.Miasto.Gmina.Nazwa</text>
+                                            @if (wynik.Miasto.Gmina.RodzajGminy != null)
                                             {
                                                 <br />
-                                                <small class="text-muted">(@wynik.Miejscowosc.Gmina.RodzajGminy.Nazwa)</small>
+                                                <small class="text-muted">(@wynik.Miasto.Gmina.RodzajGminy.Nazwa)</small>
                                             }
                                         }
                                     </td>
-                                    <td>@wynik.Miejscowosc?.Gmina?.Powiat?.Nazwa</td>
-                                    <td>@wynik.Miejscowosc?.Gmina?.Powiat?.Wojewodztwo?.Nazwa</td>
+                                    <td>@wynik.Miasto?.Gmina?.Powiat?.Nazwa</td>
+                                    <td>@wynik.Miasto?.Gmina?.Powiat?.Wojewodztwo?.Nazwa</td>
                                 </tr>
                             }
                         </tbody>

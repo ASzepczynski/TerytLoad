@@ -32,7 +32,7 @@
                                     <input asp-for="Addresses[i].KodPocztowy" class="form-control" placeholder="XX-XXX" />
                                 </td>
                                 <td>
-                                    <input asp-for="Addresses[i].Miejscowosc" class="form-control" placeholder="np. Warszawa" />
+                                    <input asp-for="Addresses[i].Miasto" class="form-control" placeholder="np. Warszawa" />
                                 </td>
                                 <td>
                                     <input asp-for="Addresses[i].Ulica" class="form-control" placeholder="np. Marszałkowska" />
@@ -92,7 +92,7 @@
                                     }
                                 </td>
                                 <td>@result.ZnalezionyKodPocztowy</td>
-                                <td>@result.Miejscowosc</td>
+                                <td>@result.Miasto</td>
                                 <td>@result.Ulica</td>
                                 <td>@result.Message</td>
                             </tr>

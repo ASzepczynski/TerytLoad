@@ -22,7 +22,7 @@ namespace TerytLoad.Pages
         public class AddressInputRow
         {
             public string? KodPocztowy { get; set; }
-            public string Miejscowosc { get; set; } = string.Empty;
+            public string Miasto { get; set; } = string.Empty;
             public string? Ulica { get; set; }
             public string? NumerDomu { get; set; }
             public string? NumerMieszkania { get; set; }
@@ -32,7 +32,7 @@ namespace TerytLoad.Pages
         {
             public string Status { get; set; } = string.Empty;
             public string? ZnalezionyKodPocztowy { get; set; }
-            public string? Miejscowosc { get; set; }
+            public string? Miasto { get; set; }
             public string? Ulica { get; set; }
             public string? Message { get; set; }
         }
@@ -59,11 +59,11 @@ namespace TerytLoad.Pages
             await searchService.InitializeAsync();
 
             var requests = Addresses
-                .Where(a => !string.IsNullOrWhiteSpace(a.Miejscowosc))
+                .Where(a => !string.IsNullOrWhiteSpace(a.Miasto))
                 .Select(a => new AddressSearchRequest
                 {
                     KodPocztowy = a.KodPocztowy,
-                    Miejscowosc = a.Miejscowosc,
+                    Miasto = a.Miasto,
                     Ulica = a.Ulica,
                     NumerDomu = a.NumerDomu,
                     NumerMieszkania = a.NumerMieszkania
@@ -76,7 +76,7 @@ namespace TerytLoad.Pages
             {
                 Status = r.Status.ToString(),
                 ZnalezionyKodPocztowy = r.KodPocztowy?.Kod,
-                Miejscowosc = r.Miejscowosc?.Nazwa,
+                Miasto = r.Miasto?.Nazwa,
                 Ulica = r.Ulica != null ? $"{r.Ulica.Cecha} {r.Ulica.Nazwa1}" : null,
                 Message = r.Message
             }).ToList();
