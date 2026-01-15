@@ -1,6 +1,856 @@
-﻿ID|Status|Komunikat|Kod_Źródło|Kod_Wynik|Miejscowosc_Źródło|Miejscowosc_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik
-A953|BŁĄD|Nie znaleziono ulicy 'Beliny Prażmowskiego' w miejscowości KRAKÓW|31-514|31-514|KRAKÓW|Kraków|*|Beliny Prażmowskiego|52|52|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
-A1927021|BŁĄD|Błędna nazwa ulicy 'Kokotów'|32-002|32-002|WĘGRZCE WIELKIE|Węgrzce Wielkie|*|Kokotów|271|271|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
-A1207|BŁĄD|Błędna nazwa ulicy 'Fika'|31-214|31-214|Kraków|Kraków|*|Fika|19|19|92|92|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
-A1344787|BŁĄD|Nie znaleziono kodu pocztowego dla podanych parametrów|05-507|05-507|CIECISZEW|Cieciszew|*|Brak|4a|4a|||MAZOWIECKIE|MAZOWIECKIE|PIASECZYŃSKI|piaseczyński|*PIASECZNO|Konstancin-Jeziorna
-2473|BŁĄD|Znaleziono wiele dopasowań (2)|30-243|30-243|KRAKÓW|Kraków|*|ul. Józefa|365|365|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+﻿ID|Komunikat|Kod_Źródło|Kod_Wynik|Miasto_Źródło|Miasto_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik
+ZA1314909|Błędna nazwa ulicy '1-go Stycznia'|32-590|32-590|LIBIĄŻ|Libiąż|*|1-go Stycznia|4|4|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|CHRZANOWSKI|chrzanowski|LIBIĄŻ|Libiąż
+A1259517|Błędna nazwa ulicy '11LISTOPADA'|*41-408||*MYSŁOWICE||*11LISTOPADA||*22||*18||*ŚLĄSKIE||*MYSŁOWICE||*MYSŁOWICE|
+A1349831|Błędna nazwa ulicy '15-go Grudnia'|*42-500||*BĘDZIN||*15-go Grudnia||*1||*23||*ŚLĄSKIE||*BĘDZIŃSKI||*BĘDZIN|
+A1351373|Błędna nazwa ulicy '15-go stycznia'|26-670|26-670|PIONKI|Pionki|*|15-go stycznia|10|10|||MAZOWIECKIE|MAZOWIECKIE|*|radomski|*|Pionki
+A1351365|Błędna nazwa ulicy '21 stycznia'|*32-500||*LUSZOWICE||*21 stycznia||*87B||*||*MAŁOPOLSKIE||*||*|
+A12802|Błędna nazwa ulicy '22 Lipca'|*32-540||*TRZEBINIA||*22 Lipca||*58||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1353418|Błędna nazwa ulicy '24 Stycznia'|*32-540||*TRZEBINIA||*24 Stycznia||*18||*||*||*||*|
+A1349954|Błędna nazwa ulicy '27 Stycznia'|43-190|43-190|MIKOŁÓW|Mikołów|*|27 Stycznia|5b|5b|9|9|*|ŚLĄSKIE|*|mikołowski|*|Mikołów
+A1622160|Błędna nazwa ulicy '29-go Listopada'|32-300|32-300|OLKUSZ|Olkusz|*|29-go Listopada|3a|3a|6|6|*|MAŁOPOLSKIE|*|olkuski|*|Olkusz
+A1190381|Błędna nazwa ulicy '3-goMaja'|38-521|38-521|*RYMANOW ZDROJ|Rymanów-Zdrój|*|3-goMaja|294|294|||*ŁÓDZKIE|PODKARPACKIE|*WIELUŃSKI|krośnieński|*WIERZCHLAS|Rymanów
+A22579|Błędna nazwa ulicy '6-go Września'|27-200|27-200|STARACHOWICE|Starachowice|*|6-go Września|68A|68A|||ŚWIĘTOKRZYSKIE|ŚWIĘTOKRZYSKIE|STARACHOWICKI|starachowicki|STARACHOWICE|Starachowice
+A1351071|Błędna nazwa ulicy '61ngrot'|32-353|32-353|TRZYCIĄŻ|Trzyciąż|*|61ngrot|42|42|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|olkuski|*|Trzyciąż
+A1348773|Błędna nazwa ulicy 'Al.. Ducha Św,'|39-300|39-300|MIELEC|Mielec|*|Al.. Ducha Św,|25|25|15|15|*|PODKARPACKIE|*|mielecki|*|Mielec
+A1348770|Błędna nazwa ulicy 'Al.. Ducha Św.'|39-300|39-300|MIELEC|Mielec|*|Al.. Ducha Św.|38|38|3|3|*|PODKARPACKIE|*|mielecki|*|Mielec
+A40537|Błędna nazwa ulicy 'al.3 Maja'|*30-062||*KRAKOW||*al.3 Maja||*9||*106||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1187543|Błędna nazwa ulicy 'Al.3 Maja'|*30-063||*KRAKÓW||*Al.3 Maja||*7||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A21874|Błędna nazwa ulicy 'Al.3 Maja'|*00-391||*WARSZAWA||*Al.3 Maja||*2||*||*MAZOWIECKIE||*||*|
+A1182315|Błędna nazwa ulicy 'Al.3 Maja'|*||*KRAKÓW||*Al.3 Maja||*5||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1347280|Błędna nazwa ulicy 'Al.3-Maja'|*00-391||*WARSZAWA||*Al.3-Maja||*12||*||*||*||*|
+A40365|Błędna nazwa ulicy 'al.F.Focha'|*30-111||*KRAKOW||*al.F.Focha||*25||*4||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A10400|Błędna nazwa ulicy 'al.W.Korfantego'|40-156|40-156|KATOWICE|Katowice|*|al.W.Korfantego|125 a|125 a|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Katowice|*WIERZCHLAS|Katowice
+A39015|Błędna nazwa ulicy 'Al.W.Korfantego'|40-156|40-156|KATOWICE|Katowice|*|Al.W.Korfantego|125a|125a|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Katowice|*WIERZCHLAS|Katowice
+A14332|Błędna nazwa ulicy 'AL.W.Korfantego'|40-157|40-157|KATOWICE|Katowice|*|AL.W.Korfantego|193|193|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Katowice|*WIERZCHLAS|Katowice
+A1352895|Błędna nazwa ulicy 'Aleksandra Fredry'|*27-400||*OSTROWIEC ŚW.||*Aleksandra Fredry||*15||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1352630|Błędna nazwa ulicy 'Alfredówka'|39-460|39-460|NOWA DĘBA|Nowa Dęba|*|Alfredówka|151|151|||*|PODKARPACKIE|*|tarnobrzeski|*|Nowa Dęba
+A1523|Błędna nazwa ulicy 'Arcybiskupa Z.S. Felińskiego'|*31-236||*KRAKÓW||*Arcybiskupa Z.S. Felińskiego||*25||*29||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1352636|Błędna nazwa ulicy 'B.A. Konstanty'|33-300|33-300|NOWY SĄCZ|Nowy Sącz|*|B.A. Konstanty|14|14|20|20|*|MAŁOPOLSKIE|*|Nowy Sącz|*|Nowy Sącz
+A1350698|Błędna nazwa ulicy 'Baczków'|*32-708||*DZIEWIN||*Baczków||*52||*||*||*||*|
+A1350967|Błędna nazwa ulicy 'Baczków'|*32-708||*DZIEWIN||*Baczków||*192||*||*||*||*|
+A1348540|Błędna nazwa ulicy 'Basznia Górna'|37-621|37-621|BASZNIA DOLNA|Basznia Dolna|*|Basznia Górna|8|8|||*|PODKARPACKIE|*|lubaczowski|*|Lubaczów
+A9377|Błędna nazwa ulicy 'Bialy Kosciol'|*32-089||*Krakow||*Bialy Kosciol||*42||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1190663|Błędna nazwa ulicy 'Bialy'|34-450|34-450|*KROSCIENKO|Krościenko|*|Bialy|Potok13|Potok13|||*ŁÓDZKIE|PODKARPACKIE|*WIELUŃSKI|bieszczadzki|*WIERZCHLAS|Ustrzyki Dolne
+A1349066|Błędna nazwa ulicy 'BIAŁOBORZE'|28-130|28-130|STOPNICA|Stopnica|*|BIAŁOBORZE|62C|62C|||ŚWIĘTOKRZYSKIE|ŚWIĘTOKRZYSKIE|*|buski|*|Stopnica
+A1190374|Błędna nazwa ulicy 'Bibice'|*32-086||*WEGRZCE||*Bibice||*309||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A3876|Błędna nazwa ulicy 'Boh.Września'|*31-620||*KRAKÓW||*Boh.Września||*12||*7||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1347476|Błędna nazwa ulicy 'Bol. Podedwornego'|18-300|18-300|ZAMBRÓW|Zambrów|*|Bol. Podedwornego|10|10|12|12|*|PODLASKIE|*|zambrowski|*|Zambrów
+A1350954|Błędna nazwa ulicy 'Borzęta'|32-400|32-400|MYŚLENICE|Myślenice|*|Borzęta|166|166|||*|MAŁOPOLSKIE|*|myślenicki|*|Myślenice
+A1266683|Błędna nazwa ulicy 'Broniewice'|88-344|88-344|KOŁODZIEJEWO|Kołodziejewo|*|Broniewice|3|3|||KUJAWSKO-POMORSKIE|KUJAWSKO-POMORSKIE|*MOGILEŃSKI|inowrocławski|*MOGILNO|Janikowo
+A1353429|Błędna nazwa ulicy 'Browno Kol. Armii Ludowej'|42-233|42-233|MYKANÓW|Mykanów|*|Browno Kol. Armii Ludowej|9|9|||*|ŚLĄSKIE|*|częstochowski|*|Mykanów
+A1349254|Błędna nazwa ulicy 'Brzezowa'|32-410|32-410|DOBCZYCE|Dobczyce|*|Brzezowa|20|20|||*|MAŁOPOLSKIE|*|myślenicki|*|Dobczyce
+A1350859|Błędna nazwa ulicy 'Brzyście'|39-307|39-307|GAWŁUSZOWICE|Gawłuszowice|*|Brzyście|20|20|||*|PODKARPACKIE|*|mielecki|*|Gawłuszowice
+A1349655|Błędna nazwa ulicy 'Bukówka'|58-420|58-420|LUBAWKA|Lubawka|*|Bukówka|61|61|||DOLNOŚLĄSKIE|DOLNOŚLĄSKIE|*|kamiennogórski|*|Lubawka
+A1350617|Błędna nazwa ulicy 'Burów'|*32-083||*BALICE||*Burów||*47||*||*||*||*|
+A1345362|Błędna nazwa ulicy 'Byszyce'|32-021|32-021|KOŹMICE WIELKIE|Koźmice Wielkie|*|Byszyce|103|103|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1190450|Błędna nazwa ulicy 'Cedlera'|41-303|41-303|*DABROWA GORNICZA|Dąbrowa Górnicza|*|Cedlera|14|14|45|45|*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Dąbrowa Górnicza|*WIERZCHLAS|Dąbrowa Górnicza
+A1352575|Błędna nazwa ulicy 'Cedlera'|41-303|41-303|DĄBROWA GÓRNICZA|Dąbrowa Górnicza|*|Cedlera|4|4|2|2|ŚLĄSKIE|ŚLĄSKIE|DĄBROWA GÓRNICZA|Dąbrowa Górnicza|DĄBROWA GÓRNICZA|Dąbrowa Górnicza
+T19023|Błędna nazwa ulicy 'Cholerzyn'|*32-060||*Liszki||*Cholerzyn||*146||*||*||*||*|
+A12245|Błędna nazwa ulicy 'Chorula'|46-077|46-077|GÓRAŻDŻE|Górażdże|*|Chorula|||||*ŁÓDZKIE|OPOLSKIE|*WIELUŃSKI|krapkowicki|*WIERZCHLAS|Gogolin
+A8121|Błędna nazwa ulicy 'CHROSNA'|*32-084||*MORAWICA||*CHROSNA||*104||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1190510|Błędna nazwa ulicy 'Cichawa'|32-013|32-013|*NIEGOWIC|Niegowić|*|Cichawa|39|39|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|wielicki|*WIERZCHLAS|Gdów
+T15875|Błędna nazwa ulicy 'Czajowice'|*32-089||*Wielka Wies||*Czajowice||*16a||*||*||*||*|
+T16599|Błędna nazwa ulicy 'Czerniec'|*33-390||*Lacko||*Czerniec||*57||*||*||*||*|
+A1351617|Błędna nazwa ulicy 'D'|*32-413||*KRZESŁAWICE||*D||*10||*||*MAŁOPOLSKIE||*||*|
+A1350682|Błędna nazwa ulicy 'Dąbrowa Szlachecka'|*32-070||*CZERNICHÓW||*Dąbrowa Szlachecka||*156||*||*||*||*|
+A1344744|Błędna nazwa ulicy 'Demoniówka 1/1B'|25-413|25-413|KIELCE|Kielce|*|Demoniówka 1/1B|||||*|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+A1350943|Błędna nazwa ulicy 'Denkówek'|27-420|27-420|*BODZĘCHÓW|Bodzechów|*|Denkówek|67A|67A|||*|ŚWIĘTOKRZYSKIE|*|ostrowiecki|*|Bodzechów
+A1348740|Błędna nazwa ulicy 'Długie'|38-530|38-530|ZARSZYN|Zarszyn|*|Długie|184|184|||*|PODKARPACKIE|*|sanocki|*|Zarszyn
+A1350604|Błędna nazwa ulicy 'Dobieszyn'|38-460|38-460|JEDLICZE|Jedlicze|*|Dobieszyn|34a|34a|||*|PODKARPACKIE|*|krośnieński|*|Jedlicze
+A1350835|Błędna nazwa ulicy 'dole'|*39-320||*PRZECŁAW||*dole||*281||*||*||*||*|
+A1613425|Błędna nazwa ulicy 'dr J. Piltza'|*30-392||*KRAKÓW||*dr J. Piltza||*42||*45||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1350602|Błędna nazwa ulicy 'Dziekanowice'|32-410|32-410|DOBCZYCE|Dobczyce|*|Dziekanowice|83|83|||*|MAŁOPOLSKIE|*|myślenicki|*|Dobczyce
+A1207|Błędna nazwa ulicy 'Fika'|*31-214||*Kraków||*Fika||*19||*92||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A18530|Błędna nazwa ulicy 'Fika'|*31-214||*Kraków||*Fika||*21||*54||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+T18530|Błędna nazwa ulicy 'Fika'|*31-214||*Krakow||*Fika||*21||*54||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1350934|Błędna nazwa ulicy 'Filipowice'|32-065|32-065|KRZESZOWICE|Krzeszowice|*|Filipowice|380|380|||*|MAŁOPOLSKIE|*|krakowski|*|Krzeszowice
+A10471|Błędna nazwa ulicy 'Findera'|43-300|43-300|BIELSKO-BIAŁA|Bielsko-Biała|*|Findera|32|32|||*ŁÓDZKIE|ŚLĄSKIE|*|Bielsko-Biała|*|Bielsko-Biała
+A1351151|Błędna nazwa ulicy 'Fr.Bielowicza'|32-040|32-040|ŚWIĄTNIKI GÓRNE|Świątniki Górne|*|Fr.Bielowicza|79|79|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|krakowski|*|Świątniki Górne
+A1386560|Błędna nazwa ulicy 'Franciszka Prożka'|*91-335||*ŁÓDŹ||*Franciszka Prożka||*11||*||*||*||*|
+A1190506|Błędna nazwa ulicy 'G.F.Nika'|*31-209||*KRAKÓW||*G.F.Nika||*15||*75||*ŚWIĘTOKRZYSKIE||*BUSKI||*BUSKO-ZDRÓJ|
+A35951|Błędna nazwa ulicy 'Garliczka'|*32-088||*PRZYBYSŁAWICE||*Garliczka||*56||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1345364|Błędna nazwa ulicy 'Gąsienic'|57-100|57-100|STRZELIN|Strzelin|*|Gąsienic|122|122|||*|DOLNOŚLĄSKIE|*|strzeliński|*|Strzelin
+A1351601|Błędna nazwa ulicy 'Gen. Żółkowskiego-Lina'|27-600|27-600|SANDOMIERZ|Sandomierz|*|Gen. Żółkowskiego-Lina|8|8|8|8|ŚWIĘTOKRZYSKIE|ŚWIĘTOKRZYSKIE|*|sandomierski|*|Sandomierz
+A8676|Błędna nazwa ulicy 'GEN.B.WIENIAWY-DŁUGOSZOWSKIEGO'|*31-398||*Kraków||*GEN.B.WIENIAWY-DŁUGOSZOWSKIEGO||*10||*19||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A2703|Błędna nazwa ulicy 'Gen.J.Jasińskiego'|*30-815||*KRAKÓW||*Gen.J.Jasińskiego||*28||*21||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A8473|Błędna nazwa ulicy 'Gen.M.Kukiela'|*31-358||*Kraków||*Gen.M.Kukiela||*7||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A14741|Błędna nazwa ulicy 'Gen.Swierczewskiego'|26-110|26-110|*SKARZYSKO-KAMIENNA|Skarżysko-Kamienna|*|Gen.Swierczewskiego|74|74|||*ŁÓDZKIE|ŚWIĘTOKRZYSKIE|*WIELUŃSKI|skarżyski|*WIERZCHLAS|Skarżysko-Kamienna
+A1349599|Błędna nazwa ulicy 'Góra Transportowa'|*59-500||*JELENIA GÓRA||*Góra Transportowa||*22||*22||*DOLNOŚLĄSKIE||*||*|
+A1347831|Błędna nazwa ulicy 'Górka Sobocka'|*57-150||*PRUSY||*Górka Sobocka||*28||*||*||*||*|
+T8146|Błędna nazwa ulicy 'Górna Wieś'|*32-091||*MICHAŁOWICE||*Górna Wieś||*31||*||*||*||*|
+A1350987|Błędna nazwa ulicy 'Gózd Lipiński'|23-425|23-425|BISZCZA|Biszcza|*|Gózd Lipiński|123|123|||*|LUBELSKIE|*|biłgorajski|*|Biszcza
+A1348750|Błędna nazwa ulicy 'Gózd'|37-414|37-414|HUTA KRZESZOWSKA|Huta Krzeszowska|*|Gózd|43A|43A|||*|PODKARPACKIE|*|niżański|*|Harasiuki
+A1258699|Błędna nazwa ulicy 'Grajów'|32-020|32-020|WIELICZKA|Wieliczka|*|Grajów|137|137|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1257186|Błędna nazwa ulicy 'Grochowce'|37-733|37-733|PIKULICE|Pikulice|*|Grochowce|288|288|||*|PODKARPACKIE|*|przemyski|*|Przemyśl
+A1350983|Błędna nazwa ulicy 'Grochowce'|37-733|37-733|PIKULICE|Pikulice|*|Grochowce|17|17|||*|PODKARPACKIE|*|przemyski|*|Przemyśl
+A1349660|Błędna nazwa ulicy 'Gronczewskiego'|*23-400||*BIŁGORAJ||*Gronczewskiego||*10||*||*LUBELSKIE||*||*|
+A1348527|Błędna nazwa ulicy 'holerzyn'|*32-060||*LISZKI||*holerzyn||*206||*||*||*||*|
+A1348798|Błędna nazwa ulicy 'horkówka'|38-458|38-458|CHORKÓWKA|Chorkówka|*|horkówka|129|129|||*|PODKARPACKIE|*|krośnieński|*|Chorkówka
+A1351084|Błędna nazwa ulicy 'ierchomla Mała'|33-350|33-350|WIERCHOMLA MAŁA|Wierchomla Mała|*|ierchomla Mała|3|3|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|nowosądecki|*|Piwniczna-Zdrój
+A1293381|Błędna nazwa ulicy 'II-go Pułku Lotniczego'|*31-867||*KRAKÓW||*II-go Pułku Lotniczego||*9||*20||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1350352|Błędna nazwa ulicy 'Il.Białostocka'|*41-219||*SOSNOWIEC||*Il.Białostocka||*23||*30||*||*||*|
+A1348553|Błędna nazwa ulicy 'Imbramowice'|32-353|32-353|TRZYCIĄŻ|Trzyciąż|*|Imbramowice|25|25|||*|MAŁOPOLSKIE|*|olkuski|*|Trzyciąż
+A1350642|Błędna nazwa ulicy 'Imbramowice'|32-353|32-353|TRZYCIĄŻ|Trzyciąż|*|Imbramowice|36|36|||*|MAŁOPOLSKIE|*|olkuski|*|Trzyciąż
+A1354378|Błędna nazwa ulicy 'Insur. Kościuszkowskiej'|*43-600||*JAWORZNO||*Insur. Kościuszkowskiej||*70||*8||*ŚLĄSKIE||*JAWORZNO||*JAWORZNO|
+A1178664|Błędna nazwa ulicy 'J,Lea'|*30-048||*KRAKÓW||*J,Lea||*16||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1348655|Błędna nazwa ulicy 'J. Ch. Paska'|28-330|28-330|WODZISŁAW|Wodzisław|*|J. Ch. Paska|2|2|1|1|*|ŚWIĘTOKRZYSKIE|*|jędrzejowski|*|Wodzisław
+A19348|Błędna nazwa ulicy 'J.Fafary'|*31-410||*Kraków||*J.Fafary||*2||*29||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1347708|Błędna nazwa ulicy 'J.J.Haffnera'|81-715|81-715|SOPOT|Sopot|*|J.J.Haffnera|59|59|||*|POMORSKIE|*|Sopot|*|Sopot
+A1347033|Błędna nazwa ulicy 'J.J.Rostafińskich'|*02-593||*WARSZAWA||*J.J.Rostafińskich||*4||*||*||*||*|
+A1344801|Błędna nazwa ulicy 'J.Pawła II'|75-452|75-452|KOSZALIN|Koszalin|*|J.Pawła II|8b|8b|22|22|ZACHODNIOPOMORSKIE|ZACHODNIOPOMORSKIE|KOSZALIN|Koszalin|KOSZALIN|Koszalin
+A34848|Błędna nazwa ulicy 'J.Piłsudskiego'|41-308|41-308|DĄBROWA GÓRNICZA|Dąbrowa Górnicza|*|J.Piłsudskiego|92|92|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Dąbrowa Górnicza|*WIERZCHLAS|Dąbrowa Górnicza
+A1348729|Błędna nazwa ulicy 'Janowice'|32-218|32-218|SŁABOSZÓW|Słaboszów|*|Janowice|47|47|||*|MAŁOPOLSKIE|*|miechowski|*|Słaboszów
+A1348702|Błędna nazwa ulicy 'Jarosławiec'|*22-424||*SITNO||*Jarosławiec||*51||*||*||*||*|
+A1350826|Błędna nazwa ulicy 'Jurkowice'|*28-210||*BOGORIA||*Jurkowice||*2||*7||*||*||*|
+A1269763|Błędna nazwa ulicy 'Jurków'|32-860|32-860|CZCHÓW|Czchów|*|Jurków|155|155|||*|MAŁOPOLSKIE|*|brzeski|*|Czchów
+A1348973|Błędna nazwa ulicy 'K. E. N.'|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|K. E. N.|6|6|41|41|PODKARPACKIE|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1350810|Błędna nazwa ulicy 'K. Jagiellończyka'|*32-615||*GROJEC||*K. Jagiellończyka||*55||*||*||*||*|
+A1348760|Błędna nazwa ulicy 'K.E.N.'|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|K.E.N.|10|10|39|39|*|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1351687|Błędna nazwa ulicy 'K.E.N.'|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|K.E.N.|14|14|54|54|PODKARPACKIE|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1350885|Błędna nazwa ulicy 'K.K. Wielkiego'|32-300|32-300|OLKUSZ|Olkusz|*|K.K. Wielkiego|31|31|||*|MAŁOPOLSKIE|*|olkuski|*|Olkusz
+A1794|Błędna nazwa ulicy 'K.Wielkiego'|*30-074||*KRAKÓW||*K.Wielkiego||*77||*6||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1348507|Błędna nazwa ulicy 'Kaliś'|32-340|32-340|WOLBROM|Wolbrom|*|Kaliś|11|11|||*|MAŁOPOLSKIE|*|olkuski|*|Wolbrom
+A1343464|Błędna nazwa ulicy 'Kamówczyków'|*24-100||*PUŁAWY||*Kamówczyków||*6||*18||*LUBELSKIE||*PUŁAWSKI||*PUŁAWY|
+A1350981|Błędna nazwa ulicy 'Karp'|*22-424||*SITNO||*Karp||*4A||*||*||*||*|
+A11716|Błędna nazwa ulicy 'kARSY'|*27-530||*OŻARÓW||*kARSY||*77||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1617768|Błędna nazwa ulicy 'Karwowo Szlacheckie'|*09-470||*BODZANÓW||*Karwowo Szlacheckie||*28||*||*||*||*|
+A1350890|Błędna nazwa ulicy 'Kaszów'|*32-060||*LISZKI||*Kaszów||*159||*||*||*||*|
+A1173707|Błędna nazwa ulicy 'Kazimierza Wlk.'|*||*KRAKÓW||*Kazimierza Wlk.||*67||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A30647|Błędna nazwa ulicy 'Kąclowa'|33-330|33-330|*GRYBOW|Grybów|*|Kąclowa|53|53|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|nowosądecki|*WIERZCHLAS|Grybów
+A1350047|Błędna nazwa ulicy 'KEN'|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|KEN|3|3|34|34|*|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1351034|Błędna nazwa ulicy 'KEN'|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|KEN|2|2|86|86|*|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1351089|Błędna nazwa ulicy 'Kędzierzynka'|*32-422||*STADNIKI||*Kędzierzynka||*78||*||*MAŁOPOLSKIE||*MYŚLENICKI||*DOBCZYCE|
+T1189151|Błędna nazwa ulicy 'Kisielówka'|||NOWY SĄCZ|Nowy Sącz|*|Kisielówka|47|47|||*|MAŁOPOLSKIE|*|Nowy Sącz|*|Nowy Sącz
+A25370|Błędna nazwa ulicy 'Klebeerga'|*33-101||*TARNÓW||*Klebeerga||*3||*||*MAŁOPOLSKIE||*TARNÓW||*TARNÓW|
+A27328|Błędna nazwa ulicy 'Kniewskiego'|*42-500||*BĘDZIN||*Kniewskiego||*2||*41||*ŚLĄSKIE||*BĘDZIŃSKI||*BĘDZIN|
+A1350848|Błędna nazwa ulicy 'Kobielnik'|*32-412||*WIŚNIOWA||*Kobielnik||*79||*||*||*||*|
+A1927021|Błędna nazwa ulicy 'Kokotów'|32-002|32-002|WĘGRZCE WIELKIE|Węgrzce Wielkie|*|Kokotów|271|271|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1350774|Błędna nazwa ulicy 'Kokotów'|32-002|32-002|WĘGRZCE WIELKIE|Węgrzce Wielkie|*|Kokotów|20|20|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1350780|Błędna nazwa ulicy 'Kolonia Łopiennik Dolny'|22-351|22-351|ŁOPIENNIK GÓRNY|Łopiennik Górny|*|Kolonia Łopiennik Dolny|73|73|||*|LUBELSKIE|*|krasnostawski|*|Łopiennik Górny
+A1348611|Błędna nazwa ulicy 'Konf. Barskich'|32-700|32-700|BOCHNIA|Bochnia|*|Konf. Barskich|4|4|||*|MAŁOPOLSKIE|*|bocheński|*|Bochnia
+A1353423|Błędna nazwa ulicy 'Koniemłoty Nowa'|*28-200||*STASZÓW||*Koniemłoty Nowa||*7||*||*||*||*|
+A1350907|Błędna nazwa ulicy 'Koniemłoty'|*28-200||*STASZÓW||*Koniemłoty||*87||*||*||*||*|
+T2300|Błędna nazwa ulicy 'Korzkiew'|*32-088||*PRZYBYSŁAWICE||*Korzkiew||*36||*||*||*||*|
+A1349276|Błędna nazwa ulicy 'Kpt. St. Betleja'|38-460|38-460|JEDLICZE|Jedlicze|*|Kpt. St. Betleja|5B|5B|||*|PODKARPACKIE|*|krośnieński|*|Jedlicze
+A1190460|Błędna nazwa ulicy 'Krakow ul.Olszanicka'|*30-220||*KRAKOW||*Krakow ul.Olszanicka||*34||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1267161|Błędna nazwa ulicy 'Krakow.Przedmieście'|*00-325||*WARSZAWA||*Krakow.Przedmieście||*12||*3||*||*||*|
+A9250|Błędna nazwa ulicy 'Krakuszowice'|32-420|32-420|GDÓW|Gdów|*|Krakuszowice|37|37|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|wielicki|*WIERZCHLAS|Gdów
+A11056|Błędna nazwa ulicy 'Kryspinów'|*32-060||*LISZKI||*Kryspinów||*278||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1345987|Błędna nazwa ulicy 'Kryspinów'|*32-660||*LISZKI||*Kryspinów||*393||*||*||*||*|
+A1172399|Błędna nazwa ulicy 'Kryspinów'|*32-060||*LISZKI||*Kryspinów||*357||*||*MAŁOPOLSKIE||*||*|
+A1350865|Błędna nazwa ulicy 'Krzczonów'|*26-340||*DRZEWICA||*Krzczonów||*71||*||*||*||*|
+A1350700|Błędna nazwa ulicy 'Ks.J.Popiełuszki'|37-450|37-450|STALOWA-WOLA|Stalowa Wola|*|Ks.J.Popiełuszki|12A|12A|16|16|*|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A14340|Błędna nazwa ulicy 'Ks.P.Skwary'|44-370|44-370|PSZÓW|Pszów|*|Ks.P.Skwary|21|21|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|wodzisławski|*WIERZCHLAS|Pszów
+A1344155|Błędna nazwa ulicy 'Kwaczała'|32-566|32-566|ALWERNIA|Alwernia|*|Kwaczała|47|47|||*|MAŁOPOLSKIE|*|chrzanowski|*|Alwernia
+A1350950|Błędna nazwa ulicy 'Kwaszyn'|28-440|28-440|DZIAŁOSZYCE|Działoszyce|*|Kwaszyn|20|20|||*|ŚWIĘTOKRZYSKIE|*|pińczowski|*|Działoszyce
+A1348504|Błędna nazwa ulicy 'L.Rydla'|*27-400||*OSTROWIEC ŚW.||*L.Rydla||*3||*||*||*||*|
+A1345194|Błędna nazwa ulicy 'Leszna Góra'|43-445|43-445|DZIĘGIELÓW|Dzięgielów|*|Leszna Góra|8|8|||*|ŚLĄSKIE|*|cieszyński|*|Goleszów
+A1349628|Błędna nazwa ulicy 'Letnisko Zacisze'|26-630|26-630|JEDLNIA LETNISKO|Jedlnia-Letnisko|*|Letnisko Zacisze|7A|7A|||MAZOWIECKIE|MAZOWIECKIE|*|radomski|*|Jedlnia-Letnisko
+A1280173|Błędna nazwa ulicy 'Lipnica Dolna'|38-200|38-200|JASŁO|Jasło|*|Lipnica Dolna|106|106|||PODKARPACKIE|PODKARPACKIE|JASIELSKI|jasielski|*BRZYSKA|Jasło
+A1350979|Błędna nazwa ulicy 'Łączki Brzeskie'|*39-320||*PRZECŁAW||*Łączki Brzeskie||*307||*||*||*||*|
+A1350647|Błędna nazwa ulicy 'Łężyce'|*27-580||*SADOWIE||*Łężyce||*7||*||*||*||*|
+A1425061|Błędna nazwa ulicy 'Łostówka'|34-730|34-730|MSZANA DOLNA|Mszana Dolna|*|Łostówka|271|271|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|limanowski|*|Mszana Dolna
+A1350355|Błędna nazwa ulicy 'M. C. Skłodowskiej'|43-300|43-300|BIELSKO-BIAŁA|Bielsko-Biała|*|M. C. Skłodowskiej|3|3|3|3|*|ŚLĄSKIE|*|Bielsko-Biała|*|Bielsko-Biała
+A1352641|Błędna nazwa ulicy 'M. Konponickiej'|26-120|26-120|SKARŻYSKO KAMIENNA|Skarżysko-Kamienna|*|M. Konponickiej|4|4|50|50|*|ŚWIĘTOKRZYSKIE|*|skarżyski|*|Skarżysko-Kamienna
+A1351473|Błędna nazwa ulicy 'M. Skłodowskiej Curie'|*89-320||*WYSOKA||*M. Skłodowskiej Curie||*12A||*||*||*||*|
+A1349475|Błędna nazwa ulicy 'M.C. Skłodowskiej'|32-300|32-300|OLKUSZ|Olkusz|*|M.C. Skłodowskiej|43|43|15|15|MAŁOPOLSKIE|MAŁOPOLSKIE|*|olkuski|*|Olkusz
+A1345842|Błędna nazwa ulicy 'M.Chrobaka'|41-711|41-711|RUDA ŚLĄSKA|Ruda Śląska|*|M.Chrobaka|8|8|4|4|*|ŚLĄSKIE|*|Ruda Śląska|*|Ruda Śląska
+A31095|Błędna nazwa ulicy 'M.Mireckiego'|*30-426||*KRAKÓW||*M.Mireckiego||*3||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A11782|Błędna nazwa ulicy 'Makoszowa'|41-800|41-800|ZABRZE|Zabrze|*|Makoszowa|24|24|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Zabrze|*WIERZCHLAS|Zabrze
+A1348767|Błędna nazwa ulicy 'Mała Wieś'|32-002|32-002|WĘGRZCE WIELKIE|Węgrzce Wielkie|*|Mała Wieś|86|86|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1348570|Błędna nazwa ulicy 'Małęczyn Nowy, Kościelna'|*26-634||*GÓZD||*Małęczyn Nowy, Kościelna||*1||*||*||*||*|
+A1345886|Błędna nazwa ulicy 'Manifestu Lipcowego'|25-430|25-430|KIELCE|Kielce|*|Manifestu Lipcowego|||||*|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+A1349356|Błędna nazwa ulicy 'Mari Dąbrowskiej'|35-400|35-400|TARNOBRZEG|Tarnobrzeg|*|Mari Dąbrowskiej|14|14|7|7|*|PODKARPACKIE|*|Tarnobrzeg|*|Tarnobrzeg
+T18719|Błędna nazwa ulicy 'Maszyce'|32-324|32-324|*Ojcow|Ojców|*|Maszyce|51|51|||*|MAŁOPOLSKIE|*|krakowski|*|Skała
+A1345283|Błędna nazwa ulicy 'Mieszka I - Solskiego'|72-400|72-400|KAMIEŃ POMORSKI|Kamień Pomorski|*|Mieszka I - Solskiego|||||*|ZACHODNIOPOMORSKIE|*|kamieński|*|Kamień Pomorski
+A1348600|Błędna nazwa ulicy 'Mietel'|28-130|28-130|STOPNICA|Stopnica|*|Mietel|34|34|||*|ŚWIĘTOKRZYSKIE|*|buski|*|Stopnica
+A1345398|Błędna nazwa ulicy 'Mikoszów'|57-100|57-100|STRZELIN|Strzelin|*|Mikoszów|47|47|||*|DOLNOŚLĄSKIE|*|strzeliński|*|Strzelin
+A1348844|Błędna nazwa ulicy 'Milik'|33-370|33-370|MUSZYNA|Muszyna|*|Milik|37|37|||*|MAŁOPOLSKIE|*|nowosądecki|*|Muszyna
+T19103|Błędna nazwa ulicy 'Mnikow'|*32-084||*Morawica||*Mnikow||*18||*||*||*||*|
+A1190472|Błędna nazwa ulicy 'Mokrzyska'|*32-800||*BRZESKO||*Mokrzyska||*83||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1350862|Błędna nazwa ulicy 'morowska'|36-110|36-110|MAJDAN KRÓLEWSKI|Majdan Królewski|*|morowska|158|158|||*|PODKARPACKIE|*|kolbuszowski|*|Majdan Królewski
+A1350825|Błędna nazwa ulicy 'Nagórzany'|38-506|38-506|NOWOTANIEC|Nowotaniec|*|Nagórzany|51|51|||*|PODKARPACKIE|*|sanocki|*|Bukowsko
+A1190371|Błędna nazwa ulicy 'Naprawa'|*34-785||*JORDANOW||*Naprawa||*65||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1901047|Błędna nazwa ulicy 'NIEMSTÓW'|37-611|37-611|CIESZANÓW|Cieszanów|*|NIEMSTÓW|87|87|||*|PODKARPACKIE|*|lubaczowski|*|Cieszanów
+A1190590|Błędna nazwa ulicy 'Nienadowa'|37-750|37-750|DUBIECKO|Dubiecko|*|Nienadowa|474|474|||*ŁÓDZKIE|PODKARPACKIE|*WIELUŃSKI|przemyski|*WIERZCHLAS|Dubiecko
+A1350671|Błędna nazwa ulicy 'Nowa Góra'|32-065|32-065|KRZESZOWICE|Krzeszowice|*|Nowa Góra|351|351|||*|MAŁOPOLSKIE|*|krakowski|*|Krzeszowice
+A8113|Błędna nazwa ulicy 'Nowa Wies Szlachecka'|*32-060||*Liszki||*Nowa Wies Szlachecka||*290||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A8114|Błędna nazwa ulicy 'Nowa Wies Szlachecka'|*32-060||*Liszki||*Nowa Wies Szlachecka||*129||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1348720|Błędna nazwa ulicy 'Nowe Dwory'|*34-114||*BRZEŹNICA||*Nowe Dwory||*89||*||*||*||*|
+A1349595|Błędna nazwa ulicy 'Obrony Poczty Gdańskiej'|*43-600||*JAWORZNO||*Obrony Poczty Gdańskiej||*64||*||*ŚLĄSKIE||*||*|
+A1348822|Błędna nazwa ulicy 'Okół'|*27-423||*BAŁTÓW||*Okół||*75a||*||*||*||*|
+A1350875|Błędna nazwa ulicy 'Okrągłe'|*23-400||*BIŁGORAJ||*Okrągłe||*2||*||*||*||*|
+A1214381|Błędna nazwa ulicy 'Orsk'|*59-305||*RUDNA||*Orsk||*||*||*||*||*|
+ZA1129|Błędna nazwa ulicy 'os,Oświecenia'|*31-636||*KRAKÓW||*os,Oświecenia||*29||*40||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1349019|Błędna nazwa ulicy 'OS. LEGIONÓW IM. DĄBROWSKIEGO'|*33-100||*TARNÓW||*OS. LEGIONÓW IM. DĄBROWSKIEGO||*3||*20||*MAŁOPOLSKIE||*||*|
+A1344188|Błędna nazwa ulicy 'os. Złoty Wiek'|*31-618||*KRAKÓW||*os. Złoty Wiek||*40||*16||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1348753|Błędna nazwa ulicy 'Os. ZWM'|*32-540||*TRZEBINIA||*Os. ZWM||*15||*15||*||*||*|
+A472|Błędna nazwa ulicy 'os.Dywizjonu 303 nr'|*31-875||*KRAKÓW||*os.Dywizjonu 303 nr||*46||*25||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1349962|Błędna nazwa ulicy 'os.Gen.Maczka'|37-100|37-100|ŁAŃCUT|Łańcut|*|os.Gen.Maczka|16|16|5|5|*|PODKARPACKIE|*|łańcucki|*|Łańcut
+A727|Błędna nazwa ulicy 'os.II Pułku Lotniczego'|*31-870||*Kraków||*os.II Pułku Lotniczego||*50||*4||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A3789|Błędna nazwa ulicy 'os.II Pułku Lotniczego'|*31-867||*Kraków||*os.II Pułku Lotniczego||*9||*16||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1676|Błędna nazwa ulicy 'os.II Pułku Lotniczego'|*31-867||*Kraków||*os.II Pułku Lotniczego||*3||*113||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A3969|Błędna nazwa ulicy 'os.II Pułku Lotniczego'|*31-867||*KRAKÓW||*os.II Pułku Lotniczego||*3||*125||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A8834|Błędna nazwa ulicy 'os.II Pułku Lotniczego'|*31-462||*KRAKÓW||*os.II Pułku Lotniczego||*16||*106||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1196022|Błędna nazwa ulicy 'os.II Pułku Lotniczego'|*31-868||*KRAKÓW||*os.II Pułku Lotniczego||*3||*113||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A30499|Błędna nazwa ulicy 'os.II Pułku Lotniczego'|*31-870||*KRAKÓW||*os.II Pułku Lotniczego||*42||*11||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A2570|Błędna nazwa ulicy 'Os.II Pułku Lotniczego'|*31-868||*Kraków||*Os.II Pułku Lotniczego||*19||*102||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A11245|Błędna nazwa ulicy 'os.M.Kopernika'|34-100|34-100|WADOWICE|Wadowice|*|os.M.Kopernika|18|18|||*ŁÓDZKIE|MAŁOPOLSKIE|*|wadowicki|*|Wadowice
+A1353447|Błędna nazwa ulicy 'Ostrowy Tuszowskie'|36-106|36-106|TRZĘSÓWKA|Trzęsówka|*|Ostrowy Tuszowskie|108|108|||*|PODKARPACKIE|*|kolbuszowski|*|Cmolas
+A1349256|Błędna nazwa ulicy 'Oś .Stawki'|*27-400||*OSTROWIEC ŚW.||*Oś .Stawki||*74||*30||*||*||*|
+A1349200|Błędna nazwa ulicy 'Oś. Zwm'|*32-540||*TRZEBINIA||*Oś. Zwm||*11||*37||*||*||*|
+A1349323|Błędna nazwa ulicy 'Oś. Zwn'|*32-540||*TRZEBINIA||*Oś. Zwn||*5||*28||*||*||*|
+A1350630|Błędna nazwa ulicy 'oś.M.Kopernika'|*37-500||*JAROSŁAW||*oś.M.Kopernika||*7||*45||*||*||*|
+A26481|Błędna nazwa ulicy 'oś.Złoty Wiek'|*31-616||*KRAKOW||*oś.Złoty Wiek||*18||*51||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1258694|Błędna nazwa ulicy 'Owczary'|*32-088||*PRZYBYSŁAWICE||*Owczary||*165||*1||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A14618|Błędna nazwa ulicy 'Palac Kultury i Nauki'|*00-901||*WARSZAWA||*Palac Kultury i Nauki||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1353427|Błędna nazwa ulicy 'Palikówka'|36-973|36-973|STRAŻÓW|Strażów|*|Palikówka|276|276|||*|PODKARPACKIE|*|rzeszowski|*|Krasne
+A10228|Błędna nazwa ulicy 'Pałac Kultury i Nauki'|*00-901||*WARSZAWA||*Pałac Kultury i Nauki||*||*||*ŁÓDZKIE||*||*|
+A14867|Błędna nazwa ulicy 'Pałac Kultury i Nauki'|*00-901||*WARSZAWA||*Pałac Kultury i Nauki||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A20252|Błędna nazwa ulicy 'Pałac Kultury i Nauki'|*00-901||*WARSZAWA||*Pałac Kultury i Nauki||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1194686|Błędna nazwa ulicy 'Pałac Kultury i Nauki'|*00-901||*WARSZAWA||*Pałac Kultury i Nauki||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A29188|Błędna nazwa ulicy 'PAŁAC KULTURY I NAUKI'|*00-901||*WARSZAWA||*PAŁAC KULTURY I NAUKI||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1884592|Błędna nazwa ulicy 'Pasterka'|57-350|57-350|KUDOWA-ZDRÓJ|Kudowa-Zdrój|*|Pasterka|6|6|||*|DOLNOŚLĄSKIE|*|kłodzki|*|Kudowa-Zdrój
+A1348771|Błędna nazwa ulicy 'Pawlikowice'|32-020|32-020|WIELICZKA|Wieliczka|*|Pawlikowice|224|224|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1350453|Błędna nazwa ulicy 'Pękowice'|*32-087||*ZIELONKI||*Pękowice||*56||*||*||*||*|
+A1283503|Błędna nazwa ulicy 'Piotra Ściegiennego'|40-114|40-114|KATOWICE|Katowice|*|Piotra Ściegiennego|3|3|||*|ŚLĄSKIE|*|Katowice|*|Katowice
+A1350850|Błędna nazwa ulicy 'Pisarzowa'|34-654|34-654|MĘCINA|Męcina|*|Pisarzowa|289|289|||*|MAŁOPOLSKIE|*|limanowski|*|Limanowa
+A18088|Błędna nazwa ulicy 'PKiN'|*00-901||*WARSZAWA||*PKiN||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A14703|Błędna nazwa ulicy 'pl. M. Curie-Skłodowskiej'|20-031|20-031|LUBLIN|Lublin|*|pl. M. Curie-Skłodowskiej|5|5|||*ŁÓDZKIE|LUBELSKIE|*|Lublin|*|Lublin
+A11206|Błędna nazwa ulicy 'pl.1-go Maja'|50-136|50-136|WROCŁAW|Wrocław|*|pl.1-go Maja|1|1|2|2|*ŁÓDZKIE|DOLNOŚLĄSKIE|*WIELUŃSKI|Wrocław|*WIERZCHLAS|Wrocław
+A1172562|Błędna nazwa ulicy 'Plantowa 13 A/18'|*91-104||*ŁÓDŹ||*Plantowa 13 A/18||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1915517|Błędna nazwa ulicy 'Płoskie'|*22-400||*ZAMOŚĆ||*Płoskie||*71||*||*||*||*|
+A26745|Błędna nazwa ulicy 'Płyćwia'|96-126|96-126|GODZIANÓW|Godzianów|*|Płyćwia|112|112|||ŁÓDZKIE|ŁÓDZKIE|*ŁÓDZKI WSCHODNI|skierniewicki|*BRZEZINY|Godzianów
+A1171246|Błędna nazwa ulicy 'PO BOX'|20-845|20-845|*LUBLIN 56|Lublin|*|PO BOX|36|36|||*ŁÓDZKIE|LUBELSKIE|*WIELUŃSKI|Lublin|*WIERZCHLAS|Lublin
+A1349195|Błędna nazwa ulicy 'Poddąbrowa'|27-220|27-220|MIRZEC|Mirzec|*|Poddąbrowa|58|58|||ŚWIĘTOKRZYSKIE|ŚWIĘTOKRZYSKIE|*|starachowicki|*|Mirzec
+A27050|Błędna nazwa ulicy 'Podleśna Wola'|*32-200||*MIECHÓW||*Podleśna Wola||*82||*||*MAŁOPOLSKIE||*MIECHOWSKI||*MIECHÓW|
+A1348673|Błędna nazwa ulicy 'Pojawie'|*32-821||*ZABORÓW||*Pojawie||*74||*||*||*||*|
+A1190490|Błędna nazwa ulicy 'Polowniaka'|25-634|25-634|KIELCE|Kielce|*|Polowniaka|2|2|25|25|*ŁÓDZKIE|ŚWIĘTOKRZYSKIE|*WIELUŃSKI|Kielce|*WIERZCHLAS|Kielce
+A1351462|Błędna nazwa ulicy 'Połowniaka'|25-634|25-634|KIELCE|Kielce|*|Połowniaka|9|9|8|8|*ŚLĄSKIE|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+A1348762|Błędna nazwa ulicy 'Pomyków'|26-400|26-400|PRZYSUCHA|Przysucha|*|Pomyków|55|55|||*|MAZOWIECKIE|*|przysuski|*|Przysucha
+A1348588|Błędna nazwa ulicy 'Poręba Spytkowska'|*32-800||*BRZESKO||*Poręba Spytkowska||*517||*||*||*||*|
+A1350821|Błędna nazwa ulicy 'Posada Górna'|38-481|38-481|RYMANÓW ZDRÓJ|Rymanów-Zdrój|*|Posada Górna|168|168|||*|PODKARPACKIE|*|krośnieński|*|Rymanów
+A1348692|Błędna nazwa ulicy 'Poskwitów'|32-095|32-095|IWANOWICE|Iwanowice|*|Poskwitów|47|47|||*|WIELKOPOLSKIE|*|kaliski|*|Szczytniki
+A1348657|Błędna nazwa ulicy 'Powst. W-wy'|98-300|98-300|WIELUŃ|Wieluń|*|Powst. W-wy|6|6|||*|ŁÓDZKIE|*|wieluński|*|Wieluń
+A1349944|Błędna nazwa ulicy 'Prałkowce'|*37-700||*PRZEMYŚL||*Prałkowce||*52||*||*||*||*|
+A14275|Błędna nazwa ulicy 'Prof.J.Studniarskiego'|*33-100||*TARNÓW||*Prof.J.Studniarskiego||*2||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1351538|Błędna nazwa ulicy 'PRYMASA TYSIĄC-LECIA'|35-510|35-510|RZESZÓW|Rzeszów|*|PRYMASA TYSIĄC-LECIA|4|4|20|20|PODKARPACKIE|PODKARPACKIE|*|Rzeszów|*|Rzeszów
+A1344852|Błędna nazwa ulicy 'Przebieczany'|32-020|32-020|WIELICZKA|Wieliczka|*|Przebieczany|260|260|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1353439|Błędna nazwa ulicy 'Przebieczany'|32-020|32-020|WIELICZKA|Wieliczka|*|Przebieczany|100|100|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A8287|Błędna nazwa ulicy 'Przeginia Narodowa'|*32-070||*CZERNICHÓW||*Przeginia Narodowa||*148||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1350669|Błędna nazwa ulicy 'Psary'|*32-545||*KARNIOWICE||*Psary||*4||*||*||*||*|
+A1348516|Błędna nazwa ulicy 'Racławice ,Krótka'|*37-400||*NISKO||*Racławice ,Krótka||*17b||*||*||*||*|
+A1257187|Błędna nazwa ulicy 'Racławice'|*38-251||*ROŻNOWICE||*Racławice||*215||*||*||*||*|
+A1821039|Błędna nazwa ulicy 'Radlin'|*26-008||*GÓRNO||*Radlin||*6 a||*||*||*||*|
+A1351908|Błędna nazwa ulicy 'Rapeckiego'|*59-400||*JAWOR||*Rapeckiego||*24a||*||*||*||*|
+A1344150|Błędna nazwa ulicy 'regulice'|32-566|32-566|ALWERNIA|Alwernia|*|regulice|289|289|||*|MAŁOPOLSKIE|*|chrzanowski|*|Alwernia
+A1344883|Błędna nazwa ulicy 'Regulice'|32-566|32-566|ALWERNIA|Alwernia|*|Regulice|247|247|||*|MAŁOPOLSKIE|*|chrzanowski|*|Alwernia
+A33510|Błędna nazwa ulicy 'Regulice'|32-066|32-066|ALWERNIA|Alwernia|*|Regulice|313|313|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|chrzanowski|*WIERZCHLAS|Alwernia
+A1344151|Błędna nazwa ulicy 'Regulice'|32-566|32-566|ALWERNIA|Alwernia|*|Regulice|269|269|||*|MAŁOPOLSKIE|*|chrzanowski|*|Alwernia
+A1350498|Błędna nazwa ulicy 'Regulice'|32-566|32-566|ALWERNIA|Alwernia|*|Regulice|461|461|||*|MAŁOPOLSKIE|*|chrzanowski|*|Alwernia
+A1351029|Błędna nazwa ulicy 'Ropica Polska'|38-300|38-300|GORLICE|Gorlice|*|Ropica Polska|467|467|||*|MAŁOPOLSKIE|*|gorlicki|*|Gorlice
+A1190668|Błędna nazwa ulicy 'Roztoka'|34-606|34-606|*LUKOWICA|Łukowica|*|Roztoka|17|17|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|limanowski|*WIERZCHLAS|Łukowica
+A1350729|Błędna nazwa ulicy 'Ruszkowiec'|*27-580||*SADOWIE||*Ruszkowiec||*18||*||*||*||*|
+A1348812|Błędna nazwa ulicy 'Rzędowice'|32-210|32-210|KSIĄŻ WIELKI|Książ Wielki|*|Rzędowice|12|12|||*|MAŁOPOLSKIE|*|miechowski|*|Książ Wielki
+A1349464|Błędna nazwa ulicy 'S. Batorego 17 / 39'|*38-411||*KROSNO||*S. Batorego 17 / 39||*||*||*PODKARPACKIE||*||*|
+A1350451|Błędna nazwa ulicy 'Samoklęski'|38-223|38-223|OSIEK JASIELSKI|Osiek Jasielski|*|Samoklęski|279|279|||*|PODKARPACKIE|*|jasielski|*|Osiek Jasielski
+A1349629|Błędna nazwa ulicy 'Sącz Paderewskiego'|33-300|33-300|NOWY SĄCZ|Nowy Sącz|*|Sącz Paderewskiego|79|79|3|3|MAŁOPOLSKIE|MAŁOPOLSKIE|*|Nowy Sącz|*|Nowy Sącz
+A1349645|Błędna nazwa ulicy 'Sącz Pigonia'|33-300|33-300|NOWY SĄCZ|Nowy Sącz|*|Sącz Pigonia|12|12|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|Nowy Sącz|*|Nowy Sącz
+A1349637|Błędna nazwa ulicy 'Sącz Pułaskiego'|33-300|33-300|NOWY SĄCZ|Nowy Sącz|*|Sącz Pułaskiego|25|25|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|Nowy Sącz|*|Nowy Sącz
+A1898537|Błędna nazwa ulicy 'Sienkieiwcza'|34-100|34-100|WADOWICE|Wadowice|*|Sienkieiwcza|37|37|7|7|*|MAŁOPOLSKIE|*|wadowicki|*|Wadowice
+A1348774|Błędna nazwa ulicy 'Skierbieszów Kol.'|22-420|22-420|SKIERBIESZÓW|Skierbieszów|*|Skierbieszów Kol.|38|38|||*|LUBELSKIE|*|zamojski|*|Skierbieszów
+A1350752|Błędna nazwa ulicy 'Skowierzyn'|*37-415||*ZALESZANY||*Skowierzyn||*||*||*||*||*|
+A1345393|Błędna nazwa ulicy 'skr.poczt.'|97-200|97-200|TOMASZÓW MAZOWIECKI|Tomaszów Mazowiecki|*|skr.poczt.|73|73|||*|ŁÓDZKIE|*|tomaszowski|*|Tomaszów Mazowiecki
+A10320|Błędna nazwa ulicy 'Skrytka pocztowa'|97-400|97-400|BEŁCHATÓW|Bełchatów|*|Skrytka pocztowa|100|100|||ŁÓDZKIE|ŁÓDZKIE|*|bełchatowski|*|Bełchatów
+A1345408|Błędna nazwa ulicy 'Sławniwice'|48-355|48-355|BURGRABICE|Burgrabice|*|Sławniwice|103|103|||*|OPOLSKIE|*|nyski|*|Głuchołazy
+A1349095|Błędna nazwa ulicy 'SOWLINY'|34-600|34-600|LIMANOWA|Limanowa|*|SOWLINY|||||MAŁOPOLSKIE|MAŁOPOLSKIE|*|limanowski|*|Limanowa
+A1345986|Błędna nazwa ulicy 'Spółdzielcza 9 B/18'|*44-190||*KNURÓW||*Spółdzielcza 9 B/18||*||*||*||*||*|
+A1351300|Błędna nazwa ulicy 'St. Batorego'|*38-411||*KROSNO||*St. Batorego||*17||*39||*MAŁOPOLSKIE||*||*|
+A1348607|Błędna nazwa ulicy 'St. Pigonia'|38-200|38-200|JASŁO|Jasło|*|St. Pigonia|9|9|||*|PODKARPACKIE|*|jasielski|*|Jasło
+A1351477|Błędna nazwa ulicy 'St.Doliny'|39-300|39-300|MIELEC|Mielec|*|St.Doliny|7|7|||PODKARPACKIE|PODKARPACKIE|MIELECKI|mielecki|MIELEC|Mielec
+A4181|Błędna nazwa ulicy 'St.Grota-Roweckiego'|*30-348||*KRAKÓW||*St.Grota-Roweckiego||*17||*19||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A10877|Błędna nazwa ulicy 'Stradom'|*31-068||*KRAKOW||*Stradom||*27||*24||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A9002|Błędna nazwa ulicy 'Straszęcin'|*39-218||*Tarnów||*Straszęcin||*61||*||*MAŁOPOLSKIE||*TARNOWSKI||*TARNÓW|
+A1350795|Błędna nazwa ulicy 'Strzałków'|28-130|28-130|STOPNICA|Stopnica|*|Strzałków|3a|3a|||*|ŚWIĘTOKRZYSKIE|*|buski|*|Stopnica
+T565|Błędna nazwa ulicy 'Strzyzowice'|*27-500||*Opatow||*Strzyzowice||*991||*||*||*||*|
+A1349868|Błędna nazwa ulicy 'Sułoszowa Ii'|32-045|32-045|SUŁOSZOWA|Sułoszowa|*|Sułoszowa Ii|117|117|||*|MAŁOPOLSKIE|*|krakowski|*|Sułoszowa
+A16870|Błędna nazwa ulicy 'Sygneczów'|32-020|32-020|WIELICZKA|Wieliczka|*|Sygneczów|144|144|||MAŁOPOLSKIE|MAŁOPOLSKIE|*KRAKÓW|wielicki|*KRAKÓW|Wieliczka
+A1173378|Błędna nazwa ulicy 'Szarbków'|28-400|28-400|*PINCZOW|Pińczów|*|Szarbków|||||*ŁÓDZKIE|ŚWIĘTOKRZYSKIE|*WIELUŃSKI|pińczowski|*WIERZCHLAS|Pińczów
+A8477|Błędna nazwa ulicy 'Szarkowice'|32-250|32-250|*Miechow-Charsznica|Miechów-Charsznica|*|Szarkowice|27|27|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|miechowski|*WIERZCHLAS|Charsznica
+A1350772|Błędna nazwa ulicy 'Szetlewek'|62-410|62-410|ZAGÓRÓW|Zagórów|*|Szetlewek|22|22|||*|WIELKOPOLSKIE|*|słupecki|*|Zagórów
+A25622|Błędna nazwa ulicy 'Szewce'|23-300|23-300|JANÓW LUBELSKI|Janów Lubelski|*|Szewce|8|8|15|15|LUBELSKIE|LUBELSKIE|JANOWSKI|janowski|JANÓW LUBELSKI|Janów Lubelski
+A1190631|Błędna nazwa ulicy 'Śledziejowice'|32-020|32-020|WIELICZKA|Wieliczka|*|Śledziejowice|211|211|||MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+T17533|Błędna nazwa ulicy 'Śledziejowice'|32-020|32-020|WIELICZKA|Wieliczka|*|Śledziejowice|210|210|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A1349561|Błędna nazwa ulicy 'Św. Długa'|*27-400||*OSTROWIEC ŚW.||*Św. Długa||*12A||*15||*ŚWIĘTOKRZYSKIE||*||*|
+A1349506|Błędna nazwa ulicy 'Św. Jesionowa'|*27-400||*OSTROWIEC ŚW.||*Św. Jesionowa||*15||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349507|Błędna nazwa ulicy 'Św. Jesionowa'|*27-400||*OSTROWIEC ŚW.||*Św. Jesionowa||*15||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349623|Błędna nazwa ulicy 'Św. Wasilewskiej'|*27-400||*OSTROWIEC ŚW.||*Św. Wasilewskiej||*9||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1352131|Błędna nazwa ulicy 'Świniarsko'|*33-395||*CHEŁMIEC||*Świniarsko||*110||*||*MAŁOPOLSKIE||*||*|
+A9073|Błędna nazwa ulicy 'Tenczynek'|32-067|32-067|KRZESZOWICE|Krzeszowice|*|Tenczynek|539|539|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKOWSKI|krakowski|KRZESZOWICE|Krzeszowice
+A1350953|Błędna nazwa ulicy 'Tkaczowa'|*36-040||*BOGUCHWAŁA||*Tkaczowa||*169B||*8||*||*||*|
+A1348805|Błędna nazwa ulicy 'Tomaszowice'|32-085|32-085|MODLNICA|Modlnica|*|Tomaszowice|114|114|||*|MAŁOPOLSKIE|*|krakowski|*|Wielka Wieś
+T18516|Błędna nazwa ulicy 'Tomaszowice'|32-085|32-085|Modlnica|Modlnica|*|Tomaszowice|49|49|||*|MAŁOPOLSKIE|*|krakowski|*|Wielka Wieś
+A1351397|Błędna nazwa ulicy 'Toporowskiego'|25-549|25-549|KIELCE|Kielce|*|Toporowskiego|83|83|83|83|ŚWIĘTOKRZYSKIE|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+A1351486|Błędna nazwa ulicy 'Toporowskiego'|25-546|25-546|KIELCE|Kielce|*|Toporowskiego|34|34|58|58|ŚWIĘTOKRZYSKIE|ŚWIĘTOKRZYSKIE|KIELCE|Kielce|KIELCE|Kielce
+A1351333|Błędna nazwa ulicy 'Tow.Szkoły Ludowej'|43-300|43-300|BIELSKO BIAŁA|Bielsko-Biała|*|Tow.Szkoły Ludowej|15|15|10|10|ŚLĄSKIE|ŚLĄSKIE|*|Bielsko-Biała|*|Bielsko-Biała
+A1349600|Błędna nazwa ulicy 'Traugutta 8 / 10'|*26-200||*KOŃSKIE||*Traugutta 8 / 10||*||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1350487|Błędna nazwa ulicy 'Trojanowice'|*32-087||*ZIELONKI||*Trojanowice||*29||*||*||*||*|
+A1351026|Błędna nazwa ulicy 'Tuchla Osada'|*37-543||*TUCHLA||*Tuchla Osada||*4||*1||*||*||*|
+A28047|Błędna nazwa ulicy 'u.'|32-300|32-300|*SIENICZNO 95|Sieniczno|*|u.|||||MAŁOPOLSKIE|MAŁOPOLSKIE|OLKUSKI|olkuski|OLKUSZ|Olkusz
+A1345432|Błędna nazwa ulicy 'ul, Legionów'|32-020|32-020|WIELICZKA|Wieliczka|*|ul, Legionów|12|12|||*|MAŁOPOLSKIE|*|wielicki|*|Wieliczka
+A14522|Błędna nazwa ulicy 'ul,Jastrzebska'|*44-288||*RYBNIK||*ul,Jastrzebska||*12||*||*ŁÓDZKIE||*||*|
+A1350092|Błędna nazwa ulicy 'Ul. 1 Ma'|*43-250||*PAWŁOWICE||*Ul. 1 Ma||*1||*37||*||*||*|
+A9226|Błędna nazwa ulicy 'ul. Chałbińskiwego'|*30-698||*KRAKÓW||*ul. Chałbińskiwego||*13||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1350032|Błędna nazwa ulicy 'Ul. Engielsa'|22-405|22-405|BRZEŚĆ|Brześć|*|Ul. Engielsa|11|11|21|21|*|KUJAWSKO-POMORSKIE|*|inowrocławski|*|Kruszwica
+A1350252|Błędna nazwa ulicy 'Ul. H. Sienkiewicza'|*32-500||*CHRZANÓW||*Ul. H. Sienkiewicza||*9||*12||*||*||*|
+A1349888|Błędna nazwa ulicy 'Ul. J. Sapiehy'|37-630|37-630|OLESZYCE|Oleszyce|*|Ul. J. Sapiehy|1|1|14|14|*|PODKARPACKIE|*|lubaczowski|*|Oleszyce
+A1349853|Błędna nazwa ulicy 'Ul. W. Witosa'|39-100|39-100|ROPCZYCE|Ropczyce|*|Ul. W. Witosa|1a|1a|||*|PODKARPACKIE|*|ropczycko-sędziszowski|*|Ropczyce
+A1349995|Błędna nazwa ulicy 'Ul.. Waryńskiego'|27-200|27-200|STARACHOWICE|Starachowice|*|Ul.. Waryńskiego|4|4|15|15|*|ŚWIĘTOKRZYSKIE|*|starachowicki|*|Starachowice
+A1349963|Błędna nazwa ulicy 'Ul..Kowaniec'|*34-400||*NOWY TARG||*Ul..Kowaniec||*126||*||*||*||*|
+A1350375|Błędna nazwa ulicy 'Ul.1-Go Maja 88'|*32-332||*BUKOWNO||*Ul.1-Go Maja 88||*||*||*||*||*|
+T16799|Błędna nazwa ulicy 'ul.18/stycznia'|*30-081||*Krakow||*ul.18/stycznia||*62||*4||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1350299|Błędna nazwa ulicy 'Ul.3-Go Maj'|*32-600||*OŚWIĘCIM||*Ul.3-Go Maj||*-G5||*4||*||*||*|
+A1350156|Błędna nazwa ulicy 'Ul.35-Lec'|41-250|41-250|CZELADŹ|Czeladź|*|Ul.35-Lec|5-L18a|5-L18a|4|4|*|ŚLĄSKIE|*|będziński|*|Czeladź
+A1128|Błędna nazwa ulicy 'UL.BATALIONU SKAŁA'|*31-273||*Kraków||*UL.BATALIONU SKAŁA||*8||*63||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1349990|Błędna nazwa ulicy 'Ul.Droga Do Olczy'|34-500|34-500|ZAKOPANE|Zakopane|*|Ul.Droga Do Olczy|28 k|28 k|||*|MAŁOPOLSKIE|*|tatrzański|*|Zakopane
+A1349864|Błędna nazwa ulicy 'Ul.Kolonia Browar'|34-300|34-300|ŻYWIEC|Żywiec|*|Ul.Kolonia Browar|8|8|||*|ŚLĄSKIE|*|żywiecki|*|Żywiec
+A1350297|Błędna nazwa ulicy 'Ul.Osiedle Jasnochowa'|34-220|34-220|MAKÓW PODHALAŃSKI|Maków Podhalański|*|Ul.Osiedle Jasnochowa|8|8|||*|MAŁOPOLSKIE|*|suski|*|Maków Podhalański
+A1350165|Błędna nazwa ulicy 'Ul.Osiedle Młodych'|39-120|39-120|SĘDZISZÓW MAŁOPOLSKI|Sędziszów Małopolski|*|Ul.Osiedle Młodych|3|3|57|57|*|PODKARPACKIE|*|ropczycko-sędziszowski|*|Sędziszów Małopolski
+A1349997|Błędna nazwa ulicy 'Ul.P.O.W'|44-370|44-370|PSZÓW|Pszów|*|Ul.P.O.W|31|31|||*|ŚLĄSKIE|*|wodzisławski|*|Pszów
+A1349875|Błędna nazwa ulicy 'Ul.Połowniaka'|25-634|25-634|KIELCE|Kielce|*|Ul.Połowniaka|15|15|23|23|*|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+A943|Błędna nazwa ulicy 'UL.W.POLA'|32-020|32-020|WIELICZKA|Wieliczka|*|UL.W.POLA|12|12|112|112|MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A12355|Błędna nazwa ulicy 'w Bielawach'|*88-192||*PIECHCIN||*w Bielawach||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1704993|Błędna nazwa ulicy 'W.Korfantego'|40-153|40-153|KATOWICE|Katowice|*|W.Korfantego|195|195|17|17|*|ŚLĄSKIE|*|Katowice|*|Katowice
+A9091|Błędna nazwa ulicy 'Waganowice'|32-260|32-260|*Slomniki|Słomniki|*|Waganowice|26|26|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|krakowski|*WIERZCHLAS|Słomniki
+A1350661|Błędna nazwa ulicy 'Warzyce'|38-200|38-200|JASŁO|Jasło|*|Warzyce|104|104|||*|PODKARPACKIE|*|jasielski|*|Jasło
+A1350949|Błędna nazwa ulicy 'Wełecz'|28-100|28-100|BUSKO-ZDRÓJ|Busko-Zdrój|*|Wełecz|28|28|||*|ŚWIĘTOKRZYSKIE|*|buski|*|Busko-Zdrój
+A1173401|Błędna nazwa ulicy 'Wł.Żeleńskiego'|*31-353||*KRAKÓW||*Wł.Żeleńskiego||*13||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1922029|Błędna nazwa ulicy 'Wola Grzymalina'|*97-410||*KLESZCZÓW||*Wola Grzymalina||*Kol 1||*||*||*||*|
+A1349668|Błędna nazwa ulicy 'Wola Ofiar Katynia'|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|Wola Ofiar Katynia|14|14|4|4|PODKARPACKIE|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1349630|Błędna nazwa ulicy 'Wola Parkingowa'|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|Wola Parkingowa|2|2|1|1|PODKARPACKIE|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1349564|Błędna nazwa ulicy 'Wola Poniatowskiego'|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|Wola Poniatowskiego|34|34|2|2|PODKARPACKIE|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A7860|Błędna nazwa ulicy 'Wolasa'|*31-273||*KRAKÓW||*Wolasa||*6||*11||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1350610|Błędna nazwa ulicy 'Wólka Łabuńska'|22-437|22-437|ŁABUNIE|Łabunie|*|Wólka Łabuńska|20|20|||*|LUBELSKIE|*|zamojski|*|Łabunie
+A10347|Błędna nazwa ulicy 'Wybrzeże Wyspiańskiego'|50-370|50-370|WROCŁAW|Wrocław|*|Wybrzeże Wyspiańskiego|27|27|||*ŁÓDZKIE|DOLNOŚLĄSKIE|*WIELUŃSKI|Wrocław|*WIERZCHLAS|Wrocław
+A1348717|Błędna nazwa ulicy 'Wyżyce'|*32-708||*DZIEWIN||*Wyżyce||*112||*||*||*||*|
+A1348572|Błędna nazwa ulicy 'XX-Straconych'|32-340|32-340|WOLBROM|Wolbrom|*|XX-Straconych|59|59|||*|MAŁOPOLSKIE|*|olkuski|*|Wolbrom
+A1343461|Błędna nazwa ulicy 'Z.Augusta'|34-600|34-600|LIMANOWA|Limanowa|*|Z.Augusta|12|12|||*|MAŁOPOLSKIE|*|limanowski|*|Limanowa
+A1350692|Błędna nazwa ulicy 'Zabagnie'|32-340|32-340|WOLBROM|Wolbrom|*|Zabagnie|24|24|||*|MAŁOPOLSKIE|*|olkuski|*|Wolbrom
+A1350936|Błędna nazwa ulicy 'Zakrzew Kolonia'|*26-652||*ZAKRZEW||*Zakrzew Kolonia||*25||*1||*||*||*|
+A1350888|Błędna nazwa ulicy 'Zakrzowiec'|*32-003||*PODŁĘŻE||*Zakrzowiec||*33||*||*||*||*|
+A1350734|Błędna nazwa ulicy 'Zalesie Golczowskie'|32-312|32-312|JAROSZOWIEC|Jaroszowiec|*|Zalesie Golczowskie|7|7|||*|MAŁOPOLSKIE|*|olkuski|*|Klucze
+A1350719|Błędna nazwa ulicy 'Zasadne'|*34-608||*KAMIENICA||*Zasadne||*3||*||*||*||*|
+A1350477|Błędna nazwa ulicy 'Zawada Lanckorońska'|*32-840||*ZAKLICZYN||*Zawada Lanckorońska||*9||*||*||*||*|
+A1350580|Błędna nazwa ulicy 'zepiennik Strzyżewski'|33-163|33-163|RZEPIENNIK STRZYŻEWSKI|Rzepiennik Strzyżewski|*|zepiennik Strzyżewski|195|195|||*|MAŁOPOLSKIE|*|tarnowski|*|Rzepiennik Strzyżewski
+A20513|Błędna nazwa ulicy 'Żołnierzy Radzieckich'|25-214|25-214|KIELCE|Kielce|*|Żołnierzy Radzieckich|21|21|||*ŁÓDZKIE|ŚWIĘTOKRZYSKIE|*WIELUŃSKI|Kielce|*WIERZCHLAS|Kielce
+A1348737|Błędna nazwa ulicy 'Żurawiczki'|37-200|37-200|PRZEWORSK|Przeworsk|*|Żurawiczki|82|82|||*|PODKARPACKIE|*|przeworski|*|Przeworsk
+A1346300|Kod pocztowy 00-001 nie pasuje do żadnego miasta o nazwie 'WARSZAWA'|*00-001||*WARSZAWA||*||*||*||*||*||*|
+A1352993|Kod pocztowy 30-667 nie pasuje do żadnego miasta o nazwie 'PODLESIE'|*30-667||*PODLESIE||*||*5||*21||*||*||*|
+A1352145|Kod pocztowy 32-021 nie pasuje do żadnego miasta o nazwie 'JANOWICE'|*32-021||*JANOWICE||*||*212||*||*MAŁOPOLSKIE||*||*|
+A8319|Kod pocztowy 32-021 nie pasuje do żadnego miasta o nazwie 'PODSTOLICE'|*32-021||*PODSTOLICE||*||*110||*||*MAŁOPOLSKIE||*WIELICKI||*WIELICZKA|
+A2901|Kod pocztowy 32-030 nie pasuje do żadnego miasta o nazwie 'GOLKOWICE'|*32-030||*GOLKOWICE||*||*289||*||*MAŁOPOLSKIE||*WIELICKI||*WIELICZKA|
+A1190457|Kod pocztowy 32-030 nie pasuje do żadnego miasta o nazwie 'GOLKOWICE'|*32-030||*GOLKOWICE||*Golkowice||*320||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1352120|Kod pocztowy 32-041 nie pasuje do żadnego miasta o nazwie 'BISKUPICE'|*32-041||*BISKUPICE||*||*110||*||*MAŁOPOLSKIE||*||*|
+A18283|Kod pocztowy 32-063 nie pasuje do żadnego miasta o nazwie 'CZERNA'|*32-063||*CZERNA||*Czerna||*193||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1350177|Kod pocztowy 32-063 nie pasuje do żadnego miasta o nazwie 'CZERNA'|*32-063||*CZERNA||*Czerna||*34||*||*||*||*|
+A1352639|Kod pocztowy 32-063 nie pasuje do żadnego miasta o nazwie 'CZERNA'|*32-063||*CZERNA||*||*67||*||*||*||*|
+A8004|Kod pocztowy 32-066 nie pasuje do żadnego miasta o nazwie 'Regulice'|*32-066||*Regulice||*Regulice||*436||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A3406|Kod pocztowy 32-066 nie pasuje do żadnego miasta o nazwie 'REGULICE'|*32-066||*REGULICE||*||*296||*||*MAŁOPOLSKIE||*CHRZANOWSKI||*ALWERNIA|
+A8233|Kod pocztowy 32-084 nie pasuje do żadnego miasta o nazwie 'BACZYN'|*32-084||*BACZYN||*Baczyn||*34||*||*MAŁOPOLSKIE||*KRAKOWSKI||*LISZKI|
+A1347334|Kod pocztowy 32-200 nie pasuje do żadnego miasta o nazwie 'GOLKOWICE'|*32-200||*GOLKOWICE||*||*390||*||*MAŁOPOLSKIE||*WIELICKI||*WIELICZKA|
+A1347448|Kod pocztowy 32-541 nie pasuje do żadnego miasta o nazwie 'TRZEBINIA'|*32-541||*TRZEBINIA||*||*||*||*||*||*|
+A1345921|Kod pocztowy 33-103 nie pasuje do żadnego miasta o nazwie 'PAWĘZÓW'|*33-103||*PAWĘZÓW||*||*60||*||*MAŁOPOLSKIE||*TARNÓW||*TARNÓW|
+A1185469|Kod pocztowy 33-380 nie pasuje do żadnego miasta o nazwie 'KRYNICA'|*33-380||*KRYNICA||*||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1350172|Kod pocztowy 34-100 nie pasuje do żadnego miasta o nazwie 'PONIKIEW'|*34-100||*PONIKIEW||*Ponikiew||*131||*||*||*||*|
+A1190445|Kod pocztowy 34-313 nie pasuje do żadnego miasta o nazwie 'PORABKA 453'|*34-313||*PORABKA 453||*Porabka||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A8101|Kod pocztowy 34-715 nie pasuje do żadnego miasta o nazwie 'LUBIEŃ'|*34-715||*LUBIEŃ||*Lubien||*448||*||*MAŁOPOLSKIE||*NOWOTARSKI||*NOWY TARG|
+A1350964|Kod pocztowy 37-416 nie pasuje do żadnego miasta o nazwie 'ZBYDNIÓW'|*37-416||*ZBYDNIÓW||*Zbydniów||*328||*||*||*||*|
+A1351604|Kod pocztowy 37-500 nie pasuje do żadnego miasta o nazwie 'ZGODA'|*37-500||*ZGODA||*||*29||*||*PODKARPACKIE||*||*|
+A1349106|Kod pocztowy 37-543 nie pasuje do żadnego miasta o nazwie 'BOBRÓWKA'|*37-543||*BOBRÓWKA||*||*100A||*14||*PODKARPACKIE||*JAROSŁAWSKI||*LASZKI|
+A1351446|Kod pocztowy 37-543 nie pasuje do żadnego miasta o nazwie 'BOBRÓWKA'|*37-543||*BOBRÓWKA||*||*100||*6||*PODKARPACKIE||*||*|
+A1349201|Kod pocztowy 39-102 nie pasuje do żadnego miasta o nazwie 'BRZOZÓWKA'|*39-102||*BRZOZÓWKA||*||*205||*||*||*||*|
+A1345839|Kod pocztowy 59-305 nie pasuje do żadnego miasta o nazwie 'RUDAWA'|*59-305||*RUDAWA||*||*||*||*||*||*|
+A1347809|Nie znaleziono kodu pocztowego dla podanych parametrów|40-203|40-203|KATOWICE|Katowice|*|skwer Roździeńskiego|188|188|||*|ŚLĄSKIE|*|Katowice|*|Katowice
+ZA1341742|Nie znaleziono kodu pocztowego dla podanych parametrów|30-418|30-418|KRAKÓW|Kraków|*|ul. Zakopiańska|2b|2b|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1344707|Nie znaleziono kodu pocztowego dla podanych parametrów|00-925|00-925|WARSZAWA|Warszawa|*|al. Aleja Niepodległości|208|208|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A11210|Nie znaleziono kodu pocztowego dla podanych parametrów|44-330|44-330|*JASTRZEBIE ZDROJ|Jastrzębie-Zdrój|*|ul. Kasztanowa|2|2|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Jastrzębie-Zdrój|*WIERZCHLAS|Jastrzębie-Zdrój
+A3561|Nie znaleziono kodu pocztowego dla podanych parametrów|30-669|30-669|*KRAKOW|Kraków|*|ul. Okólna|28|28|48|48|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1878040|Nie znaleziono kodu pocztowego dla podanych parametrów|32-800|32-800|JASIEŃ|Jasień|*|ul. Konopnickiej|63|63|||*|MAŁOPOLSKIE|*|brzeski|*|Brzesko
+A1886848|Nie znaleziono kodu pocztowego dla podanych parametrów|59-700|59-700|BOLESŁAWIEC|Bolesławiec|*|ul. Kościuszki|21|21|||*|DOLNOŚLĄSKIE|*|bolesławiecki|*|Bolesławiec
+A2153|Nie znaleziono kodu pocztowego dla podanych parametrów|31-101|31-101|Kraków|Kraków|*|ul. Straszewskiego|12|12|3|3|*ŁÓDZKIE|MAŁOPOLSKIE|*ZDUŃSKOWOLSKI|Kraków|*ZAPOLICE|Kraków
+A1344951|Nie znaleziono kodu pocztowego dla podanych parametrów|39-200|39-200|DĘBICA|Dębica|*|ul. Głowackiego|8|8|||*|PODKARPACKIE|*|dębicki|*|Dębica
+A1348602|Nie znaleziono kodu pocztowego dla podanych parametrów|37-464|37-464|STALOWA WOLA|Stalowa Wola|*|ul. Brandwicka|144|144|||*|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1344810|Nie znaleziono kodu pocztowego dla podanych parametrów|28-100|28-100|BUSKO ZDRÓJ|Busko-Zdrój|*|ul. Sole|9|9|||*|ŚWIĘTOKRZYSKIE|*|buski|*|Busko-Zdrój
+A8146|Nie znaleziono kodu pocztowego dla podanych parametrów|32-091|32-091|GÓRNA WIEŚ|Górna Wieś|*|ul. Słowiańska|204|204|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|krakowski|*WIERZCHLAS|Michałowice
+A8159|Nie znaleziono kodu pocztowego dla podanych parametrów|32-088|32-088|BRZOZÓWKA|Brzozówka|*|ul. Słoneczna|24|24|||MAŁOPOLSKIE|MAŁOPOLSKIE|*KRAKÓW|tarnowski|*KRAKÓW|Lisia Góra
+A10010|Nie znaleziono kodu pocztowego dla podanych parametrów|01-728|01-728|WARSZAWA|Warszawa|*|ul. Powązkowska|46|46|50|50|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1280423|Nie znaleziono kodu pocztowego dla podanych parametrów|30-405|30-405|KRAKÓW|Kraków|*|ul. Szaniawskiego|18|18|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1345584|Nie znaleziono kodu pocztowego dla podanych parametrów|32-064|32-064|RUDAWA|Rudawa|*|ul. Młyńska|78|78|||*|MAŁOPOLSKIE|*|krakowski|*|Zabierzów
+A1190648|Nie znaleziono kodu pocztowego dla podanych parametrów|32-400|32-400|*MYSLENICE|Myślenice|*|os. Osiedle 1000-lecia|31|31|26|26|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|myślenicki|*WIERZCHLAS|Myślenice
+A1789615|Nie znaleziono kodu pocztowego dla podanych parametrów|14-200|14-200|IŁAWA|Iława|*|ul. Sikorskiego|41|41|||WARMIŃSKO-MAZURSKIE|WARMIŃSKO-MAZURSKIE|IŁAWSKI|iławski|IŁAWA|Iława
+A1190503|Nie znaleziono kodu pocztowego dla podanych parametrów|32-600|32-600|BRZEZINKA|Brzezinka|*|ul. Leśna|4|4|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|krakowski|*WIERZCHLAS|Zabierzów
+A10487|Nie znaleziono kodu pocztowego dla podanych parametrów|31-144|31-144|*KRAKOW|Kraków|*|ul. Biskupia|10|10|14|14|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A16403|Nie znaleziono kodu pocztowego dla podanych parametrów|40-203|40-203|KATOWICE|Katowice|*|skwer Roździeńskiego|188|188|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Katowice|*WIERZCHLAS|Katowice
+A1190498|Nie znaleziono kodu pocztowego dla podanych parametrów|31-564|31-564|*KRAKOW|Kraków|*|al. Aleja Pokoju|87|87|42|42|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1176166|Nie znaleziono kodu pocztowego dla podanych parametrów|32-700|32-700|BOCHNIA|Bochnia|*|ul. Wygoda|69|69|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|bocheński|*WIERZCHLAS|Bochnia
+A10764|Nie znaleziono kodu pocztowego dla podanych parametrów|71-833|71-833|SZCZECIN|Szczecin|*|ul. Nad Odrą|33|33|||*ŁÓDZKIE|ZACHODNIOPOMORSKIE|*WIELUŃSKI|Szczecin|*WIERZCHLAS|Szczecin
+A11170|Nie znaleziono kodu pocztowego dla podanych parametrów|31-564|31-564|*KRAKOW|Kraków|*|al. Aleja Pokoju|29b|29b|48|48|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1345466|Nie znaleziono kodu pocztowego dla podanych parametrów|30-418|30-418|KRAKÓW|Kraków|*|ul. Zakopiańska|2B|2B|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A40529|Nie znaleziono kodu pocztowego dla podanych parametrów|32-700|32-700|BOCHNIA|Bochnia|*|ul. Trinitatis|18|18|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|bocheński|*WIERZCHLAS|Bochnia
+A15026|Nie znaleziono kodu pocztowego dla podanych parametrów|00-950|00-950|WARSZAWA|Warszawa|*|al. Aleja Niepodległości|188|188|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1345739|Nie znaleziono kodu pocztowego dla podanych parametrów|00-349|00-349|WARSZAWA|Warszawa|*|ul. Tamka|16|16|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A14526|Nie znaleziono kodu pocztowego dla podanych parametrów|00-925|00-925|WARSZAWA|Warszawa|*|al. Aleja Niepodległości|208|208|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1245560|Nie znaleziono kodu pocztowego dla podanych parametrów|90-532|90-532|ŁÓDŹ|Łódź|*|ul. Skorupki|21|21|||*|ŁÓDZKIE|*|Łódź|*|Łódź
+A15052|Nie znaleziono kodu pocztowego dla podanych parametrów|61-120|61-120|*POZNAN|Poznań|*|ul. Zamenhofa|4|4|||*ŁÓDZKIE|WIELKOPOLSKIE|*WIELUŃSKI|Poznań|*WIERZCHLAS|Poznań
+A1756621|Nie znaleziono kodu pocztowego dla podanych parametrów|33-300|33-300|Nowy Sącz|Nowy Sącz|*|ul. Brygady|22|22|26|26|MAŁOPOLSKIE|MAŁOPOLSKIE|NOWY SĄCZ|Nowy Sącz|NOWY SĄCZ|Nowy Sącz
+A1182720|Nie znaleziono kodu pocztowego dla podanych parametrów|58-304|58-304|WAŁBRZYCH|Wałbrzych|*|ul. Wysockiego|28|28|||DOLNOŚLĄSKIE|DOLNOŚLĄSKIE|*|Wałbrzych|*|Wałbrzych
+A16619|Nie znaleziono kodu pocztowego dla podanych parametrów|31-923|31-923|KRAKÓW|Kraków|*|os. Osiedle Centrum A|bl.2|bl.2|58|58|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A41142|Nie znaleziono kodu pocztowego dla podanych parametrów|32-005|32-005|NIEPOŁOMICE|Niepołomice|*|ul. Podłęska|21|21|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|wielicki|*WIERZCHLAS|Niepołomice
+A1342671|Nie znaleziono kodu pocztowego dla podanych parametrów|00-925|00-925|WARSZAWA|Warszawa|*|al. Aleja Niepodległości|208|208|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+ZA1370206|Nie znaleziono kodu pocztowego dla podanych parametrów|32-440|32-440|RUDNIK|Rudnik|*|ul. Centralna|246|246|||MAŁOPOLSKIE|MAŁOPOLSKIE|MYŚLENICKI|myślenicki|SUŁKOWICE|Sułkowice
+A1346770|Nie znaleziono kodu pocztowego dla podanych parametrów|30-418|30-418|KRAKÓW|Kraków|*|ul. Zakopiańska|2a|2a|36|36|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1347117|Nie znaleziono kodu pocztowego dla podanych parametrów|32-329|32-329|BOLESŁAW|Bolesław|*|ul. Główna|116|116|||*|MAŁOPOLSKIE|*|olkuski|*|Bolesław
+A1347376|Nie znaleziono kodu pocztowego dla podanych parametrów|03-872|03-872|WARSZAWA|Warszawa|*|ul. Zabraniecka|8|8|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A1189974|Nie znaleziono kodu pocztowego dla podanych parametrów|41-800|41-800|ZABRZE|Zabrze|*|ul. Bytomska|1|1|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Zabrze|*WIERZCHLAS|Zabrze
+ZA1236104|Nie znaleziono kodu pocztowego dla podanych parametrów|43-400|43-400|CIESZYN|Cieszyn|*|ul. Polna|3e|3e|39|39|ŚLĄSKIE|ŚLĄSKIE|CIESZYŃSKI|cieszyński|CIESZYN|Cieszyn
+A1348313|Nie znaleziono kodu pocztowego dla podanych parametrów|62-080|62-080|JANKOWICE|Jankowice|*|ul. Przemysłowa|2|2|||*|ŚLĄSKIE|*|rybnicki|*|Świerklany
+A1341742|Nie znaleziono kodu pocztowego dla podanych parametrów|30-418|30-418|KRAKÓW|Kraków|*|ul. Zakopiańska|2B|2B|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1172577|Nie znaleziono kodu pocztowego dla podanych parametrów|30-646|30-646|KRAKÓW|Kraków|*|ul. Malborska|84|84|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1348117|Nie znaleziono kodu pocztowego dla podanych parametrów|32-329|32-329|BOLESŁAW|Bolesław|*|ul. Główna|164a|164a|||*|MAŁOPOLSKIE|*|olkuski|*|Bolesław
+A1348849|Nie znaleziono kodu pocztowego dla podanych parametrów|33-112|33-112|TARNOWIEC|Tarnowiec|*|ul. Zawady|39|39|||*|DOLNOŚLĄSKIE|*|trzebnicki|*|Zawonia
+A1348645|Nie znaleziono kodu pocztowego dla podanych parametrów|33-300|33-300|NOWY SĄCZ|Nowy Sącz|*|ul. Paderewskiego|52|52|6|6|*|MAŁOPOLSKIE|*|Nowy Sącz|*|Nowy Sącz
+A1349472|Nie znaleziono kodu pocztowego dla podanych parametrów|20-400|20-400|ZAMOŚĆ|Zamość|*|ul. Brzozowa|20|20|36|36|*LUBELSKIE|KUJAWSKO-POMORSKIE|*|nakielski|*|Szubin
+A1349493|Nie znaleziono kodu pocztowego dla podanych parametrów|59-700|59-700|BOLESŁAWIEC|Bolesławiec|*|ul. Kazimierza Wielkiego|2|2|||DOLNOŚLĄSKIE|DOLNOŚLĄSKIE|*|bolesławiecki|*|Bolesławiec
+A1349513|Nie znaleziono kodu pocztowego dla podanych parametrów|59-700|59-700|BOLESŁAWIEC|Bolesławiec|*|ul. Kościelna|6|6|2|2|DOLNOŚLĄSKIE|DOLNOŚLĄSKIE|*|bolesławiecki|*|Bolesławiec
+A1349832|Nie znaleziono kodu pocztowego dla podanych parametrów|23-204|23-204|KRAŚNIK|Kraśnik|*|ul. Zielińskiego|11|11|8|8|*|LUBELSKIE|*|kraśnicki|*|Kraśnik
+A1350346|Nie znaleziono kodu pocztowego dla podanych parametrów|28-220|28-220|OLEŚNICA|Oleśnica|*|ul. Krótka|11a|11a|||*|DOLNOŚLĄSKIE|*|oleśnicki|*|Oleśnica
+A1350614|Nie znaleziono kodu pocztowego dla podanych parametrów|32-088|32-088|PRZYBYSŁAWICE|Przybysławice|*|ul. Brzozowa|53|53|||*|MAŁOPOLSKIE|*|krakowski|*|Zielonki
+A1350763|Nie znaleziono kodu pocztowego dla podanych parametrów|37-200|37-200|PRZEWORSK|Przeworsk|*|ul. Żytnia|31|31|||*|PODKARPACKIE|*|przeworski|*|Przeworsk
+T1185371|Nie znaleziono kodu pocztowego dla podanych parametrów|30-065|30-065|KRAKÓW|Kraków|*|ul. Oraczy|5|5|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1350970|Nie znaleziono kodu pocztowego dla podanych parametrów|33-230|33-230|SZCZUCIN|Szczucin|*|ul. Krasińskiego|1|1|||*|MAŁOPOLSKIE|*|dąbrowski|*|Szczucin
+A1351612|Nie znaleziono kodu pocztowego dla podanych parametrów|37-500|37-500|RADYMNO|Radymno|*|ul. Słoneczna|1|1|2|2|PODKARPACKIE|PODKARPACKIE|*|jarosławski|*|Radymno
+A1351623|Nie znaleziono kodu pocztowego dla podanych parametrów|33-300|33-300|NOWY SĄCZ|Nowy Sącz|*|ul. Brygady|20|20|46|46|MAŁOPOLSKIE|MAŁOPOLSKIE|*|Nowy Sącz|*|Nowy Sącz
+A1352628|Nie znaleziono kodu pocztowego dla podanych parametrów|30-416|30-416|KRAKÓW|Kraków|*|ul. Zakopiańska|2c|2c|5|5|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1351149|Nie znaleziono kodu pocztowego dla podanych parametrów|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|pl. Jana Pawła II|17|17|27|27|PODKARPACKIE|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1351705|Nie znaleziono kodu pocztowego dla podanych parametrów|38-480|38-480|RYMANÓW|Rymanów|*|ul. Piłsudskiego|13|13|||PODKARPACKIE|PODKARPACKIE|*|krośnieński|*|Rymanów
+A1353435|Nie znaleziono kodu pocztowego dla podanych parametrów|33-300|33-300|NOWY SĄCZ|Nowy Sącz|*|ul. Brygady|24|24|5|5|*|MAŁOPOLSKIE|*|Nowy Sącz|*|Nowy Sącz
+A1353417|Nie znaleziono miejscowości: 2002 WEGRZCE WIELKIE|*36-040||*2002 WEGRZCE WIELKIE||*Kokotów||*387||*||*||*||*|
+A1349489|Nie znaleziono miejscowości: ANDRYCHÓW INWAŁD SPACER|*34-120||*ANDRYCHÓW INWAŁD SPACER||*Inwałd Spacerowa||*30||*||*MAŁOPOLSKIE||*||*|
+A1176210|Nie znaleziono miejscowości: ANGLIA|*||*ANGLIA||*-||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1346487|Nie znaleziono miejscowości: ANGLIA|*||*ANGLIA||*avenue one||*31A||*||*||*||*|
+A1174053|Nie znaleziono miejscowości: ANGLIA|*||*ANGLIA||*-||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349387|Nie znaleziono miejscowości: ATALINA|*26-700||*ATALINA||*||*38||*||*||*||*|
+A1347526|Nie znaleziono miejscowości: AVIGNON|*84-000||*AVIGNON||*33Louis Pasteur||*||*||*||*||*|
+A1349548|Nie znaleziono miejscowości: BABICE MĘTKÓW|*32-551||*BABICE MĘTKÓW||*Mętków||*365||*||*MAŁOPOLSKIE||*||*|
+A1345210|Nie znaleziono miejscowości: BABICE STARE|*05-082||*BABICE STARE||*Koczargi Nowe ul Bugaj||*28||*||*||*||*|
+A1349575|Nie znaleziono miejscowości: BALICE SZCZYGLICE KASZT|*32-083||*BALICE SZCZYGLICE KASZT||*Szczyglice Kasztanowa||*7||*||*MAŁOPOLSKIE||*||*|
+A1189942|Nie znaleziono miejscowości: BARANOWO K/POZNANIA|*62-081||*BARANOWO K/POZNANIA||*Topazowa||*25||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A39107|Nie znaleziono miejscowości: BERLIN|*||*BERLIN||*Otto-Suhr-Allee||*26||*28||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1190596|Nie znaleziono miejscowości: BIEZDZIERDZA|*38-214||*BIEZDZIERDZA||*Sieklowka||*78||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349648|Nie znaleziono miejscowości: BIŁOGRAJ|*23-400||*BIŁOGRAJ||*Boh. Monte Cassino||*18||*8||*LUBELSKIE||*||*|
+A1349566|Nie znaleziono miejscowości: BLIŻYN PŁACZKÓW-PIECHOT|*26-120||*BLIŻYN PŁACZKÓW-PIECHOT||*Płaczków-Piechotne||*40||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349520|Nie znaleziono miejscowości: BOLESŁAW KRZYKAWA|*32-329||*BOLESŁAW KRZYKAWA||*Krzykawa||*11A||*||*MAŁOPOLSKIE||*||*|
+A1351112|Nie znaleziono miejscowości: BOREK WIELKI|*39-120||*BOREK WIELKI||*||*31||*||*PODKARPACKIE||*||*|
+A1909115|Nie znaleziono miejscowości: BRAK|*||*BRAK||*BRAK||*BRAK||*BRAK||*||*||*|
+A1909116|Nie znaleziono miejscowości: BRAK|*||*BRAK||*BRAK||*BRAK||*BRAK||*||*||*|
+A1349495|Nie znaleziono miejscowości: BRATUCICE DĄBRÓWKA|*32-712||*BRATUCICE DĄBRÓWKA||*Dąbrówka||*183||*||*MAŁOPOLSKIE||*||*|
+A1351906|Nie znaleziono miejscowości: BRAUNSCHWEIG|*38-122||*BRAUNSCHWEIG||*||*||*||*||*||*|
+A1173975|Nie znaleziono miejscowości: BRUKSELA|*||*BRUKSELA||*-||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1347251|Nie znaleziono miejscowości: BUDZIWÓJ|*36-021||*BUDZIWÓJ||*Sasanki||*8||*||*||*||*|
+A1434761|Nie znaleziono miejscowości: CIANIOWICE|*32-043||*CIANIOWICE||*ul.Długa 22||*||*||*||*||*|
+A1350126|Nie znaleziono miejscowości: CZARNY STOK|*22-463||*CZARNY STOK||*Czarny Stok||*67A||*||*||*||*|
+A1349051|Nie znaleziono miejscowości: CZECHOWICE - DZIEDZI|*43-502||*CZECHOWICE - DZIEDZI||*ŁAGODNA||*16||*41||*ŚLĄSKIE||*||*|
+A1344817|Nie znaleziono miejscowości: CZERWIONKA|*44-230||*CZERWIONKA||*Jana Pawła II||*4E||*3||*||*||*|
+A1345738|Nie znaleziono miejscowości: CZERWIONKA|*44-230||*CZERWIONKA||*Jana Pawła II||*4E||*3||*||*||*|
+A1351603|Nie znaleziono miejscowości: ĆMIŃSK-WYRĘBA|*26-085||*ĆMIŃSK-WYRĘBA||*||*12||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1352111|Nie znaleziono miejscowości: DABROWA GÓRNICZ|*42-520||*DABROWA GÓRNICZ||*Broniewskiego||*21||*||*ŚLĄSKIE||*||*|
+A1360460|Nie znaleziono miejscowości: DĄBDOWA GÓRNICZA|*42-520||*DĄBDOWA GÓRNICZA||*Zwycięstwa||*85||*2||*ŚLĄSKIE||*DĄBROWA GÓRNICZA||*DĄBROWA GÓRNICZA|
+A1349639|Nie znaleziono miejscowości: DĄBROWA TARN.|*33-200||*DĄBROWA TARN.||*Tarn. Batalionów Chł.||*62||*||*MAŁOPOLSKIE||*||*|
+A1350486|Nie znaleziono miejscowości: DĘBKA|*39-200||*DĘBKA||*PANA TADEUSZA||*6||*4||*||*||*|
+A1349646|Nie znaleziono miejscowości: DOBCZYCE BRZĄCZOWICE|*32-410||*DOBCZYCE BRZĄCZOWICE||*Brzączowice||*96||*||*MAŁOPOLSKIE||*||*|
+A1349560|Nie znaleziono miejscowości: DOBCZYCE SKRZYNKA|*32-410||*DOBCZYCE SKRZYNKA||*Skrzynka||*34||*||*MAŁOPOLSKIE||*||*|
+A1348659|Nie znaleziono miejscowości: DRWINA|*32-709||*DRWINA||*Bieńkowce||*||*||*||*||*|
+A1603998|Nie znaleziono miejscowości: EDINBURGH|*||*EDINBURGH||*EET ST.ALBANS HERTS AL 1||*||*||*||*||*|
+A1350325|Nie znaleziono miejscowości: FRDRYCHOWICE|*34-108||*FRDRYCHOWICE||*Frydrychowice||*27||*||*||*||*|
+T132|Nie znaleziono miejscowości: Gaworzyce woj.Legn.|*67-230||*Gaworzyce woj.Legn.||*Gaworzyce||*105||*||*||*||*|
+A11890|Nie znaleziono miejscowości: GDAŃSK-WRZESZCZ|*80-952||*GDAŃSK-WRZESZCZ||*gen.J.Fiszera||*14||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349605|Nie znaleziono miejscowości: GDÓW STRYSZOWA|*32-420||*GDÓW STRYSZOWA||*Stryszowa||*78||*||*MAŁOPOLSKIE||*||*|
+A1349659|Nie znaleziono miejscowości: GIELNIÓW STOCZKI|*26-434||*GIELNIÓW STOCZKI||*Stoczki||*11||*||*MAZOWIECKIE||*||*|
+A1349486|Nie znaleziono miejscowości: GIŻYCKO WILKASY KRÓTKA|*11-500||*GIŻYCKO WILKASY KRÓTKA||*Wilkasy Krótka||*4||*||*WARMIŃSKO-MAZURSKIE||*||*|
+A1349466|Nie znaleziono miejscowości: GŁOWACZÓW BRZÓZA WARECK|*26-903||*GŁOWACZÓW BRZÓZA WARECK||*Brzóza Warecka||*24||*||*MAZOWIECKIE||*||*|
+T40718|Nie znaleziono miejscowości: GM.ZABIERZÓW KRAK.|*32-080||*GM.ZABIERZÓW KRAK.||*Zelków||*50||*||*||*||*|
+A1353456|Nie znaleziono miejscowości: GNIEWCZYNA|*37-203||*GNIEWCZYNA||*Gniewczyna Łańcucka||*264||*||*||*||*|
+A1349494|Nie znaleziono miejscowości: GRABOWNICA STARZEŃSKA G|*36-207||*GRABOWNICA STARZEŃSKA G||*Starzeńska Grabownica Starzeńs||*||*||*PODKARPACKIE||*||*|
+A1346953|Nie znaleziono miejscowości: GRODZISK MAZOW.|*05-825||*GRODZISK MAZOW.||*Narutowicza||*20||*||*||*||*|
+A1349490|Nie znaleziono miejscowości: IWANOWICE BISKUPICE 100|*32-095||*IWANOWICE BISKUPICE 100||*Biskupice||*100||*||*MAŁOPOLSKIE||*||*|
+A1174003|Nie znaleziono miejscowości: JAROSZOWIEC K/OLKUSZA|*32-312||*JAROSZOWIEC K/OLKUSZA||*Kolejowa||*1||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349955|Nie znaleziono miejscowości: JEDLNO|*97-561||*JEDLNO||*Jedlno||*115||*||*||*||*|
+A1349644|Nie znaleziono miejscowości: JERZMANOWICE JERZMANOWI|*32-048||*JERZMANOWICE JERZMANOWI||*Jerzmanowice||*427||*||*MAŁOPOLSKIE||*||*|
+A1349567|Nie znaleziono miejscowości: JĘDRZEJÓW SKRONIÓW|*28-300||*JĘDRZEJÓW SKRONIÓW||*Skroniów||*78A||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1333493|Nie znaleziono miejscowości: KACZYŁÓW|*37-403||*KACZYŁÓW||*||*38||*||*||*||*|
+A1349966|Nie znaleziono miejscowości: KAKÓW|*31-616||*KAKÓW||*os. Złoty Wiek||*18||*17||*||*||*|
+A1349571|Nie znaleziono miejscowości: KARNIOWICE DULOWA I. PA|*32-545||*KARNIOWICE DULOWA I. PA||*Dulowa I. Paderewskiego||*43||*||*MAŁOPOLSKIE||*||*|
+A10969|Nie znaleziono miejscowości: KATOWICE-SZOPIENICE|*40-337||*KATOWICE-SZOPIENICE||*KB.Lwowska||*23||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1353449|Nie znaleziono miejscowości: KAZIMIERZA WLK.|*28-500||*KAZIMIERZA WLK.||*Szkolna||*7||*25||*||*||*|
+A1349563|Nie znaleziono miejscowości: KLUCZE HUCISKO|*32-310||*KLUCZE HUCISKO||*Hucisko||*45||*||*MAŁOPOLSKIE||*||*|
+A2540|Nie znaleziono miejscowości: KOCMYRZÓW-BARANÓWKA|*32-010||*KOCMYRZÓW-BARANÓWKA||*||*74A||*||*MAŁOPOLSKIE||*KRAKOWSKI||*KOCMYRZÓW-LUBORZYCA|
+A1349543|Nie znaleziono miejscowości: KOŃSKIE SIEROSŁAWICE DŁ|*26-200||*KOŃSKIE SIEROSŁAWICE DŁ||*Sierosławice Długa||*69||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1345929|Nie znaleziono miejscowości: KOSTRZE|*58-150||*KOSTRZE||*Kościuszki||*57||*||*||*||*|
+A1258689|Nie znaleziono miejscowości: KOZŁÓW K/MIECHOWA|*32-241||*KOZŁÓW K/MIECHOWA||*Kozłów||*186||*||*MAŁOPOLSKIE||*MIECHOWSKI||*MIECHÓW|
+A1190514|Nie znaleziono miejscowości: KOZMICE WIEL.|*32-021||*KOZMICE WIEL.||*GORZKOW||*100||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+T3508|Nie znaleziono miejscowości: Krakow Nowa Huta|*||*Krakow Nowa Huta||*os. Handlowe||*2||*27||*||*||*|
+A40524|Nie znaleziono miejscowości: KRAKOW-BIELANY|*30-244||*KRAKOW-BIELANY||*Czajek||*12||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A16614|Nie znaleziono miejscowości: Krakow-Nowa Huta|*31-704||*Krakow-Nowa Huta||*Os.Na Stoku||*24a||*23||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1172397|Nie znaleziono miejscowości: KRAKOW-WEGRZCE|*30-929||*KRAKOW-WEGRZCE||*-||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1351501|Nie znaleziono miejscowości: KRAKOWIE|*30-607||*KRAKOWIE||*Kołodziejska||*27||*||*MAŁOPOLSKIE||*||*|
+A1811813|Nie znaleziono miejscowości: KRAKÓE|*30-052||*KRAKÓE||*Lea||*20A||*||*||*||*|
+A1349562|Nie znaleziono miejscowości: KRAKÓW GROMADY GRUDZIĄŻ|*30-657||*KRAKÓW GROMADY GRUDZIĄŻ||*Gromady Grudziąż||*17||*4||*MAŁOPOLSKIE||*||*|
+A8751|Nie znaleziono miejscowości: Kraków N.Prokocim|*30-835||*Kraków N.Prokocim||*Teligi||*13||*28||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1823|Nie znaleziono miejscowości: Kraków Nowa Huta|*31-580||*Kraków Nowa Huta||*Wężyka||*17||*1||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A2988|Nie znaleziono miejscowości: Kraków NOWA-HUTA|*31-941||*Kraków NOWA-HUTA||*oś.Kolorowe||*45||*4||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A8050|Nie znaleziono miejscowości: Kraków-NOWA HUTA|*31-916||*Kraków-NOWA HUTA||*oś. Ogrodowe||*11||*6||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1173159|Nie znaleziono miejscowości: KRASNYSTAW-BOREK|*22-300||*KRASNYSTAW-BOREK||*Leśna||*6||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1345918|Nie znaleziono miejscowości: KRAŚNIK LUBELSKI|*23-210||*KRAŚNIK LUBELSKI||*Konopnickiej||*36||*||*||*||*|
+A1349609|Nie znaleziono miejscowości: KRZCZONÓW KRZCZONÓW|*32-435||*KRZCZONÓW KRZCZONÓW||*Krzczonów||*345||*||*MAŁOPOLSKIE||*||*|
+A1349491|Nie znaleziono miejscowości: KRZESZOWICE MIĘKINIA|*32-065||*KRZESZOWICE MIĘKINIA||*Miękinia||*290||*||*MAŁOPOLSKIE||*||*|
+A1345024|Nie znaleziono miejscowości: LEGNICKIE POLA|*59-241||*LEGNICKIE POLA||*||*||*||*||*||*|
+A1263740|Nie znaleziono miejscowości: LENZIE|*||*LENZIE||*Larch Ave||*||*||*||*||*|
+A1349641|Nie znaleziono miejscowości: LEŻAJSK GIEDLAROWA|*37-300||*LEŻAJSK GIEDLAROWA||*Giedlarowa||*98a||*2||*PODKARPACKIE||*||*|
+A1349578|Nie znaleziono miejscowości: LISIA GÓRA ZACZARNIE|*33-140||*LISIA GÓRA ZACZARNIE||*Góra Zaczarnie||*347||*||*MAŁOPOLSKIE||*||*|
+A1344476|Nie znaleziono miejscowości: LWÓW|*||*LWÓW||*Dowbusza||*16a||*2||*||*||*|
+A1351306|Nie znaleziono miejscowości: LWÓWEK ŚL.|*59-600||*LWÓWEK ŚL.||*Al. Wojska Polskiego||*4||*4||*DOLNOŚLĄSKIE||*||*|
+A1349551|Nie znaleziono miejscowości: ŁUKOWA ŁUKOWA|*23-412||*ŁUKOWA ŁUKOWA||*Łukowa||*413||*||*LUBELSKIE||*||*|
+A11065|Nie znaleziono miejscowości: MIEDŹNA WOLA|*43-225||*MIEDŹNA WOLA||*Kopalniana 10||*2||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349620|Nie znaleziono miejscowości: MIELEC AL.. DUCHA 38/3|*39-300||*MIELEC AL.. DUCHA 38/3||*Al.. Ducha||*38||*3||*PODKARPACKIE||*||*|
+A1351322|Nie znaleziono miejscowości: MIĘDZYRZEC PODL|*21-560||*MIĘDZYRZEC PODL||*Brzeska||*57F||*22||*LUBELSKIE||*||*|
+A1348634|Nie znaleziono miejscowości: MOCZEW|*38-604||*MOCZEW||*Średnia Wieś||*74||*||*||*||*|
+A31922|Nie znaleziono miejscowości: MYDLNIKI|*32-081||*MYDLNIKI||*Rząska||*54||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349477|Nie znaleziono miejscowości: MYŚLENICE DROGINIA 201|*32-400||*MYŚLENICE DROGINIA 201||*Droginia||*201||*||*MAŁOPOLSKIE||*||*|
+A1349650|Nie znaleziono miejscowości: NAWOJOWA HOMRZYSKA|*33-335||*NAWOJOWA HOMRZYSKA||*Homrzyska||*48||*||*MAŁOPOLSKIE||*||*|
+T3196|Nie znaleziono miejscowości: NAWY WIŚNICZ|*32-720||*NAWY WIŚNICZ||*Podzamcze||*87||*||*||*||*|
+A1195065|Nie znaleziono miejscowości: NIEGOWIĆ WOJ.KRAKÓW|*32-013||*NIEGOWIĆ WOJ.KRAKÓW||*Cichawa||*122||*||*MAŁOPOLSKIE||*WIELICKI||*WIELICZKA|
+A1171010|Nie znaleziono miejscowości: NIEMCY -AUGSBURG|*||*NIEMCY -AUGSBURG||*Memminger||*Str.14||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349229|Nie znaleziono miejscowości: NINASZÓW|*38-230||*NINASZÓW||*||*241||*||*||*||*|
+A1345567|Nie znaleziono miejscowości: NOWA RUDA/SŁUPIEC|*57-402||*NOWA RUDA/SŁUPIEC||*||*||*||*||*||*|
+A1349480|Nie znaleziono miejscowości: NOWE MIASTO N.P|*26-420||*NOWE MIASTO N.P||*Miasto n.P Tomaszowska||*27||*1||*MAZOWIECKIE||*||*|
+A1349479|Nie znaleziono miejscowości: NOWE MIASTO N.PILICĄ|*26-420||*NOWE MIASTO N.PILICĄ||*Miasto n.Pilicą Leśna||*9||*||*MAZOWIECKIE||*||*|
+A1349468|Nie znaleziono miejscowości: NOWY WIŚNICZ LEKSANDROW|*32-720||*NOWY WIŚNICZ LEKSANDROW||*Wiśnicz Leksandrowa||*13||*||*MAŁOPOLSKIE||*||*|
+A1349484|Nie znaleziono miejscowości: OLEŚNICA STRZELCE|*28-220||*OLEŚNICA STRZELCE||*Strzelce||*76||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349512|Nie znaleziono miejscowości: OPATOWIEC KAMIENNA|*28-520||*OPATOWIEC KAMIENNA||*Kamienna||*26||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349457|Nie znaleziono miejscowości: OPATÓW NIKISIAŁKA MAŁA|*27-500||*OPATÓW NIKISIAŁKA MAŁA||*Nikisiałka Mała||*30||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349536|Nie znaleziono miejscowości: OPOCZNO DZIELNA|*26-300||*OPOCZNO DZIELNA||*Dzielna||*75A||*||*ŁÓDZKIE||*||*|
+A1190468|Nie znaleziono miejscowości: OSRODEK SWIETOKRZYSKI|*27-400||*OSRODEK SWIETOKRZYSKI||*ostrowiec swietokrzyski||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349118|Nie znaleziono miejscowości: OSRTOWIEC ŚWIĘTOKRZY|*27-400||*OSRTOWIEC ŚWIĘTOKRZY||*OS. PATRONACKIE||*25||*14||*ŚWIĘTOKRZYSKIE||*||*|
+A1349324|Nie znaleziono miejscowości: OSTR. ŚWIĘTOKRZ|*27-400||*OSTR. ŚWIĘTOKRZ||*Cisowa||*16||*||*||*||*|
+A1190591|Nie znaleziono miejscowości: OSTROWIEC SWIETOKRZ.|*27-400||*OSTROWIEC SWIETOKRZ.||*os.Ogrody||*5||*47||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A11302|Nie znaleziono miejscowości: OSTROWIEC SWIETOKRZ.|*27-400||*OSTROWIEC SWIETOKRZ.||*Samsonowicza||*2||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1190709|Nie znaleziono miejscowości: OSTROWIEC SWIETOKRZYS|*27-400||*OSTROWIEC SWIETOKRZYS||*||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1351382|Nie znaleziono miejscowości: OSTROWIEC SWIĘTOKRZY|*27-400||*OSTROWIEC SWIĘTOKRZY||*Os Stawki||*52||*7||*ŚWIĘTOKRZYSKIE||*||*|
+A1349062|Nie znaleziono miejscowości: OSTROWIEC ŚWIĘT|*27-400||*OSTROWIEC ŚWIĘT||*OS. PATRONACKIE||*27||*20||*ŚWIĘTOKRZYSKIE||*||*|
+A1349157|Nie znaleziono miejscowości: OSTROWIEC ŚWIĘT|*27-400||*OSTROWIEC ŚWIĘT||*OS. STAWKI||*81||*6||*ŚWIĘTOKRZYSKIE||*||*|
+A1349190|Nie znaleziono miejscowości: OSTROWIEC ŚWIĘT|*27-400||*OSTROWIEC ŚWIĘT||*STAWKI||*54||*23||*ŚWIĘTOKRZYSKIE||*||*|
+A1349194|Nie znaleziono miejscowości: OSTROWIEC ŚWIĘT|*27-400||*OSTROWIEC ŚWIĘT||*OS. ROSOCHY||*27||*19||*ŚWIĘTOKRZYSKIE||*||*|
+A1334242|Nie znaleziono miejscowości: OSTROWIEC ŚWIĘT|*27-400||*OSTROWIEC ŚWIĘT||*Sportowa||*22||*||*||*||*|
+A1350475|Nie znaleziono miejscowości: OSTROWIEC ŚWIĘT.|*27-400||*OSTROWIEC ŚWIĘT.||*Zarzecze||*44||*||*||*||*|
+A1349125|Nie znaleziono miejscowości: OSTROWIEC ŚWIĘTOKRZY|*27-400||*OSTROWIEC ŚWIĘTOKRZY||*OS. STAWKI||*52||*7||*ŚWIĘTOKRZYSKIE||*||*|
+A1351362|Nie znaleziono miejscowości: OSTROWIEC ŚWIĘTOKRZY|*27-400||*OSTROWIEC ŚWIĘTOKRZY||*Lipowa||*9||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1352133|Nie znaleziono miejscowości: OSTROWIEC ŚWIĘTOKRZY|*27-400||*OSTROWIEC ŚWIĘTOKRZY||*Os. Pułanki||*8||*26||*ŚWIĘTOKRZYSKIE||*||*|
+A10950|Nie znaleziono miejscowości: OTWOCK-ŚWIERK|*05-400||*OTWOCK-ŚWIERK||*-||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1351618|Nie znaleziono miejscowości: PIETRZYYKOWICE|*34-326||*PIETRZYYKOWICE||*Jana Pawła II||*154||*||*ŚLĄSKIE||*||*|
+A1353428|Nie znaleziono miejscowości: PIOTRKÓW TRYB.|*97-300||*PIOTRKÓW TRYB.||*Piastowska||*10||*27||*||*||*|
+A1347111|Nie znaleziono miejscowości: PIWNICZNA|*33-350||*PIWNICZNA||*||*||*||*||*||*|
+A1350632|Nie znaleziono miejscowości: PIWNICZNA|*33-350||*PIWNICZNA||*Sobieskiego||*21||*47||*||*||*|
+A1346949|Nie znaleziono miejscowości: PLEWISKA K/POZNANIA|*62-064||*PLEWISKA K/POZNANIA||*południowa||*54||*||*||*||*|
+A1352886|Nie znaleziono miejscowości: POSADA ZARSZYN|*38-530||*POSADA ZARSZYN||*||*250||*||*PODKARPACKIE||*||*|
+A1349317|Nie znaleziono miejscowości: PUSTYNY|*38-422||*PUSTYNY||*Centralna||*33||*||*||*||*|
+A1351012|Nie znaleziono miejscowości: RABKA|*34-700||*RABKA||*Ponice||*114a||*||*||*||*|
+A1349474|Nie znaleziono miejscowości: RADŁÓW BISKUPICE RADŁOW|*33-130||*RADŁÓW BISKUPICE RADŁOW||*Biskupice Radłowskie Bat. Chło||*||*||*MAŁOPOLSKIE||*||*|
+A1352642|Nie znaleziono miejscowości: RADOMYŚL NA SANEM|*37-455||*RADOMYŚL NA SANEM||*Lubelska||*46||*||*||*||*|
+A1349663|Nie znaleziono miejscowości: RADOMYŚL WLK|*39-310||*RADOMYŚL WLK||*Wlk Broniewskiego||*12||*||*PODKARPACKIE||*||*|
+A1351083|Nie znaleziono miejscowości: RADONIÓW GMINA LUBOM|*59-623||*RADONIÓW GMINA LUBOM||*Radoniów||*59||*||*DOLNOŚLĄSKIE||*||*|
+A1347964|Nie znaleziono miejscowości: REJOWIEC FABR.|*22-170||*REJOWIEC FABR.||*Reja||*9||*||*||*||*|
+A1343181|Nie znaleziono miejscowości: ROGOŹNO WLKP|*64-610||*ROGOŹNO WLKP||*Kościuszki||*37||*16||*WIELKOPOLSKIE||*OBORNICKI||*ROGOŹNO|
+A1349573|Nie znaleziono miejscowości: RUDAWA NIEGOSZOWICE|*32-064||*RUDAWA NIEGOSZOWICE||*Niegoszowice||*50A||*||*MAŁOPOLSKIE||*||*|
+A1349621|Nie znaleziono miejscowości: RUDAWA NIELEPICE|*32-064||*RUDAWA NIELEPICE||*Nielepice||*193||*||*MAŁOPOLSKIE||*||*|
+A1345984|Nie znaleziono miejscowości: RUDNA MAŁA 42 A|*36-060||*RUDNA MAŁA 42 A||*||*||*||*PODKARPACKIE||*||*|
+A1350512|Nie znaleziono miejscowości: RUDNIK N/SANEM|*37-420||*RUDNIK N/SANEM||*Piłsudskiego||*18||*18||*||*||*|
+A1349580|Nie znaleziono miejscowości: RUDNIKI JULIANPOL|*46-325||*RUDNIKI JULIANPOL||*Julianpol||*6||*||*OPOLSKIE||*||*|
+A1352879|Nie znaleziono miejscowości: RUDNO I|*21-210||*RUDNO I||*||*102||*||*LUBELSKIE||*||*|
+A11756|Nie znaleziono miejscowości: RYBNIK-CHWALOWICE|*44-206||*RYBNIK-CHWALOWICE||*1-go Maja||*26||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349523|Nie znaleziono miejscowości: RYCZÓW ŁĄCZANY|*34-115||*RYCZÓW ŁĄCZANY||*Łączany||*132||*||*MAŁOPOLSKIE||*||*|
+A1351704|Nie znaleziono miejscowości: RZSZÓW|*35-209||*RZSZÓW||*23 23ajczyka||*7||*22||*||*||*|
+A1349585|Nie znaleziono miejscowości: SADOWIE BOGUSŁAWICE|*27-580||*SADOWIE BOGUSŁAWICE||*Bogusławice||*34||*2||*ŚWIĘTOKRZYSKIE||*||*|
+A1352643|Nie znaleziono miejscowości: SALOWA WOLA|*37-450||*SALOWA WOLA||*Al. Jana Pawła II||*14||*82||*||*||*|
+A1349574|Nie znaleziono miejscowości: SĘDZISZÓW MAŁOPOLSKI KA|*39-120||*SĘDZISZÓW MAŁOPOLSKI KA||*Małopolski Kawęczyn||*56||*||*PODKARPACKIE||*||*|
+A1351171|Nie znaleziono miejscowości: SĘDZISZÓW MŁP.|*39-120||*SĘDZISZÓW MŁP.||*SIENKIEWICZA||*24||*||*PODKARPACKIE||*||*|
+A1344634|Nie znaleziono miejscowości: SIELPIA|*26-231||*SIELPIA||*Spacerowa||*21||*||*||*||*|
+A10985|Nie znaleziono miejscowości: SIEMIANOWICE SL.|*41-100||*SIEMIANOWICE SL.||*Stalmacha||*8||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1350473|Nie znaleziono miejscowości: SIEMIANOWICE ŚL|*41-106||*SIEMIANOWICE ŚL||*Grunwaldzka||*3E||*12||*||*||*|
+A1346112|Nie znaleziono miejscowości: SIEMIANOWICE ŚL.|*41-100||*SIEMIANOWICE ŚL.||*Świerczewskiego||*17||*2||*||*||*|
+A1348981|Nie znaleziono miejscowości: SIEMIANOWICE ŚL.|*41-106||*SIEMIANOWICE ŚL.||*SZARYCH SZEREGÓW||*4||*13||*ŚLĄSKIE||*||*|
+A1349531|Nie znaleziono miejscowości: SKARŻYSKO-KAM.|*26-110||*SKARŻYSKO-KAM.||*Piłsudskiego||*42||*37||*ŚWIĘTOKRZYSKIE||*||*|
+A1351360|Nie znaleziono miejscowości: SKARŻYSKO-KAM.|*26-110||*SKARŻYSKO-KAM.||*Limanowskiego||*38||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349554|Nie znaleziono miejscowości: SKRZYSZÓW SKRZYSZÓW|*33-156||*SKRZYSZÓW SKRZYSZÓW||*Skrzyszów||*292||*||*MAŁOPOLSKIE||*||*|
+A1348298|Nie znaleziono miejscowości: SŁUPIA JĘDRZEJOWSKA|*28-350||*SŁUPIA JĘDRZEJOWSKA||*Słupia||*204||*||*||*||*|
+A1348761|Nie znaleziono miejscowości: SOKOŁÓW MŁP.|*36-050||*SOKOŁÓW MŁP.||*Pileckich||*2||*45||*||*||*|
+A1352064|Nie znaleziono miejscowości: SOŚNICA JAROSŁAWSKA|*37-555||*SOŚNICA JAROSŁAWSKA||*||*289||*||*PODKARPACKIE||*||*|
+A1349654|Nie znaleziono miejscowości: STALOWA WOLA ZAUŁEK 2|*37-450||*STALOWA WOLA ZAUŁEK 2||*Wola Zaułek||*2||*||*PODKARPACKIE||*||*|
+A1350798|Nie znaleziono miejscowości: STALOWAWOLA|*37-450||*STALOWAWOLA||*Chopina||*30||*||*||*||*|
+A1344244|Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI|*71-113||*STARGARD SZCZECIŃSKI||*Lechonia||*7a||*3||*||*||*|
+A1349517|Nie znaleziono miejscowości: STASZÓW KONIEMŁOTY POŁU|*28-200||*STASZÓW KONIEMŁOTY POŁU||*Koniemłoty Południowa||*3||*||*ŚWIĘTOKRZYSKIE||*||*|
+A27034|Nie znaleziono miejscowości: STRASZĘCIN 61 ŻYŁAKÓW|*39-218||*STRASZĘCIN 61 ŻYŁAKÓW||*||*||*||*PODKARPACKIE||*DĘBICKI||*DĘBICA|
+A1345142|Nie znaleziono miejscowości: STREGOM|*58-150||*STREGOM||*Al. Wojska Polskiego||*63||*||*||*||*|
+A1349537|Nie znaleziono miejscowości: STRZELCE WIELKIE STRZEL|*32-822||*STRZELCE WIELKIE STRZEL||*Wielkie Strzelce Małe||*120||*||*MAŁOPOLSKIE||*||*|
+A1349845|Nie znaleziono miejscowości: SUCHA BESKDZIKA|*34-200||*SUCHA BESKDZIKA||*Ul.Stokowa||*20||*||*||*||*|
+A1348427|Nie znaleziono miejscowości: SUMPERK|*||*SUMPERK||*Zerotinova||*62||*||*||*||*|
+A1349607|Nie znaleziono miejscowości: SZYMBARK SZYMBARK 622|*38-311||*SZYMBARK SZYMBARK 622||*Szymbark||*622||*||*MAŁOPOLSKIE||*||*|
+A1349643|Nie znaleziono miejscowości: TARNAWA DOLNA CZASZYN|*38-516||*TARNAWA DOLNA CZASZYN||*Dolna Czaszyn||*130||*||*PODKARPACKIE||*||*|
+A10532|Nie znaleziono miejscowości: TARNÓW MOŚCICE|*33-101||*TARNÓW MOŚCICE||*E.Kwiatkowskiego||*8||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1347894|Nie znaleziono miejscowości: TOKYO|*||*TOKYO||*Yaesudori||*3-4-15||*||*||*||*|
+A1353422|Nie znaleziono miejscowości: TOMASZÓW MAZ.|*97-200||*TOMASZÓW MAZ.||*Dzieci Polskich||*13||*39||*||*||*|
+A1352069|Nie znaleziono miejscowości: TOMASZÓW MAZ.|*97-200||*TOMASZÓW MAZ.||*Hoża||*5||*7/18||*ŁÓDZKIE||*||*|
+A1352124|Nie znaleziono miejscowości: TOMASZÓW MAZ.|*97-200||*TOMASZÓW MAZ.||*Komorów||*22||*||*ŁÓDZKIE||*||*|
+A18580|Nie znaleziono miejscowości: TORUŃW|*87-100||*TORUŃW||*Bażyńskich||*42||*75||*KUJAWSKO-POMORSKIE||*TORUŃ||*TORUŃ|
+A1349467|Nie znaleziono miejscowości: TRZEBUNIA TRZEBUNIA|*32-438||*TRZEBUNIA TRZEBUNIA||*Trzebunia||*183||*||*MAŁOPOLSKIE||*||*|
+A1350124|Nie znaleziono miejscowości: TRZESZCZANY|*22-554||*TRZESZCZANY||*Trzeszczany Drugie||*28||*||*||*||*|
+A1349666|Nie znaleziono miejscowości: TYSZOWCE KOL.CZARTOWIEC|*22-630||*TYSZOWCE KOL.CZARTOWIEC||*Kol.Czartowiec||*35||*||*LUBELSKIE||*||*|
+T3811|Nie znaleziono miejscowości: WARZEŃCZYCE|*32-125||*WARZEŃCZYCE||*Pabiednik Mały||*67||*||*||*||*|
+A1349481|Nie znaleziono miejscowości: WIELICZKA JANKÓWKA|*32-020||*WIELICZKA JANKÓWKA||*Jankówka||*11||*||*MAŁOPOLSKIE||*||*|
+A1351082|Nie znaleziono miejscowości: WIERZBA I|*22-417||*WIERZBA I||*||*32a||*||*LUBELSKIE||*||*|
+A1349465|Nie znaleziono miejscowości: WIŚNIOWA WIŚNIOWA|*32-412||*WIŚNIOWA WIŚNIOWA||*Wiśniowa||*198||*||*MAŁOPOLSKIE||*||*|
+A1349558|Nie znaleziono miejscowości: WITANOWICE WITANOWICE|*34-103||*WITANOWICE WITANOWICE||*Witanowice||*242||*||*MAŁOPOLSKIE||*||*|
+ZA1246586|Nie znaleziono miejscowości: WŁOCŁAWELK|*87-800||*WŁOCŁAWELK||*Łanowa||*9||*3||*KUJAWSKO-POMORSKIE||*WŁOCŁAWEK||*WŁOCŁAWEK|
+A1349613|Nie znaleziono miejscowości: WŁOSZCZOWA BEBELNO KOLO|*29-100||*WŁOSZCZOWA BEBELNO KOLO||*Bebelno Kolonia||*79||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349596|Nie znaleziono miejscowości: WOJNICZ WIELKA WIEŚ|*32-830||*WOJNICZ WIELKA WIEŚ||*Wielka Wieś||*64||*||*MAŁOPOLSKIE||*||*|
+A1350233|Nie znaleziono miejscowości: WOLICA PIASKOWA|*39-120||*WOLICA PIASKOWA||*Wolica Piaskowa||*356a||*||*||*||*|
+A1349482|Nie znaleziono miejscowości: ZABIERZÓW MOSTOWA 64|*32-080||*ZABIERZÓW MOSTOWA 64||*Mostowa||*64||*||*MAŁOPOLSKIE||*||*|
+A1349622|Nie znaleziono miejscowości: ZAGORZYCE ZAGORZYCE|*39-126||*ZAGORZYCE ZAGORZYCE||*Zagorzyce||*500b||*||*PODKARPACKIE||*||*|
+A1344191|Nie znaleziono miejscowości: ZAWOJA MOSORNE2|*34-222||*ZAWOJA MOSORNE2||*||*||*||*||*||*|
+A1350086|Nie znaleziono miejscowości: ZWIĘCZYCA|*35-083||*ZWIĘCZYCA||*Ul.Bieszczadzka||*81||*||*||*||*|
+A1349532|Nie znaleziono miejscowości: ŻEGOCINA ŁĄKTA GÓRNA|*32-731||*ŻEGOCINA ŁĄKTA GÓRNA||*Łąkta Górna||*149||*||*MAŁOPOLSKIE||*||*|
+A1349581|Nie znaleziono miejscowości: ŻEGOCINA ŻEGOCINA|*32-731||*ŻEGOCINA ŻEGOCINA||*Żegocina||*257||*||*MAŁOPOLSKIE||*||*|
+A1349590|Nie znaleziono miejscowości: ŻEGOCINA ŻEGOCINA|*32-731||*ŻEGOCINA ŻEGOCINA||*Żegocina||*213||*||*MAŁOPOLSKIE||*||*|
+TX1349616|Nie znaleziono miejscowości: ŻEGOCINA ŻEGOCINA|*32-731||*ŻEGOCINA ŻEGOCINA||*Żegocina||*193||*||*MAŁOPOLSKIE||*||*|
+A1174705|Nie znaleziono ulicy '-' w miejscowości CZUŁÓW 129|||*CZUŁÓW 129|Czułów|*|-|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|krakowski|*WIERZCHLAS|Liszki
+A32540|Nie znaleziono ulicy '-' w miejscowości DZIAŁOSZYN|*98-355||*DZIAŁOSZYN||*-||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1173973|Nie znaleziono ulicy '-' w miejscowości GACKI|*28-407||*GACKI||*-||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A12397|Nie znaleziono ulicy '-' w miejscowości RYTRO|34-300|34-300|RYTRO|Rytro|*|-|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|nowosądecki|*WIERZCHLAS|Rytro
+A10724|Nie znaleziono ulicy '-' w miejscowości SITKOWKA|26-052|26-052|*SITKOWKA|Sitkówka|*|-|||||*ŁÓDZKIE|ŚWIĘTOKRZYSKIE|*WIELUŃSKI|kielecki|*WIERZCHLAS|Nowiny
+A1177886|Nie znaleziono ulicy '-' w miejscowości SUŁOSZOWA 264|32-045|32-045|*SUŁOSZOWA 264|Sułoszowa|*|-|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|krakowski|*WIERZCHLAS|Sułoszowa
+A10816|Nie znaleziono ulicy '-' w miejscowości SWIERŻE GÓRNE|26-900|26-900|*SWIERŻE GÓRNE|Świerże Górne|*|-|||||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|kozienicki|*WIERZCHLAS|Kozienice
+A29275|Nie znaleziono ulicy '-' w miejscowości WEGRZCE WIELKIE|32-002|32-002|*WEGRZCE WIELKIE|Węgrzce Wielkie|*|-|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|wielicki|*WIERZCHLAS|Wieliczka
+A40500|Nie znaleziono ulicy '-' w miejscowości WESOLA|*||*WESOLA||*-||*||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1195600|Nie znaleziono ulicy '-l.' w miejscowości MOGILANY 12|32-031|32-031|*MOGILANY 12|Mogilany|*|-l.|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|krakowski|*WIERZCHLAS|Mogilany
+A1348689|Nie znaleziono ulicy '1-go Maja' w miejscowości SUŁKOWICE|*32-440||*SUŁKOWICE||*1-go Maja||*86||*||*||*||*|
+A38911|Nie znaleziono ulicy '1-go Sierpnia' w miejscowości WARSZAWA|*02-134||*WARSZAWA||*1-go Sierpnia||*2a||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1360469|Nie znaleziono ulicy '1000 lecia' w miejscowości DĄBROWA GÓRNICZA|41-303|41-303|DĄBROWA GÓRNICZA|Dąbrowa Górnicza|*|1000 lecia|19|19|55|55|ŚLĄSKIE|ŚLĄSKIE|DĄBROWA GÓRNICZA|Dąbrowa Górnicza|DĄBROWA GÓRNICZA|Dąbrowa Górnicza
+A11269|Nie znaleziono ulicy '1000-lecia PP' w miejscowości PUŁAWY|*24-110||*PUŁAWY||*1000-lecia PP||*13a||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349540|Nie znaleziono ulicy '11-go Listopada' w miejscowości LIBIĄŻ|32-590|32-590|LIBIĄŻ|Libiąż|*|11-go Listopada|4|4|40|40|MAŁOPOLSKIE|MAŁOPOLSKIE|*|chrzanowski|*|Libiąż
+ZA1236424|Nie znaleziono ulicy '3 Maja' w miejscowości OŚWIĘCIM|*32-600||*OŚWIĘCIM||*3 Maja||*7||*6||*MAŁOPOLSKIE||*OŚWIĘCIMSKI||*OŚWIĘCIM|
+A1347603|Nie znaleziono ulicy '3-go Maja' w miejscowości GDAŃSK|80-802|80-802|GDAŃSK|Gdańsk|*|3-go Maja|16|16|20|20|*|POMORSKIE|*|Gdańsk|*|Gdańsk
+A33608|Nie znaleziono ulicy '3-go Maja' w miejscowości JASŁO|38-300|38-300|JASŁO|Jasło|*|3-go Maja|101|101|||*ŁÓDZKIE|PODKARPACKIE|*WIELUŃSKI|jasielski|*WIERZCHLAS|Jasło
+A1347705|Nie znaleziono ulicy '3-go Maja' w miejscowości KATOWICE|40-096|40-096|KATOWICE|Katowice|*|3-go Maja|7|7|||*|ŚLĄSKIE|*|Katowice|*|Katowice
+A1348631|Nie znaleziono ulicy '30-Lecia' w miejscowości KLUCZE|*32-310||*KLUCZE||*30-Lecia||*8||*60||*||*||*|
+A1351732|Nie znaleziono ulicy '66' w miejscowości JAWCZYCE|*32-020||*JAWCZYCE||*66||*100||*||*MAŁOPOLSKIE||*||*|
+A10072|Nie znaleziono ulicy 'al.Puszkina' w miejscowości KRAKOW|*30-111||*KRAKOW||*al.Puszkina||*1||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1342612|Nie znaleziono ulicy 'Al.Solidarności' w miejscowości WARSZAWA|*03-402||*WARSZAWA||*Al.Solidarności||*61||*||*||*||*|
+A29504|Nie znaleziono ulicy 'Aleje Niepodległości' w miejscowości WARSZAWA|*00-608||*WARSZAWA||*Aleje Niepodległości||*188||*B||*||*||*|
+A3099|Nie znaleziono ulicy 'Armii Kraków' w miejscowości Kraków|*30-433||*Kraków||*Armii Kraków||*50a||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A2645|Nie znaleziono ulicy 'Armii Kraków' w miejscowości KRAKÓW|*30-432||*KRAKÓW||*Armii Kraków||*29||*2||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1190476|Nie znaleziono ulicy 'Armii Ludowej' w miejscowości POREBA|*42-480||*POREBA||*Armii Ludowej||*99||*||*ŁÓDZKIE||*||*|
+A3219|Nie znaleziono ulicy 'Batalionu Skała AK' w miejscowości KRAKÓW|*31-273||*KRAKÓW||*Batalionu Skała AK||*2a||*19||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1298|Nie znaleziono ulicy 'Batalionu Skała AK' w miejscowości KRAKÓW|*31-273||*KRAKÓW||*Batalionu Skała AK||*6||*30||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1348557|Nie znaleziono ulicy 'Biała Woda' w miejscowości TĘGOBORZE|33-312|33-312|TĘGOBORZE|Tęgoborze|*|Biała Woda|65|65|||*|MAŁOPOLSKIE|*|nowosądecki|*|Łososina Dolna
+A1350598|Nie znaleziono ulicy 'Białka' w miejscowości MAKÓW PODHALAŃSKI|34-220|34-220|MAKÓW PODHALAŃSKI|Maków Podhalański|*|Białka|274|274|||*|MAŁOPOLSKIE|*|suski|*|Maków Podhalański
+A38778|Nie znaleziono ulicy 'Bitwy Warszawskiej 1920r' w miejscowości WARSZAWA|*02-366||*WARSZAWA||*Bitwy Warszawskiej 1920r||*11||*||*||*||*|
+A1347877|Nie znaleziono ulicy 'Boh. Warszawy' w miejscowości BUSKO-ZDRÓJ|28-100|28-100|BUSKO-ZDRÓJ|Busko-Zdrój|*|Boh. Warszawy|116|116|||*|ŚWIĘTOKRZYSKIE|*|buski|*|Busko-Zdrój
+A1349286|Nie znaleziono ulicy 'Boh. Westerplatte' w miejscowości BRZESKO|*32-800||*BRZESKO||*Boh. Westerplatte||*7||*35||*||*||*|
+A11077|Nie znaleziono ulicy 'Boya-Żeleńskiego' w miejscowości KATOWICE|40-750|40-750|KATOWICE|Katowice|*|Boya-Żeleńskiego|95|95|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Katowice|*WIERZCHLAS|Katowice
+A19241|Nie znaleziono ulicy 'Brzezie' w miejscowości KRAKÓW|*32-080||*KRAKÓW||*Brzezie||*20||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1195390|Nie znaleziono ulicy 'Brzezie' w miejscowości ZABIERZÓW|*32-080||*ZABIERZÓW||*Brzezie||*20||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1348858|Nie znaleziono ulicy 'Budzyń' w miejscowości WOLBROM|32-340|32-340|WOLBROM|Wolbrom|*|Budzyń|11a|11a|||*|MAŁOPOLSKIE|*|olkuski|*|Wolbrom
+A1914127|Nie znaleziono ulicy 'Bystra' w miejscowości GORLICE|38-300|38-300|GORLICE|Gorlice|*|Bystra|229|229|||*|MAŁOPOLSKIE|*|gorlicki|*|Gorlice
+A2849|Nie znaleziono ulicy 'CHAŁUBIŃSKIEGO' w miejscowości SWOSZOWICE|30-698|30-698|SWOSZOWICE|Swoszowice|*|CHAŁUBIŃSKIEGO|13|13|||*MAŁOPOLSKIE|ŚWIĘTOKRZYSKIE|*KRAKÓW|kazimierski|*KRAKÓW|Czarnocin
+A1344266|Nie znaleziono ulicy 'Cienista' w miejscowości WESOŁA|*05-077||*WESOŁA||*Cienista||*34||*||*||*||*|
+A1350794|Nie znaleziono ulicy 'Czajkowa' w miejscowości TUSZÓW NARODOWY|39-332|39-332|TUSZÓW NARODOWY|Tuszów Narodowy|*|Czajkowa|15|15|||*|PODKARPACKIE|*|mielecki|*|Tuszów Narodowy
+A1348475|Nie znaleziono ulicy 'Czarny Potok' w miejscowości KRYNICA|*33-380||*KRYNICA||*Czarny Potok||*23||*74||*||*||*|
+A1345273|Nie znaleziono ulicy 'Długosza' w miejscowości NOWOGARD|72-200|72-200|NOWOGARD|Nowogard|*|Długosza|12D|12D|||*|ZACHODNIOPOMORSKIE|*|goleniowski|*|Nowogard
+A1351003|Nie znaleziono ulicy 'Dobra' w miejscowości STASZÓW|*28-200||*STASZÓW||*Dobra||*69||*||*||*||*|
+A25475|Nie znaleziono ulicy 'Folwarki' w miejscowości STOPNICA|28-130|28-130|STOPNICA|Stopnica|*|Folwarki|22|22|||ŚWIĘTOKRZYSKIE|ŚWIĘTOKRZYSKIE|BUSKI|buski|*BUSKO-ZDRÓJ|Stopnica
+A8628|Nie znaleziono ulicy 'Fr.Nullo' w miejscowości Kraków|*31-543||*Kraków||*Fr.Nullo||*12||*5||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1345136|Nie znaleziono ulicy 'Gaj' w miejscowości MOGILANY|32-031|32-031|MOGILANY|Mogilany|*|Gaj|307|307|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|krakowski|*|Mogilany
+A1350640|Nie znaleziono ulicy 'Glinik' w miejscowości ŁĄCZKI KUCHARSKIE|39-106|39-106|ŁĄCZKI KUCHARSKIE|Łączki Kucharskie|*|Glinik|90|90|||*|PODKARPACKIE|*|ropczycko-sędziszowski|*|Ropczyce
+A1348700|Nie znaleziono ulicy 'Górki' w miejscowości WIŚLICA|*28-160||*WIŚLICA||*Górki||*12||*||*||*||*|
+A1351064|Nie znaleziono ulicy 'Grojec' w miejscowości ALWERNIA|32-566|32-566|ALWERNIA|Alwernia|*|Grojec|11|11|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|chrzanowski|*|Alwernia
+A1351542|Nie znaleziono ulicy 'Grojec' w miejscowości ALWERNIA|32-566|32-566|ALWERNIA|Alwernia|*|Grojec|241|241|||MAŁOPOLSKIE|MAŁOPOLSKIE|*|chrzanowski|*|Alwernia
+A1280499|Nie znaleziono ulicy 'Heweliusza' w miejscowości ŁYSOMICE|*87-148||*ŁYSOMICE||*Heweliusza||*37||*5||*KUJAWSKO-POMORSKIE||*TORUŃSKI||*ŁYSOMICE|
+A1350684|Nie znaleziono ulicy 'J. Piłsudskiego' w miejscowości DĄBROWA GÓRNICZA|41-303|41-303|DĄBROWA GÓRNICZA|Dąbrowa Górnicza|*|J. Piłsudskiego|36|36|136|136|*|ŚLĄSKIE|*|Dąbrowa Górnicza|*|Dąbrowa Górnicza
+A1190383|Nie znaleziono ulicy 'Jakubowice' w miejscowości DZIALOSZYCE|28-540|28-540|*DZIALOSZYCE|Działoszyce|*|Jakubowice|87|87|||*ŁÓDZKIE|ŚWIĘTOKRZYSKIE|*WIELUŃSKI|pińczowski|*WIERZCHLAS|Działoszyce
+A1350597|Nie znaleziono ulicy 'Jasień' w miejscowości BRZESKO|*32-800||*BRZESKO||*Jasień||*3||*||*||*||*|
+A1190430|Nie znaleziono ulicy 'Jasna' w miejscowości PODLEZE|*32-003||*PODLEZE||*Jasna||*237||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A2959|Nie znaleziono ulicy 'Jawornik' w miejscowości Myślenice|32-400|32-400|Myślenice|Myślenice|*|Jawornik|574|574|||MAŁOPOLSKIE|MAŁOPOLSKIE|MYŚLENICKI|myślenicki|MYŚLENICE|Myślenice
+A10746|Nie znaleziono ulicy 'Jednosci Narodowej' w miejscowości SZCZECIN|*70-453||*SZCZECIN||*Jednosci Narodowej||*31||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1350461|Nie znaleziono ulicy 'KALINOWA' w miejscowości OSTROWIEC ŚW|*27-400||*OSTROWIEC ŚW||*KALINOWA||*10||*||*||*||*|
+A1921136|Nie znaleziono ulicy 'Karaś' w miejscowości IŁAWA|*14-200||*IŁAWA||*Karaś||*44A||*||*||*||*|
+A1352155|Nie znaleziono ulicy 'Kasprowicza' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*Kasprowicza||*3||*||*ŚWIĘTOKRZYSKIE||*||*|
+A8058|Nie znaleziono ulicy 'Kingi' w miejscowości KROŚCIENKO|34-450|34-450|KROŚCIENKO|Krościenko|*|Kingi|55a|55a|||*MAŁOPOLSKIE|PODKARPACKIE|*NOWOTARSKI|bieszczadzki|*KROŚCIENKO NAD DUNAJCEM|Ustrzyki Dolne
+A1350977|Nie znaleziono ulicy 'Konstytucji 3-Go Maja' w miejscowości BIAŁACZÓW|26-307|26-307|BIAŁACZÓW|Białaczów|*|Konstytucji 3-Go Maja|6|6|||*|ŁÓDZKIE|*|opoczyński|*|Białaczów
+A1351336|Nie znaleziono ulicy 'Kordeckiego' w miejscowości RUDNIK|*37-420||*RUDNIK||*Kordeckiego||*8||*||*PODKARPACKIE||*||*|
+A1351087|Nie znaleziono ulicy 'Korzeniec' w miejscowości BIRCZA|37-740|37-740|BIRCZA|Bircza|*|Korzeniec|136|136|||PODKARPACKIE|PODKARPACKIE|PRZEMYSKI|przemyski|BIRCZA|Bircza
+A1350978|Nie znaleziono ulicy 'Koszary' w miejscowości LIMANOWA|34-651|34-651|LIMANOWA|Limanowa|*|Koszary|135|135|||MAŁOPOLSKIE|MAŁOPOLSKIE|LIMANOWSKI|limanowski|LIMANOWA|Limanowa
+A37958|Nie znaleziono ulicy 'Kraszewskiego' w miejscowości KRYNICA|*33-380||*KRYNICA||*Kraszewskiego||*1||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1258536|Nie znaleziono ulicy 'Kruczkowskiego' w miejscowości BĘDZIN|*42-500||*BĘDZIN||*Kruczkowskiego||*16||*||*ŚLĄSKIE||*BĘDZIŃSKI||*BĘDZIN|
+A8238|Nie znaleziono ulicy 'Legionów Piłsudskiego' w miejscowości Kraków|*30-509||*Kraków||*Legionów Piłsudskiego||*7||*1||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1351699|Nie znaleziono ulicy 'Legionów Polskich' w miejscowości BRZESKO|*32-700||*BRZESKO||*Legionów Polskich||*30||*2||*||*||*|
+A1348838|Nie znaleziono ulicy 'Leszczyna' w miejscowości TRZCIANA|*32-733||*TRZCIANA||*Leszczyna||*144||*||*||*||*|
+T17640|Nie znaleziono ulicy 'Leśna' w miejscowości KROŚCIENKO|34-450|34-450|KROŚCIENKO|Krościenko|*|Leśna|5|5|||*|PODKARPACKIE|*|bieszczadzki|*|Ustrzyki Dolne
+A1350744|Nie znaleziono ulicy 'Ładna' w miejscowości SKRZYSZÓW|*33-156||*SKRZYSZÓW||*Ładna||*115||*||*||*||*|
+A1348614|Nie znaleziono ulicy 'Łazy' w miejscowości RZEZAWA|32-765|32-765|RZEZAWA|Rzezawa|*|Łazy|82|82|||*|MAŁOPOLSKIE|*|bocheński|*|Rzezawa
+A1173972|Nie znaleziono ulicy 'M.C.Sklodowskiej' w miejscowości LUBIN|*59-301||*LUBIN||*M.C.Sklodowskiej||*76||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A41283|Nie znaleziono ulicy 'M.C.Skłodowskiej' w miejscowości LUBIN|*59-301||*LUBIN||*M.C.Skłodowskiej||*82||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1348510|Nie znaleziono ulicy 'M.C.Skłodowskiej' w miejscowości SKAWINA|32-050|32-050|SKAWINA|Skawina|*|M.C.Skłodowskiej|10|10|11|11|*|MAŁOPOLSKIE|*|krakowski|*|Skawina
+A1349049|Nie znaleziono ulicy 'MARII DĄBROWSKIEJ' w miejscowości TARNOBRZEG|39-400|39-400|TARNOBRZEG|Tarnobrzeg|*|MARII DĄBROWSKIEJ|16|16|31|31|PODKARPACKIE|PODKARPACKIE|*|Tarnobrzeg|*|Tarnobrzeg
+A1350616|Nie znaleziono ulicy 'Marzęcin' w miejscowości PIŃCZÓW|28-400|28-400|PIŃCZÓW|Pińczów|*|Marzęcin|6|6|||*|ŚWIĘTOKRZYSKIE|*|pińczowski|*|Pińczów
+A1916501|Nie znaleziono ulicy 'migdałowa' w miejscowości Jarosław|*37-500||*Jarosław||*migdałowa||*3||*||*||*||*|
+A1267898|Nie znaleziono ulicy 'Mokra' w miejscowości STĄPORKÓW|26-220|26-220|STĄPORKÓW|Stąporków|*|Mokra|96|96|||ŚWIĘTOKRZYSKIE|ŚWIĘTOKRZYSKIE|KONECKI|konecki|*KOŃSKIE|Stąporków
+A26116|Nie znaleziono ulicy 'Murowianka' w miejscowości KRAKOW|*||*KRAKOW||*Murowianka||*4||*9||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A2059|Nie znaleziono ulicy 'Niepołomicka' w miejscowości WIELICZKA|32-020|32-020|WIELICZKA|Wieliczka|*|Niepołomicka|32c|32c|||MAŁOPOLSKIE|MAŁOPOLSKIE|WIELICKI|wielicki|WIELICZKA|Wieliczka
+A1350143|Nie znaleziono ulicy 'Ogrodowa' w miejscowości ŚWIĘTOSZÓWKA|43-386|43-386|ŚWIĘTOSZÓWKA|Świętoszówka|*|Ogrodowa|69|69|||*|ŚLĄSKIE|*|bielski|*|Jasienica
+A1348783|Nie znaleziono ulicy 'Olszana' w miejscowości PODEGRODZIE|*33-386||*PODEGRODZIE||*Olszana||*127||*8||*||*||*|
+A1350619|Nie znaleziono ulicy 'Os. Legionów Dąbrowskiego' w miejscowości TARNÓW|*33-100||*TARNÓW||*Os. Legionów Dąbrowskiego||*5||*1||*||*||*|
+A1353424|Nie znaleziono ulicy 'os. Ogrody' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*os. Ogrody||*9b||*50||*||*||*|
+A1348806|Nie znaleziono ulicy 'Os. Ogrody' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*Os. Ogrody||*38||*26||*||*||*|
+A1350117|Nie znaleziono ulicy 'Os. Pułanki' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*Os. Pułanki||*13||*32||*||*||*|
+A1351159|Nie znaleziono ulicy 'Os. Stawki' w miejscowości OSTROWIEC ŚW|*27-400||*OSTROWIEC ŚW||*Os. Stawki||*100||*16||*ŚWIĘTOKRZYSKIE||*OSTROWIECKI||*OSTROWIEC ŚWIĘTOKRZYSKI|
+A1352118|Nie znaleziono ulicy 'Os. Stawki' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*Os. Stawki||*98||*6||*ŚWIĘTOKRZYSKIE||*||*|
+A9266|Nie znaleziono ulicy 'os.1000-lecia' w miejscowości KRAKÓW|*31-609||*KRAKÓW||*os.1000-lecia||*28||*23||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1351417|Nie znaleziono ulicy 'Os.Legionów Dąbrowskiego' w miejscowości TARNÓW|*33-100||*TARNÓW||*Os.Legionów Dąbrowskiego||*9||*3||*MAŁOPOLSKIE||*||*|
+A1344885|Nie znaleziono ulicy 'os.Rosochy' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*os.Rosochy||*26||*17||*||*||*|
+A1190454|Nie znaleziono ulicy 'os.XX-Lecia' w miejscowości SUCHA BESKIDZKA|34-200|34-200|SUCHA BESKIDZKA|Sucha Beskidzka|*|os.XX-Lecia|6|6|33|33|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|suski|*WIERZCHLAS|Sucha Beskidzka
+A1345145|Nie znaleziono ulicy 'Osiedlowa' w miejscowości KRASOCIN|29-105|29-105|KRASOCIN|Krasocin|*|Osiedlowa|10|10|||*|ŚWIĘTOKRZYSKIE|*|włoszczowski|*|Krasocin
+A1349208|Nie znaleziono ulicy 'Oś. Stawki' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*Oś. Stawki||*70||*35||*||*||*|
+A1350724|Nie znaleziono ulicy 'Oś. Świerczewskiego' w miejscowości BUSKO ZDRÓJ|28-100|28-100|BUSKO ZDRÓJ|Busko-Zdrój|*|Oś. Świerczewskiego|15|15|17|17|*|ŚWIĘTOKRZYSKIE|*|buski|*|Busko-Zdrój
+A1350733|Nie znaleziono ulicy 'Oś. T. Kościuszki' w miejscowości BUSKO ZDRÓJ|28-100|28-100|BUSKO ZDRÓJ|Busko-Zdrój|*|Oś. T. Kościuszki|10|10|10|10|*|ŚWIĘTOKRZYSKIE|*|buski|*|Busko-Zdrój
+A28468|Nie znaleziono ulicy 'oś.1000-Lecia' w miejscowości KRAKOW|*31-608||*KRAKOW||*oś.1000-Lecia||*24||*32||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A8185|Nie znaleziono ulicy 'Piekary' w miejscowości Krakow|*32-060||*Krakow||*Piekary||*120||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A2012|Nie znaleziono ulicy 'Piekary' w miejscowości Liszki|*32-060||*Liszki||*Piekary||*166||*||*MAŁOPOLSKIE||*KRAKOWSKI||*LISZKI|
+T18830|Nie znaleziono ulicy 'Piekary' w miejscowości Liszki|*32-060||*Liszki||*Piekary||*191||*||*||*||*|
+A1351510|Nie znaleziono ulicy 'Piotra Skargi' w miejscowości MIELEC|39-301|39-301|MIELEC|Mielec|*|Piotra Skargi|17|17|71|71|PODKARPACKIE|PODKARPACKIE|*|mielecki|*|Mielec
+A1351019|Nie znaleziono ulicy 'Pisary' w miejscowości RUDAWA|*32-064||*RUDAWA||*Pisary||*107||*||*||*||*|
+A1345020|Nie znaleziono ulicy 'Podleśna' w miejscowości SIEWIERZ|42-470|42-470|SIEWIERZ|Siewierz|*|Podleśna|||||*|ŚLĄSKIE|*|będziński|*|Siewierz
+A1350089|Nie znaleziono ulicy 'Podłazie' w miejscowości ŁĄCZNA|*26-140||*ŁĄCZNA||*Podłazie||*88||*||*||*||*|
+A1350984|Nie znaleziono ulicy 'Podskale' w miejscowości OPATOWIEC|*28-520||*OPATOWIEC||*Podskale||*20||*||*ŚWIĘTOKRZYSKIE||*KAZIMIERSKI||*OPATOWIEC|
+A1347125|Nie znaleziono ulicy 'Powstańców Śl.' w miejscowości WROCŁAW|53-332|53-332|WROCŁAW|Wrocław|*|Powstańców Śl.|5|5|||*|DOLNOŚLĄSKIE|*|Wrocław|*|Wrocław
+A1351919|Nie znaleziono ulicy 'Powstańców Wielkopolskich' w miejscowości MOGILNO|*88-300||*MOGILNO||*Powstańców Wielkopolskich||*35A||*||*KUJAWSKO-POMORSKIE||*MOGILEŃSKI||*MOGILNO|
+A1342575|Nie znaleziono ulicy 'Prymasa 1000-lecia' w miejscowości WARSZAWA|*01-424||*WARSZAWA||*Prymasa 1000-lecia||*155||*6||*||*||*|
+A14315|Nie znaleziono ulicy 'Pstrowskiego' w miejscowości ŁAZISKA GÓRNE|43-174|43-174|ŁAZISKA GÓRNE|Łaziska Górne|*|Pstrowskiego|12|12|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|mikołowski|*WIERZCHLAS|Łaziska Górne
+A8125|Nie znaleziono ulicy 'Rączna' w miejscowości LISZKI|*32-060||*LISZKI||*Rączna||*309||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1348299|Nie znaleziono ulicy 'Rogowiec' w miejscowości KLESZCZÓW|*97-410||*KLESZCZÓW||*Rogowiec||*||*||*ŁÓDZKIE||*||*|
+A1345140|Nie znaleziono ulicy 'Równia' w miejscowości USTRZYKI DOLNE|38-700|38-700|USTRZYKI DOLNE|Ustrzyki Dolne|*|Równia|33 c|33 c|||*|PODKARPACKIE|*|bieszczadzki|*|Ustrzyki Dolne
+A1904873|Nie znaleziono ulicy 'Rudka' w miejscowości WOJNICZ|32-830|32-830|WOJNICZ|Wojnicz|*|Rudka|48|48|||*|MAŁOPOLSKIE|*|tarnowski|*|Wojnicz
+A1288857|Nie znaleziono ulicy 'Rudnickiego' w miejscowości MYSŁOWICE|*41-400||*MYSŁOWICE||*Rudnickiego||*36||*7||*||*||*|
+A1350843|Nie znaleziono ulicy 'Rydzów' w miejscowości MIELEC|39-300|39-300|MIELEC|Mielec|*|Rydzów|15|15|||*|PODKARPACKIE|*|mielecki|*|Mielec
+A1350992|Nie znaleziono ulicy 'Rzeszowska' w miejscowości STARA WIEŚ|*36-200||*STARA WIEŚ||*Rzeszowska||*768||*||*||*||*|
+A1350615|Nie znaleziono ulicy 'Sielec' w miejscowości WODZISŁAW|28-330|28-330|WODZISŁAW|Wodzisław|*|Sielec|16|16|||*|ŚWIĘTOKRZYSKIE|*|jędrzejowski|*|Wodzisław
+A10212|Nie znaleziono ulicy 'Słoneczna' w miejscowości KRYNICA|*33-380||*KRYNICA||*Słoneczna||*47||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1349147|Nie znaleziono ulicy 'SŁOWACKIEGO' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*SŁOWACKIEGO||*23||*10||*ŚWIĘTOKRZYSKIE||*||*|
+A1348552|Nie znaleziono ulicy 'Stara Wieś' w miejscowości LIMANOWA|34-600|34-600|LIMANOWA|Limanowa|*|Stara Wieś|462|462|||*|MAŁOPOLSKIE|*|limanowski|*|Limanowa
+A1899228|Nie znaleziono ulicy 'Starogardzka' w miejscowości GRYFICE|72-300|72-300|GRYFICE|Gryfice|*|Starogardzka|1|1|2|2|*|ZACHODNIOPOMORSKIE|*|gryficki|*|Gryfice
+A1348832|Nie znaleziono ulicy 'Sucha' w miejscowości TRZYCIĄŻ|32-353|32-353|TRZYCIĄŻ|Trzyciąż|*|Sucha|60|60|||*|MAŁOPOLSKIE|*|olkuski|*|Trzyciąż
+A39013|Nie znaleziono ulicy 'Swierczewskiego' w miejscowości GOZDNICA|*68-130||*GOZDNICA||*Swierczewskiego||*35||*||*ŁÓDZKIE||*||*|
+A1350452|Nie znaleziono ulicy 'Szkolna' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*Szkolna||*5||*||*||*||*|
+A1262769|Nie znaleziono ulicy 'Szkolna' w miejscowości RUDZIENIEC|44-160|44-160|RUDZIENIEC|Rudzieniec|*|Szkolna|32|32|||*ŚLĄSKIE|LUBELSKIE|*GLIWICE|parczewski|*GLIWICE|Milanów
+A1351518|Nie znaleziono ulicy 'Szopena' w miejscowości STALOWA WOLA|37-450|37-450|STALOWA WOLA|Stalowa Wola|*|Szopena|34|34|12|12|PODKARPACKIE|PODKARPACKIE|*|stalowowolski|*|Stalowa Wola
+A1345590|Nie znaleziono ulicy 'Szwedzka' w miejscowości KOBIERZYCE|55-040|55-040|KOBIERZYCE|Kobierzyce|*|Szwedzka|5|5|||*|DOLNOŚLĄSKIE|*|wrocławski|*|Kobierzyce
+A1352649|Nie znaleziono ulicy 'Świerczewskiego' w miejscowości SŁOMNIKI|32-090|32-090|SŁOMNIKI|Słomniki|*|Świerczewskiego|6|6|29|29|*|MAŁOPOLSKIE|*|krakowski|*|Słomniki
+A38650|Nie znaleziono ulicy 'Świerczewskiego' w miejscowości ŚWIEBODZIN|*66-200||*ŚWIEBODZIN||*Świerczewskiego||*75||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A10752|Nie znaleziono ulicy 'Świerczewskiego' w miejscowości TARNÓW OPOLSKI|46-050|46-050|TARNÓW OPOLSKI|Tarnów Opolski|*|Świerczewskiego|5|5|||OPOLSKIE|OPOLSKIE|*|opolski|*|Tarnów Opolski
+A1349314|Nie znaleziono ulicy 'Świętej Barbary' w miejscowości BEŁCHATÓW|97-400|97-400|BEŁCHATÓW|Bełchatów|*|Świętej Barbary|1|1|9|9|*|ŁÓDZKIE|*|bełchatowski|*|Bełchatów
+A1345440|Nie znaleziono ulicy 'Targowisko 310,386' w miejscowości KŁAJ|32-015|32-015|KŁAJ|Kłaj|*|Targowisko 310,386|||||*|MAŁOPOLSKIE|*|wielicki|*|Kłaj
+A1349039|Nie znaleziono ulicy 'TOMASZÓW' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*TOMASZÓW||*54||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349015|Nie znaleziono ulicy 'TRZECIAKÓW' w miejscowości OSTROWIEC ŚW.|*27-400||*OSTROWIEC ŚW.||*TRZECIAKÓW||*15||*||*ŚWIĘTOKRZYSKIE||*||*|
+A1349920|Nie znaleziono ulicy 'Ul. Marii Konopnickiej' w miejscowości WOJNICZ|32-830|32-830|WOJNICZ|Wojnicz|*|Ul. Marii Konopnickiej|1|1|||*|MAŁOPOLSKIE|*|tarnowski|*|Wojnicz
+A1350228|Nie znaleziono ulicy 'Ul. Rogozina' w miejscowości SYRYNIA|44-361|44-361|SYRYNIA|Syrynia|*|Ul. Rogozina|16|16|||*|ŚLĄSKIE|*|wodzisławski|*|Lubomia
+A1350180|Nie znaleziono ulicy 'Ul.J. Piłsudskiego' w miejscowości TARNÓW|*33-100||*TARNÓW||*Ul.J. Piłsudskiego||*14||*5||*||*||*|
+A1350433|Nie znaleziono ulicy 'Ul.Jastrzębia' w miejscowości KRYNICA|*33-380||*KRYNICA||*Ul.Jastrzębia||*11||*||*||*||*|
+A1268400|Nie znaleziono ulicy 'UL.LUDOWA' w miejscowości KRYNICA|*33-380||*KRYNICA||*UL.LUDOWA||*4||*||*MAŁOPOLSKIE||*NOWOSĄDECKI||*KRYNICA-ZDRÓJ|
+A1350723|Nie znaleziono ulicy 'Uranowa' w miejscowości BIELSKO-BIAŁA|80-041|80-041|BIELSKO-BIAŁA|Bielsko-Biała|*|Uranowa|16B|16B|20|20|*|ŚLĄSKIE|*|Bielsko-Biała|*|Bielsko-Biała
+A1352653|Nie znaleziono ulicy 'W. Jagiełły' w miejscowości TARNÓW|*33-100||*TARNÓW||*W. Jagiełły||*190||*||*||*||*|
+A1349859|Nie znaleziono ulicy 'Walki Młodych' w miejscowości BĘDZIN|*42-500||*BĘDZIN||*Walki Młodych||*11||*59||*||*||*|
+A1349541|Nie znaleziono ulicy 'Waltera' w miejscowości TRZEBINIA|*32-540||*TRZEBINIA||*Waltera||*1||*||*ŚLĄSKIE||*||*|
+A1348524|Nie znaleziono ulicy 'Wiejska' w miejscowości KŁAJ|32-015|32-015|KŁAJ|Kłaj|*|Wiejska|29|29|||*|MAŁOPOLSKIE|*|wielicki|*|Kłaj
+A1347105|Nie znaleziono ulicy 'Wierzbie' w miejscowości PIERZCHNICA|*26-015||*PIERZCHNICA||*Wierzbie||*3a||*||*||*||*|
+A1348493|Nie znaleziono ulicy 'Wilków' w miejscowości KOCMYRZÓW|32-010|32-010|KOCMYRZÓW|Kocmyrzów|*|Wilków|62|62|||*|MAŁOPOLSKIE|*|krakowski|*|Kocmyrzów-Luborzyca
+A1349280|Nie znaleziono ulicy 'Wł. Jagiełły' w miejscowości OSTRÓDA|14-100|14-100|OSTRÓDA|Ostróda|*|Wł. Jagiełły|17A|17A|24|24|*|WARMIŃSKO-MAZURSKIE|*|ostródzki|*|Ostróda
+A1231757|Nie znaleziono ulicy 'Zadwór' w miejscowości IWONICZ ZDRÓJ|38-440|38-440|IWONICZ ZDRÓJ|Iwonicz-Zdrój|*|Zadwór|14|14|||*|PODKARPACKIE|*|krośnieński|*|Iwonicz-Zdrój
+A1350940|Nie znaleziono ulicy 'Zadwór' w miejscowości IWONICZ ZDRÓJ|38-440|38-440|IWONICZ ZDRÓJ|Iwonicz-Zdrój|*|Zadwór|11|11|4|4|*|PODKARPACKIE|*|krośnieński|*|Iwonicz-Zdrój
+A1345426|Nie znaleziono ulicy 'Zalesie' w miejscowości TARGOWISKA|38-423|38-423|TARGOWISKA|Targowiska|*|Zalesie|10 a|10 a|||*|PODKARPACKIE|*|krośnieński|*|Miejsce Piastowe
+A12113|Nie znaleziono ulicy 'Zawada 26' w miejscowości POŁANIEC|28-230|28-230|POŁANIEC|Połaniec|*|Zawada 26|||||*ŁÓDZKIE|ŚWIĘTOKRZYSKIE|*WIELUŃSKI|staszowski|*WIERZCHLAS|Połaniec
+A11361|Nie znaleziono ulicy 'Zawadzkiego' w miejscowości GLIWICE 9|44-109|44-109|*GLIWICE 9|Gliwice|*|Zawadzkiego|45|45|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Gliwice|*WIERZCHLAS|Gliwice
+A1343887|Nie znaleziono ulicy 'ZHP' w miejscowości SIEMIANOWICE ŚLĄSKIE|41-106|41-106|SIEMIANOWICE ŚLĄSKIE|Siemianowice Śląskie|*|ZHP|11|11|24|24|*|ŚLĄSKIE|*|Siemianowice Śląskie|*|Siemianowice Śląskie
+ZA1236599|Nie znaleziono ulicy 'Zyndrama' w miejscowości ŁĄCKO|*33-390||*ŁĄCKO||*Zyndrama||*315||*||*MAŁOPOLSKIE||*NOWOSĄDECKI||*ŁĄCKO|
+A1351220|Nie znaleziono ulicy 'Żabińskiego' w miejscowości GLIWICE|44-100|44-100|GLIWICE|Gliwice|*|Żabińskiego|29|29|2|2|*|ŚLĄSKIE|*|Gliwice|*|Gliwice
+A10748|Nie znaleziono ulicy 'Żukowicka' w miejscowości ŻUKOWICE|*67-231||*ŻUKOWICE||*Żukowicka||*1||*||*ŁÓDZKIE||*WIELUŃSKI||*WIERZCHLAS|
+A1877285|Nie znaleziono ulicy 'Żwirki i Wigury' w miejscowości BYDGOSZCZ|*85-310||*BYDGOSZCZ||*Żwirki i Wigury||*35A||*||*||*||*|
+A8285|W mieście 'Kraków' nie podano ulicy|31-617|31-617|KRAKÓW|Kraków|*||||||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8504|W mieście 'Kraków' nie podano ulicy|30-047|30-047|KRAKÓW|Kraków|*||23|23|6|6|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1190706|W mieście 'Kraków' nie podano ulicy|31-317|31-317|*KRAKOW|Kraków|*||||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A39160|W mieście 'Kraków' nie podano ulicy|30-820|30-820|KRAKÓW|Kraków|*||||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1190708|W mieście 'Kraków' nie podano ulicy|31-621|31-621|*KRAKOW|Kraków|*||||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1350718|W mieście 'Radom' nie podano ulicy|26-617|26-617|RADOM|Radom|*||13|13|10|10|*|MAZOWIECKIE|*|Radom|*|Radom
+A1347112|W mieście 'Radziszów' nie podano ulicy|32-052|32-052|RADZISZÓW|Radziszów|*||||||*|MAŁOPOLSKIE|*|krakowski|*|Skawina
+A1344729|Znaleziono wiele dopasowań (2)|50-440|50-440|WROCŁAW|Wrocław|*|ul. Kościuszki|135|135|||*|DOLNOŚLĄSKIE|*|Wrocław|*|Wrocław
+A19320|Znaleziono wiele dopasowań (2)|*41-902|41-933|BYTOM|Bytom|*|pl. Powstańców Śląskich|6|6|||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Bytom|*WIERZCHLAS|Bytom
+A1344918|Znaleziono wiele dopasowań (2)|30-243|30-243|KRAKÓW|Kraków|*|ul. Józefa|148a|148a|||MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1796|Znaleziono wiele dopasowań (2)|30-243|30-243|KRAKÓW|Kraków|*|ul. Józefa|212|212|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A2473|Znaleziono wiele dopasowań (2)|30-243|30-243|KRAKÓW|Kraków|*|ul. Józefa|365|365|14|14|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8255|Znaleziono wiele dopasowań (2)|30-618|30-618|KRAKÓW|Kraków|*|ul. Tuchowska|30|30|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1345025|Znaleziono wiele dopasowań (2)|*50-020|51-152|WROCŁAW|Wrocław|*|pl. Piłsudskiego|74|74|||*|DOLNOŚLĄSKIE|*|Wrocław|*|Wrocław
+A3808|Znaleziono wiele dopasowań (2)|*31-949|31-217|KRAKÓW|Kraków|*|ul. Zgody|7|7|70|70|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3856|Znaleziono wiele dopasowań (2)|*36-861|31-861|Kraków|Kraków|*|pl. Plac Niepodległości|6|6|22|22|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A3904|Znaleziono wiele dopasowań (2)|31-861|31-861|KRAKÓW|Kraków|*|pl. Plac Niepodległości|6|6|150|150|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A8491|Znaleziono wiele dopasowań (2)|31-861|31-861|KRAKÓW|Kraków|*|pl. Plac Niepodległości|6|6|162|162|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A20837|Znaleziono wiele dopasowań (2)|00-529|00-529|WARSZAWA|Warszawa|*|ul. Wspólna|1|1|3|3|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A8869|Znaleziono wiele dopasowań (2)|*31-949|31-217|*Krakow|Kraków|*|ul. Zgody|5|5|1|1|*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A10049|Znaleziono wiele dopasowań (2)|03-301|03-301|WARSZAWA|Warszawa|*|ul. Jagiellońska|76|76|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1345586|Znaleziono wiele dopasowań (2)|34-234|34-234|OSIELEC|Osielec|*||||||*|MAŁOPOLSKIE|*|suski|*|Jordanów
+A10189|Znaleziono wiele dopasowań (2)|*00-800|05-075|WARSZAWA|Warszawa|*|ul. Piaskowa|6|6|/8/10|/8/10|*ŁÓDZKIE|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A10293|Znaleziono wiele dopasowań (2)|03-194|03-194|WARSZAWA|Warszawa|*|ul. Konwaliowa|7|7|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A10331|Znaleziono wiele dopasowań (2)|00-241|00-241|WARSZAWA|Warszawa|*|ul. Długa|44|44|50|50|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A38158|Znaleziono wiele dopasowań (2)|*|94-039|ŁÓDŹ|Łódź|*|ul. Króla|||||ŁÓDZKIE|ŁÓDZKIE|*|Łódź|*|Łódź
+A39490|Znaleziono wiele dopasowań (2)|*50-900|51-152|WROCŁAW|Wrocław|*|pl. Piłsudskiego|74|74|||*ŁÓDZKIE|DOLNOŚLĄSKIE|*WIELUŃSKI|Wrocław|*WIERZCHLAS|Wrocław
+A39020|Znaleziono wiele dopasowań (2)|01-224|01-224|WARSZAWA|Warszawa|*|ul. Kasprzaka|44|44|52|52|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1204128|Znaleziono wiele dopasowań (2)|*41-500|41-506|CHORZÓW|Chorzów|*|ul. Szczecińska|10|10|86|86|*MAŁOPOLSKIE|ŚLĄSKIE|*KRAKÓW|Chorzów|*KRAKÓW|Chorzów
+A39035|Znaleziono wiele dopasowań (2)|*31-055|30-206|KRAKÓW|Kraków|*|ul. Józefa|26|26|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A38958|Znaleziono wiele dopasowań (2)|31-861|31-861|KRAKóW|Kraków|*|pl. Plac Niepodległości|5|5|163|163|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A1178233|Znaleziono wiele dopasowań (2)|00-529|00-529|WARSZAWA|Warszawa|*|ul. Wspólna|1|1|3|3|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1344468|Znaleziono wiele dopasowań (2)|00-367|00-367|WARSZAWA|Warszawa|*|ul. Kopernika|3|3|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A1178433|Znaleziono wiele dopasowań (2)|03-197|03-197|WARSZAWA|Warszawa|*|ul. Leszczynowa|11|11|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A654|Znaleziono wiele dopasowań (2)|*31-864|31-861|KRAKÓW|Kraków|*|pl. Plac Niepodległości|8|8|125|125|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A12434|Znaleziono wiele dopasowań (2)|81-807|81-807|SOPOT|Sopot|*|ul. Maja|5|5|||*ŁÓDZKIE|POMORSKIE|*WIELUŃSKI|Sopot|*WIERZCHLAS|Sopot
+A17315|Znaleziono wiele dopasowań (2)|*|00-529|WARSZAWA|Warszawa|*|ul. Wspólna|1|1|3|3|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1178311|Znaleziono wiele dopasowań (2)|00-586|00-586|WARSZAWA|Warszawa|*|ul. Flory|9|9|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A39014|Znaleziono wiele dopasowań (2)|00-529|00-529|WARSZAWA|Warszawa|*|ul. Wspólna|1|1|3|3|*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A40371|Znaleziono wiele dopasowań (2)|*|00-505|WARSZAWA|Warszawa|*|ul. Wspólna|4|4|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A21417|Znaleziono wiele dopasowań (2)|*00-259|00-529|WARSZAWA|Warszawa|*|ul. Wspólna|1|1|3|3|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A33892|Znaleziono wiele dopasowań (2)|*00-528|00-529|WARSZAWA|Warszawa|*|ul. Wspólna|1|1|3|3|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1341419|Znaleziono wiele dopasowań (2)|*41-308|41-300|DĄBROWA GÓRNICZA|Dąbrowa Górnicza|*|ul. Aleja Józefa Piłsudskiego|92|92|||ŚLĄSKIE|ŚLĄSKIE|*|Dąbrowa Górnicza|*|Dąbrowa Górnicza
+A1346288|Znaleziono wiele dopasowań (2)|42-400|42-400|ZAWIERCIE|Zawiercie|*|ul. Paderewskiego|120|120|||*|ŚLĄSKIE|*|zawierciański|*|Zawiercie
+A41206|Znaleziono wiele dopasowań (2)|02-313|02-313|WARSZAWA|Warszawa|*|ul. Sękocińska|3|3|2|2|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A31419|Znaleziono wiele dopasowań (2)|04-041|04-041|WARSZAWA|Warszawa|*|ul. Międzyborska|50|50|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A32245|Znaleziono wiele dopasowań (2)|00-677|00-677|WARSZAWA|Warszawa|*|ul. Piękna|31|31|37|37|*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A33487|Znaleziono wiele dopasowań (2)|*30-403|30-363|*KRAKOW|Kraków|*|ul. Rzemieślnicza|1|1|||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1173414|Znaleziono wiele dopasowań (2)|00-644|00-644|WARSZAWA|Warszawa|*|ul. Polna|50|50|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A1173704|Znaleziono wiele dopasowań (2)|00-241|00-241|WARSZAWA|Warszawa|*|ul. Długa|44|44|50|50|*ŁÓDZKIE|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A1178596|Znaleziono wiele dopasowań (2)|03-301|03-301|WARSZAWA|Warszawa|*|ul. Jagiellońska|76|76|||*ŁÓDZKIE|MAZOWIECKIE|*WIELUŃSKI|Warszawa|*WIERZCHLAS|Warszawa
+A1171592|Znaleziono wiele dopasowań (2)|*41-940|41-943|*PIEKARY SLASKIE|Piekary Śląskie|*|ul. Ziętka|||||*ŁÓDZKIE|ŚLĄSKIE|*WIELUŃSKI|Piekary Śląskie|*WIERZCHLAS|Piekary Śląskie
+A1348895|Znaleziono wiele dopasowań (2)|03-721|03-721|WARSZAWA|Warszawa|*|ul. Jagiellońska|3|3|47|47|*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A1310522|Znaleziono wiele dopasowań (2)|01-887|01-887|WARSZAWA|Warszawa|*|ul. Żeromskiego|5|5|64|64|*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A1624487|Znaleziono wiele dopasowań (2)|00-789|00-789|WARSZAWA|Warszawa|*|ul. Słoneczna|37|37|||*|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A30041|Znaleziono wiele dopasowań (20)|*02-361|03-127|WARSZAWA|Warszawa|*||||||*ŁÓDZKIE|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A6960|Znaleziono wiele dopasowań (3)|*30-323|30-319|KRAKÓW|Kraków|*|ul. Tyniecka|10b|10b|1|1|MAŁOPOLSKIE|MAŁOPOLSKIE|KRAKÓW|Kraków|KRAKÓW|Kraków
+A38481|Znaleziono wiele dopasowań (3)|*01-785|01-317|WARSZAWA|Warszawa|*|ul. Broniewskiego|8a|8a|||*ŁÓDZKIE|MAZOWIECKIE|*|Warszawa|*|Warszawa
+A26524|Znaleziono wiele dopasowań (3)|*|31-925|*KRAKOW|Kraków|*|os. Osiedle Centrum A|||||*ŁÓDZKIE|MAŁOPOLSKIE|*WIELUŃSKI|Kraków|*WIERZCHLAS|Kraków
+A1348277|Znaleziono wiele dopasowań (4)|91-350|91-350|ŁÓDŹ|Łódź|*|ul. Jana|12|12|126|126|ŁÓDZKIE|ŁÓDZKIE|ŁÓDŹ|Łódź|ŁÓDŹ|Łódź
+A1350814|Znaleziono wiele dopasowań (4)|25-329|25-329|KIELCE|Kielce|*|ul. Sandomierska|||||*|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+A1303436|Znaleziono wiele dopasowań (6)|53-325|53-325|WROCŁAW|Wrocław|*|al. Hallera|||||*|DOLNOŚLĄSKIE|*|Wrocław|*|Wrocław

@@ -94,6 +94,41 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                 LogDiagnostic($"Adres źródłowy: {sourceData.Kod}, {sourceData.Miasto}, {sourceData.Ulica} {sourceData.Budynek}/{sourceData.Lokal}");
             }
 
+            // ✅ SPRAWDZENIE 1: Jeśli brak miejscowości -> ZA MAŁO INFORMACJI
+            if (string.IsNullOrWhiteSpace(sourceData.Miasto))
+            {
+                if (_enableLogging)
+                {
+                    LogDiagnostic("WYKRYTO: Brak nazwy miejscowości - za mało informacji");
+                }
+
+                return new VerificationResult
+                {
+                    SourceId = sourceData.Id,
+                    SourceData = sourceData,
+                    Status = "ZA_MALO_INFORMACJI",
+                    ErrorMessage = "Nazwa miejscowości jest wymagana"
+                };
+            }
+
+            // ✅ SPRAWDZENIE 2: Jeśli jest tylko miejscowość bez kodu i ulicy -> ZA MAŁO INFORMACJI
+            if (string.IsNullOrWhiteSpace(sourceData.Kod) &&
+                string.IsNullOrWhiteSpace(sourceData.Ulica))
+            {
+                if (_enableLogging)
+                {
+                    LogDiagnostic("WYKRYTO: Tylko miejscowość bez kodu pocztowego i ulicy - za mało informacji");
+                }
+
+                return new VerificationResult
+                {
+                    SourceId = sourceData.Id,
+                    SourceData = sourceData,
+                    Status = "ZA_MALO_INFORMACJI",
+                    ErrorMessage = "Za mało informacji"
+                };
+            }
+
             // Utwórz żądanie wyszukiwania
             var searchRequest = new AddressSearchRequest
             {
@@ -270,7 +305,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                 Miasto = searchResult.Miasto?.Nazwa ?? sourceData.Miasto,
                 Ulica = searchResult.Ulica != null
                     ? $"{searchResult.Ulica.Cecha} {searchResult.Ulica.Nazwa1}".Trim()
-                    : sourceData.Ulica, // 🔧 Zostaw puste pole, nie "Brak"
+                    : sourceData.Ulica, // ✅ Zostaw puste, NIE "Brak"
                 Budynek = searchResult.NormalizedBuildingNumber ?? sourceData.Budynek,
                 Lokal = searchResult.NormalizedApartmentNumber ?? sourceData.Lokal,
                 Wojewodztwo = searchResult.Miasto?.Gmina?.Powiat?.Wojewodztwo?.Nazwa ?? sourceData.Wojewodztwo,

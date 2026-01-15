@@ -18,20 +18,26 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
         {
             try
             {
-                // Podziel wyniki na sukcesy i błędy
+                // Podziel wyniki na kategorie
                 var successes = results.Where(r => r.Status == "SUKCES").ToList();
-                var errors = results.Where(r => r.Status != "SUKCES").ToList();
+                var insufficientData = results.Where(r => r.Status == "ZA_MALO_INFORMACJI").ToList();
+                var errors = results.Where(r => r.Status != "SUKCES" && r.Status != "ZA_MALO_INFORMACJI").ToList();
 
                 // Zapisz sukcesy do adresy_ok.txt
                 var successFilePath = Path.Combine(outputDirectory, "adresy_ok.txt");
                 await SaveSuccessResultsAsync(successFilePath, successes);
 
-                // Zapisz błędy do adresy_bledy.txt
+                // Zapisz błędy do adresy_bledy.txt (POSORTOWANE)
                 var errorFilePath = Path.Combine(outputDirectory, "adresy_bledy.txt");
                 await SaveErrorResultsAsync(errorFilePath, errors);
 
+                // Zapisz "za mało informacji" do adresy_puste.txt
+                var emptyFilePath = Path.Combine(outputDirectory, "adresy_puste.txt");
+                await SaveInsufficientDataResultsAsync(emptyFilePath, insufficientData);
+
                 Console.WriteLine($"[VerifyAddresses] ✓ Zapisano {successes.Count} sukcesów do: {successFilePath}");
-                Console.WriteLine($"[VerifyAddresses] ✓ Zapisano {errors.Count} błędów do: {errorFilePath}");
+                Console.WriteLine($"[VerifyAddresses] ✓ Zapisano {errors.Count} błędów (posortowanych) do: {errorFilePath}");
+                Console.WriteLine($"[VerifyAddresses] ✓ Zapisano {insufficientData.Count} rekordów z brakiem danych do: {emptyFilePath}");
             }
             catch (Exception ex)
             {
@@ -78,14 +84,73 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
         }
 
         /// <summary>
-        /// Zapisuje błędy do pliku adresy_bledy.txt (z Status i Komunikat)
+        /// Zapisuje błędy do pliku adresy_bledy.txt (TYLKO z Komunikat, BEZ Status)
+        /// Błędy są sortowane alfabetycznie według komunikatu
         /// </summary>
         private async Task SaveErrorResultsAsync(string filePath, List<VerificationResult> results)
         {
+            // ✅ SORTUJ błędy według komunikatu przed zapisem
+            var sortedResults = results
+                .OrderBy(r => r.ErrorMessage ?? string.Empty)
+                .ToList();
+
             var sb = new StringBuilder();
 
-            // Nagłówek Z kolumnami Status i Komunikat
-            sb.AppendLine("ID|Status|Komunikat|" +
+            // Nagłówek BEZ kolumny Status (tylko Komunikat)
+            sb.AppendLine("ID|Komunikat|" +
+                         "Kod_Źródło|Kod_Wynik|" +
+                         "Miasto_Źródło|Miasto_Wynik|" +
+                         "Ulica_Źródło|Ulica_Wynik|" +
+                         "Budynek_Źródło|Budynek_Wynik|" +
+                         "Lokal_Źródło|Lokal_Wynik|" +
+                         "Wojewodztwo_Źródło|Wojewodztwo_Wynik|" +
+                         "Powiat_Źródło|Powiat_Wynik|" +
+                         "Gmina_Źródło|Gmina_Wynik");
+
+            foreach (var result in sortedResults)
+            {
+                var komunikat = EscapePipeCharacter(result.ErrorMessage ?? string.Empty);
+
+                if (result.FoundData != null)
+                {
+                    // Częściowe dopasowanie (znaleziono miasto, ale błąd z ulicą itp.)
+                    sb.AppendLine($"{result.SourceId}|{komunikat}|" +
+                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Kod, result.FoundData.Kod)}|{result.FoundData.Kod}|" +
+                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Miasto, result.FoundData.Miasto)}|{result.FoundData.Miasto}|" +
+                                 $"*|{result.FoundData.Ulica}|" +
+                                 $"{result.SourceData.Budynek}|{result.FoundData.Budynek}|" +
+                                 $"{result.SourceData.Lokal}|{result.FoundData.Lokal}|" +
+                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Wojewodztwo, result.FoundData.Wojewodztwo)}|{result.FoundData.Wojewodztwo}|" +
+                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Powiat, result.FoundData.Powiat)}|{result.FoundData.Powiat}|" +
+                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Gmina, result.FoundData.Gmina)}|{result.FoundData.Gmina}");
+                }
+                else
+                {
+                    // Całkowity brak dopasowania
+                    sb.AppendLine($"{result.SourceId}|{komunikat}|" +
+                                 $"*{result.SourceData.Kod}||" +
+                                 $"*{result.SourceData.Miasto}||" +
+                                 $"*{result.SourceData.Ulica}||" +
+                                 $"*{result.SourceData.Budynek}||" +
+                                 $"*{result.SourceData.Lokal}||" +
+                                 $"*{result.SourceData.Wojewodztwo}||" +
+                                 $"*{result.SourceData.Powiat}||" +
+                                 $"*{result.SourceData.Gmina}|");
+                }
+            }
+
+            await File.WriteAllTextAsync(filePath, sb.ToString(), Encoding.UTF8);
+        }
+
+        /// <summary>
+        /// Zapisuje rekordy z brakiem danych (tylko miejscowość) do pliku adresy_puste.txt
+        /// </summary>
+        private async Task SaveInsufficientDataResultsAsync(string filePath, List<VerificationResult> results)
+        {
+            var sb = new StringBuilder();
+
+            // Nagłówek identyczny jak w adresy_bledy.txt
+            sb.AppendLine("ID|Komunikat|" +
                          "Kod_Źródło|Kod_Wynik|" +
                          "Miasto_Źródło|Miasto_Wynik|" +
                          "Ulica_Źródło|Ulica_Wynik|" +
@@ -99,32 +164,16 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             {
                 var komunikat = EscapePipeCharacter(result.ErrorMessage ?? string.Empty);
 
-                if (result.FoundData != null)
-                {
-                    // Częściowe dopasowanie (znaleziono miejscowość, ale błąd z ulicą itp.)
-                    sb.AppendLine($"{result.SourceId}|{result.Status}|{komunikat}|" +
-                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Kod, result.FoundData.Kod)}|{result.FoundData.Kod}|" +
-                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Miasto, result.FoundData.Miasto)}|{result.FoundData.Miasto}|" +
-                                 $"*|{result.FoundData.Ulica}|" +
-                                 $"{result.SourceData.Budynek}|{result.FoundData.Budynek}|" +
-                                 $"{result.SourceData.Lokal}|{result.FoundData.Lokal}|" +
-                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Wojewodztwo, result.FoundData.Wojewodztwo)}|{result.FoundData.Wojewodztwo}|" +
-                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Powiat, result.FoundData.Powiat)}|{result.FoundData.Powiat}|" +
-                                 $"{_normalizer.MarkIfDifferent(result.SourceData.Gmina, result.FoundData.Gmina)}|{result.FoundData.Gmina}");
-                }
-                else
-                {
-                    // Całkowity brak dopasowania
-                    sb.AppendLine($"{result.SourceId}|{result.Status}|{komunikat}|" +
-                                 $"*{result.SourceData.Kod}||" +
-                                 $"*{result.SourceData.Miasto}||" +
-                                 $"*{result.SourceData.Ulica}||" +
-                                 $"*{result.SourceData.Budynek}||" +
-                                 $"*{result.SourceData.Lokal}||" +
-                                 $"*{result.SourceData.Wojewodztwo}||" +
-                                 $"*{result.SourceData.Powiat}||" +
-                                 $"*{result.SourceData.Gmina}|");
-                }
+                // Tylko dane źródłowe, brak wyników (FoundData jest null)
+                sb.AppendLine($"{result.SourceId}|{komunikat}|" +
+                             $"*{result.SourceData.Kod}||" +
+                             $"*{result.SourceData.Miasto}||" +
+                             $"*{result.SourceData.Ulica}||" +
+                             $"*{result.SourceData.Budynek}||" +
+                             $"*{result.SourceData.Lokal}||" +
+                             $"*{result.SourceData.Wojewodztwo}||" +
+                             $"*{result.SourceData.Powiat}||" +
+                             $"*{result.SourceData.Gmina}|");
             }
 
             await File.WriteAllTextAsync(filePath, sb.ToString(), Encoding.UTF8);
