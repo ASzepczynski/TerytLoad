@@ -168,11 +168,16 @@ namespace TerytLoad.Pages
                 foreach (var line in dataLines)
                 {
                     processedCount++;
-
-                    // Użyj asynchronicznej metody z nowego serwisu
+                    
+                    // 🆕 DODAJ: Log przed przetwarzaniem
+                    Console.WriteLine($"[{processedCount}] Przetwarzam linię: {line.Substring(0, Math.Min(50, line.Length))}...");
+                    
                     var result = await verificationService.ProcessLineAsync(line);
                     results.Add(result);
-
+                    
+                    // 🆕 DODAJ: Log po przetworzeniu
+                    Console.WriteLine($"[{processedCount}] Status: {result.Status}, ID: {result.SourceId}");
+                    
                     if (result.Status == "SUKCES")
                         successCount++;
                     else if (result.Status == "OSTRZEŻENIE")
