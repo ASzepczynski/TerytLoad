@@ -1,1 +1,71 @@
 ﻿ID|Komunikat|Kod_Źródło|Kod_Wynik|Miasto_Źródło|Miasto_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik
+A1352892|Nazwa miejscowości jest wymagana|*||*||*Orląt Lwowskich||*||*||*||*||*|
+A1336939|Nazwa miejscowości jest wymagana|*38-207||*||*||*||*||*PODKARPACKIE||*||*|
+A1901423|Nazwa miejscowości jest wymagana|*71-042||*||*Bieszczadzka||*27||*||*||*||*|
+A1333435|Nazwa miejscowości jest wymagana|*32-800||*||*Ogrodowa||*1||*18||*||*||*|
+A1311550|Nazwa miejscowości jest wymagana|*30-073||*||*||*||*||*||*||*|
+A1311553|Nazwa miejscowości jest wymagana|*26-600||*||*||*||*||*||*||*|
+A1179069|Nazwa miejscowości jest wymagana|*32-070||*||*Wołowice||*40||*||*||*||*|
+A9294|Nazwa miejscowości jest wymagana|*30-047||*||*Karłowicza||*19||*4||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+AP10806|Nazwa miejscowości jest wymagana|*||*||*Łagiewnicka||*60||*||*||*||*|
+A1173703|Nazwa miejscowości jest wymagana|*00-908||*||*gen. Sylwestra Kaliskiego||*2||*||*ŁÓDZKIE||*||*|
+A1349101|Nazwa miejscowości jest wymagana|*||*||*J. PIŁSUDSKIEGO||*||*||*||*||*|
+A1260387|Nazwa miejscowości jest wymagana|*32-700||*||*Murowianka||*27||*23||*||*||*|
+A1257184|Nazwa miejscowości jest wymagana|*38-622||*||*Olszanica||*184||*||*||*||*|
+A1333504|Nazwa miejscowości jest wymagana|*34-205||*||*||*287 A||*||*||*||*|
+A1333577|Nazwa miejscowości jest wymagana|*33-150||*||*||*172||*||*||*||*|
+A1333242|Nazwa miejscowości jest wymagana|*36-211||*||*||*||*||*||*||*|
+T3452|Nazwa miejscowości jest wymagana|*30-110||*||*||*||*||*||*||*|
+A1351516|Nazwa miejscowości jest wymagana|*97-300||*||*Słowackiego||*71||*68||*||*||*|
+A1332998|Nazwa miejscowości jest wymagana|*38-300||*||*Norwida||*4||*10||*||*||*|
+A1352616|Nazwa miejscowości jest wymagana|*31-107||*||*Retoryka||*16||*6||*||*||*|
+A1333437|Nazwa miejscowości jest wymagana|*32-020||*||*Wiejska||*1||*||*||*||*|
+A1333510|Nazwa miejscowości jest wymagana|*26-720||*||*Lipowa||*16||*||*||*||*|
+A1333578|Nazwa miejscowości jest wymagana|*22-565||*||*||*317||*11||*||*||*|
+A1333413|Nazwa miejscowości jest wymagana|*67-407||*||*||*||*||*||*||*|
+A1352201|Nazwa miejscowości jest wymagana|*||*||*Powstańców||*2 c||*44||*MAŁOPOLSKIE||*||*|
+A1352209|Nazwa miejscowości jest wymagana|*26-050||*||*||*||*||*||*||*|
+A1353060|Nazwa miejscowości jest wymagana|*||*||*Legionów||*20||*50||*||*||*|
+A1333236|Nazwa miejscowości jest wymagana|*32-075||*||*||*||*||*||*||*|
+A1333245|Nazwa miejscowości jest wymagana|*37-562||*||*||*||*||*||*||*|
+A1333495|Nazwa miejscowości jest wymagana|*39-460||*||*||*||*||*||*||*|
+A1205611|Nazwa miejscowości jest wymagana|*33-100||*||*Lwowska||*59||*115||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1353116|Nazwa miejscowości jest wymagana|*39-400||*||*Warszawska||*217||*||*||*||*|
+A1353679|Nazwa miejscowości jest wymagana|*||*||*os.Hutników||*6||*83||*||*||*|
+A1331419|Nazwa miejscowości jest wymagana|*32-600||*||*Różana||*7||*||*||*||*|
+A1353570|Nazwa miejscowości jest wymagana|*37-600||*||*Słowackiego||*21||*3||*PODKARPACKIE||*||*|
+A1314029|Nazwa miejscowości jest wymagana|*||*||*Hipoteczna||*8||*1||*||*||*|
+A1344974|Nazwa miejscowości jest wymagana|*||*||*Witosa||*9||*9||*||*||*|
+A1353619|Nazwa miejscowości jest wymagana|*38-500||*||*Sadowa||*18||*7||*||*||*|
+A1353621|Nazwa miejscowości jest wymagana|*31-231||*||*Siewna||*21 a||*23||*||*||*|
+A1221301|Nazwa miejscowości jest wymagana|*37-450||*||*||*8||*22||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1221328|Nazwa miejscowości jest wymagana|*36-207||*||*Grabownica Starz.||*252 a||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1221342|Nazwa miejscowości jest wymagana|*31-831||*||*CIENISTA||*47B||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1221343|Nazwa miejscowości jest wymagana|*39-123||*||*||*136||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1314291|Nazwa miejscowości jest wymagana|*||*||*Łobzowska||*11||*||*||*||*|
+A1236540|Nazwa miejscowości jest wymagana|*31-845||*||*OS. PRZY ARCE||*13||*62||*||*||*|
+A1236625|Nazwa miejscowości jest wymagana|*30-058||*||*Lea||*100||*28||*||*||*|
+A39278|Nazwa miejscowości jest wymagana|*31-962||*||*os.Krakowiaków||*4||*10||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|
+A1237850|Nazwa miejscowości jest wymagana|*33-158||*||*||*426||*||*||*||*|
+A1237914|Nazwa miejscowości jest wymagana|*||*||*-l.||*||*||*||*||*|
+A1237918|Nazwa miejscowości jest wymagana|*||*||*POLNA||*||*||*||*||*|
+A1344224|Nazwa miejscowości jest wymagana|*34-200||*||*os. Na Stawach||*8||*36||*||*||*|
+A1190350|Nazwa miejscowości jest wymagana|*34-600||*||*Piłsudskiego||*68||*27||*||*||*|
+A1333192|Nazwa miejscowości jest wymagana|*98-338||*||*Północna||*21||*||*||*||*|
+A1292502|Nazwa miejscowości jest wymagana|*32-861||*||*||*400||*||*MAŁOPOLSKIE||*||*|
+A1190523|Nazwa miejscowości jest wymagana|*27-220||*||*Sosnowa||*5||*11||*||*||*|
+A1253777|Nazwa miejscowości jest wymagana|*34-332||*||*||*434||*||*ŚLĄSKIE||*||*|
+A1354809|Nazwa miejscowości jest wymagana|*59-140||*||*Klasztorna||*22||*||*||*||*|
+A1256635|Nazwa miejscowości jest wymagana|*32-712||*||*Dębina||*23||*||*||*||*|
+A1256645|Nazwa miejscowości jest wymagana|*36-203||*||*Izdebki||*85 a||*||*||*||*|
+A1256666|Nazwa miejscowości jest wymagana|*||*||*Kostarowice||*165||*||*||*||*|
+A1256688|Nazwa miejscowości jest wymagana|*||*||*Bodaki||*2||*||*||*||*|
+A1256709|Nazwa miejscowości jest wymagana|*||*||*Sądkowa||*137||*||*||*||*|
+A1333270|Nazwa miejscowości jest wymagana|*22-250||*||*||*||*||*||*||*|
+A1257789|Nazwa miejscowości jest wymagana|*43-300||*||*Braci Gierymskich||*2||*29||*||*||*|
+A1257805|Nazwa miejscowości jest wymagana|*||*||*11-go Listopada||*18||*25||*||*||*|
+A17702|Nazwa miejscowości jest wymagana|*33-380||*||*Czarny Potok||*33||*16||*MAŁOPOLSKIE||*NOWOSĄDECKI||*KRYNICA-ZDRÓJ|
+A17706|Nazwa miejscowości jest wymagana|*33-380||*||*Czarny Potok||*11||*2||*MAŁOPOLSKIE||*NOWOSĄDECKI||*KRYNICA-ZDRÓJ|
+A17707|Nazwa miejscowości jest wymagana|*33-380||*||*Źródlana||*57||*30||*MAŁOPOLSKIE||*NOWOSĄDECKI||*KRYNICA-ZDRÓJ|
+A17747|Nazwa miejscowości jest wymagana|*33-380||*||*Zielenieckiego||*45||*||*MAŁOPOLSKIE||*NOWOSĄDECKI||*KRYNICA-ZDRÓJ|
+A8909|Nazwa miejscowości jest wymagana|*32-089||*||*Wielka Wieś||*162,woj||*||*MAŁOPOLSKIE||*KRAKÓW||*KRAKÓW|

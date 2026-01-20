@@ -208,67 +208,34 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
                 SourceData = sourceData
             };
 
-            switch (searchResult.Status)
+            // ✅ SUKCES
+            if (searchResult.Status == AddressSearchStatus.Success)
             {
-                case AddressSearchStatus.Success:
-                    result.Status = "SUKCES";
-                    result.FoundData = CreateFoundAddress(searchResult, sourceData);
-                    break;
+                result.Status = "SUKCES";
+                result.FoundData = CreateFoundAddress(searchResult, sourceData);
+                return result;
+            }
 
-                case AddressSearchStatus.MultipleMatches:
-                    result.Status = "BŁĄD";
-                    result.FoundData = CreateFoundAddress(searchResult, sourceData);
-                    result.ErrorMessage = searchResult.Message ?? "Znaleziono wiele dopasowań";
-                    break;
+            // ✅ WIELOKROTNE DOPASOWANIE
+            if (searchResult.Status == AddressSearchStatus.MultipleMatches)
+            {
+                result.Status = "BŁĄD";
+                result.FoundData = CreateFoundAddress(searchResult, sourceData);
+                result.ErrorMessage = searchResult.Message ?? AddressSearchStatusInfo.GetMessage(searchResult.Status);
+                return result;
+            }
 
-                case AddressSearchStatus.MiastoNotFound:
-                    result.Status = "BŁĄD";
-                    result.ErrorMessage = searchResult.Message ?? "Nie znaleziono miejscowości";
-                    break;
+            // ✅ WSZYSTKIE POZOSTAŁE BŁĘDY
+            result.Status = "BŁĄD";
+            
+            // Użyj komunikatu z wyniku lub pobierz ze słownika
+            result.ErrorMessage = searchResult.Message 
+                ?? AddressSearchStatusInfo.GetMessage(searchResult.Status);
 
-                case AddressSearchStatus.UlicaNotFound:
-                    // Jeśli nie podano ulicy w źródle, to specjalny przypadek
-                    if (string.IsNullOrWhiteSpace(sourceData.Ulica))
-                    {
-                        result.Status = "BŁĄD";
-                        result.ErrorMessage = "Wymagane podanie ulicy";
-                        // Jeśli znaleziono miejscowość, dodaj ją do wyniku
-                        if (searchResult.Miasto != null)
-                        {
-                            result.FoundData = CreatePartialFoundAddress(searchResult, sourceData);
-                        }
-                    }
-                    else
-                    {
-                        result.Status = "BŁĄD";
-                        result.ErrorMessage = searchResult.Message ?? "Nie znaleziono podanej ulicy";
-                        // Jeśli znaleziono miejscowość, dodaj ją do wyniku
-                        if (searchResult.Miasto != null)
-                        {
-                            result.FoundData = CreatePartialFoundAddress(searchResult, sourceData);
-                        }
-                    }
-                    break;
-
-                case AddressSearchStatus.KodPocztowyNotFound:
-                    result.Status = "BŁĄD";
-                    result.ErrorMessage = searchResult.Message ?? "Nie znaleziono kodu pocztowego";
-                    // Jeśli znaleziono miejscowość lub ulicę, dodaj do wyniku
-                    if (searchResult.Miasto != null || searchResult.Ulica != null)
-                    {
-                        result.FoundData = CreatePartialFoundAddress(searchResult, sourceData);
-                    }
-                    break;
-
-                case AddressSearchStatus.ValidationError:
-                    result.Status = "BŁĄD";
-                    result.ErrorMessage = searchResult.Message ?? "Brak podstawowych informacji";
-                    break;
-
-                default:
-                    result.Status = "BŁĄD";
-                    result.ErrorMessage = "Nieznany status wyszukiwania";
-                    break;
+            // Jeśli znaleziono częściowy adres (np. miasto), dodaj go
+            if (searchResult.Miasto != null || searchResult.Ulica != null)
+            {
+                result.FoundData = CreatePartialFoundAddress(searchResult, sourceData);
             }
 
             return result;
