@@ -246,12 +246,13 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
         /// </summary>
         private AddressData CreateFoundAddress(AddressSearchResult searchResult, AddressData sourceData)
         {
+            var sUlica= $"{searchResult.Ulica?.Nazwa2} {searchResult.Ulica?.Nazwa1}".Trim();
             return new AddressData
             {
                 Kod = searchResult.KodPocztowy?.Kod ?? sourceData.Kod,
                 Miasto = searchResult.Miasto?.Nazwa ?? sourceData.Miasto,
                 Ulica = searchResult.Ulica != null
-                    ? $"{searchResult.Ulica.Cecha} {searchResult.Ulica.Nazwa1}".Trim()
+                    ? $"{searchResult.Ulica.Cecha} {sUlica}".Trim()
                     : sourceData.Ulica,
                 Budynek = searchResult.NormalizedBuildingNumber ?? sourceData.Budynek,
                 Lokal = searchResult.NormalizedApartmentNumber ?? sourceData.Lokal,
