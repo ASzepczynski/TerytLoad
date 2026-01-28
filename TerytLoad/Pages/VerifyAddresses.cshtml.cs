@@ -19,7 +19,7 @@ namespace TerytLoad.Pages
         private readonly IWebHostEnvironment _env;
         private readonly IHubContext<ProgressHub> _hubContext;
         private readonly ResultsWriter _resultsWriter;
-        private const int MAX_RECORDS_TO_PROCESS = 10000; // LIMIT 10000 rekordów
+        private const int MAX_RECORDS_TO_PROCESS = 1000000; // LIMIT 1000000 rekordów
 
         public VerifyAddressesModel(
             IServiceScopeFactory scopeFactory,

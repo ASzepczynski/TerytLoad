@@ -141,30 +141,46 @@
         <!-- Poziom 4: Miejscowości -->
         <div class="card">
             <div class="card-header bg-info text-white">
-                <h3 class="mb-0">🏘️ Miejscowości (@Model.Miasta.Count)</h3>
+                <h3 class="mb-0">🏘️ Miejscowości (@Model.MiastaWithPostalCodes.Count)</h3>
             </div>
             <div class="card-body">
-                <div class="list-group">
-                    @foreach (var miasto in Model.Miasta)
-                    {
-                        <a asp-page="/Browse" 
-                           asp-route-wojewodztwoId="@Model.WojewodztwoId"
-                           asp-route-powiatId="@Model.PowiatId"
-                           asp-route-gminaId="@Model.GminaId"
-                           asp-route-miastoId="@miasto.Id" 
-                           class="list-group-item list-group-item-action">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">@miasto.Nazwa</h5>
-                                <span>
-                                    @if (miasto.RodzajMiasta != null)
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nazwa</th>
+                                <th>Rodzaj</th>
+                                <th>Kod pocztowy (min)</th>
+                                <th>Kod pocztowy (max)</th>
+                                <th>Symbol</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var item in Model.MiastaWithPostalCodes)
+                        {
+                            <tr>
+                                <td>
+                                    <a asp-page="/Browse" 
+                                       asp-route-wojewodztwoId="@Model.WojewodztwoId"
+                                       asp-route-powiatId="@Model.PowiatId"
+                                       asp-route-gminaId="@Model.GminaId"
+                                       asp-route-miastoId="@item.Miasto.Id">
+                                        @item.Miasto.Nazwa
+                                    </a>
+                                </td>
+                                <td>
+                                    @if (item.Miasto.RodzajMiasta != null)
                                     {
-                                        <span class="badge bg-secondary">@miasto.RodzajMiasta.Nazwa</span>
+                                        <span class="badge bg-secondary">@item.Miasto.RodzajMiasta.Nazwa</span>
                                     }
-                                    <small class="text-muted">Symbol: @miasto.Symbol</small>
-                                </span>
-                            </div>
-                        </a>
-                    }
+                                </td>
+                                <td>@item.MinKod</td>
+                                <td>@item.MaxKod</td>
+                                <td><small class="text-muted">@item.Miasto.Symbol</small></td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -174,10 +190,10 @@
         <!-- Poziom 5: Ulice -->
         <div class="card">
             <div class="card-header bg-danger text-white">
-                <h3 class="mb-0">🛣️ Ulice (@Model.Ulice.Count)</h3>
+                <h3 class="mb-0">🛣️ Ulice (@Model.UliceWithPostalCodes.Count)</h3>
             </div>
             <div class="card-body">
-                @if (Model.Ulice.Any())
+                @if (Model.UliceWithPostalCodes.Any())
                 {
                     <div class="table-responsive">
                         <table class="table table-striped table-hover">
@@ -188,26 +204,30 @@
                                     <th>Nazwa dodatkowa</th>
                                     <th>Dzielnica</th>
                                     <th>Symbol</th>
+                                    <th>Kody pocztowe</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var ulica in Model.Ulice)
+                                @foreach (var item in Model.UliceWithPostalCodes)
                                 {
                                     <tr>
-                                        <td>@ulica.Cecha</td>
-                                        <td><strong>@ulica.Nazwa1</strong></td>
-                                        <td>@ulica.Nazwa2</td>
+                                        <td>@item.Ulica.Cecha</td>
+                                        <td><strong>@item.Ulica.Nazwa1</strong></td>
+                                        <td>@item.Ulica.Nazwa2</td>
                                         <td>
-                                            @if (!string.IsNullOrEmpty(ulica.Dzielnica))
+                                            @if (!string.IsNullOrEmpty(item.Ulica.Dzielnica))
                                             {
-                                                <span class="badge bg-info">@ulica.Dzielnica</span>
+                                                <span class="badge bg-info">@item.Ulica.Dzielnica</span>
                                             }
                                             else
                                             {
                                                 <span class="text-muted fst-italic">-</span>
                                             }
                                         </td>
-                                        <td><small class="text-muted">@ulica.Symbol</small></td>
+                                        <td><small class="text-muted">@item.Ulica.Symbol</small></td>
+                                        <td style="white-space: pre-line;">
+                                            @item.KodyPocztoweZNumerami
+                                        </td>
                                     </tr>
                                 }
                             </tbody>

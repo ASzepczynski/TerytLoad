@@ -3,6 +3,7 @@ using AddressLibrary.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using TerytLoad.Configuration;
 
 namespace TerytLoad.Pages
@@ -99,11 +100,37 @@ namespace TerytLoad.Pages
                 {
                     CurrentPath = $"{gmina.Powiat.Wojewodztwo.Nazwa} > {gmina.Powiat.Nazwa} > {gmina.Nazwa}";
 
-                    Miasta = await context.Miasta
+                    var miasta = await context.Miasta
                         .Include(m => m.RodzajMiasta)
                         .Where(m => m.GminaId == GminaId.Value && m.Id != -1)
                         .OrderBy(m => m.Nazwa)
                         .ToListAsync();
+
+                    // Pobierz kody pocztowe dla ka¿dego miasta
+                    var miastaIds = miasta.Select(m => m.Id).ToList();
+                    var kody = await context.KodyPocztowe
+                        .Where(k => miastaIds.Contains(k.MiastoId))
+                        .GroupBy(k => k.MiastoId)
+                        .Select(g => new
+                        {
+                            MiastoId = g.Key,
+                            MinKod = g.Min(x => x.Kod),
+                            MaxKod = g.Max(x => x.Kod)
+                        })
+                        .ToListAsync();
+
+                    MiastaWithPostalCodes = miasta
+                        .Select(m =>
+                        {
+                            var kod = kody.FirstOrDefault(k => k.MiastoId == m.Id);
+                            return new MiastoWithPostalCodes
+                            {
+                                Miasto = m,
+                                MinKod = kod?.MinKod,
+                                MaxKod = kod?.MaxKod
+                            };
+                        })
+                        .ToList();
                 }
             }
 
@@ -120,13 +147,85 @@ namespace TerytLoad.Pages
                 {
                     CurrentPath = $"{miasto.Gmina.Powiat.Wojewodztwo.Nazwa} > {miasto.Gmina.Powiat.Nazwa} > {miasto.Gmina.Nazwa} > {miasto.Nazwa}";
 
-                    Ulice = await context.Ulice
+                    var ulice = await context.Ulice
                         .Where(u => u.MiastoId == MiastoId.Value && u.Id != -1)
                         .OrderBy(u => u.Cecha)
                         .ThenBy(u => u.Nazwa1)
                         .ToListAsync();
+
+                    List<int> ulicaIds = ulice
+                        .Where(u => u.Id != null)
+                        .Select(u => u.Id)
+                        .ToList();
+
+                    // Pobierz kody pocztowe i dzielnice dla ulic
+                    var kodyBezDzielnic = await context.KodyPocztowe
+                        .Where(k => ulicaIds.Contains(k.UlicaId))
+                        .Select(k => new { k.UlicaId, k.Kod })
+                        .ToListAsync();
+
+                    var kodyZNumerami = await context.KodyPocztowe
+                        .Where(k => ulicaIds.Contains(k.UlicaId))
+                        .Select(k => new { k.UlicaId, k.Kod, k.Numery })
+                        .ToListAsync();
+
+                    UliceWithPostalCodes = ulice
+                        .Select(u =>
+                        {
+                            var kodyPocztoweZNumerami = kodyZNumerami
+                                .Where(k => k.UlicaId == u.Id)
+                                .GroupBy(k => k.Kod)
+                                .Select(g =>
+                                {
+                                    var numery = g
+                                        .Select(x => x.Numery)
+                                        .Where(n => !string.IsNullOrWhiteSpace(n))
+                                        .Distinct()
+                                        .OrderBy(n =>
+                                        {
+                                            // Wyci¹gnij pierwsz¹ liczbê z numeru, np. "12A" -> 12
+                                            var match = System.Text.RegularExpressions.Regex.Match(n, @"\d+");
+                                            return match.Success ? int.Parse(match.Value) : int.MaxValue;
+                                        })
+                                        .ToList();
+
+                                    var numeryStr = numery.Count > 0 ? string.Join(",", numery) : "-";
+                                    // Dla sortowania po pierwszej liczbie z numeryStr
+                                    var pierwszaLiczba = numery.Count > 0
+                                        ? int.TryParse(System.Text.RegularExpressions.Regex.Match(numery[0], @"\d+").Value, out var val) ? val : int.MaxValue
+                                        : int.MaxValue;
+
+                                    return new { Kod = g.Key, NumeryStr = numeryStr, PierwszaLiczba = pierwszaLiczba };
+                                })
+                                .OrderBy(x => x.PierwszaLiczba)
+                                .Select(x => $"{x.NumeryStr}({x.Kod})")
+                                .ToList();
+
+                            return new UlicaWithPostalCodes
+                            {
+                                Ulica = u,
+                                KodyPocztoweZNumerami = string.Join(Environment.NewLine, kodyPocztoweZNumerami)
+                            };
+                        })
+                        .ToList();
                 }
             }
         }
+
+        public class MiastoWithPostalCodes
+        {
+            public Miasto Miasto { get; set; } = default!;
+            public string? MinKod { get; set; }
+            public string? MaxKod { get; set; }
+        }
+        public List<MiastoWithPostalCodes> MiastaWithPostalCodes { get; set; } = new();
+
+        public class UlicaWithPostalCodes
+        {
+            public Ulica Ulica { get; set; } = default!;
+            public List<string> KodyPocztoweZDzielnicami { get; set; } = new();
+            public string KodyPocztoweZNumerami { get; set; } = string.Empty;
+        }
+        public List<UlicaWithPostalCodes> UliceWithPostalCodes { get; set; } = new();
     }
 }

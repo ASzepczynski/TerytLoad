@@ -1,0 +1,1 @@
+﻿ID|Komunikat|Kod_Źródło|Kod_Wynik|Miasto_Źródło|Miasto_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik

@@ -1,0 +1,2 @@
+Id|Kod|Miasto|Ulica|Numer domu|Numer lokalu|Wojewodztwo|Powiat|Gmina
+1971714|39-220|Pilzno|3-Go Maja|6||||

@@ -221,7 +221,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             {
                 result.Status = "BŁĄD";
                 result.FoundData = CreateFoundAddress(searchResult, sourceData);
-                result.ErrorMessage = searchResult.Message ?? AddressSearchStatusInfo.GetMessage(searchResult.Status);
+                result.ErrorMessage = "[F]" +searchResult.Message ?? AddressSearchStatusInfo.GetMessage(searchResult.Status);
                 return result;
             }
 
