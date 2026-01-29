@@ -1,0 +1,328 @@
+﻿ID|Komunikat|Kod_Źródło|Kod_Wynik|Miasto_Źródło|Miasto_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik
+1982544|[F]Znaleziono wiele dopasowań [A] 2): 25-029 (ul. Piłsudskiego Marszałka Józefa/4117867), (brak kodu) (pl. Piłsudskiego Marszałka Józefa/4117868)|25-431|25-431|Kielce|Kielce|*|Piłsudskiego|2A|2A|1|1|*|ŚWIĘTOKRZYSKIE|*|Kielce|*|Kielce
+1979372|[F]Znaleziono wiele dopasowań [A] 2): 31-588 (ul. Podleska/3910616), 30-865 (ul. Podłęska/3917944)|30-866|30-866|Kraków|Kraków|*|Podłęska|3|3|18|18|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1722408|[F]Znaleziono wiele dopasowań [A] 2): 41-800 (pl. Plac Wolności/3989781), 41-800, 41-806 (ul. Wolności/3994579)|41-800|41-800|Zabrze|Zabrze|*|Wolności|123a|123a|31|31|*|ŚLĄSKIE|*|Zabrze|*|Zabrze
+1702481|[F]Znaleziono wiele dopasowań [X] (1): 22-417|22-417|22-417|Wisłowiec|Wisłowiec|*||25A|25A|||*|LUBELSKIE|*|zamojski|*|Stary Zamość
+1936173|[F]Znaleziono wiele dopasowań [X] (1): 27-220|27-220|27-220|Gadka|Gadka|*||258A|258A|||*|ŚWIĘTOKRZYSKIE|*|starachowicki|*|Mirzec
+1939599|[F]Znaleziono wiele dopasowań [X] (1): 27-552|27-552|27-552|Żerniki|Żerniki|*||3|3|||*|ŚWIĘTOKRZYSKIE|*|opatowski|*|Baćkowice
+1957788|[F]Znaleziono wiele dopasowań [X] (1): 28-210|28-210|28-210|Jurkowice|Jurkowice|*||70|70|||*|ŚWIĘTOKRZYSKIE|*|staszowski|*|Bogoria
+1868151|[F]Znaleziono wiele dopasowań [X] (1): 32-084|32-084|32-084|Mników|Mników|*||175|175|||*|MAŁOPOLSKIE|*|krakowski|*|Liszki
+1939348|[F]Znaleziono wiele dopasowań [X] (1): 36-110|36-110|36-110|Krzątka|Krzątka|*||208B|208B|||*|PODKARPACKIE|*|kolbuszowski|*|Majdan Królewski
+1980707|[F]Znaleziono wiele dopasowań [X] (1): 36-220|36-220|36-220|Jasienica Rosielna|Jasienica Rosielna|*||359|359|||*|PODKARPACKIE|*|brzozowski|*|Jasienica Rosielna
+1966372|[F]Znaleziono wiele dopasowań [X] (1): 37-430|37-430|37-430|Jeżowe|Jeżowe|*||329|329|||*|PODKARPACKIE|*|niżański|*|Jeżowe
+1885449|[F]Znaleziono wiele dopasowań [X] (1): 43-190 (ul. Skalna/3993418)|43-190|43-190|Mikołów|Mikołów|*|ul. Skalna|34|34|||*|ŚLĄSKIE|*|mikołowski|*|Mikołów
+1813978|[F]Znaleziono wiele dopasowań [X] (1): 67-108|67-108|67-108|Dąbrowno|Dąbrowno|*||8|8|||*|LUBUSKIE|*|nowosolski|*|Nowa Sól
+1941114|[F]Znaleziono wiele dopasowań [X] (2): 05-803 (ul. Targowa/3916526), 05-800 (ul. Targowa/3916526)|*05-800|05-803|Pruszków|Pruszków|*|ul. Targowa|2a|2a|27|27|*|MAZOWIECKIE|*|pruszkowski|*|Pruszków
+1794670|[F]Znaleziono wiele dopasowań [X] (2): 10-693 (ul. Armii Krajowej/4014653), 10-072 (ul. Armii Krajowej/4014653)|*10-072|10-693|Olsztyn|Olsztyn|*|ul. Armii Krajowej|7|7|74|74|*|WARMIŃSKO-MAZURSKIE|*|Olsztyn|*|Olsztyn
+1922440|[F]Znaleziono wiele dopasowań [X] (2): 30-618 (ul. Tuchowska/3917804), 30-698 (ul. Tuchowska/3917804)|30-618|30-618|Kraków|Kraków|*|ul. Tuchowska|6A|6A|24|24|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1896858|[F]Znaleziono wiele dopasowań [X] (2): 30-619 (ul. Turniejowa/3918202), 30-519 (ul. Turniejowa/3918202)|30-619|30-619|Kraków|Kraków|*|ul. Turniejowa|59|59|9|9|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1924334|[F]Znaleziono wiele dopasowań [X] (2): 31-217 (ul. Zgody/3909075), 31-950 (ul. Zgody/3909075)|*31-951|31-217|Kraków|Kraków|*|ul. Zgody|8|8|34|34|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1969234|[F]Znaleziono wiele dopasowań [X] (2): 85-098 (ul. Wincentego Witosa/3870271), 85-791 (ul. Wincentego Witosa/3870271)|*85-791|85-098|Bydgoszcz|Bydgoszcz|*|ul. Wincentego Witosa|4|4|18|18|*|KUJAWSKO-POMORSKIE|*|Bydgoszcz|*|Bydgoszcz
+1902965|Błędna nazwa ulicy 'Al.Beliny Prażmowskiego'/'beliny prazmowskiego'|31-514|31-514|Kraków|Kraków|*|Al.Beliny Prażmowskiego|41|41|2|2|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1281936|Błędna nazwa ulicy 'Beliny Prażmowskiego'/'beliny prazmowskiego'|30-399|30-399|Kraków|Kraków|*|Beliny Prażmowskiego|67|67|9|9|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1749420|Błędna nazwa ulicy 'Jana S. Bacha'/'jana s. bacha'|50-305|50-305|Wrocław|Wrocław|*|Jana S. Bacha|10|10|1|1|*|DOLNOŚLĄSKIE|*|Wrocław|*|Wrocław
+1980414|Błędna nazwa ulicy 'Os. Złoty Wiek'/'zloty wiek'|31-616|31-616|Kraków|Kraków|*|Os. Złoty Wiek|12|12|90|90|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1936616|Błędna nazwa ulicy 'Tokarskiego Ds19'/'tokarskiego ds19'|30-412|30-412|Kraków|Kraków|*|Tokarskiego Ds19|2|2|||*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1928952|Błędna nazwa ulicy 'Tymianka'/'tymianka'|17-330|17-330|Nurzec-Stacja|Nurzec-Stacja|*|Tymianka|72|72|||*|PODLASKIE|*|siemiatycki|*|Nurzec-Stacja
+1465306|Błędna nazwa ulicy 'Wietrzno'/'wietrzno'|38-450|38-450|Dukla|Dukla|*|Wietrzno|180a|180a|||*|PODKARPACKIE|*|krośnieński|*|Dukla
+1987073|Nie znaleziono kodu pocztowego dla podanych parametrów|05-070|05-070|Sulejówek|Sulejówek|*|ul. Sielankowa|9|9|1|1|*|MAZOWIECKIE|*|miński|*|Sulejówek
+1813611|Nie znaleziono kodu pocztowego dla podanych parametrów|05-402|05-402|Otwock|Otwock|*|ul. Wojska Polskiego|26|26|||*|MAZOWIECKIE|*|otwocki|*|Otwock
+1442081|Nie znaleziono kodu pocztowego dla podanych parametrów|30-363|30-363|Kraków|Kraków|*|ul. Rzemieślnicza|32|32|45|45|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1984209|Nie znaleziono kodu pocztowego dla podanych parametrów|30-418|30-418|Kraków|Kraków|*|ul. Zakopiańska|2 A|2 A|2|2|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1638266|Nie znaleziono kodu pocztowego dla podanych parametrów|31-625|31-625|Kraków|Kraków|*|os. Osiedle Piastów|73|73|41|41|*|MAŁOPOLSKIE|*|Kraków|*|Kraków
+1685721|Nie znaleziono kodu pocztowego dla podanych parametrów|32-080|32-080|Zabierzów|Zabierzów|*|ul. Osiedle Na Stoku|1|1|||*|MAŁOPOLSKIE|*|krakowski|*|Zabierzów
+1835542|Nie znaleziono kodu pocztowego dla podanych parametrów|32-086|32-086|Węgrzce|Węgrzce|*|ul. C12|5|5|||*|MAŁOPOLSKIE|*|krakowski|*|Zielonki
+1894028|Nie znaleziono kodu pocztowego dla podanych parametrów|43-173|43-173|Łaziska Górne|Łaziska Górne|*|ul. Głowińskiego|26B|26B|6|6|*|ŚLĄSKIE|*|mikołowski|*|Łaziska Górne
+1771158|Nie znaleziono kodu pocztowego dla podanych parametrów|60-539|60-539|Poznań|Poznań|*|ul. Wawrzyńca|13|13|139|139|*|WIELKOPOLSKIE|*|Poznań|*|Poznań
+1995085|Nie znaleziono kodu pocztowego dla podanych parametrów|81-822|81-822|Sopot|Sopot|*|ul. Okrężna|2|2|||*|POMORSKIE|*|Sopot|*|Sopot
+1986585|Nie znaleziono ulicy ''Belna' w miejscowości 'Strzyżowice''|42-557|42-557|Strzyżowice|Strzyżowice|*|Belna|15|15|||*|LUBELSKIE|*|puławski|*|Żyrzyn
+1969217|Nie znaleziono ulicy ''Bolesława Prusa' w miejscowości 'Radecznica''|22-463|22-463|Radecznica|Radecznica|*|Bolesława Prusa|12|12|||*|LUBELSKIE|*|zamojski|*|Radecznica
+1992114|Nie znaleziono ulicy ''Kard. S.Wyszyńskiego' w miejscowości 'Góra Kalwaria''|05-530|05-530|Góra Kalwaria|Góra Kalwaria|*|Kard. S.Wyszyńskiego|7D|7D|13|13|*|MAZOWIECKIE|*|piaseczyński|*|Góra Kalwaria
+1984023|Nie znaleziono ulicy ''M.C.Skłodowskiej' w miejscowości 'Piekary Śląskie''|41-949|41-949|Piekary Śląskie|Piekary Śląskie|*|M.C.Skłodowskiej|2W|2W|||*|ŚLĄSKIE|*|Piekary Śląskie|*|Piekary Śląskie
+1949729|Nie znaleziono ulicy ''Pąsowej Róży' w miejscowości 'Nowa Wola''|05-515|05-515|Nowa Wola|Nowa Wola|*|Pąsowej Róży|16|16|2|2|*|KUJAWSKO-POMORSKIE|*|włocławski|*|Choceń
+1940502|Nie znaleziono ulicy ''Ul. Tadeusza Kościuszki' w miejscowości 'Tomaszów Lubelski''|22-600|22-600|Tomaszów Lubelski|Tomaszów Lubelski|*|Ul. Tadeusza Kościuszki|32|32|48|48|*|LUBELSKIE|*|tomaszowski|*|Tomaszów Lubelski
+1941268|Nie znaleziono ulicy ''Ul.Adama Mickiewicza' w miejscowości 'Żory''|44-240|44-240|Żory|Żory|*|Ul.Adama Mickiewicza|11|11|||*|ŚLĄSKIE|*|Żory|*|Żory
+1992915|Nie znaleziono ulicy ''Żeromskiego' w miejscowości 'Św. Katarzyna''|26-010|26-010|*Św. Katarzyna|Katarzyna|*|Żeromskiego|11|11|||*|KUJAWSKO-POMORSKIE|*|radziejowski|*|Piotrków Kujawski
+1985498|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1994647|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1984299|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1790952|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1980195|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1971744|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1850374|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1250204|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1978146|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1893006|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1367034|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1934006|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1880628|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1900851|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1908795|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1985576|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1942723|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1977051|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1981385|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1653487|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1640024|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1886889|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1872524|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1306456|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1340044|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1909350|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1367061|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1993919|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1923061|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1645087|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1982476|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1936394|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1979163|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1836952|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1977121|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1972288|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1707903|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1979828|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1986149|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1667320|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1982392|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1675341|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1744996|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1971931|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1968098|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1984108|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1977415|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1411854|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1914618|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1969263|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1980109|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1909173|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1729844|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1972191|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1965457|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1954104|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1952696|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1951434|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1986622|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1379916|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1951250|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1969297|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1886229|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1295545|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1888619|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1927537|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1980197|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1447257|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1977603|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1971428|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1863048|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1255315|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1901591|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1875266|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1379360|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1944098|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1967642|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1977298|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1952685|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1791192|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1261614|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1984107|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1904388|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1674533|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1812732|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1971751|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1982391|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1289598|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1909174|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1952394|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1770706|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1882278|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1379150|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1679740|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1946555|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1971223|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1248976|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1967709|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1794065|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1929419|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1981955|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1334134|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1948503|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1936834|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1438254|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1278368|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1764674|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1970217|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1953009|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1946608|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1979020|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1979599|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1695710|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1953896|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1651272|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1379787|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1881438|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1980112|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1718593|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1985182|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1924289|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1862912|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1969230|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1751325|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1750390|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1927074|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1706024|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1682013|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1318316|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1769620|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1966552|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1953339|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1460465|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1721979|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1912996|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1391910|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1980188|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1946921|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1948899|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1994911|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1901595|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1901594|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1758081|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1748655|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1932195|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1773285|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1905605|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1853095|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1970987|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1904422|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1971000|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1946881|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1799158|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1674360|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1624518|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1895598|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1947427|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1789849|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1940871|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1937480|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1978931|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1896441|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1414440|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1983355|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1983778|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1856788|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1894987|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1806750|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1737494|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1855737|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1465453|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1448892|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1853617|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1199271|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1977990|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1727994|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+3059|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1367659|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1454291|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+2648|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1468650|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1367848|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1983515|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1949612|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1764336|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1721288|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1727530|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1387717|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1919356|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+3329|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1940915|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1983095|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1919708|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1967725|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+9318|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1985580|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1279594|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1897044|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1842568|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+945|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1969084|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1830440|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1993173|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1894297|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1469215|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1896454|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1956839|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1966409|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1873749|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1782500|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1943789|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1936838|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1936968|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1871542|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1980413|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1895004|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1644455|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1699240|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1741278|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1698133|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1722949|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1644465|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1603395|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1877309|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1925166|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1478835|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1924100|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1767961|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1722909|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1861136|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1699235|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1895112|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1670115|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1830081|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1730614|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1943436|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1933175|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1939990|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1972271|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1260085|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1435801|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1697833|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1980138|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1970225|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1623540|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1814232|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1298853|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1971219|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1280015|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1879818|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1766175|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1842896|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1995083|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1981456|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1917563|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1983356|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1968907|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1730189|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1985682|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1992935|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1835032|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1983944|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1327710|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1994640|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1846678|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1927072|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1671897|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1797339|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1937302|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1977084|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1861531|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1276515|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1834125|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1992215|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1972382|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1840373|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1950226|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1834123|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1979117|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1823869|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1725450|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1936471|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|
+1837237|Value cannot be null. (Parameter 'source')|*||*||*||*||*||*||*||*|

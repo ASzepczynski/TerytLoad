@@ -1,0 +1,2 @@
+Id|Kod|Miasto|Ulica|Numer domu|Numer lokalu|Wojewodztwo|Powiat|Gmina
+1980707|36-220|Jasienica Rosielna||359||||
