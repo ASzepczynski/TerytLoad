@@ -8,9 +8,11 @@ namespace TerytLoad.Pages
     public class SearchAddressesModel : PageModel
     {
         private readonly AddressDbContext _context;
+        private readonly IWebHostEnvironment _env;
 
-        public SearchAddressesModel(AddressDbContext context)
+        public SearchAddressesModel(AddressDbContext context, IWebHostEnvironment env)
         {
+            _env = env;
             _context = context;
         }
 
@@ -55,7 +57,7 @@ namespace TerytLoad.Pages
                 return Page();
             }
 
-            var searchService = new AddressSearchService(_context);
+            var searchService = new AddressSearchService(_context, _env.ContentRootPath);
             await searchService.InitializeAsync();
 
             var requests = Addresses

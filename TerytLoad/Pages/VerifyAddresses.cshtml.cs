@@ -99,7 +99,7 @@ namespace TerytLoad.Pages
                     "⏳ Inicjalizacja serwisu wyszukiwania...");
 
                 var initStartTime = DateTime.Now;
-                var searchService = new AddressSearchService(context);
+                var searchService = new AddressSearchService(context, _env.ContentRootPath);
                 await searchService.InitializeAsync();
                 var initTime = (DateTime.Now - initStartTime).TotalSeconds;
 
