@@ -1,0 +1,28 @@
+﻿@page
+@model TerytLoad.Pages.Tools.FilterAddressesModel
+@{
+    ViewData["Title"] = "Filtruj adresy po błędach";
+}
+
+<h1>Filtruj adresy po błędach</h1>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Plik z adresami (adresy.txt):</label>
+        <input type="text" name="InputPath" class="form-control" value="@Model.InputPath" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Plik z błędami (adres_bledy.txt):</label>
+        <input type="text" name="ErrorsPath" class="form-control" value="@Model.ErrorsPath" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Plik wynikowy (adresy_nowe.txt):</label>
+        <input type="text" name="OutputPath" class="form-control" value="@Model.OutputPath" />
+    </div>
+    <button type="submit" class="btn btn-primary">Filtruj</button>
+</form>
+
+@if (Model.Message != null)
+{
+    <div class="alert alert-info mt-3">@Model.Message</div>
+}

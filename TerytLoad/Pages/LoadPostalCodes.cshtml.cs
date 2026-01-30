@@ -69,8 +69,9 @@ namespace TerytLoad.Pages
                     Console.WriteLine($"[{info.PercentageComplete:F1}%] {info.CurrentOperation}");
                 });
 
+                // var pnaData = context.Pna.Where(x=>x.Ulica=="Turniejowa").ToList();
                 var pnaData = context.Pna.ToList();
-                
+
                 if (!pnaData.Any())
                 {
                     Message = "Brak danych PNA w bazie. Najpierw załaduj dane z pliku PDF na stronie 'Ładowanie PDF'.";
