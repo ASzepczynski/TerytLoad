@@ -1,7 +1,0 @@
-=== DIAGNOSTYKA LOKALIZACJI LOGÓW ===
-Data: 03.01.2026 15:17:42
-BaseDir (_appDataPath): C:\Users\HP\source\repos\MalyBialyPies\TerytLoad\TerytLoad
-LogsDir: C:\Users\HP\source\repos\MalyBialyPies\TerytLoad\TerytLoad\AppData\Logs
-PdfLoad.txt: C:\Users\HP\source\repos\MalyBialyPies\TerytLoad\TerytLoad\AppData\Logs\PdfLoad.txt
-PdfProcess.txt: C:\Users\HP\source\repos\MalyBialyPies\TerytLoad\TerytLoad\AppData\Logs\PdfProcess.txt
-Katalog istnieje: True

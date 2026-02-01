@@ -140,7 +140,7 @@ namespace TerytLoad.Pages.VerifyAddresses.Services
             };
 
             // Wykonaj wyszukiwanie Z diagnostyką (tylko gdy włączone logowanie)
-            var searchResult = await _searchService.SearchAsync(searchRequest, enableDiagnostics: _enableLogging);
+            var searchResult = await _searchService.SearchAsync(searchRequest);
 
             // 🚀 OPTYMALIZACJA: Nie loguj DiagnosticInfo (i tak jest pusty gdy diagnostyka wyłączona)
             if (_enableLogging && !string.IsNullOrEmpty(searchResult.DiagnosticInfo))
