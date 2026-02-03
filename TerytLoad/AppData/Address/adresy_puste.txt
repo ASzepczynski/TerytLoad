@@ -1,1 +1,12 @@
-﻿ID|Komunikat|Kod_Źródło|Kod_Wynik|Miasto_Źródło|Miasto_Wynik|Ulica_Źródło|Ulica_Wynik|Budynek_Źródło|Budynek_Wynik|Lokal_Źródło|Lokal_Wynik|Wojewodztwo_Źródło|Wojewodztwo_Wynik|Powiat_Źródło|Powiat_Wynik|Gmina_Źródło|Gmina_Wynik
+﻿ID|Adres źródłowy|Komunikat
+83324|83324|28-100||ul.Błonie|19||dolnośląskie|Dzierżoniowski|Łagiewniki|Za mało danych
+93036|93036|30-010||Władysława Łokietka|19|12|małopolskie|Kraków|Kraków|Za mało danych
+32042|32042|32-020||Koźmice Wielkie 313||||||Za mało danych
+32092|32092|31-635||os. Oświecenia|12|40||||Za mało danych
+38719|38719|42-523||ul. Przelotowa||||||Za mało danych
+37225|37225|30-559||Dworcowa|3|49||||Za mało danych
+38250|38250|32-400||Jasienica|414||małopolskie|Myślenicki||Za mało danych
+46905|46905|33-383||Mochnaczka Wyżna||||||Za mało danych
+47429|47429|29-145||Wolica|16||świętokrzyskie|Włoszczowski|Secemin|Za mało danych
+51339|51339|32-010||Niepodległości|8|||||Za mało danych
+61539|61539|34-116||Jana Pawła II||||||Za mało danych

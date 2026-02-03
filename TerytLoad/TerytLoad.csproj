@@ -8,9 +8,13 @@
 
   <ItemGroup>
     <Compile Remove="Functions\**" />
+    <Compile Remove="Pages\VerifyAddresses\Services\**" />
     <Content Remove="Functions\**" />
+    <Content Remove="Pages\VerifyAddresses\Services\**" />
     <EmbeddedResource Remove="Functions\**" />
+    <EmbeddedResource Remove="Pages\VerifyAddresses\Services\**" />
     <None Remove="Functions\**" />
+    <None Remove="Pages\VerifyAddresses\Services\**" />
   </ItemGroup>
 
   <ItemGroup>
