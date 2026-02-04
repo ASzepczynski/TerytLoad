@@ -1,4 +1,4 @@
-using AddressLibrary;
+ï»¿using AddressLibrary;
 using AddressLibrary.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,19 +17,20 @@ builder.Services.AddDbContext<AddressDbContext>(options =>
 
 var app = builder.Build();
 
-// Inicjalizacja bazy danych przy starcie
-var database = new AddressDatabase(connectionString);
+// âœ… POPRAWKA: UÅ¼yj app.Environment zamiast _environment
+var appDataPath = app.Environment.ContentRootPath;
+var database = new AddressDatabase(connectionString, appDataPath);
 
-// Wykonaj automatyczn¹ migracjê
+// Wykonaj automatycznÄ… migracjÄ™
 try
 {
     app.Logger.LogInformation("Rozpoczynanie migracji bazy danych...");
     await database.MigrateDatabaseAsync();
-    app.Logger.LogInformation("Migracja bazy danych zakoñczona pomyœlnie.");
+    app.Logger.LogInformation("Migracja bazy danych zakoÅ„czona pomyÅ›lnie.");
 }
 catch (Exception ex)
 {
-    app.Logger.LogError(ex, "B³¹d podczas migracji bazy danych.");
+    app.Logger.LogError(ex, "BÅ‚Ä…d podczas migracji bazy danych.");
     throw;
 }
 

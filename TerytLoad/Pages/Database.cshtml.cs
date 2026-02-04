@@ -32,7 +32,8 @@ namespace TerytLoad.Pages
                 var connectionString = _configuration.GetConnectionString("AddressDatabase")
                     ?? DatabaseConfig.DefaultConnectionString;
 
-                var database = new AddressDatabase(connectionString);
+                var appDataPath = _environment.ContentRootPath;
+                var database = new AddressDatabase(connectionString, appDataPath);
                 await database.DeleteDatabaseAsync();
                 
                 Message = "✓ Baza danych została usunięta pomyślnie!";
@@ -51,8 +52,8 @@ namespace TerytLoad.Pages
             {
                 var connectionString = _configuration.GetConnectionString("AddressDatabase")
                     ?? DatabaseConfig.DefaultConnectionString;
-
-                var database = new AddressDatabase(connectionString);
+                var appDataPath = _environment.ContentRootPath;
+                var database = new AddressDatabase(connectionString,appDataPath);
 
                 Message = "🚀 Rozpoczęto ładowanie danych TERYT...\n";
 

@@ -32,13 +32,13 @@ namespace TerytLoad.Pages
                     ?? DatabaseConfig.DefaultConnectionString;
 
                 // ZMIANA: Przekaż ContentRootPath jako appDataPath
-                var projectPath = _environment.ContentRootPath;
-                var database = new AddressDatabase(connectionString, projectPath);
+                var appDataPath = _environment.ContentRootPath;
+                var database = new AddressDatabase(connectionString, appDataPath);
 
                 Message = "🔍 Szukam pliku pna.pdf...\n";
 
                 // Znajdź plik PDF w katalogu Teryt
-                var terytPath = Path.Combine(projectPath, "AppData", "Teryt");
+                var terytPath = Path.Combine(appDataPath, "AppData", "Teryt");
 
                 if (!Directory.Exists(terytPath))
                 {

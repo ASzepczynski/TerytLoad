@@ -48,42 +48,45 @@ namespace TerytLoad.Pages
                 var db = new AddressDatabase(connectionString, appDataPath);
                 var context = db.GetContext();
 
-                var loader = new KodyPocztoweLoaderService(context, appDataPath); // ZMIENIONO
-                
-                var logFilePath = loader.LogFilePath;
-                Console.WriteLine($"[LoadPostalCodes] Ścieżka logu: {logFilePath}");
+                var logFilePath = string.Empty;
 
-                // Wyślij ścieżkę logu do przeglądarki
-                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100, 
-                    $"Rozpoczynam ładowanie kodów pocztowych...\n\n📄 Log zapisywany do:\n{logFilePath}");
-
-                // ZMIENIONO: Używamy LoadProgressInfo bezpośrednio (jest w namespace)
-                var progress = new Progress<LoadProgressInfo>(async info =>
+                using (var loader = new KodyPocztoweLoaderService(context, appDataPath))
                 {
-                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", 
-                        "postal-codes", 
-                        info.ProcessedCount, 
-                        info.TotalCount, 
-                        info.CurrentOperation);
-                    
-                    Console.WriteLine($"[{info.PercentageComplete:F1}%] {info.CurrentOperation}");
-                });
+                    logFilePath = loader.LogFilePath;
+                    Console.WriteLine($"[LoadPostalCodes] Ścieżka logu: {logFilePath}");
 
-                // var pnaData = context.Pna.Where(x=>x.Ulica=="Turniejowa").ToList();
-                var pnaData = context.Pna.ToList();
+                    // Wyślij ścieżkę logu do przeglądarki
+                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100, 
+                        $"Rozpoczynam ładowanie kodów pocztowych...\n\n📄 Log zapisywany do:\n{logFilePath}");
 
-                if (!pnaData.Any())
-                {
-                    Message = "Brak danych PNA w bazie. Najpierw załaduj dane z pliku PDF na stronie 'Ładowanie PDF'.";
-                    IsProcessing = false;
-                    ShowResults = true;
-                    return Page();
+                    // ZMIENIONO: Używamy LoadProgressInfo bezpośrednio (jest w namespace)
+                    var progress = new Progress<LoadProgressInfo>(async info =>
+                    {
+                        await _hubContext.Clients.All.SendAsync("ReceiveProgress", 
+                            "postal-codes", 
+                            info.ProcessedCount, 
+                            info.TotalCount, 
+                            info.CurrentOperation);
+                        
+                        Console.WriteLine($"[{info.PercentageComplete:F1}%] {info.CurrentOperation}");
+                    });
+
+                    // var pnaData = context.Pna.Where(x=>x.Ulica=="Turniejowa").ToList();
+                    var pnaData = context.Pna.ToList();
+
+                    if (!pnaData.Any())
+                    {
+                        Message = "Brak danych PNA w bazie. Najpierw załaduj dane z pliku PDF na stronie 'Ładowanie PDF'.";
+                        IsProcessing = false;
+                        ShowResults = true;
+                        return Page();
+                    }
+
+                    Console.WriteLine($"Ładowanie {pnaData.Count} rekordów PNA...");
+
+                    await loader.LoadAsync(pnaData, progress);
                 }
-
-                Console.WriteLine($"Ładowanie {pnaData.Count} rekordów PNA...");
-
-                await loader.LoadAsync(pnaData, progress);
-
+                
                 Console.WriteLine("Ładowanie zakończone, sprawdzam log...");
 
                 await Task.Delay(1000);
