@@ -35,9 +35,9 @@ namespace TerytLoad.Pages
                 var database = new AddressDatabase(connectionString, appDataPath);
 
                 var messageBuilder = new StringBuilder();
-                messageBuilder.AppendLine("⏳ Rozpoczynam budowanie struktury hierarchicznej...\n");
+                messageBuilder.AppendLine("⏳ Rozpoczynam budowanie struktury hierarchicznej...{Environment.NewLine}");
                 messageBuilder.AppendLine("ℹ️ Kody pocztowe NIE są ładowane w tym kroku.");
-                messageBuilder.AppendLine("   Użyj osobnej strony 'Kody pocztowe' aby je załadować.\n");
+                messageBuilder.AppendLine("   Użyj osobnej strony 'Kody pocztowe' aby je załadować.{Environment.NewLine}");
 
                 // Buduj strukturę hierarchiczną BEZ kodów pocztowych
                 await database.BuildHierarchicalStructureAsync();
@@ -49,14 +49,14 @@ namespace TerytLoad.Pages
                 var mjsCount = context.Miasta.Count(m => m.Id != -1);
                 var ulCount = context.Ulice.Count(u => u.Id != -1);
 
-                messageBuilder.AppendLine($"✅ SUKCES! Utworzono strukturę hierarchiczną:\n");
+                messageBuilder.AppendLine($"✅ SUKCES! Utworzono strukturę hierarchiczną:{Environment.NewLine}");
                 messageBuilder.AppendLine($"✓ Województw: {wojCount}");
                 messageBuilder.AppendLine($"✓ Powiatów: {powCount}");
                 messageBuilder.AppendLine($"✓ Gmin: {gmCount}");
                 messageBuilder.AppendLine($"✓ Miejscowości: {mjsCount}");
-                messageBuilder.AppendLine($"✓ Ulic: {ulCount}\n");
+                messageBuilder.AppendLine($"✓ Ulic: {ulCount}{Environment.NewLine}");
                 
-                messageBuilder.AppendLine($"📄 Log kontrolny zapisany\n");
+                messageBuilder.AppendLine($"📄 Log kontrolny zapisany{Environment.NewLine}");
                 messageBuilder.AppendLine($"⚠️ Aby załadować kody pocztowe, przejdź do strony 'Kody pocztowe'");
 
                 Message = messageBuilder.ToString();

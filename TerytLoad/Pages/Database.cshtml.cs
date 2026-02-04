@@ -40,7 +40,7 @@ namespace TerytLoad.Pages
             }
             catch (Exception ex)
             {
-                Message = $"❌ BŁĄD podczas usuwania bazy danych:\n{ex.Message}";
+                Message = $"❌ BŁĄD podczas usuwania bazy danych:{Environment.NewLine}{ex.Message}";
             }
 
             return Page();
@@ -55,7 +55,7 @@ namespace TerytLoad.Pages
                 var appDataPath = _environment.ContentRootPath;
                 var database = new AddressDatabase(connectionString,appDataPath);
 
-                Message = "🚀 Rozpoczęto ładowanie danych TERYT...\n";
+                Message = "🚀 Rozpoczęto ładowanie danych TERYT...{Environment.NewLine}";
 
                 // Znajdź folder z plikami
                 var projectPath = _environment.ContentRootPath;
@@ -63,11 +63,11 @@ namespace TerytLoad.Pages
 
                 if (!Directory.Exists(terytPath))
                 {
-                    Message += $"✗ Nie znaleziono folderu: {terytPath}\n";
+                    Message += $"✗ Nie znaleziono folderu: {terytPath}{Environment.NewLine}";
                     return Page();
                 }
 
-                Message += $"✓ Znaleziono folder: {terytPath}\n";
+                Message += $"✓ Znaleziono folder: {terytPath}{Environment.NewLine}";
 
                 // Znajdź wszystkie pliki ZIP
                 var allZipFiles = Directory.GetFiles(terytPath, "*.zip").ToList();
@@ -78,7 +78,7 @@ namespace TerytLoad.Pages
                     return Page();
                 }
 
-                Message += $"✓ Znaleziono {allZipFiles.Count} plik(ów) ZIP\n\n";
+                Message += $"✓ Znaleziono {allZipFiles.Count} plik(ów) ZIP{Environment.NewLine}{Environment.NewLine}";
 
                 var loadedFiles = new List<string>();
                 var tempDir = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString());
@@ -91,7 +91,7 @@ namespace TerytLoad.Pages
                         var zipFileName = Path.GetFileName(zipFile);
                         var hasUrzedowy = zipFileName.Contains("Urzedowy", StringComparison.OrdinalIgnoreCase);
 
-                        Message += $"📦 Rozpakowywanie: {zipFileName}\n";
+                        Message += $"📦 Rozpakowywanie: {zipFileName}{Environment.NewLine}";
 
                         // Rozpakuj ZIP
                         var extractPath = Path.Combine(tempDir, Path.GetFileNameWithoutExtension(zipFile));
@@ -99,7 +99,7 @@ namespace TerytLoad.Pages
 
                         // Znajdź pliki CSV
                         var csvFiles = Directory.GetFiles(extractPath, "*.csv", SearchOption.AllDirectories);
-                        Message += $"   Znaleziono {csvFiles.Length} plik(ów) CSV\n";
+                        Message += $"   Znaleziono {csvFiles.Length} plik(ów) CSV{Environment.NewLine}";
 
                         foreach (var csvFile in csvFiles)
                         {
@@ -107,49 +107,49 @@ namespace TerytLoad.Pages
 
                             if (fileName.Contains("SIMC") && hasUrzedowy)
                             {
-                                Message += $"   🗑️ Czyszczenie tabeli TerytSimc...\n";
+                                Message += $"   🗑️ Czyszczenie tabeli TerytSimc...{Environment.NewLine}";
                                 await database.ClearTableAsync<TerytSimc>();
                                 
-                                Message += $"   ⏳ Ładowanie SIMC: {Path.GetFileName(csvFile)}...\n";
+                                Message += $"   ⏳ Ładowanie SIMC: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
                                 await database.LoadDataFromCsvAsync<TerytSimc>(csvFile);
                                 loadedFiles.Add($"✓ SIMC: {Path.GetFileName(csvFile)}");
                             }
                             else if (fileName.Contains("TERC") && hasUrzedowy)
                             {
-                                Message += $"   🗑️ Czyszczenie tabeli TerytTerc...\n";
+                                Message += $"   🗑️ Czyszczenie tabeli TerytTerc...{Environment.NewLine}";
                                 await database.ClearTableAsync<TerytTerc>();
                                 
-                                Message += $"   ⏳ Ładowanie TERC: {Path.GetFileName(csvFile)}...\n";
+                                Message += $"   ⏳ Ładowanie TERC: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
                                 await database.LoadDataFromCsvAsync<TerytTerc>(csvFile);
                                 loadedFiles.Add($"✓ TERC: {Path.GetFileName(csvFile)}");
                             }
                             else if (fileName.Contains("ULIC") && hasUrzedowy)
                             {
-                                Message += $"   🗑️ Czyszczenie tabeli TerytUlic...\n";
+                                Message += $"   🗑️ Czyszczenie tabeli TerytUlic...{Environment.NewLine}";
                                 await database.ClearTableAsync<TerytUlic>();
                                 
-                                Message += $"   ⏳ Ładowanie ULIC: {Path.GetFileName(csvFile)}...\n";
+                                Message += $"   ⏳ Ładowanie ULIC: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
                                 await database.LoadDataFromCsvAsync<TerytUlic>(csvFile);
                                 loadedFiles.Add($"✓ ULIC: {Path.GetFileName(csvFile)}");
                             }
                             else if (fileName.Contains("WMRODZ"))
                             {
-                                Message += $"   🗑️ Czyszczenie tabeli TerytWmRodz...\n";
+                                Message += $"   🗑️ Czyszczenie tabeli TerytWmRodz...{Environment.NewLine}";
                                 await database.ClearTableAsync<TerytWmRodz>();
                                 
-                                Message += $"   ⏳ Ładowanie WMRODZ: {Path.GetFileName(csvFile)}...\n";
+                                Message += $"   ⏳ Ładowanie WMRODZ: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
                                 await database.LoadDataFromCsvAsync<TerytWmRodz>(csvFile);
                                 loadedFiles.Add($"✓ WMRODZ: {Path.GetFileName(csvFile)}");
                             }
                         }
                     }
 
-                    Message += $"\n{'=',-50}\n";
+                    Message += $"{Environment.NewLine}{'=',-50}{Environment.NewLine}";
 
                     if (loadedFiles.Any())
                     {
-                        Message += $"✅ SUKCES! Załadowano {loadedFiles.Count} plików:\n\n";
-                        Message += string.Join("\n", loadedFiles);
+                        Message += $"✅ SUKCES! Załadowano {loadedFiles.Count} plików:{Environment.NewLine}{Environment.NewLine}";
+                        Message += string.Join("{Environment.NewLine}", loadedFiles);
                     }
                     else
                     {
@@ -166,7 +166,7 @@ namespace TerytLoad.Pages
             }
             catch (Exception ex)
             {
-                Message = $"❌ BŁĄD podczas ładowania plików:\n{ex.Message}\n\nStack trace:\n{ex.StackTrace}";
+                Message = $"❌ BŁĄD podczas ładowania plików:{Environment.NewLine}{ex.Message}{Environment.NewLine}{Environment.NewLine}Stack trace:{Environment.NewLine}{ex.StackTrace}";
             }
 
             return Page();

@@ -35,14 +35,14 @@ namespace TerytLoad.Pages
                 var appDataPath = _environment.ContentRootPath;
                 var database = new AddressDatabase(connectionString, appDataPath);
 
-                Message = "🔍 Szukam pliku pna.pdf...\n";
+                Message = "🔍 Szukam pliku pna.pdf...{Environment.NewLine}";
 
                 // Znajdź plik PDF w katalogu Teryt
                 var terytPath = Path.Combine(appDataPath, "AppData", "Teryt");
 
                 if (!Directory.Exists(terytPath))
                 {
-                    Message += $"✗ Nie znaleziono folderu: {terytPath}\n";
+                    Message += $"✗ Nie znaleziono folderu: {terytPath}{Environment.NewLine}";
                     return Page();
                 }
 
@@ -50,33 +50,33 @@ namespace TerytLoad.Pages
 
                 if (!pdfFiles.Any())
                 {
-                    Message += $"✗ Nie znaleziono pliku pna.pdf w folderze: {terytPath}\n";
+                    Message += $"✗ Nie znaleziono pliku pna.pdf w folderze: {terytPath}{Environment.NewLine}";
                     return Page();
                 }
 
                 var pdfFile = pdfFiles.First();
                 var fileName = Path.GetFileName(pdfFile);
 
-                Message += $"✓ Znaleziono plik: {fileName}\n\n";
+                Message += $"✓ Znaleziono plik: {fileName}{Environment.NewLine}{Environment.NewLine}";
 
                 // Wyczyść tabelę Pna
-                Message += $"🗑️ Czyszczenie tabeli Pna...\n";
+                Message += $"🗑️ Czyszczenie tabeli Pna...{Environment.NewLine}";
                 await database.ClearTableAsync<Pna>();
 
                 // Załaduj dane z PDF
-                Message += $"⏳ Przetwarzanie pliku PDF...\n";
+                Message += $"⏳ Przetwarzanie pliku PDF...{Environment.NewLine}";
                 await database.LoadDataFromPdfAsync(pdfFile);
 
                 // Sprawdź ile rekordów zostało dodanych
                 var context = database.GetContext();
                 var count = context.Pna.Count();
 
-                Message += $"\n{'=',-50}\n";
-                Message += $"✅ SUKCES! Dodano {count} rekord(ów) do tabeli Pna\n";
+                Message += $"{Environment.NewLine}{'=',-50}{Environment.NewLine}";
+                Message += $"✅ SUKCES! Dodano {count} rekord(ów) do tabeli Pna{Environment.NewLine}";
             }
             catch (Exception ex)
             {
-                Message = $"❌ BŁĄD podczas ładowania pliku PDF:\n{ex.Message}\n\nStack trace:\n{ex.StackTrace}";
+                Message = $"❌ BŁĄD podczas ładowania pliku PDF:{Environment.NewLine}{ex.Message}{Environment.NewLine}{Environment.NewLine}Stack trace:{Environment.NewLine}{ex.StackTrace}";
             }
 
             return Page();

@@ -83,8 +83,8 @@ namespace TerytLoad.Pages
                 Console.WriteLine($"[SignalR] Wysyłam początkowy komunikat...");
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", 0, 100,
-                    $"🔄 Rozpoczęto przetwarzanie pliku: {Path.GetFileName(appDataPath)}\n" +
-                    $"⚠️ Limit: {MAX_RECORDS_TO_PROCESS:N0} rekordów\n");
+                    $"🔄 Rozpoczęto przetwarzanie pliku: {Path.GetFileName(appDataPath)}{Environment.NewLine}" +
+                    $"⚠️ Limit: {MAX_RECORDS_TO_PROCESS:N0} rekordów{Environment.NewLine}");
 
                 // Inicjalizuj AddressSearchService
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
@@ -133,7 +133,7 @@ namespace TerytLoad.Pages
 
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", 0, totalLines,
-                    $"📊 Przygotowano {totalLines:N0} rekordów do weryfikacji\n{limitInfo}");
+                    $"📊 Przygotowano {totalLines:N0} rekordów do weryfikacji{Environment.NewLine}{limitInfo}");
 
                 int processedCount = 0;
                 int successCount = 0;
@@ -186,7 +186,7 @@ namespace TerytLoad.Pages
                     {
                         var elapsed = (DateTime.Now - processingStartTime).TotalSeconds;
                         var speed = elapsed > 0 ? (int)(processedCount / elapsed) : 0;
-                        var progressMsg = $"Przetworzono: {processedCount:N0}/{totalLines:N0} ({speed:N0} rek/s)\n" +
+                        var progressMsg = $"Przetworzono: {processedCount:N0}/{totalLines:N0} ({speed:N0} rek/s){Environment.NewLine}" +
                                          $"Sukces: {successCount:N0} | Ostrzeżenia: {warningCount:N0} | Puste: {emptyCount:N0} | Błędy: {failureCount:N0}";
 
                         await _hubContext.Clients.All.SendAsync("ReceiveProgress",
@@ -214,23 +214,23 @@ namespace TerytLoad.Pages
 
                 var totalTime = (DateTime.Now - totalStartTime).TotalSeconds;
 
-                var summary = $"✅ Zakończono weryfikację!\n\n" +
-                             $"📊 Statystyki:\n" +
-                             $"   • Przetworzono: {processedCount:N0} rekordów\n" +
-                             $"   • Sukces: {successCount:N0}\n" +
-                             $"   • Ostrzeżenia: {warningCount:N0}\n" +
-                             $"   • Puste: {emptyCount:N0}\n" +
-                             $"   • Błędy: {failureCount:N0}\n\n" +
-                             $"⏱️ Czasy wykonania:\n" +
-                             $"   • Inicjalizacja cache: {initTime:F2}s\n" +
-                             $"   • Wczytanie pliku: {readTime:F0}ms\n" +
-                             $"   • Przetwarzanie pętli: {processingTime:F2}s\n" +
-                             $"   • Zapis wyników: {saveTime:F2}s\n" +
-                             $"   • CZAS CAŁKOWITY: {totalTime:F2}s\n" +
-                             $"   • Prędkość: {(processingTime > 0 ? processedCount / processingTime : 0):F0} rek/s\n\n" +
-                             $"📄 Wyniki zapisano do:\n" +
-                             $"   • adresy_ok.txt ({successCount:N0} rekordów)\n" +
-                             $"   • adresy_bledy.txt ({failureCount + warningCount:N0} rekordów)\n" +
+                var summary = $"✅ Zakończono weryfikację!{Environment.NewLine}{Environment.NewLine}" +
+                             $"📊 Statystyki:{Environment.NewLine}" +
+                             $"   • Przetworzono: {processedCount:N0} rekordów{Environment.NewLine}" +
+                             $"   • Sukces: {successCount:N0}{Environment.NewLine}" +
+                             $"   • Ostrzeżenia: {warningCount:N0}{Environment.NewLine}" +
+                             $"   • Puste: {emptyCount:N0}{Environment.NewLine}" +
+                             $"   • Błędy: {failureCount:N0}{Environment.NewLine}{Environment.NewLine}" +
+                             $"⏱️ Czasy wykonania:{Environment.NewLine}" +
+                             $"   • Inicjalizacja cache: {initTime:F2}s{Environment.NewLine}" +
+                             $"   • Wczytanie pliku: {readTime:F0}ms{Environment.NewLine}" +
+                             $"   • Przetwarzanie pętli: {processingTime:F2}s{Environment.NewLine}" +
+                             $"   • Zapis wyników: {saveTime:F2}s{Environment.NewLine}" +
+                             $"   • CZAS CAŁKOWITY: {totalTime:F2}s{Environment.NewLine}" +
+                             $"   • Prędkość: {(processingTime > 0 ? processedCount / processingTime : 0):F0} rek/s{Environment.NewLine}{Environment.NewLine}" +
+                             $"📄 Wyniki zapisano do:{Environment.NewLine}" +
+                             $"   • adresy_ok.txt ({successCount:N0} rekordów){Environment.NewLine}" +
+                             $"   • adresy_bledy.txt ({failureCount + warningCount:N0} rekordów){Environment.NewLine}" +
                              $"   • adresy_puste.txt ({emptyCount:N0} rekordów)";
 
                 await _hubContext.Clients.All.SendAsync(
@@ -250,7 +250,7 @@ namespace TerytLoad.Pages
                 Console.WriteLine($"[VerifyAddresses] ✗ BŁĄD po {totalTime:F2}s: {ex.Message}");
                 Console.WriteLine($"[VerifyAddresses] StackTrace: {ex.StackTrace}");
 
-                var errorMsg = $"❌ Błąd podczas przetwarzania: {ex.Message}\n⏱️ Czas do błędu: {totalTime:F2}s";
+                var errorMsg = $"❌ Błąd podczas przetwarzania: {ex.Message}{Environment.NewLine}⏱️ Czas do błędu: {totalTime:F2}s";
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", 0, 100, errorMsg);
             }

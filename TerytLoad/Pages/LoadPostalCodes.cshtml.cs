@@ -57,7 +57,7 @@ namespace TerytLoad.Pages
 
                     // Wyślij ścieżkę logu do przeglądarki
                     await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100, 
-                        $"Rozpoczynam ładowanie kodów pocztowych...\n\n📄 Log zapisywany do:\n{logFilePath}");
+                        $"Rozpoczynam ładowanie kodów pocztowych...{Environment.NewLine}{Environment.NewLine}📄 Log zapisywany do:{Environment.NewLine}{logFilePath}");
 
                     // ZMIENIONO: Używamy LoadProgressInfo bezpośrednio (jest w namespace)
                     var progress = new Progress<LoadProgressInfo>(async info =>
@@ -103,18 +103,18 @@ namespace TerytLoad.Pages
                     {
                         var summary = logContent.Substring(summaryStart);
                         await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100, 
-                            $"✓ Zakończono ładowanie kodów pocztowych\n\n📄 Pełny log zapisany w:\n{logFilePath}\n\n{summary}");
+                            $"✓ Zakończono ładowanie kodów pocztowych{Environment.NewLine}{Environment.NewLine}📄 Pełny log zapisany w:{Environment.NewLine}{logFilePath}{Environment.NewLine}{Environment.NewLine}{summary}");
                         
                         Console.WriteLine("Podsumowanie wysłane przez SignalR");
                     }
                     else
                     {
                         await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100, 
-                            $"✓ Zakończono ładowanie kodów pocztowych\n\n📄 Log zapisany w:\n{logFilePath}");
+                            $"✓ Zakończono ładowanie kodów pocztowych{Environment.NewLine}{Environment.NewLine}📄 Log zapisany w:{Environment.NewLine}{logFilePath}");
                         Console.WriteLine("Brak sekcji podsumowania w logu");
                     }
 
-                    Message = $"📄 Log zapisany w: {logFilePath}\n\n{new string('=', 80)}\n\n{logContent}";
+                    Message = $"📄 Log zapisany w: {logFilePath}{Environment.NewLine}{Environment.NewLine}{new string('=', 80)}{Environment.NewLine}{Environment.NewLine}{logContent}";
                 }
                 else
                 {
@@ -134,8 +134,8 @@ namespace TerytLoad.Pages
                     }
 
                     await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100, 
-                        $"✓ Zakończono ładowanie kodów pocztowych\n\n⚠️ Log nie został zapisany");
-                    Message = $"✓ Proces zakończony pomyślnie!\n\nOczekiwana ścieżka logu: {logFilePath}\n(Log nie został znaleziony - sprawdź logi konsoli)";
+                        $"✓ Zakończono ładowanie kodów pocztowych{Environment.NewLine}{Environment.NewLine}⚠️ Log nie został zapisany");
+                    Message = $"✓ Proces zakończony pomyślnie!{Environment.NewLine}{Environment.NewLine}Oczekiwana ścieżka logu: {logFilePath}{Environment.NewLine}(Log nie został znaleziony - sprawdź logi konsoli)";
                 }
 
                 IsProcessing = false;
@@ -149,7 +149,7 @@ namespace TerytLoad.Pages
                 Console.WriteLine($"Stack trace: {ex.StackTrace}");
 
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100, $"❌ Błąd: {ex.Message}");
-                Message = $"❌ Błąd: {ex.Message}\n\nStack trace:\n{ex.StackTrace}";
+                Message = $"❌ Błąd: {ex.Message}{Environment.NewLine}{Environment.NewLine}Stack trace:{Environment.NewLine}{ex.StackTrace}";
                 IsProcessing = false;
                 ShowResults = true;
                 return Page();
