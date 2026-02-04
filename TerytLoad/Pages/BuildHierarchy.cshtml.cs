@@ -56,8 +56,7 @@ namespace TerytLoad.Pages
                 messageBuilder.AppendLine($"✓ Miejscowości: {mjsCount}");
                 messageBuilder.AppendLine($"✓ Ulic: {ulCount}\n");
                 
-                var logPath = Path.Combine(appDataPath, "AppData", "Logs", "Control.txt");
-                messageBuilder.AppendLine($"📄 Log kontrolny zapisany w: {logPath}\n");
+                messageBuilder.AppendLine($"📄 Log kontrolny zapisany\n");
                 messageBuilder.AppendLine($"⚠️ Aby załadować kody pocztowe, przejdź do strony 'Kody pocztowe'");
 
                 Message = messageBuilder.ToString();

@@ -1510,6 +1510,7 @@
 130731|30-522|Kraków|ul. Podskale[Podskale]|18|76|
 130732|33-300|Nowy Sącz|ul. Toczyskiego[Toczyskiego]|11||
 130733|44-122[44-121]|Gliwice|ul. Perkoza[Perkoza]|2|1|
+130734|31-861|Kraków|os. Niepodległości[Osiedle Niepodległości]|9|38|
 130735|30-376|Kraków|ul. Norymberska[Norymberska]|10|14|
 130736|62-095|Murowana Goślina|ul. Lenartowskiego[Jerzego Lenartowskiego]|5|5|
 130737|53-149|Wrocław|ul. Racławicka[Racławicka]|71|15|
@@ -1602,6 +1603,7 @@
 131970|43-600|Jaworzno|ul. Moniuszki[Moniuszki]|4||
 129695|47-330|Krępna|ul. Młyńska[Młyńska]|5||
 129697|41-902|Bytom|ul. Powstańców Warszawskich[Powstańców Warszawskich]|16|7|
+129698|41-800|Zabrze|ul. Wolności[Wolności]|123a|16|
 129699|44-362|Rogów|ul. Raciborska[Raciborska]|93||
 129700|58-300|Wałbrzych|ul. Moniuszki[Moniuszki]|66 II|112|
 129701|42-520|Dąbrowa Górnicza|ul. Gruszeckiego[Gruszeckiego]|2g||
@@ -1864,6 +1866,7 @@
 129422|30-363|Kraków|ul. Kobierzyńska[Kobierzyńska]|8|50|
 129423|30-132|Kraków|ul. Szlachtowskiego[Szlachtowskiego]|17|5|
 140234|32-650|Kęty|ul. Konopnickiej[Marii Konopnickiej]|18||
+132155|41-914|Bytom|ul. Sikorskiego[Gen. Sikorskiego]|116|7|
 132156|40-276|Katowice|ul. Pułaskiego[Pułaskiego]|26|5|
 132157|30-552|Kraków|ul. Wielicka[Wielicka]|83B|26|
 132158|40-750|Katowice|ul. Leszczynowa[Leszczynowa]|14|6|
@@ -2015,6 +2018,7 @@
 138584|80-175|Gdańsk|ul. Lawendowe Wzgórze[Lawendowe Wzgórze]|67|19|
 138585|80-354|Gdańsk|ul. Subisława[Subisława]|21b|20|
 138586|45-401|Opole|ul. Bielska[Bielska]|48|8|
+138587|25-431|Kielce|ul. Piłsudskiego[Piłsudskiego]|20|36|
 138588|31-987|Kraków|ul. Rusiecka[Rusiecka]|5||
 138590|30-106[30-010]|Kraków|ul. Łowiecka[Łokietka]|12|7|
 138591|44-323|Połomia|ul. Szkolna[Szkolna]|22B||
@@ -2593,6 +2597,7 @@
 146867|30-049|Kraków|ul. Czarnowiejska[Czarnowiejska]|77|37|
 146868|30-392|Kraków|ul. Czerwone Maki[Czerwone Maki]|45|17|
 146871|28-340|Sędziszów|ul. Zielona[Zielonki]|58||
+146873|25-431|Kielce|ul. Piłsudskiego[Piłsudskiego]|40|5|
 146874|31-548|Kraków|al. Pokoju|8|51|
 146875|32-060|Czułów[Liszki]|Czułów|223||
 146876|31-945|Kraków|os. Teatralne|1|3|
@@ -3068,7 +3073,7 @@
 83092|32-822|Wrzępia||102||
 83093|26-300|Opoczno|ul. Mateusza[ul. Św. Mateusza]|17||
 83166|33-331|Polna||11||
-83167|32-020|Wieliczka|ul. Sienkiewicza[os. Sienkiewicza]|12|3|
+83167|32-020|Wieliczka|os. Sienkiewicza|12|3|
 83168|97-300|Piotrków Trybunalski|ul. Garbarska|23/25|42|
 83169|97-500|Radomsko|ul. Południowa|13||
 83170|35-304|Rzeszów|ul. Brzechwy[ul. Jana Bzechwy]|28||
@@ -3467,7 +3472,7 @@
 89821|31-231|Kraków|ul. Bociana[ul.Bociana]|8D|10|
 89822|58-150|Strzegom|ul. Kasztanowa|15||
 89823|33-270|Wietrzychowice||166||
-89824|31-861[30-667]|Kraków|ul. Facimiech|6a|61|
+89824|31-588[30-667]|Kraków|ul. Facimiech|6a|61|
 89825|32-200|Zarogów||26a||
 89826|43-516|Zabrzeg|ul. Grzybowa|5||
 89827|34-721|Raba Wyżna||594||
@@ -3604,7 +3609,7 @@
 89968|33-300|Nowy Sącz|ul. Biegonicka|22||
 89969|34-700|Rabka-Zdrój[Rabka - Zdrój]|ul. Podhalańska|20||
 89970|32-447|Siepraw|ul. Jagodowa|20||
-89971|31-861[30-683]|Kraków|ul. Facimiech|6C||
+89971|31-588[30-683]|Kraków|ul. Facimiech|6C||
 89972|26-680|Ruda Wielka|ul. Jaśminowa|43||
 89973|26-634|Małęczyn|ul. Bankowa|5||
 89974|37-306|Opaleniska||35||
@@ -3925,7 +3930,7 @@
 88124|21-010|Zakrzów||24||
 88125|43-225|Wola|ul. Stawowa|77B||
 88126|32-500|Chrzanów|ul. Broniewskiego|15|3|
-88127|97-400|Bełchatów|ul. 1 Maja[os. 1 Maja]|1|2|
+88127|97-400|Bełchatów|os. 1 Maja|1|2|
 88128|32-540|Bolęcin|ul. Kwiatowa|4||
 88129|31-723|Kraków|os. Na Wzgórzach[os.Na Wzgórzach]|17D|15|
 88130|44-238|Czerwionka-Leszczyny|ul. Morcinka[ul.Morcinka]|1b|8|
@@ -4420,6 +4425,7 @@
 93218|34-480|Jabłonka|ul. Wilsona|22||
 93219|34-142|Podolany||45||
 93220|34-452|Ochotnica Dolna|Ochotnica Dolna|22||
+93221|41-810|Zabrze|ul. Paderewskiego|11|3|
 93222|33-150|Wola Rzędzińska||323a||
 93223|32-048|Jerzmanowice|ul. Doły|55||
 93224|32-608|Osiek|ul. Beskidzka[ul.Beskidzka]|18||
@@ -4620,7 +4626,7 @@
 93907|31-315|Kraków|ul. Radzikowskiego|59|66|
 93910|31-768|Kraków|ul. Kaczyńskiego[ul.Kaczyńskiego]|4||
 93911|38-200|Jasło|ul. Graniczna|48b||
-93912|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|4|47|
+93912|32-800|Brzesko|os. Władysława Jagiełły|4|47|
 94135|39-200|Dębica|ul. Pokoju|20||
 94136|32-040|Wrząsowice|ul. Wrzosowa|39||
 94137|27-300|Lipsko|ul. Zwoleńska|21D|63|
@@ -4950,6 +4956,7 @@
 24054|28-350|Słupia||252|6|
 24055|33-386|Podegrodzie||32||
 24056|32-050|Skawina|ul. Studzińskiego[ul.Studzińskiego]|4|24|
+24057|44-241[44-240]|Żory|os. Władysława[os. Księcia Władysława]|5a|17|
 24070|34-220|Żarnówka|ul.Żarnówka|188||
 24076|66-530|Drezdenko|ul. Leśna[ul.Klesno]|4B|1|
 24078|30-298|Kraków|ul. Korzeniaka[ul. Grzegorza Korzeniaka]|3||
@@ -5410,6 +5417,7 @@
 25202|27-650|Zajeziorze||94||
 25203|38-200|Jasło|ul. 17 Stycznia|152||
 25204|31-202|Kraków|ul. Prądnicka|65|93|
+25205|41-933|Bytom|pl. Pokoju|2a|3|
 25211|38-400|Potok||491||
 25212|43-253|Pielgrzymowice|ul. Jastrzębska|11||
 25213|35-604|Rzeszów|ul. Słonecznikowa|28||
@@ -6547,7 +6555,7 @@
 83673|30-718|Kraków|ul. Myśliwska|72|58|
 84511|32-400|Myślenice|ul. Sienkiewicza|20a||
 84512|32-444|Głogoczów||725||
-84514|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|3|17|
+84514|32-800|Brzesko|os. Władysława Jagiełły|3|17|
 84515|43-300|Bielsko-Biała|ul. Żeleńskiego|101c||
 84516|41-300|Dąbrowa Górnicza|ul. Krasińskiego|32|21a|
 84517|89-500[89-501]|Tuchola|ul. Cegielniana|16A||
@@ -6788,6 +6796,7 @@
 84450|30-833|Kraków|ul. Lilli Wenedy|15|61|
 84451|37-550|Skołoszów|ul. Franciszkańska|68||
 84452|39-312|Żarówka||127a||
+84453|25-561|Kielce|os. Sieje[os. siieje]|4|46|
 84454|37-125[37-126]|Zalesie||133a||
 84471|30-867|Kraków|ul. Wallenroda[ul. Konrada Wallenroda]|53|9|
 84480|31-060|Kraków|ul. Wawrzyńca[ul. świętego wawrzyńca]|31b|7|
@@ -6833,7 +6842,7 @@
 26134|40-487|Katowice|ul. Mysłowicka|8|19|
 26135|33-340|Stary Sącz|ul. Staszica[ul.Staszica]|5||
 26136|31-915|Kraków|os. Ogrodowe[os.Ogrodowe]|9|6|
-26137|32-020|Wieliczka|ul. Sienkiewicza[Os. Sienkiewicza]|22|9|
+26137|32-020|Wieliczka|os. Sienkiewicza|22|9|
 26138|32-700|Bochnia|ul. Myśliwska|25A||
 26139|41-209|Sosnowiec|ul. Kilińskiego[ul. Jana Kilińskiego]|32|26|
 26140|26-300|Opoczno|ul. Łąkowa[Ul.Łąkowa]|36||
@@ -7031,11 +7040,12 @@
 83896|32-432|Pcim||873||
 83897|31-215|Kraków|ul. Żabiniec|83|7|
 83898|32-500|Chrzanów|ul. Metalowców|4||
+83899|31-950|Kraków|os. Zgody|11|77|
 83900|32-052|Radziszów|ul. Podlesie|57||
 83901|31-945|Kraków|os. Teatralne|3|13|
 83902|38-422|Krościenko Wyżne|ul. Wąska|6||
 83903|22-400|Zamość|ul. Niepodległości|8||
-83904|31-861[30-418]|Kraków|ul. Oraczy|14||
+83904|31-588[30-418]|Kraków|ul. Oraczy|14||
 83905|32-200|Miechów|ul. Kopernika[ul. Mikołaja Kopernika]|45||
 83906|31-155|Kraków|ul. Warszawska|16|5|
 84268|34-600|Limanowa|ul. Witkacego|19||
@@ -7059,11 +7069,12 @@
 83999|34-120|Inwałd|ul. Wadowicka|123||
 84001|32-444|Bęczarka||112||
 84002|32-640|Zator|ul. Kongresowa|13A||
+84003|31-949|Kraków|os. Zgody|7|117|
 84363|32-800|Jasień|ul. Klonowa[ul.Klonowa]|150||
 84364|34-220|Maków Podhalański|ul. Żeromskiego|11||
 84365|34-100|Wadowice|os. Pod Skarpą|4|40|
 84082|31-352|Kraków|os. Złota Podkowa|33|7|
-84083|31-861[30-418]|Kraków|ul. Oraczy|5|5|
+84083|31-588[30-418]|Kraków|ul. Oraczy|5|5|
 84084|34-500|Zakopane|ul. Piaseckiego|6||
 84086|31-620|Kraków|os. Bohaterów Września[os.Bohaterów Września]|1|81|
 84087|32-400|Borzęta||298||
@@ -7951,6 +7962,7 @@
 24702|63-430|Raczyce|ul. Odolanowska|26||
 24703|37-100|Wola Dalsza||475||
 24704|28-232|Orzelec Mały||4||
+24705|34-100|Wadowice|os. Kopernika|16|13|
 24706|29-100|Włoszczowa|ul. Góral|8K||
 24707|31-404|Kraków|ul. Kątowa|6|8|
 23866|26-052|Wola Murowana||27B||
@@ -9604,11 +9616,12 @@
 88990|82-500|Kwidzyn|ul. Warszawska|2|21|
 88991|38-505|Pobiedno||160||
 88992|34-300|Żywiec|os. Parkowe[os.Parkowe]|15|22|
-88994|32-340|Wolbrom|ul. Skalska[os. Skalska]|6|69|
+88994|32-340|Wolbrom|os. Skalska|6|69|
 88995|37-550|Łazy||152a||
 88996|37-500|Tywonia||11b||
 88997|30-150|Kraków|ul. Armii Krajowej[ul.Armii Krajowej]|93|1|
 88998|31-878|Kraków|ul. Orlińskiego[ul. Bolesława Orlińskiego]|9a|48|
+88999|31-949|Kraków|os. Zgody|1|12|
 89000|33-380|Krynica-Zdrój[Krynica Zdroj]|ul. Jastrzębia|4|2|
 89001|32-020|Wieliczka|ul. Lednicka|26||
 89002|38-350|Bobowa|ul. Widok[ul.Widok]|18||
@@ -10294,6 +10307,7 @@
 89393|28-100|Busko-Zdrój|ul. Bohaterów Warszawy|97a||
 89394|81-589|Gdynia|ul. Rumiankowa|14||
 88759|36-110|Krzątka||274a|274a|
+88760|34-100|Wadowice|os. Kopernika|4|72|
 88761|33-100|Tarnów|ul. Bora-Komorowskiego[ul. Bora Komorowskiego]|8A|14|
 88762|38-222|Dobrynia||161||
 88763|34-234|Osielec||649||
@@ -10366,6 +10380,7 @@
 89703|32-708[32-709]|Bieńkowice||44||
 89705|32-109|Niezwojowice|Ul. Niezwojowice|21||
 89707|32-045|Wielmoża|ul. Krótka|77||
+84978|31-861|Kraków|os. Niepodległości|5|175|
 84979|28-400|Pińczów|ul. Jana Pawła II|2|7|
 84980|28-305|Sobków|ul. Krzywa|4||
 84981|32-089|Biały Kościół|ul. Krakowska|144||
@@ -10815,6 +10830,7 @@
 85466|31-702|Kraków|os. Na Stoku|9|7|
 85467|31-266|Kraków|ul. Gryczana|2|27|
 85468|32-020|Zabawa||34||
+85470|30-509[31-861]|Kraków|pl. Niepodległości[os.Niepodległości]|6|121|
 85471|43-200|Pszczyna|ul. Narcyzów|29||
 85472|22-440|Majdan Wielki||214||
 85473|30-699|Kraków|ul. Drużbackiej|17||
@@ -10937,6 +10953,7 @@
 86046|32-440|Sułkowice|ul. Sucha Góra|35||
 86047|33-100|Tarnów|ul. Szkolna|14||
 86048|30-498|Kraków|ul. Zembrzycka|9||
+86049|41-914|Bytom|pl. Żeromskiego|5|25|
 86050|30-348|Kraków|ul. Gutenberga[ul. Jana Gutenberga]|4|6|
 86051|33-350|Piwniczna-Zdrój|inne Zapotok[ul.Zapotok]|7||
 86052|33-300|Nowy Sącz|ul. Lwowska|258 B||
@@ -11215,6 +11232,7 @@
 85879|31-228|Kraków|ul. Pleszowska|17||
 85880|25-640|Kielce|ul. Tektoniczna[ul.Tektoniczna]|4|25|
 85881|30-633|Kraków|ul. Sławka[ul. Walerego Sławka]|13|109|
+85882|40-203|Katowice|al. Roździeńskiego|96|50|
 85883|43-241|Łąka|ul. Łukasiewicza|20||
 85884|31-510|Kraków|ul. Rakowicka|20H|48|
 85885|31-356|Kraków[Kraków (Kraków-Krowodrza)]|ul. Kompozytorów[Kompozytorów]|5|17|
@@ -11532,6 +11550,7 @@
 85904|32-600|Oświęcim|ul. Sadowa|60|5|
 85905|32-340|Poręba Dzierżna||213||
 85906|81-355|Gdynia|ul. Wójta Radtkego|43|7-8|
+85907|34-100|Wadowice|os. Kopernika|7|11|
 85908|21-421[37-413]|Gózd||62a||
 85910|24-150[36-062]|Miłocin||215||
 85623|20-532|Lublin|ul. Gościnna[ul.Gościnna]|13|3|
@@ -11639,7 +11658,7 @@
 84872|41-922|Radzionków|ul. Adamieckiego|56||
 84873|31-567|Kraków|ul. Widok|39a|5|
 84874|38-600|Lesko|ul. Podgórska|12||
-84875|31-861[31-144]|Kraków|ul. Biskupia|20|3|
+84875|31-588[31-144]|Kraków|ul. Biskupia|20|3|
 84876|31-261|Kraków|ul. Rusznikarska[ul.Rusznikarska]|12B|44|
 84877|37-600|Lubaczów|ul. Słowackiego|26|12|
 84878|41-205[41-200]|Sosnowiec|ul. Kasztanowa[ul.Kasztanowa]|8b|22|
@@ -11670,6 +11689,7 @@
 84976|97-400|Bełchatów|ul. Podlaska|18||
 84977|28-160|Sielec||20||
 92527|34-108|Frydrychowice|ul. Centralna|85||
+92528|30-509[31-861]|Kraków|pl. Niepodległości[Niepodległości]|3a|48|
 92529|33-182|Brzozowa||101A||
 92530|32-020|Sułków||211||
 92531|34-115|Łączany|ul. Kolejowa|44||
@@ -11799,6 +11819,7 @@
 91681|34-600|Koszary||111||
 91682|09-400|Płock|ul. Zgliczyńskiego[ul. Stanisława Zgliczyńskiego]|6|4|
 91683|32-744|Siedlec||209||
+91684|34-100|Wadowice|os. Kopernika|13|49|
 91685|32-700|Proszówki||160||
 92060|43-100|Tychy|ul. Konwalii|7||
 92061|34-242|Łętownia||323||
@@ -12179,6 +12200,7 @@
 92639|33-240|Sieradza||187||
 92640|37-300|Stare Miasto||448||
 92641|38-304|Kryg||326||
+92642|31-949|Kraków|os. Zgody|7|139|
 92643|32-640|Zator|ul. Różana|12||
 93008|31-271|Kraków|ul. Krowoderskich Zuchów|5|162|
 93009|01-456|Warszawa|ul. Krępowieckiego|10|66|
@@ -12379,7 +12401,7 @@
 92202|39-300|Mielec|ul. Rudnik|8||
 92203|38-321|Moszczenica|ul. Spacerowa[ul.Spacerowa]|50||
 92204|44-351|Turza Śląska|ul. Mszańska|6e||
-92206|05-077[00-133]|Warszawa|ul. Jana Pawła II[al. Jana Pawła II]|26|1310|
+92206|00-133|Warszawa|al. Jana Pawła II|26|1310|
 92207|38-420|Krasna|ul. Krośnieńska|80||
 92208|59-100[59-101]|Polkowice|ul. Makowa|16||
 92311|31-339|Kraków[Kraków (Kraków-Krowodrza)]|ul. Weissa[ul. Wojciecha Weissa]|18|60|
@@ -12646,6 +12668,7 @@
 92588|34-231|Juszczyn||46||
 92343|34-222|Zawoja||1077||
 92321|32-740|Ubrzeż||6||
+92344|31-949|Kraków|os. Zgody|7|1|
 92345|32-852|Wola Dębińska||316||
 92669|32-863|Tymowa||58||
 92670|31-636|Kraków|os. Oświecenia|41|13 b|
@@ -13113,7 +13136,7 @@
 90633|31-621|Kraków|os. Bohaterów Września|52|14|
 90634|31-524[31-534]|Kraków|ul. Grunwaldzka|24/24|24|
 126279|33-300|Nowy Sącz|ul. Prusa[ul. Bolesława Prusa]|74||
-31556|32-020|Wieliczka|ul. Sienkiewicza[os. Sienkiewicza]|15|33|
+31556|32-020|Wieliczka|os. Sienkiewicza|15|33|
 31557|43-600|Jaworzno|ul. Krasickiego|6|6|
 31560|33-300|Nowy Sącz|ul. Traugutta|42|31|
 31566|28-225|Mokre||28||
@@ -13216,7 +13239,7 @@
 90728|24-220|Niedrzwica Duża|ul. Krańcowa|39||
 90731|32-050|Kopanka|ul. Spacerowa|11||
 90732|31-589|Kraków|ul. Sołtysowska[ul.Sołtysowska]|35a|74|
-90734|98-300|Wieluń|ul. Armii Krajowej[os. Armii Krajowej]|1|21|
+90734|98-300|Wieluń|os. Armii Krajowej|1|21|
 90735|32-650|Kęty|ul. Asnyka|3||
 90736|26-008|Górno-Zawada[Górno Zawada]||3||
 90737|80-382|Gdańsk|ul. Beniowskiego|1C|64|
@@ -14007,7 +14030,7 @@
 91478|39-331|Chorzelów||514||
 91479|33-100|Tarnów|ul. Osiedle Niepodległości[os. Niepodległości]|6|40|
 91480|32-060|Piekary||351||
-91481|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława jagiełły]|2|39|
+91481|32-800|Brzesko|os. Władysława Jagiełły|2|39|
 91482|42-421|Rzędkowice|ul. Jurajska|26||
 90137|30-350|Kraków|ul. Zachodnia|8|47|
 91484|27-400|Ostrowiec Świętokrzyski|ul. Spokojna|2||
@@ -14034,7 +14057,7 @@
 91605|32-015|Kłaj||452||
 91606|38-307|Małastów||85||
 91607|38-457|Świerzowa Polska|ul. Krośnieńska|170||
-91608|64-980|Trzcianka|ul. Słowackiego[Os. Słowackiego]|15|30|
+91608|64-980|Trzcianka|os. Słowackiego|15|30|
 91609|61-476|Poznań|ul. Czechosłowacka|96|3|
 91610|31-624|Kraków|os. Piastów|23|51|
 91611|31-908|Kraków|os. Młodości|4|35|
@@ -14266,7 +14289,7 @@
 32426|35-605|Rzeszów|ul. Bławatkowa|6||
 32428|38-307|Siary||112||
 32819|33-300|Nowy Sącz|ul. Boya-Żeleńskiego[ul. Boya Żeleńskiego]|16||
-32830|32-020|Wieliczka|ul. Sienkiewicza[os. sienkiewicza]|8|11|
+32830|32-020|Wieliczka|os. Sienkiewicza|8|11|
 32831|97-500|Radomsko|ul. Jadwigi Królowej[ul. Królowej Jadwigi]|14|23|
 32832|26-050|Janaszów||49a||
 32833|26-615[26-600]|Radom|ul. Żwirki i Wigury|33|32|
@@ -14459,6 +14482,7 @@
 32552|59-243|Tyniec Legnicki||1c||
 32553|32-200|Sławice Szlacheckie||17||
 32256|57-200|Ząbkowice Śląskie|ul. Ziębicka|52|2|
+32258|25-369|Kielce|ul. Żeromskiego[ul.Żeromskiego]|15|26|
 32260|37-625|Wólka Krowicka||113a||
 32261|36-206|Humniska||398||
 32262|38-610[38-613]|Wołkowyja|ul. Słoneczna|29||
@@ -14852,6 +14876,7 @@
 32489|31-928|Kraków|os. Centrum B|11|55|
 32491|31-851|Kraków|ul. Dąbrowskiej[Dąbrowskiej]|17I|6|
 32494|43-502|Czechowice-Dziedzice|ul. Niepodległości|86|7|
+32495|31-861|Kraków|os. Niepodległości|6|180|
 32496|42-575|Góra Siewierska|ul. Ogrodowa[ul.Ogrodowa]|27i||
 32498|36-100|Kolbuszowa Dolna||52||
 32499|25-020|Kielce|ul. Chęcińska|37||
@@ -14982,7 +15007,7 @@
 33539|33-312|Tęgoborze|ul. Millenium[Milenium]|21||
 33944|42-224|Częstochowa|ul. Czecha|12|46|
 33945|26-070|Eustachów Mały||10||
-33949|31-861[30-668]|Kraków|ul. Polonijna|11|11|
+33949|31-588[30-668]|Kraków|ul. Polonijna|11|11|
 33953|31-344|Kraków|ul. Na Polach[Na Polach]|91||
 33954|43-316[43-300]|Bielsko-Biała|ul. Giewont|12|14|
 33955|33-100|Tarnów|ul. Osiedle Zielone[os. Zielone]|28|34|
@@ -15191,7 +15216,7 @@
 33225|30-836|Kraków|ul. Jerzmanowskiego|8|54|
 33226|33-100|Tarnów|ul. Marusarz[ul. H. Marusarz]|133A||
 33228|37-705|Jaksmanice|ul. Jaksmanice|21a||
-33229|32-720|Nowy Wiśnicz|ul. Leszczyny[os. Leszczyny]|10||
+33229|32-720|Nowy Wiśnicz|os. Leszczyny|10||
 33230|26-432[38-200]|Jabłonica||59||
 33231|37-311|Wola Zarczycka||824||
 34580|27-400|Ostrowiec Świętokrzyski|ul. Plenerowa|10||
@@ -15412,6 +15437,7 @@
 34016|31-610|Kraków|os. Tysiąclecia|54|8|
 107673|32-109|Gruszów||6||
 34017|33-370|Muszyna|ul. Ogrodowa|97 b||
+34018|25-369|Kielce|ul. Żeromskiego|20/24B|12|
 34019|31-871|Kraków|os. Dywizjonu 303|5|53|
 34020|38-123|Wysoka Strzyżowska||100||
 34021|31-234|Kraków|ul. Kuźnicy Kołłątajowskiej|21||
@@ -15515,7 +15541,7 @@
 33899|31-221|Kraków|ul. Białoprądnicka[ul.białoprądnicka]|33a||
 33900|33-300|Nowy Sącz|ul. 1 Brygady|36|1|
 33901|66-522[38-340]|Sitnica||85||
-33905|32-020|Wieliczka|ul. Boża Wola[os. Boża Wola]|5|4|
+33905|32-020|Wieliczka|os. Boża Wola|5|4|
 33907|38-420|Korczyna|ul. Fredry[ul. A. Fredry]|18|B|
 33908|26-617[26-600]|Radom|ul. Piastowska|11|29|
 33910|30-716|Kraków|ul. Przewóz|32K|33|
@@ -15685,6 +15711,7 @@
 33367|31-315|Kraków|ul. Radzikowskiego|67|31|
 33368|38-400|Krosno|ul. Bohaterów Westerplatte|17|49|
 33370|39-127|Olchowa||189E||
+33373|31-217|Kraków|ul. Zgody|2||
 37869|33-300|Nowy Sącz|ul. Krótka|1|25|
 38701|34-350|Węgierska Górka|ul. Obrońców Węgierskiej Górki[ul. Obrońców Węgirskiej Górki]|20a||
 38709|39-200|Dębica|ul. Leśna|109||
@@ -15817,7 +15844,7 @@
 37780|31-858|Kraków|os. Kościuszkowskie[Oś. Kościuszkowskie]|6|287|
 34229|27-580|Ruszkowiec||18||
 34230|36-213|Haczów|ul. Haczów|154||
-34232|37-610|Narol|ul. Jana III Sobieskiego[os. Jana III Sobieskiego]|6|7|
+34232|37-610|Narol|os. Jana III Sobieskiego|6|7|
 34233|32-851|Jadowniki|ul. Królewska|4||
 34234|30-067[30-070]|Kraków|ul. Piastowska|51|47|
 34238|32-590|Libiąż|ul. Oświęcimska|14 J||
@@ -16123,7 +16150,7 @@
 35297|33-300|Nowy Sącz|ul. Reguły|3|70|
 35299|32-400|Myślenice|ul. Słoneczna|19|2|
 35647|32-020|Trąbki||262||
-35648|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|1|33|
+35648|32-800|Brzesko|os. Władysława Jagiełły|1|33|
 35649|28-100|Busko-Zdrój||12||
 35650|32-020|Wieliczka|ul. Zielna|1||
 35651|35-119|Rzeszów|ul. Zbyszewskiego|4|10|
@@ -16137,6 +16164,7 @@
 35659|26-220|Wąsosz|ul. Zarowie|23||
 35660|32-091|Kończyce|ul. Chodkiewicza[ul. Jana Karola Chodkiewicza]|5||
 35661|31-352|Kraków|os. Złota Podkowa[os.Złota Podkowa]|9||
+35662|41-208[41-216]|Sosnowiec||31||
 35663|37-450[37-464]|Stalowa Wola|ul. Chmielna|14||
 35664|31-416|Kraków|ul. Dobrego Pasterza[ul.Dobrego Pasterza]|108|103|
 35397|37-700|Przemyśl|ul. Sienkiewicza|15|1|
@@ -16179,6 +16207,7 @@
 35480|39-400|Tarnobrzeg|ul. Dąbrowskiej[ul.M.Dąbrowskiej]|25|20|
 35481|33-163|Rzepiennik Strzyżewski||66||
 35482|32-432|Pcim||1122||
+35483|41-208[41-215]|Sosnowiec||2||
 35484|34-340|Jeleśnia|ul. Plebańska|39||
 35485|37-450|Stalowa Wola|ul. 1 Sierpnia[ul. 1-go Sierpnia]|17|15|
 35486|32-700|Brzeźnica||100||
@@ -16443,6 +16472,7 @@
 35107|42-470|Siewierz|ul. Polna|5||
 35108|25-640|Kielce|ul. Jurajska[ul.Jurajska]|2|10|
 35109|31-261|Kraków|ul. Rusznikarska|16|31|
+35110|34-100|Wadowice|os. Kopernika|14|48|
 35111|30-798|Kraków|ul. Malachitowa|7|49|
 35112|27-230|Kuczów|ul. Wysoka|115||
 35113|38-323|Racławice||39||
@@ -16750,7 +16780,7 @@
 35331|31-864|Kraków|al. Jana Pawła II[ul. Jana Pawła II]|31|43|
 35332|31-317|Kraków|ul. Gnieźnieńska|22|33|
 35333|31-518[31-136]|Kraków|ul. Sowińskiego[ul. Sobieskiego]|24|10|
-35334|32-020|Wieliczka|ul. Sienkiewicza[os. Sienkiewicza]|1|3|
+35334|32-020|Wieliczka|os. Sienkiewicza|1|3|
 35335|33-100|Tarnów|ul. Bitwy pod Monte Cassino|5|250|
 35336|33-121|Bogumiłowice||138||
 35337|33-100[33-101]|Tarnów|ul. Zagrodowa[ul.Zagrodowa]|7a||
@@ -16762,7 +16792,7 @@
 35343|31-932|Kraków|os. Centrum D|2|45|
 35052|39-300|Mielec|ul. Warszawska|6a|5|
 107691|26-503|Rogów||180||
-107692|32-020|Wieliczka|ul. Sienkiewicza[os. Henryka Sienkiewicza]|4|2|
+107692|32-020|Wieliczka|os. Sienkiewicza[os. Henryka Sienkiewicza]|4|2|
 107693|38-420|Korczyna|ul. Poprzeczna[ul.Poprzeczna]|38||
 35053|28-225|Grabki Duże||3||
 35054|30-663|Kraków|ul. Wolska|4|27|
@@ -16881,7 +16911,7 @@
 35809|42-300|Myszków|ul. Piłsudskiego|42||
 35810|39-400|Tarnobrzeg|ul. Matejki|14|35|
 35811|37-600|Lubaczów|ul. Leszczyńskiego|2||
-35812|27-530|Ożarów|ul. Osiedle Wzgórze[Os. Wzgórze]|20|17|
+35812|27-530|Ożarów|os. Wzgórze|20|17|
 35813|32-800|Mokrzyska|ul. Kantego[ul. Jana Kantego]|11||
 35814|38-246|Szerzyny|Szerzyny|563||
 35150|24-100|Puławy|ul. Zabłockiego|3||
@@ -17454,7 +17484,7 @@
 37455|34-721|Raba Wyżna||810A||
 37456|30-019|Kraków|ul. Mazowiecka[Mazowiecka]|60|6|
 37458|32-552|Płaza|ul. Bogusławskiego|14||
-37467|31-861[30-668]|Kraków|ul. Polonijna[Polonijna]|7|142|
+37467|31-588[30-668]|Kraków|ul. Polonijna[Polonijna]|7|142|
 36790|44-321|Marklowice|ul. Krakusa|25||
 36791|44-335|Jastrzębie-Zdrój|ul. Kurpiowska|13|12|
 36792|43-155|Bieruń|ul. Granitowa|5E|10|
@@ -17982,7 +18012,7 @@
 36750|32-821|Dołęga||70||
 36839|43-300|Bielsko-Biała|ul. Palmowa|28||
 36840|31-853|Kraków|os. Albertyńskie[os.Albertyńskie]|17|19|
-36841|32-020|Wieliczka|ul. Boża Wola[os. Boża Wola]|18||
+36841|32-020|Wieliczka|os. Boża Wola|18||
 36842|32-400|Myślenice|ul. Dąbrowskiego|72|A|
 37202|26-220|Błaszków||1D||
 37203|42-221[42-200]|Częstochowa|ul. Pawia|18 B||
@@ -18122,7 +18152,7 @@
 36391|32-720|Kopaliny||49||
 37664|31-644|Kraków|ul. Dmowskiego|32||
 37668|39-310|Partynia||79||
-36472|32-020|Wieliczka|ul. Kościuszki[os. Kościuszki]|3|25|
+36472|32-020|Wieliczka|os. Kościuszki|3|25|
 36473|37-410|Dąbrówka||27||
 36474|34-130|Zebrzydowice||344||
 36475|42-530|Dąbrowa Górnicza|ul. Strzemieszycka|194||
@@ -18303,6 +18333,7 @@
 37345|36-055|Bratkowice||749||
 37052|31-712|Kraków|ul. Petöfiego[ul. Petofiego]|26|8|
 37053|44-266|Świerklany|ul. Wodzisławska|40||
+37054|34-100|Wadowice|os. Kopernika|6|11|
 37055|31-820|Kraków|os. Wysokie|18|28|
 37057|33-100|Tarnów|ul. Jastruna|14||
 37433|32-500|Chrzanów|ul. Sienkiewicza|15|23|
@@ -18578,6 +18609,7 @@
 39085|43-300|Bielsko-Biała|ul. Złotych Kłosów|56|5|
 39086|30-394|Kraków|ul. Dobrowolskiego[Dobrowolskiego]|90||
 39087|16-400|Suwałki|ul. Nowomiejska|20|17|
+39088|30-509[31-861]|Kraków|pl. Niepodległości[os.niepodległosci]|9|32|
 39090|34-424|Szaflary|ul. Suskiego[ul. Augustyna Suskiego]|158||
 38810|34-643|Chyszówki||202||
 38811|37-400|Nisko|ul. Sandomierska[ul.Sandomierska]|20aB|13|
@@ -18793,7 +18825,7 @@
 38558|31-878|Kraków|ul. Orlińskiego[ul.Orlińskiego]|1|79|
 38563|32-052|Gołuchowice||16||
 38569|32-840|Faściszowa||51||
-39020|27-100|Iłża|ul. Zuchowiec[Os. Zuchowiec]|2|17|
+39020|27-100|Iłża|os. Zuchowiec|2|17|
 39021|59-220|Legnica|ul. Armii Krajowej|1|12|
 39022|32-061|Rybna||540||
 39023|42-624|Ossy|ul. Wyzwolenia|4B||
@@ -19485,6 +19517,7 @@
 40476|44-203|Rybnik|ul. Studzienna[ul.Studzienna]|17a||
 40477|43-418|Pogwizdów|ul. Spacerowa|13||
 40478|32-410|Brzączowice||231||
+40479|44-241[44-240]|Żory|os. Władysława[os. Księcia Władysława]|1G|6|
 40480|37-450[37-464]|Stalowa Wola|ul. Krokusowa|21||
 108176|34-733|Mszana Górna||202||
 108177|33-331|Wyskitna||157||
@@ -19798,8 +19831,10 @@
 45168|26-035|Chańcza||89||
 45169|38-471|Bajdy||173||
 40022|31-980|Kraków|ul. Wołodyjowskiego|18||
+108168|31-861|Kraków|os. Niepodległości|3a|31|
 108169|32-087|Bibice|ul. Leśna|37Ł||
 40023|31-266|Kraków|ul. Gryczana|2|4|
+40024|60-208[60-443]|Poznań||20||
 40026|38-700|Ustrzyki Dolne|ul. Łukasiewicza|1|8|
 40027|28-100|Busko-Zdrój|ul. Źródlana[ul. Żródlana]|5||
 40028|34-460|Szczawnica||64||
@@ -19902,7 +19937,7 @@
 108179|21-070[32-864]|Biesiadki||254||
 108180|33-152|Pogórska Wola||388a||
 39377|59-500[66-600]|Lubiatów||28||
-39378|66-200|Świebodzin|ul. Żaków[os. Żaków]|98||
+39378|66-200|Świebodzin|os. Żaków|98||
 39379|37-100|Łańcut|ul. Wyszyńskiego[ul. Kard. Stefana Wyszyńskiego]|43|19|
 39380|43-602|Jaworzno|ul. Kazimierza Wielkiego|20||
 39381|32-010|Prusy||23||
@@ -20634,7 +20669,7 @@
 42208|97-200|Tomaszów Mazowiecki|ul. Koralowa|2||
 41049|44-171|Pławniowice|ul. Gliwicka|105||
 41050|32-300|Olkusz|ul. Traugutta[ul.Traugutta]|1|20|
-41051|25-561|Kielce|ul. Sieje[os. Sieje]|2|49|
+41051|25-561|Kielce|os. Sieje|2|49|
 41052|37-100|Głuchów||194||
 46116|59-300|Lubin|ul. Lwowska|4||
 41053|34-400|Nowy Targ|al. Tysiąclecia|44|12|
@@ -21098,7 +21133,7 @@
 43597|38-305|Lipinki||423||
 43598|42-230|Koniecpol|ul. Ogrodowa|1|18|
 40994|42-680|Tarnowskie Góry|ul. Szymanowskiego|9||
-40995|27-100|Iłża|ul. Zuchowiec[os. Zuchowiec]|7|8|
+40995|27-100|Iłża|os. Zuchowiec|7|8|
 40996|36-206|Humniska||718||
 40997|38-312|Ropa||933||
 40998|63-430|Odolanów|ul. Kaliska|64 A||
@@ -21709,7 +21744,7 @@
 40735|62-090|Rokietnica|ul. Szkolna|12C|4|
 40736|43-300|Bielsko-Biała|ul. Liliowa|11||
 40737|32-300|Olkusz|ul. Kosynierów|3|8|
-40738|31-861[30-421]|Kraków|ul. Przy Torze|14a||
+40738|31-588[30-421]|Kraków|ul. Przy Torze|14a||
 40739|33-300|Nowy Sącz|ul. Promienna|3||
 40741|44-100|Gliwice|ul. Głowackiego|5f||
 40742|26-411|Zychorzyn||85||
@@ -22006,7 +22041,7 @@
 41877|34-650|Tymbark||301||
 41878|42-600|Tarnowskie Góry|ul. Lyszcze|24A||
 41879|38-200|Jasło|ul. Sikorskiego|17|13|
-41880|31-861[30-667]|Kraków|ul. Facimiech|18|36|
+41880|31-588[30-667]|Kraków|ul. Facimiech|18|36|
 41881|34-700|Rabka-Zdrój|ul. Kilińskiego|38F||
 41882|31-727|Kraków|os. Na Wzgórzach|43|70|
 41883|38-516[38-540]|Łukowe||51||
@@ -22026,6 +22061,7 @@
 41243|34-741|Kasina Wielka|os. Kasina Wielka|302||
 41608|34-734|Kasinka Mała||562||
 41609|30-011|Kraków|ul. Wrocławska|52c|22|
+41610|25-369|Kielce|ul. Żeromskiego[Żeromskiego]|8|1|
 41611|41-940|Piekary Śląskie|ul. Kazimierza Wielkiego|14/1|4|
 41612|28-300|Jędrzejów|ul. Dygasińskiego[ul. A. Dygasińskiego]|51||
 41613|68-200|Żary|ul. Lubelska|47||
@@ -22423,6 +22459,7 @@
 43687|32-310|Klucze|ul. Dolna|17||
 43688|32-100|Czajęczyce||40||
 43689|32-353|Jangrot||12||
+43690|31-861|Kraków|os. Niepodległości|6|26|
 43691|33-336|Nowa Wieś||120||
 43692|43-346[43-300]|Bielsko-Biała|ul. Olimpijska|41||
 43693|30-139|Kraków|ul. Jabłonkowska|31||
@@ -23326,6 +23363,7 @@
 43100|31-202|Kraków|ul. Prądnicka|48|1|
 43102|32-200|Wielki Dół||22||
 43103|23-440|Teodorówka||139||
+43104|34-100|Wadowice|os. Kopernika|15|44|
 51071|41-500|Chorzów|ul. Dąbrowskiego[ul.Dąbrowskiego]|47|10|
 51075|38-460|Moderówka||410||
 51070|32-340|Kaliś||34A||
@@ -23759,6 +23797,7 @@
 44203|33-100|Tarnów|ul. Paderewskiego|3B|14|
 44204|43-608[43-600]|Jaworzno|ul. Zwycięstwa[ul. Zwycięstwa 196]|196/196[196]||
 44205|32-340|Gołaczewy[Gołaczewy Kol. Suska]||8||
+44564|31-861[31-862]|Kraków|os. Niepodległości|11|12|
 44565|44-373|Wodzisław Śląski|ul. Pszowska|250||
 44566|33-100|Tarnów|ul. Krakowska|29|1|
 44568|38-200|Jasło|ul. Na Kotlinę|1|33|
@@ -23960,7 +23999,7 @@
 46556|82-300|Elbląg|ul. Wyżynna|4||
 44035|31-466|Kraków|ul. Akacjowa|10|12|
 44036|42-523|Dąbrowa Górnicza|ul. Łaskowa|49||
-44038|32-020|Wieliczka|ul. Kościuszki[os. Kośćiuszki]|1|29|
+44038|32-020|Wieliczka|os. Kościuszki[os. Kośćiuszki]|1|29|
 44039|41-303|Dąbrowa Górnicza|ul. Leśna|7|65|
 44040|98-355|Działoszyn|ul. Piłsudskiego|24|36|
 44396|34-441|Niedzica|ul. 3 Maja|236||
@@ -24229,7 +24268,6 @@
 44054|32-440|Sułkowice|ul. Sportowa|94||
 44055|32-300[32-305]|Olkusz|ul. Krasińskiego[ul. Zygmunta Krasińskiego]|1|53|
 44056|39-442|Jadachy||377||
-44057|40-202[40-586]|Katowice|skwer Jasińskiego[ul. Jasieńskiego]|9||
 44058|44-207|Rybnik|ul. Szwedy[ul. Ks. K. Szwedy]|7B|10|
 44059|38-400|Krosno|ul. Korczyńska|63a||
 43765|36-004|Łukawiec||394||
@@ -24361,7 +24399,7 @@
 44236|32-700|Bochnia|ul. Pawła Apostoła[ul. Świętego Pawła Apostoła]|2||
 44237|30-868|Kraków|ul. Kurczaba|31|98|
 44238|35-207|Rzeszów|ul. Orla|25||
-44239|31-861[30-667]|Kraków|ul. Facimiech|18|36|
+44239|31-588[30-667]|Kraków|ul. Facimiech|18|36|
 44240|32-086|Batowice||87||
 44241|32-050|Skawina|ul. Nad Wodą|10||
 44242|32-020|Wieliczka|ul. Asnyka[os.Asnyka]|4|52|
@@ -24607,7 +24645,7 @@
 43884|32-651|Łęki|ul. Parkowa|3||
 43987|34-220|Maków Podhalański|al. Świerkowa[Aleja Świerkowa]|16|16|
 43988|30-628|Kraków|ul. Górska[ul.Górska]|12a||
-43990|31-861[30-668]|Kraków|ul. Polonijna|7|43|
+43990|31-588[30-668]|Kraków|ul. Polonijna|7|43|
 44348|36-050|Sokołów Małopolski[Sokołów Młp.]|ul. Paderewskiego|17||
 44349|33-100|Tarnów|ul. Romanowicza[Ul.Romanowicza]|38b|25|
 44350|32-444|Głogoczów||677||
@@ -25273,7 +25311,7 @@
 46032|30-552|Kraków|ul. Wielicka|89|74|
 46034|97-420|Trakt Puszczański||27||
 46036|21-010|Łęczna|ul. Spacerowa|5|23|
-46038|32-650|Kęty|ul. Królickiego[Os. Płk. Stanisława Królickiego]|3|18|
+46038|32-650|Kęty|os. Królickiego[Os. Płk. Stanisława Królickiego]|3|18|
 46039|37-550|Radymno|ul. Lwowska|22a|1|
 46040|32-104|Posądza||3||
 46041|43-410|Zebrzydowice|ul. Słowicza|2A||
@@ -25290,6 +25328,7 @@
 46124|48-320|Czarnolas||63||
 46125|28-230|Połaniec|ul. Reymonta|29||
 46126|34-100|Wadowice|pl. Bohaterów Getta|5||
+46127|31-861|Kraków|os. Niepodległości|8|58|
 46128|33-100|Tarnów|ul. Katarzyny[Św.Katarzyny]|11|10|
 46129|65-222|Zielona Góra|ul. Tkacka|4||
 46130|27-300|Lipsko|ul. Śniadeckiego[ul.Śniadeckiego]|3|17|
@@ -25433,7 +25472,7 @@
 46637|30-698|Kraków|ul. Matematyków Krakowskich|148||
 45492|32-020|Szczygłów||30||
 45493|32-650|Kęty|ul. Nieznanego Żołnierza|3||
-45494|27-530|Ożarów|ul. Osiedle Wzgórze[os. Wzgórze]|44|30|
+45494|27-530|Ożarów|os. Wzgórze|44|30|
 45496|41-219|Sosnowiec|ul. Lubelska|20|22|
 45497|38-606|Mchawa|ul. Mchawa|130||
 45498|32-310|Kolbark|ul. Wesoła[Ul.Wesoła]|16||
@@ -25880,7 +25919,9 @@
 45897|30-499|Kraków|ul. Miejscowa|12||
 45898|32-590|Libiąż|ul. Łabędzia|5||
 45899|32-500|Chrzanów|ul. Borowcowa|200B||
+45900|34-100|Wadowice|os. Kopernika|9|61|
 45901|34-200|Sucha Beskidzka|ul. Podksięże|69||
+45902|31-861|Kraków|os. Niepodległości|5|15|
 45903|34-484|Zubrzyca Górna||471||
 46259|34-470|Czarny Dunajec|ul. Sienkiewicza[ul.Sienkiewicza]|61||
 46260|32-540|Trzebinia|ul. Jana Pawła II|39|34|
@@ -25894,6 +25935,7 @@
 46268|34-472|Piekielnik||97 a||
 46269|33-131|Łęg Tarnowski|ul. Przedmieście|3||
 46270|21-230|Lejno||46||
+45990|50-332|Wrocław|ul. Wyszyńskiego|65|8|
 45991|32-593|Żarki|ul. Obwodowa|2||
 46000|32-852|Wola Dębińska||312||
 46001|32-700|Bochnia|ul. Smyków[ul.Smyków]|121||
@@ -25918,7 +25960,7 @@
 46445|23-200|Kraśnik|ul. Piaskowa|24|75|
 46446|21-010|Łęczna|ul. Wiklinowa|3|12|
 46447|66-600|Krosno Odrzańskie|ul. Poprzeczna|8|3|
-46448|31-861[30-668]|Kraków|ul. Polonijna|16|53|
+46448|31-588[30-668]|Kraków|ul. Polonijna|16|53|
 46449|36-207|Lalin||20||
 46450|38-500|Sanok|ul. Konarskiego[Konarskiego]|28||
 46452|31-610|Kraków|os. Tysiąclecia|48|2|
@@ -25996,6 +26038,7 @@
 47947|33-111|Koszyce Małe|ul. Wesoła|63||
 47948|43-110[43-100]|Tychy|ul. Armii Krajowej|73|5|
 47949|21-400|Czerśl||22||
+47950|34-100|Wadowice|os. Kopernika|14|33|
 47951|25-715|Kielce|ul. Kołłątaja[Hugona Kołłątaja]|20|7|
 47952|33-200|Dąbrowa Tarnowska|ul. Zagumnie|23||
 47953|33-100|Tarnów|ul. Tuwima[ul. Juliana Tuwima]|20||
@@ -26432,7 +26475,7 @@
 47077|97-420|Szczerców|ul. Szkolna|10||
 47078|30-389|Kraków|ul. Komuny Paryskiej|60|23|
 47079|28-300|Skroniów||81||
-47080|34-300|Żywiec|ul. Kopernika[Os. Kopernika]|4||
+47080|34-300|Żywiec|os. Kopernika|4||
 47081|05-640|Mogielnica|ul. Brzozowa|14/16||
 47083|31-621|Kraków|os. Bohaterów Września|53|25|
 47084|31-422|Kraków|ul. Nuszkiewicza|19|10|
@@ -26694,6 +26737,7 @@
 46816|32-075|Wysocice||86||
 46817|32-005|Niepołomice|ul. Wroniarka|28||
 46818|33-113|Zgłobice|ul. Leśna|8A||
+46819|02-665|Warszawa|al. Wilanowska|364|33|
 47988|28-300|Jędrzejów|ul. Jasionka|78||
 47989|32-830|Wojnicz|ul. Zamoście|8||
 47990|39-120|Sędziszów Małopolski|ul. Klary[ul. św. Klary]|19||
@@ -26797,7 +26841,7 @@
 47731|62-400|Piotrowice|ul. Lipowa|15||
 47732|32-566|Alwernia|ul. Przyszłości|15||
 47733|27-400|Kosowice||23||
-47734|32-020|Wieliczka|ul. Sienkiewicza[os. Sienkiewicza]|8|15|
+47734|32-020|Wieliczka|os. Sienkiewicza|8|15|
 47735|30-704|Kraków|ul. Kiełkowskiego[Kiełkowskiego]|8A|18|
 47736|31-999[31-988]|Kraków|ul. Pysocice|98||
 47737|37-723|Starzawa|ul. Starzawa Rybna|2|1|
@@ -27255,7 +27299,7 @@
 48529|38-455|Głowienka|ul. Franciszkańska|54||
 48530|34-600|Limanowa|ul. Kowalskiego|7|3|
 48531|45-222[45-221]|Opole|ul. Chabrów|34|32|
-48532|33-200|Dąbrowa Tarnowska|ul. Kościuszki[os. Kościuszki]|7|5|
+48532|33-200|Dąbrowa Tarnowska|os. Kościuszki|7|5|
 48533|27-400|Ostrowiec Świętokrzyski|ul. Noskowskiego|5||
 48536|42-690|Wojska|ul. Powstańców Śląskich|72||
 48537|30-435[30-418]|Kraków|ul. Zakopiańska|72B|6|
@@ -27416,7 +27460,7 @@
 49197|31-539|Kraków|ul. Żółkiewskiego|12|7|
 49198|36-106|Trzęsówka||106||
 49199|31-340|Kraków|ul. Chełmońskiego|72D|9|
-49200|31-861[31-144]|Kraków|ul. Biskupia|5|5|
+49200|31-588[31-144]|Kraków|ul. Biskupia|5|5|
 49201|38-500|Sanok|ul. Sikorskiego[ul.Sikorskiego]|8|27|
 49202|32-640|Smolice||10||
 49203|30-348|Kraków|ul. Bobrzyńskiego|27|77|
@@ -27654,7 +27698,7 @@
 48659|30-695|Kraków|ul. Rydygiera|19|73|
 48661|32-340|Jeżówka||265||
 48662|38-305|Wójtowa||21||
-48780|34-460|Szczawnica|ul. Połoniny[os. Połoniny]|1|16|
+48780|34-460|Szczawnica|os. Połoniny|1|16|
 48781|34-322|Gilowice|ul. Słoneczna|16||
 48782|37-450|Stalowa Wola|ul. Poniatowskiego|78A|2|
 48783|42-280|Częstochowa|ul. Tatrzańska|139||
@@ -27742,7 +27786,7 @@
 49033|30-655|Kraków|ul. Monterska|3||
 49034|33-300|Kunów||83||
 49035|98-355|Trębaczew|ul. Wyzwolenia|118||
-49036|37-600|Lubaczów|ul. Mickiewicza[os. Mickiewicza]|3|15|
+49036|37-600|Lubaczów|os. Mickiewicza|3|15|
 49037|63-400|Topola Mała|ul. Odolanowska|25||
 49038|30-102|Kraków|ul. Syrokomli|14|7|
 49039|23-400|Korytków Duży||127||
@@ -27983,7 +28027,7 @@
 48488|43-227|Miedźna|ul. Spółdzielcza|5||
 48489|31-858|Kraków|os. Kościuszkowskie|1|3|
 48490|32-420|Szczytniki||44||
-48491|32-020|Wieliczka|ul. Sienkiewicza[os. Sienkiewicza]|15|37|
+48491|32-020|Wieliczka|os. Sienkiewicza|15|37|
 48492|34-143|Skawinki||177||
 48493|34-234|Osielec||529||
 48494|32-555|Zagórze||17||
@@ -28083,7 +28127,7 @@
 48958|31-831|Kraków|ul. Cienista|90|31|
 48960|26-085|Tumlin-Wykień[Tumlin Wykień]||1||
 54627|27-400|Ostrowiec Świętokrzyski|ul. Kopernika|24|77|
-48961|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|5|6|
+48961|32-800|Brzesko|os. Władysława Jagiełły|5|6|
 48962|32-200|Nasiechowice||61||
 48963|31-906|Kraków|os. Wandy|17|12|
 48964|32-089|Bębło|ul. Krakowska|29||
@@ -28096,7 +28140,7 @@
 48972|30-106[30-010]|Kraków|ul. Łowiecka[Ul. Łokietka]|21b|23|
 48973|30-199|Rząska|ul. Nad Wąwozem|12||
 48688|27-400|Ostrowiec Świętokrzyski[Ostrowiec Św.]|ul. Matejki[ul. Jana Matejki]|23||
-48689|32-020|Wieliczka|ul. Asnyka[os. Asnyka]|4|14|
+48689|32-020|Wieliczka|os. Asnyka|4|14|
 48690|39-200|Pustynia||115B||
 49051|97-300|Piotrków Trybunalski|ul. Targowa|10C|51|
 49052|31-529|Kraków|ul. Blich|9|6|
@@ -28221,9 +28265,9 @@
 49452|31-564|Kraków|al. Pokoju|27B|1|
 49453|32-700|Bochnia|ul. Podedworze[ul.Podedworze]|21 A||
 49454|37-613|Ruda Różaniecka||81||
-49455|34-460|Szczawnica|ul. Połoniny[os. Połoniny]|5|8|
+49455|34-460|Szczawnica|os. Połoniny|5|8|
 49456|33-131|Łęg Tarnowski|ul. Tarnowska|53||
-49553|31-861[30-667]|Kraków|ul. Facimiech|16|50|
+49553|31-588[30-667]|Kraków|ul. Facimiech|16|50|
 49554|25-447|Kielce|ul. Malczewskiego|16||
 49555|31-416|Kraków|ul. Dobrego Pasterza|125|45|
 49556|33-380|Krynica-Zdrój|ul. Słoneczna|91||
@@ -28389,7 +28433,7 @@
 48327|34-500|Zakopane|ul. Jaszczurówka|16||
 48328|56-100|Mojęcice|ul. Osiedlowa|4|2|
 55876|31-127|Kraków|ul. Kochanowskiego|2|6|
-55878|34-460|Szczawnica|ul. Połoniny[os. Połoniny]|2|26|
+55878|34-460|Szczawnica|os. Połoniny|2|26|
 55885|33-314|Michalczowa||7||
 55886|32-651|Łęki|ul. Świerkowa[ul.Świerkowa]|14||
 55887|38-116|Gwoźnica Górna||62||
@@ -29008,7 +29052,7 @@
 51120|25-553|Kielce|ul. Klonowa|42b|72|
 51121|28-130|Topola||52||
 51122|32-650|Kęty||16 B||
-51123|26-200|Końskie|ul. Plac Kościuszki[pl. Kościuszki]|1|8|
+51123|26-200|Końskie|pl. Kościuszki|1|8|
 51124|31-564|Kraków|al. Pokoju[Aleja Pokoju]|81E|66|
 51125|32-447|Siepraw||939||
 51126|30-348|Kraków|ul. Grota-Roweckiego|19|25|
@@ -29126,6 +29170,7 @@
 56225|30-693|Kraków|ul. Łużycka|67|21|
 56226|39-400|Tarnobrzeg|ul. Wiejska|53||
 56229|32-500|Chrzanów|ul. Okrzei|28||
+56230|25-373|Kielce|ul. Żeromskiego|47|2|
 50099|33-100|Tarnów|ul. Brandstaettera[ul.Brandstaettera]|20|28|
 50100|33-322|Trzycierz||82||
 50101|39-206[39-207]|Brzeźnica|ul. Wałowa[ul.Wałowa]|104||
@@ -29268,7 +29313,7 @@
 51022|33-300|Nowy Sącz|ul. Tęczowa|7||
 51023|44-240|Żory|ul. Pukowca|76||
 51024|35-235|Rzeszów|ul. Kolorowa|20|11|
-51025|31-861[30-668]|Kraków|ul. Polonijna|19|41|
+51025|31-588[30-668]|Kraków|ul. Polonijna|19|41|
 51026|27-600|Sandomierz|ul. Baczyńskiego|11|41|
 51027|31-339|Kraków|ul. Weissa|16|22|
 51028|22-500|Wołajowice||52||
@@ -29351,6 +29396,7 @@
 49928|31-419|Kraków|ul. Kwartowa|5||
 49929|43-300|Bielsko-Biała|ul. Cicha|10||
 49930|33-100|Tarnów|ul. Narutowicza[ul.Narutowicza]|36||
+49931|34-100|Wadowice|pl. Kopernika[os.Kopernika]|9|83|
 49932|31-444|Kraków|ul. Śliczna|34B|141|
 49933|31-581|Kraków|ul. Gałczyńskiego|3|1|
 49934|37-450|Stalowa Wola|ul. Poniatowskiego[ul.Poniatowskiego]|69|11|
@@ -29642,9 +29688,11 @@
 50784|30-033|Kraków|ul. Sienkiewicza[ul.Sienkiewicza]|6|8|
 50785|31-050|Kraków|ul. Brzozowa|11|21|
 50786|34-220|Maków Podhalański|os. Pawlicówka|18||
+50787|31-861|Kraków|os. Niepodległości|6|72|
 50522|34-114|Kossowa||105||
 50523|97-318|Czarnocin|ul. Główna|175||
 50524|86-065|Łochowo|ul. Wypoczynkowa|12||
+50525|34-100|Wadowice|os. Kopernika|17|39|
 50865|25-430|Kielce|ul. Jaworskiego[ul. Biskupa Jaworskiego]|18|52|
 50866|33-113|Zbylitowska Góra|ul. Zbylitowskich|112||
 50867|26-200|Końskie|ul. Piłsudskiego[ul. Marszałka Piłsudskiego]|124c|13|
@@ -29887,8 +29935,9 @@
 50064|43-318|Bielsko-Biała|ul. Bracka|84|2|
 50430|34-240|Toporzysko||442||
 50431|33-311|Wielogłowy||146||
-50432|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|7|37|
+50432|32-800|Brzesko|os. Władysława Jagiełły|7|37|
 50433|39-300|Mielec|ul. Spółdzielcza|6|94|
+50434|44-240|Żory|pl. im. Księcia Władysława[os.Ksiecia Władysława]|5f|1|
 50435|31-469|Kraków|ul. Miechowity|10|81|
 50436|32-065|Wola Filipowska|ul. Krzeszowicka|30||
 50437|33-330|Grybów|ul. Grunwaldzka[ul.Grunwaldzka]|43|73|
@@ -30356,7 +30405,7 @@
 51404|27-415|Nietulisko Duże||45||
 51405|31-960|Kraków|os. Górali|11|21|
 51406|39-320|Przecław|ul. Wenecka|15a||
-51407|27-530|Ożarów|ul. Osiedle Wzgórze[os. Wzgórze]|57|46|
+51407|27-530|Ożarów|os. Wzgórze|57|46|
 51408|28-362|Rejowiec||32||
 51409|37-400|Nisko|ul. Szklarniowa|2a|15|
 51410|34-600|Limanowa|ul. Bednarzy|25||
@@ -30371,7 +30420,7 @@
 52654|30-698|Kraków|ul. Muszyńskiego[ul.Muszyńskiego]|14||
 52655|34-642|Dobra||716||
 52656|32-410|Brzączowice||188||
-52658|27-530|Ożarów|ul. Osiedle Wzgórze[os. Wzgórze]|57|45|
+52658|27-530|Ożarów|os. Wzgórze|57|45|
 52659|32-200|Miechów|ul. Słowackiego[ul. J. Słowackiego]|15||
 52661|30-346|Kraków|ul. Boczna|7|4|
 52662|28-404|Samostrzałów||58||
@@ -30558,7 +30607,7 @@
 51979|38-600|Lesko|ul. Smolki|5|17|
 51980|32-431|Stróża||421||
 51981|31-223|Kraków|ul. Pachońskiego|6|98|
-51982|31-861[30-667]|Kraków|ul. Facimiech|18|33|
+51982|31-588[30-667]|Kraków|ul. Facimiech|18|33|
 51983|39-450|Suchorzów|ul. Przewóz|29||
 51984|31-271|Kraków|ul. Krowoderskich Zuchów|23|42|
 51985|26-620[26-600]|Radom|ul. Sycyńska|29|A|
@@ -30803,7 +30852,7 @@
 51617|34-400|Nowy Targ|ul. Waksmundzka|61||
 51618|33-342|Barcice||379||
 51626|30-072|Kraków|ul. Budryka[ul. Witolda Budryka]|9|124|
-51627|34-100|Wadowice|ul. Wadowity[os. M. Wadowity]|1|5|
+51627|34-100|Wadowice|os. Wadowity[os. M. Wadowity]|1|5|
 51629|39-300|Wola Mielecka||214||
 51348|31-936[31-935]|Kraków[Krakow]|os. Handlowe|8|91|
 51710|32-830|Więckowice||8||
@@ -30990,6 +31039,7 @@
 52119|38-200|Kowalowy||67||
 52485|33-152|Pogórska Wola||23E||
 52487|33-300|Nowy Sącz|ul. Sienkiewicza[ul.Sienkiewicza]|17c|7|
+52488|34-100|Wadowice|pl. Kopernika[os.Kopernika]|3|18|
 52489|37-300|Wierzawice||304||
 52490|43-410|Zebrzydowice|ul. Słowackiego|12||
 52491|34-643|Jurków||227||
@@ -31310,7 +31360,6 @@
 52316|32-500|Chrzanów|ul. Młyńska|10||
 52317|34-513|Chochołów||351A||
 52318|58-506|Jelenia Góra|ul. Noskowskiego|2|32|
-52319|42-202[42-221]|Częstochowa|ul. Tokarzewskiego-Karaszewicza|10||
 52320|32-500|Chrzanów|ul. Piaskowa|7||
 52321|32-085|Modlnica|ul. Kościelna[ul.Kościelna]|22||
 52322|28-136|Nowy Korczyn|ul. Zamkowa|16||
@@ -31336,6 +31385,7 @@
 52420|26-640|Janów||60||
 59980|32-050|Skawina|ul. Ogrody|17|3|
 52421|43-308[43-300]|Bielsko-Biała|ul. Goleszowska|31|12|
+52423|41-800|Zabrze|ul. Wolności|124|21|
 52424|26-021|Słopiec[Słopiec Szlachecki]||28||
 52425|39-200|Dębica|ul. Świętosława|83A||
 52426|32-440|Rudnik||14||
@@ -31349,6 +31399,7 @@
 52142|28-366|Żarczyce Małe||28||
 52143|34-424|Bańska Niżna|ul. Na Brzegu|20||
 52509|26-680|Wierzbica|ul. Brzozowa|32||
+52510|31-217[31-950]|Kraków|ul. Zgody[os.Zgody]|12|35|
 52511|36-213|Haczów||615||
 52512|22-652|Łachowce||20||
 52513|42-282|Teklinów|ul. Długa|97||
@@ -31927,7 +31978,7 @@
 52858|32-104|Szarbia||12||
 52859|31-069|Kraków|ul. Smocza|8|10|
 52860|59-300|Lubin|ul. Kamienna|3|2|
-52862|31-861[30-667]|Kraków|ul. Facimiech[ul.Facimiech]|9|6|
+52862|31-588[30-667]|Kraków|ul. Facimiech[ul.Facimiech]|9|6|
 52863|47-400|Racibórz|ul. Winna|6|2|
 52864|33-191|Jastrzębia||146c||
 52865|97-512|Rzejowice||5||
@@ -32605,6 +32656,7 @@
 53190|67-400|Wschowa|pl. Grunwaldu[Plac Grunwaldu]|11|2|
 53553|38-430|Miejsce Piastowe|ul. Starowiejska|13||
 53554|31-421|Kraków|ul. Kaczary|9|31|
+53555|44-240|Żory|pl. im. Księcia Władysława[os.ks.władysława]|4a|2|
 53556|33-395|Chełmiec|ul. Gołębia|8||
 53557|26-650|Przytyk|ul. Kochanowskiego[ul. Jana Kochanowskiego]|23||
 53558|37-311[30-059]|Wola Zarczycka||71||
@@ -33140,7 +33192,7 @@
 107932|43-346[43-300]|Bielsko-Biała[Bielsko - Biała]|ul. Jasna Rola|103||
 107933|31-877|Kraków|os. Avia[os.AVIA]|5|272|
 54584|33-100|Tarnów|ul. Dwernickiego|18|35|
-54585|32-020|Wieliczka|ul. Asnyka[os. Asnyka]|2|22|
+54585|32-020|Wieliczka|os. Asnyka|2|22|
 54586|34-300|Żywiec|ul. Wodna|37||
 54587|32-436|Tokarnia||627||
 54588|34-424|Maruszyna|ul. Jana Pawła II|25||
@@ -33245,7 +33297,7 @@
 54693|32-600|Harmęże|ul. Zadworska|19||
 54694|34-221|Skawica||203||
 54695|32-053|Wola Radziszowska||638||
-54696|32-020|Wieliczka|ul. Kościuszki[os. Kościuszki]|1|19|
+54696|32-020|Wieliczka|os. Kościuszki|1|19|
 55051|32-080|Zabierzów|ul. Polna|36||
 55052|33-131|Bobrowniki Wielkie|ul. Długa|57||
 55053|35-505|Rzeszów|ul. Strzyżowska|67|7|
@@ -33337,7 +33389,7 @@
 55539|32-440|Sułkowice|ul. Partyzantów|426||
 55540|26-200|Końskie|ul. Piłsudskiego[ul.Piłsudskiego]|41|2|
 55541|32-020|Siercza||10||
-55542|28-100|Busko-Zdrój|ul. Kościuszki[os. Kościuszki]|13|19|
+55542|28-100|Busko-Zdrój|os. Kościuszki|13|19|
 55543|32-020|Trąbki||59||
 55544|02-626|Warszawa|al. Niepodległości[Al.Niepodległości]|46/50|120|
 54419|43-602|Jaworzno|ul. Kazimierza Wielkiego|3||
@@ -33767,6 +33819,7 @@
 54529|32-854|Łoniowa||112||
 54530|32-300|Olkusz|ul. Orzeszkowej[ul. Elizy Orzeszkowej]|18|12|
 54531|33-100[33-101]|Kępa Bogumiłowicka||108||
+54532|41-902|Bytom|ul. Żeromskiego|13|6|
 107950|32-020|Wieliczka|ul. Sienkiewicza[ul. Henryka Sienkiewicza]|36|2|
 107951|32-593|Żarki|ul. Mroza[ul. Księdza Jana Mroza]|25||
 54533|40-748|Katowice|ul. Norblina|47||
@@ -34029,7 +34082,7 @@
 54367|42-575|Strzyżowice|ul. Belna|147a||
 54368|40-750|Katowice|ul. Kściuczyka|3a|17|
 54369|34-606|Łukowica||429||
-54370|41-219[41-208]|Sosnowiec|ul. Stoczniowców|3A|3|
+54370|41-208|Sosnowiec|ul. Stoczniowców|3A|3|
 54371|40-832|Katowice|ul. Witosa|9b|25|
 54372|34-100|Radocza|ul. Jana Pawła II|214||
 54373|47-411|Rudnik|ul. Jesionowa|16||
@@ -34141,6 +34194,7 @@
 55881|33-350|Głębokie||35||
 55882|34-615|Słopnice||460||
 55883|37-400|Nisko|ul. Rzeszowska[ul.Rzeszowska]|2B|51|
+55889|40-152|Katowice|ul. Alfreda|8||
 55985|33-326|Paszyn||189||
 55986|28-366|Żarczyce Duże||31||
 55987|36-055|Bratkowice||655||
@@ -34340,7 +34394,7 @@
 57109|43-300|Bielsko-Biała|ul. Bohaterów Westerplatte|46||
 57110|34-600|Limanowa|ul. Ceglarza|2||
 57111|32-082|Zelków|ul. Sportowa|26||
-57112|27-530|Ożarów|ul. Osiedle Wzgórze[Os. Wzgórze]|16|35|
+57112|27-530|Ożarów|os. Wzgórze|16|35|
 56829|22-400|Zamość|ul. Chabrowa|11||
 56830|31-910|Kraków|os. Na Skarpie|17|19|
 56831|38-211[38-200]|Opacie||151||
@@ -34595,6 +34649,7 @@
 56392|44-350|Gorzyczki|ul. Strzelnicza|19||
 56393|30-698|Kraków|ul. Myślenicka[ul.Myślenicka]|128|a|
 56394|38-200|Jasło|ul. Letnia|2a||
+56395|20-434|Lublin|ul. Kochanowskiego|66||
 56396|43-346[43-382]|Bielsko-Biała||20||
 56397|32-851|Jadowniki|ul. Bernackiego|40||
 56398|37-700|Przemyśl|ul. Smolki|6|2|
@@ -34625,6 +34680,7 @@
 56495|97-300|Piotrków Trybunalski[Piotrków Tryb.]|ul. Mickiewicza[ul.Mickiewicza]|27|4|
 56835|32-800|Brzesko|ul. Poprzeczna|24||
 56836|30-382|Kraków|ul. Zamiejska|11a|13|
+56838|40-224|Katowice|ul. Miarki[ul.Karola Miarki]|2|3|
 56839|33-100[33-101]|Tarnów|ul. Koszycka|18||
 56840|37-455|Radomyśl nad Sanem|ul. Osiedle Armii Krajowej[os. Armii Krajowej]|16||
 56841|34-652|Rupniów||336||
@@ -35332,7 +35388,7 @@
 56627|30-699[30-698]|Kraków|ul. Golkowicka|12a||
 56628|38-200|Jasło|ul. Chopina|58||
 56629|25-319|Kielce|ul. Daleka|21|60|
-56630|37-100|Łańcut|ul. 3 Maja[os. 3 Maja]|2|25|
+56630|37-100|Łańcut|os. 3 Maja|2|25|
 56631|27-400|Ostrowiec Świętokrzyski|os. Stawki|77|18|
 56632|32-566|Alwernia|ul. Os. Kamionki[os. Kamionki]|50||
 56633|43-303[43-300]|Bielsko-Biała|ul. Wiśniowa|9|30|
@@ -35722,7 +35778,7 @@
 58661|43-340|Kozy|ul. Jutrzenki|11||
 58346|44-290|Jejkowice|ul. Prusa[ul. Fr. Prusa]|4||
 58347|25-020|Kielce|ul. Chęcińska|35|81|
-58349|31-861[30-668]|Kraków|ul. Polonijna|11|136|
+58349|31-588[30-668]|Kraków|ul. Polonijna|11|136|
 58350|32-090|Prandocin||20||
 58327|66-415|Kłodawa|ul. Owocowa|9||
 58691|38-213|Kołaczyce|ul. Szpitalna|10||
@@ -35774,7 +35830,7 @@
 57781|34-108|Frydrychowice|ul. Górna|34||
 57782|32-200|Miechów|ul. Piłsudskiego|33|3|
 57783|26-020|Minostowice||33||
-57784|31-861[30-421]|Kraków|ul. Ogrodniki|1|7|
+57784|31-588[30-421]|Kraków|ul. Ogrodniki|1|7|
 57785|25-413|Kielce|ul. Domaniówka|1|3|
 57786|38-505|Wola Piotrowa||11||
 57787|31-845|Kraków|os. Przy Arce|10|80|
@@ -36223,7 +36279,7 @@
 58552|32-840|Lusławice||135||
 58553|43-346|Bielsko-Biała|ul. Młodej Polski|18||
 58554|35-328|Rzeszów|ul. Popiełuszki|20|57|
-58555|32-020|Wieliczka|ul. Asnyka[os. Asnyka]|5|7|
+58555|32-020|Wieliczka|os. Asnyka|5|7|
 58556|39-304|Czermin||292||
 58557|32-020|Wieliczka|ul. Widok|10||
 58558|31-616|Kraków|os. Złotego Wieku|18|41|
@@ -36722,7 +36778,7 @@
 58505|31-320|Kraków|ul. Słowicza|17A||
 58506|32-010|Karniów||72||
 58507|30-686|Kraków|ul. Podedworze|12|34|
-58508|25-561|Kielce|ul. Sieje[os. Sieje]|2|43|
+58508|25-561|Kielce|os. Sieje|2|43|
 58509|39-332|Dębiaki||72||
 58510|27-400|Ostrowiec Świętokrzyski|os. Rosochy[os.Rosochy]|92|55|
 58511|31-216[31-215]|Kraków|ul. Solskiego|13|15|
@@ -37390,6 +37446,7 @@
 59616|23-251|Dzierzkowice-Rynek[Dzierzkowice Rynek]||6||
 59618|38-247|Żurowa||225||
 59619|33-100|Tarnów|ul. Stwosza[ul. Wita Stwosza]|3||
+59620|25-369|Kielce|ul. Żeromskiego|15|26|
 59621|43-374|Buczkowice|ul. Kaniowa|823||
 59622|26-010|Wilków|ul. Stara Wieś|52||
 59623|43-502|Czechowice-Dziedzice|ul. Wysockiego|6||
@@ -37465,6 +37522,7 @@
 59968|32-300|Olkusz|ul. Sienkiewicza|5a||
 59969|38-207|Przysieki|ul.Przysieki|195||
 59970|38-121|Pstrągowa||359||
+59971|31-861|Kraków|os. Niepodległości|6|14|
 59972|31-223|Kraków|ul. Pachońskiego|4|4|
 59973|38-200|Jasło|ul. Krakowska|1||
 59974|32-800|Poręba Spytkowska|ul. Skalna|91||
@@ -37895,7 +37953,6 @@
 59179|26-004|Lechów||74c||
 59180|42-152|Iwanowice-Naboków||22||
 59181|31-123|Kraków|ul. Krupnicza|21|4|
-59182|42-202[42-221]|Częstochowa|ul. Tokarzewskiego-Karaszewicza[ul. Tokarzewskiego-Karaszewicza 10]|10/10[10]||
 59183|30-347|Kraków|ul. Kapelanka[Kapelanka]|10|31|
 77780|33-395|Chełmiec|ul. Batalionów Chłopskich|14||
 59184|26-613[26-600]|Rajec Szlachecki||169B||
@@ -38273,7 +38330,7 @@
 60887|32-005|Niepołomice|ul. Wrzosowa[Wrzosowa]|63B|1|
 60888|22-351|Łopiennik Nadrzeczny||103||
 60889|42-700|Rusinowice|ul. Zielona|21||
-60890|27-530|Ożarów|ul. Osiedle Wzgórze[os. Wzgórze]|16|9|
+60890|27-530|Ożarów|os. Wzgórze|16|9|
 60891|32-652|Bulowice|ul. Bielska|176||
 60892|45-304|Opole|ul. Piotrkowska[ul.Piotrkowska]|1|905|
 60893|33-180|Gromnik|ul. Tarnowska|24||
@@ -38311,6 +38368,7 @@
 61090|30-389|Kraków|ul. Ketlinga|8|9|
 61091|34-235|Bystra Podhalańska||692||
 61191|44-300|Wodzisław Śląski|ul. Wyszyńskiego|36|1|
+61192|41-902|Bytom|ul. Powstańców Śląskich|5|6|
 61193|65-119|Zielona Góra|ul. Rzeźniczaka|41a|6|
 61194|25-019|Kielce|ul. Karczówkowska|10|266|
 61195|31-827|Kraków|os. Złotej Jesieni[os.Złotej Jesieni]|11a|13|
@@ -38484,6 +38542,7 @@
 60334|30-147|Kraków|ul. Na Błonie|54||
 60335|33-300|Nowy Sącz|ul. Górki Zawadzkie|71c||
 60336|58-303|Wałbrzych|ul. Fałata|43||
+60337|41-902|Bytom|ul. Żeromskiego|29|7|
 60338|27-650|Zajeziorze||139||
 60339|44-217|Rybnik|ul. Zdrzałka|6C||
 60340|23-250|Mikołajówka||11||
@@ -38848,6 +38907,7 @@
 60361|30-836[30-826]|Kraków|ul. Opty[ul.Opty]|5||
 60362|43-300|Bielsko-Biała[Bielsko- Biała]|ul. Łukasińskiego|54|1|
 60363|32-051|Krzęcin|ul. Jodłowa|4||
+60364|60-208[61-656]|Poznań||5|63|
 60365|80-172|Gdańsk|ul. Nobla|11||
 60366|25-137|Kielce|ul. Kordeckiego|106||
 60367|41-300|Dąbrowa Górnicza|ul. Mickiewicza|31|24|
@@ -38902,6 +38962,7 @@
 60277|39-305|Pławo||104a/2||
 60278|32-700|Bochnia|ul. Wygoda|41A||
 60642|34-650|Tymbark||159||
+60643|31-861|Kraków|os. Niepodległości|8|126|
 60644|30-616|Kraków|ul. Podgórki|24||
 60645|26-680|Łączany||10 a||
 60646|34-205|Stryszawa||733||
@@ -39147,6 +39208,7 @@
 61340|26-670|Pionki|ul. Słowackiego[ul.Juliusza Słowackiego]|7|3|
 61750|27-400|Ostrowiec Świętokrzyski|os. Stawki[os.Stawki]|76|14|
 61751|28-363|Tyniec||1a||
+61752|31-217|Kraków|ul. Zgody|10||
 61753|32-641|Przeciszów|ul. Oświęcimska|59||
 61754|32-050|Skawina|ul. Pachla[Ul. Feliksa Pachla]|9A||
 61755|37-450|Stalowa Wola|ul. Mickiewicza|1|3|
@@ -39271,6 +39333,7 @@
 60681|30-150|Kraków|ul. Armii Krajowej|93|146|
 60682|38-340|Biecz|ul. Parkowa|20|15|
 60683|33-100|Tarnów|ul. Czerneckich|1||
+60392|31-861|Kraków|os. Niepodległości|5|128|
 60393|87-100|Toruń|ul. Dziewulskiego|33a|20|
 107913|33-300|Nowy Sącz|ul. Konstanty|27|7|
 107914|34-146|Dąbrówka||121||
@@ -39562,6 +39625,7 @@
 62714|31-621|Kraków|os. Bohaterów Września|55|13|
 62715|30-504|Kraków|ul. Kalwaryjska|45|11|
 62716|39-300|Mielec|ul. Pisarka[ul.Pisarka]|3|28|
+62717|31-217[31-949]|Kraków|ul. Zgody[os.Zgody]|7|141|
 62718|32-865[32-864]|Żerków||26||
 63062|98-290|Proboszczowice||39||
 63063|44-109|Gliwice|ul. Gojawiczyńskiej[ul. Poli Gojawiczyńskiej]|30||
@@ -39726,7 +39790,7 @@
 61870|32-651|Bielany|ul. Łęcka[ul.Łęcka]|5||
 62238|31-457|Kraków|ul. Meissnera|4|2|
 62240|34-470|Czarny Dunajec|ul. Kmietowicza|183c||
-62241|31-861[30-421]|Kraków|ul. Przy Torze|14 A||
+62241|31-588[30-421]|Kraków|ul. Przy Torze|14 A||
 62242|33-172|Lubaszowa||100||
 62243|32-600|Oświęcim|ul. Bolesława Chrobrego|1|4|
 62244|31-579|Kraków|ul. Narciarska|30|9|
@@ -40549,7 +40613,7 @@
 62677|33-100[33-103]|Tarnów|ul. Osterwy|20||
 62678|32-620|Brzeszcze|ul. Turystyczna|20||
 62679|33-132|Ilkowice|ul. Spokojna|9||
-62681|27-530|Ożarów|ul. Osiedle Wzgórze[os. Wzgórze 43]|43/3[3]||
+62681|27-530|Ożarów|os. Wzgórze[os. Wzgórze 43]|43/3[3]||
 62682|32-800|Mokrzyska|ul. Ludowa|7||
 62683|32-615|Grojec|ul. Chowańca[ul. Bartłomieja Chowańca]|5||
 62684|33-100[33-101]|Tarnów|ul. Skrzetuskiego[ul.Skrzetuskiego]|4||
@@ -41124,6 +41188,7 @@
 64046|31-552|Kraków|ul. Bobrowskiego|2|42|
 64047|34-312|Międzybrodzie Bialskie|ul. Jałowcowa|6||
 64048|34-350|Węgierska Górka|os. XX-lecia II RP[Os. XX lecia II RP]|5|1|
+64049|44-241[44-240]|Żory|os. Władysława[os. Księcia Władysława]|9A|32|
 63760|30-838|Kraków|ul. Barbary|12|59|
 63761|34-103|Babica||49||
 63762|31-841|Kraków|os. Kazimierzowskie|18|112|
@@ -41239,7 +41304,7 @@
 63478|38-111|Żyznów||304||
 63480|41-408[41-400]|Mysłowice|ul. Aleja Spacerowa[Al. Spacerowa]|16|17|
 63481|36-110|Majdan Królewski|ul. Tarnobrzeska[ul.Tarnobrzeska]|52||
-63482|31-861[30-421]|Kraków|ul. Ogrodniki|2a||
+63482|31-588[30-421]|Kraków|ul. Ogrodniki|2a||
 63483|33-300|Nowy Sącz|ul. Batalionów Chłopskich[ul.Batalionów Chłopskich]|24|39|
 63484|30-654|Kraków|ul. Heila|16|24|
 63485|34-141|Przytkowice||48||
@@ -41258,6 +41323,7 @@
 64734|39-400|Tarnobrzeg|ul. Starowiejska|1||
 64735|33-151|Nowa Jastrząbka||83a||
 64736|28-236|Tuklęcz||31||
+64737|31-861|Kraków|os. Niepodległości|8|40|
 107991|34-331|Świnna|ul. Żywiecka|42||
 107992|31-352|Kraków|os. Złota Podkowa|35|4|
 64738|32-084|Brzoskwinia||297||
@@ -41290,7 +41356,7 @@
 64796|37-600|Lubaczów|ul. Norwida[ul. Cypriana Kamila Norwida]|10|55|
 64798|32-700|Bochnia|ul. Windakiewicza|20|12|
 64799|38-300|Gorlice|pl. Dworzysko|14||
-64800|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|11||
+64800|32-800|Brzesko|os. Władysława Jagiełły|11||
 64534|34-114|Chrząstowice|ul. Słoneczna|2||
 64535|38-420|Krasna||63||
 64536|09-320|Stawiszyn-Łaziska[Stawiszyn Łaziska]|Stawiszyn Łaziska|33||
@@ -41466,6 +41532,7 @@
 64067|30-658|Kraków|ul. Łużycka|63|34|
 64068|40-407|Katowice|ul. Grodowa|26 d|57|
 64069|31-636|Kraków|os. Oświecenia|55|55|
+64070|31-949|Kraków|os. Zgody|7|113|
 64071|38-200|Jasło|ul. Graniczna|57a||
 64072|32-650|Kęty|os. Wyszyńskiego[os.Wyszyńskiego]|14|30|
 64073|39-304|Czermin||157||
@@ -41527,7 +41594,7 @@
 107993|34-222|Zawoja||709||
 64358|43-175|Wyry|ul. Tysiąclecia|83||
 64359|25-659|Kielce|ul. Strycharska|15|8|
-64360|25-561|Kielce|ul. Sieje[os. Sieje]|2|43|
+64360|25-561|Kielce|os. Sieje|2|43|
 64361|42-530|Dąbrowa Górnicza|ul. Puszkina|35||
 64362|31-215|Kraków|ul. Biała|8|3|
 64363|30-721|Kraków|ul. Lipska|61|63|
@@ -41565,7 +41632,7 @@
 64174|38-483|Wróblik Szlachecki|ul. Rymanowska[ul.Rymanowska]|34||
 64175|44-335|Jastrzębie-Zdrój[Jastrzębie Zdrój]|ul. Zielona|1|9|
 64540|39-400|Tarnobrzeg|ul. Zwierzyniecka|71|15|
-64541|32-340|Wolbrom|ul. Skalska[os. Skalska]|6|104|
+64541|32-340|Wolbrom|os. Skalska|6|104|
 64542|34-210|Śleszowice||258||
 64543|34-700|Rabka-Zdrój|ul. Kasprowicza|11||
 64544|39-200|Zawada||166B||
@@ -44230,7 +44297,7 @@
 72108|77-324|Bińcze||23||
 72111|48-300|Nysa|os. Podzamcze Sektor B|9|11|
 72113|34-500|Zakopane|ul. Strążyska|36b||
-72114|32-020|Wieliczka|ul. Sienkiewicza[os. Sienkiewicza]|22|1|
+72114|32-020|Wieliczka|os. Sienkiewicza|22|1|
 72115|30-110|Kraków|ul. Filarecka|20A|15|
 72116|39-100|Ropczyce|ul. Iwaszkiewicza|12|7|
 72117|39-340|Babule||3||
@@ -44671,6 +44738,7 @@
 72144|37-300|Leżajsk|ul. Wałowa[ul.Wałowa]|8||
 72145|32-020|Grajów||39||
 72146|33-130|Biskupice Radłowskie|ul. Zawodzie|16||
+72147|34-100|Wadowice|pl. Kopernika[os.Kopernika]|2|82|
 72148|31-416|Kraków|ul. Dobrego Pasterza|120D|68|
 72149|98-170|Chociw||39||
 72150|31-422|Kraków|ul. Strzelców|11a|48|
@@ -44702,7 +44770,7 @@
 71504|32-590|Gromiec|ul. Broniewskiego|28||
 71505|43-608[43-600]|Jaworzno|ul. Wielki Dół|7||
 71506|34-424|Szaflary|ul. Kolejowa|7||
-71507|32-340|Wolbrom|ul. Skalska[os. Skalska]|4|15|
+71507|32-340|Wolbrom|os. Skalska|4|15|
 71508|30-838|Kraków|ul. Heleny|24|65|
 71509|32-725|Rajbrot||344||
 71510|34-143|Skawinki||249||
@@ -45513,7 +45581,7 @@
 67969|38-400|Krosno|ul. Staszica[ul. Stanisława Staszica]|15|16|
 67970|37-310|Nowa Sarzyna|ul. Piłata[ul. Władysława Piłata]|11||
 67971|43-230|Goczałkowice-Zdrój|ul. PCK|21||
-77708|34-460|Szczawnica[Szczawncia]|ul. Połoniny[os. Połoniny]|2|35|
+77708|34-460|Szczawnica[Szczawncia]|os. Połoniny|2|35|
 77709|42-440|Gulzów|ul. Młodzieży|16||
 77710|32-020[30-020]|Wieliczka|ul. Brzozowa[ul.Brzozowa]|15||
 77711|32-310|Bogucin Duży||18||
@@ -46346,6 +46414,7 @@
 77875|32-420|Podolany||28||
 78212|37-700|Przemyśl|ul. Moniuszki[ul. Stanisława Moniuszki]|7|12|
 78213|37-205|Pełnatycze||175||
+78214|31-861|Kraków|os. Niepodległości|3A|27|
 78306|35-508|Rzeszów|ul. Starzyńskiego[ul.Starzyńskiego]|16|20|
 78307|32-088|Brzozówka|ul. Leśna|49||
 78309|27-353|Płósy||31||
@@ -46759,7 +46828,6 @@
 80650|36-030[-]|Futoma||323||
 80655|32-800|Brzesko|ul. Mickiewicza[ul. Adama Mickiewicza]|31|9|
 80363|30-198|Kraków|ul. Myczkowskiego[ul.Myczkowskiego]|8|24|
-80365|42-202[42-215]|Częstochowa||75S||
 80366|31-867|Kraków|os. 2 Pułku Lotniczego|10|49|
 80845|33-100|Tarnów|ul. Stwosza[ul.Wita Stwosza]|3|3|
 80368|58-573|Piechowice|ul. Izerska|1|a|
@@ -46980,6 +47048,7 @@
 80185|32-440|Sułkowice|ul. Zagumnie|146||
 80187|31-623|Kraków|os. Piastów[os.Piastów]|14|82|
 80188|35-304|Rzeszów|al. Sikorskiego[al. Gen. Władysława Sikorskiego]|198||
+80189|31-861|Kraków|os. Niepodległości|6|175|
 80190|71-114|Szczecin|ul. Jodłowa|23b|1|
 80191|97-400|Bełchatów|ul. Chabrowa|15||
 80192|30-337|Kraków|ul. Mitkowskiego[ul. Władysława Mitkowskiego]|4|117|
@@ -47132,6 +47201,7 @@
 80495|43-300|Bielsko-Biała|ul. Solskiego[ul. Ludwika Solskiego]|38b||
 80496|32-340|Sulisławice||35A||
 80497|33-300|Nowy Sącz|ul. Bystrzycka|3||
+80859|30-509[31-861]|Kraków|pl. Niepodległości[os.Niepodległości]|8|85|
 80860|41-200|Sosnowiec|ul. Ostrogórska|33|326|
 80861|39-300|Mielec|ul. Brata Alberta[Ul. Św. Brata Alberta]|49a||
 80862|33-100|Tarnów|ul. Esperantystów|45||
@@ -47547,6 +47617,7 @@
 79833|24-220|Radawczyk-Kolonia Pierwsza[Radawczyk Kolonia Pierwsza]||91||
 79834|32-731|Łąkta Górna||226||
 79835|42-624|Tąpkowice|ul. Maczka[ul. Generała Maczka]|8a||
+81340|31-951|Kraków|os. Zgody|17|27|
 81341|32-406|Zakliczyn|ul. Podgórska[ul.Podgórska]|117||
 81342|38-400|Krosno|ul. Bohaterów Westerplatte|23|25|
 81343|38-212|Błażkowa||253||
@@ -47685,6 +47756,7 @@
 80146|32-050|Skawina|ul. Słoneczna[ul.Słoneczna]|14|13|
 80147|33-300|Nowy Sącz|ul. Kunegundy|29|1|
 80148|32-744|Gierczyce||108||
+80149|31-861|Kraków|os. Niepodległości|5|79|
 80150|32-853|Łysa Góra||104||
 80151|33-100[33-101]|Tarnów|ul. Krakusa|12||
 80152|37-700|Przemyśl|ul. Andersa[ul. Gen. Wł. Andersa]|5 B||
@@ -47964,7 +48036,7 @@
 66512|30-898|Kraków|ul. Pruszyńskiego|26|1|
 66513|37-541[37-500]|Sobiecin||82||
 66514|28-506|Kolosy||87||
-66490|32-020|Wieliczka|ul. Sienkiewicza[os. SIenkiewicza]|7|7|
+66490|32-020|Wieliczka|os. Sienkiewicza|7|7|
 66877|32-566|Regulice|ul. Kijowska|22||
 66878|34-210|Zembrzyce||87||
 66879|31-271|Kraków|ul. Krowoderskich Zuchów|9|56|
@@ -48578,11 +48650,11 @@
 66519|28-340|Gniewięcin||119||
 66520|02-638|Warszawa|ul. Bełska|6|86|
 67135|32-600|Brzezinka|ul. Jakubowskiego[ul. Z.Jakubowskiego]|28||
-66521|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|9|33|
+66521|32-800|Brzesko|os. Władysława Jagiełły|9|33|
 66525|97-500|Radomsko|ul. Mazowiecka|28||
 66526|30-252[30-251]|Kraków|ul. Przegorzalska|19a||
 66527|31-559|Kraków|ul. Grzegórzecka|79E|56|
-66658|98-300|Wieluń|ul. Wyszyńskiego[os. Wyszyńskiego]|37|35|
+66658|98-300|Wieluń|os. Wyszyńskiego|37|35|
 66659|28-142|Nieciesławice||45||
 66660|32-250|Tczyca||176||
 66661|34-521|Nowe Bystre||11B||
@@ -49042,6 +49114,7 @@
 67536|32-800|Mokrzyska|ul. Wiślana|177||
 67537|42-360|Choroń|ul. Wolności|121||
 67538|30-399|Kraków|ul. Nałkowskiej|29||
+67539|25-431|Kielce|ul. Piłsudskiego|34|17|
 67540|38-200|Jasło|ul. Bieszczadzka|10 B||
 67541|46-250|Wołczyn|ul. Polna|4||
 67542|41-200|Sosnowiec|ul. Wawel[ul.Wawel]|17|11|
@@ -49058,6 +49131,7 @@
 67244|32-002|Węgrzce Wielkie||35||
 67245|34-200|Sucha Beskidzka|ul. Batalionów Chłopskich|8||
 67246|33-386|Podegrodzie||442||
+67247|31-217[31-951]|Kraków|ul. Zgody[Os.Zgody]|17|30|
 67248|33-150|Wola Rzędzińska||320B||
 67251|34-100|Wadowice|ul. Sadowa|22A||
 67252|63-220|Kotlin|ul. Rymarkiewicza|3||
@@ -49177,6 +49251,7 @@
 81569|31-326|Kraków|ul. Wielkotyrnowska[ul.Wielkotyrnowska]|39|55|
 81570|31-572|Kraków|ul. Dąbska|20b|93|
 81572|97-400|Bełchatów|os. Dolnośląskie|137|160|
+81573|31-950|Kraków|os. Zgody|12|10|
 81574|38-400|Krosno|ul. Goszczyńskiego|10||
 81576|31-559|Kraków|ul. Grzegórzecka[ul.Grzegórzecka]|73B|16|
 81577|33-122|Bobrowniki Małe||149||
@@ -49411,6 +49486,7 @@
 82889|41-250|Czeladź|ul. Bytomska|32||
 82602|61-367|Poznań|ul. Pochyła|47||
 82604|33-395|Trzetrzewina||318||
+81694|41-800|Zabrze|pl. Wolności[Plac Wolności]|4|4|
 82605|30-399|Kraków|ul. Petrażyckiego[ul. Leona Petrażyckiego]|22a|1|
 82607|31-920|Kraków|os. Stalowe|4|85|
 82608|34-120|Andrychów|ul. Krakowska|146|21|
@@ -50334,6 +50410,7 @@
 82131|59-220|Legnica|ul. Tatarska|9|3|
 82132|41-910[41-902]|Bytom|ul. Chorzowska|27a|20|
 82133|74-400|Dębno|ul. Cegielniana|4||
+82134|31-950|Kraków|os. Zgody|12|10|
 82135|30-049[30-054]|Kraków|ul. Czarnowiejska|87||
 82136|30-809|Kraków|ul. Ściegiennego[ul.Ściegiennego]|71 A||
 82472|31-579|Kraków|al. Jana Pawła II|84|915|
@@ -50862,7 +50939,7 @@
 75644|45-763|Opole|ul. Żniwna|10b||
 75645|26-615[26-600]|Radom|ul. 11 Listopada|69/77|55|
 76865|32-724|Lipnica Dolna||310||
-76867|08-530|Dęblin|ul. Wiślana[os. Wiślana]|17|45|
+76867|08-530|Dęblin|os. Wiślana|17|45|
 76868|34-350|Cisiec|ul. Letnia|9||
 76869|34-730|Mszana Dolna|ul. Podhalan[ul.Podhalan]|18||
 76870|32-800|Mokrzyska|ul. Trakt Królewski[ul.Trakt Królewski]|29A||
@@ -50927,6 +51004,7 @@
 76031|33-100|Tarnów|ul. Piesza[ul.Piesza]|5||
 76032|44-335|Jastrzębie-Zdrój[Jastrzębie Zdrój]|ul. Wielkopolska[ul.Wielkopolska]|4|44|
 76033|44-274|Rybnik|ul. Trzech Krzyży|32||
+76034|44-241[44-240]|Żory|os. Władysława[os. Księcia Władysława]|6b|44|
 76036|44-200[44-218]|Rybnik||141c||
 76037|32-731|Żegocina||388||
 76038|26-432[38-200]|Jabłonica||164||
@@ -51322,6 +51400,7 @@
 75850|33-100|Tarnów|ul. Rolnicza|37|1|
 75851|34-210|Zembrzyce||523||
 75853|31-959|Kraków|os. Górali|3|4|
+75854|31-861|Kraków|os. Niepodległości|8|105|
 75855|33-395|Chełmiec|ul. Gajowa|56g||
 75856|38-400|Krosno|ul. Kisielewskiego[ul.Stefana Kisielewskiego]|8|72|
 75550|32-410|Dobczyce|ul. Nowowiejska|27||
@@ -51345,7 +51424,7 @@
 75655|32-087|Zielonki|ul. Nadrzeczna|10||
 75656|30-544|Kraków|al. Pod Kopcem|7|15|
 75657|30-072|Kraków|ul. Rostafińskiego|6|306|
-75659|32-340|Wolbrom|ul. Skalska[os. Skalska]|3|40|
+75659|32-340|Wolbrom|os. Skalska|3|40|
 75660|41-710|Ruda Śląska|ul. Gilów|6a|4|
 75661|53-033|Wrocław|ul. Zwycięska|16c|2|
 75662|33-150|Jodłówka-Wałki[Jodłówka - Wałki]||40 B||
@@ -51419,7 +51498,7 @@
 76380|22-630|Tyszowce|ul. Wielka[ul.Wielka]|101a|14|
 76381|43-603[43-600]|Jaworzno|ul. Długoszyńska|22J||
 76382|30-198|Kraków|ul. Myczkowskiego|8|32|
-76383|31-861[30-668]|Kraków|ul. Polonijna|7|28|
+76383|31-588[30-668]|Kraków|ul. Polonijna|7|28|
 76384|31-436|Kraków|ul. Stanisława ze Skalbmierza|10|34|
 76386|40-622|Katowice|ul. Jaśminowa|17||
 76387|31-160|Kraków|ul. Kolberga[ul. Os. Kolberga]|8|6|
@@ -51707,11 +51786,13 @@
 75959|30-698|Kraków|ul. Chałubińskiego|17A||
 75960|33-100|Tarnów|ul. Podmiejska|10||
 75961|26-110|Skarżysko-Kamienna|ul. Młodzawy[ul.Młodzawy]|60||
+75962|31-861|Kraków|os. Niepodległości|5|178|
 75963|42-575|Góra Siewierska|ul. Ogrodowa|27i||
 75964|31-316|Kraków|ul. Pużaka[Kazimierza Pużaka]|8|45|
 75965|32-700|Bochnia|ul. Pagórek|27||
 75966|34-123|Chocznia|ul. Góralska[ul.Góralska]|94||
 75967|37-100|Łańcut|ul. Kochanowskiego|1B|11|
+75968|34-100|Wadowice|pl. Kopernika[os.Kopernika]|4|13|
 75969|37-470|Zaklików|ul. Sportowa|4||
 75970|33-100|Tarnów|ul. Pułaskiego|94||
 75971|30-856[30-826]|Kraków|ul. Bieżanowska|114|2|
@@ -51835,7 +51916,7 @@
 72470|41-710|Ruda Śląska|ul. Polna|62||
 72473|30-215|Kraków|ul. Strzelnica[ul.Strzelnica]|4||
 72474|32-400|Jawornik||769||
-72475|98-300|Wieluń|ul. Wyszyńskiego[Os. Wyszynskiego]|1|10|
+72475|98-300|Wieluń|os. Wyszyńskiego[Os. Wyszynskiego]|1|10|
 72476|42-260|Kamienica Polska|ul. Konopnickiej[ul. Marii Konopnickiej]|160A||
 72477|33-200|Dąbrowa Tarnowska|ul. Kopernika[ul.Kopernika]|32||
 72478|41-800|Zabrze|ul. Jagodowa|6B|12|
@@ -52527,6 +52608,7 @@
 72521|43-230|Goczałkowice-Zdrój|ul. Kopernika|41||
 72522|28-160|Koniecmosty||18||
 72523|32-200|Miechów|ul. Słowackiego|15||
+72524|44-241[44-240]|Żory|os. Władysława[os. Ks. Władysława]|10c|11|
 72525|47-400|Racibórz|ul. Wileńska|21|4|
 72526|43-520|Chybie|ul. Wyzwolenia|97||
 72527|34-450|Krościenko nad Dunajcem[Krościenko N.d]|ul. Zdrojowa|112A||
@@ -52591,6 +52673,7 @@
 72810|34-205|Stryszawa||261E||
 72811|34-116|Bachowice|ul. Cicha|30||
 72812|34-100|Radocza|ul. Słowiańska|14||
+72813|34-100|Wadowice|os. Kopernika|13|19|
 72814|26-060|Łukowa||128B||
 72815|26-625|Strzałków||53||
 72529|31-845|Kraków|os. Przy Arce[os.Przy Arce]|22|21|
@@ -53028,6 +53111,7 @@
 73222|30-809|Kraków|ul. Ściegiennego[ul.ks.Ściegiennego]|73|91|
 73224|31-216|Kraków|ul. Legnicka[Legnicka]|24a|12a|
 73225|32-400|Myślenice|ul. Jordana[ul. Henryka Jordana]|22||
+72938|25-431|Kielce|ul. Piłsudskiego[ul.Piłsudskiego]|26|90|
 72939|26-200|Końskie|ul. Robotnicza|16||
 72940|34-100|Jaroszowice||84a||
 72941|30-686|Kraków|ul. Podedworze|10|4|
@@ -53707,6 +53791,7 @@
 68833|34-460|Szczawnica|ul. Szalaya|106||
 68839|38-121|Pstrągowa||13||
 68840|32-071|Kamień||233||
+68841|34-100|Wadowice|os. Kopernika|10B|6|
 68842|23-300|Janów Lubelski|ul. Fiołkowa|34||
 68843|41-902|Bytom|ul. Oświęcimska|3a|2|
 68844|26-900|Stanisławice||71||
@@ -53815,6 +53900,7 @@
 69003|32-086|Dziekanowice||84||
 69004|80-034|Gdańsk|ul. Wawelska|10A|3|
 69005|37-700|Przemyśl|ul. Jasińskiego[ul. Generała Jakuba Jasińskiego]|47|5|
+69006|30-509[31-861]|Kraków|pl. Niepodległości[os.Niepodległości]|10|15|
 69008|32-061|Czułówek||127||
 69009|31-234|Kraków|ul. Kuźnicy Kołłątajowskiej|15c|12|
 69010|32-049|Przeginia||260||
@@ -54496,6 +54582,7 @@
 94359|33-100|Tarnów|ul. Rydza-Śmigłego|8|26|
 94360|35-083|Rzeszów|ul. Karkonoska|130||
 94361|30-012|Kraków|ul. Poznańska|8|81|
+94362|31-861|Kraków|os. Niepodległości|9|11|
 95198|30-122|Kraków|ul. Rydla[ul. Lucjana Rydla]|15|30|
 33578|32-007|Wola Batorska||592||
 95199|31-722|Kraków|os. Na Wzgórzach|13|57|
@@ -55007,7 +55094,7 @@
 94963|43-180|Orzesze|ul. Reymonta|6||
 94964|42-209|Częstochowa|ul. Kontkiewicza|13|19|
 94965|33-100|Tarnów|ul. Marynarki Wojennej|8|40|
-94966|37-530|Sieniawa|ul. Kazimierza Wielkiego[os. Kazimierza Wielkiego]|5|3|
+94966|37-530|Sieniawa|os. Kazimierza Wielkiego|5|3|
 94967|20-601|Lublin|ul. Skierki[ul.Skierki]|7|2|
 94968|70-782|Szczecin|ul. Leśna Polana[ul.Leśna Polana]|7a||
 94678|38-440|Iwonicz|ul. Zadwór|33a||
@@ -55022,6 +55109,7 @@
 94688|43-225|Wola|ul. Stawowa|50||
 94690|42-600|Tarnowskie Góry|ul. Trakcyjna|7||
 94691|39-442|Chmielów|ul. Spacerowa|35||
+95059|41-800|Zabrze|ul. Wolności|51A||
 95942|87-800|Włocławek|ul. Boczna[ul.Boczna]|17||
 95943|34-606|Łukowica||408||
 95944|30-698|Kraków|ul. Jar|18||
@@ -55076,6 +55164,7 @@
 103454|38-460|Moderówka||384||
 103455|48-317|Korfantów|ul. Parkowa|5|3|
 103457|30-023[30-019]|Kraków|ul. Mazowiecka|106|38|
+103458|41-902|Bytom|ul. Powstańców Śląskich|5|9|
 103459|31-230|Kraków|ul. Pigonia[ul. Stanisława Pigonia]|4|88|
 103460|47-400|Racibórz|ul. Wygonowa|31g||
 103462|37-200|Przeworsk||8||
@@ -55412,7 +55501,7 @@
 95257|43-340|Kozy|ul. Spółdzielcza|4||
 95258|28-400|Pińczów|ul. Kazimierza Wielkiego|2|23|
 95259|38-200|Jasło|ul. 17 Stycznia|105||
-95260|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|2|22|
+95260|32-800|Brzesko|os. Władysława Jagiełły|2|22|
 94994|41-707|Ruda Śląska|ul. Łukowa[ul.Łukowa]|1|6|
 94995|32-086|Bosutów|ul. Krótka[ul.krótka]|4||
 94996|34-511|Kościelisko|ul. Nędzy-Kubińca[ul. Nędzy Kubińca]|151||
@@ -55571,7 +55660,7 @@
 95708|24-100|Puławy|ul. Wiejska|4|13|
 94520|34-615|Słopnice||12||
 94521|32-440|Harbutowice||280||
-94522|31-861[31-144]|Kraków|ul. Biskupia[ul.Biskupia]|20|3|
+94522|31-588[31-144]|Kraków|ul. Biskupia[ul.Biskupia]|20|3|
 94523|34-734|Kasinka Mała||872||
 94524|43-603|Jaworzno|ul. Dąbrowska|16c||
 94525|32-020|Tomaszkowice||312||
@@ -56272,7 +56361,7 @@
 96385|37-700|Przemyśl|ul. Wiśniowa|16||
 96386|34-100|Tomice|ul. Floriańska|10||
 96388|08-200|Łosice|ul. Narutowicza[ul.Narutowicza]|51A|22|
-96389|25-561|Kielce|ul. Sieje[Os. Sieje]|3|11|
+96389|25-561|Kielce|os. Sieje|3|11|
 96390|43-608|Jaworzno|ul. Nadrzeczna|6||
 96392|32-700|Bochnia|ul. Strzelecka|86b||
 106555|40-765|Katowice|ul. Wietnamska|61D||
@@ -56960,6 +57049,7 @@
 87807|33-340|Stary Sącz|ul. Os. Słoneczne[os. Słoneczne 6/58]|6/58/6[6]|58|
 87808|31-417|Kraków|ul. Balladyny|12||
 87809|39-221|Łęki Górne||154a||
+87810|43-300[-]|Bielsko-Biała|pl. Rynek[ul.]|11|18|
 87811|26-035|Raków|os. 70-lecia Niepodległości|44||
 87812|26-200|Końskie|ul. Polna|5a|14|
 86646|32-400|Myślenice|ul. Średniawskiego|139a||
@@ -57044,6 +57134,7 @@
 87674|30-611|Kraków|ul. Halszki[ul.Halszki]|9/95||
 87675|59-100|Polkowice|ul. Ratowników|7|30|
 87676|43-385|Jasienica|ul. Jesionowa|1098||
+87677|44-241[44-240]|Żory|os. Władysława[os. Księcia Władysława]|13E|6|
 87678|30-150|Kraków|ul. Armii Krajowej|2|61|
 87679|39-203|Bobrowa||224||
 86656|40-881|Katowice|ul. Bolesława Chrobrego|38|52|
@@ -57244,7 +57335,7 @@
 87837|32-590|Libiąż|ul. Łabędzia|5||
 87838|25-217|Kielce|ul. Monte Cassino|35||
 87840|32-620|Brzeszcze|ul. Partyzantów[ul.Partyzantów 64]|64/64[64]||
-87841|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|6|30|
+87841|32-800|Brzesko|os. Władysława Jagiełły|6|30|
 87842|33-380|Krynica-Zdrój|ul. Piłsudskiego|60|1A|
 87843|32-733|Ujazd||81||
 87844|30-012|Kraków|ul. Poznańska|7|203|
@@ -57388,7 +57479,7 @@
 86593|34-234|Osielec||629||
 86594|30-047|Kraków|ul. Symfoniczna[Symfoniczna]|1|3|
 86595|43-400|Cieszyn|ul. Bukowa|22c||
-86597|31-861[30-418]|Kraków|ul. Oraczy|9|6|
+86597|31-588[30-418]|Kraków|ul. Oraczy|9|6|
 86955|30-150|Kraków|ul. Armii Krajowej|7|51|
 86956|84-200|Wejherowo|ul. Ludowa[ul.Ludowa]|16B||
 86958|38-300|Gorlice|ul. Korczaka|38A||
@@ -57582,7 +57673,7 @@
 87863|32-831|Olszyny||53||
 87864|40-719|Katowice|ul. Zadole|44a|53|
 87865|27-230|Jabłonna|ul. Spacerowa[ul.Spacerowa]|36||
-87866|37-600|Lubaczów|ul. Mickiewicza[os. Mickiewicza]|8|17|
+87866|37-600|Lubaczów|os. Mickiewicza|8|17|
 87868|25-221|Kielce|ul. Kocka|14||
 87869|22-440|Hutki||122||
 87535|39-304|Czermin||547||
@@ -57797,7 +57888,7 @@
 70583|37-716|Małkowice||70||
 70584|22-400|Zamość|ul. Bołtucia[ul. Gen. Mikołaja Bołtucia]|18||
 70585|38-400|Krosno|ul. Kopernika|48||
-70586|32-020|Wieliczka|ul. Sienkiewicza[os. Sienkiewicza]|11|37|
+70586|32-020|Wieliczka|os. Sienkiewicza|11|37|
 69430|32-700|Damienice||71||
 69431|32-800|Brzesko|ul. Garbarska|1||
 70666|33-164|Olszyny||535||
@@ -57971,6 +58062,7 @@
 69836|32-340|Podlesice Drugie[Podlesice Iii]||32||
 69813|32-641|Przeciszów|ul. Szkolna|19a||
 70200|28-313|Dalechowy||1||
+70202|44-241[44-240]|Żory|os. Władysława[os. Księcia Władysława]|1G|6|
 70203|34-222|Zawoja||110||
 70204|30-612|Kraków|ul. Witosa|37|7|
 70205|32-100|Proszowice|ul. Kopernika|3|19|
@@ -58430,7 +58522,7 @@
 70687|31-881|Kraków|ul. Markowskiego[ul.Markowskiego]|8|35|
 70688|32-425|Łęki||86||
 70689|30-079|Kraków|ul. Królewska|84|8|
-70834|31-861[30-421]|Kraków|ul. Ogrodniki[ul.Ogrodniki]|4|4|
+70834|31-588[30-421]|Kraków|ul. Ogrodniki[ul.Ogrodniki]|4|4|
 70835|30-556[30-559]|Kraków|ul. Dworcowa[ul.Dworcowa]|5|45|
 70845|47-244|Lubieszów|ul. Sosnowa|2||
 70846|30-536|Kraków|ul. Benedykta[ul. św. Benedykta]|8|8|
@@ -58623,6 +58715,7 @@
 70158|31-123|Kraków|ul. Krupnicza[ul.Krupnicza]|31|2|
 70159|31-644|Kraków|ul. Sapiehy|14||
 70160|28-300|Jędrzejów|ul. Spółdzielcza|10c||
+70161|34-100|Wadowice|os. Kopernika|15|8|
 70162|97-400|Bełchatów|ul. Zagłoby|12||
 70163|34-400|Nowy Targ|ul. Kokoszków Boczna|13||
 70164|36-200|Brzozów|ul. Kręta|27||
@@ -58800,6 +58893,7 @@
 70641|34-400|Nowy Targ|ul. Podtatrzańska|47|12|
 70642|97-500|Radomsko|ul. 11 Listopada|23e||
 70643|34-371|Ujsoły|ul. Piotrowskiego[ul. Ks. Piotrowskiego]|80||
+70644|34-100|Wadowice|os. Kopernika|14|47|
 70645|32-061|Rybna||686||
 69711|30-605[30-608]|Kraków|ul. Motarskiego[ul.Motarskiego]|4||
 70647|30-057|Kraków|ul. Chocimska|1|2|
@@ -59604,7 +59698,7 @@
 75087|97-200|Tomaszów Mazowiecki|ul. Łączna|3||
 75088|43-309[43-300]|Bielsko-Biała|ul. Kalinowa|11||
 74443|30-348|Kraków|ul. Bobrzyńskiego|43A|80/81|
-74444|31-861[30-418]|Kraków|ul. Oraczy|5|6|
+74444|31-588[30-418]|Kraków|ul. Oraczy|5|6|
 74445|34-240|Toporzysko||531||
 74446|32-200|Miechów|ul. Mickiewicza[ul. A. Mickiewicza]|3||
 74807|34-620|Jodłownik||214||
@@ -59705,6 +59799,7 @@
 75177|66-131|Górzykowo||9D||
 75178|33-300|Nowy Sącz|ul. Krótka[ul.Krótka]|1|6|
 75179|33-100|Tarnów|ul. Westerplatte|13|44|
+75180|16-070[15-073]|Białystok||10|21|
 75181|37-722|Wyszatyce||17||
 75183|34-654|Męcina||689||
 75184|42-583|Bobrowniki|ul. Słowackiego|49||
@@ -59768,6 +59863,7 @@
 74355|32-500|Balin|ul. Kadetów|35||
 74356|33-300|Nowy Sącz|ul. Iszkowskiego[ul. Majora Jerzego Iszkowskiego]|8||
 74357|20-825|Lublin|ul. Jodłowa|27||
+74359|31-861|Kraków|os. Niepodległości|9|59|
 74360|98-355|Trębaczew|ul. Wyzwolenia|210||
 74361|03-704|Warszawa|ul. Panieńska[ul.Panienska]|9|11|
 74362|27-500|Opatów|ul. Sienkiewicza[ul. Henryka Sienkiewicza]|26|49|
@@ -60730,7 +60826,7 @@
 79484|33-113|Błonie||120a||
 79485|30-611|Kraków|ul. Wysłouchów|16|12|
 79486|32-104|Glew||14||
-79487|33-200|Dąbrowa Tarnowska|ul. Kościuszki[os. Kościuszki]|7|19|
+79487|33-200|Dąbrowa Tarnowska|os. Kościuszki|7|19|
 79488|33-100|Tarnów|ul. Klonowa|4||
 79489|30-244|Kraków|ul. Sokola[ul.Sokola]|86||
 79490|38-458|Bóbrka||75||
@@ -61764,6 +61860,7 @@
 24034|37-500|Jarosław|ul. Lotników|33B||
 24535|33-342|Barcice|ul. Osiedlowa|12||
 24712|43-410|Zebrzydowice|ul. Kochanowskiego|34||
+24580|31-950|Kraków|os. Zgody|12|89|
 98338|30-348|Kraków|ul. Drukarska|1|61|
 98341|39-100|Ropczyce|ul. Spokojna|31||
 97852|36-123|Lipnica||78||
@@ -61830,6 +61927,7 @@
 98400|30-079|Kraków|al. Kijowska|11|23|
 98403|84-230|Kazimierz|ul. Majowa|6||
 98405|32-859|Złota||219|219|
+98406|31-861|Kraków|os. Niepodległości|8|85|
 114691|30-618[30-693]|Kraków|ul. Tuchowska|17||
 98407|25-528|Kielce|ul. Zagnańska[ul.Zagnańska]|50|20|
 98408|17-200|Hajnówka|ul. Zwierzyniecka|10||
@@ -63681,7 +63779,7 @@
 103998|33-100|Tarnów|ul. Traktorowa|6||
 103999|39-300|Mielec|ul. Aleja Ducha Świętego[al. Ducha Świętego]|36|9|
 104000|30-376|Kraków|ul. Norymberska|10a|37|
-104002|37-100|Łańcut|ul. Sikorskiego[os. Sikorskiego]|3|17|
+104002|37-100|Łańcut|os. Sikorskiego|3|17|
 104003|32-070|Dąbrowa Szlachecka|ul. Królewska|9||
 104004|32-065|Krzeszowice|ul. Dąbrowskiego[ul. J. Dąbrowskiego]|25||
 104005|43-300|Bielsko-Biała|ul. Konopnickiej|26|37|
@@ -64349,6 +64447,7 @@
 104728|34-108|Przybradz|ul. Szkolna|46||
 104729|33-100[33-101]|Tarnów|ul. Tokarzewskiego[ul. Generała Michała Tokarzewskiego]|13c||
 104730|66-415|Santocko|ul. Kościelna[ul.Kościelna]|18||
+104732|34-100|Wadowice|os. Kopernika|1A|13|
 104733|31-606|Kraków|os. Tysiąclecia[os.Tysiąclecia]|18|72|
 104734|32-083|Burów||127||
 104735|27-400|Ostrowiec Świętokrzyski|os. Pułanki[os.Pułanki]|27|47|
@@ -64618,9 +64717,10 @@
 121462|40-668|Katowice|ul. Bażantów[Bażantów]|16 C|25|
 104275|26-200|Końskie|ul. 3 Maja|4|2|
 104276|31-943|Kraków|os. Spółdzielcze|3|40|
-104277|37-600|Lubaczów|ul. Unii Lubelskiej[os. Unii Lubelskiej]|4|3|
+104277|37-600|Lubaczów|os. Unii Lubelskiej|4|3|
 104278|32-865|Biesiadki||50||
 104279|34-211|Budzów||27||
+104802|31-861[31-862]|Kraków|os. Niepodległości|12|23|
 104803|37-200|Grzęska||85A||
 104804|43-346|Bielsko-Biała|ul. Gładka|26||
 104805|32-800|Brzesko|ul. Błękitna|37||
@@ -64662,7 +64762,7 @@
 105358|32-400|Myślenice|ul. Rynek|13|7|
 105360|22-100|Chełm|ul. Kolejowa|62B|17|
 105361|37-450|Stalowa Wola|pl. Jana Pawła II[al. Jana Pawła II]|9|96|
-105362|97-400|Bełchatów|ul. Okrzei[os. Okrzei]|8|8|
+105362|97-400|Bełchatów|os. Okrzei|8|8|
 105363|31-234|Kraków|ul. Kuźnicy Kołłątajowskiej|16C|23|
 105364|30-408|Kraków|ul. Borsucza|1|7|
 105365|33-300|Nowy Sącz|ul. Promienna|10||
@@ -65475,7 +65575,7 @@
 106077|43-344[43-300]|Bielsko-Biała|ul. Rodzinna|17||
 106079|32-854|Doły||184||
 106080|33-300|Nowy Sącz|ul. Jaworzyńska|32||
-106081|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|3|47|
+106081|32-800|Brzesko|os. Władysława Jagiełły|3|47|
 106084|20-515|Krężnica Jara||295e||
 106085|26-010|Bodzentyn||44b||
 106086|22-400|Zamość|ul. Kraszewskiego[ul.Kraszewskiego]|15||
@@ -65719,7 +65819,7 @@
 122677|32-020|Wieliczka|ul. Piłsudskiego[Piłsudskiego]|99|80|
 122678|34-114|Marcyporęba|ul. Radwanity[Marka Radwanity]|57||
 122679|30-384|Kraków|ul. Raciborska[Raciborska]|20|8|
-107105|31-861[30-667]|Kraków|ul. Facimiech|3b||
+107105|31-588[30-667]|Kraków|ul. Facimiech|3b||
 107106|33-300|Nowy Sącz|ul. Barska|12|14|
 123591|31-421|Kraków|ul. Reduta[Reduta]|42d|45|
 123593|54-402|Wrocław|ul. Szkocka[Szkocka]|50|2|
@@ -65812,7 +65912,8 @@
 123660|87-800|Włocławek|ul. Dobrzyńska[Dobrzyńska]|52D|`|
 123661|31-505|Kraków|ul. Bosacka[Bosacka]|12|9|
 123662|32-332|Bukowno|ul. Zwycięstwa[Zwycięstwa]|7|7|
-123663|31-861[30-668]|Kraków|ul. Polonijna[Polonijna]|7|102|
+123663|31-588[30-668]|Kraków|ul. Polonijna[Polonijna]|7|102|
+123664|62-065|Grodzisk Wielkopolski|os. Wojska Polskiego|18A|91|
 123665|32-090|Słomniki|ul. Wolności[Wolności]|1||
 123668|32-020|Wieliczka|ul. Politechniczna[Politechniczna]|40||
 123669|80-839|Gdańsk|pl. Obrońców Poczty Polskiej[Plac Obrońców Poczty Polskiej]|6|1|
@@ -66049,7 +66150,7 @@
 107208|37-700|Przemyśl|ul. Drzymały[ul. Wojciehca Drzymały]|14||
 108323|67-200|Głogów|ul. Armii Krajowej|17c|5|
 108324|36-020|Hermanowa||656C||
-108325|31-861[30-667]|Kraków|ul. Facimiech|4b|12|
+108325|31-588[30-667]|Kraków|ul. Facimiech|4b|12|
 108326|30-363|Kraków[Kraków (Kraków-Podgórze)]|ul. Kobierzyńska|58|12|
 108327|34-600|Kanina||18||
 107017|38-214|Sieklówka||160||
@@ -67195,7 +67296,7 @@
 109782|33-100|Tarnów|ul. Wiśniowa|79b||
 109785|41-214|Sosnowiec|ul. Letnia|10||
 109786|31-523|Kraków|ul. Kasprowicza[ul. Jana Kasprowicza]|8B||
-109787|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|6|47|
+109787|32-800|Brzesko|os. Władysława Jagiełły|6|47|
 109788|30-664|Kraków|ul. Na Kozłówce[os. Na Kozłówce]|31|17|
 109789|33-330|Grybów|ul. Armii Krajowej|2||
 109790|32-002|Brzegi||249||
@@ -67700,7 +67801,7 @@
 111429|31-853|Kraków|os. Albertyńskie|21|25|
 111430|35-304|Rzeszów|ul. Mokra Strona|89||
 109942|26-200|Końskie|ul. Kalinowa|10||
-109943|31-861[30-668]|Kraków|ul. Polonijna|11|8|
+109943|31-588[30-668]|Kraków|ul. Polonijna|11|8|
 109944|31-236|Kraków|ul. Meiera|16E|63|
 109945|31-621|Kraków|os. Bohaterów Września|31|7|
 109946|32-545|Dulowa|ul. Krakowska|50A||
@@ -68145,7 +68246,7 @@
 110588|28-400|Młodzawy Duże||81A||
 110589|43-354|Czaniec|ul. Gwarna|8||
 110591|28-425|Stawiszyce||101||
-110592|32-340|Wolbrom|ul. Skalska[os. Skalska]|6|27|
+110592|32-340|Wolbrom|os. Skalska|6|27|
 110593|43-140|Lędziny|ul. Jemiołowa|8||
 110595|43-520|Zaborze|ul. Darwina|30||
 110596|98-300|Wieluń|ul. Przemysłowa|2||
@@ -68238,6 +68339,7 @@
 110080|33-322|Wojnarowa||2||
 110083|36-203|Izdebki||59||
 110084|15-196|Białystok|ul. Norwida[ul. C.K.Norwida]|6||
+110085|25-431|Kielce|ul. Piłsudskiego|28|40|
 110086|37-100|Dębina||115||
 110087|33-300|Nowy Sącz|ul. Bema[ul. Generała Józefa Bema]|9||
 110088|30-409|Kraków|ul. Bułgarska|38|62|
@@ -68624,6 +68726,7 @@
 112332|22-100|Chełm|al. Żołnierzy I Armii Wojska Polskiego[al. Żołnierzy 1 Armii Wojska Polskiego]|23|10|
 112333|30-126|Kraków|ul. Stańczyka[ul. Stańczyka 8]|8/8[8]|93|
 112334|30-074|Kraków|ul. Kazimierza Wielkiego|22|16|
+112335|31-861|Kraków|os. Niepodległości|3A|47|
 112336|32-075|Wysocice||54||
 112337|32-125|Stręgoborzyce||121||
 112338|30-014|Kraków|ul. Kmieca|20|9|
@@ -69070,7 +69173,7 @@
 111910|26-612[26-600]|Radom|ul. Sikorskiego|7|57|
 111911|32-340|Wolbrom|ul. Fabryczna|28||
 111912|25-046|Kielce|ul. Biesak|95|1|
-111913|31-861[30-668]|Kraków|ul. Polonijna|11|94|
+111913|31-588[30-668]|Kraków|ul. Polonijna|11|94|
 111914|89-500|Wymysłowo||3||
 111915|26-615[26-600]|Radom|ul. 11 Listopada|63|23|
 111916|43-512|Bestwinka|ul. Gandora[ul. Franciszka Gandora]|35||
@@ -69399,7 +69502,7 @@
 112590|58-530|Kowary|ul. Sienkiewicza[ul.Sienkiewicza 2]|2/2[2]|2|
 112591|38-100|Strzyżów|ul. Grunwaldzka|25|24|
 112592|30-611|Kraków|ul. Wysłouchów|22|5|
-112593|31-861[30-668]|Kraków|ul. Polonijna|7|160|
+112593|31-588[30-668]|Kraków|ul. Polonijna|7|160|
 112594|97-300|Piotrków Trybunalski|ul. Dmowskiego[ul. Romana Dmowskiego]|50a||
 124477|30-611|Kraków|ul. Bujaka|16a|35|
 128837|35-083|Rzeszów|ul. Karkonoska[Karkonoska]|214||
@@ -69438,7 +69541,7 @@
 130684|31-215|Kraków|ul. Żabiniec[Żabiniec]|85|71|
 130686|30-633|Kraków|ul. Sławka[Walerego Sławka]|13|218|
 130687|35-317|Rzeszów|ul. Lotosowa[Lotosowa]|14a||
-130688|05-077[00-175]|Warszawa|ul. Jana Pawła II[Aleja Jana Pawła II]|80|d28|
+130688|00-175|Warszawa|al. Jana Pawła II[Aleja Jana Pawła II]|80|d28|
 130689|91-161|Łódź|ul. Mencla[Mencla]|5||
 130690|34-130|Kalwaria Zebrzydowska|ul. Krakowska[Krakowska]|1a||
 130691|05-270|Marki|ul. Duża[Duża]|5a||
@@ -69482,7 +69585,7 @@
 112908|23-235|Świeciechów Duży||157||
 112909|32-040|Świątniki Górne|ul. Stawowa|12||
 112910|30-147|Kraków|ul. Na Błonie|9|65|
-131278|03-144|Warszawa|ul. Światowida[Pl. Światowida]|4|4|
+131278|03-144|Warszawa|pl. Światowida|4|4|
 131279|34-511|Kościelisko|ul. Karpielówka[Karpielówka]|16|17|
 131280|03-982|Warszawa|ul. Polskich Skrzydeł[Polskich Skrzydeł]|2|19|
 131281|00-725[00-724]|Warszawa|ul. Chełmska|18B|61|
@@ -69649,7 +69752,7 @@
 112048|46-282|Laskowice|ul. Szkolna|15||
 112969|39-120|Sędziszów Małopolski|ul. Wyszyńskiego|23||
 112049|41-300|Dąbrowa Górnicza|ul. Pułaskiego|20||
-112050|28-100|Busko-Zdrój[Busko - Zdrój]|ul. Kościuszki[os. Kościuszki]|9|22|
+112050|28-100|Busko-Zdrój[Busko - Zdrój]|os. Kościuszki|9|22|
 112609|34-451|Tylmanowa|os. Gabrysie[os.Gabrysie]|315D||
 112610|28-100|Bilczów||40a||
 112611|33-150|Wola Rzędzińska||315A||
@@ -70204,7 +70307,7 @@
 113030|31-223|Kraków|ul. Pachońskiego[ul. Henryka Pachońskiego]|18|102|
 113031|30-329|Kraków|ul. Praska|38||
 113032|34-321|Łękawica|ul. Za Wodą|12||
-113033|31-861[30-405]|Kraków|ul. Bogdanowicza[ul.Bogdanowicza]|4||
+113033|31-588[30-405]|Kraków|ul. Bogdanowicza[ul.Bogdanowicza]|4||
 113034|37-450|Stalowa Wola|ul. Popiełuszki[ul.Popiełuszki]|17a|45|
 113035|32-020|Bodzanów||60||
 113036|80-041|Gdańsk|ul. Hoene[Ul. E. Hoene]|1D|37|
@@ -70346,7 +70449,7 @@
 113079|19-300|Ełk|ul. Asnyka[ul. Adama Asnyka]|11|2|
 113080|30-698|Kraków|ul. Geologów[ul.Geologów]|17||
 113081|32-020|Wieliczka|os. Szymanowskiego[os.Szymanowskiego]|17|63|
-113082|42-436|Pilica|ul. Mickiewicza[Plac Mickiewicza]|38A||
+113082|42-436|Pilica|pl. Mickiewicza[Plac Mickiewicza]|38A||
 129507|30-348|Kraków|ul. Chmieleniec[Chmieleniec]|5||
 132570|82-500|Szadowo[Kwidzyn]|Szadowo 1|1||
 131973|30-650|Kraków|ul. Skowronia[Skowronia]|19a||
@@ -70594,7 +70697,7 @@
 111708|37-110|Kopanie Żołyńskie||72a||
 112204|88-180|Gniewkówiec||38a||
 112205|27-200|Starachowice|ul. Smugowa|108||
-112207|31-861[30-668]|Kraków|ul. Polonijna|7|16|
+112207|31-588[30-668]|Kraków|ul. Polonijna|7|16|
 112208|43-340|Kozy|ul. Wiosenna|28||
 112210|32-010|Goszcza|ul. Kościuszki[ul. Tadeusza Kościuszki]|30||
 112212|43-254|Krzyżowice|ul. Kościuszki|3||
@@ -71159,6 +71262,7 @@
 138186|05-600|Grójec|ul. Słowackiego[Słowackiego]|82A|7|
 138831|50-430|Wrocław|ul. Brzeska[Brzeska]|9|4|
 138832|73-200|Choszczno|ul. Poziomkowa[Poziomkowa]|3||
+138833|41-902|Bytom|ul. Żeromskiego[S. Żeromskiego]|29|52|
 138834|30-433|Kraków|ul. Szyllinga[Gen. A. Szyllinga]|38||
 138835|58-560|Jelenia Góra|ul. Sowińskiego[Sowińskiego]|16||
 138836|25-003|Kielce|ul. Wspólna[Wspólna]|19|34|
@@ -71432,7 +71536,7 @@
 114033|37-100|Wysoka||117C||
 114034|39-310|Partynia||124a||
 114036|39-215|Czarna|ul. Zielona|7||
-114037|31-861[30-421]|Kraków|ul. Na Grządkach|5a|6|
+114037|31-588[30-421]|Kraków|ul. Na Grządkach|5a|6|
 114038|25-443|Kielce|ul. Starogórska|18a||
 114040|33-380|Krynica-Zdrój|ul. Czarny Potok[ul.Czarny-Potok]|2|1|
 114041|30-147|Kraków|ul. Na Błonie|13A|91|
@@ -71507,7 +71611,7 @@
 117191|97-500|Radomsko|ul. Sienkiewicza|114||
 117193|30-413|Kraków|ul. Huculska[ul.Huculska]|10||
 117194|31-982|Kraków[Kraków (Kraków-Nowa Huta)]|ul. Tomickiego[ul. Biskupa Piotra Tomickiego]|22/24||
-114855|31-861[30-667]|Kraków|ul. Facimiech|9|7|
+114855|31-588[30-667]|Kraków|ul. Facimiech|9|7|
 117511|38-480|Rymanów|ul. Zielona|8B||
 117513|46-070|Komprachcice|ul. Ochodzka|12A||
 117884|43-300|Bielsko-Biała|ul. Pod Grodziskiem|81||
@@ -71590,6 +71694,7 @@
 111759|30-611|Kraków|ul. Wysłouchów|30C|43|
 111794|27-600|Sandomierz|ul. Mariacka|3|3|
 113153|30-534[30-531]|Kraków|ul. Limanowskiego|50|5|
+113221|44-241[44-240]|Żory|os. Władysława[os. Księcia Władysława]|9C|24|
 113238|31-571[31-516]|Kraków|ul. Mogilska|121c|44|
 113423|32-593|Żarki|ul. Astronautów|99||
 111016|43-608[43-600]|Jaworzno|ul. Lipinka|45a||
@@ -73024,6 +73129,7 @@
 116196|46-320|Kowale|ul. Kiczmachów|9a||
 113777|31-345|Kraków|ul. Sosnowiecka|32D|14|
 116580|31-480|Kraków|ul. Liryczna[ul.Liryczna]|9|1|
+116581|31-861|Kraków|os. Niepodległości|6|151|
 116582|44-240|Żory|ul. Aleja Wojska Polskiego[al. Wojska Polskiego]|49||
 116584|33-333|Cieniawa||4||
 116586|22-400|Zamość|ul. Zamoyskiego[ul. Hetmana Jana Zamoyskiego]|24|1|
@@ -73084,7 +73190,7 @@
 115659|98-200|Sieradz|ul. Mickiewicza[ul. Adama Mickiewicza]|9|1|
 115660|39-200|Dębica|ul. Wielopolska|57||
 119316|32-552|Płaza|ul. Karłowicza|22||
-115661|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|4|47|
+115661|32-800|Brzesko|os. Władysława Jagiełły|4|47|
 115662|41-949|Piekary Śląskie|ul. Nankera|189||
 115663|31-617|Kraków|os. Złotego Wieku|27|9|
 115664|30-011|Kraków|ul. Oboźna[ul.Oboźna]|11B|13|
@@ -73987,7 +74093,7 @@
 113823|34-721|Harkabuz||22a||
 113824|22-652|Telatyn|ul. Pogodna|10||
 113825|32-700|Bochnia|ul. Podedworze|16||
-113827|31-861[30-667]|Kraków|ul. Facimiech|4B|28|
+113827|31-588[30-667]|Kraków|ul. Facimiech|4B|28|
 113829|34-220|Maków Podhalański|ul. Wolności|160||
 139565|38-422|Krościenko Wyżne|ul. Kopalniana[Kopalniana]|1||
 139566|05-080|Hornówek|ul. Kurowskiego[Kurowskiego]|16||
@@ -73996,6 +74102,7 @@
 139570|43-200|Pszczyna|ul. Konopnickiej[Konopnickiej]|18||
 139571|92-701|Teolin[Łódź]|Teolin|19||
 139572|85-229|Bydgoszcz|ul. Garbary[Garbary]|5|53|
+139573|04-015|Warszawa|al. Waszyngtona[Waszyngtona]|100|27|
 139575|43-220|Świerczyniec|ul. Sierpowa[Sierpowa]|3||
 139576|86-120|Małociechowo[Pruszcz]|Małociechowo|39||
 139577|28-100|Siesławice[Busko-Zdrój]|Siesławice|122 H||
@@ -74064,7 +74171,7 @@
 115969|26-020|Chmielnik|ul. 1 Maja|12||
 115970|32-860|Czchów|ul. Bulandy[ul. Księdza Stanisława Bulandy]|19B||
 115971|19-300|Ełk|ul. Wawelska[Wawelska]|7||
-115972|31-861[30-668]|Kraków|ul. Polonijna[ul.Polonijna]|7|28|
+115972|31-588[30-668]|Kraków|ul. Polonijna[ul.Polonijna]|7|28|
 115973|42-270|Kłomnice|ul. Częstochowska[ul.Częstochowska]|119||
 115974|42-500|Będzin|ul. Narutowicza[ul. Gabriela Narutowicza]|4|12|
 115975|43-353|Porąbka|ul. Brzoskwiniowa|6||
@@ -74164,7 +74271,7 @@
 111460|39-400|Tarnobrzeg|ul. Aleja Skalna Góra[ul. Skalna Góra]|8|21|
 116412|32-861|Iwkowa||779||
 116413|30-324|Kraków|ul. Szwedzka|23|8|
-116414|32-340|Wolbrom|ul. Skalska[Os. Skalska]|7|21|
+116414|32-340|Wolbrom|os. Skalska|7|21|
 116415|42-575|Góra Siewierska|ul. Kościuszki|57a||
 116416|26-624|Kotarwice|ul. Wierzbicka|216A||
 116417|32-045|Sułoszowa|ul. Olkuska|554||
@@ -74612,6 +74719,7 @@
 139317|32-300|Olkusz|ul. Sosnowa[Sosnowa]|40|8|
 139318|38-400|Krosno|ul. Staszica[Ks. Stanisława Staszica]|12|13|
 139319|40-668|Katowice|ul. Bażantów[Bażantów]|10|16|
+139320|31-861[31-862]|Kraków|os. Niepodległości[Osiedle Niepodległości]|18|30|
 115383|32-090|Słomniki|ul. Proszowska|47||
 115384|38-500|Sanok|ul. Mazurska|3||
 115385|39-208|Gumniska||34||
@@ -75092,7 +75200,7 @@
 118383|32-840|Faliszewice||13||
 118384|30-363|Kraków|ul. Kobierzyńska[ul.Kobierzyńska]|59|11|
 118385|86-300|Grudziądz|ul. Rapackiego|36|5|
-118386|31-861[30-418]|Kraków|ul. Oraczy|5|5|
+118386|31-588[30-418]|Kraków|ul. Oraczy|5|5|
 118387|34-382|Brzuśnik||89||
 118388|97-200|Tomaszów Mazowiecki|ul. Wola Wiaderna|43||
 118389|43-300|Bielsko-Biała|ul. Plater[ul. Emilii Plater]|5|2|
@@ -75194,7 +75302,7 @@
 118416|42-436|Pilica|ul. Żarnowiecka|16||
 118417|32-863|Tworkowa||43||
 118418|32-800|Brzesko|ul. Armii Andersa|5||
-118420|32-340|Wolbrom|ul. Skalska[os. Skalska]|6|69|
+118420|32-340|Wolbrom|os. Skalska|6|69|
 118421|32-300|Zederman||240D||
 118422|37-500|Jarosław|ul. Mieszka I|5||
 118423|83-050|Bielkówko|ul. Jantar|5||
@@ -75315,8 +75423,9 @@
 119580|32-700|Bochnia|ul. Brzeźnicka[ul.Brzeźnica]|28a||
 119581|31-231|Kraków|ul. Siewna|30b|82|
 119582|32-020|Wieliczka|ul. Politechniczna|13||
+119583|31-861|Kraków|os. Niepodległości|7|15|
 119584|28-210|Rosołówka||23||
-119585|31-861[30-667]|Kraków|ul. Facimiech|16|48|
+119585|31-588[30-667]|Kraków|ul. Facimiech|16|48|
 119586|31-346|Kraków|ul. Stawowa|141|16|
 119588|32-620|Brzeszcze|ul. Szymanowskiego|4/1|30|
 119589|31-589|Kraków|ul. Sołtysowska|37C|34|
@@ -75795,6 +75904,7 @@
 119204|30-058|Kraków|ul. Lea[ul. Juliusza Lea]|75|67|
 119205|34-735|Konina||432||
 119206|25-205|Kielce|ul. Wojska Polskiego|256|9|
+119207|31-861|Kraków|os. Niepodległości|8|126|
 119208|32-400|Myślenice|ul. Górna[ul.Górna]|15a||
 119209|34-400|Nowy Targ|ul. Maczka[ul. Generała Maczka]|1|24|
 119211|38-441[38-440]|Lubatowa|ul. Lubatowa|307c||
@@ -75850,7 +75960,7 @@
 118651|37-306|Grodzisko Górne||191 b||
 118652|27-600|Sandomierz|ul. Stara Prochownia[ul.Stara Prochownia]|4||
 83002|22-100|Ludwinów||7F||
-118653|32-020|Wieliczka|ul. Boża Wola[os. Boża Wola]|6|4|
+118653|32-020|Wieliczka|os. Boża Wola|6|4|
 118654|32-800|Jasień|ul. Kasprowicza[ul.Kasprowicza]|89||
 118655|38-307|Sękowa||381||
 118656|43-243|Wisła Mała|ul. Orla|8||
@@ -76711,7 +76821,7 @@
 124232|36-220|Jasienica Rosielna||351||
 124233|34-200|Sucha Beskidzka|ul. Kubasy|13||
 119874|32-095|Krasieniec Zakupny||59||
-119875|98-300|Wieluń|ul. Wyszyńskiego[os. Wyszyńskiego]|11|5|
+119875|98-300|Wieluń|os. Wyszyńskiego|11|5|
 119876|32-440|Sułkowice|ul. Osiedle Zielona[os. Zielona]|47||
 119877|43-340|Kozy|ul. Tęczowa[ul.Tęczowa]|9||
 119878|32-652|Bulowice|ul. Północna|38||
@@ -76781,7 +76891,7 @@
 119914|27-415|Kolonia Piaski||16||
 119915|37-740|Leszczawa Dolna||45||
 119916|22-100|Pokrówka|ul. Wojsławicka|72||
-145699|31-861[30-668]|Kraków|ul. Polonijna|9|29|
+145699|31-588[30-668]|Kraków|ul. Polonijna|9|29|
 119917|31-607|Kraków|os. Tysiąclecia[os.Tysiąclecia]|19|45|
 119918|31-059|Kraków|ul. Bożego Ciała[ul.Bożego Ciała]|8|3|
 120148|41-200|Sosnowiec|ul. Harcerska|6|92|
@@ -76904,7 +77014,7 @@
 120103|31-543|Kraków|ul. Nullo[ul.Nullo]|42|69|
 120108|31-878|Kraków[Kraków (Kraków-Nowa Huta)]|ul. Orlińskiego[Bolesława Orlińskiego]|6|169|
 120109|32-031|Konary|ul. Gubałówka|1||
-122641|32-020|Wieliczka|ul. Sienkiewicza[os. Sienkiewicza]|8|43|
+122641|32-020|Wieliczka|os. Sienkiewicza|8|43|
 122652|30-716|Kraków|ul. Przewóz[Przewóz]|32E|36|
 122656|32-005|Niepołomice|ul. Potasińskiego[Potasińskiego]|2A|24|
 120630|34-400|Nowy Targ|os. Niwa|66a|66a|
@@ -77257,6 +77367,7 @@
 125844|35-601|Rzeszów|ul. Zelwerowicza[ul.Zelwerowicza]|28e||
 125845|42-421|Włodowice|ul. Krakowska|6||
 125846|32-020|Czarnochowice||568|28|
+125847|40-749|Katowice|ul. Wolności[ul.Wolności]|3|3|
 125848|74-210|Laskowo||1||
 125849|97-400|Korczew||40||
 125851|36-072|Świlcza||648||
@@ -77450,7 +77561,7 @@
 127655|37-415|Zaleszany|ul. Łączki|21||
 127656|33-100|Tarnów|ul. Jastruna[ul.Jastruna]|54||
 127657|27-200|Starachowice|ul. Nowowiejska[ul.Nowowiejska]|134A||
-127658|31-861[30-405]|Kraków|ul. Szaniawskiego[ul.Szaniawskiego]|12a||
+127658|31-588[30-405]|Kraków|ul. Szaniawskiego[ul.Szaniawskiego]|12a||
 127659|43-391|Mazańcowice||700||
 127660|32-744|Gierczyce||196||
 127661|05-506|Lesznowola|ul. Zajączka|18||
@@ -77682,6 +77793,7 @@
 146793|35-119|Rzeszów|ul. Lewakowskiego[Lewakowskiego]|13|27|
 146794|43-340|Kozy|ul. Klonowa[Klonowa]|38||
 146796|43-100|Tychy|ul. Cisów[Cisów]|10||
+146797|41-806[41-800]|Zabrze|ul. Wolności[Wolności]|522a|7|
 146798|31-416|Kraków|ul. Marchołta[Marchołta]|51|53|
 146799|32-010|Krzysztoforzyce|ul. Jarzębinowa[Jarzębinowa]|2||
 146800|31-764|Kraków|ul. Studzienna[Studzienna]|1c||
@@ -78007,7 +78119,7 @@
 146695|26-021|Brzechów[Daleszyce]|Brzechów|74||
 146696|30-798|Kraków|ul. Czeczów[Henryka i Karola Czeczów]|34|98|
 146698|34-600|Lipowe|Lipowe|9||
-146699|31-861[30-668]|Kraków|ul. Polonijna[Polonijna]|11|60|
+146699|31-588[30-668]|Kraków|ul. Polonijna[Polonijna]|11|60|
 146700|30-126|Kraków|ul. Stańczyka[Stańczyka]|11|10|
 146701|31-414|Kraków|ul. Celarowska[Celarowska]|30|84|
 125438|34-745|Spytkowice||501a||
@@ -78165,7 +78277,7 @@
 147123|32-445|Krzyszkowice|Krzyszkowice|337A||
 147124|97-500|Radomsko|ul. Jankiela[Jankiela]|12||
 147126|30-611|Kraków|ul. Halszki[Halszki]|28|70|
-147127|32-020|Wieliczka|ul. Sienkiewicza[os. Sienkiewicza]|8|3|
+147127|32-020|Wieliczka|os. Sienkiewicza|8|3|
 147128|30-394|Kraków|ul. Podole[Podole]|20||
 147129|31-444|Kraków|ul. Ostatnia[Ostatnia]|2D|78|
 147132|30-695|Kraków|ul. Rydygiera[Rydygiera]|15|2|
@@ -78989,7 +79101,7 @@
 124237|43-316[43-300]|Bielsko-Biała|ul. Blokowa|21||
 124238|39-203|Korzeniów||47c||
 124239|32-851|Jadowniki|ul. Królewska[ul.Królewska]|9||
-124240|27-530|Ożarów|ul. Osiedle Wzgórze[os. Wzgórze]|37|10|
+124240|27-530|Ożarów|os. Wzgórze|37|10|
 124241|44-217|Rybnik|ul. Zdrzałka[ul. Ludwika Zdrzałka]|39a||
 124242|42-221|Częstochowa|ul. Kredowa|5||
 124243|42-286|Koszęcin|ul. Frezjowa|4||
@@ -79070,7 +79182,7 @@
 125129|37-306|Grodzisko Dolne||143B||
 125130|44-285|Pogrzebień|ul. Potoki|1||
 125131|33-206|Luszowice|ul. Dąbrowska|75||
-125134|32-020|Wieliczka|ul. Sienkiewicza[Os. Sienkiewicza]|11|22|
+125134|32-020|Wieliczka|os. Sienkiewicza|11|22|
 125135|32-082|Bolechowice|ul. Zielona|9||
 125136|36-020|Hermanowa||128c||
 125137|40-583|Katowice|ul. Teresy[ul.Teresy]|15|3|
@@ -79831,6 +79943,7 @@
 128107|87-300|Brodnica|ul. Słowackiego|14||
 128108|31-509|Kraków|ul. Lubomirskiego[ul.Lubomirskiego]|25|7|
 128109|34-340|Jeleśnia|ul. Klonowa|9||
+128110|53-430|Wrocław|ul. Pereca|23b|15|
 128111|41-400|Mysłowice|ul. Leśmiana[ul. Bolesława Leśmiana]|23A||
 128113|42-202|Częstochowa|ul. Godebskiego|19|7|
 128114|33-122|Wierzchosławice||712||
@@ -80126,6 +80239,7 @@
 128542|22-200|Włodawa|ul. Broniewskiego|1||
 128543|97-300|Piotrków Trybunalski|ul. Twardosławicka|52||
 128544|27-100|Jasieniec Iłżecki Dolny||153||
+128546|15-776|Białystok|al. Konstytucji 3 Maja|22|65|
 128547|65-128|Zielona Góra|ul. Waniliowa|19||
 128548|32-700|Nieszkowice Wielkie||111||
 128549|40-763|Katowice|ul. Rybacka|6|1|
@@ -80260,6 +80374,7 @@
 128245|47-100|Strzelce Opolskie|ul. Habryki[ul.Habryki]|5a||
 128246|26-120|Bugaj||36||
 127081|32-010|Zastów|ul. Ogrodowa|9||
+128563|34-100|Wadowice|os. Kopernika|2|3|
 128564|59-305|Rudna|ul. Kolejowa|6||
 128565|39-451|Skopanie|ul. Mickiewicza|8|36|
 128566|34-436|Maniowy|ul. Kościuszki[ul. Tadeusza Kościuszki]|48||
@@ -80333,6 +80448,7 @@
 127054|38-400|Krosno|ul. Lwowska[ul.Lwowska]|9|2|
 127055|32-087|Zielonki|ul. Kanadyjska|58C||
 127057|28-142|Tuczępy||3A||
+127058|31-861|Kraków|os. Niepodległości|3a|11|
 127059|32-600|Oświęcim|ul. Jana III Sobieskiego[ul.Jana III Sobieskiego]|5|4|
 127060|08-103[08-110]|Siedlce|ul. Okrężna[ul.Okrężna]|1A||
 127061|34-122|Nidek|ul. Judy Tadeusza[ul. Św. Judy Tadeusza]|10||
@@ -81273,7 +81389,7 @@
 124407|43-382|Bielsko-Biała|ul. Słomiana|32||
 124408|98-270|Złoczew|ul. Burzenińska|32||
 124409|43-267|Suszec|ul. Ogrodowa|33||
-124410|32-720|Nowy Wiśnicz|ul. Leszczyny[os. Leszczyny]|6||
+124410|32-720|Nowy Wiśnicz|os. Leszczyny|6||
 124411|42-575|Gródków|ul. Poprzeczna[ul.Poprzeczna]|9c||
 124412|26-660|Wsola|ul. Warszawska|47||
 124413|30-693|Kraków|ul. Urwana|8||
@@ -81309,6 +81425,7 @@
 126827|33-112|Tarnowiec|ul. Zimna Woda|18B||
 126829|34-335|Korbielów|ul. Pod Weską|69||
 126830|30-399|Kraków|ul. Prażmowskiego[ul. Adama Prażmowskiego]|6a||
+126831|25-431|Kielce|ul. Piłsudskiego[ul. Marszałka Józefa Piłsudskiego]|26|46|
 126832|66-400|Gorzów Wielkopolski|ul. Staffa[ul.Staffa]|5c|5|
 126834|71-497|Szczecin|ul. Piotrowskiego[ul. Tadeusza Piotrowskiego]|2|2|
 126835|44-122[44-100]|Gliwice|ul. Krucza|8|14|
@@ -81937,7 +82054,7 @@
 133539|39-200|Dębica|ul. Macha[ul. Wilhelma Macha]|17a||
 133540|42-436|Kocikowa||48a||
 133541|33-314|Łososina Dolna||96|96|
-133542|31-861[31-144]|Kraków|ul. Biskupia|14|16|
+133542|31-588[31-144]|Kraków|ul. Biskupia|14|16|
 133543|38-700|Ustjanowa Dolna||14||
 133544|28-100|Busko-Zdrój|ul. Boczna|4||
 133545|22-375|Izbica|ul. Lubelska|108||
@@ -82229,7 +82346,7 @@
 133855|29-100|Włoszczowa|ul. Koniecpolska|59||
 133857|37-450|Stalowa Wola|ul. Poniatowskiego[ul.Poniatowskiego]|84A|18|
 133858|31-325|Kraków|ul. Palacha[ul. Jana Palacha]|15|15|
-133859|15-704[15-196]|Białystok|pl. Moniuszki[ul. Stanisława Moniuszki]|80||
+133859|16-070[15-196]|Białystok|pl. Moniuszki[ul. Stanisława Moniuszki]|80||
 133860|31-845|Kraków|os. Przy Arce|2|231|
 133861|66-400|Gorzów Wielkopolski|ul. Furmanka|5||
 133862|22-400|Zamość|ul. Hrubieszowska|61a|31|
@@ -82964,6 +83081,7 @@
 136768|32-300|Olkusz|ul. Korczaka[ul.Korczaka]|2|30|
 136769|43-200|Pszczyna|ul. Bogedaina|35|4|
 136770|42-500|Będzin|ul. Daszyńskiego|2a|12|
+136771|25-431|Kielce|ul. Piłsudskiego[ul. Marszałka Józefa Piłsudskiego]|16|62|
 136772|35-213|Rzeszów|ul. Dębicka|406||
 137314|32-310|Chechło|ul. Hutnicza|55C||
 137315|32-641|Piotrowice|ul. Andrychowska[ul.Andrychowska]|346||
@@ -83113,7 +83231,7 @@
 138043|33-200|Dąbrowa Tarnowska|ul. Zagumnie|60||
 138044|26-200|Końskie|ul. Akacjowa|27||
 138046|30-019|Kraków|ul. Mazowiecka|55|43|
-138049|32-650|Kęty|ul. Królickiego[os. St. Królickiego]|9|18|
+138049|32-650|Kęty|os. Królickiego[os. St. Królickiego]|9|18|
 138050|33-100|Tarnów|ul. Bitwy pod Studziankami[Ul.Bitwy pod Studziankami]|10|111|
 138051|32-412|Węglówka||119||
 138052|39-307|Kliszów||183||
@@ -83462,7 +83580,7 @@
 136975|96-200|Rawa Mazowiecka|ul. Gąsiorowskiego|32||
 136976|31-271[31-272]|Kraków|ul. Krowoderskich Zuchów|13|107|
 136977|28-400|Pińczów|ul. Sikorskiego[ul. Gen. Sikorskiego]|20|5|
-136978|34-350|Węgierska Górka|ul. Wyzwolenia[os. Wyzwolenia]|680|4|
+136978|34-350|Węgierska Górka|os. Wyzwolenia|680|4|
 136979|33-318|Bartkowa-Posadowa||300||
 136980|30-835|Kraków|ul. Teligi[ul.Leonida Teligi]|23|134|
 136981|33-300|Nowy Sącz|ul. Starowiejska|42|42|
@@ -84020,7 +84138,7 @@
 137858|30-364|Kraków|ul. Jacka[ul. Św. Jacka]|22|1|
 137859|24-200|Bełżyce|ul. Fabryczna|4|410|
 137860|34-108|Frydrychowice|ul. Wadowicka|24||
-137861|32-800|Brzesko|ul. Władysława Jagiełły[os. Władysława Jagiełły]|9|2|
+137861|32-800|Brzesko|os. Władysława Jagiełły|9|2|
 138783|31-474|Kraków|ul. Młyńska[Młyńska]|14|2|
 134287|42-202|Częstochowa|ul. Kwatermistrzów|22||
 136498|30-106[31-334]|Kraków|ul. Łowiecka[ul. Łokietka]|156|f/1|
@@ -84440,7 +84558,7 @@
 135147|32-085|Modlnica|ul. Wrzosowa|3||
 135149|34-407|Ratułów||51a||
 135150|39-217|Grabiny||50H||
-135151|32-650|Kęty|ul. Kościuszki[Os. Tadeusza Kościuszki]|2|7|
+135151|32-650|Kęty|os. Kościuszki[Os. Tadeusza Kościuszki]|2|7|
 135152|33-131|Bobrowniki Wielkie|ul. Długa|33||
 135153|28-530|Zakrzów||20||
 135154|09-407|Płock|ul. Powstańców Styczniowych|19|13|
@@ -84731,7 +84849,7 @@
 135800|30-694|Kraków|ul. Żelazowskiego[ul. Romana Żelazowskiego]|35K||
 135801|26-052|Wola Murowana||11a||
 135802|31-328|Kraków|ul. Stachiewicza[ul. Piotra Stachiewicza]|45|4|
-135803|27-530|Ożarów|ul. Osiedle Wzgórze[os. Wzgórze]|14|23|
+135803|27-530|Ożarów|os. Wzgórze|14|23|
 135804|83-000|Pruszcz Gdański|ul. Horsztyńskiego|4D|2|
 135806|32-410|Dziekanowice||113||
 135807|44-102[44-100]|Gliwice|ul. Witkiewicza|39|11|
@@ -85141,6 +85259,7 @@
 135928|43-392|Międzyrzecze Górne||747||
 135929|34-232|Lachowice||242||
 136341|28-100|Busko-Zdrój[Busko Zdrój]|os. Piłsudskiego|12|29|
+136343|31-861|Kraków|os. Niepodległości|6|194|
 136344|97-500|Kietlin|ul. Słoneczna|3||
 136345|42-582|Rogoźnik|ul. Parkowa|5||
 136346|38-200|Jasło|ul. Szkolna|5|16|
@@ -85459,6 +85578,7 @@
 135424|32-014|Brzezie||244||
 135426|25-345|Kielce|ul. Szczecińska|17|98|
 135427|32-014|Brzezie||385||
+135428|31-949|Kraków|os. Zgody|5|61|
 135429|33-113|Zbylitowska Góra|ul. Jana Pawła II|3||
 135430|31-422|Kraków|ul. Strzelców|7c|18|
 135431|31-763|Kraków|ul. Kantorowicka|169||
@@ -85680,6 +85800,7 @@
 134983|32-436|Tokarnia||760||
 134984|32-412|Wierzbanowa||206||
 134986|30-348|Kraków|ul. Chmieleniec|41|43|
+134988|35-307|Rzeszów|al. Armii Krajowej|28||
 134989|31-416|Kraków|ul. Marchołta|47|9|
 134990|33-300|Boguszowa||14||
 134991|97-200|Tomaszów Mazowiecki|ul. Mazowiecka|11/13|49|
@@ -85688,6 +85809,7 @@
 134994|53-020|Wrocław|ul. Szarugi|11|6|
 134995|30-898|Kraków|ul. Mogiłki|13||
 134996|39-460|Nowa Dęba|ul. Jana Pawła II|3|4|
+134997|30-509[31-861]|Kraków|pl. Niepodległości[Os.Niepodległości]|5|190|
 134998|97-500|Radomsko|ul. Piwna[ul.Piwna]|1|2|
 134999|38-200|Sobniów||44a||
 135000|37-700|Przemyśl|ul. Sienna|10a||
@@ -85923,7 +86045,6 @@
 136447|28-400|Leszcze||53||
 136448|30-499|Kraków|ul. Opatkowicka|7a||
 136449|30-109|Kraków[Kraków (Kraków-Krowodrza)]|ul. Prusa[ul. Bolesława Prusa]|1|11|
-135055|07-410[07-401]|Ostrołęka|ul. Borówkowa|9||
 135056|98-355|Działoszyn|ul. Niecała|33||
 135057|42-439|Łany Średnie||95||
 136128|31-625|Kraków|os. Piastów|65|64|
@@ -86041,7 +86162,7 @@
 134455|38-406|Bratkówka||48||
 136572|36-053|Kamień||382||
 136573|33-389|Kadcza||245|245|
-136574|31-861[30-668]|Kraków|ul. Polonijna|7|40|
+136574|31-588[30-668]|Kraków|ul. Polonijna|7|40|
 136575|32-020|Siercza||292||
 136576|67-210|Serby|ul. Parkowa[ul.Parkowa]|4||
 136577|01-258|Warszawa|ul. Fort Wola[ul.Fort Wola]|12a|139|
@@ -87076,6 +87197,7 @@
 141090|42-233|Kuźnica Kiedrzyńska|ul. Witosa|3||
 141091|63-400|Ostrów Wielkopolski[Ostrów Wlkp.]|ul. Klubowa|25||
 141092|05-400|Otwock|ul. Pąkowa|2||
+141093|34-100|Wadowice|os. Kopernika|16|3|
 141094|44-292|Zwonowice|ul. Jankowicka[ul.Jankowicka]|31||
 141095|27-400|Świrna||59A||
 141096|27-600|Sandomierz|ul. Cieśli|9|24|
@@ -87103,7 +87225,7 @@
 141908|30-147|Kraków|ul. Na Błonie|11|104|
 141909|42-530|Dąbrowa Górnicza|ul. Zakawie|47||
 141910|37-600|Lisie Jamy|ul. Wspólna|34||
-141911|32-005|Niepołomice|ul. Suszówka[os. Suszówka]|78||
+141911|32-005|Niepołomice|os. Suszówka|78||
 141912|30-318|Kraków|ul. Zagrody|8|10|
 141913|24-100|Puławy|ul. Sienkiewicza|45||
 141914|25-351|Cedzyna|ul. Cedzyna|176h||
@@ -87686,6 +87808,7 @@
 142330|28-133|Chrzanów||38||
 141264|80-747|Gdańsk|ul. Toruńska|18b|33|
 142331|33-330|Grybów|ul. Na Skarpie|2||
+142332|31-861[31-862]|Kraków|os. Niepodległości|14|6|
 142333|30-732|Kraków|ul. Gliniana|16|33|
 142334|49-340|Lewin Brzeski|ul. Sikorskiego|2|2|
 142335|40-748|Katowice|ul. Chabrowa|15a||
@@ -87812,6 +87935,7 @@
 142377|74-320|Barlinek|ul. Kręta|22||
 142378|33-300|Nowy Sącz|ul. Nawojowska|15|10|
 142379|37-622|Werchrata||38A||
+142380|34-100|Wadowice|os. Kopernika|7a|40|
 142381|42-530|Dąbrowa Górnicza|ul. Kazdębie|33A||
 140325|31-341|Kraków|ul. Kiwerskiego[Kiwerskiego]|48||
 141271|37-630|Oleszyce|ul. Jana III Sobieskiego|22||
@@ -88131,6 +88255,7 @@
 142488|28-100|Busko-Zdrój|ul. Kusocińskiego[ul. Janusza Kusocińskiego]|5M|1|
 141684|42-622|Świerklaniec[Świerkaniec]|ul. Kościelna[ul.Kościelna]|90||
 141685|37-530|Sieniawa|ul. Rynek|1B|18|
+141686|34-100|Wadowice|os. Kopernika|5a|12|
 141687|43-155|Bieruń|ul. Mieszka I[ul.Mieszka I]|81||
 141688|22-400|Zamość|ul. Koźmiana[ul.Koźmiana]|10|17|
 141689|38-245|Czermna||520||
@@ -88138,7 +88263,7 @@
 141691|34-300|Żywiec|ul. Jaworowa|5||
 143445|30-898|Kraków|ul. Lipowskiego[ul.Lipowskiego]|16||
 141692|33-230|Szczucin|ul. Radomyślska|26||
-141693|27-100|Iłża|ul. Zuchowiec[os. Zuchowiec]|1|5|
+141693|27-100|Iłża|os. Zuchowiec|1|5|
 141694|33-350|Piwniczna-Zdrój|inne Pola[ul. Pola]|30||
 141696|31-323|Kraków|ul. Gdyńska|2a|8|
 141697|30-134|Kraków|ul. Zarzecze[ul.Zarzecze]|78||
@@ -88177,6 +88302,7 @@
 142172|28-330|Mierzawa||38||
 142173|30-716|Kraków|ul. Przewóz|36B|134|
 142174|30-199|Rząska|ul. Półkole|52A||
+142175|40-203|Katowice|al. Roździeńskiego[aleja Roździeńskiego]|88|79|
 142176|31-234|Kraków|ul. Stefanowicza[ul. Kajetana Stefanowicza]|188||
 142177|30-519[30-619]|Kraków|ul. Turniejowa|59|3|
 142489|32-020|Czarnochowice||333||
@@ -88581,7 +88707,7 @@
 141843|32-064|Brzezinka|ul. Widokowa|50||
 141844|36-007|Krasne||409E||
 141845|32-700|Bochnia|ul. Hillenbranda[ul. Waleriana Hillenbranda]|13||
-141846|27-100|Iłża|ul. Zuchowiec[os. Zuchowiec]|8|37|
+141846|27-100|Iłża|os. Zuchowiec|8|37|
 141847|28-230|Ruszcza|ul. Knothego|8||
 141848|37-306|Grodzisko Górne||320||
 141849|32-050|Skawina|ul. Żwirki i Wigury|7|6|
@@ -88835,6 +88961,7 @@
 144294|31-966|Kraków|os. Sportowe|23|1|
 144295|32-060|Rączna||743||
 144296|25-409|Kielce|ul. Wyspiańskiego|8|51|
+144297|40-756|Katowice|ul. Wyzwolenia|30||
 144298|63-400|Ostrów Wielkopolski|ul. Sowińskiego|61|1|
 144299|32-700|Krzeczów|ul. Krakowska|58||
 144300|35-119|Rzeszów|ul. Widokowa|1|23|
@@ -88866,6 +88993,7 @@
 144822|44-360|Lubomia|ul. Akacjowa|10A||
 144823|30-534|Kraków|ul. Limanowskiego|10|4|
 144824|37-400|Zarzecze|ul. Wiśniowa|5||
+144825|34-100|Wadowice|os. Kopernika|4|46|
 144826|33-333|Ptaszkowa||464||
 144827|37-700|Przemyśl|ul. Władysława Łokietka[ul.Władysława Łokietka]|6||
 144828|33-100|Tarnów|ul. Zarzyckiego|9-15|61|
@@ -89061,7 +89189,7 @@
 143793|95-200|Pabianice|ul. Prosta|1||
 143794|39-200|Nagawczyna||112D||
 143795|34-200|Sucha Beskidzka|os. Beskidzkie|7|3|
-143796|31-861[30-667]|Kraków|ul. Facimiech|18|36|
+143796|31-588[30-667]|Kraków|ul. Facimiech|18|36|
 143797|26-616|Radom|ul. Gospodarcza|14F||
 143798|33-100|Tarnów|ul. Podzamcze[ul.Podzamcze]|23||
 143799|28-366|Leśnica||26B||
@@ -89584,6 +89712,7 @@
 143950|31-831|Kraków|ul. Fatimska[ul.Fatimska]|10|16|
 143951|30-611|Kraków|ul. Wysłouchów[ul. Marii i Bolesława Wysłouchów]|6|10|
 143952|97-400|Bełchatów|ul. Srebrna|39||
+144493|41-936|Bytom|ul. Kościuszki|28||
 144494|32-087|Bibice|ul. Leśna|9h||
 144495|37-710|Żurawica|ul. Kościuszki|12||
 144496|58-506|Jelenia Góra|ul. Działkowicza[ul.Działkowicza]|23||
@@ -89697,7 +89826,7 @@
 143972|37-733|Hermanowice||42A||
 143973|43-188[43-180]|Orzesze|ul. Zawadzka|14||
 143974|40-079|Katowice|ul. Gliwicka|6|8|
-143976|98-300|Wieluń|ul. Wyszyńskiego[os. Wyszyńskiego]|38|20|
+143976|98-300|Wieluń|os. Wyszyńskiego|38|20|
 143977|43-384|Jaworze|ul. Panoramiczna|32||
 143978|77-330|Czarne|ul. Różana|9||
 143979|32-100|Proszowice|ul. Biały Krzyż|25||
@@ -90106,7 +90235,7 @@
 144643|31-525|Kraków|ul. Zaleskiego[ul.Bohdana Zaleskiego]|7|5|
 144644|42-256|Krasawa||18||
 144645|32-087|Zielonki|ul. Naukowa|7||
-144646|25-561|Kielce|ul. Sieje[os. Sieje]|7|12|
+144646|25-561|Kielce|os. Sieje|7|12|
 144648|66-446|Deszczno|ul. Lubuska|65||
 144649|25-020|Kielce|ul. Chęcińska|26C|16|
 144650|32-087|Zielonki|ul. Galicyjska|19|5|
@@ -90193,6 +90322,7 @@
 144101|33-100|Tarnów|ul. Nowodąbrowska|236B||
 144102|37-110|Żołynia|ul. Bikówka|43a||
 144103|35-505|Rzeszów|ul. Biecka[ul.Biecka]|9|2|
+144104|25-431|Kielce|ul. Piłsudskiego|10|48|
 144105|35-330|Rzeszów|ul. Jaklińskiej[ul. Józefy Jaklińskiej]|8||
 144106|15-435|Białystok|ul. Zamenhofa[ul. Ludwika Zamenhofa]|26|2|
 144107|41-407|Imielin|ul. Adamskiego[ul. Biskupa Stanisława Adamskiego]|44||
@@ -90381,7 +90511,7 @@
 145239|42-772|Łagiewniki Wielkie|ul. Topolowa|4||
 145240|97-200|Zaborów Pierwszy|ul. Łódzka[Ul.Łódzka]|55||
 145241|26-110|Skarżysko-Kamienna|ul. Kopernika|50||
-145242|97-425|Zelów|ul. Płocka[Os. Płocka]|7|5|
+145242|97-425|Zelów|os. Płocka|7|5|
 145243|30-393|Kraków|ul. Babińskiego|76||
 145244|31-242|Kraków|ul. Witkowicka|36|J/1|
 145245|26-026|Bilcza|ul. Marmurowa|91||
