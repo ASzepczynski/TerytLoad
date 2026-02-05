@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Moje logi
+AppData/Logs
+
+# Moje logi
+AppData/Address

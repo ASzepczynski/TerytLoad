@@ -31,8 +31,4 @@
     <ProjectReference Include="..\..\AddressLibrary\AddressLibrary\AddressLibrary.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="AppData\Logs\" />
-  </ItemGroup>
-
 </Project>
