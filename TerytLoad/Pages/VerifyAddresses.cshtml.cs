@@ -419,18 +419,19 @@ namespace TerytLoad.Pages
                         break;
                     case "BŁĄD":
                     case "OSTRZEŻENIE":
-                        errorLines.Add($"{result.Message}|{result.SourceId}|{kod}|{miasto}|{ulica}|{budynek}|{lokal}|{wojewodztwo}|{powiat}|{gmina}");
+                        var sDiag = result.DiagnosticLog?.Replace("\n", ",").Replace("\r", "");
+                        errorLines.Add($"{result.Message}/{sDiag}|{result.SourceId}|{kod}|{miasto}|{ulica}|{budynek}|{lokal}|{wojewodztwo}|{powiat}|{gmina}");
                         break;
                     default:
                         break;
                 }
             }
 
-        await System.IO.File.WriteAllLinesAsync(okPath, okLines, Encoding.UTF8);
-        await System.IO.File.WriteAllLinesAsync(errorPath, errorLines, Encoding.UTF8);
-        await System.IO.File.WriteAllLinesAsync(emptyPath, emptyLines, Encoding.UTF8);
+            await System.IO.File.WriteAllLinesAsync(okPath, okLines, Encoding.UTF8);
+            await System.IO.File.WriteAllLinesAsync(errorPath, errorLines, Encoding.UTF8);
+            await System.IO.File.WriteAllLinesAsync(emptyPath, emptyLines, Encoding.UTF8);
 
-        Console.WriteLine($"[VerifyAddresses] ✓ Zapisano wyniki:");
+            Console.WriteLine($"[VerifyAddresses] ✓ Zapisano wyniki:");
             Console.WriteLine($"   • {okPath} ({okLines.Count - 1} rekordów)");
             Console.WriteLine($"   • {errorPath} ({errorLines.Count - 1} rekordów)");
             Console.WriteLine($"   • {emptyPath} ({emptyLines.Count - 1} rekordów)");
@@ -442,33 +443,26 @@ namespace TerytLoad.Pages
         /// </summary>
         private string FormatWithChange(string? found, string? source)
         {
+            if (found == null) found = "";
+            if (source == null) source = "";
             // Jeśli oba są puste - zwróć pusty string
-            if (string.IsNullOrWhiteSpace(found) && string.IsNullOrWhiteSpace(source))
-                return string.Empty;
-
-            // Jeśli znaleziono wartość
-            if (!string.IsNullOrWhiteSpace(found))
+            
+            if (string.Equals(found.Trim(), source.Trim(), StringComparison.OrdinalIgnoreCase))
             {
-                // Jeśli źródło jest puste lub identyczne - zwróć tylko znalezioną
-                if (string.IsNullOrWhiteSpace(source) ||
-                    string.Equals(found.Trim(), source.Trim(), StringComparison.OrdinalIgnoreCase))
-                {
-                    return found;
-                }
-
-                // Różne - zwróć z oryginalną w nawiasach
-                return $"{found}[{source}]";
+            // Równe
+                return found;
             }
 
-            // Jeśli nie znaleziono, ale było źródło - zwróć źródło
-            return source ?? string.Empty;
-        }
-    }
+            // Różne - zwróć z oryginalną w nawiasach
+            return $"{found}[{source}]";
 
-    /// <summary>
-    /// Model wyniku weryfikacji pojedynczego adresu
-    /// </summary>
-    public class VerificationResult
+        }
+}
+
+/// <summary>
+/// Model wyniku weryfikacji pojedynczego adresu
+/// </summary>
+public class VerificationResult
 {
     public string SourceId { get; set; } = string.Empty;
     public string Status { get; set; } = string.Empty;

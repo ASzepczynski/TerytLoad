@@ -1,5 +1,2 @@
 ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
-A1350602|32-410|DOBCZYCE|Dziekanowice|83||||
-A1667026|32-410|DOBCZYCE|Dziekanowice|49||||
-A1960019|32-410|DOBCZYCE|Dziekanowice|49||||
-A1469372|37-416|ZBYDNIÓW|Dzierdziówka|17||||
+A1270570|02-017|WARSZAWA|al. Jerozolimskie|125|127|||

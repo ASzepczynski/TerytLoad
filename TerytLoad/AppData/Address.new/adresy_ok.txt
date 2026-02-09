@@ -1,0 +1,961 @@
+﻿ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
+A1344744|25-413|Kielce|ul. Domaniówka[Demoniówka 1/1B]|1/1B[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A39157|40-048|Katowice|ul. Rymera[ul.Rymera 3/4]|3/4[]||ŚLĄSKIE[ŁÓDZKIE]|Katowice[WIELUŃSKI]|Katowice[WIERZCHLAS]
+A21333|00-732|Warszawa|ul. Czerska[Czerska 8/10]|8/10[]||MAZOWIECKIE[ŁÓDZKIE]|Warszawa[WIELUŃSKI]|Warszawa[WIERZCHLAS]
+A1349569|32-400|Myślenice|os. 1000-lecia[Os. 1000 lecia 18/9]|18/9[]||MAŁOPOLSKIE|myślenicki[]|Myślenice[]
+A1350371|28-200|Staszów|ul. Konstytucji 3 Maja[Konstytucji 3 Maja 14/37]|14/37[]||ŚWIĘTOKRZYSKIE[]|staszowski[]|Staszów[]
+A1174312|31-466|Kraków|ul. Akacjowa[Akacjowa 3/22]|3/22[]||MAŁOPOLSKIE|Kraków|Kraków
+A1191782|33-191|Jastrzębia[JASTRZEBIA 180/6]||180/6[]||MAŁOPOLSKIE[ŁÓDZKIE]|tarnowski[WIELUŃSKI]|Ciężkowice[WIERZCHLAS]
+A1190705|30-076|Kraków|ul. Zakątek[ul.Zakątek 7/47]|7/47[]||MAŁOPOLSKIE|Kraków|Kraków
+A1343103|70-345|Szczecin|ul. Żółkiewskiego[ul.żółkiewskiego 4/2]|4/2[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1207231|23-425|Biszcza[BISZCZA 48A/2]||48A/2[]||LUBELSKIE[MAŁOPOLSKIE]|biłgorajski[KRAKÓW]|Biszcza[KRAKÓW]
+A1290751|00-896|Warszawa|ul. Ogrodowa[OGRODOWA 28/30]|28/30[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1674727|93-120|Łódź|ul. Przybyszewskiego[ul.Przybyszewskiego 199/205]|199/205[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1274900|50-344|Wrocław|ul. Gdańska[ul.Gdańska 7/9]|7/9[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1298860|31-875[]|Kraków|os. Dywizjonu 303[Dywizjonu 303 44/43]|44/43[]||MAŁOPOLSKIE|Kraków|Kraków
+A1376299|97-200|Tomaszów Mazowiecki[TOMASZÓW MAZ.]|ul. Milenijna[ul.Milenijna 38/40]|38/40[]||ŁÓDZKIE[]|tomaszowski[]|Tomaszów Mazowiecki[]
+A1322681|32-700|Bochnia|ul. Konstytucji 3 Maja[Konstytucji 3 Maja 27/9]|27/9[]||MAŁOPOLSKIE[]|bocheński[]|Bochnia[]
+A1372545|37-530|Dybków[DYBKÓW 4/2]||4/2[]||PODKARPACKIE|przeworski[]|Sieniawa[]
+A1372340|28-330|Przyłęczek[PRZYŁĘCZEK 37/7]||37/7[]||ŚWIĘTOKRZYSKIE|jędrzejowski[]|Wodzisław[]
+A1372375|28-330|Przezwody[PRZEZWODY 89/8]||89/8[]||ŚWIĘTOKRZYSKIE|jędrzejowski[]|Wodzisław[]
+A1413375|32-020|Pawlikowice[PAWLIKOWICE 37/2]||37/2[]||MAŁOPOLSKIE[]|wielicki[]|Wieliczka[]
+A1413379|32-090|Miłocice[MIŁOCICE 7B/2]||7B/2[]||MAŁOPOLSKIE[]|krakowski[]|Słomniki[]
+A1413380|32-400|Borzęta[BORZĘTA 191/4]||191/4[]||MAŁOPOLSKIE[]|myślenicki[]|Myślenice[]
+A1370428|34-114|Brzeźnica[BRZEŹNICA 53A/1]||53A/1[]||MAŁOPOLSKIE[]|wadowicki[]|Brzeźnica[]
+A1374662|00-537|Warszawa|ul. Krucza[ul.Krucza 6/14]|6/14[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1391411|56-330[39-206]|Pustków[PUSTKÓW 40/1]||40/1[]||DOLNOŚLĄSKIE[]|milicki[]|Cieszków[]
+A1393652|39-203|Bobrowa[BOBROWA 108D/1]||108D/1[]||PODKARPACKIE[]|dębicki[]|Żyraków[]
+A1405043|32-060|Kryspinów[KRYSPINÓW 1B/11]||1B/11[]||MAŁOPOLSKIE[]|krakowski[]|Liszki[]
+A1250012|03-902|Warszawa|ul. Czeska[ul. Czeska 24/2]|24/2[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1413231|26-110|Skarżysko-Kamienna[SKARŻYSKO-KAMIENNA 9/107]||9/107[]||ŚWIĘTOKRZYSKIE[]|skarżyski[]|Skarżysko-Kamienna[]
+A1412052|32-447|Siepraw[SIEPRAW 751/1]||751/1[]||MAŁOPOLSKIE[]|myślenicki[]|Siepraw[]
+A1413502|37-733|Grochowce[GROCHOWCE 27/6]||27/6[]||PODKARPACKIE[]|przemyski[]|Przemyśl[]
+A1426252|81-319|Gdynia|ul. Śląska[ul.Śląska 9/1]|9/1[]||POMORSKIE[]|Gdynia[]|Gdynia[]
+A1474599|96-100|Skierniewice|ul. Rawska[ul.Rawska 3/9]|3/9[]||ŁÓDZKIE[]|Skierniewice[]|Skierniewice[]
+A1474611|86-300|Grudziądz|ul. Piłsudskiego[ul.Piłsudskiego 15/17]|15/17[]||KUJAWSKO-POMORSKIE[]|Grudziądz[]|Grudziądz[]
+A1474613|56-400|Oleśnica[OLEŚNICA ŚLĄSKA]|ul. 3 Maja[ul.3 Maja 1/3]|1/3[]||DOLNOŚLĄSKIE[]|oleśnicki[]|Oleśnica[]
+A1431557|80-225|Gdańsk|ul. Wassowskiego[ul.Wassowskiego 19c/11]|19c/11[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1439074|06-211|Krasiniec[KRASINIEC 15/25]||15/25[]||MAZOWIECKIE[]|makowski[]|Płoniawy-Bramura[]
+A1472949|32-600|Oświęcim|ul. Mała[ul. Maja 1/18]|1/18[]||MAŁOPOLSKIE[]|oświęcimski[]|Oświęcim[]
+A1475366|97-200|Tomaszów Mazowiecki|ul. Handlowa[ul.Handlowa 35/37]|35/37[]||ŁÓDZKIE[]|tomaszowski[]|Tomaszów Mazowiecki[]
+A1475404|99-200|Poddębice|ul. Łódzka[ul.Łódzka 33/37]|33/37[]||ŁÓDZKIE[]|poddębicki[]|Poddębice[]
+A1474860|90-060[90-960]|Łódź|ul. Nawrot[ul.Nawrot 9/11]|9/11[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1474872|98-220|Zduńska Wola|ul. Kilińskiego[ul.Kilińskiego 7/11]|7/11[]||ŁÓDZKIE[]|zduńskowolski[]|Zduńska Wola[]
+A1475009|26-900|Kozienice|ul. Batalionów Chłopskich[ul. Batalionów Chłopskich 32/3]|32/3[]||MAZOWIECKIE[]|kozienicki[]|Kozienice[]
+A1475013|00-893|Warszawa|ul. Ogrodowa[ul. Ogrodowa 31/35]|31/35[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475016|00-497[00-400]|Warszawa|ul. Nowy Świat[ul. Nowy Świat 6/12]|6/12[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475022|04-301|Warszawa|ul. Grochowska[ul.Grochowska 124/126]|124/126[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475029|05-200|Wołomin|ul. Miła[ul.Miła 8/12]|8/12[]||MAZOWIECKIE[]|wołomiński[]|Wołomin[]
+A1475031|05-500|Piaseczno[PIASECZNO K. WARSZAWY]|ul. Okulickiego[ul.gen.L.Okulickiego 7/9]|7/9[]||MAZOWIECKIE[]|piaseczyński[]|Piaseczno[]
+A1475034|61-773|Poznań|rynek Stary Rynek[ul. Stary Rynek 97/98]|97/98[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1474629|62-800|Kalisz|ul. Górnośląska[ul.Górnośląska 64/66]|64/66[]||WIELKOPOLSKIE[]|Kalisz[]|Kalisz[]
+A1474732|78-320|Połczyn-Zdrój|pl. Wolności[pl.Wolności 3/4]|3/4[]||ZACHODNIOPOMORSKIE[]|świdwiński[]|Połczyn-Zdrój[]
+A1474736|16-300|Augustów|ul. Żabia[ul.Żabia 9/1]|9/1[]||PODLASKIE[]|augustowski[]|Augustów[]
+A1474744|61-807|Poznań|ul. Marcin[ul.św.Marcin 58/64]|58/64[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1474754|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1474755|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1474756|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1474761|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1474785|00-844[00-950]|Warszawa|ul. Grzybowska[ul.Grzybowska 53/57]|53/57[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1474799|59-220|Legnica|ul. Wrocławska[ul.Wrocławska 26/28]|26/28[]||DOLNOŚLĄSKIE[]|Legnica[]|Legnica[]
+A1474806|97-200|Tomaszów Mazowiecki|ul. Hallera[ul. Gen.J.Hallera 10/12]|10/12[]||ŁÓDZKIE[]|tomaszowski[]|Tomaszów Mazowiecki[]
+A1474809|73-110|Stargard[STARGARD SZCZECIŃSKI]|ul. Piłsudskiego[ul.Piłsudskiego 4/5]|4/5[]||ZACHODNIOPOMORSKIE[]|stargardzki[]|Stargard[]
+A1474822|02-592|Warszawa|ul. Puławska[ul.Puławska 54/56]|54/56[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1474829|42-217[42-200]|Częstochowa|ul. Kopernika[ul.Kopernika 17/19]|17/19[]||ŚLĄSKIE[]|Częstochowa[]|Częstochowa[]
+A1475056|87-100|Toruń|pl. Fryderyka Skarbka[Pl.Fryderyka Skarbka 7/9]|7/9[]||KUJAWSKO-POMORSKIE[]|Toruń[]|Toruń[]
+A1475060|87-100|Toruń|pl. Fryderyka Skarbka[ul.Fryderyka Skarbka 7/9]|7/9[]||KUJAWSKO-POMORSKIE[]|Toruń[]|Toruń[]
+A1475063|81-364|Gdynia|ul. 3 Maja[ul.3 Maja 27/31]|27/31[]||POMORSKIE[]|Gdynia[]|Gdynia[]
+A1475079|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 2/8]|2/8[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475084|60-543[60-534]|Poznań|ul. Dąbrowskiego[ul.Dąbrowskiego 129/131]|129/131[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1475091|10-575[10-959]|Olsztyn|al. Piłsudskiego[al.Piłsudskiego 11/17]|11/17[]||WARMIŃSKO-MAZURSKIE[]|Olsztyn[]|Olsztyn[]
+A1475101|90-046|Łódź|ul. Wodna[ul.Wodna 39/41]|39/41[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475110|82-300|Elbląg|ul. Dąbka[ul.Pułkownika Dąbka 136/3]|136/3[]||WARMIŃSKO-MAZURSKIE[]|Elbląg[]|Elbląg[]
+A1475134|85-667|Bydgoszcz|ul. Chodkiewicza[ul.Chodkiewicza 89/91]|89/91[]||KUJAWSKO-POMORSKIE[]|Bydgoszcz[]|Bydgoszcz[]
+A1475142|60-538|Poznań|ul. Kościelna[ul.Kościelna 12/14]|12/14[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1475144|90-013|Łódź|ul. Kilińskiego[ul.J.Kilińskiego 122/128]|122/128[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475209|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 10/16]|10/16[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475582|00-049[00-919]|Warszawa|ul. Świętokrzyska[ul.Świętokrzyska 11/21]|11/21[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475583|00-049[00-919]|Warszawa|ul. Świętokrzyska[ul.Świętokrzyska 11/21]|11/21[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475593|10-575[10-959]|Olsztyn|al. Piłsudskiego[al.Piłsudskiego 11/17]|11/17[]||WARMIŃSKO-MAZURSKIE[]|Olsztyn[]|Olsztyn[]
+A1475598|50-059[50-950]|Wrocław|ul. Ofiar Oświęcimskich[ul.Ofiar Oświęcimskich 41/43]|41/43[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1475602|03-127[00-950]|Warszawa|ul. Traugutta[ul.Traugutta 7/9]|7/9[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475603|03-127[00-950]|Warszawa|ul. Traugutta[ul.Traugutta 7/9]|7/9[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475606|03-127[00-950]|Warszawa|ul. Traugutta[ul.Traugutta 7/9]|7/9[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475607|03-127[00-950]|Warszawa|ul. Traugutta[ul.Traugutta 7/9]|7/9[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475693|00-499|Warszawa|pl. Trzech Krzyży[pl.Trzech Krzyży 10/14]|10/14[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475701|00-499|Warszawa|pl. Trzech Krzyży[pl.Trzech Krzyży 10/14]|10/14[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475710|02-094|Warszawa|ul. Grójecka[ul.Grójecka 81/87]|81/87[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475711|00-762|Warszawa|ul. Belwederska[ul.Belwederska 20/22]|20/22[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475802|00-684|Warszawa|ul. Wspólna[ul.Wspólna 47/49]|47/49[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1475803|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475810|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475813|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475816|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475817|90-063|Łódź|ul. Piotrkowska[ul.Piotrowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475819|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475820|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475823|95-070|Aleksandrów Łódzki|ul. Piotrkowska[ul.Piotrkowska 10/12]|10/12[]||ŁÓDZKIE[]|zgierski[]|Aleksandrów Łódzki[]
+A1475825|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475826|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475827|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475828|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475829|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475833|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475834|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475836|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475840|90-063|Łódź|ul. Piotrkowska[ul.Piotrkowska 148/150]|148/150[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475844|80-887|Gdańsk|ul. Wały Jagiellońskie[ul.Wały Jagiellońskie 10/16]|10/16[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1475848|53-128|Wrocław|ul. Sudecka[ul.Sudecka 95/97]|95/97[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1475850|53-128[50-945]|Wrocław|ul. Sudecka[ul.Sudecka 95/97]|95/97[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1475880|15-077[15-201]|Białystok|ul. Warszawska[ul. Warszawska 44/1]|44/1[]||PODLASKIE[]|Białystok[]|Białystok[]
+A1475888|60-529|Poznań|ul. Dąbrowskiego[ul.Dąbrowskiego 81/85]|81/85[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1475895|60-529|Poznań|ul. Dąbrowskiego[ul.J.Dąbrowskiego 81/85]|81/85[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1475900|90-368|Łódź|ul. Piotrkowska[ul.Piotrkowska 166/168]|166/168[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1475907|63-400|Ostrów Wielkopolski|ul. Raszkowska[ul.Raszkowska 60/62]|60/62[]||WIELKOPOLSKIE[]|ostrowski[]|Ostrów Wielkopolski[]
+A1476258|78-100|Kołobrzeg|ul. Ratuszowa[ul.Ratuszowa 3/2B]|3/2B[]||ZACHODNIOPOMORSKIE[]|kołobrzeski[]|Kołobrzeg[]
+A1476435|95-015|Głowno|ul. Młynarska[UL.MŁYNARSKA 5/13]|5/13[]||ŁÓDZKIE[]|zgierski[]|Głowno[]
+A1476463|14-100|Ostróda|ul. Jana Pawła II[UL.JANA PAWŁA II 16/49]|16/49[]||WARMIŃSKO-MAZURSKIE[]|ostródzki[]|Ostróda[]
+A1476571|64-965|Okonek|ul. Niepodległości[UL.NIEPODLEGŁOŚCI 25/26]|25/26[]||WIELKOPOLSKIE[]|złotowski[]|Okonek[]
+A1476591|09-500|Gostynin|ul. Rynek[ul.Rynek 4/5]|4/5[]||MAZOWIECKIE[]|gostyniński[]|Gostynin[]
+A1476613|09-210|Drobin|ul. Spółdzielcza[UL.SPÓŁDZIELCZA 17/8]|17/8[]||MAZOWIECKIE[]|płocki[]|Drobin[]
+A1476616|60-736[60-735]|Poznań|ul. Głogowska[ul.Głogowska 47/47a]|47/47a[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1476623|60-736[60-735]|Poznań|ul. Głogowska[UL.GŁOGOWSKA 47/47A]|47/47A[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1476662|26-610[26-600]|Radom|ul. Kilińskiego[UL.KILIŃSKIEGO 15/17]|15/17[]||MAZOWIECKIE[]|Radom[]|Radom[]
+A1476699|37-530|Sieniawa|ul. Jana Pawła II[UL.JANA PAWŁA II 1/1]|1/1[]||PODKARPACKIE[]|przeworski[]|Sieniawa[]
+A1476709|35-111|Rzeszów|ul. Krakowska[ul.KRAKOWSKA 12B/1A]|12B/1A[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1476710|35-326[35-959]|Rzeszów|al. Rejtana[ul.REJTANA 49/11B]|49/11B[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1476711|35-111|Rzeszów|ul. Krakowska[UL.KRAKOWSKA 12B/1A]|12B/1A[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1476723|08-110|Siedlce|ul. Pusta[UL.PUSTA 5/9]|5/9[]||MAZOWIECKIE[]|Siedlce[]|Siedlce[]
+A1476862|86-300|Grudziądz|ul. Starorynkowa[UL.STARORYNKOWA 2/4]|2/4[]||KUJAWSKO-POMORSKIE[]|Grudziądz[]|Grudziądz[]
+A1476912|50-326|Wrocław|ul. Poniatowskiego[UL.PONIATOWSKIEGO 16/18]|16/18[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1476932|55-140[55-055]|Żmigród[ZMIGROD]|ul. Konopnickiej[ul.Konopnickiej 1/3]|1/3[]||DOLNOŚLĄSKIE[]|trzebnicki[]|Żmigród[]
+A1476941|22-678[22-680]|Ulhówek|ul. Kościelna[ul.Kościelna 1/2]|1/2[]||LUBELSKIE[]|tomaszowski[]|Ulhówek[]
+A1477045|02-019|Warszawa|ul. Grójecka[ul.Grójecka 1/3]|1/3[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477047|00-691[00-950]|Warszawa|ul. Nowogrodzka[ul.Nowogrodzka 35/41]|35/41[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477075|25-005[25-941]|Kielce|ul. Sienkiewicza[ul.Sienkiewicza 33/35]|33/35[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1477097|34-400|Nowy Targ|rynek Rynek[Rynek 29/30]|29/30[]||MAŁOPOLSKIE[]|nowotarski[]|Nowy Targ[]
+A1477108|64-500|Szamotuły|rynek Rynek[Rynek 16/17]|16/17[]||WIELKOPOLSKIE[]|szamotulski[]|Szamotuły[]
+A1477122|70-783[70-404]|Szczecin|ul. Rydla[ul.Rydla 41/42]|41/42[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1477128|33-100|Tarnów|ul. Słoneczna[ul.Słoneczna 28/30]|28/30[]||MAŁOPOLSKIE[]|Tarnów[]|Tarnów[]
+A1477136|50-149[50-901]|Wrocław|ul. Stwosza[ul.Wita Stwosza 33/35]|33/35[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477144|00-160|Warszawa|ul. Nowolipki[ul.Nowolipki 2/2A]|2/2A[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477145|00-160|Warszawa|ul. Nowolipki[ul.Nowolipki 2/2A]|2/2A[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477146|00-160|Warszawa|ul. Nowolipki[ul.Nowolipki 2/2A]|2/2A[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477147|00-160|Warszawa|ul. Nowolipki[ul.Nowolipki 2/2A]|2/2A[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477148|00-160|Warszawa|ul. Nowolipki[ul.Nowolipki 2/2A]|2/2A[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477149|00-160|Warszawa|ul. Nowolipki[ul.Nowolipki 2/2A]|2/2A[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477230|05-200|Wołomin|ul. Miła[ul.Miła 8/12]|8/12[]||MAZOWIECKIE[]|wołomiński[]|Wołomin[]
+A1477231|00-497[00-400]|Warszawa|ul. Nowy Świat[ul.Nowy Świat 6/12]|6/12[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477242|50-106[50-950]|Wrocław|rynek Rynek[ul.Rynek 9/11]|9/11[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477248|88-100|Inowrocław|ul. Grodzka[ul.Grodzka 5/7]|5/7[]||KUJAWSKO-POMORSKIE[]|inowrocławski[]|Inowrocław[]
+A1477280|61-807|Poznań|ul. Marcin[ul.św.Marcina 66/72]|66/72[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1477287|50-037[50-950]|Wrocław|ul. Kościuszki[pl.Kościuszki 7/8]|7/8[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477302|42-202[42-200]|Częstochowa|ul. Krótka[ul.Krótka 46/48]|46/48[]||ŚLĄSKIE[]|Częstochowa[]|Częstochowa[]
+A1477310|00-676|Warszawa|ul. Marszałkowska[ul.Marszałkowska 55/73]|55/73[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477343|57-220|Ziębice|pl. Rynek[Rynek 46/47]|46/47[]||DOLNOŚLĄSKIE[]|ząbkowicki[]|Ziębice[]
+A1477344|50-106[50-950]|Wrocław|rynek Rynek[Rynek 9/11]|9/11[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477345|50-037[50-950]|Wrocław|ul. Kościuszki[ul.Kościuszki 7/8]|7/8[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477349|56-100|Wołów|rynek Rynek[ul.Rynek 1/4]|1/4[]||DOLNOŚLĄSKIE[]|wołowski[]|Wołów[]
+A1477350|50-106[50-950]|Wrocław|rynek Rynek[ul.Rynek 9/11]|9/11[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477353|50-138[50-950]|Wrocław|ul. Kuźnicza[ul.Kuźnicza 17/19]|17/19[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477360|00-676[00-831]|Warszawa|ul. Marszałkowska[ul.Marszałkowska 55/73]|55/73[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477363|06-400|Ciechanów|ul. Pułtuska[ul.Pułtuska 4/6]|4/6[]||MAZOWIECKIE[]|ciechanowski[]|Ciechanów[]
+A1477367|78-100|Kołobrzeg|ul. Gierczak[ul.Gierczak 44/45]|44/45[]||ZACHODNIOPOMORSKIE[]|kołobrzeski[]|Kołobrzeg[]
+A1477380|00-844[00-950]|Warszawa|ul. Grzybowska[ul.Grzybowska 53/57]|53/57[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477383|00-844[00-950]|Warszawa|ul. Grzybowska[ul.Grzybowska 53/57]|53/57[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477388|03-127[00-950]|Warszawa|ul. Czackiego[ul.Czackiego 21/23]|21/23[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477389|02-019[00-950]|Warszawa|ul. Grójecka[ul.Grójecka 1/3]|1/3[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477402|42-217[42-200]|Częstochowa|ul. Kopernika[ul.Kopernika 17/19]|17/19[]||ŚLĄSKIE[]|Częstochowa[]|Częstochowa[]
+A1477404|81-319|Gdynia|ul. Śląska[ul.Śląska 23/25]|23/25[]||POMORSKIE[]|Gdynia[]|Gdynia[]
+A1477405|81-874|Sopot|ul. Reja[ul.Reja 13/15]|13/15[]||POMORSKIE[]|Sopot[]|Sopot[]
+A1477406|80-244|Gdańsk|al. Grunwaldzka[ul.Grunwaldzka 92/98]|92/98[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1477448|61-807|Poznań|ul. Marcin[ul.Św Marcina 52/56]|52/56[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1477449|60-702|Poznań|ul. Głogowska[ul.Głogowska 31/33]|31/33[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1477452|26-610[26-600]|Radom|ul. Struga[ul.Struga 26/28]|26/28[]||MAZOWIECKIE[]|Radom[]|Radom[]
+A1477470|05-400|Otwock|ul. Świderska[ul.Świderska 2/4]|2/4[]||MAZOWIECKIE[]|otwocki[]|Otwock[]
+A1477530|90-057|Łódź|ul. Sienkiewicza[ul.Sienkiewicza 85/87]|85/87[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1477540|62-020|Swarzędz|os. Dąbrowszczaków[os.Dąbrowszczaków 8/5]|8/5[]||WIELKOPOLSKIE[]|poznański[]|Swarzędz[]
+A1477544|99-200|Poddębice|ul. Łódzka[ul.Łódzka 16/18]|16/18[]||ŁÓDZKIE[]|poddębicki[]|Poddębice[]
+A1477545|95-060|Brzeziny[BRZEZINY K. ŁODZI]|ul. Piłsudskiego[ul.J.Piłsudskiego 2/8]|2/8[]||ŁÓDZKIE[]|brzeziński[]|Brzeziny[]
+A1477555|95-080|Tuszyn|ul. Piotrkowska[ul.Piotrkowska 2/4]|2/4[]||ŁÓDZKIE[]|łódzki wschodni[]|Tuszyn[]
+A1477561|81-342|Gdynia|ul. Waszyngtona[ul.Waszyngtona 34/36]|34/36[]||POMORSKIE[]|Gdynia[]|Gdynia[]
+A1477574|78-600|Wałcz|ul. Bankowa[ul.Bankowa 3/5]|3/5[]||ZACHODNIOPOMORSKIE[]|wałecki[]|Wałcz[]
+A1477627|13-200|Działdowo|pl. Mickiewicza[pl. Mickiewicza 2/3]|2/3[]||WARMIŃSKO-MAZURSKIE[]|działdowski[]|Działdowo[]
+A1477638|80-894[80-958]|Gdańsk|ul. Elżbietańska[ul. Elżbietańska 4/8]|4/8[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1477728|50-559|Wrocław|ul. Świeradowska[ul. Świeradowska 51/57]|51/57[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477730|51-642[51-462]|Wrocław|ul. Olszewskiego[ul. Karola Olszewskiego 75/77]|75/77[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477740|87-100|Toruń|ul. Mickiewicza[ul. Mickiewicza 33/39]|33/39[]||KUJAWSKO-POMORSKIE[]|Toruń[]|Toruń[]
+A1477753|00-049[00-941]|Warszawa|ul. Świętokrzyska[ul.Świętokrzyska 31/33]|31/33[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477767|93-172|Łódź|ul. Rzgowska[ul.Rzgowska 34/36]|34/36[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1477776|60-738|Poznań|ul. Głogowska[ul.Głogowska 55/57]|55/57[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1477777|70-413|Szczecin|ul. Aleja Papieża Jana Pawła II[Al.Papieża Jana Pawła II 3/4]|3/4[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1477782|93-172|Łódź|ul. Rzgowska[ul.Rzgowska 34/36]|34/36[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1477784|93-172|Łódź|ul. Rzgowska[ul.Rzgowska 34/36]|34/36[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1477785|70-555|Szczecin|ul. al. Wyzwolenia[Al.Wyzwolenia 12/14]|12/14[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1477797|02-548|Warszawa|ul. Grażyny[ul.Grażyny 13/15]|13/15[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477798|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 2/8]|2/8[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477799|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 2/8]|2/8[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477800|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 2/8]|2/8[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477801|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 2/8]|2/8[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477802|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 2/8]|2/8[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477803|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 2/8]|2/8[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477820|02-256[00-971]|Warszawa|al. Krakowska[al.Krakowska 110/114]|110/114[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477822|02-548|Warszawa|ul. Różana[ul.Różana 8/10]|8/10[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477839|90-369[90-451]|Łódź|ul. Piotrkowska[ul.Piotrkowska 212/214]|212/214[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1477857|50-059[50-950]|Wrocław|ul. Ofiar Oświęcimskich[ul.Ofiar Oświęcimskich 41/43]|41/43[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1477866|03-728[03-733]|Warszawa|ul. Targowa[ul.Targowa 49/51]|49/51[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1477869|93-172|Łódź|ul. Rzgowska[ul.Rzgowska 34/36]|34/36[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1477871|93-172|Łódź|ul. Rzgowska[ul.Rzgowska 34/36]|34/36[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1477880|93-172|Łódź|ul. Rzgowska[ul.Rzgowska 34/36]|34/36[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1477882|70-555|Szczecin|ul. al. Wyzwolenia[al.Wyzwolenia 12/14]|12/14[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1477925|60-538|Poznań|ul. Kościelna[ul.Kościelna 12/14]|12/14[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1477937|16-070[15-443]|Białystok|pl. Piłsudskiego[al.J.Piłsudskiego 11/3]|11/3[]||PODLASKIE[]|Białystok[]|Białystok[]
+A1477945|60-538|Poznań|ul. Kościelna[ul.Kościelna 12/14]|12/14[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1477959|90-643|Łódź|ul. Żeligowskiego[ul.Żeligowskiego 32/34]|32/34[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1477970|58-309|Wałbrzych|ul. Kusocińskiego[ul.Kusocińskiego 17/19]|17/19[]||DOLNOŚLĄSKIE[]|Wałbrzych[]|Wałbrzych[]
+A1477991|00-805|Warszawa|ul. Chmielna[ul.Chmielna 132/134]|132/134[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1478012|42-480|Poręba[PORĘBA K. ZAWIERCIA]|ul. Chopina[ul.Chopina 2/3]|2/3[]||ŚLĄSKIE[]|zawierciański[]|Poręba[]
+A1478059|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 10/16]|10/16[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1478060|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 10/16]|10/16[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1478061|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 10/16]|10/16[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1478062|01-211|Warszawa|ul. Kasprzaka[ul.Kasprzaka 10/16]|10/16[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1478063|00-503|Warszawa|ul. Żurawia[ul.Żurawia 6/12]|6/12[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1478064|01-747|Warszawa|ul. Elbląska[ul.Elbląska 15/17]|15/17[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1478066|91-420|Łódź|ul. Północna[ul.Północna 27/29]|27/29[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1479669|42-224[42-200]|Częstochowa|ul. Starzyńskiego[ul.Starzyńskiego 17/58]|17/58[]||ŚLĄSKIE[]|Częstochowa[]|Częstochowa[]
+A1481313|02-372|Warszawa|ul. Opaczewska[Opaczeska 19/8]|19/8[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1482337|10-089|Olsztyn|ul. Gałczyńskiego[ul.Gałczyńskiego 1/9]|1/9[]||WARMIŃSKO-MAZURSKIE[]|Olsztyn[]|Olsztyn[]
+A1482841|81-451|Gdynia|al. Zwycięstwa[al.Zwycięstwa 96/98]|96/98[]||POMORSKIE[]|Gdynia[]|Gdynia[]
+A1608738|05-070|Sulejówek|ul. Ogińskiego[ul.Ogińskiego 3/2]|3/2[]||MAZOWIECKIE[]|miński[]|Sulejówek[]
+A1610308|54-402|Wrocław|ul. Szkocka[ul.Szkocka 5/1]|5/1[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1615869|28-200|Staszów|ul. Komisji Edukacji Narodowej[Komisji Edukacji Narodowej 5/3]|5/3[]||ŚWIĘTOKRZYSKIE[]|staszowski[]|Staszów[]
+A1616660|35-036|Rzeszów|ul. Skłodowskiej-Curie[Marii Skłodowskiej - Curie 6/1]|6/1[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1621970|80-394[80-393]|Gdańsk|ul. Kołobrzeska[ul. Kołobrzeska 50j/2]|50j/2[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1622110|37-450|Stalowa Wola|ul. Obrońców Pokoju[ul. Obrońców Pokoju 3/12]|3/12[]||PODKARPACKIE[]|stalowowolski[]|Stalowa Wola[]
+A1622112|32-300|Olkusz|ul. Strzelców Olkuskich[ul. Strzelców Olkuskich 3B/31]|3B/31[]||MAŁOPOLSKIE[]|olkuski[]|Olkusz[]
+A1622221|80-233[80-952]|Gdańsk|ul. Narutowicza[ul.Narutowicza 11/12]|11/12[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1626499|08-101[08-110]|Siedlce|ul. Pomorska[Pomorska 5/17]|5/17[]||MAZOWIECKIE[]|Siedlce[]|Siedlce[]
+A1627051|81-155|Gdynia|ul. Dąbka[ul.Płk.Dąbka 229c/2]|229c/2[]||POMORSKIE[]|Gdynia[]|Gdynia[]
+A1627211|03-149[]|Warszawa|ul. Aluzyjna[ul.Aluzyjna 23h/403]|23h/403[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1627896|39-300|Mielec|ul. Gombrowicza[ul.Gombrowicza 2/19]|2/19[]||PODKARPACKIE[]|mielecki[]|Mielec[]
+A1629419|00-665|Warszawa|ul. Nowowiejska[ul. Nowowiejska 21/25]|21/25[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1629604|00-680|Warszawa|ul. Żurawia[ul. Żurawia 47/49]|47/49[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1629938|32-660|Chełmek|ul. Powstańców Śląskich[ul.Powstańców Śląskich 7b/10]|7b/10[]||MAŁOPOLSKIE[]|oświęcimski[]|Chełmek[]
+A1630882|63-400|Ostrów Wielkopolski|ul. Sukiennicza[ul.Sukiennicza 3/4]|3/4[]||WIELKOPOLSKIE[]|ostrowski[]|Ostrów Wielkopolski[]
+A1630973|01-042|Warszawa|ul. Okopowa[ul.Okopowa 58/72]|58/72[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1631549|34-500|Zakopane|ul. Kamieniec[ul.Kamieniec 10a/23]|10a/23[]||MAŁOPOLSKIE[]|tatrzański[]|Zakopane[]
+A1640036|71-403[71-406]|Szczecin|ul. Niedziałkowskiego[ul.Niedziałkowskiego 47a/4]|47a/4[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1640599|20-801|Lublin|ul. Żołnierska[ul.Żołnierska 7/9]|7/9[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1644431|40-710|Katowice|ul. Zielonogórska[ul.Zielonogórska 16c/31]|16c/31[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1644555|20-092|Lublin|ul. Hirszfelda[ul.Hirszfelda 3/9]|3/9[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1645185|62-028|Koziegłowy|os. Leśne[os.Leśne 15b/79]|15b/79[]||WIELKOPOLSKIE[]|poznański[]|Czerwonak[]
+A1645484|52-010|Wrocław|ul. Opolska[ul.Opolska 51/1]|51/1[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1645728|35-513|Rzeszów|ul. Raginisa[ul.Raginisa 12/27]|12/27[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1645991|20-575[]|Lublin|ul. Rubinowa[ul.Rubinowa 2/171]|2/171[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1647255|41-208[]|Sosnowiec|ul. 11 Listopada[ul.11 Lostopada 8/5]|8/5[]||ŚLĄSKIE[]|Sosnowiec[]|Sosnowiec[]
+A1647489|85-794|Bydgoszcz|ul. Osiedlowa[ul.Osiedlowa 10/14]|10/14[]||KUJAWSKO-POMORSKIE[]|Bydgoszcz[]|Bydgoszcz[]
+A1649714|61-741[]|Poznań|ul. 23 Lutego[ul.23 Lutego 7/3]|7/3[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1650239|87-100|Toruń|ul. Piernikarska[ul.Piernikarska 4/1]|4/1[]||KUJAWSKO-POMORSKIE[]|Toruń[]|Toruń[]
+A1650369|00-732|Warszawa|ul. Czerska[ul.Czerska 18/43]|18/43[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1650417|32-500|Chrzanów|ul. Urbańczyka[ul.Urbańczyka 2/45]|2/45[]||MAŁOPOLSKIE[]|chrzanowski[]|Chrzanów[]
+A1650449|92-230|Łódź|al. Piłsudskiego[al.Piłsudskiego 150/152]|150/152[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1651709|01-248|Warszawa|ul. Jana Kazimierza[ul.Jana Kazimierza 46/54]|46/54[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1651966|39-300|Mielec|ul. Biernackiego[ul.Biernackiego 1/4]|1/4[]||PODKARPACKIE[]|mielecki[]|Mielec[]
+A1652410|02-999|Warszawa|ul. Kazachska[ul.Kazachska 1/57]|1/57[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1652854|27-400|Ostrowiec Świętokrzyski|os. Rosochy[oś.Rosochy 84/7]|84/7[]||ŚWIĘTOKRZYSKIE[]|ostrowiecki[]|Ostrowiec Świętokrzyski[]
+A1652948|02-903|Warszawa|ul. Powsińska[ul.Powsińska 69/71]|69/71[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1654758|32-107|Radziemice[RADZIEMICE 45A/8]||45A/8[]||MAŁOPOLSKIE[]|proszowicki[]|Radziemice[]
+A1655802|20-624|Lublin|ul. Irydiona[ul.Irydiona 2/31]|2/31[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1656256|02-793|Warszawa|ul. Belgradzka[ul.Belgradzka 10/88]|10/88[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1656281|32-300|Olkusz|ul. Legionów Polskich[ul.Legionów Polskich 30/58]|30/58[]||MAŁOPOLSKIE[]|olkuski[]|Olkusz[]
+A1656776|32-800|Brzesko|ul. Ogrodowa[ul.Ogrodowa 9/39]|9/39[]||MAŁOPOLSKIE[]|brzeski[]|Brzesko[]
+A1657137|60-791|Poznań|ul. Reymonta[ul.Reymonta 29/2]|29/2[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1667014|15-427|Białystok|ul. Lipowa[Lipowa 16/57]|16/57[]||PODLASKIE[]|Białystok[]|Białystok[]
+A1668096|00-139|Warszawa|ul. Elektoralna[ul.Elektoralna 12a/94]|12a/94[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1668767|44-286[44-300]|Wodzisław Śląski|os. XXX Lecia[os.XXX-lecia 127/3]|127/3[]||ŚLĄSKIE[]|wodzisławski[]|Wodzisław Śląski[]
+A1669154|50-061|Wrocław|pl. Solny[Plac Solny 6/7]|6/7[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1669805|03-128|Warszawa|ul. Świderska[ul.Świderska 110/6]|110/6[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1670048|03-294|Warszawa|ul. Zielone Zacisze[Zielone Zacisze 3/151]|3/151[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1670146|05-200|Wołomin|ul. Kościelna[ul.Kościelna 62/11]|62/11[]||MAZOWIECKIE[]|wołomiński[]|Wołomin[]
+A1670452|81-815|Sopot|ul. Kraszewskiego[ul. Kraszewskiego 30/47]|30/47[]||POMORSKIE[]|Sopot[]|Sopot[]
+A1670453|00-814|Warszawa|ul. Miedziana[ul. Miedziana 4/11]|4/11[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1670460|55-120|Pęgów|ul. Dworcowa[ul. Dworcowa 67/8]|67/8[]||DOLNOŚLĄSKIE[]|trzebnicki[]|Oborniki Śląskie[]
+A1672798|58-500|Jelenia Góra|ul. Muzealna[ul.Muzealna 9a/3]|9a/3[]||DOLNOŚLĄSKIE[]|Jelenia Góra[]|Jelenia Góra[]
+A1673034|41-209[41-200]|Sosnowiec|ul. Kilińskiego[ul.Kilińskiego 12/37]|12/37[]||ŚLĄSKIE[]|Sosnowiec[]|Sosnowiec[]
+A1673752|34-441|Niedzica|os. Pod Taborem[os.Pod Taborem 11b/6]|11b/6[]||MAŁOPOLSKIE[]|nowotarski[]|Łapsze Niżne[]
+A1674065|21-010|Łęczna|ul. Wiosenna[ul.Wiosenna 2/31]|2/31[]||LUBELSKIE[]|łęczyński[]|Łęczna[]
+A1674333|88-100|Inowrocław|ul. Plater[ul.E.Plater 3/46]|3/46[]||KUJAWSKO-POMORSKIE[]|inowrocławski[]|Inowrocław[]
+A1674932|15-707|Białystok|ul. Prowiantowa[Prowiantowa 17/14]|17/14[]||PODLASKIE[]|Białystok[]|Białystok[]
+A1675201|32-800|Brzesko|ul. Partyzantów[ul.Partyzantów 5/29]|5/29[]||MAŁOPOLSKIE[]|brzeski[]|Brzesko[]
+A1675233|60-161|Poznań|ul. Newtona[ul.Newtona 1I/4]|1I/4[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1675239|44-370|Pszów|ul. Witolda[ul.Księcia Witolda 7a/1]|7a/1[]||ŚLĄSKIE[]|wodzisławski[]|Pszów[]
+A1675305|00-172|Warszawa|ul. Dzika[Dzika 19/23]|19/23[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1675399|35-210|Rzeszów|ul. Baczyńskiego[ul.Baczyńskiego 8/5]|8/5[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1676256|39-300|Mielec|ul. Kocjana[ul.Kocjana 13/8]|13/8[]||PODKARPACKIE[]|mielecki[]|Mielec[]
+A1676390|72-420[72-419]|Dziwnów|ul. Dziwna[ul.Dziwna 19/1]|19/1[]||ZACHODNIOPOMORSKIE[]|kamieński[]|Dziwnów[]
+A1676436|20-048[20-053]|Lublin|ul. Legionowa[ul.Legionowa 2/42]|2/42[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1676667|00-537|Warszawa|ul. Krucza[ul.Krucza 6/14]|6/14[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1677063|50-305|Wrocław|ul. Jaracza[ul.Jaracza 63b/1]|63b/1[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1678572|04-185|Warszawa|ul. Witolińska[ul Witolińska 5/17]|5/17[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1679949|61-493|Poznań|ul. Saperska[ul.Saperska 40b/6a]|40b/6a[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1681828|81-862[]|Sopot|ul. Mazowiecka[ul.Mazowiecka 6/1]|6/1[]||POMORSKIE[]|Sopot[]|Sopot[]
+A1691473|58-580|Szklarska Poręba[SZKLARSKA POREBA]|ul. 1 Maja[1 Maja 1/4]|1/4[]||DOLNOŚLĄSKIE[]|karkonoski[]|Szklarska Poręba[]
+A1692267|39-400|Tarnobrzeg|ul. Kwiatkowskiego[ul.Kwiatkowskiego 3/21]|3/21[]||PODKARPACKIE[]|Tarnobrzeg[]|Tarnobrzeg[]
+A1693276|32-410|Dobczyce|os. Jagiellońskie[os.Jagiellońskie 6/3]|6/3[]||MAŁOPOLSKIE[]|myślenicki[]|Dobczyce[]
+A1693608|40-685[40-082]|Katowice|ul. Sobańskiego[ul.Sobieskiego 13/2]|13/2[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1693677|34-300|Żywiec|ul. Kościuszki[ul.Kościuszki 42/3]|42/3[]||ŚLĄSKIE[]|żywiecki[]|Żywiec[]
+A1693757|40-685[40-082]|Katowice|ul. Sobańskiego[ul.Sobieskiego 5/4]|5/4[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1693844|25-368|Kielce|ul. Głowackiego[ul.Głowackiego 5/13]|5/13[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1696254|32-660|Chełmek|ul. Andersa[ul. Andersa 5/19]|5/19[]||MAŁOPOLSKIE[]|oświęcimski[]|Chełmek[]
+A1697785|53-514|Wrocław|ul. Lubuska[ul.Lubuska 72/28]|72/28[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1697813|05-402[05-400]|Otwock|ul. Kraszewskiego[ul.Kraszewskeigo 85c/7]|85c/7[]||MAZOWIECKIE[]|otwocki[]|Otwock[]
+A1698042|60-241|Poznań|ul. Kuźnicza[ul.Kuźnicza 13/8]|13/8[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1698128|60-654|Poznań|ul. Leonarda[św.Leonarda 6/8]|6/8[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1698395|44-105[44-100]|Gliwice|ul. Obrońców Pokoju[ul. Obrońców Pokoju 8/2]|8/2[]||ŚLĄSKIE[]|Gliwice[]|Gliwice[]
+A1698912|34-300|Żywiec|ul. Grunwaldzka[ul.Grunwaldzka 6/20]|6/20[]||ŚLĄSKIE[]|żywiecki[]|Żywiec[]
+A1699551|25-735|Kielce|ul. Piekoszowska[ul.Piekoszowska 57/29]|57/29[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1699552|38-200|Jasło|ul. Szkolna[ul.Szkolna 1/3]|1/3[]||PODKARPACKIE[]|jasielski[]|Jasło[]
+A1699557|35-113|Rzeszów|ul. Dębowa[ul.Dębowa 12/1]|12/1[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1699559|41-400|Mysłowice|ul. Wojska Polskiego[ul.Wojska Polskiego 10a/8]|10a/8[]||ŚLĄSKIE[]|Mysłowice[]|Mysłowice[]
+A1699691|00-683|Warszawa|ul. Marszałkowska[ul.Marszałkowska 87/1]|87/1[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1700133|00-028|Warszawa|ul. Bracka[ul.Bracka 18/16]|18/16[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1700302|80-034[]|Gdańsk|ul. Anny Jagiellonki[ul.Anny Jagiellonki 42/11]|42/11[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1700494|41-600|Świętochłowice|ul. Śląska[ul.Śląska 9/2]|9/2[]||ŚLĄSKIE[]|Świętochłowice[]|Świętochłowice[]
+A1700596|80-850|Gdańsk|ul. Rajska[ul.Rajska 6/325]|6/325[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1700648|50-556|Wrocław|ul. Borowska[ul.Borowska 281/1]|281/1[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1701020|39-300|Mielec|ul. Sikorskiego[ul.Sikorskiego 2/12]|2/12[]||PODKARPACKIE[]|mielecki[]|Mielec[]
+A1701609|33-100[33-104]|Tarnów|ul. Westerplatte[ul.Westerplatte 7/88]|7/88[]||MAŁOPOLSKIE[]|Tarnów[]|Tarnów[]
+A1702785|70-374|Szczecin|ul. 5 Lipca[ul.5-go Lipca 4/4]|4/4[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1703197|93-519|Łódź|ul. Myśliwska[ul. Myśliwska 1/11]|1/11[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1705375|35-605|Rzeszów|ul. Zimowit[ul. Ziemowit 26/6]|26/6[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1705431|61-858|Poznań|ul. Grobla[ul.Grobla 1A/1]|1A/1[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1706300|36-030|Błażowa|ul. 3 Maja[ul.3-go Maja 1/3]|1/3[]||PODKARPACKIE[]|rzeszowski[]|Błażowa[]
+A1706458|03-718|Warszawa|ul. Kłopotowskiego[ul.Kłopotowskiego 9/31]|9/31[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1706510|44-102[44-100]|Gliwice|ul. Grottgera[ul.Grottgera 22/7]|22/7[]||ŚLĄSKIE[]|Gliwice[]|Gliwice[]
+A1715506|32-310|Jaroszowiec|ul. Leśna[ul.Leśna 37/19]|37/19[]||MAŁOPOLSKIE[]|olkuski[]|Klucze[]
+A1716163|00-680|Warszawa|ul. Poznańska[ul.Poznańska 16/4]|16/4[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1716306|40-486|Katowice|ul. Kolista[ul.Kolista 31/32]|31/32[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1716343|32-087|Pękowice|ul. Ojcowska[ul.Ojcowska 32b/1]|32b/1[]||MAŁOPOLSKIE[]|krakowski[]|Zielonki[]
+A1716921|44-244[44-240]|Żory|os. Sikorskiego[os.Sikorskiego 12d/2]|12d/2[]||ŚLĄSKIE[]|Żory[]|Żory[]
+A1716935|41-200|Sosnowiec|ul. 1 Maja[ul.1 Maja 50/22]|50/22[]||ŚLĄSKIE[]|Sosnowiec[]|Sosnowiec[]
+A1716955|20-447|Lublin|ul. Diamentowa[ul.Diamentowa 1/6]|1/6[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1717293|43-300|Bielsko-Biała|ul. Malczewskiego[ul.Malczewskiego 14/23]|14/23[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1717354|32-410|Dobczyce|ul. Łanowa[ul.Łanowa 10/8]|10/8[]||MAŁOPOLSKIE[]|myślenicki[]|Dobczyce[]
+A1717457|43-300|Bielsko-Biała|ul. Grota-Roweckiego[ul.Grota-Roweckiego 20/16]|20/16[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1717641|37-400|Nisko|ul. Tysiąclecia[ul.Tysiąclecia 20/14]|20/14[]||PODKARPACKIE[]|niżański[]|Nisko[]
+A1717841|43-100|Tychy|ul. Bacha[ul.Bacha 3/40]|3/40[]||ŚLĄSKIE[]|Tychy[]|Tychy[]
+A1717891|37-500|Jarosław|os. im. Armii Krajowej[os.Armii Krajowej 8/47]|8/47[]||PODKARPACKIE[]|jarosławski[]|Jarosław[]
+A1717925|44-335|Jastrzębie-Zdrój[JASTRZĘBIE ZDRÓJ]|ul. Wodeckiego[ul.Wodeckiego 2/3]|2/3[]||ŚLĄSKIE[]|Jastrzębie-Zdrój[]|Jastrzębie-Zdrój[]
+A1718098|43-316[43-300]|Bielsko-Biała|ul. Matusiaka[ul.Matusiaka 3/81]|3/81[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1718266|35-114|Rzeszów|ul. Malczewskiego[ul.Malczewskiego 7/29]|7/29[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1718319|01-452[]|Warszawa|ul. Janusza[ul.Ks.Janusza 41/43]|41/43[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1718320|44-335|Jastrzębie-Zdrój[JASTRZĘBIE ZDRÓJ]|ul. Turystyczna[ul.Turystyczna 39/40]|39/40[]||ŚLĄSKIE[]|Jastrzębie-Zdrój[]|Jastrzębie-Zdrój[]
+A1718331|65-807|Zielona Góra|ul. Powstańców Warszawy[ul.Powstańców Warszaway 16/62]|16/62[]||LUBUSKIE[]|Zielona Góra[]|Zielona Góra[]
+A1718561|43-316[43-300]|Bielsko-Biała|ul. Kolista[ul.Kolista 41/4]|41/4[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1719108|32-300[32-305]|Olkusz|ul. Krasińskiego[ul.Krasińskiego 2/13]|2/13[]||MAŁOPOLSKIE[]|olkuski[]|Olkusz[]
+A1719565|00-844|Warszawa|ul. Grzybowska[ul.Grzybowska 80/82]|80/82[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1719581|40-757|Katowice|ul. Radomska[ul.Radomska 1b/17]|1b/17[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1719663|67-200|Głogów|ul. Aleja Wolności[aleja Wolności 13/10]|13/10[]||DOLNOŚLĄSKIE[]|głogowski[]|Głogów[]
+A1719886|36-200|Brzozów|ul. Bielawskiego[ul.ks.Bielawskiego 3/4]|3/4[]||PODKARPACKIE[]|brzozowski[]|Brzozów[]
+A1720363|58-500|Staniszów|ul. Słoneczna[ul.Słoneczna 7/1]|7/1[]||DOLNOŚLĄSKIE[]|karkonoski[]|Podgórzyn[]
+A1720467|41-902|Bytom|ul. Orląt Lwowskich[ul. Orląt Lwowskich 10/4]|10/4[]||ŚLĄSKIE[]|Bytom[]|Bytom[]
+A1720550|41-717[41-705]|Ruda Śląska|ul. Okrężna[ul.Okrężna 1/4]|1/4[]||ŚLĄSKIE[]|Ruda Śląska[]|Ruda Śląska[]
+A1720566|02-594|Warszawa|ul. Bruna[ul.J.Bruna 12/20]|12/20[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1720568|41-706|Ruda Śląska|ul. Grabowa[ul.Grabowa 4/10]|4/10[]||ŚLĄSKIE[]|Ruda Śląska[]|Ruda Śląska[]
+A1720668|18-300|Zambrów|ul. Raginisa[ul.Reginisa 10/1]|10/1[]||PODLASKIE[]|zambrowski[]|Zambrów[]
+A01209182|00-732|Warszawa|ul. Czerska[ul.Czerska 8/10]|8/10[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1720957|45-720|Opole|ul. Koszyka[ul.Koszyka 17/19]|17/19[]||OPOLSKIE[]|Opole[]|Opole[]
+A1720972|23-200|Kraśnik|ul. Kopernika[ul.Kopernika 4/9]|4/9[]||LUBELSKIE[]|kraśnicki[]|Kraśnik[]
+A1720982|41-219|Sosnowiec|ul. Słowackiego[ul.Słowackiego 54/4]|54/4[]||ŚLĄSKIE[]|Sosnowiec[]|Sosnowiec[]
+A1721030|39-300|Mielec|ul. Dąbrówki[ul.Dąbrówki 14/4]|14/4[]||PODKARPACKIE[]|mielecki[]|Mielec[]
+A1721603|60-406|Poznań|os. Lotnictwa Polskiego[os.Lotnictwa Polskiego 9E/7]|9E/7[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1721619|41-203|Sosnowiec|ul. Podjazdowa[ul.Podjazdowa 2/31]|2/31[]||ŚLĄSKIE[]|Sosnowiec[]|Sosnowiec[]
+A1721807|39-400|Tarnobrzeg|ul. Dąbrowskiej[ul.M.Dąbrowskiej 14/12]|14/12[]||PODKARPACKIE[]|Tarnobrzeg[]|Tarnobrzeg[]
+A1721809|21-010[]|Łęczna|ul. Wiklinowa[ul.Wiklinowa 24/2]|24/2[]||LUBELSKIE[]|łęczyński[]|Łęczna[]
+A1721951|85-463|Bydgoszcz|ul. Łanowa[ul.Łanowa 4/1]|4/1[]||KUJAWSKO-POMORSKIE[]|Bydgoszcz[]|Bydgoszcz[]
+A1722164|32-700|Bochnia|ul. Murowianka[ul.Murowianka 8/3]|8/3[]||MAŁOPOLSKIE[]|bocheński[]|Bochnia[]
+A1722314|87-100|Toruń|ul. Kraszewskiego[ul.Kraszewskiego 1/3]|1/3[]||KUJAWSKO-POMORSKIE[]|Toruń[]|Toruń[]
+A1722695|34-120|Andrychów|ul. Metalowców[ul.Metalowców 4/34]|4/34[]||MAŁOPOLSKIE[]|wadowicki[]|Andrychów[]
+A1722984|00-415|Warszawa|ul. Okrąg[ul.Okrąg 3c/3]|3c/3[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1723058|32-650|Kęty|os. Nad Sołą[os.Nad Sołą 23/47]|23/47[]||MAŁOPOLSKIE[]|oświęcimski[]|Kęty[]
+A1723063|40-820|Katowice|ul. Barlickiego[ul.Barlickiego 11/27]|11/27[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1723130|34-120|Andrychów|ul. Żwirki i Wigury[ul.Żwirki i Wigury 77/9]|77/9[]||MAŁOPOLSKIE[]|wadowicki[]|Andrychów[]
+A1723169|37-300|Leżajsk|ul. Kołłątaja[ul.Kołłątaja 7/4]|7/4[]||PODKARPACKIE[]|leżajski[]|Leżajsk[]
+A1723176|33-100|Tarnów|ul. Westerplatte[ul.Westerplatte 17/20]|17/20[]||MAŁOPOLSKIE[]|Tarnów[]|Tarnów[]
+A1723208|32-050|Skawina|ul. Popiełuszki[ul.ks.J.Popiełuszki 4/35]|4/35[]||MAŁOPOLSKIE[]|krakowski[]|Skawina[]
+A1723325|33-100|Tarnów|ul. Leśna[ul.Leśna 16a/63]|16a/63[]||MAŁOPOLSKIE[]|Tarnów[]|Tarnów[]
+A1723480|43-200|Pszczyna|ul. 3 Maja[ul.3 Maja 5a/2]|5a/2[]||ŚLĄSKIE[]|pszczyński[]|Pszczyna[]
+A1723481|21-010|Łęczna[LĘCZNA]|ul. Wiklinowa[ul.Wiklinowa 4/17]|4/17[]||LUBELSKIE[]|łęczyński[]|Łęczna[]
+A1723549|43-300|Bielsko-Biała|ul. Skośna[ul.Skośna 6/10]|6/10[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1724006|25-640|Kielce|ul. Tektoniczna[ul.Tektoniczna 2/36]|2/36[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1724066|59-300|Lubin|ul. Krupińskiego[ul.Krasińskiego 15/3]|15/3[]||DOLNOŚLĄSKIE[]|lubiński[]|Lubin[]
+A1724271|34-500|Zakopane|ul. Słoneczna[ul.Słoneczna 6/20]|6/20[]||MAŁOPOLSKIE[]|tatrzański[]|Zakopane[]
+A1724415|03-984|Warszawa|ul. Mikołajczyka[ul.Mikołajczyka 15/30]|15/30[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1724512|25-640|Kielce|ul. Karbońska[ul.Karbońska 1/65]|1/65[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1725028|25-409|Kielce|ul. Gałczyńskiego[ul.Gałczyńskiego 4/26]|4/26[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1725124|21-010|Łęczna|ul. Wiklinowa[ul.Wiklinowa 24/2]|24/2[]||LUBELSKIE[]|łęczyński[]|Łęczna[]
+A1725143|33-380|Krynica-Zdrój|ul. Źródlana[ul.Źródlana 37/27]|37/27[]||MAŁOPOLSKIE[]|nowosądecki[]|Krynica-Zdrój[]
+A1725734|04-013|Warszawa|ul. Międzyborska[ul.Międzyborska 89/4]|89/4[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1725798|38-200|Jasło|ul. Baczyńskiego[ul.Baczyńskiego 25/30]|25/30[]||PODKARPACKIE[]|jasielski[]|Jasło[]
+A1726185|25-534|Kielce|ul. Wiosenna[ul.Wiosenna 7/45]|7/45[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1726225|85-132|Bydgoszcz|ul. Podhalańska[ul.Podhalańska 10/11]|10/11[]||KUJAWSKO-POMORSKIE[]|Bydgoszcz[]|Bydgoszcz[]
+A1726288|10-693|Olsztyn|ul. Kleeberga[ul.Kleeberga 9/15]|9/15[]||WARMIŃSKO-MAZURSKIE[]|Olsztyn[]|Olsztyn[]
+A1727635|43-300|Bielsko-Biała|ul. Skośna[ul.Skośna 12/4]|12/4[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1727735|35-114|Rzeszów|ul. Malczewskiego[ul.Malczewskiego 1/17]|1/17[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1727919|37-500|Jarosław|os. Pułaskiego[os.Pułaskiego 14/36]|14/36[]||PODKARPACKIE[]|jarosławski[]|Jarosław[]
+A1728008|04-479|Warszawa|ul. Ilskiego[ul.Ilskiego 38/10]|38/10[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1728371|37-700|Przemyśl|ul. Bolesława Śmiałego[ul.Bolesława Śmiałego 10a/2]|10a/2[]||PODKARPACKIE[]|Przemyśl[]|Przemyśl[]
+A1728471|37-500|Jarosław|os. Piłsudskiego[os.Piłsudskiego 17/11]|17/11[]||PODKARPACKIE[]|jarosławski[]|Jarosław[]
+A1728474|40-875|Katowice|ul. Tysiąclecia[Tysiąclecia 47/12]|47/12[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1728529|91-357|Łódź|ul. Liściasta[ul. Liściasta 49/2]|49/2[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1728531|82-335|Gronowo Elbląskie|ul. Kolejowa[ul. Kolejowa 10/3]|10/3[]||WARMIŃSKO-MAZURSKIE[]|elbląski[]|Gronowo Elbląskie[]
+A1728679|20-016|Lublin|ul. Narutowicza[ul.Narutowicza 58/60]|58/60[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1729806|57-320[]|Polanica-Zdrój|al. 1000-lecia[Al.1000-lecia 2/6]|2/6[]||DOLNOŚLĄSKIE[]|kłodzki[]|Polanica-Zdrój[]
+A1730268|41-208|Sosnowiec|ul. Śliwki[Śliwki 14/12]|14/12[]||ŚLĄSKIE[]|Sosnowiec[]|Sosnowiec[]
+A1730269|84-210|Gardkowice[GARDKOWICE 1/2]||1/2[]||POMORSKIE[]|wejherowski[]|Choczewo[]
+A1730832|65-752|Zielona Góra|ul. Objazdowa[Objazdowa 37c/10]|37c/10[]||LUBUSKIE[]|Zielona Góra[]|Zielona Góra[]
+A1730833|75-847|Koszalin|ul. Wenedów[Wenedów 5/22]|5/22[]||ZACHODNIOPOMORSKIE[]|Koszalin[]|Koszalin[]
+A1730835|09-407|Płock|ul. Lachmana[ul.Lachmana 24/23]|24/23[]||MAZOWIECKIE[]|Płock[]|Płock[]
+A1730885|32-300|Olkusz|ul. Armii Krajowej[ul.Armii Krajowej 30/54]|30/54[]||MAŁOPOLSKIE[]|olkuski[]|Olkusz[]
+A1731078|87-100|Toruń|ul. Bema[ul.Bema 12/12]|12/12[]||KUJAWSKO-POMORSKIE[]|Toruń[]|Toruń[]
+A1738810|03-043[03-044]|Warszawa|ul. Żeglugi Wiślanej[ul.Żeglugi Wiślanej 10a/55]|10a/55[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1738811|33-380|Krynica-Zdrój|ul. Źródlana[ul.Źródlana 43/39]|43/39[]||MAŁOPOLSKIE[]|nowosądecki[]|Krynica-Zdrój[]
+A1739250|35-011|Rzeszów|ul. Sondeja[Ks.J.Sondeja 9/19]|9/19[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1740135|24-170|Klementowice[KLEMENTOWICE 365A/11]||365A/11[]||LUBELSKIE[]|puławski[]|Kurów[]
+A1740183|02-785|Warszawa|ul. Surowieckiego[ul.Surowieckiego 4/70]|4/70[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1740299|26-110|Skarżysko-Kamienna|ul. Sokola[ul.Sokoła 6/62]|6/62[]||ŚWIĘTOKRZYSKIE[]|skarżyski[]|Skarżysko-Kamienna[]
+A1740344|88-100|Inowrocław|ul. Władysława Łokietka[ul.Władysława Łokietka 11/87]|11/87[]||KUJAWSKO-POMORSKIE[]|inowrocławski[]|Inowrocław[]
+A1740345|33-100|Tarnów|ul. Do Prochowni[ul.Do Prochowni 49/43]|49/43[]||MAŁOPOLSKIE[]|Tarnów[]|Tarnów[]
+A1741073|32-600|Oświęcim|ul. Aleja Tysiąclecia[ul.Tysiąclecia 55/7]|55/7[]||MAŁOPOLSKIE[]|oświęcimski[]|Oświęcim[]
+A1741144|42-693|Krupski Młyn|ul. Mickiewicza[ul.Mickiewicza 3/1]|3/1[]||ŚLĄSKIE[]|tarnogórski[]|Krupski Młyn[]
+A1741309|38-604|Średnia Wieś[ŚREDNIA WIEŚ 118D/8]||118D/8[]||PODKARPACKIE[]|leski[]|Lesko[]
+A1741722|25-522|Kielce|ul. Nowy Świat[ul.Nowy Świat 38/4]|38/4[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1741780|25-015|Kielce|ul. Złota[ul.Złota 24/3]|24/3[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1742319|33-100|Tarnów|ul. Romanowicza[ul.Romanowicza 36/11]|36/11[]||MAŁOPOLSKIE[]|Tarnów[]|Tarnów[]
+A1742323|32-500|Chrzanów|ul. Broniewskiego[ul.Broniewskiego 16a/12]|16a/12[]||MAŁOPOLSKIE[]|chrzanowski[]|Chrzanów[]
+A1742694|35-309|Rzeszów|ul. Podwisłocze[ul.Podwisłocze 4/37]|4/37[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1742700|32-500|Chrzanów|ul. Trzebińska[ul.Trzebińska 3/21]|3/21[]||MAŁOPOLSKIE[]|chrzanowski[]|Chrzanów[]
+A1742710|02-495|Warszawa|ul. Poczty Gdańskiej[ul.Poczty Gdańskiej 17/28]|17/28[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1742711|10-693|Olsztyn|ul. Hallera[ul.Hallera 4a/8]|4a/8[]||WARMIŃSKO-MAZURSKIE[]|Olsztyn[]|Olsztyn[]
+A1742713|44-335|Jastrzębie-Zdrój|ul. Wielkopolska[ul.Wielkopolska 8/31]|8/31[]||ŚLĄSKIE[]|Jastrzębie-Zdrój[]|Jastrzębie-Zdrój[]
+A1742717|60-330|Poznań|ul. Cześnikowska[ul.Cześnikowska 24/17]|24/17[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1742718|38-207|Trzcinica[TRZCINICA 79/2]||79/2[]||PODKARPACKIE[]|jasielski[]|Jasło[]
+A1742844|41-219|Sosnowiec|ul. Białostocka[ul.Białostocka 36/14]|36/14[]||ŚLĄSKIE[]|Sosnowiec[]|Sosnowiec[]
+A1743388|33-300|Nowy Sącz|ul. Grunwaldzka[ul.Grunwaldzka 167/4]|167/4[]||MAŁOPOLSKIE[]|Nowy Sącz[]|Nowy Sącz[]
+A1743398|41-500|Chorzów|ul. Morcinka[ul.Morcinka 14/6]|14/6[]||ŚLĄSKIE[]|Chorzów[]|Chorzów[]
+A1743451|33-100|Tarnów|ul. Lwowska[Lwowska 69/92]|69/92[]||MAŁOPOLSKIE[]|Tarnów[]|Tarnów[]
+A1744034|39-300|Mielec|ul. Chopina[ul.Chopina 6/4]|6/4[]||PODKARPACKIE[]|mielecki[]|Mielec[]
+A1744122|65-066|Zielona Góra|ul. Żeromskiego[ul.Żeromskiego 19/1]|19/1[]||LUBUSKIE[]|Zielona Góra[]|Zielona Góra[]
+A1744611|41-902|Bytom|ul. Kwietniewskiego[ul.Kwietniewskiego 5/3]|5/3[]||ŚLĄSKIE[]|Bytom[]|Bytom[]
+A1745038|40-282|Katowice|ul. Sikorskiego[ul.Sikorskiego 14/69]|14/69[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1745040|41-406[41-400]|Mysłowice|ul. Sowińskiego[ul.Sobieskiego 11/7]|11/7[]||ŚLĄSKIE[]|Mysłowice[]|Mysłowice[]
+A1745130|39-400[]|Tarnobrzeg|ul. Konstytucji 3 Maja[ul.Konstytucji 3 Maja 3/39]|3/39[]||PODKARPACKIE[]|Tarnobrzeg[]|Tarnobrzeg[]
+A1745350|22-400|Zamość[ZAMOŚC]|ul. Infułacka[ul. Infułacka 9/24]|9/24[]||LUBELSKIE[]|Zamość[]|Zamość[]
+A1745807|02-626[00-977]|Warszawa|al. Niepodległości[al.Niepodległości 77/85]|77/85[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1746322|85-655|Bydgoszcz|ul. Sułkowskiego[ul.Sułkowskiego 38/46]|38/46[]||KUJAWSKO-POMORSKIE[]|Bydgoszcz[]|Bydgoszcz[]
+A1746441|71-030[71-436]|Szczecin|ul. Mierzyńska[ul.Niemrzyńska 27b/19]|27b/19[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1746712|38-200|Jasło|ul. Na Kotlinę[ul.Na Kotlinę 3/18]|3/18[]||PODKARPACKIE[]|jasielski[]|Jasło[]
+A1746715|43-178|Ornontowice|ul. Żabik[ul.Żabik 13/202]|13/202[]||ŚLĄSKIE[]|mikołowski[]|Ornontowice[]
+A1746728|32-500|Chrzanów|ul. Wyszyńskiego[ul.Kardynała Wyszyńskeigo 1/14]|1/14[]||MAŁOPOLSKIE[]|chrzanowski[]|Chrzanów[]
+A1746919|03-741|Warszawa|ul. Białostocka[ul.Białostocka 7/3]|7/3[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1747303|33-200|Dąbrowa Tarnowska|os. Westerplatte[oś.Westerplatte 1/3]|1/3[]||MAŁOPOLSKIE[]|dąbrowski[]|Dąbrowa Tarnowska[]
+A1747639|61-706|Poznań|ul. Libelta[ul.Libelta 16/20]|16/20[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1747954|50-040|Wrocław|ul. Podwale[ul.Podwale 37/38]|37/38[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1747959|34-120[]|Andrychów|ul. Lenartowicza[ul.Lenartowicza 74/34]|74/34[]||MAŁOPOLSKIE[]|wadowicki[]|Andrychów[]
+A1748202|32-800|Brzesko|ul. Władysława Jagiełły[os.Władysława Jagiełły 4/2]|4/2[]||MAŁOPOLSKIE[]|brzeski[]|Brzesko[]
+A1748206|97-400|Bełchatów|os. Dolnośląskie[os.Dolnośląskie 140/7]|140/7[]||ŁÓDZKIE[]|bełchatowski[]|Bełchatów[]
+A1748588|02-972|Warszawa|ul. Branickiego[ul.Branickiego 9/146]|9/146[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1748774|00-333|Warszawa|ul. Krakowskie Przedmieście[ul.Krakowskie Przedmieście 4/6]|4/6[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1748812|48-300|Nysa|ul. Piastowska[ul.Piastowska 21/1U]|21/1U[]||OPOLSKIE[]|nyski[]|Nysa[]
+A1748994|27-600|Sandomierz|ul. Milberta[ul.Milberta 4/20]|4/20[]||ŚWIĘTOKRZYSKIE[]|sandomierski[]|Sandomierz[]
+A1749066|80-233[]|Gdańsk|ul. Narutowicza[ul.Narutowicza 11/12]|11/12[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1749069|75-613[75-604]|Koszalin|ul. Zwycięstwa[ul.Zwycięstwa 138/4]|138/4[]||ZACHODNIOPOMORSKIE[]|Koszalin[]|Koszalin[]
+A1749559|25-370|Kielce|ul. Żeromskiego[ul.Żeromskiego 29/27]|29/27[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1749614|61-457|Poznań|ul. Wiklinowa[ul.Wiklinowa 3/5]|3/5[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1749974|42-218[42-200]|Częstochowa|ul. Okólna[ul.Okólna 105/22]|105/22[]||ŚLĄSKIE[]|Częstochowa[]|Częstochowa[]
+A1750021|39-400|Tarnobrzeg|ul. Jadwigi[ul.Królowej Jadwigi 5/1]|5/1[]||PODKARPACKIE[]|Tarnobrzeg[]|Tarnobrzeg[]
+A1750025|04-128|Warszawa|ul. Omulewska[ul.Omulewska 24/22]|24/22[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1751025|87-100|Toruń|ul. Mickiewicza[Mickiewicza 10/16]|10/16[]||KUJAWSKO-POMORSKIE[]|Toruń[]|Toruń[]
+A1752201|15-399|Białystok|ul. Octowa[ul.Octowa 3/18]|3/18[]||PODLASKIE[]|Białystok[]|Białystok[]
+A1752205|42-271|Częstochowa|ul. Rydla[ul.Rydla 6/11]|6/11[]||ŚLĄSKIE[]|Częstochowa[]|Częstochowa[]
+A1752430|32-087|Zielonki|ul. Marzycieli[ul.Marzycieli 20d/1]|20d/1[]||MAŁOPOLSKIE[]|krakowski[]|Zielonki[]
+A1752688|50-437[50-537]|Wrocław[WROCŁĄW]|ul. Kościuszki[ul. Kościuszki 178/2]|178/2[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1752691|09-500|Gostynin|ul. Armii Krajowej[ul. Armii Krajowej 31/11]|31/11[]||MAZOWIECKIE[]|gostyniński[]|Gostynin[]
+A1752783|41-205[41-200]|Sosnowiec|ul. Szpaków[ul.Szpaków 2A/7]|2A/7[]||ŚLĄSKIE[]|Sosnowiec[]|Sosnowiec[]
+A1753434|85-305|Bydgoszcz|ul. Gersona[ul.Wojciecha Gersona 11/10]|11/10[]||KUJAWSKO-POMORSKIE[]|Bydgoszcz[]|Bydgoszcz[]
+A1754249|47-100|Strzelce Opolskie|os. Piastów Śląskich[os.Piastów Śląskich 8/28]|8/28[]||OPOLSKIE[]|strzelecki[]|Strzelce Opolskie[]
+A1761951|22-300|Krasnystaw|ul. Piłsudskiego[ul.Piłsudskiego 34/26]|34/26[]||LUBELSKIE[]|krasnostawski[]|Krasnystaw[]
+A1761972|03-127[00-043]|Warszawa|ul. Czackiego[ul.Czackiego 3/5]|3/5[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1762252|01-141|Warszawa|ul. Wolska[ul.Wolska 84/86]|84/86[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1762662|64-980|Trzcianka|ul. Sikorskiego[ul.Sikorskiego 72/2]|72/2[]||WIELKOPOLSKIE[]|czarnkowsko-trzcianecki[]|Trzcianka[]
+A1763268|00-195|Warszawa|ul. Słomińskiego[ul.Słomińskiego 17/31]|17/31[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1763983|44-100|Gliwice|ul. Kościuszki[ul.T.Kościuszki 1c/309]|1c/309[]||ŚLĄSKIE[]|Gliwice[]|Gliwice[]
+A1765304|01-651|Warszawa|ul. Gwiaździsta[ul.Gwiaździsta 7d/46]|7d/46[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1765510|08-119[08-110]|Siedlce|ul. Bolesława Chrobrego[ul.Bolesława Chrobrego 11/20]|11/20[]||MAZOWIECKIE[]|Siedlce[]|Siedlce[]
+A1765954|24-100[]|Puławy|ul. Grota-Roweckiego[ul.Grota Roweckiego 14/37]|14/37[]||LUBELSKIE[]|puławski[]|Puławy[]
+A1767857|40-356|Katowice|ul. Bednarska[ul.Bednarska 13/1]|13/1[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1767859|00-801|Warszawa|ul. Chmielna[ul.Chmielna 73b/28]|73b/28[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1768155|15-760|Białystok|ul. Szeroka[ul.Szeroka 10/4]|10/4[]||PODLASKIE[]|Białystok[]|Białystok[]
+A1768447|02-778|Warszawa|ul. Płaskowickiej[ul.F.Płaskowickiej 46/129]|46/129[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1769644|41-408[41-400]|Mysłowice|ul. Kryształowa[ul.Kryształowa 25/15]|25/15[]||ŚLĄSKIE[]|Mysłowice[]|Mysłowice[]
+A1770737|58-100|Świdnica|ul. Gdyńska[Gdyńska 25/10]|25/10[]||DOLNOŚLĄSKIE[]|świdnicki[]|Świdnica[]
+A1770855|34-100|Wadowice|os. Pod Skarpą[os.Pod Skarpą 3/47]|3/47[]||MAŁOPOLSKIE[]|wadowicki[]|Wadowice[]
+A1771237|92-538|Łódź|ul. Czernika[ul.Czerniaka 1b/11]|1b/11[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1771765|59-220|Legnica|ul. Worcella[ul.Worcella 6/9]|6/9[]||DOLNOŚLĄSKIE[]|Legnica[]|Legnica[]
+A1771911|58-400|Kamienna Góra|ul. Hallera[ul.gen.Hallera 2/4]|2/4[]||DOLNOŚLĄSKIE[]|kamiennogórski[]|Kamienna Góra[]
+A1772106|00-199|Warszawa|ul. Pokorna[ul.Pokorna 2/211]|2/211[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1772800|35-114|Rzeszów|ul. Malczewskiego[ul.Malczewskiego 11/7]|11/7[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1772902|81-572|Gdynia|ul. Gryfa Pomorskiego[ul.Gryfa Pomorskiego 46A/5]|46A/5[]||POMORSKIE[]|Gdynia[]|Gdynia[]
+A1773232|87-800|Włocławek|ul. Rajska[ul.Rajska 5/40]|5/40[]||KUJAWSKO-POMORSKIE[]|Włocławek[]|Włocławek[]
+A1773779|80-233|Gdańsk|ul. Narutowicza[ul.Narutowicza 11/12]|11/12[]||POMORSKIE[]|Gdańsk[]|Gdańsk[]
+A1775151|26-610[26-600]|Radom|ul. Limanowskiego[ul.Limanowskiego 34/40]|34/40[]||MAZOWIECKIE[]|Radom[]|Radom[]
+A1775166|85-790|Bydgoszcz|ul. Fordońska[ul.Forodyńska 430/306]|430/306[]||KUJAWSKO-POMORSKIE[]|Bydgoszcz[]|Bydgoszcz[]
+A1776760|27-600|Sandomierz|ul. Lubelska[ul.Lubelska 29a/1]|29a/1[]||ŚWIĘTOKRZYSKIE[]|sandomierski[]|Sandomierz[]
+A1777628|34-500|Zakopane|ul. Chałubińskiego[ul.Chałubińskiego 11A/3]|11A/3[]||MAŁOPOLSKIE[]|tatrzański[]|Zakopane[]
+A1778016|32-020|Wieliczka|ul. Kościuszki[os. Kosciuszki 6/4]|6/4[]||MAŁOPOLSKIE[]|wielicki[]|Wieliczka[]
+A1783986|51-128|Wrocław|ul. Poświęcka[Poświęcka 51/14]|51/14[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1784767|02-792[02-793]|Warszawa|ul. Lanciego[ul.F.M.Lanciego 17/28]|17/28[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1785006|42-500|Będzin|ul. Kolejowa[ul.kOLEJOWA 24/39]|24/39[]||ŚLĄSKIE[]|będziński[]|Będzin[]
+A1785106|35-625|Rzeszów|ul. Książęca[ul.Książęca 30/1]|30/1[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1785108|42-209|Częstochowa[CZĘSTICHOWA]|ul. Kontkiewicza[ul.Kontkiewicza 6/20]|6/20[]||ŚLĄSKIE[]|Częstochowa[]|Częstochowa[]
+A1785130|78-600|Wałcz|os. Dolne Miasto[os.Dolne Miasto 28/22]|28/22[]||ZACHODNIOPOMORSKIE[]|wałecki[]|Wałcz[]
+A1785325|28-400|Pińczów|ul. Średnia[ul.średnia 25/11]|25/11[]||ŚWIĘTOKRZYSKIE[]|pińczowski[]|Pińczów[]
+A1785552|20-828|Lublin|ul. Wołynian[ul.Wołynian 35/2]|35/2[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1786629|25-731|Kielce|ul. Słoneczna[ul.Słoneczna 23/46]|23/46[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1786632|26-611[26-600]|Radom|ul. Wyścigowa[ul.Wyścigowa 26/19]|26/19[]||MAZOWIECKIE[]|Radom[]|Radom[]
+A1786638|32-020|Wieliczka|ul. Barbary[ul.Św.Barbary 16d/1]|16d/1[]||MAŁOPOLSKIE[]|wielicki[]|Wieliczka[]
+A1787955|04-998|Warszawa|ul. Ogórkowa[ul.Ogórkowa 44i/3]|44i/3[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1788107|10-511[10-900]|Olsztyn|ul. Kopernika[ul.Kopernika 14/8]|14/8[]||WARMIŃSKO-MAZURSKIE[]|Olsztyn[]|Olsztyn[]
+A1790004|54-402|Wrocław|ul. Baskijska[ul.Baskijska 10/2]|10/2[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1790616|00-801|Warszawa|ul. Chmielna[ul.Chmielna 73b/28]|73b/28[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1791346|11-400|Kętrzyn|ul. Jadwigi[ul.Królowej Jadwigi 8/5]|8/5[]||WARMIŃSKO-MAZURSKIE[]|kętrzyński[]|Kętrzyn[]
+A1791620|32-300|Olkusz|ul. Skalska[ul.Skalska 9/19]|9/19[]||MAŁOPOLSKIE[]|olkuski[]|Olkusz[]
+A1792064|35-234|Rzeszów|ul. Trembeckiego[ul.Trembeckiego 11a/304]|11a/304[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1792091|39-300|Mielec|ul. Kocjana[ul.Kocjana 19/24]|19/24[]||PODKARPACKIE[]|mielecki[]|Mielec[]
+A1792266|27-415|Kunów|ul. Langiewicza[ul.Langiewicza 1/17]|1/17[]||ŚWIĘTOKRZYSKIE[]|ostrowiecki[]|Kunów[]
+A1792963|02-483[02-482]|Warszawa|ul. Zapustna[ul.Zapustna 42a/25]|42a/25[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1794191|60-105|Poznań|ul. Kopanina[ul.Kopanina 54/56]|54/56[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1794483|76-270|Ustka|ul. Słupska[ul.Słupska 5/59]|5/59[]||POMORSKIE[]|słupski[]|Ustka[]
+A1794485|91-404|Łódź[ŁODŹ]|ul. Lumumby[ul.Lumumby 1/3]|1/3[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1794638|53-313|Wrocław|ul. Sztabowa[ul.Sztabowa 87/3]|87/3[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1796434|02-668|Warszawa|al. Lotników[al.Lotników 32/46]|32/46[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1797441|43-303[43-300]|Bielsko-Biała|ul. Jesionowa[ul.Jesionowa 14/3]|14/3[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1797587|02-739|Warszawa|ul. Wałbrzyska[ul. Wałbrzyska 3/7]|3/7[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1797661|42-450|Łazy|ul. Spółdzielcza[ul.Spółdzielcza 9/27]|9/27[]||ŚLĄSKIE[]|zawierciański[]|Łazy[]
+A1797734|25-501[]|Kielce|ul. Sienkiewicza[ul.Sienkiewicza 48/50]|48/50[]||ŚWIĘTOKRZYSKIE[]|Kielce[]|Kielce[]
+A1798565|20-060|Lublin|ul. Głowackiego[ul.Głowackiego 35/341]|35/341[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1798606|87-800[47-800]|Włocławek|ul. Olszowa[ul.Olszowa 7/49]|7/49[]||KUJAWSKO-POMORSKIE[]|Włocławek[]|Włocławek[]
+A1798783|33-300[]|Nowy Sącz|ul. 1 Brygady[ul.1 Brygady 14/29]|14/29[]||MAŁOPOLSKIE[]|Nowy Sącz[]|Nowy Sącz[]
+A1913670|40-676|Katowice|ul. Tunelowa[Tunelowa 24A/1]|24A/1[]||ŚLĄSKIE[]|Katowice[]|Katowice[]
+A1808738|00-666|Warszawa|ul. Noakowskiego[ul.Noakowskiego 10/60A]|10/60A[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1808887|52-129|Wrocław|ul. Vivaldiego[ul.Vivaldiego 41/8]|41/8[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1810678|32-650|Kęty|os. Nad Sołą[os.Nad Sołą 11/6]|11/6[]||MAŁOPOLSKIE[]|oświęcimski[]|Kęty[]
+A1812144|61-706|Poznań|ul. Libelta[ul.Libelta 1a/2]|1a/2[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1812715|71-215|Szczecin|ul. Łukasińskiego[Waleriana Łukasinskiego 40/7]|40/7[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1813117|43-600|Jaworzno|ul. Diamentowa[ul.Diamentowa 8/19]|8/19[]||ŚLĄSKIE[]|Jaworzno[]|Jaworzno[]
+A1813683|43-382[43-300]|Bielsko-Biała|ul. Pawła[ul.Św.Pawła 15/1]|15/1[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1814204|02-697|Warszawa|ul. Rzymowskiego[ul.Rzymowskiego 30/413A]|30/413A[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1814677|03-543|Warszawa|ul. Barkocińska[ul.Barkocińska 6/7]|6/7[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1814758|54-210|Wrocław|ul. Kwiska[Kwiska 63/6]|63/6[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1814770|60-107|Poznań|ul. Górnicza[ul.Górnicza 2/34]|2/34[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1815719|03-185|Warszawa|ul. Myśliborska[ul.Myśliborska 26/36]|26/36[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1816294|41-250|Czeladź|ul. Składkowskiego[ul.Skłodowskiego 3a/35]|3a/35[]||ŚLĄSKIE[]|będziński[]|Czeladź[]
+A1816680|59-220|Legnica|ul. Armii Krajowej[ul.Armii Krajowej 1/5]|1/5[]||DOLNOŚLĄSKIE[]|Legnica[]|Legnica[]
+A1816683|02-349|Warszawa|ul. Baśniowa[ul.Baśniowa 3/410]|3/410[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1816689|93-162|Łódź|ul. Broniewskiego[ul.Broniewskiego 6A/13]|6A/13[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1816819|20-571|Lublin|ul. Agatowa[ul.Agatowa 19/57]|19/57[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1817612|05-135|Wieliszew|ul. Modlińska[ul.Modlińska 140/5]|140/5[]||MAZOWIECKIE[]|legionowski[]|Wieliszew[]
+A1818243|64-100|Leszno|ul. Zamenhofa[ul.Zamenhofa 89/3]|89/3[]||WIELKOPOLSKIE[]|Leszno[]|Leszno[]
+A1820161|20-246|Lublin|ul. Niepodległości[Niepodległości 7/83]|7/83[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1821451|63-500|Ostrzeszów|ul. Grunwaldzka[ul.Grunwaldzka 7a/10]|7a/10[]||WIELKOPOLSKIE[]|ostrzeszowski[]|Ostrzeszów[]
+A1824010|10-768|Olsztyn|ul. Minakowskiego[ul.Minakowskiego 12/66]|12/66[]||WARMIŃSKO-MAZURSKIE[]|Olsztyn[]|Olsztyn[]
+AP1447785|26-610[26-600]|Radom|ul. Wolność[ul.Wolność 8/4]|8/4[]||MAZOWIECKIE[]|Radom[]|Radom[]
+A1831415|43-300|Bielsko-Biała|ul. Jutrzenki[ul.Jutrzenki 33/77]|33/77[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1831574|21-400|Łuków|ul. Prusa[ul.B.Prusa 8/16]|8/16[]||LUBELSKIE[]|łukowski[]|Łuków[]
+A1832633|99-200|Poddębice|ul. Południowa[ul.Południowa 1c/16]|1c/16[]||ŁÓDZKIE[]|poddębicki[]|Poddębice[]
+A1833707|44-117|Gliwice|ul. Galaktyki[ul.Galaktyki 1/1]|1/1[]||ŚLĄSKIE[]|Gliwice[]|Gliwice[]
+A1834021|53-238|Wrocław|ul. Petuniowa[ul.Petuniowa 9/5]|9/5[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1834234|50-338|Wrocław|ul. Reja[ul.Reja 37/125]|37/125[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1834240|32-540|Trzebinia|os. Widokowe[Os.Widokowe 23/5]|23/5[]||MAŁOPOLSKIE[]|chrzanowski[]|Trzebinia[]
+A1834243|51-504|Wrocław|ul. Polo[ul.Marco Polo 33/3]|33/3[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1834808|32-300|Olkusz|ul. Skalska[ul.Skalska 19/30]|19/30[]||MAŁOPOLSKIE[]|olkuski[]|Olkusz[]
+A1834997|21-040|Świdnik|ul. Modrzewiowa[ul.Modrzewiowa 4/125]|4/125[]||LUBELSKIE[]|świdnicki[]|Świdnik[]
+A1834999|81-824|Sopot|ul. Armii Krajowej[ul.Armii krajowej 116/15]|116/15[]||POMORSKIE[]|Sopot[]|Sopot[]
+A1835647|26-610[26-600]|Radom|ul. Jastrzębia[ul.Jastrzębia 7/28]|7/28[]||MAZOWIECKIE[]|Radom[]|Radom[]
+A1838059|02-790|Warszawa|ul. Pachnąca[Pachnąca 95/28]|95/28[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1838572|01-493|Warszawa|ul. Orlich Gniazd[ul.Orlich Gniazd 6/1a]|6/1a[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1838743|20-838|Lublin|ul. Kiepury[ul.Jana Kiepury 11/13]|11/13[]||LUBELSKIE[]|Lublin[]|Lublin[]
+AF10123|90-237|Łódź|ul. Matejki[ul.Matejki 22/26]|22/26[]||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A01286562|03-127[00-043]|Warszawa|ul. Czackiego[ul.Czackiego 3/5]|3/5[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A01746441|71-436|Szczecin|ul. Niemierzyńska[Niemierzańska 27b/19]|27b/19[]||ZACHODNIOPOMORSKIE[]|Szczecin[]|Szczecin[]
+A1839738|02-796|Warszawa|ul. Wąwozowa[ul.Wąwozowa 1/18]|1/18[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1839831|02-795|Warszawa|ul. Kazury[ul.Stanisława Kazury 15/45]|15/45[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1840573|10-699|Olsztyn|ul. Jarocka[Jarocka 64/2]|64/2[]||WARMIŃSKO-MAZURSKIE[]|Olsztyn[]|Olsztyn[]
+AP1813683|43-382[43-300]|Bielsko-Biała|ul. Pawła[ul.Św.Pawła 15/1]|15/1[]||ŚLĄSKIE[]|Bielsko-Biała[]|Bielsko-Biała[]
+A1841014|43-230|Goczałkowice-Zdrój|ul. Uzdrowiskowa[Ul.Uzdrowiskowa 46/1]|46/1[]||ŚLĄSKIE[]|pszczyński[]|Goczałkowice-Zdrój[]
+A1842222|05-120|Legionowo|ul. Husarska[ul.Husarska 27/47]|27/47[]||MAZOWIECKIE[]|legionowski[]|Legionowo[]
+A1842262|46-040|Ozimek|ul. 8 Marca[8 Marca 1a/4]|1a/4[]||OPOLSKIE[]|opolski[]|Ozimek[]
+A01365160|00-394|Warszawa|ul. Solec[ul.Solec 38/103]|38/103[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1845195|00-183|Warszawa|ul. Stawki[ul.Stawki 5/7]|5/7[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+AP1799832|60-754|Poznań|ul. Chełmońskiego[Chełmońskiego 8/4]|8/4[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1847091|42-218|Częstochowa|ul. Łódzka[ul.Łódzka 31/73]|31/73[]||ŚLĄSKIE[]|Częstochowa[]|Częstochowa[]
+A1847142|20-425[59-300]|Lublin|ul. Kwiatowa[ul.Kwiatowa 5a/9]|5a/9[]||LUBELSKIE[]|Lublin[]|Lublin[]
+A1847148|02-940|Warszawa|ul. Bonifacego[św.Bonifacego 92/16]|92/16[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1847483|01-222|Warszawa|ul. Prądzyńskiego[ul.Prądzyńskiego 12/14]|12/14[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1848514|67-200|Głogów|ul. Kotlarska[Kotlarska 1a/5]|1a/5[]||DOLNOŚLĄSKIE[]|głogowski[]|Głogów[]
+A1849679|54-115|Wrocław|ul. Lauterbacha[Heinricha Lauterbacha 6/12]|6/12[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1850402|35-614|Rzeszów|ul. Kingi[Św.Kingi 16/39]|16/39[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1863475|37-100|Łańcut|os. Maczka[os. Generała Maczka 1/30]|1/30[]||PODKARPACKIE[]|łańcucki[]|Łańcut[]
+A021333|00-732|Warszawa|ul. Czerska[Czerska 8/10]|8/10[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1911746|35-030|Rzeszów|ul. 3 Maja[3-go Maja 11/10]|11/10[]||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1668166|44-100[]|Gliwice|ul. Czesława[ul.Bł.Czesława 16/18]|16/18[]||ŚLĄSKIE[]|Gliwice[]|Gliwice[]
+A1931867|54-233|Wrocław|ul. Niedźwiedzia[Niedźwiedzia 24/24]|24/24[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1668637|26-610[26-600]|Radom|ul. Mireckiego[ul.Mireckiego 12/8]|12/8[]||MAZOWIECKIE[]|Radom[]|Radom[]
+A1432457|00-497[00-400]|Warszawa|ul. Nowy Świat[ul. Nowy Świat 6/12]|6/12[]||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1622109|31-636|Kraków|os. Oświecenia[Oś. Oświecenia 48/7]|48/7[]||MAŁOPOLSKIE|Kraków|Kraków
+A1349516|31-875|Kraków|os. Dywizjonu 303[Os. Dywizjonu 303 46/1]|46/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1350017|31-875|Kraków|os. Dywizjonu 303[Os. Dywizjonu 303 44/50]|44/50[]||MAŁOPOLSKIE|Kraków|Kraków
+A1350060|31-870|Kraków|os. 2 Pułku Lotniczego[os. 2 Pułku Lotniczego 44/48]|44/48[]||MAŁOPOLSKIE|Kraków|Kraków
+A1633028|30-051|Kraków|ul. Urzędnicza[ul.Urzędnicza 26/1]|26/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1288651|31-872|Kraków|os. Dywizjonu 303[os.Dywizjonu 303 18/53]|18/53[]||MAŁOPOLSKIE|Kraków|Kraków
+A1368691|31-872|Kraków|os. Dywizjonu 303[os.Dywizjonu 303 11/55]|11/55[]||MAŁOPOLSKIE|Kraków|Kraków
+A1384291|31-870[31-867]|Kraków|os. 2 Pułku Lotniczego[os.2 Pułku Lotniczego 41/29]|41/29[]||MAŁOPOLSKIE|Kraków|Kraków
+A1309884|31-869[31-868]|Kraków|os. 2 Pułku Lotniczego[os.2 Pułku Lotniczego 26/36]|26/36[]||MAŁOPOLSKIE|Kraków|Kraków
+A1745559|31-636|Kraków|os. Oświecenia[os.Oświecenia 39/54]|39/54[]||MAŁOPOLSKIE|Kraków|Kraków
+A1627931|31-961|Kraków|os. Górali[os.Górali 24/3]|24/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1363312|31-425|Kraków|al. 29 Listopada[Al.29 Listopada 41a/18]|41a/18[]||MAŁOPOLSKIE|Kraków|Kraków
+A1367872|31-241[31-242]|Kraków|al. 29 Listopada[al.29 Listopada 191/113]|191/113[]||MAŁOPOLSKIE|Kraków|Kraków
+A1382851|31-871|Kraków|os. Dywizjonu 303[os.Dywizjonu 303 5/164]|5/164[]||MAŁOPOLSKIE|Kraków|Kraków
+A1432178|30-349|Kraków|ul. Miłkowskiego[Miłkowskiego 3/801]|3/801[]||MAŁOPOLSKIE|Kraków|Kraków
+A1434005|30-350|Kraków|ul. Zachodnia[ul.Zachodnia 25/96]|25/96[]||MAŁOPOLSKIE|Kraków|Kraków
+A1453177|30-045|Kraków|ul. Królewska[ul.Królewska 2/2]|2/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1477081|31-072[30-942]|Kraków|ul. Wielopole[ul.Wielopole 19/21]|19/21[]||MAŁOPOLSKIE|Kraków|Kraków
+A1477795|30-036|Kraków|ul. Mazowiecka[ul.Mazowiecka 4/6]|4/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1482168|31-872|Kraków|os. Dywizjonu 303[Os.Dywizjonu 303 11/78]|11/78[]||MAŁOPOLSKIE|Kraków|Kraków
+A1483378|31-410|Kraków|ul. Lublańska[ul.Lublańska 11a/5]|11a/5[]||MAŁOPOLSKIE|Kraków|Kraków
+A1602713|31-153|Kraków|ul. Szlak[ul.Szlak 31/7]|31/7[]||MAŁOPOLSKIE|Kraków|Kraków
+A1609869|30-383|Kraków|ul. Obozowa[ul.Obozowa 36/9]|36/9[]||MAŁOPOLSKIE|Kraków|Kraków
+A1617634|31-234|Kraków|ul. Dożynkowa[ul.Dożynkowa 37a/2]|37a/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1621972|30-350|Kraków|ul. Zachodnia[ul. Zachodnia 8/16]|8/16[]||MAŁOPOLSKIE|Kraków|Kraków
+A1623378|30-389|Kraków|ul. Wicherkiewicza[ul.Wicherkiewicza 19/10]|19/10[]||MAŁOPOLSKIE|Kraków|Kraków
+A1625195|31-039[31-054]|Kraków|ul. Dietla[ul.J.Dietla 64/7]|64/7[]||MAŁOPOLSKIE|Kraków|Kraków
+A1626670|30-611|Kraków|ul. Wysłouchów[ul.Wysłouchów 17/66]|17/66[]||MAŁOPOLSKIE|Kraków|Kraków
+A1626742|31-539|Kraków|ul. Kotlarska[ul.Kotlarska 8/9]|8/9[]||MAŁOPOLSKIE|Kraków|Kraków
+A1627052|31-530|Kraków|ul. Łazarza[ul.Św.Łazarza 11/13a]|11/13a[]||MAŁOPOLSKIE|Kraków|Kraków
+A1627053|31-215|Kraków|ul. Prądnicka[ul.Prądnicka 99/52]|99/52[]||MAŁOPOLSKIE|Kraków|Kraków
+A1627303|30-150|Kraków|ul. Armii Krajowej[ul.Armii Krajowej 89/24]|89/24[]||MAŁOPOLSKIE|Kraków|Kraków
+A1627304|31-014[]|Kraków|ul. Sławkowska[ul.Sławkowska 25/2a]|25/2a[]||MAŁOPOLSKIE|Kraków|Kraków
+A1627649|31-321|Kraków|ul. Podkowińskiego[ul.Podkowińskiego 1/18]|1/18[]||MAŁOPOLSKIE|Kraków|Kraków
+A1628334|30-079|Kraków|al. Kijowska[Al.Kijowska 31/53]|31/53[]||MAŁOPOLSKIE|Kraków|Kraków
+A1629571|30-039|Kraków|ul. Józefitów[ul.Józefitów 4/4]|4/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1630132|31-227[]|Kraków|ul. Jasna[ul.Jasna 43/1]|43/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1630793|30-348|Kraków|ul. Grota-Roweckiego[ul.Grota-Roweckiego 21/23]|21/23[]||MAŁOPOLSKIE|Kraków|Kraków
+A1631716|30-509[]|Kraków|pl. Niepodległości[os.Niepodległości 3a/33b]|3a/33b[]||MAŁOPOLSKIE|Kraków|Kraków
+A1631871|30-047|Kraków|ul. Karłowicza[ul.Karłowicza 12/4]|12/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1632938|31-416|Kraków|ul. Dobrego Pasterza[ul.Dobrego Pasterza 99d/1]|99d/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1633019|31-236|Kraków|ul. Felińskiego[ul.Felińskiego 17/13]|17/13[]||MAŁOPOLSKIE|Kraków|Kraków
+A1640630|31-469|Kraków|ul. Młyńska[Młyńska 4/99]|4/99[]||MAŁOPOLSKIE|Kraków|Kraków
+A1643547|30-658|Kraków|ul. Łużycka[ul.Łużycka 63/49]|63/49[]||MAŁOPOLSKIE|Kraków|Kraków
+A1643779|31-636|Kraków|os. Oświecenia[os.Oświecenia 33/6]|33/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1644352|30-058[31-054]|Kraków|ul. Lea[ul.J.Lea 115/54]|115/54[]||MAŁOPOLSKIE|Kraków|Kraków
+A1645658|31-018[]|Kraków|ul. Jana[ul.Św.Jana 2/13a]|2/13a[]||MAŁOPOLSKIE|Kraków|Kraków
+A1646696|31-515|Kraków|ul. Bandurskiego[ul. Bandurskiego 52/8]|52/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1646843|30-085[]|Kraków|ul. Głowackiego[al.Słowackiego 56/8]|56/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1647254|31-339[]|Kraków|ul. Weissa[ul.Weissa 14/6]|14/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1647524|31-436[30-349]|Kraków|ul. Sokołowskiego[ul.Mikołowskiego 11a/48]|11a/48[]||MAŁOPOLSKIE|Kraków|Kraków
+A1647696|30-833|Kraków|ul. Lilli Wenedy[Lilli Wenedy 9/75]|9/75[]||MAŁOPOLSKIE|Kraków|Kraków
+A1647929|30-019|Kraków|ul. Mazowiecka[ul.Mazowiecka 44/38]|44/38[]||MAŁOPOLSKIE|Kraków|Kraków
+A1648009|30-413|Kraków|ul. Huculska[ul.Huculska 4/31]|4/31[]||MAŁOPOLSKIE|Kraków|Kraków
+A1649113|31-966[]|Kraków|os. Sportowe[os Sportowe 22/57]|22/57[]||MAŁOPOLSKIE|Kraków|Kraków
+A1649449|30-334|Kraków|ul. Komandosów[ul.Komandosów 23/14]|23/14[]||MAŁOPOLSKIE|Kraków|Kraków
+A1649793|31-909[]|Kraków|os. Na Skarpie[os.Na Skarpie 7/47]|7/47[]||MAŁOPOLSKIE|Kraków|Kraków
+A1649860|30-069[]|Kraków|ul. Staffa[ul.Staffa 3/35]|3/35[]||MAŁOPOLSKIE|Kraków|Kraków
+A1650347|31-976[31-807]|Kraków|ul. Struga[os Strusia 6/181]|6/181[]||MAŁOPOLSKIE|Kraków|Kraków
+A1650455|31-054|Kraków|ul. Dietla[Dietla 55/1]|55/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1652195|31-414|Kraków|ul. Celarowska[ul.Celarowska 30/82]|30/82[]||MAŁOPOLSKIE|Kraków|Kraków
+A1653017|30-601|Kraków|ul. Sucha[ul.Sucha 28/3]|28/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1653544|31-620|Kraków|os. Bohaterów Września[os.Bohaterów Września 12/9]|12/9[]||MAŁOPOLSKIE|Kraków|Kraków
+A1653670|30-053|Kraków|ul. Kronikarza Galla[ul.Kronikarza Galla 4/9]|4/9[]||MAŁOPOLSKIE|Kraków|Kraków
+A1653831|30-133|Kraków|ul. Lea[ul.Lea 158/15]|158/15[]||MAŁOPOLSKIE|Kraków|Kraków
+A1654958|31-214|Kraków|ul. Mackiewicza[ul.Mackiewicza 25/47]|25/47[]||MAŁOPOLSKIE|Kraków|Kraków
+A1654959|31-236|Kraków|ul. Felińskiego[ul.Felińskiego 21/2]|21/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1655140|31-111|Kraków|ul. Piłsudskiego[ul.Piłsudskieo 28a/306]|28a/306[]||MAŁOPOLSKIE|Kraków|Kraków
+A1656197|30-023|Kraków|ul. Mazowiecka[ul.Mazowiecka 125/123]|125/123[]||MAŁOPOLSKIE|Kraków|Kraków
+A1656309|30-638|Kraków|ul. Białoruska[ul.Białoruska 8/56]|8/56[]||MAŁOPOLSKIE|Kraków|Kraków
+A1656399|30-611|Kraków|ul. Filipowicza[ul.Filipowicza 10/40]|10/40[]||MAŁOPOLSKIE|Kraków|Kraków
+A1656677|31-968|Kraków|os. Zielone[os.Zielone 3/27]|3/27[]||MAŁOPOLSKIE|Kraków|Kraków
+A1667350|31-445|Kraków|ul. Kantora[ul.Kantora 2/4]|2/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1667560|30-085[30-018]|Kraków|ul. Głowackiego[al.Słowackiego 46/16]|46/16[]||MAŁOPOLSKIE|Kraków|Kraków
+A1667739|31-314|Kraków|ul. Zygmuntowska[ul.Zygmuntowska 29/5]|29/5[]||MAŁOPOLSKIE|Kraków|Kraków
+A1668635|30-362|Kraków|ul. Ceglarska[ul.Ceglarka 23/57]|23/57[]||MAŁOPOLSKIE|Kraków|Kraków
+A1669572|31-271|Kraków|ul. Kluczborska[ul.Kluczborska 29/3u]|29/3u[]||MAŁOPOLSKIE|Kraków|Kraków
+A1669934|30-611|Kraków|ul. Stojałowskiego[ul.Stojałowskiego 33/33]|33/33[]||MAŁOPOLSKIE|Kraków|Kraków
+A1670003|31-867|Kraków|os. 2 Pułku Lotniczego[os.II Pułku Lotniczego 3/161]|3/161[]||MAŁOPOLSKIE|Kraków|Kraków
+A1670149|30-069|Kraków|ul. Smoluchowskiego[ul.Smoluchowskiego 6/1]|6/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1670189|31-322|Kraków|ul. Chełmońskiego[ul.Chełmońskiego 4/84]|4/84[]||MAŁOPOLSKIE|Kraków|Kraków
+A1670610|30-133|Kraków|ul. Lea[ul.Lea 158/17]|158/17[]||MAŁOPOLSKIE|Kraków|Kraków
+A1671525|30-036[]|Kraków|ul. Mazowiecka[ul.Mazowiecka 2/10]|2/10[]||MAŁOPOLSKIE|Kraków|Kraków
+A1671952|30-009|Kraków|ul. Friedleina[ul.Friedlleina 40/1]|40/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1671991|31-934|Kraków|os. Centrum E[os.Centrum E 19/2]|19/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1672344|31-319[]|Kraków|ul. Czerwieńskiego[ul.Czerwieńskiego 10/88]|10/88[]||MAŁOPOLSKIE|Kraków|Kraków
+A1672418|30-376|Kraków|ul. Norymberska[ul.Norymberska 10c/44]|10c/44[]||MAŁOPOLSKIE|Kraków|Kraków
+A1672755|30-349|Kraków|ul. Miłkowskiego[ul.Miłkowskiego 8/3]|8/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1673298|31-160|Kraków|ul. Kolberga[ul.Kolberga 4/8]|4/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1674009|30-612[]|Kraków|ul. Storczykowa[ul.Storczykowa 4/11]|4/11[]||MAŁOPOLSKIE|Kraków|Kraków
+A1675153|30-418|Kraków|ul. Zakopiańska[ul.Zakopiańska 73/113]|73/113[]||MAŁOPOLSKIE|Kraków|Kraków
+A1675156|30-865|Kraków|ul. Podłęska[ul.Podłęska 9/36]|9/36[]||MAŁOPOLSKIE|Kraków|Kraków
+A1675406|30-109|Kraków|ul. Salwatorska[ul.Salwatorska 11a/7]|11a/7[]||MAŁOPOLSKIE|Kraków|Kraków
+A1677106|30-383|Kraków|ul. Lubostroń[ul. Lubostroń 7B/2]|7B/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1677863|30-102|Kraków|ul. Ujejskiego[ul.Ujejskiego 8/1]|8/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1677864|30-556[30-559]|Kraków|ul. Dworcowa[ul.Dworcowa 3/72]|3/72[]||MAŁOPOLSKIE|Kraków|Kraków
+A1678902|31-560|Kraków|ul. Na Szaniec[ul.Na Szaniec 8/20]|8/20[]||MAŁOPOLSKIE|Kraków|Kraków
+A31678915|30-126[31-126]|Kraków|ul. Zapolskiej[ul.Gabrieli Zapolskiej 38/303]|38/303[]||MAŁOPOLSKIE|Kraków|Kraków
+A1678956|31-416|Kraków|ul. Dobrego Pasterza[ul.Dobrego Pasterza 108/136]|108/136[]||MAŁOPOLSKIE|Kraków|Kraków
+A1692239|30-658|Kraków|ul. Łużycka[ul.Łużycka 53/65]|53/65[]||MAŁOPOLSKIE|Kraków|Kraków
+A1693676|30-867|Kraków|ul. Wallenroda[ul.Konrada Wallenroda 55/75]|55/75[]||MAŁOPOLSKIE|Kraków|Kraków
+A1696588|31-962|Kraków|os. Krakowiaków[os.krakowiaków 7a/1]|7a/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1697734|30-058|Kraków|ul. Lea[ul.Lea 99/41]|99/41[]||MAŁOPOLSKIE|Kraków|Kraków
+A1698447|31-858|Kraków|os. Kościuszkowskie[os.Kościuszkowskie 6/214]|6/214[]||MAŁOPOLSKIE|Kraków|Kraków
+A1698502|30-045|Kraków|ul. Królewska[ul.Królewska 46/8]|46/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1698907|31-708|Kraków|os. Na Stoku[os.Na Stoku 51/15]|51/15[]||MAŁOPOLSKIE|Kraków|Kraków
+A1699112|30-868|Kraków|ul. Kurczaba[ul.Kurczaba 35/26]|35/26[]||MAŁOPOLSKIE|Kraków|Kraków
+A1699681|31-509|Kraków|ul. Lubomirskiego[ul.Lubomirskiego 7a/2]|7a/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1699727|30-085[31-159]|Kraków|ul. Głowackiego[al.Słowackiego 41/11]|41/11[]||MAŁOPOLSKIE|Kraków|Kraków
+A1699728|30-150|Kraków|ul. Armii Krajowej[ul.Armii Krajowej 83/60]|83/60[]||MAŁOPOLSKIE|Kraków|Kraków
+A1699918|31-580|Kraków|ul. Nowohucka[ul.Nowohucka 3/88]|3/88[]||MAŁOPOLSKIE|Kraków|Kraków
+A1700303|31-416|Kraków|ul. Dobrego Pasterza[ul.Dobrego Pasterza 110/92]|110/92[]||MAŁOPOLSKIE|Kraków|Kraków
+A1701015|31-621|Kraków|os. Bohaterów Września[os.Bohaterów Września 40/29]|40/29[]||MAŁOPOLSKIE|Kraków|Kraków
+A1701921|30-102|Kraków|ul. Syrokomli[ul.Syrokomlii 11/8]|11/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1701941|31-216|Kraków|ul. Bobrzeckiej[ul.Bobrzeckiej 9/15]|9/15[]||MAŁOPOLSKIE|Kraków|Kraków
+A1703195|31-515|Kraków|ul. Bandurskiego[ul. Bandurskiego 52/8]|52/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1703839|31-155|Kraków|ul. Warszawska[ul.Warszawska 7/10]|7/10[]||MAŁOPOLSKIE|Kraków|Kraków
+A1704400|31-721[31-723]|Kraków|os. Na Wzgórzach[os.Na Wzgórzach 18/18]|18/18[]||MAŁOPOLSKIE|Kraków|Kraków
+A1705394|31-875|Kraków|os. Dywizjonu 303[os.Dywizjonu 303 47/11]|47/11[]||MAŁOPOLSKIE|Kraków|Kraków
+A1713108|31-637|Kraków|ul. Kniaźnina[ul.Kniaźnina 2/1]|2/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1716308|31-625|Kraków|os. Piastów[os.Piastów 43/55]|43/55[]||MAŁOPOLSKIE|Kraków|Kraków
+A1716589|31-146[31-147]|Kraków|ul. Długa[ul.Długa 82/16]|82/16[]||MAŁOPOLSKIE|Kraków|Kraków
+A1716693|30-376|Kraków|ul. Sodowa[ul.Sodowa 19/4]|19/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1716723|30-618|Kraków|ul. Tuchowska[ul.Tuchowska 4b/4]|4b/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1716823|30-427|Kraków|ul. Jagodowa[ul.Jagodowa 17/35]|17/35[]||MAŁOPOLSKIE|Kraków|Kraków
+A1716974|30-040|Kraków|ul. Królewska[ul.Królewska 37/1]|37/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1716975|30-413|Kraków|ul. Huculska[ul.Huculska 4/33]|4/33[]||MAŁOPOLSKIE|Kraków|Kraków
+A1717148|30-392|Kraków|ul. Czerwone Maki[ul.Czerwone Maki 55/47]|55/47[]||MAŁOPOLSKIE|Kraków|Kraków
+A1717204|31-874|Kraków|os. Dywizjonu 303[os.Dywizjonu 303 40/13]|40/13[]||MAŁOPOLSKIE|Kraków|Kraków
+A1717635|30-605|Kraków|ul. Fredry[ul.Fredry 12a/1]|12a/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1717637|31-869|Kraków|os. 2 Pułku Lotniczego[os.2 Pułku Lotniczego 26/30]|26/30[]||MAŁOPOLSKIE|Kraków|Kraków
+A1717883|30-611|Kraków|ul. Beskidzka[ul.Beskidzka 41/6]|41/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1717905|30-669|Kraków|ul. Okólna[ul.Okólna 5/47]|5/47[]||MAŁOPOLSKIE|Kraków|Kraków
+A1717912|31-113|Kraków|ul. Kapucyńska[ul.Kapucyńska 3/1]|3/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1718100|30-079|Kraków|al. Kijowska[al.Kijowska 33/39]|33/39[]||MAŁOPOLSKIE|Kraków|Kraków
+A1718317|30-040|Kraków|ul. Urzędnicza[ul.Urzędnicza 53/1]|53/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1718573|30-833|Kraków|ul. Lilli Wenedy[ul.Lilli Wenedy 9/76]|9/76[]||MAŁOPOLSKIE|Kraków|Kraków
+A1718973|31-470[31-469]|Kraków|ul. Młyńska Boczna[ul.Młyńska Boczna 3/49]|3/49[]||MAŁOPOLSKIE|Kraków|Kraków
+A1719084|30-798|Kraków|ul. Nefrytowa[ul.Nefrytowa 1/67]|1/67[]||MAŁOPOLSKIE|Kraków|Kraków
+A1719220|31-216[31-411]|Kraków|ul. Legnicka[ul.Legnicka 24a/12a]|24a/12a[]||MAŁOPOLSKIE|Kraków|Kraków
+A1719485|30-074|Kraków|ul. Kazimierza Wielkiego[ul.Kazimierza Wielkiego 22/3]|22/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1719505|31-121|Kraków|ul. Czysta[ul.Czysta 17/3]|17/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1719563|30-049|Kraków|ul. Czarnowiejska[ul.Czarnowiejska 97A/1]|97A/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1719571|30-858[30-740]|Kraków|ul. Półłanki[ul.Półłanki 80/2]|80/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1719801|30-102|Kraków|ul. Morawskiego[ul.Morawskiego 5/435]|5/435[]||MAŁOPOLSKIE|Kraków|Kraków
+A1720312|30-015|Kraków|ul. Świętokrzyska[ul. Świętokrzyska 4/5]|4/5[]||MAŁOPOLSKIE|Kraków|Kraków
+A1720137|30-051|Kraków|ul. Urzędnicza[ul.Urzędnicza 20/3]|20/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1720962|31-872[31-875]|Kraków|os. Dywizjonu 303[oś.Dywizjonu 303 18/40]|18/40[]||MAŁOPOLSKIE|Kraków|Kraków
+A1720975|30-536|Kraków|ul. Benedykta[ul.Św.Benedykta 7/5a]|7/5a[]||MAŁOPOLSKIE|Kraków|Kraków
+A1721151|31-128|Kraków|ul. Karmelicka[ul.Karmelicka 57/1]|57/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1721155|31-625|Kraków|os. Piastów[os.Piastów 52/41]|52/41[]||MAŁOPOLSKIE|Kraków|Kraków
+A1721290|30-693[30-658]|Kraków|ul. Łużycka[ul.Łużycka 67/22]|67/22[]||MAŁOPOLSKIE|Kraków|Kraków
+A1722015|30-431|Kraków|ul. Pszczelna[ul.Pszczelna 40b/25]|40b/25[]||MAŁOPOLSKIE|Kraków|Kraków
+A1722213|30-307|Kraków|ul. Barska[ul.Barska 19/19]|19/19[]||MAŁOPOLSKIE|Kraków|Kraków
+A1722224|31-321|Kraków|ul. Podkowińskiego[ul.Podkowińskiego 2/15]|2/15[]||MAŁOPOLSKIE|Kraków|Kraków
+A1722237|30-363|Kraków|ul. Rydlówka[ul.Rydlówka 42c/5]|42c/5[]||MAŁOPOLSKIE|Kraków|Kraków
+A1722694|31-143[]|Kraków|ul. Basztowa[ul.BAsztowa 15/16]|15/16[]||MAŁOPOLSKIE|Kraków|Kraków
+A1723274|31-982|Kraków|al. Jana Pawła II[al.Jana Pawła II 150/28]|150/28[]||MAŁOPOLSKIE|Kraków|Kraków
+A1723334|31-422|Kraków|ul. Majora[ul.Jakuba Majora 1/56]|1/56[]||MAŁOPOLSKIE|Kraków|Kraków
+A1723844|30-048|Kraków|ul. Lea[ul.Lea 19a/14]|19a/14[]||MAŁOPOLSKIE|Kraków|Kraków
+A1724346|30-654[30-645]|Kraków|ul. Klonowica[ul.Klonowica 24/63]|24/63[]||MAŁOPOLSKIE|Kraków|Kraków
+A1724511|31-559|Kraków|ul. Półkole[ul.Półkole 7/22]|7/22[]||MAŁOPOLSKIE|Kraków|Kraków
+A1725134|31-618|Kraków|os. Złotego Wieku[os.Złotego Wieku 32/8]|32/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1725532|30-133|Kraków|ul. Lea[ul.Lea 240/16]|240/16[]||MAŁOPOLSKIE|Kraków|Kraków
+A1725536|31-640|Kraków|os. Mistrzejowice[os.Mistrzejowice 2/27]|2/27[]||MAŁOPOLSKIE|Kraków|Kraków
+A1726191|31-608|Kraków|os. Tysiąclecia[os.Tysiąclecia 25/31]|25/31[]||MAŁOPOLSKIE|Kraków|Kraków
+A1726243|31-063|Kraków|ul. Katarzyny[ul.Św.Katarzyny 5/10]|5/10[]||MAŁOPOLSKIE|Kraków|Kraków
+AP1222962|30-065[]|Kraków|ul. Tokarskiego[ul.Tokarskiego 4/19]|4/19[]||MAŁOPOLSKIE|Kraków|Kraków
+A1728021|31-103|Kraków|ul. Mała[ul.Mała 3/4]|3/4[]||MAŁOPOLSKIE|Kraków|Kraków
+AP1723587|30-654|Kraków|ul. Klonowica[ul.Klonowica 24/63]|24/63[]||MAŁOPOLSKIE|Kraków|Kraków
+A1730271|30-668|Kraków|ul. Wlotowa[ul.Wlotowa 1/6]|1/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1730428|31-475|Kraków|ul. Miechowity[ul.Miechowity 13/16]|13/16[]||MAŁOPOLSKIE|Kraków|Kraków
+A1739004|31-207|Kraków|ul. Siemaszki[ul.Ks.Siemaszki 37/76]|37/76[]||MAŁOPOLSKIE|Kraków|Kraków
+A1739255|30-380|Kraków|ul. Widłakowa[ul.Widłakowa 41/2]|41/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1739257|30-316[]|Kraków|ul. Słomiana[ul.Słomiana 13/18]|13/18[]||MAŁOPOLSKIE|Kraków|Kraków
+A1739980|31-229|Kraków|ul. Danka[ul.Danka 4/28]|4/28[]||MAŁOPOLSKIE|Kraków|Kraków
+A1741072|31-271[31-272]|Kraków|ul. Krowoderskich Zuchów[ul.Krowoderskich Zuchów 13/30]|13/30[]||MAŁOPOLSKIE|Kraków|Kraków
+A1741145|30-052[30-059]|Kraków|ul. Lea[ul.Lea 23/4]|23/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1741304|31-721[31-722]|Kraków|os. Na Wzgórzach[os.Na Wzgórzach 18/24]|18/24[]||MAŁOPOLSKIE|Kraków|Kraków
+A1741808|31-113|Kraków|ul. Kapucyńska[ul.Kapucyńska 3/1]|3/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1741919|31-927|Kraków|os. Centrum B[os.Centrum B 6/44]|6/44[]||MAŁOPOLSKIE|Kraków|Kraków
+A1742246|31-021|Kraków|ul. Floriańska[ul.Floriańska 20/9]|20/9[]||MAŁOPOLSKIE|Kraków|Kraków
+A1742317|31-933|Kraków|os. Centrum D[os.Centrum D 9/82]|9/82[]||MAŁOPOLSKIE|Kraków|Kraków
+A1742873|31-588[30-421]|Kraków|ul. Ogrodniki[ul.Ogrodniki 4/4]|4/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1743202|30-431[30-385]|Kraków|ul. Pszczelna[ul.Pszczelna 36/1]|36/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1743413|30-638|Kraków|ul. Włoska[ul.Włoska 11/22]|11/22[]||MAŁOPOLSKIE|Kraków|Kraków
+A1743414|31-109|Kraków|ul. Piłsudskiego[ul.Marszałka Piłsudskiego 6/12]|6/12[]||MAŁOPOLSKIE|Kraków|Kraków
+A1743415|31-207|Kraków|ul. Siemaszki[ul.Księdza Siemaszki 54a/24]|54a/24[]||MAŁOPOLSKIE|Kraków|Kraków
+A1743416|30-611|Kraków|ul. Sas-Zubrzyckiego[ul.Sas-Zubrzyckiego 5/61]|5/61[]||MAŁOPOLSKIE|Kraków|Kraków
+A1743418|30-430|Kraków|ul. Krokusowa[ul.Krokusowa 3/19]|3/19[]||MAŁOPOLSKIE|Kraków|Kraków
+A1744033|30-535|Kraków|ul. Krakusa[ul.Krakusa 10/13]|10/13[]||MAŁOPOLSKIE|Kraków|Kraków
+A1744223|31-216|Kraków|ul. Solskiego[ul.Solskiego 13/7]|13/7[]||MAŁOPOLSKIE|Kraków|Kraków
+A1745050|30-348|Kraków|ul. Grota-Roweckiego[ul.Grota-Roweckiego 41/22]|41/22[]||MAŁOPOLSKIE|Kraków|Kraków
+A1745928|31-328[]|Kraków|ul. Stachiewicza[ul.Stachiewicza 45/66]|45/66[]||MAŁOPOLSKIE|Kraków|Kraków
+A01460363|30-071|Kraków|ul. Skarbińskiego[Skarbińskiego 2/1]|2/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1747733|31-229|Kraków|ul. Danka[ul.Danka 4/28]|4/28[]||MAŁOPOLSKIE|Kraków|Kraków
+A1748097|30-383|Kraków|ul. Lubostroń[ul.Lubostroń 22g/113]|22g/113[]||MAŁOPOLSKIE|Kraków|Kraków
+A1748106|31-637|Kraków|ul. Okulickiego[ul.Okulickiego 57/34]|57/34[]||MAŁOPOLSKIE|Kraków|Kraków
+A1748250|30-324|Kraków|ul. Szwedzka[ul.Szwedzka 7/2]|7/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1749068|30-033|Kraków|ul. Sienkiewicza[Sienkiewicza 9/11]|9/11[]||MAŁOPOLSKIE|Kraków|Kraków
+A1749139|30-348|Kraków|ul. Chmieleniec[ul.Chmieleniec 8/16]|8/16[]||MAŁOPOLSKIE|Kraków|Kraków
+A1749632|31-621|Kraków|os. Bohaterów Września[os.Bohaterów Wrzesnia 61/8]|61/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1749668|31-231|Kraków|ul. Siewna[ul.Siewna 23/70]|23/70[]||MAŁOPOLSKIE|Kraków|Kraków
+A1749669|30-014[]|Kraków|ul. Litewska[ul.Litewska 28/44]|28/44[]||MAŁOPOLSKIE|Kraków|Kraków
+A1751089|30-518|Kraków|rynek Podgórski[Rynek Podgórski 7/28]|7/28[]||MAŁOPOLSKIE|Kraków|Kraków
+A1751139|31-067|Kraków|ul. Wietora[ul.Hieronima Wietora 17/5]|17/5[]||MAŁOPOLSKIE|Kraków|Kraków
+A01699928|30-347|Kraków|ul. Kapelanka[ul.Kapelanka 10/18]|10/18[]||MAŁOPOLSKIE|Kraków|Kraków
+A1752036|30-383|Kraków|ul. Obozowa[ul.Obozowa 48b/10]|48b/10[]||MAŁOPOLSKIE|Kraków|Kraków
+A1752469|31-452|Kraków|ul. Włodkowica[ul.Włodkowica 7/52]|7/52[]||MAŁOPOLSKIE|Kraków|Kraków
+A1752690|31-049|Kraków|ul. Sebastiana[ul. Św. Sebastiana 5/9]|5/9[]||MAŁOPOLSKIE|Kraków|Kraków
+A1752869|30-302|Kraków|ul. Konopnickiej[ul.Konopnickiej 5/4]|5/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1753433|31-242|Kraków|ul. Belwederczyków[ul.Belederczyków 5/53]|5/53[]||MAŁOPOLSKIE|Kraków|Kraków
+A1753553|30-698|Kraków|ul. Borowinowa[ul.Borowinowa 55/19]|55/19[]||MAŁOPOLSKIE|Kraków|Kraków
+A1753775|31-833|Kraków|os. Jagiellońskie[os.Jagiellońskie 12/9]|12/9[]||MAŁOPOLSKIE|Kraków|Kraków
+A1753798|31-315|Kraków|ul. Radzikowskiego[ul.Radzikowskiego 77a/19]|77a/19[]||MAŁOPOLSKIE|Kraków|Kraków
+A1755703|31-469|Kraków|ul. Młyńska[ul.Młyńska 6/6]|6/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1764273|31-020|Kraków|ul. Tomasza[ul.Św.Tomasza 20/1]|20/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1765381|31-328|Kraków|ul. Stachiewicza[ul.Stachiewicza 35b/30]|35b/30[]||MAŁOPOLSKIE|Kraków|Kraków
+A1765561|30-149|Kraków|ul. Balicka[ul.BAlicka 40/6]|40/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1765985|30-318|Kraków|ul. Bałuckiego[ul.Bałuckiego 7E/1]|7E/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1766033|31-450|Kraków|ul. Ugorek[ul.Ugorek 1/186]|1/186[]||MAŁOPOLSKIE|Kraków|Kraków
+A1766624|31-062|Kraków|ul. Krakowska[ul.Krakowska 23/4]|23/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1766990|31-051|Kraków|ul. Sebastiana[ul. Św. Sebastiana 32/3a]|32/3a[]||MAŁOPOLSKIE|Kraków|Kraków
+A1768024|31-909|Kraków|os. Na Skarpie[os.Na Skarpie 7/17]|7/17[]||MAŁOPOLSKIE|Kraków|Kraków
+A1768832|30-350|Kraków|ul. Zachodnia[ul.Zachodnia 8/41]|8/41[]||MAŁOPOLSKIE|Kraków|Kraków
+A1769151|30-612|Kraków|ul. Witosa[ul.Witosa 37/7]|37/7[]||MAŁOPOLSKIE|Kraków|Kraków
+A1769561|30-076|Kraków|ul. Zakątek[ul.Zakątek 7/24]|7/24[]||MAŁOPOLSKIE|Kraków|Kraków
+A1769783|31-416|Kraków|ul. Dobrego Pasterza[ul.Dobrego Pasterza 122B/136]|122B/136[]||MAŁOPOLSKIE|Kraków|Kraków
+A1769786|31-234|Kraków[KRAKOW]|ul. Słomczyńskiego[ul.Słomczyńskiego 18/11]|18/11[]||MAŁOPOLSKIE|Kraków|Kraków
+A1769787|31-221|Kraków|ul. Białoprądnicka[ul.Białoprądnicka 34c/9]|34c/9[]||MAŁOPOLSKIE|Kraków|Kraków
+A1769789|30-404|Kraków|ul. Cegielniana[ul.Cegielniana 20/26]|20/26[]||MAŁOPOLSKIE|Kraków|Kraków
+A1771978|30-619[]|Kraków|ul. Gołaśka[ul.Gołaśka 7/2]|7/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1772160|31-958|Kraków|os. Słoneczne[os.Słoneczne 14/39]|14/39[]||MAŁOPOLSKIE|Kraków|Kraków
+A1772898|31-457|Kraków|ul. Fiołkowa[ul.Fiołkowa 4/136]|4/136[]||MAŁOPOLSKIE|Kraków|Kraków
+A1774129|31-069|Kraków|ul. Bernardyńska[ul.Bernardyńska 3/55a]|3/55a[]||MAŁOPOLSKIE|Kraków|Kraków
+A1774135|30-611|Kraków|ul. Beskidzka[ul.Beskidzka 28/64]|28/64[]||MAŁOPOLSKIE|Kraków|Kraków
+A1774411|31-025|Kraków|ul. Skłodowskiej-Curie[ul.M.Skłodowskiej-Curie 5/3]|5/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1775058|30-396[31-537]|Kraków|ul. Baczyńskiego[ul. Daszyńskiego 23/18]|23/18[]||MAŁOPOLSKIE|Kraków|Kraków
+A1775931|30-122|Kraków|ul. Rydla[ul.Rydla 17/16]|17/16[]||MAŁOPOLSKIE|Kraków|Kraków
+A1776223|31-117|Kraków|ul. Wenecja[ul.Wenecja 3/2]|3/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1777629|30-499|Kraków|ul. Kłuszyńska[ul.Kłuszyńska 22/8]|22/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1778819|30-110|Kraków|ul. Filarecka[Filarecka 6/5A]|6/5A[]||MAŁOPOLSKIE|Kraków|Kraków
+A1784400|30-658|Kraków|ul. Łużycka[ul.Łużycka 49/19]|49/19[]||MAŁOPOLSKIE|Kraków|Kraków
+A1784755|31-216|Kraków|ul. Reja[ul.Reja 11/97]|11/97[]||MAŁOPOLSKIE|Kraków|Kraków
+A1784775|31-423|Kraków|ul. Łepkowskiego[ul.Łepkowskiego 3/62]|3/62[]||MAŁOPOLSKIE|Kraków|Kraków
+A1785003|31-054|Kraków|ul. Dietla[ul.Dietla 45/1]|45/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1785110|31-223|Kraków|ul. Pachońskiego[ul.Pachońskiego 18/67]|18/67[]||MAŁOPOLSKIE|Kraków|Kraków
+A1785328|30-835|Kraków|ul. Teligi[ul.Teligi 6/39]|6/39[]||MAŁOPOLSKIE|Kraków|Kraków
+A1785333|31-270|Kraków|ul. Na Zielonki[ul.Na Zielonki 15/4]|15/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1785336|31-962|Kraków|os. Krakowiaków[os.Krakowiaków 4/4]|4/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1785686|31-469|Kraków|ul. Młyńska[ul.Młyńska 2/87]|2/87[]||MAŁOPOLSKIE|Kraków|Kraków
+A1785688|31-874|Kraków|os. Dywizjonu 303[os.Dywizjonu 303 40/46]|40/46[]||MAŁOPOLSKIE|Kraków|Kraków
+A1786027|31-543|Kraków|ul. Nullo[ul.Pułkownika Nullo 19/40]|19/40[]||MAŁOPOLSKIE|Kraków|Kraków
+A1786276|31-104|Kraków|ul. Felicjanek[ul.Felicjanek 16/12]|16/12[]||MAŁOPOLSKIE|Kraków|Kraków
+A1786429|30-650|Kraków|ul. Szczęśliwa[ul.Szczęśliwa 6/1]|6/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1786630|31-637|Kraków|ul. Okulickiego[ul.Okulickiego 53/3]|53/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1786640|31-982|Kraków|ul. Padniewskiego[ul.Padnieskiego 18/37]|18/37[]||MAŁOPOLSKIE|Kraków|Kraków
+A1787952|31-324|Kraków|ul. Różyckiego[ul.Rózyckiego 5/70]|5/70[]||MAŁOPOLSKIE|Kraków|Kraków
+A1787972|31-949|Kraków|os. Zgody[os.Zgody 3/82]|3/82[]||MAŁOPOLSKIE|Kraków|Kraków
+A1789564|30-408|Kraków|ul. Odrzańska[ul.Odrzańska 8/78]|8/78[]||MAŁOPOLSKIE|Kraków|Kraków
+A1790024|30-106|Kraków|ul. Komorowskiego[ul.Komorowskiego 5/7]|5/7[]||MAŁOPOLSKIE|Kraków|Kraków
+A1790632|30-718|Kraków|ul. Myśliwska[ul.Myśliwska 63/146]|63/146[]||MAŁOPOLSKIE|Kraków|Kraków
+A1790821|30-322|Kraków|ul. Czarodziejska[ul.Czarodziejska 11b/1]|11b/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1791075|30-071|Kraków|ul. Gramatyka[ul.Gramatyka 4/2]|4/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1791356|30-126|Kraków|ul. Stańczyka[ul.Stanczyka 12/30]|12/30[]||MAŁOPOLSKIE|Kraków|Kraków
+A1791500|31-056|Kraków|pl. Nowy[plac Nowy 8/5]|8/5[]||MAŁOPOLSKIE|Kraków|Kraków
+A1791848|30-020[31-017]|Kraków|ul. Wójtowska[ul.Wójtowska 7/37]|7/37[]||MAŁOPOLSKIE|Kraków|Kraków
+A1792211|31-518[31-524]|Kraków|ul. Sowińskiego[ul.Sowińskiego 4/4]|4/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1792693|31-153|Kraków|ul. Szlak[ul.Szlak 77/222]|77/222[]||MAŁOPOLSKIE|Kraków|Kraków
+A1793314|30-198|Kraków|ul. Weryhy-Darowskiego[ul.Werhy-Darowskiego 13/29]|13/29[]||MAŁOPOLSKIE|Kraków|Kraków
+A1793345|31-532|Kraków|ul. Grzegórzecka[ul.Grzegórzecka 17/6]|17/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1794025|31-422|Kraków|ul. Strzelców[ul.Strzelców 17/71]|17/71[]||MAŁOPOLSKIE|Kraków|Kraków
+A1794026|30-334|Kraków|ul. Komandosów[ul.Komandosów 3a/13]|3a/13[]||MAŁOPOLSKIE|Kraków|Kraków
+A1797137|31-035[31-037]|Kraków|ul. Starowiślna[ul.Starowiślna 54/14]|54/14[]||MAŁOPOLSKIE|Kraków|Kraków
+A1797648|31-321|Kraków|ul. Podkowińskiego[ul.Podkowińskiego 1/7]|1/7[]||MAŁOPOLSKIE|Kraków|Kraków
+A1808424|31-069|Kraków|ul. Sukiennicza[ul.Sukiennicza 8/79]|8/79[]||MAŁOPOLSKIE|Kraków|Kraków
+A1808998|30-076|Kraków|ul. Zakątek[ul.Zakątek 5/2]|5/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1810335|30-392|Kraków|ul. Czerwone Maki[ul.Czerwone Maki 45B/2]|45B/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1812532|31-340|Kraków|ul. Chełmońskiego[ul.Chełmońskiego 72A/2]|72A/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1812539|30-611|Kraków|ul. Malwowa[ul.Malwowa 10D/23]|10D/23[]||MAŁOPOLSKIE|Kraków|Kraków
+A1812575|31-148|Kraków|ul. Wróblewskiego[ul.Wróblewskiego 2/1]|2/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1812977|30-085|Kraków|ul. Głowackiego[ul.Głowackiego 10b/31]|10b/31[]||MAŁOPOLSKIE|Kraków|Kraków
+A1812993|30-133|Kraków|ul. Lea[ul.Lea 189/14]|189/14[]||MAŁOPOLSKIE|Kraków|Kraków
+A1813086|31-261|Kraków|ul. Wybickiego[ul.Wybickiego 16/92]|16/92[]||MAŁOPOLSKIE|Kraków|Kraków
+A1813087|31-261|Kraków|ul. Wybickiego[ul.Wybickiego 16/92]|16/92[]||MAŁOPOLSKIE|Kraków|Kraków
+A1814746|30-087|Kraków|ul. Rydla[ul.Rydla 28/32]|28/32[]||MAŁOPOLSKIE|Kraków|Kraków
+A1818771|31-946|Kraków|os. Teatralne[os.Teatralne 10/08]|10/08[]||MAŁOPOLSKIE|Kraków|Kraków
+A1819284|31-455|Kraków|ul. Ułanów[ul.Ułanów 54/91]|54/91[]||MAŁOPOLSKIE|Kraków|Kraków
+A1819570|31-845|Kraków|os. Przy Arce[os.przy Arce 5/31]|5/31[]||MAŁOPOLSKIE|Kraków|Kraków
+A1819626|30-537|Kraków|ul. Potebni[ul.Andrzeja Potebni 10/37]|10/37[]||MAŁOPOLSKIE|Kraków|Kraków
+A1819746|31-234|Kraków|ul. Górka Narodowa[Górka Narodowa 118/6]|118/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1820618|30-638|Kraków|ul. Włoska[Włoska 4/32]|4/32[]||MAŁOPOLSKIE|Kraków|Kraków
+A1821567|30-147|Kraków|ul. Na Błonie[ul.Na Błonie 11/37]|11/37[]||MAŁOPOLSKIE|Kraków|Kraków
+A1821569|31-223|Kraków|ul. Pachońskiego[ul.pachońskiego 4/23]|4/23[]||MAŁOPOLSKIE|Kraków|Kraków
+A1822066|31-223|Kraków|ul. Pachońskiego[ul.Pachońskiego 18/34]|18/34[]||MAŁOPOLSKIE|Kraków|Kraków
+A1822528|30-127|Kraków|ul. Wesele[ul.Wesele 18/1]|18/1[]||MAŁOPOLSKIE|Kraków|Kraków
+A1822529|30-019|Kraków|ul. Mazowiecka[ul.Mazowiecka 29/4]|29/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1822931|31-315|Kraków|ul. Radzikowskiego[ul.Radzikowskiego 69a/58]|69a/58[]||MAŁOPOLSKIE|Kraków|Kraków
+A1823362|31-236|Kraków|ul. Felińskiego[ul.Felińskiego 22/12]|22/12[]||MAŁOPOLSKIE|Kraków|Kraków
+A1833980|31-874|Kraków|os. Dywizjonu 303[os.Dywizjonu 303 40/15]|40/15[]||MAŁOPOLSKIE|Kraków|Kraków
+A1835527|31-126|Kraków|ul. Grabowskiego[ul.Grabowskiego 3/5]|3/5[]||MAŁOPOLSKIE|Kraków|Kraków
+A1835783|30-396[31-537]|Kraków|ul. Baczyńskiego[al.Daszyńskiego 11/5]|11/5[]||MAŁOPOLSKIE|Kraków|Kraków
+A1835784|31-231|Kraków|ul. Bociana[ul.Bociana 4/40]|4/40[]||MAŁOPOLSKIE|Kraków|Kraków
+A1835785|30-412|Kraków|ul. Zbrojarzy[ul.Zbrojarzy 98/23]|98/23[]||MAŁOPOLSKIE|Kraków|Kraków
+A1837305|31-148|Kraków|ul. Helclów[ul.Helclów 23/20]|23/20[]||MAŁOPOLSKIE|Kraków|Kraków
+A1838055|30-071|Kraków|ul. Gramatyka[Gramatyka 7/6a]|7/6a[]||MAŁOPOLSKIE|Kraków|Kraków
+A1838061|30-334|Kraków|ul. Komandosów[Komandosów 25/6]|25/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1838062|30-361|Kraków|ul. Rozdroże[Rozdroże 21D/64]|21D/64[]||MAŁOPOLSKIE|Kraków|Kraków
+A1838288|31-340|Kraków|ul. Chełmońskiego[ul.Chełmońskiego 130r/4]|130r/4[]||MAŁOPOLSKIE|Kraków|Kraków
+A1838550|30-701|Kraków|ul. Zabłocie[ul.Zabłocie 39/207]|39/207[]||MAŁOPOLSKIE|Kraków|Kraków
+A1838845|30-316|Kraków|ul. Słomiana[ul.Słomiana 6/67]|6/67[]||MAŁOPOLSKIE|Kraków|Kraków
+A01798603|31-623|Kraków|os. Piastów[Piastów 4/53]|4/53[]||MAŁOPOLSKIE|Kraków|Kraków
+A1839839|30-147|Kraków|ul. Na Błonie[ul.Na Błonie 15/129]|15/129[]||MAŁOPOLSKIE|Kraków|Kraków
+A1839910|30-147|Kraków|ul. Na Błonie[ul.Na Błonie 3/102]|3/102[]||MAŁOPOLSKIE|Kraków|Kraków
+A1840667|30-349|Kraków|ul. Miłkowskiego[ul.Miłkowskiego 6/23]|6/23[]||MAŁOPOLSKIE|Kraków|Kraków
+A1840887|31-832|Kraków|os. Jagiellońskie[os.Jagiellońskie 4/87]|4/87[]||MAŁOPOLSKIE|Kraków|Kraków
+AP1768027|31-315|Kraków|ul. Radzikowskiego[ul.Radzikowskiego 100b/43]|100b/43[]||MAŁOPOLSKIE|Kraków|Kraków
+A1842538|31-343|Kraków|ul. Smętna[ul.Smętna 7B/10]|7B/10[]||MAŁOPOLSKIE|Kraków|Kraków
+AP1669246|30-009|Kraków|ul. Friedleina[ul.Friedleina 3/3]|3/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1845117|31-117|Kraków|ul. Cybulskiego[ul.Cybulskiego 8/7]|8/7[]||MAŁOPOLSKIE|Kraków|Kraków
+A1845829|30-318|Kraków|ul. Zagrody[ul.Zagrody 8A/20]|8A/20[]||MAŁOPOLSKIE|Kraków|Kraków
+A1845961|30-091|Kraków|ul. Bronowicka[ul.Bronowicka 85/107]|85/107[]||MAŁOPOLSKIE|Kraków|Kraków
+A1845963|31-345|Kraków|ul. Sosnowiecka[ul.Sosnowiecka 25c/14]|25c/14[]||MAŁOPOLSKIE|Kraków|Kraków
+A1846719|30-127|Kraków|ul. Szablowskiego[ul.Szablowskiego 6/11]|6/11[]||MAŁOPOLSKIE|Kraków|Kraków
+A1847146|30-605|Kraków|ul. Fredry[ul.A.Fredry 4d/2]|4d/2[]||MAŁOPOLSKIE|Kraków|Kraków
+A1847147|30-150|Kraków|ul. Armii Krajowej[ul.Armii Krajowej 2/89]|2/89[]||MAŁOPOLSKIE|Kraków|Kraków
+A1847149|31-625|Kraków|os. Piastów[os.Piastów 56/11]|56/11[]||MAŁOPOLSKIE|Kraków|Kraków
+A1847372|30-150|Kraków|ul. Armii Krajowej[Armii Krajowej 79/82]|79/82[]||MAŁOPOLSKIE|Kraków|Kraków
+A1847626|30-363|Kraków|ul. Rydlówka[ul.Rydlówka 42/1]|42/1[]||MAŁOPOLSKIE|Kraków|Kraków
+AP1803097|31-515|Kraków|ul. Bandurskiego[ul.Bandurskiego 58/11]|58/11[]||MAŁOPOLSKIE|Kraków|Kraków
+A1848517|30-716|Kraków|ul. Przewóz[Przewóz 23g/36]|23g/36[]||MAŁOPOLSKIE|Kraków|Kraków
+A1850404|30-392|Kraków|ul. Piltza[ul.Piltza 32/52]|32/52[]||MAŁOPOLSKIE|Kraków|Kraków
+A1850405|31-160|Kraków|ul. Kolberga[ul.Kolberga 7/8]|7/8[]||MAŁOPOLSKIE|Kraków|Kraków
+A1850987|31-751|Kraków|ul. Bulwarowa[ul.Bulwarowa 35d/42]|35d/42[]||MAŁOPOLSKIE|Kraków|Kraków
+A1863300|31-147|Kraków|ul. Długa[Długa 59/5]|59/5[]||MAŁOPOLSKIE|Kraków|Kraków
+A1865089|31-831|Kraków|ul. Szybka[Szyubka 27/6]|27/6[]||MAŁOPOLSKIE|Kraków|Kraków
+A1767389|31-421|Kraków|ul. Reduta[Reduta 11a/3]|11a/3[]||MAŁOPOLSKIE|Kraków|Kraków
+A1730154|31-216|Kraków|ul. Konecznego[ul.Konecznego 6/66]|6/66[]||MAŁOPOLSKIE|Kraków|Kraków
+A1982461|30-132|Kraków|ul. Altanowa[Altanowa 18/17]|18/17[]||MAŁOPOLSKIE|Kraków|Kraków
+A1993451|50-266|Wrocław|ul. Jadwigi[Św. Jadwigi 10/4]|10/4[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1993532|53-034|Wrocław|ul. Ołtaszyńska[Ołtaszyńska 92C/8]|92C/8[]||DOLNOŚLĄSKIE[]|Wrocław[]|Wrocław[]
+A1993607|31-462|Kraków|ul. Pilotów[Pilotów 23/1A]|23/1A[]||MAŁOPOLSKIE[]|Kraków[]|Kraków[]
+A1748094|41-710|Ruda Śląska|ul. Osiedlowa[ul.Osiedlowa 11a/5]|11a/5[]||ŚLĄSKIE[]|Ruda Śląska[]|Ruda Śląska[]
+A1994246|31-124|Kraków|ul. Dolnych Młynów[Dolnych Młynów 3/1]|3/1[]||MAŁOPOLSKIE[]|Kraków[]|Kraków[]
+A1994884|30-002[31-002]|Kraków|ul. Zbożowa[Zbożowa 7/10]|7/10[]||MAŁOPOLSKIE[]|Kraków[]|Kraków[]
+A1994926|61-805|Poznań|ul. Marcin[Święty Macin 28/41]|28/41[]||WIELKOPOLSKIE[]|Poznań[]|Poznań[]
+A1995180|31-455|Kraków|ul. Ułanów[Ułanów 52/9]|52/9[]||MAŁOPOLSKIE[]|Kraków[]|Kraków[]
