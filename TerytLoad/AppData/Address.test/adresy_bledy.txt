@@ -1,0 +1,1 @@
+﻿Komunikat|ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina

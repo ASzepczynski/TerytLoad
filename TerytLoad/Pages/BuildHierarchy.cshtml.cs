@@ -35,9 +35,9 @@ namespace TerytLoad.Pages
                 var database = new AddressDatabase(connectionString, appDataPath);
 
                 var messageBuilder = new StringBuilder();
-                messageBuilder.AppendLine("⏳ Rozpoczynam budowanie struktury hierarchicznej...{Environment.NewLine}");
-                messageBuilder.AppendLine("ℹ️ Kody pocztowe NIE są ładowane w tym kroku.");
-                messageBuilder.AppendLine("   Użyj osobnej strony 'Kody pocztowe' aby je załadować.{Environment.NewLine}");
+                messageBuilder.AppendLine($"⏳ Rozpoczynam budowanie struktury hierarchicznej...{Environment.NewLine}");
+                messageBuilder.AppendLine($"ℹ️ Kody pocztowe NIE są ładowane w tym kroku.");
+                messageBuilder.AppendLine($"   Użyj osobnej strony 'Kody pocztowe' aby je załadować.{Environment.NewLine}");
 
                 // Buduj strukturę hierarchiczną BEZ kodów pocztowych
                 await database.BuildHierarchicalStructureAsync();

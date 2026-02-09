@@ -1,2 +1,0 @@
-﻿Komunikat|ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
-Nie znaleziono ulicy ''al. Jerozolimskie' w miejscowości 'WARSZAWA''/Szukana ulica: 'al. Jerozolimskie',Miejscowość: 'WARSZAWA',Ulica istnieje w 1 innych miejscowościach|A1270570|02-017|WARSZAWA|al. Jerozolimskie|125|127|||

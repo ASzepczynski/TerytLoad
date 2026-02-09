@@ -1,0 +1,2 @@
+﻿ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
+A1270570|02-017|Warszawa|al. Jerozolimskie|125|127|MAZOWIECKIE[]|Warszawa[]|Warszawa[]
