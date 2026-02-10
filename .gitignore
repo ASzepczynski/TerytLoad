@@ -367,3 +367,6 @@ AppData/Logs
 
 # Moje logi
 AppData/Address
+/AddressLibrary/AddressLibrary/Services/AddressSearch/StreetMatcher.cs
+/AddressLibrary/AddressLibrary/Services/AddressSearch/AddressSearchService.cs
+/AddressLibrary/Services/HierarchyBuilders/UliceLoader.cs
