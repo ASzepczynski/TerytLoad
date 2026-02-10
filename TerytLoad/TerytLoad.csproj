@@ -36,11 +36,4 @@
     <Folder Include="AppData\Address.test\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="AppData\.Address.11\adresy.txt" />
-    <None Include="AppData\.Address.11\adresy_bledy.txt" />
-    <None Include="AppData\.Address.11\adresy_ok.txt" />
-    <None Include="AppData\.Address.11\adresy_puste.txt" />
-  </ItemGroup>
-
 </Project>
