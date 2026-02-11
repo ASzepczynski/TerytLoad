@@ -620,3 +620,16 @@ A1736976|33-300|Nowy Sącz|al. Wolności[Wolności]|45|7|MAŁOPOLSKIE[]|Nowy Są
 A1782035|33-300|Nowy Sącz|al. Wolności[Wolności]|10 A|1|MAŁOPOLSKIE[]|Nowy Sącz[]|Nowy Sącz[]
 A1439995|33-300|Nowy Sącz|al. Wolności[Wolności]|10A|8|MAŁOPOLSKIE[]|Nowy Sącz[]|Nowy Sącz[]
 A1918826|31-236|Kraków|ul. Felińskiego[Zygmunta Szczęsnego Felińskieg]|23|8|MAŁOPOLSKIE|Kraków|Kraków
+A1658589|35-213[35-209]|Rzeszów||19|7|PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1635347|35-213[35-330]|Rzeszów||18||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1637848|35-213[35-617]|Rzeszów||20||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1710394|35-213[35-101]|Rzeszów||95||PODKARPACKIE|Rzeszów|Rzeszów
+A1712784|35-213[35-330]|Rzeszów||12||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1713312|35-213[35-122]|Rzeszów||Ul.Kotu|86|PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1760588|35-213[35-511]|Rzeszów||9|14|PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1895702|35-213[35-083]|Rzeszów||260||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1986781|35-213[35-106]|Rzeszów||Kielanó||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1989025|35-213[36-002]|Rzeszów||138c||PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+A1347670|45-015|Opole|ul. Rynek[Rynek]|13-14|9|OPOLSKIE[]|Opole[]|Opole[]
+A1448954|45-015|Opole|ul. Rynek[Rynek]|8||OPOLSKIE[]|Opole[]|Opole[]
+A1910677|45-015|Opole|ul. Rynek[Rynek]|24|25|OPOLSKIE|Opole[]|Opole[]
