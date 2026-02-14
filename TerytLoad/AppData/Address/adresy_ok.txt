@@ -1,2 +1,2 @@
 ﻿ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
-A1306010|40-203|Katowice|al. Roździeńskiego[Rozdzieńskiego]|88|9|ŚLĄSKIE|Katowice|Katowice
+A1632075|68-320[]|Jasień|ul. Lubska[Lubska]|17||LUBUSKIE[]|żarski[]|Jasień[]
