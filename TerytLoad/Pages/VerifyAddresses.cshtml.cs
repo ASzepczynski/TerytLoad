@@ -335,6 +335,27 @@ namespace TerytLoad.Pages
                 Console.WriteLine($"[SLOW] ID:{id} zajęło {sw.ElapsedMilliseconds}ms - {miasto}/{ulica}");
             }
 
+            var nowaUlica = "";
+            string sPrefix = "";
+            if (searchResult.Ulica == null) nowaUlica = "";
+            else
+            {
+               switch (searchResult.Ulica.Cecha)
+                {
+                    case "rynek":
+                    case "inne":
+                        sPrefix = "";
+                        break;
+                    default: 
+                        sPrefix = searchResult.Ulica.Cecha;
+                        break;
+                }
+                nowaUlica = $"{sPrefix} {searchResult.Ulica.Nazwa1}".Trim();
+
+
+
+            }
+
             return new VerificationResult
             {
                 SourceId = id,
@@ -351,7 +372,7 @@ namespace TerytLoad.Pages
                 SourceGmina = gmina,
                 FoundKodPocztowy = searchResult.KodPocztowy?.Kod,
                 FoundMiasto = searchResult.Miasto?.Nazwa,
-                FoundUlica = searchResult.Ulica != null ? $"{searchResult.Ulica.Cecha} {searchResult.Ulica.Nazwa1}".Trim() : null,
+                FoundUlica = nowaUlica,
                 FoundBudynek = searchResult.NormalizedBuildingNumber,
                 FoundLokal = searchResult.NormalizedApartmentNumber,
                 FoundGmina = searchResult.Miasto?.Gmina?.Nazwa,

@@ -1,2 +1,2 @@
 ﻿ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
-A1305601|33-350|Piwniczna-Zdrój[PIWNICZNA]|ul. Rynek[Rynek]|11||MAŁOPOLSKIE[]|nowosądecki[]|Piwniczna-Zdrój[]
+A1305601|33-350|Piwniczna-Zdrój[PIWNICZNA]|Rynek|11||MAŁOPOLSKIE[]|nowosądecki[]|Piwniczna-Zdrój[]
