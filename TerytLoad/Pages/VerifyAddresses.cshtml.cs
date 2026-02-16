@@ -1,11 +1,13 @@
 ﻿// Copyright (c) 2025-2026 Andrzej Szepczyński. All rights reserved.
 
 using AddressLibrary.Data;
+using AddressLibrary.Helpers;
 using AddressLibrary.Models;
 using AddressLibrary.Services.AddressSearch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
+using Microsoft.Extensions.FileSystemGlobbing.Internal;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using TerytLoad.Hubs;
@@ -43,7 +45,7 @@ namespace TerytLoad.Pages
         {
             Console.WriteLine("[VerifyAddresses] ========== ROZPOCZĘCIE WERYFIKACJI ==========");
             Console.WriteLine($"[VerifyAddresses] InputFilePath: {InputFilePath}");
-
+      
             if (!ModelState.IsValid)
             {
                 Console.WriteLine("[VerifyAddresses] ModelState nieprawidłowy!");
@@ -72,37 +74,52 @@ namespace TerytLoad.Pages
 
         private async Task ProcessVerificationAsync(string appDataPath)
         {
-            using var scope = _scopeFactory.CreateScope();
-            var context = scope.ServiceProvider.GetRequiredService<AddressDbContext>();
-
-            var totalStartTime = DateTime.Now;
-
-            // ✅ USING - automatycznie wywoła Dispose() i zapisze log
-            using var searchService = new AddressSearchService(context, _env.ContentRootPath);
-
             try
             {
+                Console.WriteLine("[ProcessVerification] ========== START ==========");
+                Console.WriteLine($"[ProcessVerification] Tworzę scope...");
+                
+                using var scope = _scopeFactory.CreateScope();
+                Console.WriteLine($"[ProcessVerification] ✓ Scope utworzony");
+                
+                var context = scope.ServiceProvider.GetRequiredService<AddressDbContext>();
+                Console.WriteLine($"[ProcessVerification] ✓ DbContext pobrany");
+
+                var totalStartTime = DateTime.Now;
+
+                Console.WriteLine($"[ProcessVerification] Tworzę AddressSearchService...");
+                using var searchService = new AddressSearchService(context, _env.ContentRootPath);
+                Console.WriteLine($"[ProcessVerification] ✓ AddressSearchService utworzony");
+
                 var outputDirectory = Path.GetDirectoryName(appDataPath)!;
 
-                Console.WriteLine($"[SignalR] Wysyłam początkowy komunikat...");
+                Console.WriteLine($"[ProcessVerification] Wysyłam komunikat SignalR...");
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", 0, 100,
                     $"🔄 Rozpoczęto przetwarzanie pliku: {Path.GetFileName(appDataPath)}{Environment.NewLine}" +
                     $"⚠️ Limit: {MAX_RECORDS_TO_PROCESS:N0} rekordów{Environment.NewLine}");
+                
+                Console.WriteLine($"[ProcessVerification] ✓ Komunikat SignalR wysłany");
 
                 // Inicjalizuj AddressSearchService
+                Console.WriteLine($"[ProcessVerification] Wysyłam komunikat o inicjalizacji...");
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", 0, 100,
                     "⏳ Inicjalizacja serwisu wyszukiwania...");
 
+                Console.WriteLine($"[ProcessVerification] Wywołuję InitializeAsync()...");
                 var initStartTime = DateTime.Now;
+                
                 await searchService.InitializeAsync();
+                
                 var initTime = (DateTime.Now - initStartTime).TotalSeconds;
+                Console.WriteLine($"[ProcessVerification] ✓ InitializeAsync zakończone w {initTime:F1}s");
 
-                Console.WriteLine($"[VerifyAddresses] ✓ Zainicjalizowano AddressSearchService w {initTime:F1}s");
-
-                await _hubContext.Clients.All.SendAsync("ReceiveProgress",
-                    "verify-addresses", 0, 100,
+                await _hubContext.Clients.All.SendAsync(
+                    "ReceiveProgress",
+                    "verify-addresses",
+                    0,
+                    100,
                     $"✓ Serwis wyszukiwania zainicjaliony w {initTime:F1}s");
 
                 // Wczytaj dane z pliku
@@ -114,8 +131,12 @@ namespace TerytLoad.Pages
 
                 if (lines.Length == 0)
                 {
-                    await _hubContext.Clients.All.SendAsync("ReceiveProgress",
-                        "verify-addresses", 0, 100, "⚠️ Plik jest pusty!");
+                    await _hubContext.Clients.All.SendAsync(
+                        "ReceiveProgress",
+                        "verify-addresses",
+                        0,
+                        100,
+                        "⚠️ Plik jest pusty!");
                     return;
                 }
 
@@ -134,8 +155,11 @@ namespace TerytLoad.Pages
                     ? $"⚠️ ZASTOSOWANO LIMIT: przetwarzanie {totalLines:N0} z {totalLinesInFile:N0} rekordów"
                     : "";
 
-                await _hubContext.Clients.All.SendAsync("ReceiveProgress",
-                    "verify-addresses", 0, totalLines,
+                await _hubContext.Clients.All.SendAsync(
+                    "ReceiveProgress",
+                    "verify-addresses",
+                    0,
+                    totalLines,
                     $"📊 Przygotowano {totalLines:N0} rekordów do weryfikacji{Environment.NewLine}{limitInfo}");
 
                 int processedCount = 0;
@@ -192,7 +216,8 @@ namespace TerytLoad.Pages
                         var progressMsg = $"Przetworzono: {processedCount:N0}/{totalLines:N0} ({speed:N0} rek/s){Environment.NewLine}" +
                                          $"Sukces: {successCount:N0} | Ostrzeżenia: {warningCount:N0} | Puste: {emptyCount:N0} | Błędy: {failureCount:N0}";
 
-                        await _hubContext.Clients.All.SendAsync("ReceiveProgress",
+                        await _hubContext.Clients.All.SendAsync(
+                            "ReceiveProgress",
                             "verify-addresses",
                             processedCount,
                             totalLines,
@@ -249,13 +274,23 @@ namespace TerytLoad.Pages
             }
             catch (Exception ex)
             {
-                var totalTime = (DateTime.Now - totalStartTime).TotalSeconds;
-                Console.WriteLine($"[VerifyAddresses] ✗ BŁĄD po {totalTime:F2}s: {ex.Message}");
-                Console.WriteLine($"[VerifyAddresses] StackTrace: {ex.StackTrace}");
+                Console.WriteLine($"[ProcessVerification] ✗✗✗ WYJĄTEK ✗✗✗");
+                Console.WriteLine($"[ProcessVerification] Message: {ex.Message}");
+                Console.WriteLine($"[ProcessVerification] Type: {ex.GetType().Name}");
+                Console.WriteLine($"[ProcessVerification] StackTrace: {ex.StackTrace}");
+                
+                var innerEx = ex.InnerException;
+                while (innerEx != null)
+                {
+                    Console.WriteLine($"[ProcessVerification] Inner Exception: {innerEx.Message}");
+                    innerEx = innerEx.InnerException;
+                }
 
-                var errorMsg = $"❌ Błąd podczas przetwarzania: {ex.Message}{Environment.NewLine}⏱️ Czas do błędu: {totalTime:F2}s";
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
-                    "verify-addresses", 0, 100, errorMsg);
+                    "verify-addresses", 0, 100, 
+                    $"❌ BŁĄD: {ex.Message}");
+                
+                throw;
             }
         }
 

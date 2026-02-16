@@ -1,1 +1,16 @@
 ﻿Komunikat|ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
+Błędna nazwa ulicy 'Częstochowice'/'czestochowice'/Szukana ulica: 'Częstochowice',Znormalizowana: 'czestochowice',Ulica NIE istnieje w bazie TERYT|A18142|32-210|KSIĄŻ WIELKI|Częstochowice|23||||
+Błędna nazwa ulicy 'Oś. Boh. Września'/'boh. wrzesnia'/Szukana ulica: 'Oś. Boh. Września',Znormalizowana: 'boh. wrzesnia',Ulica NIE istnieje w bazie TERYT|A1350652|31-621|KRAKÓW|Oś. Boh. Września|28|27|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Błędna nazwa ulicy 'Przedszkle'/'przedszkle'/Szukana ulica: 'Przedszkle',Znormalizowana: 'przedszkle',Ulica NIE istnieje w bazie TERYT|A1680577|34-472|PIEKIELNIK|Przedszkle|170a||||
+Błędna nazwa ulicy 'Pustków Osiedle'/'pustkow osiedle'/Szukana ulica: 'Pustków Osiedle',Znormalizowana: 'pustkow osiedle',Ulica NIE istnieje w bazie TERYT|A1279185|39-206|DĘBICA|Pustków Osiedle|55|35|PODKARPACKIE|DĘBICKI|DĘBICA
+Błędna nazwa ulicy 'Ruckemanna'/'ruckemanna'/Szukana ulica: 'Ruckemanna',Znormalizowana: 'ruckemanna',Ulica NIE istnieje w bazie TERYT|A1465611|42-200|CZĘSTOCHOWA|Ruckemanna|41|51/28|||
+Błędna nazwa ulicy 'St. Augusta Poniatowskiego'/'augusta poniatowskiego'/Szukana ulica: 'St. Augusta Poniatowskiego',Znormalizowana: 'augusta poniatowskiego',Ulica NIE istnieje w bazie TERYT|A1783761|31-709|Kraków|St. Augusta Poniatowskiego|13||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Brak kodów pocztowych dla miasta Gorzeń Górny/Miasto: Gorzeń Górny,Miasto nie ma kodów pocztowych|A1919513|34-100|Gorzeń Górny||53b||||
+Kod pocztowy 32-016 nie pasuje do żadnego miasta o nazwie 'STANISŁAWICE'/Szukane miasto: STANISŁAWICE,Znaleziono 5 miast o tej nazwie,Kod pocztowy: 32-016,Nie można jednoznacznie określić miasta|A1288618|32-016|STANISŁAWICE||71||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków (ID=19006),Ulica: Turniejowa (ID=58973),Numer budynku: 65A,Liczba znalezionych kodów: 0|A1339341|30-619|KRAKÓW|Turniejowa|65A|105|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa (ID=26808),Ulica: Mazowiecka (ID=64633),Numer budynku: 12,Liczba znalezionych kodów: 0|A1230693|00-048|WARSZAWA|Mazowiecka|12||||
+Nie znaleziono miejscowości: DĄBROWA GÓRNIACZA/Szukana miejscowość: DĄBROWA GÓRNIACZA,Znormalizowana nazwa: dabrowa gorniacza|A1421614|41-303|DĄBROWA GÓRNIACZA|os. 1000 - Lecia|6|143|||
+Nie znaleziono miejscowości: DRWINA/Szukana miejscowość: DRWINA,Znormalizowana nazwa: drwina|ZA1205975|32-009|DRWINA|Wola Drwińska|60||MAŁOPOLSKIE|WIELICKI|WIELICZKA
+Znaleziono wiele dopasowań (1): 00-805 (ul. Chmielna)/Liczba dopasowań: 2,Miasto: Warszawa,Ulica: Chmielna,  • 00-805 (ul. Chmielna)|A1357222|00-805|WARSZAWA|Chmielna|85|87|||
+Znaleziono wiele dopasowań (1): 31-406 (al. 29 Listopada)/Liczba dopasowań: 2,Miasto: Kraków,Ulica: 29 Listopada,  • 31-406 (al. 29 Listopada)|A1609050|31-406|KRAKÓW|al. 29 listopada 130|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Znaleziono wiele dopasowań [A] 2): 31-802 (ul. Króla Wacława/56002), 31-422 (ul. Majora Jakuba/61494)/Znaleziono 2 pasujących ulic,  • ul. Wacława Króla w Kraków,  • ul. Jakuba Majora w Kraków|A1194212|31-008|KRAKÓW|Rynek Gł.|25||ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS

@@ -1,2 +1,16 @@
 ﻿ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
-A1305601|33-350|Piwniczna-Zdrój[PIWNICZNA]|Rynek|11||MAŁOPOLSKIE[]|nowosądecki[]|Piwniczna-Zdrój[]
+A14275|33-100|Tarnów|ul. Studniarskiego[Prof.J.Studniarskiego]|2||MAŁOPOLSKIE[ŁÓDZKIE]|Tarnów[WIELUŃSKI]|Tarnów[WIERZCHLAS]
+A1828238|96-100|Skierniewice|ul. Małkowskiego[Prof.St.Małkowskiego]|17||ŁÓDZKIE[]|Skierniewice[]|Skierniewice[]
+A1971491|90-214[90-206]|Łódź|ul. Rewolucji 1905 r.[Rewolucji 1905]|37/39||ŁÓDZKIE[]|Łódź[]|Łódź[]
+A1942458|00-124|Warszawa|rondo Organizacji Narodów Zjednoczonych[Rondo ONZ]|1||MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1961881|02-797|Warszawa|al. Komisji Edukacji Narodowej[al. KEN]|47|232|MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1785889|31-548|Kraków|al. Pokoju[Aleje Pokoju]|5||MAŁOPOLSKIE|Kraków|Kraków
+A1747457|33-100[33-101]|Tarnów|ul. Batalionów Chłopskich[Bat.Chłopskich]|30||MAŁOPOLSKIE[]|Tarnów[]|Tarnów[]
+A1464729|41-219|Sosnowiec|ul. Bohaterów Monte Cassino[Bohaterów Monte Cass]|50||ŚLĄSKIE[]|Sosnowiec[]|Sosnowiec[]
+A1411878|02-677|Warszawa|ul. Cybernetyki[Cybernetyki 19]|19[10B]|10B[]|MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+A1294219|39-300|Mielec|al. Ducha Świętego[Ducha Św.]|17|54|PODKARPACKIE[]|mielecki[]|Mielec[]
+A1637596|32-300|Olkusz|ul. Kosynierów[Kosynierów 6/31]|6/31[6]|6/31[31]|MAŁOPOLSKIE[]|olkuski[]|Olkusz[]
+A1438349|38-400|Krosno|ul. Powstańców Warszawskich[Powstańców Warszawsk]|78||PODKARPACKIE[]|Krosno[]|Krosno[]
+A1353212|35-077|Rzeszów|ul. Bolesława Chrobrego[B. Chrobrego]|6|3|PODKARPACKIE[]|Rzeszów[]|Rzeszów[]
+ZA1682839|31-018[31-136]|Kraków|ul. Jana[Jana III Sobieskiego]|14|6|MAŁOPOLSKIE|Kraków|Kraków
+A1369989|38-400|Krosno|ul. Wyszyńskiego[Kard. Wyszyńskiego]|109||PODKARPACKIE[]|Krosno[]|Krosno[]
