@@ -1,133 +1,212 @@
 ﻿@page
-@model TerytLoad.Pages.IndexModel
+@model IndexModel
 @{
-    ViewData["Title"] = "Strona główna";
+    ViewData["Title"] = "Home page";
 }
 
-<div class="container mt-5">
-    <div class="text-center mb-4">
-        <h1 class="display-4">System zarządzania danymi TERYT</h1>
-        <p class="lead">Witaj w systemie importu i zarządzania danymi adresowymi TERYT</p>
-        <p class="text-muted">© 2025-2026 Andrzej Szepczyński</p>
-        
-        <div class="mt-5">
-            <a asp-page="/Database" class="btn btn-primary btn-lg me-2">
-                <i class="bi bi-database"></i> Baza danych
-            </a>
-            <a asp-page="/BuildHierarchy" class="btn btn-info btn-lg me-2">
-                <i class="bi bi-diagram-3"></i> Struktura hierarchiczna
-            </a>
-            <a asp-page="/Browse" class="btn btn-success btn-lg">
-                <i class="bi bi-search"></i> Przeglądarka
-            </a>
-        </div>
-    </div>
+<div class="text-center mt-5">
+    <h1 class="display-4">🗺️ System zarządzania danymi TERYT</h1>
+    <p class="lead">Aplikacja do ładowania i przeglądania danych TERYT (Terc, Simc, Ulic) oraz kodów pocztowych</p>
+</div>
 
-    <div class="row mt-5">
-        <div class="col-md-4 mb-3">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="bi bi-database"></i> Baza danych</h5>
-                    <p class="card-text">Zarządzaj bazą danych, importuj pliki CSV TERYT i ładuj dane z plików ZIP.</p>
-                    <a asp-page="/Database" class="btn btn-primary">Otwórz</a>
-                </div>
+<div class="row mt-5">
+    <!-- Karta 1: Ładowanie danych -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-primary">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-download"></i> Ładowanie danych
+                </h5>
             </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="bi bi-file-text"></i> Ładowanie PNA (CSV)</h5>
-                    <p class="card-text">Załaduj dane PNA (Poczta Polska) z pliku CSV do bazy danych.</p>
-                    <a asp-page="/LoadPnaCsv" class="btn btn-primary">Załaduj</a>
-                </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Załaduj dane z plików TERYT do bazy danych.
+                </p>
+                <a asp-page="/LoadData" class="btn btn-primary w-100">
+                    <i class="bi bi-upload"></i> Załaduj dane
+                </a>
             </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="bi bi-diagram-3"></i> Struktura hierarchiczna</h5>
-                    <p class="card-text">Zbuduj hierarchiczną strukturę terytorialną Polski (województwa, powiaty, gminy, miejscowości, ulice).</p>
-                    <a asp-page="/BuildHierarchy" class="btn btn-info">Zbuduj</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="row mt-3">
-        <div class="col-md-4 mb-3">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="bi bi-mailbox"></i> Kody pocztowe</h5>
-                    <p class="card-text">Załaduj kody pocztowe na podstawie danych PNA i struktury hierarchicznej.</p>
-                    <a asp-page="/LoadPostalCodes" class="btn btn-secondary">Załaduj</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="bi bi-map"></i> Przeglądarka struktury</h5>
-                    <p class="card-text">Przeglądaj hierarchiczną strukturę terytorialną Polski (województwa → powiaty → gminy → miejscowości → ulice).</p>
-                    <a asp-page="/Browse" class="btn btn-success">Przeglądaj</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="bi bi-table"></i> Surowe dane TERYT</h5>
-                    <p class="card-text">Przeglądaj surowe tabele TERYT (TERC, SIMC, ULIC) bezpośrednio z plików importowanych.</p>
-                    <a asp-page="/BrowseTeryt" class="btn btn-outline-secondary">Przeglądaj</a>
-                </div>
+            <div class="card-footer text-muted">
+                <small>
+                    <i class="bi bi-info-circle"></i> Import Terc, Simc, Ulic
+                </small>
             </div>
         </div>
     </div>
 
-    <div class="row mt-3">
-        <div class="col-md-4 mb-3">
-            <div class="card h-100 border-success">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="bi bi-search"></i> Wyszukiwanie</h5>
-                    <p class="card-text">Wyszukaj pojedyncze adresy w bazie danych PNA.</p>
-                    <a asp-page="/Szukaj" class="btn btn-success">Szukaj</a>
-                </div>
+    <!-- Karta 2: Ładowanie kodów pocztowych -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-success">
+            <div class="card-header bg-success text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-mailbox"></i> Kody pocztowe
+                </h5>
             </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card h-100 border-primary">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="bi bi-check2-square"></i> Masowa weryfikacja</h5>
-                    <p class="card-text">Masowa weryfikacja adresów z pliku - sprawdź poprawność wielu adresów jednocześnie.</p>
-                    <a asp-page="/VerifyAddresses" class="btn btn-primary">Weryfikuj</a>
-                </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Załaduj kody pocztowe z pliku PNA do bazy danych.
+                </p>
+                <a asp-page="/LoadPostalCodes" class="btn btn-success w-100">
+                    <i class="bi bi-envelope"></i> Załaduj kody
+                </a>
             </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card h-100 border-warning">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="bi bi-file-pdf"></i> Ładowanie PDF (stare)</h5>
-                    <p class="card-text">Stara metoda ładowania danych PNA z pliku PDF.</p>
-                    <a asp-page="/LoadPdf" class="btn btn-outline-warning">Załaduj</a>
-                </div>
+            <div class="card-footer text-muted">
+                <small>
+                    <i class="bi bi-info-circle"></i> Import z pliku PNA
+                </small>
             </div>
         </div>
     </div>
 
-    <div class="alert alert-info mt-5" role="alert">
-        <h4 class="alert-heading"><i class="bi bi-info-circle"></i> Informacje o systemie</h4>
-        <p>System zarządzania danymi TERYT umożliwia:</p>
-        <ul>
-            <li>Import danych z plików CSV TERYT (TerytTerc, TerytSimc, TerytUlic, TerytWmRodz)</li>
-            <li>Import danych PNA (Poczta Polska) z plików CSV (kodowanie CP-1250)</li>
-            <li>Import danych PNA z plików PDF (stara metoda)</li>
-            <li>Budowanie hierarchicznej struktury terytorialnej Polski</li>
-            <li>Ładowanie i dopasowywanie kodów pocztowych do struktury hierarchicznej</li>
-            <li>Przeglądanie danych w formie hierarchicznej (województwa → ulice)</li>
-            <li>Przeglądanie surowych danych TERYT</li>
-            <li>Wyszukiwanie pojedynczych adresów</li>
-            <li><strong>Masowa weryfikacja adresów z pliku</strong></li>
-        </ul>
-        <hr>
-        <p class="mb-0 text-muted">© 2025-2026 Andrzej Szepczyński. Wszelkie prawa zastrzeżone.</p>
+    <!-- Karta 3: Przeglądarka hierarchiczna -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-info">
+            <div class="card-header bg-info text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-diagram-3"></i> Przeglądarka
+                </h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Przeglądaj dane w strukturze hierarchicznej.
+                </p>
+                <a asp-page="/Browse" class="btn btn-info w-100">
+                    <i class="bi bi-tree"></i> Przeglądaj hierarchię
+                </a>
+            </div>
+            <div class="card-footer text-muted">
+                <small>
+                    <i class="bi bi-info-circle"></i> Woj → Pow → Gm → Miej → Ul
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Karta 4: Przeglądarka TERYT -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-secondary">
+            <div class="card-header bg-secondary text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-table"></i> TERYT Raw
+                </h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Przeglądaj surowe dane z tabel TERYT.
+                </p>
+                <a asp-page="/BrowseTeryt" class="btn btn-secondary w-100">
+                    <i class="bi bi-database"></i> Dane surowe
+                </a>
+            </div>
+            <div class="card-footer text-muted">
+                <small>
+                    <i class="bi bi-info-circle"></i> Terc, Simc, Ulic
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Karta 5: Wyszukiwarka -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-dark">
+            <div class="card-header bg-dark text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-search"></i> Wyszukiwarka
+                </h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Wyszukaj kod pocztowy dla danego adresu.
+                </p>
+                <a asp-page="/Szukaj" class="btn btn-dark w-100">
+                    <i class="bi bi-search"></i> Szukaj adresu
+                </a>
+            </div>
+            <div class="card-footer text-muted">
+                <small>
+                    <i class="bi bi-info-circle"></i> Wyszukiwanie adresów
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Karta 6: Weryfikacja adresów -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-danger">
+            <div class="card-header bg-danger text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-shield-check"></i> Weryfikacja
+                </h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Zweryfikuj poprawność adresów z pliku CSV.
+                </p>
+                <a asp-page="/VerifyAddresses" class="btn btn-danger w-100">
+                    <i class="bi bi-check-circle"></i> Weryfikuj adresy
+                </a>
+            </div>
+            <div class="card-footer text-muted">
+                <small>
+                    <i class="bi bi-info-circle"></i> Masowa walidacja
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- NOWA KARTA 7: Weryfikacja zakresów kodów pocztowych -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-warning">
+            <div class="card-header bg-warning text-dark">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-check2-square"></i> Weryfikacja zakresów
+                </h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    Sprawdź czy zakresy numerów domów w kodach pocztowych nie nakładają się.
+                </p>
+                <a asp-page="/VerifyPostalCodes" class="btn btn-warning w-100">
+                    <i class="bi bi-play-fill"></i> Weryfikuj zakresy
+                </a>
+            </div>
+            <div class="card-footer text-muted">
+                <small>
+                    <i class="bi bi-info-circle"></i> Wykrywa konflikty numeracji
+                </small>
+            </div>
+        </div>
     </div>
 </div>
+
+<div class="mt-5 text-center">
+    <div class="alert alert-light border">
+        <h5><i class="bi bi-lightbulb"></i> Kolejność działań</h5>
+        <ol class="text-start d-inline-block">
+            <li>Załaduj dane TERYT (Terc, Simc, Ulic)</li>
+            <li>Załaduj kody pocztowe z pliku PNA</li>
+            <li><strong class="text-warning">Zweryfikuj zakresy numerów (NOWOŚĆ!)</strong></li>
+            <li>Przeglądaj dane lub wyszukuj adresy</li>
+            <li>Weryfikuj adresy z pliku CSV</li>
+        </ol>
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2) !important;
+    }
+    
+    .btn {
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .btn:hover {
+        transform: scale(1.05);
+    }
+</style>

@@ -1,5 +1,5 @@
 ﻿using AddressLibrary;
-using AddressLibrary.Services.HierarchyBuilders.KodyPocztoweLoader;
+using AddressLibrary.Services.KodyPocztoweLoader;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;

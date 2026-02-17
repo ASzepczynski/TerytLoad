@@ -1,0 +1,89 @@
+﻿@page
+@model TerytLoad.Pages.VerifyPostalCodesModel
+@{
+    ViewData["Title"] = "Weryfikacja zakresów kodów pocztowych";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">
+        <i class="bi bi-check2-square"></i> Weryfikacja zakresów numerów w kodach pocztowych
+    </h1>
+
+    <div class="alert alert-info">
+        <h5><i class="bi bi-info-circle"></i> Co robi ta funkcja?</h5>
+        <p class="mb-0">
+            Sprawdza czy zakresy numerów domów w obrębie tej samej ulicy nie nakładają się między różnymi kodami pocztowymi.
+            <br/>
+            <strong>Przykład konfliktu:</strong>
+            <br/>
+            • Kod 31-001: ul. Floriańska 1-10 (parzyste)
+            <br/>
+            • Kod 31-002: ul. Floriańska 5-15 (parzyste) ← KONFLIKT na numerach 6, 8, 10
+        </p>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert alert-success">
+            <i class="bi bi-check-circle"></i> @Model.Message
+        </div>
+    }
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form method="post">
+                <button type="submit" class="btn btn-primary btn-lg">
+                    <i class="bi bi-play-fill"></i> Rozpocznij weryfikację
+                </button>
+                <a asp-page="/Index" class="btn btn-secondary btn-lg ms-2">
+                    <i class="bi bi-arrow-left"></i> Powrót
+                </a>
+            </form>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0"><i class="bi bi-graph-up"></i> Postęp weryfikacji</h5>
+        </div>
+        <div class="card-body">
+            <div class="progress mb-3" style="height: 30px;">
+                <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated" 
+                     role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    0%
+                </div>
+            </div>
+            <pre id="progressLog" class="bg-light p-3 border rounded" style="max-height: 400px; overflow-y: auto; font-family: 'Courier New', monospace; font-size: 0.85rem;">
+Oczekiwanie na rozpoczęcie weryfikacji...
+            </pre>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/progressHub")
+            .build();
+
+        connection.on("ReceiveProgress", function (operationId, current, total, message) {
+            if (operationId === "verify-postal-codes") {
+                const percent = total > 0 ? Math.round((current / total) * 100) : 0;
+                
+                const progressBar = document.getElementById("progressBar");
+                progressBar.style.width = percent + "%";
+                progressBar.textContent = percent + "%";
+                progressBar.setAttribute("aria-valuenow", percent);
+
+                const log = document.getElementById("progressLog");
+                log.textContent = message;
+                log.scrollTop = log.scrollHeight;
+            }
+        });
+
+        connection.start().catch(function (err) {
+            console.error(err.toString());
+        });
+    </script>
+}
