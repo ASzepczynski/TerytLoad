@@ -148,47 +148,53 @@
             </div>
             <div class="card-footer text-muted">
                 <small>
-                    <i class="bi bi-info-circle"></i> Masowa walidacja
+                    <i class="bi bi-info-circle"></i> Weryfikacja CSV
                 </small>
             </div>
         </div>
     </div>
 
-    <!-- NOWA KARTA 7: Weryfikacja zakresów kodów pocztowych -->
+    <!-- ZMIENIONA Karta 7: Zarządzanie adresami -->
     <div class="col-md-4 mb-4">
         <div class="card h-100 shadow-sm border-warning">
             <div class="card-header bg-warning text-dark">
                 <h5 class="card-title mb-0">
-                    <i class="bi bi-check2-square"></i> Weryfikacja zakresów
+                    <i class="bi bi-arrow-repeat"></i> Zarządzanie adresami
                 </h5>
             </div>
             <div class="card-body">
                 <p class="card-text">
-                    Sprawdź czy zakresy numerów domów w kodach pocztowych nie nakładają się.
+                    Importuj, aktualizuj i eksportuj adresy z bazy danych.
                 </p>
-                <a asp-page="/VerifyPostalCodes" class="btn btn-warning w-100">
-                    <i class="bi bi-play-fill"></i> Weryfikuj zakresy
+                <a asp-page="/UpdateAddresses" class="btn btn-warning w-100">
+                    <i class="bi bi-arrow-repeat"></i> Zarządzaj adresami
                 </a>
             </div>
             <div class="card-footer text-muted">
                 <small>
-                    <i class="bi bi-info-circle"></i> Wykrywa konflikty numeracji
+                    <i class="bi bi-info-circle"></i> Import/Eksport/Aktualizacja
                 </small>
             </div>
         </div>
     </div>
 </div>
 
-<div class="mt-5 text-center">
-    <div class="alert alert-light border">
-        <h5><i class="bi bi-lightbulb"></i> Kolejność działań</h5>
-        <ol class="text-start d-inline-block">
-            <li>Załaduj dane TERYT (Terc, Simc, Ulic)</li>
-            <li>Załaduj kody pocztowe z pliku PNA</li>
-            <li><strong class="text-warning">Zweryfikuj zakresy numerów (NOWOŚĆ!)</strong></li>
-            <li>Przeglądaj dane lub wyszukuj adresy</li>
-            <li>Weryfikuj adresy z pliku CSV</li>
-        </ol>
+<!-- Stopka z informacjami -->
+<div class="row mt-5">
+    <div class="col-12">
+        <div class="alert alert-info">
+            <h5 class="alert-heading">
+                <i class="bi bi-info-circle-fill"></i> Informacje o systemie
+            </h5>
+            <p>
+                System zarządza danymi TERYT w formacie hierarchicznym oraz umożliwia import i weryfikację adresów.
+                Wszystkie dane są przechowywane w bazie danych SQL Server.
+            </p>
+            <hr>
+            <p class="mb-0">
+                <strong>Struktura hierarchiczna:</strong> Województwo → Powiat → Gmina → Miejscowość → Ulica → Kod pocztowy
+            </p>
+        </div>
     </div>
 </div>
 

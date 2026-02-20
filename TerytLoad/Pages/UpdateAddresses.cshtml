@@ -1,0 +1,100 @@
+﻿@page
+@model TerytLoad.Pages.UpdateAddressesModel
+@{
+    ViewData["Title"] = "Aktualizacja adresów";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">
+        <i class="bi bi-arrow-repeat"></i> Zarządzanie adresami
+    </h1>
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">
+                <i class="bi bi-info-circle"></i> Instrukcja
+            </h5>
+            <p class="card-text">
+                Ta funkcja umożliwia zarządzanie adresami w bazie danych.
+            </p>
+            <ul>
+                <li><strong>Import z c:\dane\adresy.txt</strong> - wczytuje wszystkie adresy (pierwotny import)</li>
+                <li><strong>Aktualizacja z c:\dane\poprawa adresow\Poprawki.txt</strong> - aktualizuje istniejące adresy</li>
+                <li><strong>Eksport do AppData\Address\adresy.txt</strong> - zapisuje adresy z kraju 'PL' do pliku</li>
+            </ul>
+        </div>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert @(Model.Message.StartsWith("✓") || Model.Message.StartsWith("✅") ? "alert-success" : (Model.Message.StartsWith("⚠") ? "alert-warning" : "alert-danger")) alert-dismissible fade show" role="alert">
+            <pre style="white-space: pre-wrap; margin-bottom: 0;">@Model.Message</pre>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <form method="post">
+        <div class="row g-3">
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-primary btn-lg w-100" asp-page-handler="ImportAddresses">
+                    <i class="bi bi-download"></i> Import adresów
+                </button>
+                <small class="text-muted d-block mt-2">z c:\dane\adresy.txt</small>
+            </div>
+            
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-warning btn-lg w-100" asp-page-handler="UpdateAddresses">
+                    <i class="bi bi-arrow-repeat"></i> Aktualizuj adresy
+                </button>
+                <small class="text-muted d-block mt-2">z c:\dane\poprawa adresow\Poprawki.txt</small>
+            </div>
+
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-success btn-lg w-100" asp-page-handler="ExportAddresses">
+                    <i class="bi bi-upload"></i> Eksportuj adresy (PL)
+                </button>
+                <small class="text-muted d-block mt-2">do AppData\Address\adresy.txt</small>
+            </div>
+        </div>
+    </form>
+
+    @if (Model.Stats != null)
+    {
+        <div class="card mt-4">
+            <div class="card-header bg-info text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-graph-up"></i> Statystyki
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3 text-center">
+                        <h3 class="text-primary">@Model.Stats.TotalRecords</h3>
+                        <p class="text-muted">Rekordów w pliku</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h3 class="text-success">@Model.Stats.UpdatedRecords</h3>
+                        <p class="text-muted">Zaktualizowanych</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h3 class="text-info">@Model.Stats.NewRecords</h3>
+                        <p class="text-muted">Nowych/Wyeksportowanych</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h3 class="text-secondary">@Model.Stats.UnchangedRecords</h3>
+                        <p class="text-muted">Bez zmian</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        // Auto-dismiss alerts po 15 sekundach
+        setTimeout(function() {
+            $('.alert').fadeOut('slow');
+        }, 15000);
+    </script>
+}

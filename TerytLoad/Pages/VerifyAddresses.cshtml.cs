@@ -45,7 +45,7 @@ namespace TerytLoad.Pages
         {
             Console.WriteLine("[VerifyAddresses] ========== ROZPOCZĘCIE WERYFIKACJI ==========");
             Console.WriteLine($"[VerifyAddresses] InputFilePath: {InputFilePath}");
-      
+
             if (!ModelState.IsValid)
             {
                 Console.WriteLine("[VerifyAddresses] ModelState nieprawidłowy!");
@@ -78,10 +78,10 @@ namespace TerytLoad.Pages
             {
                 Console.WriteLine("[ProcessVerification] ========== START ==========");
                 Console.WriteLine($"[ProcessVerification] Tworzę scope...");
-                
+
                 using var scope = _scopeFactory.CreateScope();
                 Console.WriteLine($"[ProcessVerification] ✓ Scope utworzony");
-                
+
                 var context = scope.ServiceProvider.GetRequiredService<AddressDbContext>();
                 Console.WriteLine($"[ProcessVerification] ✓ DbContext pobrany");
 
@@ -98,7 +98,7 @@ namespace TerytLoad.Pages
                     "verify-addresses", 0, 100,
                     $"🔄 Rozpoczęto przetwarzanie pliku: {Path.GetFileName(appDataPath)}{Environment.NewLine}" +
                     $"⚠️ Limit: {MAX_RECORDS_TO_PROCESS:N0} rekordów{Environment.NewLine}");
-                
+
                 Console.WriteLine($"[ProcessVerification] ✓ Komunikat SignalR wysłany");
 
                 // Inicjalizuj AddressSearchService
@@ -109,9 +109,9 @@ namespace TerytLoad.Pages
 
                 Console.WriteLine($"[ProcessVerification] Wywołuję InitializeAsync()...");
                 var initStartTime = DateTime.Now;
-                
+
                 await searchService.InitializeAsync();
-                
+
                 var initTime = (DateTime.Now - initStartTime).TotalSeconds;
                 Console.WriteLine($"[ProcessVerification] ✓ InitializeAsync zakończone w {initTime:F1}s");
 
@@ -164,6 +164,7 @@ namespace TerytLoad.Pages
 
                 int processedCount = 0;
                 int successCount = 0;
+                int successFuzzyCount = 0; // ✅ NOWE
                 int warningCount = 0;
                 int failureCount = 0;
                 int emptyCount = 0;
@@ -184,7 +185,11 @@ namespace TerytLoad.Pages
                     results.Add(result);
 
                     if (result.Status == "SUKCES")
+                    {
                         successCount++;
+                        if (result.Method == "Fuzzy") // ✅ NOWE
+                            successFuzzyCount++;
+                    }
                     else if (result.Status == "OSTRZEŻENIE")
                         warningCount++;
                     else if (result.Status == "PUSTY")
@@ -203,7 +208,7 @@ namespace TerytLoad.Pages
 
                         Console.WriteLine($"[Progress] {processedCount:N0}/{totalLines:N0} ({processedCount * 100.0 / totalLines:F1}%) " +
                                         $"| Avg: {speed:N0} rek/s | Last 1000: {intervalSpeed:N0} rek/s | Elapsed: {elapsed:F1}s " +
-                                        $"| OK: {successCount:N0} | Warn: {warningCount:N0} | Empty: {emptyCount:N0} | Err: {failureCount:N0}");
+                                        $"| OK: {successCount:N0} (Fuzzy: {successFuzzyCount:N0}) | Warn: {warningCount:N0} | Empty: {emptyCount:N0} | Err: {failureCount:N0}");
 
                         lastConsoleReportTime = now;
                     }
@@ -214,7 +219,7 @@ namespace TerytLoad.Pages
                         var elapsed = (DateTime.Now - processingStartTime).TotalSeconds;
                         var speed = elapsed > 0 ? (int)(processedCount / elapsed) : 0;
                         var progressMsg = $"Przetworzono: {processedCount:N0}/{totalLines:N0} ({speed:N0} rek/s){Environment.NewLine}" +
-                                         $"Sukces: {successCount:N0} | Ostrzeżenia: {warningCount:N0} | Puste: {emptyCount:N0} | Błędy: {failureCount:N0}";
+                                         $"Sukces: {successCount:N0} (Fuzzy: {successFuzzyCount:N0}) | Ostrzeżenia: {warningCount:N0} | Puste: {emptyCount:N0} | Błędy: {failureCount:N0}";
 
                         await _hubContext.Clients.All.SendAsync(
                             "ReceiveProgress",
@@ -246,6 +251,8 @@ namespace TerytLoad.Pages
                              $"📊 Statystyki:{Environment.NewLine}" +
                              $"   • Przetworzono: {processedCount:N0} rekordów{Environment.NewLine}" +
                              $"   • Sukces: {successCount:N0}{Environment.NewLine}" +
+                             $"     - Strict: {successCount - successFuzzyCount:N0}{Environment.NewLine}" +
+                             $"     - Fuzzy: {successFuzzyCount:N0}{Environment.NewLine}" +
                              $"   • Ostrzeżenia: {warningCount:N0}{Environment.NewLine}" +
                              $"   • Puste: {emptyCount:N0}{Environment.NewLine}" +
                              $"   • Błędy: {failureCount:N0}{Environment.NewLine}{Environment.NewLine}" +
@@ -257,7 +264,8 @@ namespace TerytLoad.Pages
                              $"   • CZAS CAŁKOWITY: {totalTime:F2}s{Environment.NewLine}" +
                              $"   • Prędkość: {(processingTime > 0 ? processedCount / processingTime : 0):F0} rek/s{Environment.NewLine}{Environment.NewLine}" +
                              $"📄 Wyniki zapisano do:{Environment.NewLine}" +
-                             $"   • adresy_ok.txt ({successCount:N0} rekordów){Environment.NewLine}" +
+                             $"   • adresy_ok.txt ({successCount - successFuzzyCount:N0} rekordów - strict){Environment.NewLine}" +
+                             $"   • adresy_fuzzy.txt ({successFuzzyCount:N0} rekordów - fuzzy matching){Environment.NewLine}" +
                              $"   • adresy_bledy.txt ({failureCount + warningCount:N0} rekordów){Environment.NewLine}" +
                              $"   • adresy_puste.txt ({emptyCount:N0} rekordów)";
 
@@ -270,7 +278,7 @@ namespace TerytLoad.Pages
 
                 Console.WriteLine($"[VerifyAddresses] ========== ZAKOŃCZONO WERYFIKACJĘ ({DateTime.Now:HH:mm:ss.fff}) ==========");
                 Console.WriteLine($"[VerifyAddresses] ⏱️ Czas całkowity: {totalTime:F2}s");
-                Console.WriteLine($"[VerifyAddresses] 📊 Sukces: {successCount} | Ostrzeżenia: {warningCount} | Puste: {emptyCount} | Błędy: {failureCount}");
+                Console.WriteLine($"[VerifyAddresses] 📊 Sukces: {successCount} (Strict: {successCount - successFuzzyCount}, Fuzzy: {successFuzzyCount}) | Ostrzeżenia: {warningCount} | Puste: {emptyCount} | Błędy: {failureCount}");
             }
             catch (Exception ex)
             {
@@ -278,7 +286,7 @@ namespace TerytLoad.Pages
                 Console.WriteLine($"[ProcessVerification] Message: {ex.Message}");
                 Console.WriteLine($"[ProcessVerification] Type: {ex.GetType().Name}");
                 Console.WriteLine($"[ProcessVerification] StackTrace: {ex.StackTrace}");
-                
+
                 var innerEx = ex.InnerException;
                 while (innerEx != null)
                 {
@@ -287,59 +295,109 @@ namespace TerytLoad.Pages
                 }
 
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
-                    "verify-addresses", 0, 100, 
+                    "verify-addresses", 0, 100,
                     $"❌ BŁĄD: {ex.Message}");
-                
+
                 throw;
             }
         }
 
         /// <summary>
         /// Przetwarza pojedynczą linię z pliku CSV
-        /// Format: ID|Kod|Miasto|Ulica|Budynek|Lokal|Wojewodztwo|Powiat|Gmina
+        /// Format: ID|Kraj|Kod|Miasto|Ulica|Budynek|Lokal|Wojewodztwo|Powiat|Gmina
         /// </summary>
         private async Task<VerificationResult> ProcessLineAsync(string line, AddressSearchService searchService)
         {
-            var sw = System.Diagnostics.Stopwatch.StartNew();
-
-            var parts = line.Split('|');
-
-            if (parts.Length < 6)
+            try
             {
-                return new VerificationResult
+                var parts = line.Split('|');
+
+                if (parts.Length < 10)
                 {
-                    SourceId = parts.Length > 0 ? parts[0] : "UNKNOWN",
-                    Status = "BŁĄD",
-                    Message = "Nieprawidłowy format linii (za mało kolumn)",
-                    SourceLine = line
+                    return new VerificationResult
+                    {
+                        Status = "BŁĄD",
+                        Message = $"Nieprawidłowa liczba kolumn: {parts.Length}",
+                        SourceLine = line,
+                        Method = "N/A"
+                    };
+                }
+
+                var id = parts[0].Trim();
+                var kraj = parts[1].Trim();
+                var kodPocztowy = parts[2].Trim();
+                var miasto = parts[3].Trim();
+                var ulica = parts[4].Trim();
+                var budynek = parts[5].Trim();
+                var lokal = parts[6].Trim();
+                var wojewodztwo = parts[7].Trim();
+                var powiat = parts[8].Trim();
+                var gmina = parts[9].Trim();
+
+                bool hasKod = !string.IsNullOrWhiteSpace(kodPocztowy);
+                bool hasUlica = !string.IsNullOrWhiteSpace(ulica);
+
+                if (string.IsNullOrWhiteSpace(miasto))
+                {
+                    return new VerificationResult
+                    {
+                        Status = "PUSTY",
+                        Message = "Brak nazwy miasta",
+                        SourceId = id,
+                        SourceKraj = kraj,
+                        SourceLine = line,
+                        SourceKodPocztowy = kodPocztowy,
+                        SourceMiasto = miasto,
+                        SourceUlica = ulica,
+                        SourceBudynek = budynek,
+                        SourceLokal = lokal,
+                        SourceWojewodztwo = wojewodztwo,
+                        SourcePowiat = powiat,
+                        SourceGmina = gmina,
+                        Method = "N/A"
+                    };
+                }
+
+                var request = new AddressSearchRequest
+                {
+                    KodPocztowy = hasKod ? kodPocztowy : null,
+                    Miasto = miasto,
+                    Ulica = hasUlica ? ulica : null,
+                    NumerDomu = string.IsNullOrWhiteSpace(budynek) ? null : budynek,
+                    NumerMieszkania = string.IsNullOrWhiteSpace(lokal) ? null : lokal
                 };
-            }
 
-            var id = parts[0];
-            var kodPocztowy = parts.Length > 1 ? parts[1] : null;
-            var miasto = parts.Length > 2 ? parts[2] : null;
-            var ulica = parts.Length > 3 ? parts[3] : null;
-            var budynek = parts.Length > 4 ? parts[4] : null;
-            var lokal = parts.Length > 5 ? parts[5] : null;
+                var searchResult = await searchService.SearchAsync(request);
 
-            // Pobierz także województwo, powiat, gminę jeśli są dostępne
-            var wojewodztwo = parts.Length > 6 ? parts[6] : null;
-            var powiat = parts.Length > 7 ? parts[7] : null;
-            var gmina = parts.Length > 8 ? parts[8] : null;
+                // Budowanie nowaUlica
+                var nowaUlica = "";
+                if (searchResult.Ulica != null)
+                {
+                    string sPrefix;
+                    switch (searchResult.Ulica.Cecha) 
+                    {
+                        case "rynek": 
+                            sPrefix = "";
+                            break;
+                        case "inne": 
+                            sPrefix = "";
+                            break;
+                        default: 
+                            sPrefix = searchResult.Ulica.Cecha ?? "";
+                            break;
+                    };
+                    nowaUlica = $"{sPrefix} {searchResult.Ulica.Nazwa1}".Trim();
+                }
 
-            // ✅ SPRAWDZENIE: Czy adres ma wystarczające dane
-            var hasMiasto = !string.IsNullOrWhiteSpace(miasto);
-            var hasKod = !string.IsNullOrWhiteSpace(kodPocztowy);
-            var hasUlica = !string.IsNullOrWhiteSpace(ulica);
+                // ✅ POPRAWIONE: Używaj GetOverallMethod() zamiast sprawdzania Message
+                string method = searchResult.GetOverallMethod() == MatchingMethod.Fuzzy ? "Fuzzy" : "Strict";
 
-            // Jeśli brak miasta ALBO (jest miasto ale brak kodu i ulicy)
-            if (!hasMiasto || (hasMiasto && !hasKod && !hasUlica))
-            {
                 return new VerificationResult
                 {
                     SourceId = id,
-                    Status = "PUSTY",
-                    Message = "Za mało danych",
+                    SourceKraj = kraj,
+                    Status = MapStatus(searchResult.Status),
+                    Message = searchResult.Message ?? string.Empty,
                     SourceLine = line,
                     SourceKodPocztowy = kodPocztowy,
                     SourceMiasto = miasto,
@@ -348,73 +406,36 @@ namespace TerytLoad.Pages
                     SourceLokal = lokal,
                     SourceWojewodztwo = wojewodztwo,
                     SourcePowiat = powiat,
-                    SourceGmina = gmina
+                    SourceGmina = gmina,
+                    // ✅ POPRAWIONE: Używaj Miejscowosc (tak jest w AddressSearchResult)
+                    FoundKodPocztowy = searchResult.KodPocztowy?.Kod,
+                    FoundMiasto = searchResult.Miasto?.Nazwa,
+                    FoundUlica = nowaUlica,
+                    FoundBudynek = searchResult.NormalizedBuildingNumber,
+                    FoundLokal = searchResult.NormalizedApartmentNumber,
+                    // ✅ POPRAWIONE: Dostęp przez hierarchię Miejscowosc
+                    FoundGmina = searchResult.Miasto?.Gmina?.Nazwa,
+                    FoundPowiat = searchResult.Miasto?.Gmina?.Powiat?.Nazwa,
+                    FoundWojewodztwo = searchResult.Miasto?.Gmina?.Powiat?.Wojewodztwo?.Nazwa,
+                    DiagnosticLog = searchResult.DiagnosticInfo,
+                    Method = method
                 };
             }
-
-            var request = new AddressSearchRequest
+            catch (Exception ex)
             {
-                KodPocztowy = hasKod ? kodPocztowy : null,
-                Miasto = miasto,
-                Ulica = hasUlica ? ulica : null,
-                NumerDomu = string.IsNullOrWhiteSpace(budynek) ? null : budynek,
-                NumerMieszkania = string.IsNullOrWhiteSpace(lokal) ? null : lokal
-            };
+                Console.WriteLine($"[ProcessLine] ❌ WYJĄTEK ❌");
+                Console.WriteLine($"[ProcessLine] Message: {ex.Message}");
+                Console.WriteLine($"[ProcessLine] Type: {ex.GetType().Name}");
+                Console.WriteLine($"[ProcessLine] StackTrace: {ex.StackTrace}");
 
-            var searchResult = await searchService.SearchAsync(request);
-
-            sw.Stop();
-
-            if (sw.ElapsedMilliseconds > 100) // Jeśli > 100ms
-            {
-                Console.WriteLine($"[SLOW] ID:{id} zajęło {sw.ElapsedMilliseconds}ms - {miasto}/{ulica}");
-            }
-
-            var nowaUlica = "";
-            string sPrefix = "";
-            if (searchResult.Ulica == null) nowaUlica = "";
-            else
-            {
-               switch (searchResult.Ulica.Cecha)
+                return new VerificationResult
                 {
-                    case "rynek":
-                    case "inne":
-                        sPrefix = "";
-                        break;
-                    default: 
-                        sPrefix = searchResult.Ulica.Cecha;
-                        break;
-                }
-                nowaUlica = $"{sPrefix} {searchResult.Ulica.Nazwa1}".Trim();
-
-
-
+                    Status = "BŁĄD",
+                    Message = $"Wyjątek: {ex.Message}",
+                    SourceLine = line,
+                    Method = "N/A"
+                };
             }
-
-            return new VerificationResult
-            {
-                SourceId = id,
-                Status = MapStatus(searchResult.Status),
-                Message = searchResult.Message ?? string.Empty,
-                SourceLine = line,
-                SourceKodPocztowy = kodPocztowy,
-                SourceMiasto = miasto,
-                SourceUlica = ulica,
-                SourceBudynek = budynek,
-                SourceLokal = lokal,
-                SourceWojewodztwo = wojewodztwo,
-                SourcePowiat = powiat,
-                SourceGmina = gmina,
-                FoundKodPocztowy = searchResult.KodPocztowy?.Kod,
-                FoundMiasto = searchResult.Miasto?.Nazwa,
-                FoundUlica = nowaUlica,
-                FoundBudynek = searchResult.NormalizedBuildingNumber,
-                FoundLokal = searchResult.NormalizedApartmentNumber,
-                FoundGmina = searchResult.Miasto?.Gmina?.Nazwa,
-                FoundPowiat = searchResult.Miasto?.Gmina?.Powiat?.Nazwa,
-                FoundWojewodztwo = searchResult.Miasto?.Gmina?.Powiat?.Wojewodztwo?.Nazwa,
-                DiagnosticLog = searchResult.DiagnosticInfo
-            };
         }
 
         private string MapStatus(AddressSearchStatus status)
@@ -425,6 +446,7 @@ namespace TerytLoad.Pages
                 AddressSearchStatus.MultipleMatches => "OSTRZEŻENIE",
                 AddressSearchStatus.MiastoNotFound => "BŁĄD",
                 AddressSearchStatus.UlicaNotFound => "BŁĄD",
+                AddressSearchStatus.InvalidStreetName => "BŁĄD",
                 AddressSearchStatus.KodPocztowyNotFound => "BŁĄD",
                 AddressSearchStatus.ValidationError => "BŁĄD",
                 _ => "BŁĄD"
@@ -432,18 +454,19 @@ namespace TerytLoad.Pages
         }
 
         /// <summary>
-        /// Zapisuje wyniki do plików: adresy_ok.txt, adresy_bledy.txt i adresy_puste.txt
+        /// Zapisuje wyniki do plików: adresy_ok.txt, adresy_fuzzy.txt, adresy_bledy.txt i adresy_puste.txt
         /// </summary>
         private async Task SaveResultsAsync(string outputDirectory, List<VerificationResult> results)
         {
             var okPath = Path.Combine(outputDirectory, "adresy_ok.txt");
+            var fuzzyPath = Path.Combine(outputDirectory, "adresy_fuzzy.txt"); // ✅ NOWE
             var errorPath = Path.Combine(outputDirectory, "adresy_bledy.txt");
             var emptyPath = Path.Combine(outputDirectory, "adresy_puste.txt");
-
 
             var everyLine = "ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina";
 
             var okLines = new List<string> { everyLine };
+            var fuzzyLines = new List<string> { everyLine }; // ✅ NOWE
             var errorLines = new List<string> { $"Komunikat|{everyLine}" };
             var emptyLines = new List<string> { everyLine };
 
@@ -457,6 +480,7 @@ namespace TerytLoad.Pages
                 var gmina = result.SourceGmina;
                 var powiat = result.SourcePowiat;
                 var wojewodztwo = result.SourceWojewodztwo;
+
                 switch (result.Status)
                 {
                     case "SUKCES":
@@ -468,27 +492,40 @@ namespace TerytLoad.Pages
                         gmina = FormatWithChange(result.FoundGmina, result.SourceGmina);
                         powiat = FormatWithChange(result.FoundPowiat, result.SourcePowiat);
                         wojewodztwo = FormatWithChange(result.FoundWojewodztwo, result.SourceWojewodztwo);
-                        okLines.Add($"{result.SourceId}|{kod}|{miasto}|{ulica}|{budynek}|{lokal}|{wojewodztwo}|{powiat}|{gmina}");
+
+                        var line = $"{result.SourceId}|{kod}|{miasto}|{ulica}|{budynek}|{lokal}|{wojewodztwo}|{powiat}|{gmina}";
+
+                        // ✅ NOWE: Rozdziel strict i fuzzy
+                        if (result.Method == "Fuzzy")
+                        {
+                            fuzzyLines.Add(line);
+                        }
+                        else
+                        {
+                            okLines.Add(line);
+                        }
                         break;
+
                     case "PUSTY":
                         emptyLines.Add($"{result.SourceId}|{kod}|{miasto}|{ulica}|{budynek}|{lokal}|{wojewodztwo}|{powiat}|{gmina}");
                         break;
+
                     case "BŁĄD":
                     case "OSTRZEŻENIE":
                         var sDiag = result.DiagnosticLog?.Replace("\n", ",").Replace("\r", "");
                         errorLines.Add($"{result.Message}/{sDiag}|{result.SourceId}|{kod}|{miasto}|{ulica}|{budynek}|{lokal}|{wojewodztwo}|{powiat}|{gmina}");
                         break;
-                    default:
-                        break;
                 }
             }
 
             await System.IO.File.WriteAllLinesAsync(okPath, okLines, Encoding.UTF8);
+            await System.IO.File.WriteAllLinesAsync(fuzzyPath, fuzzyLines, Encoding.UTF8); // ✅ NOWE
             await System.IO.File.WriteAllLinesAsync(errorPath, errorLines, Encoding.UTF8);
             await System.IO.File.WriteAllLinesAsync(emptyPath, emptyLines, Encoding.UTF8);
 
             Console.WriteLine($"[VerifyAddresses] ✓ Zapisano wyniki:");
-            Console.WriteLine($"   • {okPath} ({okLines.Count - 1} rekordów)");
+            Console.WriteLine($"   • {okPath} ({okLines.Count - 1} rekordów - strict)");
+            Console.WriteLine($"   • {fuzzyPath} ({fuzzyLines.Count - 1} rekordów - fuzzy)"); // ✅ NOWE
             Console.WriteLine($"   • {errorPath} ({errorLines.Count - 1} rekordów)");
             Console.WriteLine($"   • {emptyPath} ({emptyLines.Count - 1} rekordów)");
         }
@@ -501,51 +538,48 @@ namespace TerytLoad.Pages
         {
             if (found == null) found = "";
             if (source == null) source = "";
-            // Jeśli oba są puste - zwróć pusty string
-            
+
             if (string.Equals(found.Trim(), source.Trim(), StringComparison.OrdinalIgnoreCase))
             {
-            // Równe
                 return found;
             }
 
-            // Różne - zwróć z oryginalną w nawiasach
             return $"{found}[{source}]";
-
         }
-}
+    }
 
-/// <summary>
-/// Model wyniku weryfikacji pojedynczego adresu
-/// </summary>
-public class VerificationResult
-{
-    public string SourceId { get; set; } = string.Empty;
-    public string Status { get; set; } = string.Empty;
-    public string Message { get; set; } = string.Empty;
-    public string SourceLine { get; set; } = string.Empty;
+    /// <summary>
+    /// Model wyniku weryfikacji pojedynczego adresu
+    /// </summary>
+    public class VerificationResult
+    {
+        public string SourceId { get; set; } = string.Empty;
+        public string Status { get; set; } = string.Empty;
+        public string Message { get; set; } = string.Empty;
+        public string SourceLine { get; set; } = string.Empty;
+        public string Method { get; set; } = "Strict"; // ✅ NOWE: "Strict" lub "Fuzzy"
 
-    // Dane źródłowe
-    public string? SourceKodPocztowy { get; set; }
-    public string? SourceMiasto { get; set; }
-    public string? SourceUlica { get; set; }
-    public string? SourceBudynek { get; set; }
-    public string? SourceLokal { get; set; }
-    public string? SourceWojewodztwo { get; set; }
-    public string? SourcePowiat { get; set; }
-    public string? SourceGmina { get; set; }
+        // Dane źródłowe
+        public string? SourceKraj { get; set; } // ✅ DODANE
+        public string? SourceKodPocztowy { get; set; }
+        public string? SourceMiasto { get; set; }
+        public string? SourceUlica { get; set; }
+        public string? SourceBudynek { get; set; }
+        public string? SourceLokal { get; set; }
+        public string? SourceWojewodztwo { get; set; }
+        public string? SourcePowiat { get; set; }
+        public string? SourceGmina { get; set; }
 
-    // Dane znalezione
-    public string? FoundKodPocztowy { get; set; }
-    public string? FoundMiasto { get; set; }
-    public string? FoundUlica { get; set; }
-    public string? FoundBudynek { get; set; }
-    public string? FoundLokal { get; set; }
+        // Dane znalezione
+        public string? FoundKodPocztowy { get; set; }
+        public string? FoundMiasto { get; set; }
+        public string? FoundUlica { get; set; }
+        public string? FoundBudynek { get; set; }
+        public string? FoundLokal { get; set; }
+        public string? FoundWojewodztwo { get; set; }
+        public string? FoundPowiat { get; set; }
+        public string? FoundGmina { get; set; }
 
-    public string? FoundWojewodztwo { get; set; }
-    public string? FoundPowiat { get; set; }
-    public string? FoundGmina { get; set; }
-
-    public string? DiagnosticLog { get; set; }
-}
+        public string? DiagnosticLog { get; set; }
+    }
 }
