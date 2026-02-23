@@ -4,6 +4,7 @@ using AddressLibrary.Data;
 using AddressLibrary.Helpers;
 using AddressLibrary.Models;
 using AddressLibrary.Services.AddressSearch;
+using DocumentFormat.OpenXml.Vml;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
@@ -52,7 +53,7 @@ namespace TerytLoad.Pages
                 return Page();
             }
 
-            var appDataPath = Path.Combine(_env.ContentRootPath, InputFilePath);
+            var appDataPath = System.IO.Path.Combine(_env.ContentRootPath, InputFilePath);
             Console.WriteLine($"[VerifyAddresses] Pełna ścieżka: {appDataPath}");
 
             if (!System.IO.File.Exists(appDataPath))
@@ -91,12 +92,12 @@ namespace TerytLoad.Pages
                 using var searchService = new AddressSearchService(context, _env.ContentRootPath);
                 Console.WriteLine($"[ProcessVerification] ✓ AddressSearchService utworzony");
 
-                var outputDirectory = Path.GetDirectoryName(appDataPath)!;
+                var outputDirectory = System.IO.Path.GetDirectoryName(appDataPath)!;
 
                 Console.WriteLine($"[ProcessVerification] Wysyłam komunikat SignalR...");
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", 0, 100,
-                    $"🔄 Rozpoczęto przetwarzanie pliku: {Path.GetFileName(appDataPath)}{Environment.NewLine}" +
+                    $"🔄 Rozpoczęto przetwarzanie pliku: {System.IO.Path.GetFileName(appDataPath)}{Environment.NewLine}" +
                     $"⚠️ Limit: {MAX_RECORDS_TO_PROCESS:N0} rekordów{Environment.NewLine}");
 
                 Console.WriteLine($"[ProcessVerification] ✓ Komunikat SignalR wysłany");
@@ -453,81 +454,108 @@ namespace TerytLoad.Pages
             };
         }
 
-        /// <summary>
-        /// Zapisuje wyniki do plików: adresy_ok.txt, adresy_fuzzy.txt, adresy_bledy.txt i adresy_puste.txt
+
+       
+
+        /// Zapisuje wyniki do plików: adresy_ok.txt, adresy_fuzzy.txt, adresy_bledy.txt, adresy_brak_numeru.txt, adresy_brakkodu.txt i adresy_puste.txt
         /// </summary>
         private async Task SaveResultsAsync(string outputDirectory, List<VerificationResult> results)
         {
-            var okPath = Path.Combine(outputDirectory, "adresy_ok.txt");
-            var fuzzyPath = Path.Combine(outputDirectory, "adresy_fuzzy.txt"); // ✅ NOWE
-            var errorPath = Path.Combine(outputDirectory, "adresy_bledy.txt");
-            var emptyPath = Path.Combine(outputDirectory, "adresy_puste.txt");
+            var okPath = System.IO.Path.Combine(outputDirectory, "adresy_ok.txt");
+            var fuzzyPath = System.IO.Path.Combine(outputDirectory, "adresy_fuzzy.txt");
+            var errorPath = System.IO.Path.Combine(outputDirectory, "adresy_bledy.txt");
+            var brakNumeruPath = System.IO.Path.Combine(outputDirectory, "adresy_brak_numeru.txt");
+            var brakKoduPath = System.IO.Path.Combine(outputDirectory, "adresy_brakkodu.txt");
+            var emptyPath = System.IO.Path.Combine(outputDirectory, "adresy_puste.txt");
 
-            var everyLine = "ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina";
+            var everyLine = "ID|Kraj|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina";
 
             var okLines = new List<string> { everyLine };
-            var fuzzyLines = new List<string> { everyLine }; // ✅ NOWE
+            var fuzzyLines = new List<string> { everyLine };
             var errorLines = new List<string> { $"Komunikat|{everyLine}" };
+            var brakNumeruLines = new List<string> { $"Komunikat|{everyLine}" };
+            var brakKoduLines = new List<string> { $"Komunikat|{everyLine}" };
             var emptyLines = new List<string> { everyLine };
 
             foreach (var result in results.OrderBy(r => r.Message).ToList())
             {
-                var kod = result.SourceKodPocztowy;
-                var miasto = result.SourceMiasto;
-                var ulica = result.SourceUlica;
-                var budynek = result.SourceBudynek;
-                var lokal = result.SourceLokal;
-                var gmina = result.SourceGmina;
-                var powiat = result.SourcePowiat;
-                var wojewodztwo = result.SourceWojewodztwo;
+                var adres = new Adres();
+                adres.Kraj = result.SourceKraj;
+                adres.Kod = result.SourceKodPocztowy;
+                adres.Miasto = result.SourceMiasto;
+                adres.Ulica = result.SourceUlica;
+                adres.NrDomu = result.SourceBudynek;
+                adres.NrLokalu = result.SourceLokal;
+                adres.Gmina = result.SourceGmina;
+                adres.Powiat = result.SourcePowiat;
+                adres.Wojewodztwo = result.SourceWojewodztwo;
 
                 switch (result.Status)
                 {
                     case "SUKCES":
-                        kod = FormatWithChange(result.FoundKodPocztowy, result.SourceKodPocztowy);
-                        miasto = FormatWithChange(result.FoundMiasto, result.SourceMiasto);
-                        ulica = FormatWithChange(result.FoundUlica, result.SourceUlica);
-                        budynek = FormatWithChange(result.FoundBudynek, result.SourceBudynek);
-                        lokal = FormatWithChange(result.FoundLokal, result.SourceLokal);
-                        gmina = FormatWithChange(result.FoundGmina, result.SourceGmina);
-                        powiat = FormatWithChange(result.FoundPowiat, result.SourcePowiat);
-                        wojewodztwo = FormatWithChange(result.FoundWojewodztwo, result.SourceWojewodztwo);
+                        adres.Kod = FormatWithChange(result.FoundKodPocztowy, result.SourceKodPocztowy);
+                        adres.Miasto = FormatWithChange(result.FoundMiasto, result.SourceMiasto);
+                        adres.Ulica = FormatWithChange(result.FoundUlica, result.SourceUlica);
+                        adres.NrDomu = FormatWithChange(result.FoundBudynek, result.SourceBudynek);
+                        adres.NrLokalu = FormatWithChange(result.FoundLokal, result.SourceLokal);
+                        adres.Gmina = FormatWithChange(result.FoundGmina, result.SourceGmina);
+                        adres.Powiat = FormatWithChange(result.FoundPowiat, result.SourcePowiat);
+                        adres.Wojewodztwo = FormatWithChange(result.FoundWojewodztwo, result.SourceWojewodztwo);
 
-                        var line = $"{result.SourceId}|{kod}|{miasto}|{ulica}|{budynek}|{lokal}|{wojewodztwo}|{powiat}|{gmina}";
-
-                        // ✅ NOWE: Rozdziel strict i fuzzy
+                        // Rozdziel strict i fuzzy
                         if (result.Method == "Fuzzy")
                         {
-                            fuzzyLines.Add(line);
+                            fuzzyLines.Add($"{result.SourceId}|{ConcatenateAddress(adres)}");
                         }
                         else
                         {
-                            okLines.Add(line);
+                            okLines.Add($"{result.SourceId}|{ConcatenateAddress(adres)}");
                         }
                         break;
 
                     case "PUSTY":
-                        emptyLines.Add($"{result.SourceId}|{kod}|{miasto}|{ulica}|{budynek}|{lokal}|{wojewodztwo}|{powiat}|{gmina}");
+                        emptyLines.Add($"{result.SourceId}|{ConcatenateAddress(adres)}");
                         break;
 
                     case "BŁĄD":
                     case "OSTRZEŻENIE":
                         var sDiag = result.DiagnosticLog?.Replace("\n", ",").Replace("\r", "");
-                        errorLines.Add($"{result.Message}/{sDiag}|{result.SourceId}|{kod}|{miasto}|{ulica}|{budynek}|{lokal}|{wojewodztwo}|{powiat}|{gmina}");
+
+                        // ✅ Klasyfikacja błędów według typu
+                        if (result.Message != null && result.Message.Contains("Numer domu jest wymagany"))
+                        {
+                            brakNumeruLines.Add($"{result.Message}/{sDiag}|{result.SourceId}|{ConcatenateAddress(adres)}");
+                        }
+                        else
+                        if (result.Message != null && result.Message.Contains("Nie znaleziono kodu pocztowego dla podanych parametrów"))
+                        {
+                            brakKoduLines.Add($"{result.Message}/{sDiag}|{result.SourceId}|{ConcatenateAddress(adres)}");
+                        } else 
+                        {
+                            errorLines.Add($"{result.Message}/{sDiag}|{result.SourceId}|{ConcatenateAddress(adres)}");
+                        }
                         break;
                 }
             }
 
             await System.IO.File.WriteAllLinesAsync(okPath, okLines, Encoding.UTF8);
-            await System.IO.File.WriteAllLinesAsync(fuzzyPath, fuzzyLines, Encoding.UTF8); // ✅ NOWE
+            await System.IO.File.WriteAllLinesAsync(fuzzyPath, fuzzyLines, Encoding.UTF8);
             await System.IO.File.WriteAllLinesAsync(errorPath, errorLines, Encoding.UTF8);
+            await System.IO.File.WriteAllLinesAsync(brakNumeruPath, brakNumeruLines, Encoding.UTF8); // ✅ NOWE
+            await System.IO.File.WriteAllLinesAsync(brakKoduPath, brakKoduLines, Encoding.UTF8); // ✅ NOWE
             await System.IO.File.WriteAllLinesAsync(emptyPath, emptyLines, Encoding.UTF8);
 
             Console.WriteLine($"[VerifyAddresses] ✓ Zapisano wyniki:");
             Console.WriteLine($"   • {okPath} ({okLines.Count - 1} rekordów - strict)");
-            Console.WriteLine($"   • {fuzzyPath} ({fuzzyLines.Count - 1} rekordów - fuzzy)"); // ✅ NOWE
+            Console.WriteLine($"   • {fuzzyPath} ({fuzzyLines.Count - 1} rekordów - fuzzy)");
             Console.WriteLine($"   • {errorPath} ({errorLines.Count - 1} rekordów)");
+            Console.WriteLine($"   • {brakNumeruPath} ({brakNumeruLines.Count - 1} rekordów)"); // ✅ NOWE
+            Console.WriteLine($"   • {brakKoduPath} ({brakKoduLines.Count - 1} rekordów)"); // ✅ NOWE
             Console.WriteLine($"   • {emptyPath} ({emptyLines.Count - 1} rekordów)");
+        }
+
+        private string ConcatenateAddress(Adres r) {
+            return $"{r.Kraj}|{r.Kod}|{r.Miasto}|{r.Ulica}|{r.NrDomu}|{r.NrLokalu}|{r.Wojewodztwo}|{r.Powiat}|{r.Gmina}";
         }
 
         /// <summary>

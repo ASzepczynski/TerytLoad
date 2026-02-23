@@ -1,2 +1,1 @@
-﻿ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
-A1846001|02-389|Warszawa|al. Bohaterów Września[al.Boh.Września]|9|115|MAZOWIECKIE[]|Warszawa[]|Warszawa[]
+﻿ID|Kraj|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina

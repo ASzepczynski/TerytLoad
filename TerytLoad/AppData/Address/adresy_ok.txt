@@ -1,2 +1,1 @@
-﻿ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
-A11718309|31-869|Kraków|os. 2 Pułku Lotniczego[II Pułku Lotniczego]|28|23|MAŁOPOLSKIE|Kraków|Kraków
+﻿ID|Kraj|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina

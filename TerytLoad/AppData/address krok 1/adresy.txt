@@ -1,2 +1,0 @@
-ID|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
-A1306010|40-203|KATOWICE|Rozdzieńskiego|88|9|ŚLĄSKIE|KATOWICE|KATOWICE
