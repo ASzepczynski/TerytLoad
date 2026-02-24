@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
+using System.Text.RegularExpressions;
 using TerytLoad.Configuration;
 
 namespace TerytLoad.Pages
@@ -95,6 +96,12 @@ namespace TerytLoad.Pages
                 foreach (var line in dataLines)
                 {
                     var parts = line.Split('|');
+                    
+                    // ✅ DODANE: Usuń tekst w nawiasach kwadratowych z każdego elementu
+                    for (int i = 0; i < parts.Length; i++)
+                    {
+                        parts[i] = RemoveSquareBrackets(parts[i]);
+                    }
                     
                     // ✅ ZMIENIONE: Teraz musi mieć 10 kolumn (dodano Kraj)
                     if (parts.Length != 10)
@@ -256,8 +263,34 @@ namespace TerytLoad.Pages
                 var stats = new UpdateStats();
                 var messageBuilder = new StringBuilder();
 
-                // Wczytaj plik
-                var lines = await System.IO.File.ReadAllLinesAsync(filePath, Encoding.UTF8);
+                // ✅ POPRAWKA: Spróbuj różnych kodowań
+                string[] lines;
+                Encoding? detectedEncoding = null;
+                
+                try
+                {
+                    // Najpierw spróbuj UTF-8
+                    lines = await System.IO.File.ReadAllLinesAsync(filePath, Encoding.UTF8);
+                    detectedEncoding = Encoding.UTF8;
+                    
+                    // Sprawdź czy są znaki zastępowania (�) co może oznaczać złe kodowanie
+                    if (lines.Any(line => line.Contains('�')))
+                    {
+                        // Spróbuj Windows-1250 (polskie kodowanie)
+                        lines = await System.IO.File.ReadAllLinesAsync(filePath, Encoding.GetEncoding(1250));
+                        detectedEncoding = Encoding.GetEncoding(1250);
+                        messageBuilder.AppendLine($"⚠️ Wykryto problemy z UTF-8, użyto kodowania Windows-1250");
+                    }
+                }
+                catch
+                {
+                    // Jeśli UTF-8 zawiedzie, użyj Windows-1250
+                    lines = await System.IO.File.ReadAllLinesAsync(filePath, Encoding.GetEncoding(1250));
+                    detectedEncoding = Encoding.GetEncoding(1250);
+                    messageBuilder.AppendLine($"⚠️ UTF-8 nie zadziałało, użyto kodowania Windows-1250");
+                }
+                
+                messageBuilder.AppendLine($"📄 Kodowanie pliku: {detectedEncoding?.EncodingName}");
                 
                 if (lines.Length < 2)
                 {
@@ -281,34 +314,39 @@ namespace TerytLoad.Pages
 
                 // Przechowuj kompletne dane do aktualizacji
                 var addressesToUpdate = new Dictionary<string, Adres>();
-                var notFoundIds = new List<string>(); // ✅ NOWE: Lista ID nieznalezionych w bazie
+                var notFoundIds = new List<string>();
+                var invalidLines = new List<string>(); // ✅ NOWE: Zbieraj nieprawidłowe linie do diagnozy
 
                 foreach (var line in dataLines)
                 {
                     var parts = line.Split('\t');
                     
+                    // ✅ DODANE: Usuń tekst w nawiasach kwadratowych z każdego elementu
+                    for (int i = 0; i < parts.Length; i++)
+                    {
+                        parts[i] = RemoveSquareBrackets(parts[i]);
+                    }
+                    
                     // ✅ ZMIENIONE: Teraz musi mieć co najmniej 10 kolumn
                     if (parts.Length < 10)
                     {
-                        messageBuilder.AppendLine($"⚠️ Pominięto nieprawidłową linię: {line.Substring(0, Math.Min(50, line.Length))}...");
+                        invalidLines.Add($"Kolumn: {parts.Length}, Linia: {line.Substring(0, Math.Min(100, line.Length))}");
                         continue;
                     }
                     
-                    // Format: ID|Kraj|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
-
                     var id = parts[0].Trim();
                     var newAddress = new Adres
                     {
                         Id = id,
-                        Kraj = parts[1].Trim(),        // ✅ DODANE
-                        Kod = parts[2].Trim(),         // ✅ Przesunięte
-                        Miasto = parts[3].Trim(),      // ✅ Przesunięte
-                        Ulica = parts[4].Trim(),       // ✅ Przesunięte
-                        NrDomu = parts[5].Trim(),      // ✅ Przesunięte
-                        NrLokalu = parts[6].Trim(),    // ✅ Przesunięte
-                        Wojewodztwo = parts[7].Trim(), // ✅ Przesunięte
-                        Powiat = parts[8].Trim(),      // ✅ Przesunięte
-                        Gmina = parts[9].Trim()        // ✅ Przesunięte
+                        Kraj = parts[1].Trim(),
+                        Kod = parts[2].Trim(),
+                        Miasto = parts[3].Trim(),
+                        Ulica = parts[4].Trim(),
+                        NrDomu = parts[5].Trim(),
+                        NrLokalu = parts[6].Trim(),
+                        Wojewodztwo = parts[7].Trim(),
+                        Powiat = parts[8].Trim(),
+                        Gmina = parts[9].Trim()
                     };
 
                     // Sprawdź czy adres istnieje w bazie
@@ -331,34 +369,50 @@ namespace TerytLoad.Pages
                     }
                 }
 
+                // ✅ NOWE: Raportuj nieprawidłowe linie
+                if (invalidLines.Any())
+                {
+                    messageBuilder.AppendLine($"\n⚠️ Pominięto {invalidLines.Count} nieprawidłowych linii:");
+                    var samplesToShow = Math.Min(5, invalidLines.Count);
+                    for (int i = 0; i < samplesToShow; i++)
+                    {
+                        messageBuilder.AppendLine($"   • {invalidLines[i]}");
+                    }
+                    if (invalidLines.Count > samplesToShow)
+                    {
+                        messageBuilder.AppendLine($"   ... i {invalidLines.Count - samplesToShow} więcej");
+                    }
+                    messageBuilder.AppendLine();
+                }
+
                 // Aktualizuj rekordy
                 if (addressesToUpdate.Any())
                 {
                     messageBuilder.AppendLine($"🔄 Aktualizuję {addressesToUpdate.Count} rekordów...");
-            
+    
                     const int batchSize = 1000;
                     int updatedCount = 0;
-            
+    
                     var updateIds = addressesToUpdate.Keys.ToList();
-            
+    
                     for (int i = 0; i < updateIds.Count; i += batchSize)
                     {
                         var batchIds = updateIds.Skip(i).Take(batchSize).ToList();
-            
+    
                         // Wyczyść przed wczytaniem nowego batcha
                         context.ChangeTracker.Clear();
-            
+    
                         // Wczytaj z śledzeniem
                         var recordsToUpdate = await context.Adresy
                             .Where(a => batchIds.Contains(a.Id))
                             .ToListAsync();
-            
+    
                         // Aktualizuj wartości
                         foreach (var record in recordsToUpdate)
                         {
                             if (addressesToUpdate.TryGetValue(record.Id, out var newData))
                             {
-                                record.Kraj = newData.Kraj;               // ✅ DODANE
+                                record.Kraj = newData.Kraj;
                                 record.Kod = newData.Kod;
                                 record.Miasto = newData.Miasto;
                                 record.Ulica = newData.Ulica;
@@ -369,13 +423,13 @@ namespace TerytLoad.Pages
                                 record.Gmina = newData.Gmina;
                             }
                         }
-            
+    
                         await context.SaveChangesAsync();
                         updatedCount += recordsToUpdate.Count;
-            
+    
                         messageBuilder.AppendLine($"   ✓ Zaktualizowano {updatedCount}/{addressesToUpdate.Count} rekordów");
                     }
-            
+    
                     // Wyczyść po aktualizacji
                     context.ChangeTracker.Clear();
                 }
@@ -384,14 +438,14 @@ namespace TerytLoad.Pages
                 if (notFoundIds.Any())
                 {
                     messageBuilder.AppendLine($"\n⚠️ Nie znaleziono w bazie {notFoundIds.Count} rekordów:");
-            
+    
                     // Pokaż pierwsze 20 nieznalezionych ID
                     var samplesToShow = Math.Min(20, notFoundIds.Count);
                     for (int i = 0; i < samplesToShow; i++)
                     {
                         messageBuilder.AppendLine($"   • ID: {notFoundIds[i]}");
                     }
-            
+    
                     if (notFoundIds.Count > samplesToShow)
                     {
                         messageBuilder.AppendLine($"   ... i {notFoundIds.Count - samplesToShow} więcej");
@@ -406,6 +460,7 @@ namespace TerytLoad.Pages
                 messageBuilder.AppendLine($"   • Zaktualizowanych: {stats.UpdatedRecords}");
                 messageBuilder.AppendLine($"   • Bez zmian: {stats.UnchangedRecords}");
                 messageBuilder.AppendLine($"   • Nie znaleziono w bazie: {notFoundIds.Count}");
+                messageBuilder.AppendLine($"   • Nieprawidłowych linii: {invalidLines.Count}");
 
                 Message = messageBuilder.ToString();
                 Stats = stats;
@@ -512,6 +567,20 @@ namespace TerytLoad.Pages
             }
 
             return Page();
+        }
+
+        /// <summary>
+        /// Usuwa tekst w nawiasach kwadratowych z podanego ciągu znaków
+        /// </summary>
+        /// <param name="input">Ciąg znaków do przetworzenia</param>
+        /// <returns>Ciąg znaków bez tekstu w nawiasach kwadratowych</returns>
+        private static string RemoveSquareBrackets(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+                return input;
+
+            // Usuń wszystkie wystąpienia tekstu w nawiasach kwadratowych (włącznie z nawiasami)
+            return Regex.Replace(input, @"\[.*?\]", string.Empty);
         }
 
         private bool HasChanges(Adres existing, Adres updated)
