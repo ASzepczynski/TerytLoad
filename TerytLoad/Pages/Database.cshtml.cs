@@ -11,7 +11,7 @@ namespace TerytLoad.Pages
     {
         private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _environment;
-        
+
         [BindProperty]
         public string Message { get; set; } = string.Empty;
 
@@ -35,7 +35,7 @@ namespace TerytLoad.Pages
                 var appDataPath = _environment.ContentRootPath;
                 var database = new AddressDatabase(connectionString, appDataPath);
                 await database.DeleteDatabaseAsync();
-                
+
                 Message = "✓ Baza danych została usunięta pomyślnie!";
             }
             catch (Exception ex)
@@ -53,7 +53,7 @@ namespace TerytLoad.Pages
                 var connectionString = _configuration.GetConnectionString("AddressDatabase")
                     ?? DatabaseConfig.DefaultConnectionString;
                 var appDataPath = _environment.ContentRootPath;
-                var database = new AddressDatabase(connectionString,appDataPath);
+                var database = new AddressDatabase(connectionString, appDataPath);
 
                 Message = "🚀 Rozpoczęto ładowanie danych TERYT...{Environment.NewLine}";
 
@@ -71,7 +71,7 @@ namespace TerytLoad.Pages
 
                 // Znajdź wszystkie pliki ZIP
                 var allZipFiles = Directory.GetFiles(terytPath, "*.zip").ToList();
-                
+
                 if (!allZipFiles.Any())
                 {
                     Message += $"✗ Nie znaleziono plików ZIP w folderze";
@@ -109,7 +109,7 @@ namespace TerytLoad.Pages
                             {
                                 Message += $"   🗑️ Czyszczenie tabeli TerytSimc...{Environment.NewLine}";
                                 await database.ClearTableAsync<TerytSimc>();
-                                
+
                                 Message += $"   ⏳ Ładowanie SIMC: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
                                 await database.LoadDataFromCsvAsync<TerytSimc>(csvFile);
                                 loadedFiles.Add($"✓ SIMC: {Path.GetFileName(csvFile)}");
@@ -118,7 +118,7 @@ namespace TerytLoad.Pages
                             {
                                 Message += $"   🗑️ Czyszczenie tabeli TerytTerc...{Environment.NewLine}";
                                 await database.ClearTableAsync<TerytTerc>();
-                                
+
                                 Message += $"   ⏳ Ładowanie TERC: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
                                 await database.LoadDataFromCsvAsync<TerytTerc>(csvFile);
                                 loadedFiles.Add($"✓ TERC: {Path.GetFileName(csvFile)}");
@@ -127,7 +127,7 @@ namespace TerytLoad.Pages
                             {
                                 Message += $"   🗑️ Czyszczenie tabeli TerytUlic...{Environment.NewLine}";
                                 await database.ClearTableAsync<TerytUlic>();
-                                
+
                                 Message += $"   ⏳ Ładowanie ULIC: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
                                 await database.LoadDataFromCsvAsync<TerytUlic>(csvFile);
                                 loadedFiles.Add($"✓ ULIC: {Path.GetFileName(csvFile)}");
@@ -136,7 +136,7 @@ namespace TerytLoad.Pages
                             {
                                 Message += $"   🗑️ Czyszczenie tabeli TerytWmRodz...{Environment.NewLine}";
                                 await database.ClearTableAsync<TerytWmRodz>();
-                                
+
                                 Message += $"   ⏳ Ładowanie WMRODZ: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
                                 await database.LoadDataFromCsvAsync<TerytWmRodz>(csvFile);
                                 loadedFiles.Add($"✓ WMRODZ: {Path.GetFileName(csvFile)}");

@@ -1,12 +1,11 @@
 ﻿// Copyright (c) 2025-2026 Andrzej Szepczyński. All rights reserved.
 
 using AddressLibrary.Data;
+using AddressLibrary.Models;
 using AddressLibrary.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
-using AddressLibrary.Models;
 
 namespace TerytLoad.Pages
 {

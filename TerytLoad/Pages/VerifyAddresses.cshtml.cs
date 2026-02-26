@@ -1,14 +1,12 @@
 ﻿// Copyright (c) 2025-2026 Andrzej Szepczyński. All rights reserved.
 
 using AddressLibrary.Data;
-using AddressLibrary.Helpers;
 using AddressLibrary.Models;
 using AddressLibrary.Services.AddressSearch;
-using DocumentFormat.OpenXml.Vml;
+using AddressLibrary.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
-using Microsoft.Extensions.FileSystemGlobbing.Internal;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using TerytLoad.Hubs;
@@ -125,12 +123,12 @@ namespace TerytLoad.Pages
 
                 // Wczytaj dane z pliku
                 var readStartTime = DateTime.Now;
-                var lines = await System.IO.File.ReadAllLinesAsync(appDataPath, Encoding.UTF8);
+                var dataLines = await GenericFileLoader.LoadFromFileAsync<Adres>(appDataPath);
                 var readTime = (DateTime.Now - readStartTime).TotalMilliseconds;
 
                 Console.WriteLine($"[VerifyAddresses] ✓ Wczytano plik w {readTime:F0}ms");
 
-                if (lines.Length == 0)
+                if (dataLines.Count() == 0)
                 {
                     await _hubContext.Clients.All.SendAsync(
                         "ReceiveProgress",
@@ -142,13 +140,9 @@ namespace TerytLoad.Pages
                 }
 
                 // Pomiń nagłówek i zastosuj LIMIT
-                var dataLines = lines.Skip(1)
-                    .Where(l => !string.IsNullOrWhiteSpace(l))
-                    .Take(MAX_RECORDS_TO_PROCESS)
-                    .ToList();
 
-                var totalLines = dataLines.Count;
-                var totalLinesInFile = lines.Skip(1).Count(l => !string.IsNullOrWhiteSpace(l));
+                var totalLines = dataLines.Count();
+                var totalLinesInFile = dataLines.Count();
 
                 Console.WriteLine($"[VerifyAddresses] Do przetworzenia: {totalLines:N0} rekordów (z {totalLinesInFile:N0} dostępnych w pliku)");
 
@@ -178,11 +172,12 @@ namespace TerytLoad.Pages
 
                 Console.WriteLine($"[VerifyAddresses] ========== ROZPOCZĘCIE PĘTLI PRZETWARZANIA ({DateTime.Now:HH:mm:ss.fff}) ==========");
 
-                foreach (var line in dataLines)
+                               foreach (var item in dataLines.Where(x=>x.Ulica!=null && x.Ulica.Contains("Krasińskiego") && x.Miasto=="Toruń"))
+                // foreach (var item in dataLines)
                 {
                     processedCount++;
 
-                    var result = await ProcessLineAsync(line, searchService);
+                    var result = await ProcessLineAsync(item, searchService);
                     results.Add(result);
 
                     if (result.Status == "SUKCES")
@@ -307,65 +302,42 @@ namespace TerytLoad.Pages
         /// Przetwarza pojedynczą linię z pliku CSV
         /// Format: ID|Kraj|Kod|Miasto|Ulica|Budynek|Lokal|Wojewodztwo|Powiat|Gmina
         /// </summary>
-        private async Task<VerificationResult> ProcessLineAsync(string line, AddressSearchService searchService)
+        private async Task<VerificationResult> ProcessLineAsync(Adres item, AddressSearchService searchService)
         {
             try
             {
-                var parts = line.Split('|');
 
-                if (parts.Length < 10)
-                {
-                    return new VerificationResult
-                    {
-                        Status = "BŁĄD",
-                        Message = $"Nieprawidłowa liczba kolumn: {parts.Length}",
-                        SourceLine = line,
-                        Method = "N/A"
-                    };
-                }
+                bool hasKod = !string.IsNullOrWhiteSpace(item.Kod);
+                bool hasUlica = !string.IsNullOrWhiteSpace(item.Ulica);
 
-                var id = parts[0].Trim();
-                var kraj = parts[1].Trim();
-                var kodPocztowy = parts[2].Trim();
-                var miasto = parts[3].Trim();
-                var ulica = parts[4].Trim();
-                var budynek = parts[5].Trim();
-                var lokal = parts[6].Trim();
-                var wojewodztwo = parts[7].Trim();
-                var powiat = parts[8].Trim();
-                var gmina = parts[9].Trim();
-
-                bool hasKod = !string.IsNullOrWhiteSpace(kodPocztowy);
-                bool hasUlica = !string.IsNullOrWhiteSpace(ulica);
-
-                if (string.IsNullOrWhiteSpace(miasto))
+                if (string.IsNullOrWhiteSpace(item.Miasto))
                 {
                     return new VerificationResult
                     {
                         Status = "PUSTY",
                         Message = "Brak nazwy miasta",
-                        SourceId = id,
-                        SourceKraj = kraj,
-                        SourceLine = line,
-                        SourceKodPocztowy = kodPocztowy,
-                        SourceMiasto = miasto,
-                        SourceUlica = ulica,
-                        SourceBudynek = budynek,
-                        SourceLokal = lokal,
-                        SourceWojewodztwo = wojewodztwo,
-                        SourcePowiat = powiat,
-                        SourceGmina = gmina,
+                        SourceId = item.Id,
+                        SourceKraj = item.Kraj,
+                        SourceItem = item,
+                        SourceKodPocztowy = item.Kod,
+                        SourceMiasto = item.Miasto,
+                        SourceUlica = item.Ulica,
+                        SourceBudynek = item.NrDomu,
+                        SourceLokal = item.NrLokalu,
+                        SourceWojewodztwo = item.Wojewodztwo,
+                        SourcePowiat = item.Powiat,
+                        SourceGmina = item.Gmina,
                         Method = "N/A"
                     };
                 }
 
                 var request = new AddressSearchRequest
                 {
-                    KodPocztowy = hasKod ? kodPocztowy : null,
-                    Miasto = miasto,
-                    Ulica = hasUlica ? ulica : null,
-                    NumerDomu = string.IsNullOrWhiteSpace(budynek) ? null : budynek,
-                    NumerMieszkania = string.IsNullOrWhiteSpace(lokal) ? null : lokal
+                    KodPocztowy = hasKod ? item.Kod : null,
+                    Miasto = item.Miasto,
+                    Ulica = hasUlica ? item.Ulica : null,
+                    NumerDomu = string.IsNullOrWhiteSpace(item.NrDomu) ? null : item.NrDomu,
+                    NumerMieszkania = string.IsNullOrWhiteSpace(item.NrLokalu) ? null : item.NrLokalu
                 };
 
                 var searchResult = await searchService.SearchAsync(request);
@@ -375,18 +347,19 @@ namespace TerytLoad.Pages
                 if (searchResult.Ulica != null)
                 {
                     string sPrefix;
-                    switch (searchResult.Ulica.Cecha) 
+                    switch (searchResult.Ulica.Cecha)
                     {
-                        case "rynek": 
+                        case "rynek":
                             sPrefix = "";
                             break;
-                        case "inne": 
+                        case "inne":
                             sPrefix = "";
                             break;
-                        default: 
+                        default:
                             sPrefix = searchResult.Ulica.Cecha ?? "";
                             break;
-                    };
+                    }
+                    ;
                     nowaUlica = $"{sPrefix} {searchResult.Ulica.Nazwa1}".Trim();
                 }
 
@@ -395,19 +368,19 @@ namespace TerytLoad.Pages
 
                 return new VerificationResult
                 {
-                    SourceId = id,
-                    SourceKraj = kraj,
+                    SourceId = item.Id,
+                    SourceKraj = item.Kraj,
                     Status = MapStatus(searchResult.Status),
                     Message = searchResult.Message ?? string.Empty,
-                    SourceLine = line,
-                    SourceKodPocztowy = kodPocztowy,
-                    SourceMiasto = miasto,
-                    SourceUlica = ulica,
-                    SourceBudynek = budynek,
-                    SourceLokal = lokal,
-                    SourceWojewodztwo = wojewodztwo,
-                    SourcePowiat = powiat,
-                    SourceGmina = gmina,
+                    SourceItem = item,
+                    SourceKodPocztowy = item.Kod,
+                    SourceMiasto = item.Miasto,
+                    SourceUlica = item.Ulica,
+                    SourceBudynek = item.NrDomu,
+                    SourceLokal = item.NrLokalu,
+                    SourceWojewodztwo = item.Wojewodztwo,
+                    SourcePowiat = item.Powiat,
+                    SourceGmina = item.Gmina,
                     // ✅ POPRAWIONE: Używaj Miejscowosc (tak jest w AddressSearchResult)
                     FoundKodPocztowy = searchResult.KodPocztowy?.Kod,
                     FoundMiasto = searchResult.Miasto?.Nazwa,
@@ -433,7 +406,7 @@ namespace TerytLoad.Pages
                 {
                     Status = "BŁĄD",
                     Message = $"Wyjątek: {ex.Message}",
-                    SourceLine = line,
+                    SourceItem = item,
                     Method = "N/A"
                 };
             }
@@ -455,7 +428,7 @@ namespace TerytLoad.Pages
         }
 
 
-       
+
 
         /// Zapisuje wyniki do plików: adresy_ok.txt, adresy_fuzzy.txt, adresy_bledy.txt, adresy_brak_numeru.txt, adresy_brakkodu.txt i adresy_puste.txt
         /// </summary>
@@ -530,7 +503,8 @@ namespace TerytLoad.Pages
                         if (result.Message != null && result.Message.Contains("Nie znaleziono kodu pocztowego dla podanych parametrów"))
                         {
                             brakKoduLines.Add($"{result.Message}/{sDiag}|{result.SourceId}|{ConcatenateAddress(adres)}");
-                        } else 
+                        }
+                        else
                         {
                             errorLines.Add($"{result.Message}/{sDiag}|{result.SourceId}|{ConcatenateAddress(adres)}");
                         }
@@ -554,7 +528,8 @@ namespace TerytLoad.Pages
             Console.WriteLine($"   • {emptyPath} ({emptyLines.Count - 1} rekordów)");
         }
 
-        private string ConcatenateAddress(Adres r) {
+        private string ConcatenateAddress(Adres r)
+        {
             return $"{r.Kraj}|{r.Kod}|{r.Miasto}|{r.Ulica}|{r.NrDomu}|{r.NrLokalu}|{r.Wojewodztwo}|{r.Powiat}|{r.Gmina}";
         }
 
@@ -584,7 +559,7 @@ namespace TerytLoad.Pages
         public string SourceId { get; set; } = string.Empty;
         public string Status { get; set; } = string.Empty;
         public string Message { get; set; } = string.Empty;
-        public string SourceLine { get; set; } = string.Empty;
+        public Adres? SourceItem { get; set; }
         public string Method { get; set; } = "Strict"; // ✅ NOWE: "Strict" lub "Fuzzy"
 
         // Dane źródłowe

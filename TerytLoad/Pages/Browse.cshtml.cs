@@ -3,7 +3,6 @@ using AddressLibrary.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
 using TerytLoad.Configuration;
 
 namespace TerytLoad.Pages
@@ -154,7 +153,7 @@ namespace TerytLoad.Pages
                         .ToListAsync();
 
                     List<int> ulicaIds = ulice
-                        .Where(u => u.Id != null)
+                        .Where(u => u.Id != -1)
                         .Select(u => u.Id)
                         .ToList();
 

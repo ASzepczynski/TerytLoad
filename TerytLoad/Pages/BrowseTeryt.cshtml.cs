@@ -72,8 +72,8 @@ namespace TerytLoad.Pages
             if (!string.IsNullOrEmpty(PowKod))
             {
                 var powiat = await context.TerytTerc
-                    .FirstOrDefaultAsync(t => t.Wojewodztwo == WojKod && 
-                                            t.Wojewodztwo + t.Powiat == PowKod && 
+                    .FirstOrDefaultAsync(t => t.Wojewodztwo == WojKod &&
+                                            t.Wojewodztwo + t.Powiat == PowKod &&
                                             t.Gmina == "");
 
                 if (powiat != null)

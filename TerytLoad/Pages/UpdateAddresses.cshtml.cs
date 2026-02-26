@@ -1,5 +1,4 @@
 ﻿using AddressLibrary;
-using AddressLibrary.Data;
 using AddressLibrary.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -58,7 +57,7 @@ namespace TerytLoad.Pages
 
                 // Wczytaj plik
                 var lines = await System.IO.File.ReadAllLinesAsync(filePath, Encoding.UTF8);
-                
+
                 if (lines.Length == 0)
                 {
                     Message = "❌ BŁĄD: Plik jest pusty";
@@ -67,10 +66,10 @@ namespace TerytLoad.Pages
 
                 // Sprawdź czy pierwsza linia to nagłówek
                 bool hasHeader = lines[0].Contains("ID|Kod|Miejsc");
-                var dataLines = hasHeader 
+                var dataLines = hasHeader
                     ? lines.Skip(1).Where(line => !string.IsNullOrWhiteSpace(line)).ToList()
                     : lines.Where(line => !string.IsNullOrWhiteSpace(line)).ToList();
-                
+
                 stats.TotalRecords = dataLines.Count;
 
                 messageBuilder.AppendLine($"📁 Plik: {filePath}");
@@ -86,7 +85,7 @@ namespace TerytLoad.Pages
                     .Select(a => a.Id)
                     .ToListAsync())
                     .ToHashSet();
-                
+
                 messageBuilder.AppendLine($"🔍 Znaleziono {existingIds.Count} istniejących rekordów w bazie");
 
                 var addressesToAdd = new List<Adres>();
@@ -96,13 +95,13 @@ namespace TerytLoad.Pages
                 foreach (var line in dataLines)
                 {
                     var parts = line.Split('|');
-                    
+
                     // ✅ DODANE: Usuń tekst w nawiasach kwadratowych z każdego elementu
                     for (int i = 0; i < parts.Length; i++)
                     {
                         parts[i] = RemoveSquareBrackets(parts[i]);
                     }
-                    
+
                     // ✅ ZMIENIONE: Teraz musi mieć 10 kolumn (dodano Kraj)
                     if (parts.Length != 10)
                     {
@@ -112,7 +111,7 @@ namespace TerytLoad.Pages
                     }
 
                     var id = parts[0].Trim();
-                    
+
                     // Pomiń jeśli ID jest puste
                     if (string.IsNullOrWhiteSpace(id))
                     {
@@ -163,25 +162,25 @@ namespace TerytLoad.Pages
                 for (int i = 0; i < addressesToAdd.Count; i += batchSize)
                 {
                     var batch = addressesToAdd.Skip(i).Take(batchSize).ToList();
-                    
+
                     try
                     {
                         await context.Adresy.AddRangeAsync(batch);
                         await context.SaveChangesAsync();
                         totalSaved += batch.Count;
-                        
+
                         messageBuilder.AppendLine($"   ✓ Zapisano {totalSaved}/{addressesToAdd.Count} rekordów");
                     }
                     catch (DbUpdateException dbEx)
                     {
                         // ✅ OBSŁUGA BŁĘDÓW: Sprawdź inner exception
                         var innerMsg = dbEx.InnerException?.Message ?? dbEx.Message;
-                        messageBuilder.AppendLine($"\n⚠️ BŁĄD podczas zapisu batch'a {i/batchSize + 1}:");
+                        messageBuilder.AppendLine($"\n⚠️ BŁĄD podczas zapisu batch'a {i / batchSize + 1}:");
                         messageBuilder.AppendLine($"   {innerMsg}");
-                        
+
                         // Spróbuj zapisać pojedynczo aby zidentyfikować problematyczne rekordy
                         messageBuilder.AppendLine($"   🔄 Próba zapisu pojedynczego...");
-                        
+
                         foreach (var addr in batch)
                         {
                             try
@@ -224,10 +223,10 @@ namespace TerytLoad.Pages
             }
             catch (Exception ex)
             {
-                var innerMsg = ex.InnerException != null 
+                var innerMsg = ex.InnerException != null
                     ? $"\n\nInner Exception:\n{ex.InnerException.Message}\n{ex.InnerException.StackTrace}"
                     : "";
-                
+
                 Message = $"❌ BŁĄD podczas importu adresów:{Environment.NewLine}{ex.Message}{innerMsg}{Environment.NewLine}{Environment.NewLine}Stack trace:{Environment.NewLine}{ex.StackTrace}";
             }
 
@@ -266,13 +265,13 @@ namespace TerytLoad.Pages
                 // ✅ POPRAWKA: Spróbuj różnych kodowań
                 string[] lines;
                 Encoding? detectedEncoding = null;
-                
+
                 try
                 {
                     // Najpierw spróbuj UTF-8
                     lines = await System.IO.File.ReadAllLinesAsync(filePath, Encoding.UTF8);
                     detectedEncoding = Encoding.UTF8;
-                    
+
                     // Sprawdź czy są znaki zastępowania (�) co może oznaczać złe kodowanie
                     if (lines.Any(line => line.Contains('�')))
                     {
@@ -289,9 +288,9 @@ namespace TerytLoad.Pages
                     detectedEncoding = Encoding.GetEncoding(1250);
                     messageBuilder.AppendLine($"⚠️ UTF-8 nie zadziałało, użyto kodowania Windows-1250");
                 }
-                
+
                 messageBuilder.AppendLine($"📄 Kodowanie pliku: {detectedEncoding?.EncodingName}");
-                
+
                 if (lines.Length < 2)
                 {
                     Message = "❌ BŁĄD: Plik jest pusty lub zawiera tylko nagłówek";
@@ -320,20 +319,20 @@ namespace TerytLoad.Pages
                 foreach (var line in dataLines)
                 {
                     var parts = line.Split('\t');
-                    
+
                     // ✅ DODANE: Usuń tekst w nawiasach kwadratowych z każdego elementu
                     for (int i = 0; i < parts.Length; i++)
                     {
                         parts[i] = RemoveSquareBrackets(parts[i]);
                     }
-                    
+
                     // ✅ ZMIENIONE: Teraz musi mieć co najmniej 10 kolumn
                     if (parts.Length < 10)
                     {
                         invalidLines.Add($"Kolumn: {parts.Length}, Linia: {line.Substring(0, Math.Min(100, line.Length))}");
                         continue;
                     }
-                    
+
                     var id = parts[0].Trim();
                     var newAddress = new Adres
                     {
@@ -389,24 +388,24 @@ namespace TerytLoad.Pages
                 if (addressesToUpdate.Any())
                 {
                     messageBuilder.AppendLine($"🔄 Aktualizuję {addressesToUpdate.Count} rekordów...");
-    
+
                     const int batchSize = 1000;
                     int updatedCount = 0;
-    
+
                     var updateIds = addressesToUpdate.Keys.ToList();
-    
+
                     for (int i = 0; i < updateIds.Count; i += batchSize)
                     {
                         var batchIds = updateIds.Skip(i).Take(batchSize).ToList();
-    
+
                         // Wyczyść przed wczytaniem nowego batcha
                         context.ChangeTracker.Clear();
-    
+
                         // Wczytaj z śledzeniem
                         var recordsToUpdate = await context.Adresy
                             .Where(a => batchIds.Contains(a.Id))
                             .ToListAsync();
-    
+
                         // Aktualizuj wartości
                         foreach (var record in recordsToUpdate)
                         {
@@ -423,13 +422,13 @@ namespace TerytLoad.Pages
                                 record.Gmina = newData.Gmina;
                             }
                         }
-    
+
                         await context.SaveChangesAsync();
                         updatedCount += recordsToUpdate.Count;
-    
+
                         messageBuilder.AppendLine($"   ✓ Zaktualizowano {updatedCount}/{addressesToUpdate.Count} rekordów");
                     }
-    
+
                     // Wyczyść po aktualizacji
                     context.ChangeTracker.Clear();
                 }
@@ -438,14 +437,14 @@ namespace TerytLoad.Pages
                 if (notFoundIds.Any())
                 {
                     messageBuilder.AppendLine($"\n⚠️ Nie znaleziono w bazie {notFoundIds.Count} rekordów:");
-    
+
                     // Pokaż pierwsze 20 nieznalezionych ID
                     var samplesToShow = Math.Min(20, notFoundIds.Count);
                     for (int i = 0; i < samplesToShow; i++)
                     {
                         messageBuilder.AppendLine($"   • ID: {notFoundIds[i]}");
                     }
-    
+
                     if (notFoundIds.Count > samplesToShow)
                     {
                         messageBuilder.AppendLine($"   ... i {notFoundIds.Count - samplesToShow} więcej");
@@ -467,10 +466,10 @@ namespace TerytLoad.Pages
             }
             catch (Exception ex)
             {
-                var innerMsg = ex.InnerException != null 
+                var innerMsg = ex.InnerException != null
                     ? $"\n\nInner Exception:\n{ex.InnerException.Message}"
                     : "";
-                
+
                 Message = $"❌ BŁĄD podczas aktualizacji adresów:{Environment.NewLine}{ex.Message}{innerMsg}{Environment.NewLine}{Environment.NewLine}Stack trace:{Environment.NewLine}{ex.StackTrace}";
             }
 
@@ -512,7 +511,7 @@ namespace TerytLoad.Pages
                 // Przygotuj ścieżkę do pliku
                 var fullPath = Path.Combine(_environment.ContentRootPath, outputFilePath);
                 var directory = Path.GetDirectoryName(fullPath);
-                
+
                 if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
                 {
                     Directory.CreateDirectory(directory);
@@ -541,7 +540,7 @@ namespace TerytLoad.Pages
                 // ✅ POPRAWKA: Użyj File.ReadAllLines zamiast ReadLinesAsync
                 var allLines = await System.IO.File.ReadAllLinesAsync(fullPath, Encoding.UTF8);
                 var sampleLines = allLines.Take(5);
-                
+
                 messageBuilder.AppendLine($"\n📄 Przykładowe linie z pliku:");
                 foreach (var line in sampleLines)
                 {
@@ -549,7 +548,7 @@ namespace TerytLoad.Pages
                 }
 
                 Message = messageBuilder.ToString();
-                
+
                 var stats = new UpdateStats
                 {
                     TotalRecords = polishAddresses.Count,
@@ -559,10 +558,10 @@ namespace TerytLoad.Pages
             }
             catch (Exception ex)
             {
-                var innerMsg = ex.InnerException != null 
+                var innerMsg = ex.InnerException != null
                     ? $"\n\nInner Exception:\n{ex.InnerException.Message}"
                     : "";
-                
+
                 Message = $"❌ BŁĄD podczas eksportu adresów:{Environment.NewLine}{ex.Message}{innerMsg}{Environment.NewLine}{Environment.NewLine}Stack trace:{Environment.NewLine}{ex.StackTrace}";
             }
 

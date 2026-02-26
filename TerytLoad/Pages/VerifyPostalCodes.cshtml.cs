@@ -31,7 +31,7 @@ namespace TerytLoad.Pages
         {
         }
 
-        public async Task<IActionResult> OnPostAsync()
+        public IActionResult OnPost()
         {
             Console.WriteLine("[VerifyPostalCodes] ========== ROZPOCZĘCIE WERYFIKACJI ==========");
 

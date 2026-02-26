@@ -14,7 +14,7 @@ namespace TerytLoad.Pages
         private readonly IWebHostEnvironment _environment;
 
         public LoadPostalCodesModel(
-            IHubContext<ProgressHub> hubContext, 
+            IHubContext<ProgressHub> hubContext,
             IConfiguration configuration,
             IWebHostEnvironment environment)
         {
@@ -56,18 +56,18 @@ namespace TerytLoad.Pages
                     Console.WriteLine($"[LoadPostalCodes] Ścieżka logu: {logFilePath}");
 
                     // Wyślij ścieżkę logu do przeglądarki
-                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100, 
+                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100,
                         $"Rozpoczynam ładowanie kodów pocztowych...{Environment.NewLine}{Environment.NewLine}📄 Log zapisywany do:{Environment.NewLine}{logFilePath}");
 
                     // ZMIENIONO: Używamy LoadProgressInfo bezpośrednio (jest w namespace)
                     var progress = new Progress<LoadProgressInfo>(async info =>
                     {
-                        await _hubContext.Clients.All.SendAsync("ReceiveProgress", 
-                            "postal-codes", 
-                            info.ProcessedCount, 
-                            info.TotalCount, 
+                        await _hubContext.Clients.All.SendAsync("ReceiveProgress",
+                            "postal-codes",
+                            info.ProcessedCount,
+                            info.TotalCount,
                             info.CurrentOperation);
-                        
+
                         Console.WriteLine($"[{info.PercentageComplete:F1}%] {info.CurrentOperation}");
                     });
 
@@ -86,7 +86,7 @@ namespace TerytLoad.Pages
 
                     await loader.LoadAsync(pnaData, progress);
                 }
-                
+
                 Console.WriteLine("Ładowanie zakończone, sprawdzam log...");
 
                 await Task.Delay(1000);
@@ -95,21 +95,21 @@ namespace TerytLoad.Pages
                 {
                     Console.WriteLine($"✓ Log istnieje: {logFilePath}");
                     var logContent = await System.IO.File.ReadAllTextAsync(logFilePath);
-                    
+
                     Console.WriteLine($"Długość logu: {logContent.Length} znaków");
 
                     var summaryStart = logContent.IndexOf("=== Podsumowanie ===");
                     if (summaryStart >= 0)
                     {
                         var summary = logContent.Substring(summaryStart);
-                        await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100, 
+                        await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100,
                             $"✓ Zakończono ładowanie kodów pocztowych{Environment.NewLine}{Environment.NewLine}📄 Pełny log zapisany w:{Environment.NewLine}{logFilePath}{Environment.NewLine}{Environment.NewLine}{summary}");
-                        
+
                         Console.WriteLine("Podsumowanie wysłane przez SignalR");
                     }
                     else
                     {
-                        await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100, 
+                        await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100,
                             $"✓ Zakończono ładowanie kodów pocztowych{Environment.NewLine}{Environment.NewLine}📄 Log zapisany w:{Environment.NewLine}{logFilePath}");
                         Console.WriteLine("Brak sekcji podsumowania w logu");
                     }
@@ -119,11 +119,11 @@ namespace TerytLoad.Pages
                 else
                 {
                     Console.WriteLine($"✗ Log NIE istnieje: {logFilePath}");
-                    
+
                     var logsDir = Path.GetDirectoryName(logFilePath);
                     Console.WriteLine($"Katalog logów: {logsDir}");
                     Console.WriteLine($"Katalog istnieje: {Directory.Exists(logsDir)}");
-                    
+
                     if (Directory.Exists(logsDir))
                     {
                         Console.WriteLine("Zawartość katalogu Logs:");
@@ -133,14 +133,14 @@ namespace TerytLoad.Pages
                         }
                     }
 
-                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100, 
+                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100,
                         $"✓ Zakończono ładowanie kodów pocztowych{Environment.NewLine}{Environment.NewLine}⚠️ Log nie został zapisany");
                     Message = $"✓ Proces zakończony pomyślnie!{Environment.NewLine}{Environment.NewLine}Oczekiwana ścieżka logu: {logFilePath}{Environment.NewLine}(Log nie został znaleziony - sprawdź logi konsoli)";
                 }
 
                 IsProcessing = false;
                 ShowResults = true;
-                
+
                 return Page();
             }
             catch (Exception ex)

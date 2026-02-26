@@ -55,7 +55,7 @@ namespace TerytLoad.Pages
                 messageBuilder.AppendLine($"✓ Gmin: {gmCount}");
                 messageBuilder.AppendLine($"✓ Miejscowości: {mjsCount}");
                 messageBuilder.AppendLine($"✓ Ulic: {ulCount}{Environment.NewLine}");
-                
+
                 messageBuilder.AppendLine($"📄 Log kontrolny zapisany{Environment.NewLine}");
                 messageBuilder.AppendLine($"⚠️ Aby załadować kody pocztowe, przejdź do strony 'Kody pocztowe'");
 
@@ -69,7 +69,7 @@ namespace TerytLoad.Pages
                 messageBuilder.AppendLine();
                 messageBuilder.AppendLine("Stack trace:");
                 messageBuilder.AppendLine(ex.StackTrace);
-                
+
                 // DODANO: Obsługa inner exception
                 if (ex.InnerException != null)
                 {
@@ -79,7 +79,7 @@ namespace TerytLoad.Pages
                     messageBuilder.AppendLine();
                     messageBuilder.AppendLine("Inner Stack trace:");
                     messageBuilder.AppendLine(ex.InnerException.StackTrace);
-                    
+
                     // Jeśli jest jeszcze głębsza inner exception
                     if (ex.InnerException.InnerException != null)
                     {
@@ -88,7 +88,7 @@ namespace TerytLoad.Pages
                         messageBuilder.AppendLine(ex.InnerException.InnerException.Message);
                     }
                 }
-                
+
                 Message = messageBuilder.ToString();
             }
 

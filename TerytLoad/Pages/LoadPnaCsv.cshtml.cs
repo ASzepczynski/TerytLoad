@@ -3,10 +3,9 @@ using AddressLibrary.Models;
 using AddressLibrary.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using TerytLoad.Configuration;
-using System.IO;
-using System.Text;
 using System.Collections.Concurrent;
+using System.Text;
+using TerytLoad.Configuration;
 
 namespace TerytLoad.Pages
 {
@@ -31,7 +30,7 @@ namespace TerytLoad.Pages
         public async Task<IActionResult> OnPostLoadCsvAsync()
         {
             var messageBuilder = new StringBuilder();
-            
+
             try
             {
                 var connectionString = _configuration.GetConnectionString("AddressDatabase")
@@ -77,7 +76,7 @@ namespace TerytLoad.Pages
                 // Załaduj dane z CSV
                 messageBuilder.AppendLine("⏳ Ładowanie danych z pliku CSV (kodowanie CP-1250)...");
                 messageBuilder.AppendLine();
-                
+
                 var context = database.GetContext();
                 var loader = new PnaCsvLoader(context, projectPath);
 
@@ -121,7 +120,7 @@ namespace TerytLoad.Pages
                 messageBuilder.AppendLine();
                 messageBuilder.AppendLine("Stack trace:");
                 messageBuilder.AppendLine(ex.StackTrace);
-                
+
                 if (ex.InnerException != null)
                 {
                     messageBuilder.AppendLine();

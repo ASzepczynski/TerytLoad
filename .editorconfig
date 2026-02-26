@@ -1,0 +1,20 @@
+root = true
+
+[*.cs]
+# IDE0051: Usuñ nieu¿ywan¹ prywatn¹ sk³adow¹
+dotnet_diagnostic.IDE0051.severity = warning
+
+# IDE0052: Usuñ nieodczytan¹ prywatn¹ sk³adow¹
+dotnet_diagnostic.IDE0052.severity = warning
+
+# IDE0060: Usuñ nieu¿ywany parametr
+dotnet_diagnostic.IDE0060.severity = warning
+
+# CA1822: Oznacz sk³adowe jako statyczne
+dotnet_diagnostic.CA1822.severity = suggestion
+
+# IDE0079: Usuñ niepotrzebne pominiêcie
+dotnet_diagnostic.IDE0079.severity = warning
+
+# Nieu¿ywane using
+dotnet_diagnostic.IDE0005.severity = warning
