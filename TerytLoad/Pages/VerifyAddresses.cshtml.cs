@@ -172,8 +172,8 @@ namespace TerytLoad.Pages
 
                 Console.WriteLine($"[VerifyAddresses] ========== ROZPOCZĘCIE PĘTLI PRZETWARZANIA ({DateTime.Now:HH:mm:ss.fff}) ==========");
 
-                               foreach (var item in dataLines.Where(x=>x.Ulica!=null && x.Ulica.Contains("Krasińskiego") && x.Miasto=="Toruń"))
-                // foreach (var item in dataLines)
+                //               foreach (var item in dataLines.Where(x=>x.Ulica!=null && x.Ulica.Contains("Krasińskiego") && x.Miasto=="Toruń"))
+                 foreach (var item in dataLines)
                 {
                     processedCount++;
 
