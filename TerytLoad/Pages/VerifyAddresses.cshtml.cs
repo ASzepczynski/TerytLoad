@@ -30,9 +30,12 @@ namespace TerytLoad.Pages
             _hubContext = hubContext;
         }
 
+        public static string DataDirectory { get; set; } = "Appdata/Address";
+
         [BindProperty]
         [Display(Name = "Ścieżka do pliku źródłowego")]
-        public string InputFilePath { get; set; } = "AppData/Address/adresy.txt";
+        public string InputFilePath { get; set; } = "adresy.txt";
+        public string ErrorFilePath { get; set; } = "adresy_inp.txt";
 
         public string? Message { get; set; }
 
@@ -51,7 +54,9 @@ namespace TerytLoad.Pages
                 return Page();
             }
 
-            var appDataPath = System.IO.Path.Combine(_env.ContentRootPath, InputFilePath);
+            var outputFolder= System.IO.Path.Combine(_env.ContentRootPath, DataDirectory);
+
+            var appDataPath = System.IO.Path.Combine(outputFolder, InputFilePath);
             Console.WriteLine($"[VerifyAddresses] Pełna ścieżka: {appDataPath}");
 
             if (!System.IO.File.Exists(appDataPath))
@@ -64,15 +69,18 @@ namespace TerytLoad.Pages
             Console.WriteLine($"[VerifyAddresses] ✓ Plik znaleziony");
 
             // Uruchom przetwarzanie w tle
-            _ = Task.Run(async () => await ProcessVerificationAsync(appDataPath));
+            _ = Task.Run(async () => await ProcessVerificationAsync(outputFolder));
 
             Message = $"🔄 Weryfikacja rozpoczęta w tle. Limit przetwarzania: {MAX_RECORDS_TO_PROCESS:N0} rekordów.";
 
             return Page();
         }
 
-        private async Task ProcessVerificationAsync(string appDataPath)
+        private async Task ProcessVerificationAsync(string appDataFolder)
         {
+            string adresyFilePath = System.IO.Path.Combine(appDataFolder, InputFilePath);
+            string bladFilePath = System.IO.Path.Combine(appDataFolder, ErrorFilePath);
+
             try
             {
                 Console.WriteLine("[ProcessVerification] ========== START ==========");
@@ -90,12 +98,10 @@ namespace TerytLoad.Pages
                 using var searchService = new AddressSearchService(context, _env.ContentRootPath);
                 Console.WriteLine($"[ProcessVerification] ✓ AddressSearchService utworzony");
 
-                var outputDirectory = System.IO.Path.GetDirectoryName(appDataPath)!;
-
                 Console.WriteLine($"[ProcessVerification] Wysyłam komunikat SignalR...");
                 await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                     "verify-addresses", 0, 100,
-                    $"🔄 Rozpoczęto przetwarzanie pliku: {System.IO.Path.GetFileName(appDataPath)}{Environment.NewLine}" +
+                    $"🔄 Rozpoczęto przetwarzanie pliku: {InputFilePath}{Environment.NewLine}" +
                     $"⚠️ Limit: {MAX_RECORDS_TO_PROCESS:N0} rekordów{Environment.NewLine}");
 
                 Console.WriteLine($"[ProcessVerification] ✓ Komunikat SignalR wysłany");
@@ -123,7 +129,14 @@ namespace TerytLoad.Pages
 
                 // Wczytaj dane z pliku
                 var readStartTime = DateTime.Now;
-                var dataLines = await GenericFileLoader.LoadFromFileAsync<Adres>(appDataPath);
+                //var dataLines0 = await GenericFileLoader.LoadFromFileAsync<Adres>(adresyFilePath);
+                var dataLines0 = await GenericFileLoader.LoadFromFileWithHeaderMappingAsync<Adres>(adresyFilePath);
+                var errorLines = await GenericFileLoader.LoadFromFileAsync<Adres>(bladFilePath);
+
+                var errorIds = new HashSet<string>(errorLines.Select(x => x.Id));
+                var dataLines = dataLines0.Where(x => errorIds.Contains(x.Id)).ToList();
+                // var dataLines=dataLines0;
+
                 var readTime = (DateTime.Now - readStartTime).TotalMilliseconds;
 
                 Console.WriteLine($"[VerifyAddresses] ✓ Wczytano plik w {readTime:F0}ms");
@@ -175,6 +188,8 @@ namespace TerytLoad.Pages
                 //               foreach (var item in dataLines.Where(x=>x.Ulica!=null && x.Ulica.Contains("Krasińskiego") && x.Miasto=="Toruń"))
                  foreach (var item in dataLines)
                 {
+                    var lineStartTime = DateTime.Now;
+
                     processedCount++;
 
                     var result = await ProcessLineAsync(item, searchService);
@@ -224,6 +239,13 @@ namespace TerytLoad.Pages
                             totalLines,
                             progressMsg);
                     }
+
+                    var lineTime = (DateTime.Now - lineStartTime).TotalMilliseconds;
+                    if (lineTime > 100)
+                    {
+                        var addressInfo = $"{item.Miasto}, {item.Ulica} {item.NrDomu}".Trim();
+                        Console.WriteLine($"⚠️ SLOW [{lineTime:F0}ms] ID: {item.Id} | {addressInfo} | Status: {result.Status}");
+                    }
                 }
 
                 var processingTime = (DateTime.Now - processingStartTime).TotalSeconds;
@@ -238,7 +260,7 @@ namespace TerytLoad.Pages
                     $"💾 Zapisywanie {results.Count:N0} wyników do pliku...");
 
                 var saveStartTime = DateTime.Now;
-                await SaveResultsAsync(outputDirectory, results);
+                await SaveResultsAsync(appDataFolder, results);
                 var saveTime = (DateTime.Now - saveStartTime).TotalSeconds;
 
                 var totalTime = (DateTime.Now - totalStartTime).TotalSeconds;
@@ -441,7 +463,7 @@ namespace TerytLoad.Pages
             var brakKoduPath = System.IO.Path.Combine(outputDirectory, "adresy_brakkodu.txt");
             var emptyPath = System.IO.Path.Combine(outputDirectory, "adresy_puste.txt");
 
-            var everyLine = "ID|Kraj|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina";
+            var everyLine = "ID|Kraj|Kod|Miasto|Ulica|NrDomu|NrLokalu|Wojewodztwo|Powiat|Gmina";
 
             var okLines = new List<string> { everyLine };
             var fuzzyLines = new List<string> { everyLine };

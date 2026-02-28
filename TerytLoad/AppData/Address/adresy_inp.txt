@@ -1,4 +1,4 @@
-﻿Komunikat|ID|Kraj|Kod|Miasto|Ulica|NrDomu|NrLokalu|Wojewodztwo|Powiat|Gmina
+﻿Komunikat|ID|Kraj|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
 Błędna nazwa ulicy '-'/'-'/Szukana ulica: '-',Znormalizowana: '-',Ulica NIE istnieje w bazie TERYT|A1174705|PL||CZUŁÓW|-|129||ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
 Błędna nazwa ulicy '-'/'-'/Szukana ulica: '-',Znormalizowana: '-',Ulica NIE istnieje w bazie TERYT|A1281648|PL|32-720|NOWY WIŚNICZ 521|-|||||
 Błędna nazwa ulicy '-'/'-'/Szukana ulica: '-',Znormalizowana: '-',Ulica NIE istnieje w bazie TERYT|A1299447|PL|32-556|GROJEC 130|-|||||
@@ -1889,403 +1889,403 @@ Kod pocztowy 99-232 nie pasuje do żadnego miasta o nazwie 'Grabinka'/Szukane mi
 Kod pocztowy 99-232 nie pasuje do żadnego miasta o nazwie 'Grabinka'/Szukane miasto: Grabinka,Znaleziono 3 miast o tej nazwie,Kod pocztowy: 99-232,Nie można jednoznacznie określić miasta|A1917703|PL|99-232|Grabinka||18||||
 Kod pocztowy 99-311 nie pasuje do żadnego miasta o nazwie 'BEDLNO'/Szukane miasto: BEDLNO,Znaleziono 4 miast o tej nazwie,Kod pocztowy: 99-311,Nie można jednoznacznie określić miasta|A1809278|PL|99-311|BEDLNO|Bedlno|26A||||
 Kod pocztowy 99-400 nie pasuje do żadnego miasta o nazwie 'KATARZYNÓW'/Szukane miasto: KATARZYNÓW,Znaleziono 9 miast o tej nazwie,Kod pocztowy: 99-400,Nie można jednoznacznie określić miasta|A1616237|PL|99-400|KATARZYNÓW||80||||
-Nie znaleziono kodów pocztowych dla Bąków/Orzeszkowej/|A1736749|PL|37-464|Bąków|Orzeszkowej|90||||
-Nie znaleziono kodów pocztowych dla Bąków/Zacisze/|A1829165|PL|37-464|Bąków|Zacisze|17||||
-Nie znaleziono kodów pocztowych dla BĘDZIN/mjr. Bolesława Zagórnego/|A1378193|PL|42-506|BĘDZIN|mjr. Bolesława Zagórnego|18||||
-Nie znaleziono kodów pocztowych dla Będzin/ul. Zagórnego/|A1965084|PL|42-506|Będzin|ul. Zagórnego|21|20|||
-Nie znaleziono kodów pocztowych dla Białystok/eja Józefa Piłsudskiego/|A1642135|PL|15-443|Białystok|eja Józefa Piłsudskiego|5|29|||
-Nie znaleziono kodów pocztowych dla Białystok/Stanisława Moniuszki/|A1896573|PL|15-192|Białystok|Stanisława Moniuszki|42||||
-Nie znaleziono kodów pocztowych dla Białystok/ul. Stanisława Moniuszki/|A1960853|PL|15-196|Białystok|ul. Stanisława Moniuszki|80||||
-Nie znaleziono kodów pocztowych dla BIAŁYSTOK/WĘGIERSKA/|A1670565|PL|15-616|BIAŁYSTOK|WĘGIERSKA|6||PODLASKIE|BIAŁYSTOK|BIAŁYSTOK
-Nie znaleziono kodów pocztowych dla BIELOSKO- BIAŁA/1 Dywizji Pancernej/|A1865902|PL|43-300|BIELOSKO- BIAŁA|1 Dywizji Pancernej|45|206|||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/1 Dywizji Pancernej/|A1890864|PL|43-300|BIELSKO BIAŁA|1 Dywizji Pancernej|45||||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/1 Dywizji Pancernej/|A1886638|PL|43-300|BIELSKO-BIAŁA|1 Dywizji Pancernej|45||||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Balladyny/|A1675154|PL|43-382|BIELSKO-BIAŁA|Balladyny|12||||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Bartnicza/|A1710455|PL|43-300|Bielsko-Biała|Bartnicza|17|6|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Bartnicza/|A1415130|PL|43-300|BIELSKO-BIAŁA|Bartnicza|13||||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Filomatów/|A1469512|PL|43-300|BIELSKO-BIAŁA|Filomatów|11||||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Filomatów/|A1625850|PL|43-300|BIELSKO-BIAŁA|Filomatów|5|1|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/I Dywizji Pancernej/|A1679080|PL|43-300|BIELSKO-BIAŁA|I Dywizji Pancernej|45||||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Krzywa/|A1660845|PL|43-382|Bielsko-Biała|Krzywa|36||||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Przesmyk/|A1733869|PL|43-382|Bielsko-Biała|Przesmyk|12||ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Roztoki/|A1756495|PL|43-300|Bielsko-Biała|Roztoki|1|16|||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Roztoki/|A1831294|PL|43-300|Bielsko-Biała|Roztoki|3|70|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Roztoki/|A1368530|PL|43-316|BIELSKO-BIAŁA|Roztoki|3|120|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Roztoki/|A1436694|PL|43-316|BIELSKO-BIAŁA|Roztoki|3|42|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Rudawka/|A21372949|PL|43-300|BIELSKO-BIAŁA|Rudawka|80||||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/ul. Roztoki/|A1990879|PL|43-316|Bielsko-Biała|ul. Roztoki|7|37|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Ul. Roztoki/|A1391712|PL|43-316|BIELSKO-BIAŁA|Ul. Roztoki|1|19|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Ul. Roztoki/|A1393894|PL|43-316|BIELSKO-BIAŁA|Ul. Roztoki|3|94|||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/ul.Bartnicza/|A1990494|PL|43-300|Bielsko-Biała|ul.Bartnicza|11|25|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/ul.Krzywa/|A1726287|PL|43-300|BIELSKO-BIAŁA|ul.Krzywa 36|||||
-Nie znaleziono kodów pocztowych dla Brzezinka/Brzozowa/|A1691391|PL|32-610|Brzezinka|Brzozowa|36||||
-Nie znaleziono kodów pocztowych dla BRZEZINKA/Męczeństwa Narodów/|A1350054|PL|32-610|BRZEZINKA|Męczeństwa Narodów|8||||
-Nie znaleziono kodów pocztowych dla BYDGOSZCZ/16 Pułku Ułanów Wielkopolskich/|A1993995|PL|85-319|BYDGOSZCZ|16 Pułku Ułanów Wielkopolskich|14||||
-Nie znaleziono kodów pocztowych dla CHORZÓW/Aleja Muzyków/|A1646787|PL|41-500|CHORZÓW|Aleja Muzyków 1|||||
-Nie znaleziono kodów pocztowych dla CHORZÓW/Kroczymiech/|A1362261|PL|32-500|CHORZÓW|Kroczymiech|2||||
-Nie znaleziono kodów pocztowych dla CHORZÓW/Marii Curie Skłodowskiej/|A1763084|PL|41-503|CHORZÓW|Marii Curie Skłodowskiej|30||||
-Nie znaleziono kodów pocztowych dla CHORZÓW/Marii Skłodowskie Curie/|A1871568|PL|41-503|CHORZÓW|Marii Skłodowskie Curie|30||||
-Nie znaleziono kodów pocztowych dla CHYLICZKI/Budowlana/|A1787519|PL|05-500|CHYLICZKI|Budowlana|1||||
-Nie znaleziono kodów pocztowych dla CHYLICZKI/Łamana/|A1751085|PL|05-510|CHYLICZKI|Łamana|1||||
-Nie znaleziono kodów pocztowych dla CHYLICZKI/Orzechowa/|A1815108|PL|05-500|CHYLICZKI|Orzechowa|1||||
-Nie znaleziono kodów pocztowych dla CHYLICZKI/Wschodnia/|A1702373|PL|05-510|CHYLICZKI|Wschodnia|1||||
-Nie znaleziono kodów pocztowych dla CIECHANÓW/ul.Rynek/|A1477166|PL|06-400|CIECHANÓW|ul.Rynek 8|||||
-Nie znaleziono kodów pocztowych dla Częstochowa/Tokarzewskiego-Karaszewicza/|A1709374|PL|42-200|Częstochowa|Tokarzewskiego-Karaszewicza|23||||
-Nie znaleziono kodów pocztowych dla Częstochowa/Tokarzewskiego-Karaszewicza/|A1804883|PL|42-221|Częstochowa|Tokarzewskiego-Karaszewicza|10||ŚLĄSKIE|CZĘSTOCHOWA|CZĘSTOCHOWA
-Nie znaleziono kodów pocztowych dla CZĘSTOCHOWA/TOKARZEWSKIEGO-KARASZEWICZA/|A1888625|PL|42-200|CZĘSTOCHOWA|TOKARZEWSKIEGO-KARASZEWICZA|27||ŚLĄSKIE|CZĘSTOCHOWA|CZĘSTOCHOWA
-Nie znaleziono kodów pocztowych dla CZĘSTOCHOWA/Ul. Tokarzewskiego-Karaszewicz/|A1391103|PL|42-221|CZĘSTOCHOWA|Ul. Tokarzewskiego-Karaszewicz|17||||
-Nie znaleziono kodów pocztowych dla CZĘSTOCHOWA/ul. zMickiewicza/|A1376591|PL|42-200|CZĘSTOCHOWA|ul. zMickiewicza|16|11|||
-Nie znaleziono kodów pocztowych dla Dąbrowa Górnicza/Buczka/|A1643139|PL|41-303|Dąbrowa Górnicza|Buczka|3C|6|||
-Nie znaleziono kodów pocztowych dla DĄBROWA GÓRNICZA/Buczka/|A1715833|PL|41-300|DĄBROWA GÓRNICZA|Buczka|3c|6|||
-Nie znaleziono kodów pocztowych dla DĄBROWA GÓRNICZA/Jana Majewskiego/|A1696191|PL||DĄBROWA GÓRNICZA|Jana Majewskiego|339|17|||
-Nie znaleziono kodów pocztowych dla DĄBROWA GÓRNICZA/Toruńska/|A1639874|PL|41-303|DĄBROWA GÓRNICZA|Toruńska|7||||
-Nie znaleziono kodów pocztowych dla DĄBROWA GÓRNICZA/Toruńska/|A1865904|PL|41-300|DĄBROWA GÓRNICZA|Toruńska|7||||
-Nie znaleziono kodów pocztowych dla GDAŃSK/Pl. Władysława Bartoszewskiego/|A1905709|PL|80-862|GDAŃSK|Pl. Władysława Bartoszewskiego|1||||
-Nie znaleziono kodów pocztowych dla GDYNIA/Rondo Bitwy pod Oliwą/|A1651706|PL|81-103|GDYNIA|Rondo Bitwy pod Oliwą|1||||
-Nie znaleziono kodów pocztowych dla GDYNIA/Rondo Bitwy pod Oliwą/|A1652411|PL|81-103|GDYNIA|Rondo Bitwy pod Oliwą|1||||
-Nie znaleziono kodów pocztowych dla GLIWICE/Alberta Einstaina/|A1822051|PL|44-109|GLIWICE|Alberta Einstaina|36||||
-Nie znaleziono kodów pocztowych dla GLIWICE/Elsnera/|A1834217|PL|44-105|GLIWICE|Elsnera|6||||
-Nie znaleziono kodów pocztowych dla Gliwice/Józefa Elsnera/|A1874296|PL|44-105|Gliwice|Józefa Elsnera|41E||||
-Nie znaleziono kodów pocztowych dla GLIWICE/Pl. Piłsudskiego/|A1946611|PL|44-100|GLIWICE|Pl. Piłsudskiego|6|3|||
-Nie znaleziono kodów pocztowych dla GLIWICE/ul. Usługowa/|A1390931|PL|44-100|GLIWICE|ul. Usługowa|20||ŚLĄSKIE||
-Nie znaleziono kodów pocztowych dla Gliwice/ul.Elsnera/|A1941643|PL|44-105|Gliwice|ul.Elsnera|40||||
-Nie znaleziono kodów pocztowych dla GLIWICE/ul.Piłsudskiego/|A1475113|PL|44-106|GLIWICE|ul.Piłsudskiego 9|||||
-Nie znaleziono kodów pocztowych dla GŁOGÓW/Powstańców/|A1248045|PL|67-200|GŁOGÓW|Powstańców|13|2|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
-Nie znaleziono kodów pocztowych dla GŁOGÓW/Powstańców/|A1266190|PL|67-200|GŁOGÓW|Powstańców|13|2|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
-Nie znaleziono kodów pocztowych dla GŁOGÓW/Powstańców/|A1368237|PL|67-200|GŁOGÓW|Powstańców|07-mar||DOLNOŚLĄSKIE||
-Nie znaleziono kodów pocztowych dla GŁOGÓW/Powstańców/|A1400690|PL|67-200|GŁOGÓW|Powstańców|9|5|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
-Nie znaleziono kodów pocztowych dla GORZELNIA/Podlaska/|A1879996|PL|42-290|GORZELNIA|Podlaska|12||||
-Nie znaleziono kodów pocztowych dla GORZELNIA/Wielkoborska/|A1734493|PL|42-290|GORZELNIA|Wielkoborska|4||||
-Nie znaleziono kodów pocztowych dla Gorzeń Górny/Zakopiańska/|ZA1782500|PL|34-100|Gorzeń Górny|Zakopiańska|194||MAŁOPOLSKIE|WADOWICKI|WADOWICE
-Nie znaleziono kodów pocztowych dla Górka-Zabłocie/kościelna/|A1709446|PL|22-530|Górka-Zabłocie|kościelna|7||||
-Nie znaleziono kodów pocztowych dla Iława/Dobrawy/|A1873495|PL|14-200|Iława|Dobrawy|3||||
-Nie znaleziono kodów pocztowych dla IŁAWA/Sikorskiego/|A1909004|PL|14-200|IŁAWA|Sikorskiego|45||||
-Nie znaleziono kodów pocztowych dla IŁAWA/SIKORSKIEGO/|A1789615|PL|14-200|IŁAWA|SIKORSKIEGO|41||WARMIŃSKO-MAZURSKIE|IŁAWSKI|IŁAWA
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Karola Miarki/|A1677015|PL|44-330|JASTRZĘBIE ZDRÓJ|Karola Miarki|21||||
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Karola Miarki/|A1707719|PL|44-330|Jastrzębie-Zdrój|Karola Miarki|1|46|||
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Królowej Jadwigi/|A1664717|PL|44-330|Jastrzębie Zdrój|Królowej Jadwigi|6||||
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Okrzei/|A1682251|PL|44-337|Jastrzębie Zdrój|Okrzei|28||||
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Okrzei/|A1682361|PL|44-337|Jastrzębie-Zdrój|Okrzei|12C||||
-Nie znaleziono kodów pocztowych dla JASTRZĘBIE-ZDRÓJ/ul. Okrzei/|A1949872|PL|44-337|JASTRZĘBIE-ZDRÓJ|ul. Okrzei|12D||ŚLĄSKIE||
-Nie znaleziono kodów pocztowych dla JASTRZĘBIE/Ul. Zielona/|A1416164|PL|44-335|JASTRZĘBIE|Ul. Zielona|39|34|||
-Nie znaleziono kodów pocztowych dla JAWORZNO/DOBREJ ENERGII/|A21869139|PL|43-603|JAWORZNO|DOBREJ ENERGII|11||||
-Nie znaleziono kodów pocztowych dla JÓZEFÓW/M.C.Skłodowskiej/|A1655310|PL|05-420|JÓZEFÓW|M.C.Skłodowskiej|33||||
-Nie znaleziono kodów pocztowych dla JÓZEFÓW/Rozkoszna/|A1652889|PL|05-410|JÓZEFÓW|Rozkoszna|1||||
-Nie znaleziono kodów pocztowych dla JÓZEFÓW/ul.Skłodowskiej/|A1399718|PL|05-420|JÓZEFÓW|ul.Skłodowskiej|22a||||
-Nie znaleziono kodów pocztowych dla JÓZEFÓW/Ziarnista/|A11729768|PL|05-410|JÓZEFÓW|Ziarnista|22||||
-Nie znaleziono kodów pocztowych dla KATOWICE/Al. Rodzieńskiego/|A1338149|PL|40-203|KATOWICE|Al. Rodzieńskiego|190B||||
-Nie znaleziono kodów pocztowych dla KATOWICE/al.Rożdżeńskiego/|A1300008|PL|40-203|KATOWICE|al.Rożdżeńskiego|188||||
-Nie znaleziono kodów pocztowych dla Katowice/Jasieńskiego/|A1662327|PL|40-586|Katowice|Jasieńskiego|9||||
-Nie znaleziono kodów pocztowych dla KATOWICE/Raździeńskiego/|A1287342|PL|40-203|KATOWICE|Raździeńskiego|96|135|ŚLĄSKIE|KATOWICE|KATOWICE
-Nie znaleziono kodów pocztowych dla KATOWICE/Rożdziańskiego/|A1285348|PL|40-203|KATOWICE|Rożdziańskiego|188b||||
-Nie znaleziono kodów pocztowych dla KIELCE/Okrana/|A1270090|PL|25-548|KIELCE|Okrana|44|5|||
-Nie znaleziono kodów pocztowych dla KIELCE/Okrana/|A1932732|PL|25-548|KIELCE|Okrana|34|30|||
-Nie znaleziono kodów pocztowych dla KIELCE/Plac Zamkowy/|A1645714|PL|25-010|KIELCE|Plac Zamkowy|1||||
-Nie znaleziono kodów pocztowych dla KIELCE/Seminaryjna/|A1406050|PL|25-372|KIELCE|Seminaryjna|11|6|||
-Nie znaleziono kodów pocztowych dla KIELCE/Seminaryjna/|A1722926|PL|25-372|KIELCE|Seminaryjna|18|36|||
-Nie znaleziono kodów pocztowych dla KIELCE/Zakładowa/|A1280549|PL|25-672|KIELCE|Zakładowa|1||||
-Nie znaleziono kodów pocztowych dla KIELCE/Zakładowa/|A1649524|PL|25-670|KIELCE|Zakładowa|4||||
-Nie znaleziono kodów pocztowych dla Knurów/Chabrowa/|A1804240|PL|44-190|Knurów|Chabrowa|5||||
-Nie znaleziono kodów pocztowych dla KONSTANCIN JEZIORNA/Pułaskiego/|A1280073|PL|05-510|KONSTANCIN JEZIORNA|Pułaskiego|2||||
-Nie znaleziono kodów pocztowych dla KONSTANCIN-JEZIORNA/Kazimierza Pułaskiego/|A1870183|PL|05-510|KONSTANCIN-JEZIORNA|Kazimierza Pułaskiego|76||||
-Nie znaleziono kodów pocztowych dla KRAKOW/Biskupia/|A10487|PL|31-144|KRAKOW|Biskupia|10|14|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
-Nie znaleziono kodów pocztowych dla Krakow/Krowodra Górka/|T17064|PL||Krakow|Krowodra Górka|22|91|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Krakow/Krowodra Górka/|TU17064|PL||Krakow|Krowodra Górka|22|91|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Biskupia/|A1657794|PL|31-144|Kraków|Biskupia|6|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Biskupia/|A1683722|PL|31-144|Kraków|Biskupia|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Biskupia/|A1782813|PL|31-144|Kraków|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Biskupia/|A1826139|PL|31-144|Kraków|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A11480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1297638|PL|31-144|KRAKÓW|Biskupia|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1325193|PL|31-142|KRAKÓW|Biskupia|22|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1350807|PL|31-144|KRAKÓW|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1394915|PL|31-144|KRAKÓW|Biskupia|20||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1409857|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1419867|PL|31-144|KRAKÓW|Biskupia|22|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1432683|PL|31-144|KRAKÓW|Biskupia|2|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1454989|PL|31-144|KRAKÓW|Biskupia|3|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1468336|PL|31-144|KRAKÓW|Biskupia|22|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1623928|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1676491|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1691474|PL|30-144|KRAKÓW|Biskupia|3|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1839215|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1888268|PL|31-144|KRAKÓW|Biskupia|10|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|AP1480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|AP1676491|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/BISKUPIA/|A1247525|PL|31-055|KRAKÓW|BISKUPIA|14|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Bogdanowicza/|A1898012|PL|30-405|Kraków|Bogdanowicza|4||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Bogdanowicza/|A1429124|PL|30-405|KRAKÓW|Bogdanowicza|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Bogdanowicza/|A1441612|PL|30-405|KRAKÓW|Bogdanowicza|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimech/|A1296260|PL|30-667|KRAKÓW|Facimech|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1633284|PL|30-667|Kraków|Facimiech|12A|43|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1659893|PL|30-667|Kraków|Facimiech|18|36|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1663387|PL|30-667|Kraków|Facimiech|18|36|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1682195|PL|30-667|Kraków|Facimiech|18|33|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1830918|PL|30-683|Kraków|Facimiech|6C||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1873895|PL|30-667|Kraków|Facimiech|3b||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1874893|PL|30-667|Kraków|Facimiech|4b|12|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1919257|PL|30-667|Kraków|Facimiech|9|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1919896|PL|30-667|Kraków|Facimiech|16|48|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A1303861|PL|30-667|KRAKÓW|Facimiech|16|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A1342301|PL|30-667|KRAKÓW|Facimiech|14|9|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A1430041|PL|30-667|KRAKÓW|Facimiech|12a|37|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A16813|PL|30-667|KRAKÓW|Facimiech|14|15|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A17971|PL|30-667|KRAKÓW|Facimiech|16|17|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|K1777946|PL|30-667|KRAKÓW|Facimiech|4B|19|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|T1369355|PL|30-667|KRAKÓW|Facimiech|12A|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|T1777946|PL|30-667|KRAKÓW|Facimiech|4B|19|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/FACIMIECH/|A1982956|PL|30-667|KRAKÓW|FACIMIECH|12A|12|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Medyczna/|A1309388|PL|30-688|KRAKÓW|Medyczna|7||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Na Grządkach/|A1896098|PL|30-421|Kraków|Na Grządkach|5a|6|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na grządkach/|A1468818|PL|30-421|KRAKÓW|Na grządkach|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na Grządkach/|A1621921|PL|30-421|KRAKÓW|Na Grządkach|16||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na Grządkach/|A1789392|PL|30-421|KRAKÓW|Na Grządkach|1|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na Grządkach/|A1847781|PL|30-421|KRAKÓW|Na Grządkach|2|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na Grządkach/|A1992809|PL|30-421|KRAKÓW|Na Grządkach|5|6|||
-Nie znaleziono kodów pocztowych dla KRAKÓW/nad Sudołem/|A1842634|PL|31-228|KRAKÓW|nad Sudołem|6||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Ofiar Katynia/|A1230574|PL|37-700|KRAKÓW|Ofiar Katynia|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Ogrodniki/|A1708530|PL|30-421|Kraków|Ogrodniki|1|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Ogrodniki/|A1738752|PL|30-421|Kraków|Ogrodniki|4|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Ogrodniki/|A1278102|PL|30-421|KRAKÓW|Ogrodniki|5|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Ogrodniki/|A1304784|PL|30-421|KRAKÓW|Ogrodniki|10a||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Ogrodniki/|A1420015|PL|30-421|KRAKÓW|Ogrodniki|7|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Oraczy/|A1760351|PL|30-418|Kraków|Oraczy|5|6|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Oraczy/|A1782092|PL|30-418|Kraków|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Oraczy/|A1919789|PL|30-418|Kraków|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Oraczy/|A1395756|PL|30-418|KRAKÓW|Oraczy|12|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Oraczy/|A1795007|PL|30-418|KRAKÓW|Oraczy|14|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Oraczy/|T1185371|PL|30-065|KRAKÓW|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Oraczy/|TU1185371|PL|30-065|KRAKÓW|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ORACZY/|A1185963|PL|30-418|KRAKÓW|ORACZY|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ORACZY/|A1842226|PL|30-418|KRAKÓW|ORACZY|5|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/pl.Słowiański/|A1223900|PL|31-141|KRAKÓW|pl.Słowiański|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1894095|PL|30-668|Kraków|Polonijna|7|160|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1894795|PL|30-668|Kraków|Polonijna|7|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1894814|PL|30-668|Kraków|Polonijna|11|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1897425|PL|30-668|Kraków|Polonijna|11|94|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1917280|PL|30-668|Kraków|Polonijna|7|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|TU1368464|PL|30-668|Kraków|Polonijna|7|142|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1289673|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1607876|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1652873|PL|30-668|KRAKÓW|Polonijna|16|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1668621|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1834797|PL|30-668|KRAKÓW|Polonijna|16|11|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1841683|PL|30-668|KRAKÓW|Polonijna|21|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1886955|PL|30-668|KRAKÓW|Polonijna|7|183|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A21289673|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|F1318300|PL|30-668|KRAKÓW|Polonijna|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|K1614835|PL|30-668|KRAKÓW|Polonijna|19|13|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|S1436631|PL|30-668|KRAKÓW|Polonijna|11|11|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|S1686521|PL|30-668|KRAKÓW|Polonijna|7|99|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|TU1614835|PL|30-668|KRAKÓW|Polonijna|19|13|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/POLONIJNA/|A1943252|PL|30-668|KRAKÓW|POLONIJNA|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/POLONIJNA/|A1944927|PL|30-668|KRAKÓW|POLONIJNA|21|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW-PODGÓRZE
-Nie znaleziono kodów pocztowych dla Kraków/Przy Torze/|A1710977|PL|30-421|Kraków|Przy Torze|14 A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Przy Torze/|A1445180|PL||KRAKÓW|Przy Torze|15||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/PRZY TORZE/|A1814195|PL|30-421|KRAKÓW|PRZY TORZE|14A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Rynek Dędnicki/|A1620627|PL|30-319|KRAKÓW|Rynek Dędnicki|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Sapiechy/|TU1367837|PL|31-644|KRAKÓW|Sapiechy|33||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Sapiechy/|ZA1330979|PL|31-644|KRAKÓW|Sapiechy|21||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Sapiechy/|ZA1367837|PL|31-644|KRAKÓW|Sapiechy|33||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Skrażyńskiego/|A1438779|PL|31-866|KRAKÓW|Skrażyńskiego|4|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Słupska/|A1653837|PL|30-405|KRAKÓW|Słupska|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Szaniawskiego/|A1739880|PL|30-405|Kraków|Szaniawskiego|23||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1239533|PL|30-405|KRAKÓW|Szaniawskiego|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1280423|PL|30-405|KRAKÓW|Szaniawskiego|18|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1436866|PL|30-405|KRAKÓW|Szaniawskiego|14||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1467747|PL|30-405|KRAKÓW|Szaniawskiego|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1629452|PL|30-405|KRAKÓW|Szaniawskiego|29||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1915048|PL|30-405|KRAKÓW|Szaniawskiego|29||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Św. Brata Alberta/|A1803951|PL|30-444|Kraków|Św. Brata Alberta|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul. Biskupia/|A1962212|PL|31-144|Kraków|ul. Biskupia|14|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul. Facimiech/|A1987468|PL|30-667|Kraków|ul. Facimiech|18|36|||
-Nie znaleziono kodów pocztowych dla KRAKÓW/ul. Młynówka Królewska/|A1416088|PL|30-134|KRAKÓW|ul. Młynówka Królewska|2||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul. Polonijna/|A1938047|PL|30-668|Kraków|ul. Polonijna|11|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul. Polonijna/|A1961284|PL|30-668|Kraków|ul. Polonijna|7|40|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ul.Facimiech/|A1468522|PL|30-667|KRAKÓW|ul.Facimiech|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ul.Ogrodniki/|A1742873|PL|30-421|KRAKÓW|ul.Ogrodniki 4/4|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ul.Polonijna/|T1318300|PL|30-668|KRAKÓW|ul.Polonijna|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul.Szaniawskiego/|A1939805|PL|30-405|Kraków|ul.Szaniawskiego|12a||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraśnik/Księdza Zielińskiego/|A1635221|PL|23-210|Kraśnik|Księdza Zielińskiego|10|16|||
-Nie znaleziono kodów pocztowych dla KRAŚNIK/Zielińskiego/|A1436798|PL|23-210|KRAŚNIK|Zielińskiego|11|3|||
-Nie znaleziono kodów pocztowych dla Krępiec/Reymonta/|A1828636|PL|21-007|Krępiec|Reymonta|40B||||
-Nie znaleziono kodów pocztowych dla LEGIONOWO/Szarych Szeregów/|A1694846|PL|05-119|LEGIONOWO|Szarych Szeregów|17||||
-Nie znaleziono kodów pocztowych dla LUBLIN/KRUPIŃSKIEGO/|A1872388|PL|59-300|LUBLIN|KRUPIŃSKIEGO|95A||||
-Nie znaleziono kodów pocztowych dla Łaziska Górne/Głowińskiego/|A1894028|PL|43-173|Łaziska Górne|Głowińskiego|26B|6|||
-Nie znaleziono kodów pocztowych dla Łaziska Górne/Głowińskiego/|ZA1894028|PL|43-173|Łaziska Górne|Głowińskiego|26B|6|ŚLĄSKIE|MIKOŁOWSKI|ŁAZISKA GÓRNE
-Nie znaleziono kodów pocztowych dla ŁOMIANKI DOLNE/Lutosławskiego/|A1956099|PL|05-092|ŁOMIANKI DOLNE|Lutosławskiego|7||||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/al.ks.kard.Stefana Wyszyńskieg/|A1968340|PL|94-042|ŁÓDŹ|al.ks.kard.Stefana Wyszyńskieg|7A|19|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/al.Ks.Kardynała S.Wszyńskiego/|A1993416|PL|94-047|ŁÓDŹ|al.Ks.Kardynała S.Wszyńskiego|43|9|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Al.Wyszyńskiego/|A1388449|PL|94-050|ŁÓDŹ|Al.Wyszyńskiego|83|17|||
-Nie znaleziono kodów pocztowych dla Łódź/Kard. Wyszyńskiego/|A1637565|PL|94-047|Łódź|Kard. Wyszyńskiego|52|4|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Pl.Dąbrowskigo/|A1277825|PL|90-249|ŁÓDŹ|Pl.Dąbrowskigo|3|6|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/ul.Wyszyńskiego/|A1603663|PL|94-047|ŁÓDŹ|ul.Wyszyńskiego|33|11|||
-Nie znaleziono kodów pocztowych dla Łódź/Wyszyńskiego/|A1643044|PL|94-047|Łódź|Wyszyńskiego|68|70|||
-Nie znaleziono kodów pocztowych dla Łódź/Wyszyńskiego/|A1690851|PL|94-047|Łódź|Wyszyńskiego|47|29|||
-Nie znaleziono kodów pocztowych dla Łódź/Wyszyńskiego/|A1807142|PL|94-047|Łódź|Wyszyńskiego|43|7|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1609118|PL|94-047|ŁÓDŹ|Wyszyńskiego|58|25|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1670837|PL|94-051|ŁÓDŹ|Wyszyńskiego|93|20|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1677244|PL|94-050|ŁÓDŹ|Wyszyńskiego|83|4|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1740585|PL|94-042|ŁÓDŹ|Wyszyńskiego|12|5|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1772350|PL|94-047|ŁÓDŹ|Wyszyńskiego|63|27|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1889396|PL|94-047|ŁÓDŹ|Wyszyńskiego|33|8|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1907283|PL|94-042|ŁÓDŹ|Wyszyńskiego|24|46|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1958269|PL|94-047|ŁÓDŹ|Wyszyńskiego|38||||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/WYSZYŃSKIEGO/|A1755218|PL|94-047|ŁÓDŹ|WYSZYŃSKIEGO|68|34A|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/ZAGŁOBY/|A1849038|PL|92-430|ŁÓDŹ|ZAGŁOBY|18|6|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla MICHAŁÓW RUDNICKI/Częstochowska/|A1882460|PL|42-270|MICHAŁÓW RUDNICKI|Częstochowska|10||ŚLĄSKIE|CZĘSTOCHOWSKI|KŁOMNICE
-Nie znaleziono kodów pocztowych dla Mikołów/Sikorek/|A1940670|PL|43-190|Mikołów|Sikorek|10||ŚLĄSKIE|MIKOŁOWSKI|MIKOŁÓW
-Nie znaleziono kodów pocztowych dla MYSŁOWICE/ul Onrzeźna Zachodnia/|A1388426|PL|41-400|MYSŁOWICE|ul Onrzeźna Zachodnia 37|||||
-Nie znaleziono kodów pocztowych dla NOWA WIEŚ/ul. Wiejska/|A1464742|PL|42-690|NOWA WIEŚ|ul. Wiejska|123||||
-Nie znaleziono kodów pocztowych dla NOWA WIEŚ/Wiejska/|ZA1464742|PL|42-690|NOWA WIEŚ|Wiejska|123||ŚLĄSKIE|TARNOGÓRSKI|TARNOWSKIE GÓRY
-Nie znaleziono kodów pocztowych dla Nowy Dwór Mazowiecki/diamentowa/|A1918470|PL|05-101|Nowy Dwór Mazowiecki|diamentowa|6a||||
-Nie znaleziono kodów pocztowych dla OLSZTYN/POZNAŃSKIEGO/|A1410881|PL|10-767|OLSZTYN|POZNAŃSKIEGO|13||WARMIŃSKO-MAZURSKIE|OLSZTYN|OLSZTYN
-Nie znaleziono kodów pocztowych dla OLSZTYN/Rajewskiego/|A1992138|PL|10-683|OLSZTYN|Rajewskiego|5||||
-Nie znaleziono kodów pocztowych dla Osówiec / Sicienko/Wrzosowa/|A1897065|PL|86-014|Osówiec / Sicienko|Wrzosowa|4||||
-Nie znaleziono kodów pocztowych dla OSTROŁĘKA/księdza Edmunda Waltera/|A1927117|PL|07-410|OSTROŁĘKA|księdza Edmunda Waltera|6||||
-Nie znaleziono kodów pocztowych dla Ostrołęka/ul. Borówkowa/|A1962006|PL|07-401|Ostrołęka|ul. Borówkowa|9||||
-Nie znaleziono kodów pocztowych dla OTWOCK/Lisia/|A1719198|PL|05-400|OTWOCK|Lisia|2||MAZOWIECKIE|OTWOCKI|OTWOCK
-Nie znaleziono kodów pocztowych dla OTWOCK/Marusarzówny/|A1752202|PL|05-402|OTWOCK|Marusarzówny|32||||
-Nie znaleziono kodów pocztowych dla OTWOCK/Mysia/|A1645523|PL|05-400|OTWOCK|Mysia|5|7|||
-Nie znaleziono kodów pocztowych dla OTWOCK/Sowińskiego/|A1717424|PL|05-402|OTWOCK|Sowińskiego|20||MAZOWIECKIE|OTWOCKI|OTWOCK
-Nie znaleziono kodów pocztowych dla OTWOCK/Wojska Polskiego/|A1813611|PL|05-402|OTWOCK|Wojska Polskiego|26||MAZOWIECKIE|OTWOCKI|OTWOCK
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A11952204|PL|05-500|PIASECZNO|Kineskopowa|1||||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A1838480|PL|05-500|PIASECZNO|Kineskopowa|1B|126|||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A1849489|PL|05-500|PIASECZNO|Kineskopowa|1D||||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A1929084|PL|05-500|PIASECZNO|Kineskopowa|1|114|||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A1953571|PL|05-500|PIASECZNO|Kineskopowa|1||||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Piasta/|A1481318|PL|05-820|PIASECZNO|Piasta|13||MAZOWIECKIE|PRUSZKOWSKI|PIASTÓW
-Nie znaleziono kodów pocztowych dla PIEKARY ŚLĄSKIE/Głęboka/|A1272300|PL|41-940|PIEKARY ŚLĄSKIE|Głęboka|14||ŚLĄSKIE|PIEKARY ŚLĄSKIE|PIEKARY ŚLĄSKIE
-Nie znaleziono kodów pocztowych dla Podklasztor/Turzyniec/|A1708416|PL|22-440|Podklasztor|Turzyniec|6||||
-Nie znaleziono kodów pocztowych dla Ponikiew/Jodłowa/|A1991735|PL|34-100|Ponikiew|Jodłowa|77||||
-Nie znaleziono kodów pocztowych dla Ponikiew/Wadowicka/|A1991719|PL|34-100|Ponikiew|Wadowicka|330||||
-Nie znaleziono kodów pocztowych dla POZNAŃ/Królowej Jadwogi/|A1902273|PL|61-872|POZNAŃ|Królowej Jadwogi|43||||
-Nie znaleziono kodów pocztowych dla POZNAŃ/Miedziana/|A1775052|PL|60-118|POZNAŃ|Miedziana|3||||
-Nie znaleziono kodów pocztowych dla POZNAŃ/Os.Bol.Chrobrego/|A1283306|PL|60-681|POZNAŃ|Os.Bol.Chrobrego|20|51|WIELKOPOLSKIE|POZNAŃ|POZNAŃ
-Nie znaleziono kodów pocztowych dla RADOM/Malczeskiego/|A1609879|PL|26-600|RADOM|Malczeskiego|25||||
-Nie znaleziono kodów pocztowych dla RUDA ŚLĄSKA/Szyb Barbary/|A1929686|PL|41-709|RUDA ŚLĄSKA|Szyb Barbary|2||||
-Nie znaleziono kodów pocztowych dla RUDKI/Pocztowa/|A1205032|PL|26-007|RUDKI|Pocztowa|13|9|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Rybnik/Księdza Śliwki/|A1827396|PL|44-206|Rybnik|Księdza Śliwki|20||||
-Nie znaleziono kodów pocztowych dla Rybnik/Leopolda Staffa/|A1807077|PL|44-274|Rybnik|Leopolda Staffa|23||||
-Nie znaleziono kodów pocztowych dla RYBNIK/Patryjotów/|A1421859|PL|44-253|RYBNIK|Patryjotów|40A|9|ŚLĄSKIE|RYBNIK|RYBNIK
-Nie znaleziono kodów pocztowych dla Rybnik/Pod Hałdą/|A1854597|PL|44-206|Rybnik|Pod Hałdą|29a||||
-Nie znaleziono kodów pocztowych dla Rybnik/Spółdzielcza/|A1682660|PL|44-274|Rybnik|Spółdzielcza|20||||
-Nie znaleziono kodów pocztowych dla Rybnik/Spółdzielcza/|A1689396|PL|44-274|Rybnik|Spółdzielcza|14||||
-Nie znaleziono kodów pocztowych dla RYBNIK/SPÓŁDZIELCZA/|ZA1347521|PL|44-274|RYBNIK|SPÓŁDZIELCZA|14||ŚLĄSKIE|RYBNIK|RYBNIK
-Nie znaleziono kodów pocztowych dla Rybnik/Staffa/|A1713175|PL|44-274|Rybnik|Staffa|10c||||
-Nie znaleziono kodów pocztowych dla Rybnik/Staffa/|A1854187|PL|44-274|Rybnik|Staffa|10 c||||
-Nie znaleziono kodów pocztowych dla RYBNIK/Zebrzydowska/|A1404193|PL|44-217|RYBNIK|Zebrzydowska|117||ŚLĄSKIE||
-Nie znaleziono kodów pocztowych dla Siedlce/Liliowa/|A1855316|PL|08-110|Siedlce|Liliowa|14||MAZOWIECKIE|SIEDLCE|SIEDLCE
-Nie znaleziono kodów pocztowych dla SOSNOWIEC/Dietla/|A1261389|PL|41-200|SOSNOWIEC|Dietla|15A||ŚLĄSKIE|SOSNOWIEC|SOSNOWIEC
-Nie znaleziono kodów pocztowych dla SOSNOWIEC/Dietla/|A1370044|PL|41-214|SOSNOWIEC|Dietla|5a|10|||
-Nie znaleziono kodów pocztowych dla SOSNOWIEC/Dietla/|A1391826|PL|41-200|SOSNOWIEC|Dietla|16||||
-Nie znaleziono kodów pocztowych dla SOSNOWIEC/Dietla/|A1394600|PL|41-214|SOSNOWIEC|Dietla|7a|9|||
-Nie znaleziono kodów pocztowych dla Sosnowiec/Stoczniowców/|A1690443|PL|41-208|Sosnowiec|Stoczniowców|3A|3|||
-Nie znaleziono kodów pocztowych dla SULEJÓWEK/Sielankowa/|A1717012|PL|05-070|SULEJÓWEK|Sielankowa|4|2|||
-Nie znaleziono kodów pocztowych dla SULEJÓWEK/Sielankowa/|A1987073|PL|05-070|SULEJÓWEK|Sielankowa|9|1|MAZOWIECKIE|MIŃSKI|SULEJÓWEK
-Nie znaleziono kodów pocztowych dla SZCZECIN/Brylantowa/|A1469624|PL|71-235|SZCZECIN|Brylantowa|3|5|||
-Nie znaleziono kodów pocztowych dla SZCZECIN/Sasankowa/|A1307735|PL|72-003|SZCZECIN|Sasankowa|25||ZACHODNIOPOMORSKIE|SZCZECIN|SZCZECIN
-Nie znaleziono kodów pocztowych dla SZYCE/KRAJOBRAZOWA/|A1942409|PL|32-085|SZYCE|KRAJOBRAZOWA|5||||
-Nie znaleziono kodów pocztowych dla SZYCE/Nasza/|K1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
-Nie znaleziono kodów pocztowych dla SZYCE/Nasza/|T1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
-Nie znaleziono kodów pocztowych dla SZYCE/Nasza/|TU1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
-Nie znaleziono kodów pocztowych dla SZYCE/NASZA/|A1935848|PL|32-085|SZYCE|NASZA|1C||||
-Nie znaleziono kodów pocztowych dla SZYCE/NASZA/|ZA1460647|PL|32-085|SZYCE|NASZA|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
-Nie znaleziono kodów pocztowych dla SZYCE/ul. Wesoła/|A1942253|PL|32-085|SZYCE|ul. Wesoła|48||MAŁOPOLSKIE||
-Nie znaleziono kodów pocztowych dla Szyce/Wesoła/|A1715426|PL|32-085|Szyce|Wesoła|28||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Biała/|A1808159|PL|33-102|TARNÓW|Biała|42||||
-Nie znaleziono kodów pocztowych dla Tarnów/Osiedle/|A1739876|PL|33-100|Tarnów|Osiedle|29||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Rozwojowa/|A1908328|PL|33-100|TARNÓW|Rozwojowa|49||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Rozwojowa/|A1947316|PL|33-100|TARNÓW|Rozwojowa|9||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Rozwojowa/|A1995208|PL|33-100|TARNÓW|Rozwojowa|41||||
-Nie znaleziono kodów pocztowych dla TARNÓW/ROZWOJOWA/|A1965770|PL|33-100|TARNÓW|ROZWOJOWA|47A||||
-Nie znaleziono kodów pocztowych dla Tarnów/Sławomira Mrożka/|A1807588|PL|33-100|Tarnów|Sławomira Mrożka|5|3|||
-Nie znaleziono kodów pocztowych dla Tarnów/Szarych Szeregow/|A1683658|PL|33-101|Tarnów|Szarych Szeregow|14||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Technologiczna/|A1946716|PL|33-100|TARNÓW|Technologiczna|14A||||
-Nie znaleziono kodów pocztowych dla Tarnów/ul. Osiedle/|A1941517|PL|33-100|Tarnów|ul. Osiedle|30||||
-Nie znaleziono kodów pocztowych dla TARNÓW/ul.Św.St.Kostki/|A1650055|PL|33-100|TARNÓW|ul.Św.St.Kostki 3a|||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Wiesława Wody/|A11848465|PL|33-100|TARNÓW|Wiesława Wody|27||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Wiesława Wody/|A1848465|PL|33-100|TARNÓW|Wiesława Wody|27||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A01429280|PL|00-043|WARSZAWA|Czackiego|3/5|416|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A10713|PL|00-043|WARSZAWA|Czackiego|3|5 l.416|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A10994|PL|00-043|WARSZAWA|Czackiego|3|5|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A110713|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A11631686|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1219837|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1254951|PL|00-950|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1286562|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1306350|PL|00-043|WARSZAWA|Czackiego|19||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1424738|PL|00-043|WARSZAWA|Czackiego|3|5|MAZOWIECKIE||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1429280|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1436030|PL|00-043|WARSZAWA|Czackiego|3/5|115|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1445716|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1525684|PL|00-950|WARSZAWA|Czackiego|15|17|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1631686|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1678483|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1740578|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1789614|PL|00-043|WARSZAWA|Czackiego|7/9|11|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1796961|PL|00-043|WARSZAWA|Czackiego|3/5|121|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1879559|PL|00-043|WARSZAWA|Czackiego|3/5|302|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1884526|PL|00-043|WARSZAWA|Czackiego|3/5|21|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1932596|PL|00-043|WARSZAWA|Czackiego|3|5/502|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1952519|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1980456|PL|00-043|WARSZAWA|Czackiego|15|17|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|AP1640036|PL|00-043|WARSZAWA|Czackiego|3/5|121|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czckiego/|A21631686|PL|00-043|WARSZAWA|Czckiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Dynasy/|A1481102|PL|00-354|WARSZAWA|Dynasy|4|14|MAZOWIECKIE|WARSZAWA|ŚRÓDMIEŚCIE
-Nie znaleziono kodów pocztowych dla WARSZAWA/DYNASY/|A1965623|PL|00-354|WARSZAWA|DYNASY|6|9|MAZOWIECKIE|WARSZAWA|WARSZAWA
-Nie znaleziono kodów pocztowych dla WARSZAWA/Elektryczna/|A1242210|PL|00-346|WARSZAWA|Elektryczna|2a||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/IV Poprzeczna/|A1269487|PL|04-611|WARSZAWA|IV Poprzeczna|3a||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Jacka Kaczmarskiego/|A114706|PL|02-679|WARSZAWA|Jacka Kaczmarskiego|27||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Jacka Kaczmarskiego/|A14706|PL|02-679|WARSZAWA|Jacka Kaczmarskiego|27||ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
-Nie znaleziono kodów pocztowych dla WARSZAWA/Jordana/|A71178986|PL|00-050|WARSZAWA|Jordana|25||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/pl.J.H. Dąbrowskiego/|A1478018|PL|00-950|WARSZAWA|pl.J.H. Dąbrowskiego 3|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/PŁK. ZOLTANA BALO/|A1430913|PL|02-793|WARSZAWA|PŁK. ZOLTANA BALO|4|8|MAZOWIECKIE|WARSZAWA|URSYNÓW
-Nie znaleziono kodów pocztowych dla WARSZAWA/Sengera/|A01396300|PL|02-790|WARSZAWA|Sengera|24|2a|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/T. Czackiego/|A1762725|PL|00-043|WARSZAWA|T. Czackiego|3/5|405|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Traugutta/|A1815032|PL|00-067|WARSZAWA|Traugutta|7|9|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Ujazdowske/|A1810923|PL|00-583|WARSZAWA|Ujazdowske|9||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul -Czackiego/|A1202275|PL|00-043|WARSZAWA|ul -Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul. Romualda Traugutta/|A1848976|PL|00-067|WARSZAWA|ul. Romualda Traugutta|3|6|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul. Tadeusza Czackiego/|A1213241|PL|00-043|WARSZAWA|ul. Tadeusza Czackiego|3/5||MAZOWIECKIE||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A01286562|PL|00-043|WARSZAWA|ul.Czackiego 3/5|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A1418656|PL|00-950|WARSZAWA|ul.Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A1477388|PL|00-950|WARSZAWA|ul.Czackiego 21/23|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A1761972|PL|00-043|WARSZAWA|ul.Czackiego 3/5|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A31429280|PL|00-043|WARSZAWA|ul.Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Traugutta/|A1475602|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Traugutta/|A1475603|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Traugutta/|A1475606|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Traugutta/|A1475607|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
-Nie znaleziono kodów pocztowych dla WODZISŁAW ŚL./Gałczyńskiego/|A1457626|PL|44-300|WODZISŁAW ŚL.|Gałczyńskiego|1||||
-Nie znaleziono kodów pocztowych dla WROCŁAW/Gen. ładysława Sikorskiego/|A141151|PL|53-659|WROCŁAW|Gen. ładysława Sikorskiego|2-8||||
-Nie znaleziono kodów pocztowych dla WROCŁAW/Św. Mikołaja/|A1280796|PL|50-128|WROCŁAW|Św. Mikołaja|32/33|8|DOLNOŚLĄSKIE|WROCŁAW|WROCŁAW
-Nie znaleziono kodów pocztowych dla WROCŁAW/Św. Mikołaja/|A1396785|PL|50-126|WROCŁAW|Św. Mikołaja|72||||
-Nie znaleziono kodów pocztowych dla WROCŁAW/ul. Św. Mikołaja/|A1330234|PL|50-125|WROCŁAW|ul. Św. Mikołaja|8.-11.||||
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/os.Na Stoku/|A1664272|PL|32-080|ZABIERZÓW|os.Na Stoku|7||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/Osiedle Na Stoku/|ZA1685721|PL|32-080|ZABIERZÓW|Osiedle Na Stoku|1||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/Pl.Rynek/|A1836037|PL|32-080|ZABIERZÓW|Pl.Rynek|1||||
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/Pogorzany/|A1811|PL|32-080|ZABIERZÓW|Pogorzany|16||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/Rynek/|A1836378|PL|32-080|ZABIERZÓW|Rynek|1||||
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/ul. Śliczna/|A1959463|PL|32-080|ZABIERZÓW|ul. Śliczna|29||MAŁOPOLSKIE||
-Nie znaleziono kodów pocztowych dla ZABRZE/Georgiusa Agricoli/|A11702822|PL|41-800|ZABRZE|Georgiusa Agricoli|2||||
-Nie znaleziono kodów pocztowych dla Zabrze/Goethego/|A1856465|PL|41-800|Zabrze|Goethego|16|6|||
-Nie znaleziono kodów pocztowych dla ZABRZE/Pl.N.Kroczka/|A1371744|PL|41-807|ZABRZE|Pl.N.Kroczka|9|1|||
-Nie znaleziono kodów pocztowych dla Zielona Góra/Zawadzkiego Tadeusza/|A1683090|PL|65-530|Zielona Góra|Zawadzkiego Tadeusza|17|3|||
-Nie znaleziono kodów pocztowych dla ZRĘBICE/ul.Główna/|A1651897|PL|42-256|ZRĘBICE|ul.Główna 17|||||
-Nie znaleziono kodów pocztowych dla ŻORY/Dębowa/|A1393867|PL|44-240|ŻORY|Dębowa|25||||
-Nie znaleziono kodów pocztowych dla ŻORY/Dębowa/|A1462338|PL|44-240|ŻORY|Dębowa|25||||
-Nie znaleziono kodów pocztowych dla ŻORY/Ks.Władysława/|A1694342|PL|44-240|ŻORY|Ks.Władysława|13G|6|||
-Nie znaleziono kodów pocztowych dla Żory/os. Gwarków/|A1659113|PL|44-240|Żory|os. Gwarków|32c|1|||
-Nie znaleziono kodów pocztowych dla ŻORY/os.Ks.Władysława/|ZA1417999|PL|44-240|ŻORY|os.Ks.Władysława|10a|38|ŚLĄSKIE|ŻORY|ŻORY
-Nie znaleziono kodów pocztowych dla ŻORY/OS.KS.WŁADYSŁAWA/|A1729919|PL|44-240|ŻORY|OS.KS.WŁADYSŁAWA|2H|5|ŚLĄSKIE|ŻORY|ŻORY
-Nie znaleziono kodów pocztowych dla ŻORY/os.Księcia Władysława/|A1643806|PL|44-240|ŻORY|os.Księcia Władysława|10D|6|ŚLĄSKIE|ŻORY|ŻORY
-Nie znaleziono kodów pocztowych dla ŻORY/Os.Księcia Władysława/|A1267365|PL|44-240|ŻORY|Os.Księcia Władysława|56|11|ŚLĄSKIE|ŻORY|ŻORY
-Nie znaleziono kodów pocztowych dla ŻORY/oś.Księcia Władysława/|A1411525|PL|44-240|ŻORY|oś.Księcia Władysława|13G|6|||
-Nie znaleziono kodów pocztowych dla ŻORY/oś.Księcia Władysława/|A1412881|PL|44-240|ŻORY|oś.Księcia Władysława|5||||
-Nie znaleziono kodów pocztowych dla ŻORY/Oś.Księcia Władysława/|A1870640|PL|44-240|ŻORY|Oś.Księcia Władysława|5E|26|||
-Nie znaleziono kodów pocztowych dla ŻORY/Pileckiego/|A1928353|PL|44-240|ŻORY|Pileckiego|31||||
+Nie znaleziono kodów pocztowych dla 1004962/|A1609879|PL|26-600|RADOM|Malczeskiego|25||||
+Nie znaleziono kodów pocztowych dla 1005667/|A1702373|PL|05-510|CHYLICZKI|Wschodnia|1||||
+Nie znaleziono kodów pocztowych dla 1005984/|A1815108|PL|05-500|CHYLICZKI|Orzechowa|1||||
+Nie znaleziono kodów pocztowych dla 1006265/|A1670565|PL|15-616|BIAŁYSTOK|WĘGIERSKA|6||PODLASKIE|BIAŁYSTOK|BIAŁYSTOK
+Nie znaleziono kodów pocztowych dla 1010521/|A1652889|PL|05-410|JÓZEFÓW|Rozkoszna|1||||
+Nie znaleziono kodów pocztowych dla 1010550/|A1752202|PL|05-402|OTWOCK|Marusarzówny|32||||
+Nie znaleziono kodów pocztowych dla 1012746/|A1855316|PL|08-110|Siedlce|Liliowa|14||MAZOWIECKIE|SIEDLCE|SIEDLCE
+Nie znaleziono kodów pocztowych dla 1016825/|A1787519|PL|05-500|CHYLICZKI|Budowlana|1||||
+Nie znaleziono kodów pocztowych dla 1016827/|A1751085|PL|05-510|CHYLICZKI|Łamana|1||||
+Nie znaleziono kodów pocztowych dla 1018783/|A1464742|PL|42-690|NOWA WIEŚ|ul. Wiejska|123||||
+Nie znaleziono kodów pocztowych dla 1018783/|ZA1464742|PL|42-690|NOWA WIEŚ|Wiejska|123||ŚLĄSKIE|TARNOGÓRSKI|TARNOWSKIE GÓRY
+Nie znaleziono kodów pocztowych dla 1024240/|A1639874|PL|41-303|DĄBROWA GÓRNICZA|Toruńska|7||||
+Nie znaleziono kodów pocztowych dla 1024240/|A1865904|PL|41-300|DĄBROWA GÓRNICZA|Toruńska|7||||
+Nie znaleziono kodów pocztowych dla 1025289/|A1834217|PL|44-105|GLIWICE|Elsnera|6||||
+Nie znaleziono kodów pocztowych dla 1025289/|A1874296|PL|44-105|Gliwice|Józefa Elsnera|41E||||
+Nie znaleziono kodów pocztowych dla 1025289/|A1941643|PL|44-105|Gliwice|ul.Elsnera|40||||
+Nie znaleziono kodów pocztowych dla 1028463/|A1457626|PL|44-300|WODZISŁAW ŚL.|Gałczyńskiego|1||||
+Nie znaleziono kodów pocztowych dla 1029128/|A1677015|PL|44-330|JASTRZĘBIE ZDRÓJ|Karola Miarki|21||||
+Nie znaleziono kodów pocztowych dla 1029128/|A1707719|PL|44-330|Jastrzębie-Zdrój|Karola Miarki|1|46|||
+Nie znaleziono kodów pocztowych dla 1033669/|A1272300|PL|41-940|PIEKARY ŚLĄSKIE|Głęboka|14||ŚLĄSKIE|PIEKARY ŚLĄSKIE|PIEKARY ŚLĄSKIE
+Nie znaleziono kodów pocztowych dla 1033771/|A1664717|PL|44-330|Jastrzębie Zdrój|Królowej Jadwigi|6||||
+Nie znaleziono kodów pocztowych dla 1037205/|A1827396|PL|44-206|Rybnik|Księdza Śliwki|20||||
+Nie znaleziono kodów pocztowych dla 1037290/|A1854597|PL|44-206|Rybnik|Pod Hałdą|29a||||
+Nie znaleziono kodów pocztowych dla 1037301/|A1682660|PL|44-274|Rybnik|Spółdzielcza|20||||
+Nie znaleziono kodów pocztowych dla 1037301/|A1689396|PL|44-274|Rybnik|Spółdzielcza|14||||
+Nie znaleziono kodów pocztowych dla 1037301/|ZA1347521|PL|44-274|RYBNIK|SPÓŁDZIELCZA|14||ŚLĄSKIE|RYBNIK|RYBNIK
+Nie znaleziono kodów pocztowych dla 1040342/|A1734493|PL|42-290|GORZELNIA|Wielkoborska|4||||
+Nie znaleziono kodów pocztowych dla 1040609/|A1879996|PL|42-290|GORZELNIA|Podlaska|12||||
+Nie znaleziono kodów pocztowych dla 1041053/|A1882460|PL|42-270|MICHAŁÓW RUDNICKI|Częstochowska|10||ŚLĄSKIE|CZĘSTOCHOWSKI|KŁOMNICE
+Nie znaleziono kodów pocztowych dla 1043066/|A1696191|PL||DĄBROWA GÓRNICZA|Jana Majewskiego|339|17|||
+Nie znaleziono kodów pocztowych dla 1043197/|A1929686|PL|41-709|RUDA ŚLĄSKA|Szyb Barbary|2||||
+Nie znaleziono kodów pocztowych dla 1043761/|A1713175|PL|44-274|Rybnik|Staffa|10c||||
+Nie znaleziono kodów pocztowych dla 1043761/|A1807077|PL|44-274|Rybnik|Leopolda Staffa|23||||
+Nie znaleziono kodów pocztowych dla 1043761/|A1854187|PL|44-274|Rybnik|Staffa|10 c||||
+Nie znaleziono kodów pocztowych dla 1045767/|A1690443|PL|41-208|Sosnowiec|Stoczniowców|3A|3|||
+Nie znaleziono kodów pocztowych dla 1048944/|A1682251|PL|44-337|Jastrzębie Zdrój|Okrzei|28||||
+Nie znaleziono kodów pocztowych dla 1048944/|A1682361|PL|44-337|Jastrzębie-Zdrój|Okrzei|12C||||
+Nie znaleziono kodów pocztowych dla 1048944/|A1949872|PL|44-337|JASTRZĘBIE-ZDRÓJ|ul. Okrzei|12D||ŚLĄSKIE||
+Nie znaleziono kodów pocztowych dla 1051485/|A1393867|PL|44-240|ŻORY|Dębowa|25||||
+Nie znaleziono kodów pocztowych dla 1051485/|A1462338|PL|44-240|ŻORY|Dębowa|25||||
+Nie znaleziono kodów pocztowych dla 1052539/|A1856465|PL|41-800|Zabrze|Goethego|16|6|||
+Nie znaleziono kodów pocztowych dla 1055137/|A1388426|PL|41-400|MYSŁOWICE|ul Onrzeźna Zachodnia 37|||||
+Nie znaleziono kodów pocztowych dla 1057072/|A1415130|PL|43-300|BIELSKO-BIAŁA|Bartnicza|13||||
+Nie znaleziono kodów pocztowych dla 1057072/|A1710455|PL|43-300|Bielsko-Biała|Bartnicza|17|6|||
+Nie znaleziono kodów pocztowych dla 1057072/|A1990494|PL|43-300|Bielsko-Biała|ul.Bartnicza|11|25|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
+Nie znaleziono kodów pocztowych dla 1057297/|A1675154|PL|43-382|BIELSKO-BIAŁA|Balladyny|12||||
+Nie znaleziono kodów pocztowych dla 1057348/|A1660845|PL|43-382|Bielsko-Biała|Krzywa|36||||
+Nie znaleziono kodów pocztowych dla 1057348/|A1726287|PL|43-300|BIELSKO-BIAŁA|ul.Krzywa 36|||||
+Nie znaleziono kodów pocztowych dla 1057438/|A1733869|PL|43-382|Bielsko-Biała|Przesmyk|12||ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
+Nie znaleziono kodów pocztowych dla 1057632/|A1469512|PL|43-300|BIELSKO-BIAŁA|Filomatów|11||||
+Nie znaleziono kodów pocztowych dla 1057632/|A1625850|PL|43-300|BIELSKO-BIAŁA|Filomatów|5|1|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
+Nie znaleziono kodów pocztowych dla 1057985/|A1368530|PL|43-316|BIELSKO-BIAŁA|Roztoki|3|120|||
+Nie znaleziono kodów pocztowych dla 1057985/|A1391712|PL|43-316|BIELSKO-BIAŁA|Ul. Roztoki|1|19|||
+Nie znaleziono kodów pocztowych dla 1057985/|A1393894|PL|43-316|BIELSKO-BIAŁA|Ul. Roztoki|3|94|||
+Nie znaleziono kodów pocztowych dla 1057985/|A1436694|PL|43-316|BIELSKO-BIAŁA|Roztoki|3|42|||
+Nie znaleziono kodów pocztowych dla 1057985/|A1756495|PL|43-300|Bielsko-Biała|Roztoki|1|16|||
+Nie znaleziono kodów pocztowych dla 1057985/|A1831294|PL|43-300|Bielsko-Biała|Roztoki|3|70|||
+Nie znaleziono kodów pocztowych dla 1057985/|A1990879|PL|43-316|Bielsko-Biała|ul. Roztoki|7|37|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
+Nie znaleziono kodów pocztowych dla 1063703/|A1902273|PL|61-872|POZNAŃ|Królowej Jadwogi|43||||
+Nie znaleziono kodów pocztowych dla 1064121/|A21372949|PL|43-300|BIELSKO-BIAŁA|Rudawka|80||||
+Nie znaleziono kodów pocztowych dla 1064636/|A1679080|PL|43-300|BIELSKO-BIAŁA|I Dywizji Pancernej|45||||
+Nie znaleziono kodów pocztowych dla 1064636/|A1865902|PL|43-300|BIELOSKO- BIAŁA|1 Dywizji Pancernej|45|206|||
+Nie znaleziono kodów pocztowych dla 1064636/|A1886638|PL|43-300|BIELSKO-BIAŁA|1 Dywizji Pancernej|45||||
+Nie znaleziono kodów pocztowych dla 1064636/|A1890864|PL|43-300|BIELSKO BIAŁA|1 Dywizji Pancernej|45||||
+Nie znaleziono kodów pocztowych dla 1067417/|A1307735|PL|72-003|SZCZECIN|Sasankowa|25||ZACHODNIOPOMORSKIE|SZCZECIN|SZCZECIN
+Nie znaleziono kodów pocztowych dla 1072941/|A1371744|PL|41-807|ZABRZE|Pl.N.Kroczka|9|1|||
+Nie znaleziono kodów pocztowych dla 1079346/|A1283306|PL|60-681|POZNAŃ|Os.Bol.Chrobrego|20|51|WIELKOPOLSKIE|POZNAŃ|POZNAŃ
+Nie znaleziono kodów pocztowych dla 1080416/|A1280549|PL|25-672|KIELCE|Zakładowa|1||||
+Nie znaleziono kodów pocztowych dla 1080416/|A1649524|PL|25-670|KIELCE|Zakładowa|4||||
+Nie znaleziono kodów pocztowych dla 1087188/|A1789615|PL|14-200|IŁAWA|SIKORSKIEGO|41||WARMIŃSKO-MAZURSKIE|IŁAWSKI|IŁAWA
+Nie znaleziono kodów pocztowych dla 1087188/|A1909004|PL|14-200|IŁAWA|Sikorskiego|45||||
+Nie znaleziono kodów pocztowych dla 1095946/|A1267365|PL|44-240|ŻORY|Os.Księcia Władysława|56|11|ŚLĄSKIE|ŻORY|ŻORY
+Nie znaleziono kodów pocztowych dla 1095946/|A1411525|PL|44-240|ŻORY|oś.Księcia Władysława|13G|6|||
+Nie znaleziono kodów pocztowych dla 1095946/|A1412881|PL|44-240|ŻORY|oś.Księcia Władysława|5||||
+Nie znaleziono kodów pocztowych dla 1095946/|A1643806|PL|44-240|ŻORY|os.Księcia Władysława|10D|6|ŚLĄSKIE|ŻORY|ŻORY
+Nie znaleziono kodów pocztowych dla 1095946/|A1694342|PL|44-240|ŻORY|Ks.Władysława|13G|6|||
+Nie znaleziono kodów pocztowych dla 1095946/|A1729919|PL|44-240|ŻORY|OS.KS.WŁADYSŁAWA|2H|5|ŚLĄSKIE|ŻORY|ŻORY
+Nie znaleziono kodów pocztowych dla 1095946/|A1870640|PL|44-240|ŻORY|Oś.Księcia Władysława|5E|26|||
+Nie znaleziono kodów pocztowych dla 1095946/|ZA1417999|PL|44-240|ŻORY|os.Ks.Władysława|10a|38|ŚLĄSKIE|ŻORY|ŻORY
+Nie znaleziono kodów pocztowych dla 1099473/|A1811|PL|32-080|ZABIERZÓW|Pogorzany|16||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
+Nie znaleziono kodów pocztowych dla 1100119/|A1956099|PL|05-092|ŁOMIANKI DOLNE|Lutosławskiego|7||||
+Nie znaleziono kodów pocztowych dla 1100418/|A1645714|PL|25-010|KIELCE|Plac Zamkowy|1||||
+Nie znaleziono kodów pocztowych dla 1101366/|A1659113|PL|44-240|Żory|os. Gwarków|32c|1|||
+Nie znaleziono kodów pocztowych dla 1102887/|A1285348|PL|40-203|KATOWICE|Rożdziańskiego|188b||||
+Nie znaleziono kodów pocztowych dla 1102887/|A1287342|PL|40-203|KATOWICE|Raździeńskiego|96|135|ŚLĄSKIE|KATOWICE|KATOWICE
+Nie znaleziono kodów pocztowych dla 1102887/|A1300008|PL|40-203|KATOWICE|al.Rożdżeńskiego|188||||
+Nie znaleziono kodów pocztowych dla 1102887/|A1338149|PL|40-203|KATOWICE|Al. Rodzieńskiego|190B||||
+Nie znaleziono kodów pocztowych dla 1104821/|A1416164|PL|44-335|JASTRZĘBIE|Ul. Zielona|39|34|||
+Nie znaleziono kodów pocztowych dla 1106670/|A1481318|PL|05-820|PIASECZNO|Piasta|13||MAZOWIECKIE|PRUSZKOWSKI|PIASTÓW
+Nie znaleziono kodów pocztowych dla 1107404/|A1807588|PL|33-100|Tarnów|Sławomira Mrożka|5|3|||
+Nie znaleziono kodów pocztowych dla 1107537/|A1829165|PL|37-464|Bąków|Zacisze|17||||
+Nie znaleziono kodów pocztowych dla 1113614/|A1376591|PL|42-200|CZĘSTOCHOWA|ul. zMickiewicza|16|11|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1388449|PL|94-050|ŁÓDŹ|Al.Wyszyńskiego|83|17|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1603663|PL|94-047|ŁÓDŹ|ul.Wyszyńskiego|33|11|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1609118|PL|94-047|ŁÓDŹ|Wyszyńskiego|58|25|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodów pocztowych dla 1114706/|A1637565|PL|94-047|Łódź|Kard. Wyszyńskiego|52|4|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1643044|PL|94-047|Łódź|Wyszyńskiego|68|70|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1670837|PL|94-051|ŁÓDŹ|Wyszyńskiego|93|20|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodów pocztowych dla 1114706/|A1677244|PL|94-050|ŁÓDŹ|Wyszyńskiego|83|4|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodów pocztowych dla 1114706/|A1690851|PL|94-047|Łódź|Wyszyńskiego|47|29|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1740585|PL|94-042|ŁÓDŹ|Wyszyńskiego|12|5|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1755218|PL|94-047|ŁÓDŹ|WYSZYŃSKIEGO|68|34A|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1772350|PL|94-047|ŁÓDŹ|Wyszyńskiego|63|27|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1807142|PL|94-047|Łódź|Wyszyńskiego|43|7|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1889396|PL|94-047|ŁÓDŹ|Wyszyńskiego|33|8|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1907283|PL|94-042|ŁÓDŹ|Wyszyńskiego|24|46|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1958269|PL|94-047|ŁÓDŹ|Wyszyńskiego|38||||
+Nie znaleziono kodów pocztowych dla 1114706/|A1968340|PL|94-042|ŁÓDŹ|al.ks.kard.Stefana Wyszyńskieg|7A|19|||
+Nie znaleziono kodów pocztowych dla 1114706/|A1993416|PL|94-047|ŁÓDŹ|al.Ks.Kardynała S.Wszyńskiego|43|9|||
+Nie znaleziono kodów pocztowych dla 1115252/|A1715426|PL|32-085|Szyce|Wesoła|28||||
+Nie znaleziono kodów pocztowych dla 1115252/|A1942253|PL|32-085|SZYCE|ul. Wesoła|48||MAŁOPOLSKIE||
+Nie znaleziono kodów pocztowych dla 1115908/|A1736749|PL|37-464|Bąków|Orzeszkowej|90||||
+Nie znaleziono kodów pocztowych dla 1116834/|A1940670|PL|43-190|Mikołów|Sikorek|10||ŚLĄSKIE|MIKOŁOWSKI|MIKOŁÓW
+Nie znaleziono kodów pocztowych dla 1118298/|A1708416|PL|22-440|Podklasztor|Turzyniec|6||||
+Nie znaleziono kodów pocztowych dla 1120934/|A1651706|PL|81-103|GDYNIA|Rondo Bitwy pod Oliwą|1||||
+Nie znaleziono kodów pocztowych dla 1120934/|A1652411|PL|81-103|GDYNIA|Rondo Bitwy pod Oliwą|1||||
+Nie znaleziono kodów pocztowych dla 1121000/|A1775052|PL|60-118|POZNAŃ|Miedziana|3||||
+Nie znaleziono kodów pocztowych dla 1121830/|A1849038|PL|92-430|ŁÓDŹ|ZAGŁOBY|18|6|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodów pocztowych dla 1121864/|A1993995|PL|85-319|BYDGOSZCZ|16 Pułku Ułanów Wielkopolskich|14||||
+Nie znaleziono kodów pocztowych dla 1133893/|A1664272|PL|32-080|ZABIERZÓW|os.Na Stoku|7||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
+Nie znaleziono kodów pocztowych dla 1133893/|ZA1685721|PL|32-080|ZABIERZÓW|Osiedle Na Stoku|1||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
+Nie znaleziono kodów pocztowych dla 1134290/|A01396300|PL|02-790|WARSZAWA|Sengera|24|2a|||
+Nie znaleziono kodów pocztowych dla 1134893/|A71178986|PL|00-050|WARSZAWA|Jordana|25||||
+Nie znaleziono kodów pocztowych dla 1135214/|A1475113|PL|44-106|GLIWICE|ul.Piłsudskiego 9|||||
+Nie znaleziono kodów pocztowych dla 1135214/|A1946611|PL|44-100|GLIWICE|Pl. Piłsudskiego|6|3|||
+Nie znaleziono kodów pocztowych dla 1136423/|A1959463|PL|32-080|ZABIERZÓW|ul. Śliczna|29||MAŁOPOLSKIE||
+Nie znaleziono kodów pocztowych dla 1137351/|A21869139|PL|43-603|JAWORZNO|DOBREJ ENERGII|11||||
+Nie znaleziono kodów pocztowych dla 1137764/|A1205032|PL|26-007|RUDKI|Pocztowa|13|9|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1137884/|A1646787|PL|41-500|CHORZÓW|Aleja Muzyków 1|||||
+Nie znaleziono kodów pocztowych dla 1140280/|A1836037|PL|32-080|ZABIERZÓW|Pl.Rynek|1||||
+Nie znaleziono kodów pocztowych dla 1140280/|A1836378|PL|32-080|ZABIERZÓW|Rynek|1||||
+Nie znaleziono kodów pocztowych dla 1141810/|A1478018|PL|00-950|WARSZAWA|pl.J.H. Dąbrowskiego 3|||||
+Nie znaleziono kodów pocztowych dla 1141938/|A1810923|PL|00-583|WARSZAWA|Ujazdowske|9||||
+Nie znaleziono kodów pocztowych dla 1142309/|A1651897|PL|42-256|ZRĘBICE|ul.Główna 17|||||
+Nie znaleziono kodów pocztowych dla 1143946/|A1894028|PL|43-173|Łaziska Górne|Głowińskiego|26B|6|||
+Nie znaleziono kodów pocztowych dla 1143946/|ZA1894028|PL|43-173|Łaziska Górne|Głowińskiego|26B|6|ŚLĄSKIE|MIKOŁOWSKI|ŁAZISKA GÓRNE
+Nie znaleziono kodów pocztowych dla 1146864/|A1410881|PL|10-767|OLSZTYN|POZNAŃSKIEGO|13||WARMIŃSKO-MAZURSKIE|OLSZTYN|OLSZTYN
+Nie znaleziono kodów pocztowych dla 1149009/|A1390931|PL|44-100|GLIWICE|ul. Usługowa|20||ŚLĄSKIE||
+Nie znaleziono kodów pocztowych dla 1149403/|A1270090|PL|25-548|KIELCE|Okrana|44|5|||
+Nie znaleziono kodów pocztowych dla 1149403/|A1932732|PL|25-548|KIELCE|Okrana|34|30|||
+Nie znaleziono kodów pocztowych dla 1149458/|A1391103|PL|42-221|CZĘSTOCHOWA|Ul. Tokarzewskiego-Karaszewicz|17||||
+Nie znaleziono kodów pocztowych dla 1149458/|A1709374|PL|42-200|Częstochowa|Tokarzewskiego-Karaszewicza|23||||
+Nie znaleziono kodów pocztowych dla 1149458/|A1804883|PL|42-221|Częstochowa|Tokarzewskiego-Karaszewicza|10||ŚLĄSKIE|CZĘSTOCHOWA|CZĘSTOCHOWA
+Nie znaleziono kodów pocztowych dla 1149458/|A1888625|PL|42-200|CZĘSTOCHOWA|TOKARZEWSKIEGO-KARASZEWICZA|27||ŚLĄSKIE|CZĘSTOCHOWA|CZĘSTOCHOWA
+Nie znaleziono kodów pocztowych dla 1152705/|A1223900|PL|31-141|KRAKÓW|pl.Słowiański|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1159069/|A11702822|PL|41-800|ZABRZE|Georgiusa Agricoli|2||||
+Nie znaleziono kodów pocztowych dla 1159861/|A1717012|PL|05-070|SULEJÓWEK|Sielankowa|4|2|||
+Nie znaleziono kodów pocztowych dla 1159861/|A1987073|PL|05-070|SULEJÓWEK|Sielankowa|9|1|MAZOWIECKIE|MIŃSKI|SULEJÓWEK
+Nie znaleziono kodów pocztowych dla 1167452/|A1822051|PL|44-109|GLIWICE|Alberta Einstaina|36||||
+Nie znaleziono kodów pocztowych dla 1169651/|A1362261|PL|32-500|CHORZÓW|Kroczymiech|2||||
+Nie znaleziono kodów pocztowych dla 1170001/|A1261389|PL|41-200|SOSNOWIEC|Dietla|15A||ŚLĄSKIE|SOSNOWIEC|SOSNOWIEC
+Nie znaleziono kodów pocztowych dla 1170001/|A1370044|PL|41-214|SOSNOWIEC|Dietla|5a|10|||
+Nie znaleziono kodów pocztowych dla 1170001/|A1391826|PL|41-200|SOSNOWIEC|Dietla|16||||
+Nie znaleziono kodów pocztowych dla 1170001/|A1394600|PL|41-214|SOSNOWIEC|Dietla|7a|9|||
+Nie znaleziono kodów pocztowych dla 1171020/|A1873495|PL|14-200|Iława|Dobrawy|3||||
+Nie znaleziono kodów pocztowych dla 1172256/|A1842634|PL|31-228|KRAKÓW|nad Sudołem|6||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1174498/|A1404193|PL|44-217|RYBNIK|Zebrzydowska|117||ŚLĄSKIE||
+Nie znaleziono kodów pocztowych dla 1174498/|A1421859|PL|44-253|RYBNIK|Patryjotów|40A|9|ŚLĄSKIE|RYBNIK|RYBNIK
+Nie znaleziono kodów pocztowych dla 1175008/|A1804240|PL|44-190|Knurów|Chabrowa|5||||
+Nie znaleziono kodów pocztowych dla 1185810/|A1763084|PL|41-503|CHORZÓW|Marii Curie Skłodowskiej|30||||
+Nie znaleziono kodów pocztowych dla 1185810/|A1871568|PL|41-503|CHORZÓW|Marii Skłodowskie Curie|30||||
+Nie znaleziono kodów pocztowych dla 1188603/|A1662327|PL|40-586|Katowice|Jasieńskiego|9||||
+Nie znaleziono kodów pocztowych dla 1190706/|A1942409|PL|32-085|SZYCE|KRAJOBRAZOWA|5||||
+Nie znaleziono kodów pocztowych dla 1190738/|A1905709|PL|80-862|GDAŃSK|Pl. Władysława Bartoszewskiego|1||||
+Nie znaleziono kodów pocztowych dla 1191334/|ZA1782500|PL|34-100|Gorzeń Górny|Zakopiańska|194||MAŁOPOLSKIE|WADOWICKI|WADOWICE
+Nie znaleziono kodów pocztowych dla 1191428/|A1991735|PL|34-100|Ponikiew|Jodłowa|77||||
+Nie znaleziono kodów pocztowych dla 1191885/|A1406050|PL|25-372|KIELCE|Seminaryjna|11|6|||
+Nie znaleziono kodów pocztowych dla 1191885/|A1722926|PL|25-372|KIELCE|Seminaryjna|18|36|||
+Nie znaleziono kodów pocztowych dla 1192324/|A1991719|PL|34-100|Ponikiew|Wadowicka|330||||
+Nie znaleziono kodów pocztowych dla 1193177/|A1927117|PL|07-410|OSTROŁĘKA|księdza Edmunda Waltera|6||||
+Nie znaleziono kodów pocztowych dla 1197159/|A1908328|PL|33-100|TARNÓW|Rozwojowa|49||||
+Nie znaleziono kodów pocztowych dla 1197159/|A1947316|PL|33-100|TARNÓW|Rozwojowa|9||||
+Nie znaleziono kodów pocztowych dla 1197159/|A1965770|PL|33-100|TARNÓW|ROZWOJOWA|47A||||
+Nie znaleziono kodów pocztowych dla 1197159/|A1995208|PL|33-100|TARNÓW|Rozwojowa|41||||
+Nie znaleziono kodów pocztowych dla 1197190/|A1378193|PL|42-506|BĘDZIN|mjr. Bolesława Zagórnego|18||||
+Nie znaleziono kodów pocztowych dla 1197190/|A1965084|PL|42-506|Będzin|ul. Zagórnego|21|20|||
+Nie znaleziono kodów pocztowych dla 1197282/|A1643139|PL|41-303|Dąbrowa Górnicza|Buczka|3C|6|||
+Nie znaleziono kodów pocztowych dla 1197282/|A1715833|PL|41-300|DĄBROWA GÓRNICZA|Buczka|3c|6|||
+Nie znaleziono kodów pocztowych dla 1199304/|A1469624|PL|71-235|SZCZECIN|Brylantowa|3|5|||
+Nie znaleziono kodów pocztowych dla 1199538/|A1896573|PL|15-192|Białystok|Stanisława Moniuszki|42||||
+Nie znaleziono kodów pocztowych dla 1199538/|A1960853|PL|15-196|Białystok|ul. Stanisława Moniuszki|80||||
+Nie znaleziono kodów pocztowych dla 1199946/|A114706|PL|02-679|WARSZAWA|Jacka Kaczmarskiego|27||||
+Nie znaleziono kodów pocztowych dla 1199946/|A14706|PL|02-679|WARSZAWA|Jacka Kaczmarskiego|27||ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
+Nie znaleziono kodów pocztowych dla 1200380/|A1642135|PL|15-443|Białystok|eja Józefa Piłsudskiego|5|29|||
+Nie znaleziono kodów pocztowych dla 1201039/|A1992138|PL|10-683|OLSZTYN|Rajewskiego|5||||
+Nie znaleziono kodów pocztowych dla 1203490/|T17064|PL||Krakow|Krowodra Górka|22|91|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1203490/|TU17064|PL||Krakow|Krowodra Górka|22|91|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1203908/|A1918470|PL|05-101|Nowy Dwór Mazowiecki|diamentowa|6a||||
+Nie znaleziono kodów pocztowych dla 1204240/|A1416088|PL|30-134|KRAKÓW|ul. Młynówka Królewska|2||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1204364/|A1239533|PL|30-405|KRAKÓW|Szaniawskiego|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1204364/|A1280423|PL|30-405|KRAKÓW|Szaniawskiego|18|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1204364/|A1436866|PL|30-405|KRAKÓW|Szaniawskiego|14||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1204364/|A1467747|PL|30-405|KRAKÓW|Szaniawskiego|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1204364/|A1629452|PL|30-405|KRAKÓW|Szaniawskiego|29||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1204364/|A1739880|PL|30-405|Kraków|Szaniawskiego|23||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1204364/|A1915048|PL|30-405|KRAKÓW|Szaniawskiego|29||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1204364/|A1939805|PL|30-405|Kraków|ul.Szaniawskiego|12a||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1204449/|A1230574|PL|37-700|KRAKÓW|Ofiar Katynia|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1206675/|A1962006|PL|07-401|Ostrołęka|ul. Borówkowa|9||||
+Nie znaleziono kodów pocztowych dla 1207172/|A1650055|PL|33-100|TARNÓW|ul.Św.St.Kostki 3a|||||
+Nie znaleziono kodów pocztowych dla 1207370/|A1430913|PL|02-793|WARSZAWA|PŁK. ZOLTANA BALO|4|8|MAZOWIECKIE|WARSZAWA|URSYNÓW
+Nie znaleziono kodów pocztowych dla 1207851/|A1436798|PL|23-210|KRAŚNIK|Zielińskiego|11|3|||
+Nie znaleziono kodów pocztowych dla 1207851/|A1635221|PL|23-210|Kraśnik|Księdza Zielińskiego|10|16|||
+Nie znaleziono kodów pocztowych dla 1208426/|TU1367837|PL|31-644|KRAKÓW|Sapiechy|33||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1208426/|ZA1330979|PL|31-644|KRAKÓW|Sapiechy|21||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1208426/|ZA1367837|PL|31-644|KRAKÓW|Sapiechy|33||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1209979/|A1935848|PL|32-085|SZYCE|NASZA|1C||||
+Nie znaleziono kodów pocztowych dla 1209979/|K1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
+Nie znaleziono kodów pocztowych dla 1209979/|T1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
+Nie znaleziono kodów pocztowych dla 1209979/|TU1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
+Nie znaleziono kodów pocztowych dla 1209979/|ZA1460647|PL|32-085|SZYCE|NASZA|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
+Nie znaleziono kodów pocztowych dla 1210077/|A1928353|PL|44-240|ŻORY|Pileckiego|31||||
+Nie znaleziono kodów pocztowych dla 1210527/|A1803951|PL|30-444|Kraków|Św. Brata Alberta|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 1213445/|A11848465|PL|33-100|TARNÓW|Wiesława Wody|27||||
+Nie znaleziono kodów pocztowych dla 1213445/|A1848465|PL|33-100|TARNÓW|Wiesława Wody|27||||
+Nie znaleziono kodów pocztowych dla 1214660/|A1897065|PL|86-014|Osówiec / Sicienko|Wrzosowa|4||||
+Nie znaleziono kodów pocztowych dla 1215321/|A1946716|PL|33-100|TARNÓW|Technologiczna|14A||||
+Nie znaleziono kodów pocztowych dla 1216414/|A1872388|PL|59-300|LUBLIN|KRUPIŃSKIEGO|95A||||
+Nie znaleziono kodów pocztowych dla 918157/|A1248045|PL|67-200|GŁOGÓW|Powstańców|13|2|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
+Nie znaleziono kodów pocztowych dla 918157/|A1266190|PL|67-200|GŁOGÓW|Powstańców|13|2|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
+Nie znaleziono kodów pocztowych dla 918157/|A1368237|PL|67-200|GŁOGÓW|Powstańców|07-mar||DOLNOŚLĄSKIE||
+Nie znaleziono kodów pocztowych dla 918157/|A1400690|PL|67-200|GŁOGÓW|Powstańców|9|5|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
+Nie znaleziono kodów pocztowych dla 931964/|A1683090|PL|65-530|Zielona Góra|Zawadzkiego Tadeusza|17|3|||
+Nie znaleziono kodów pocztowych dla 944270/|A1709446|PL|22-530|Górka-Zabłocie|kościelna|7||||
+Nie znaleziono kodów pocztowych dla 947944/|A1277825|PL|90-249|ŁÓDŹ|Pl.Dąbrowskigo|3|6|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodów pocztowych dla 961155/|A1694846|PL|05-119|LEGIONOWO|Szarych Szeregów|17||||
+Nie znaleziono kodów pocztowych dla 963335/|A1828636|PL|21-007|Krępiec|Reymonta|40B||||
+Nie znaleziono kodów pocztowych dla 968169/|A1691391|PL|32-610|Brzezinka|Brzozowa|36||||
+Nie znaleziono kodów pocztowych dla 971982/|A141151|PL|53-659|WROCŁAW|Gen. ładysława Sikorskiego|2-8||||
+Nie znaleziono kodów pocztowych dla 973488/|A1185963|PL|30-418|KRAKÓW|ORACZY|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973488/|A1395756|PL|30-418|KRAKÓW|Oraczy|12|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973488/|A1760351|PL|30-418|Kraków|Oraczy|5|6|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973488/|A1782092|PL|30-418|Kraków|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973488/|A1795007|PL|30-418|KRAKÓW|Oraczy|14|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973488/|A1842226|PL|30-418|KRAKÓW|ORACZY|5|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973488/|A1919789|PL|30-418|Kraków|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973488/|T1185371|PL|30-065|KRAKÓW|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973488/|TU1185371|PL|30-065|KRAKÓW|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1296260|PL|30-667|KRAKÓW|Facimech|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1303861|PL|30-667|KRAKÓW|Facimiech|16|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1342301|PL|30-667|KRAKÓW|Facimiech|14|9|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1430041|PL|30-667|KRAKÓW|Facimiech|12a|37|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1468522|PL|30-667|KRAKÓW|ul.Facimiech|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1633284|PL|30-667|Kraków|Facimiech|12A|43|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1659893|PL|30-667|Kraków|Facimiech|18|36|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1663387|PL|30-667|Kraków|Facimiech|18|36|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A16813|PL|30-667|KRAKÓW|Facimiech|14|15|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1682195|PL|30-667|Kraków|Facimiech|18|33|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A17971|PL|30-667|KRAKÓW|Facimiech|16|17|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1830918|PL|30-683|Kraków|Facimiech|6C||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1873895|PL|30-667|Kraków|Facimiech|3b||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1874893|PL|30-667|Kraków|Facimiech|4b|12|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1919257|PL|30-667|Kraków|Facimiech|9|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1919896|PL|30-667|Kraków|Facimiech|16|48|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1982956|PL|30-667|KRAKÓW|FACIMIECH|12A|12|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|A1987468|PL|30-667|Kraków|ul. Facimiech|18|36|||
+Nie znaleziono kodów pocztowych dla 973696/|K1777946|PL|30-667|KRAKÓW|Facimiech|4B|19|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|T1369355|PL|30-667|KRAKÓW|Facimiech|12A|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973696/|T1777946|PL|30-667|KRAKÓW|Facimiech|4B|19|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973740/|A1438779|PL|31-866|KRAKÓW|Skrażyńskiego|4|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973802/|A1468818|PL|30-421|KRAKÓW|Na grządkach|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973802/|A1621921|PL|30-421|KRAKÓW|Na Grządkach|16||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973802/|A1789392|PL|30-421|KRAKÓW|Na Grządkach|1|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973802/|A1847781|PL|30-421|KRAKÓW|Na Grządkach|2|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973802/|A1896098|PL|30-421|Kraków|Na Grządkach|5a|6|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 973802/|A1992809|PL|30-421|KRAKÓW|Na Grządkach|5|6|||
+Nie znaleziono kodów pocztowych dla 974189/|A1309388|PL|30-688|KRAKÓW|Medyczna|7||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974361/|A1445180|PL||KRAKÓW|Przy Torze|15||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974361/|A1710977|PL|30-421|Kraków|Przy Torze|14 A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974361/|A1814195|PL|30-421|KRAKÓW|PRZY TORZE|14A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974540/|A1278102|PL|30-421|KRAKÓW|Ogrodniki|5|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974540/|A1304784|PL|30-421|KRAKÓW|Ogrodniki|10a||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974540/|A1420015|PL|30-421|KRAKÓW|Ogrodniki|7|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974540/|A1708530|PL|30-421|Kraków|Ogrodniki|1|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974540/|A1738752|PL|30-421|Kraków|Ogrodniki|4|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974540/|A1742873|PL|30-421|KRAKÓW|ul.Ogrodniki 4/4|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974937/|A1653837|PL|30-405|KRAKÓW|Słupska|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974981/|A1429124|PL|30-405|KRAKÓW|Bogdanowicza|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974981/|A1441612|PL|30-405|KRAKÓW|Bogdanowicza|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 974981/|A1898012|PL|30-405|Kraków|Bogdanowicza|4||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1289673|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1607876|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1652873|PL|30-668|KRAKÓW|Polonijna|16|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1668621|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1834797|PL|30-668|KRAKÓW|Polonijna|16|11|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1841683|PL|30-668|KRAKÓW|Polonijna|21|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1886955|PL|30-668|KRAKÓW|Polonijna|7|183|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1894095|PL|30-668|Kraków|Polonijna|7|160|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1894795|PL|30-668|Kraków|Polonijna|7|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1894814|PL|30-668|Kraków|Polonijna|11|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1897425|PL|30-668|Kraków|Polonijna|11|94|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1917280|PL|30-668|Kraków|Polonijna|7|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1938047|PL|30-668|Kraków|ul. Polonijna|11|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1943252|PL|30-668|KRAKÓW|POLONIJNA|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A1944927|PL|30-668|KRAKÓW|POLONIJNA|21|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW-PODGÓRZE
+Nie znaleziono kodów pocztowych dla 976065/|A1961284|PL|30-668|Kraków|ul. Polonijna|7|40|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|A21289673|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|F1318300|PL|30-668|KRAKÓW|Polonijna|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|K1614835|PL|30-668|KRAKÓW|Polonijna|19|13|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|S1436631|PL|30-668|KRAKÓW|Polonijna|11|11|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|S1686521|PL|30-668|KRAKÓW|Polonijna|7|99|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|T1318300|PL|30-668|KRAKÓW|ul.Polonijna|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|TU1368464|PL|30-668|Kraków|Polonijna|7|142|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 976065/|TU1614835|PL|30-668|KRAKÓW|Polonijna|19|13|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977745/|A1475602|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
+Nie znaleziono kodów pocztowych dla 977745/|A1475603|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
+Nie znaleziono kodów pocztowych dla 977745/|A1475606|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
+Nie znaleziono kodów pocztowych dla 977745/|A1475607|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
+Nie znaleziono kodów pocztowych dla 977745/|A1815032|PL|00-067|WARSZAWA|Traugutta|7|9|||
+Nie znaleziono kodów pocztowych dla 977745/|A1848976|PL|00-067|WARSZAWA|ul. Romualda Traugutta|3|6|||
+Nie znaleziono kodów pocztowych dla 977867/|A10487|PL|31-144|KRAKOW|Biskupia|10|14|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
+Nie znaleziono kodów pocztowych dla 977867/|A11480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1247525|PL|31-055|KRAKÓW|BISKUPIA|14|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1297638|PL|31-144|KRAKÓW|Biskupia|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1325193|PL|31-142|KRAKÓW|Biskupia|22|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1350807|PL|31-144|KRAKÓW|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1394915|PL|31-144|KRAKÓW|Biskupia|20||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1409857|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1419867|PL|31-144|KRAKÓW|Biskupia|22|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1432683|PL|31-144|KRAKÓW|Biskupia|2|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1454989|PL|31-144|KRAKÓW|Biskupia|3|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1468336|PL|31-144|KRAKÓW|Biskupia|22|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1623928|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1657794|PL|31-144|Kraków|Biskupia|6|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1676491|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1683722|PL|31-144|Kraków|Biskupia|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1691474|PL|30-144|KRAKÓW|Biskupia|3|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1782813|PL|31-144|Kraków|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1826139|PL|31-144|Kraków|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1839215|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1888268|PL|31-144|KRAKÓW|Biskupia|10|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|A1962212|PL|31-144|Kraków|ul. Biskupia|14|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|AP1480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 977867/|AP1676491|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 978051/|A01286562|PL|00-043|WARSZAWA|ul.Czackiego 3/5|||||
+Nie znaleziono kodów pocztowych dla 978051/|A01429280|PL|00-043|WARSZAWA|Czackiego|3/5|416|||
+Nie znaleziono kodów pocztowych dla 978051/|A10713|PL|00-043|WARSZAWA|Czackiego|3|5 l.416|||
+Nie znaleziono kodów pocztowych dla 978051/|A10994|PL|00-043|WARSZAWA|Czackiego|3|5|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
+Nie znaleziono kodów pocztowych dla 978051/|A110713|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A11631686|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1202275|PL|00-043|WARSZAWA|ul -Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1213241|PL|00-043|WARSZAWA|ul. Tadeusza Czackiego|3/5||MAZOWIECKIE||
+Nie znaleziono kodów pocztowych dla 978051/|A1219837|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1254951|PL|00-950|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1286562|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1306350|PL|00-043|WARSZAWA|Czackiego|19||||
+Nie znaleziono kodów pocztowych dla 978051/|A1418656|PL|00-950|WARSZAWA|ul.Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1424738|PL|00-043|WARSZAWA|Czackiego|3|5|MAZOWIECKIE||
+Nie znaleziono kodów pocztowych dla 978051/|A1429280|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1436030|PL|00-043|WARSZAWA|Czackiego|3/5|115|||
+Nie znaleziono kodów pocztowych dla 978051/|A1445716|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1477388|PL|00-950|WARSZAWA|ul.Czackiego 21/23|||||
+Nie znaleziono kodów pocztowych dla 978051/|A1525684|PL|00-950|WARSZAWA|Czackiego|15|17|||
+Nie znaleziono kodów pocztowych dla 978051/|A1631686|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1678483|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1740578|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1761972|PL|00-043|WARSZAWA|ul.Czackiego 3/5|||||
+Nie znaleziono kodów pocztowych dla 978051/|A1762725|PL|00-043|WARSZAWA|T. Czackiego|3/5|405|||
+Nie znaleziono kodów pocztowych dla 978051/|A1789614|PL|00-043|WARSZAWA|Czackiego|7/9|11|||
+Nie znaleziono kodów pocztowych dla 978051/|A1796961|PL|00-043|WARSZAWA|Czackiego|3/5|121|||
+Nie znaleziono kodów pocztowych dla 978051/|A1879559|PL|00-043|WARSZAWA|Czackiego|3/5|302|||
+Nie znaleziono kodów pocztowych dla 978051/|A1884526|PL|00-043|WARSZAWA|Czackiego|3/5|21|||
+Nie znaleziono kodów pocztowych dla 978051/|A1932596|PL|00-043|WARSZAWA|Czackiego|3|5/502|||
+Nie znaleziono kodów pocztowych dla 978051/|A1952519|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A1980456|PL|00-043|WARSZAWA|Czackiego|15|17|||
+Nie znaleziono kodów pocztowych dla 978051/|A21631686|PL|00-043|WARSZAWA|Czckiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|A31429280|PL|00-043|WARSZAWA|ul.Czackiego|3|5|||
+Nie znaleziono kodów pocztowych dla 978051/|AP1640036|PL|00-043|WARSZAWA|Czackiego|3/5|121|||
+Nie znaleziono kodów pocztowych dla 978222/|A1481102|PL|00-354|WARSZAWA|Dynasy|4|14|MAZOWIECKIE|WARSZAWA|ŚRÓDMIEŚCIE
+Nie znaleziono kodów pocztowych dla 978222/|A1965623|PL|00-354|WARSZAWA|DYNASY|6|9|MAZOWIECKIE|WARSZAWA|WARSZAWA
+Nie znaleziono kodów pocztowych dla 978908/|A1620627|PL|30-319|KRAKÓW|Rynek Dędnicki|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodów pocztowych dla 979577/|A1739876|PL|33-100|Tarnów|Osiedle|29||||
+Nie znaleziono kodów pocztowych dla 979577/|A1941517|PL|33-100|Tarnów|ul. Osiedle|30||||
+Nie znaleziono kodów pocztowych dla 982088/|A1242210|PL|00-346|WARSZAWA|Elektryczna|2a||||
+Nie znaleziono kodów pocztowych dla 985242/|A1683658|PL|33-101|Tarnów|Szarych Szeregow|14||||
+Nie znaleziono kodów pocztowych dla 986142/|A1477166|PL|06-400|CIECHANÓW|ul.Rynek 8|||||
+Nie znaleziono kodów pocztowych dla 986606/|A1350054|PL|32-610|BRZEZINKA|Męczeństwa Narodów|8||||
+Nie znaleziono kodów pocztowych dla 991353/|A1280796|PL|50-128|WROCŁAW|Św. Mikołaja|32/33|8|DOLNOŚLĄSKIE|WROCŁAW|WROCŁAW
+Nie znaleziono kodów pocztowych dla 991353/|A1330234|PL|50-125|WROCŁAW|ul. Św. Mikołaja|8.-11.||||
+Nie znaleziono kodów pocztowych dla 991353/|A1396785|PL|50-126|WROCŁAW|Św. Mikołaja|72||||
+Nie znaleziono kodów pocztowych dla 992116/|A1399718|PL|05-420|JÓZEFÓW|ul.Skłodowskiej|22a||||
+Nie znaleziono kodów pocztowych dla 992116/|A1655310|PL|05-420|JÓZEFÓW|M.C.Skłodowskiej|33||||
+Nie znaleziono kodów pocztowych dla 992226/|A1717424|PL|05-402|OTWOCK|Sowińskiego|20||MAZOWIECKIE|OTWOCKI|OTWOCK
+Nie znaleziono kodów pocztowych dla 992454/|A1645523|PL|05-400|OTWOCK|Mysia|5|7|||
+Nie znaleziono kodów pocztowych dla 992750/|A11729768|PL|05-410|JÓZEFÓW|Ziarnista|22||||
+Nie znaleziono kodów pocztowych dla 993021/|A1813611|PL|05-402|OTWOCK|Wojska Polskiego|26||MAZOWIECKIE|OTWOCKI|OTWOCK
+Nie znaleziono kodów pocztowych dla 993382/|A1719198|PL|05-400|OTWOCK|Lisia|2||MAZOWIECKIE|OTWOCKI|OTWOCK
+Nie znaleziono kodów pocztowych dla 997379/|A1280073|PL|05-510|KONSTANCIN JEZIORNA|Pułaskiego|2||||
+Nie znaleziono kodów pocztowych dla 997379/|A1870183|PL|05-510|KONSTANCIN-JEZIORNA|Kazimierza Pułaskiego|76||||
+Nie znaleziono kodów pocztowych dla 997970/|A1269487|PL|04-611|WARSZAWA|IV Poprzeczna|3a||||
+Nie znaleziono kodów pocztowych dla 998284/|A11952204|PL|05-500|PIASECZNO|Kineskopowa|1||||
+Nie znaleziono kodów pocztowych dla 998284/|A1838480|PL|05-500|PIASECZNO|Kineskopowa|1B|126|||
+Nie znaleziono kodów pocztowych dla 998284/|A1849489|PL|05-500|PIASECZNO|Kineskopowa|1D||||
+Nie znaleziono kodów pocztowych dla 998284/|A1929084|PL|05-500|PIASECZNO|Kineskopowa|1|114|||
+Nie znaleziono kodów pocztowych dla 998284/|A1953571|PL|05-500|PIASECZNO|Kineskopowa|1||||
+Nie znaleziono kodów pocztowych dla 999775/|A1808159|PL|33-102|TARNÓW|Biała|42||||
 Nie znaleziono miejscowości: ???????/Szukana miejscowość: ???????,Znormalizowana nazwa: ???????|T18142|PL||???????|Mszana Gorna|310||||
 Nie znaleziono miejscowości: . Biała Wyżna/Szukana miejscowość: . Biała Wyżna,Znormalizowana nazwa: . biala wyzna|A1413921|PL|33-330|. Biała Wyżna||272||||
 Nie znaleziono miejscowości: . Majchrzakowa/Szukana miejscowość: . Majchrzakowa,Znormalizowana nazwa: . majchrzakowa|A1894831|PL|34-231|. Majchrzakowa||29||||
