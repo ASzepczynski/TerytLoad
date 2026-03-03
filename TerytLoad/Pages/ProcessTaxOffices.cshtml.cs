@@ -229,7 +229,7 @@ namespace TerytLoad.Pages
                                 NumerDomu = nrDomu
                             };
 
-                            if (ulica.Contains("Pułaskiego"))
+                            if (ulica.Contains("Lindleya"))
                             {
                                 int x = 1;
                             }
