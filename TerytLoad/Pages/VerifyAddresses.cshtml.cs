@@ -133,9 +133,10 @@ namespace TerytLoad.Pages
                 var dataLines0 = await GenericFileLoader.LoadFromFileWithHeaderMappingAsync<Adres>(adresyFilePath);
                 var errorLines = await GenericFileLoader.LoadFromFileAsync<Adres>(bladFilePath);
 
-                var errorIds = new HashSet<string>(errorLines.Select(x => x.Id));
-                var dataLines = dataLines0.Where(x => errorIds.Contains(x.Id)).ToList();
-                // var dataLines=dataLines0;
+// Poniższe można zamieniać z DataLines
+//                var errorIds = new HashSet<string>(errorLines.Select(x => x.Id));
+//                var dataLines = dataLines0.Where(x => errorIds.Contains(x.Id)).ToList();
+                 var dataLines=dataLines0;
 
                 var readTime = (DateTime.Now - readStartTime).TotalMilliseconds;
 
@@ -185,7 +186,8 @@ namespace TerytLoad.Pages
 
                 Console.WriteLine($"[VerifyAddresses] ========== ROZPOCZĘCIE PĘTLI PRZETWARZANIA ({DateTime.Now:HH:mm:ss.fff}) ==========");
 
-                //               foreach (var item in dataLines.Where(x=>x.Ulica!=null && x.Ulica.Contains("Krasińskiego") && x.Miasto=="Toruń"))
+//               foreach (var item in dataLines.Where(x=>x.Ulica!=null && x.Ulica.Contains("Kadłubka")))
+
                  foreach (var item in dataLines)
                 {
                     var lineStartTime = DateTime.Now;
@@ -403,13 +405,11 @@ namespace TerytLoad.Pages
                     SourceWojewodztwo = item.Wojewodztwo,
                     SourcePowiat = item.Powiat,
                     SourceGmina = item.Gmina,
-                    // ✅ POPRAWIONE: Używaj Miejscowosc (tak jest w AddressSearchResult)
                     FoundKodPocztowy = searchResult.KodPocztowy?.Kod,
                     FoundMiasto = searchResult.Miasto?.Nazwa,
                     FoundUlica = nowaUlica,
                     FoundBudynek = searchResult.NormalizedBuildingNumber,
                     FoundLokal = searchResult.NormalizedApartmentNumber,
-                    // ✅ POPRAWIONE: Dostęp przez hierarchię Miejscowosc
                     FoundGmina = searchResult.Miasto?.Gmina?.Nazwa,
                     FoundPowiat = searchResult.Miasto?.Gmina?.Powiat?.Nazwa,
                     FoundWojewodztwo = searchResult.Miasto?.Gmina?.Powiat?.Wojewodztwo?.Nazwa,

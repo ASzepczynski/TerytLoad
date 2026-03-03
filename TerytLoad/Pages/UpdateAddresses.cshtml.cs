@@ -522,7 +522,7 @@ namespace TerytLoad.Pages
                 using (var writer = new StreamWriter(fullPath, false, Encoding.UTF8))
                 {
                     // Nagłówek
-                    await writer.WriteLineAsync("ID|Kraj|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina");
+                    await writer.WriteLineAsync("ID|Kraj|Kod|Miasto|Ulica|NrDomu|NrLokalu|Wojewodztwo|Powiat|Gmina");
 
                     // Dane
                     foreach (var addr in polishAddresses)

@@ -1,1 +1,29 @@
 ﻿Komunikat|ID|Kraj|Kod|Miasto|Ulica|NrDomu|NrLokalu|Wojewodztwo|Powiat|Gmina
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź (ID=579109),Ulica: Jaszowskiego (ID=2032397),Numer budynku: 10,Liczba znalezionych kodów: 0|A1289701|PL|90-231|ŁÓDŹ|Jaszuńskiego|10||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz (ID=561297),Ulica: Romańskiego (ID=1839829),Numer budynku: 6,Liczba znalezionych kodów: 0|A1290149|PL|85-030|BYDGOSZCZ|Rumińskiego|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków (ID=594848),Ulica: Krowoderski (ID=2122462),Numer budynku: 7,Liczba znalezionych kodów: 0|A1292803|PL|31-217|KRAKÓW|Krowoderskich|7|87|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Katowice (ID=627903),Ulica: Roździeńskiego (ID=2020896),Numer budynku: 188b,Liczba znalezionych kodów: 0|A1310017|PL|40-203|KATOWICE|Różdzdzieńskiego|188b||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jaworzno (ID=629768),Ulica: Pileckiego (ID=2071353),Numer budynku: 35,Liczba znalezionych kodów: 0|A1332176|PL|43-609|Jaworzno|Piłsuckiego|35|17|ŚLĄSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz (ID=561297),Ulica: Romańskiego (ID=1839829),Numer budynku: 6,Liczba znalezionych kodów: 0|A1383006|PL|85-030|BYGDOSZCZ|Rumińskiego|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory (ID=629543),Ulica: Władysława (ID=2013955),Numer budynku: 3G,Liczba znalezionych kodów: 0|A1412065|PL|44-240|ŻORY|Os. Księcia Władysła|3G|10|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gdańsk (ID=624985),Ulica: Krzyżanowskiej (ID=2117565),Numer budynku: 17,Liczba znalezionych kodów: 0|A1456721|PL|80-271|GDAŃSK|Krzyżanowskiego|17|6|POMORSKIE|GDAŃSK|GDAŃSK
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=589213),Numer budynku: 430,Liczba znalezionych kodów: 0|A1614488|PL|32-852|Dębno|Sufczyn|430||MAŁOPOLSKIE|BRZESKI|DĘBNO
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=589213),Numer budynku: 430,Liczba znalezionych kodów: 0|A1636562|PL|32-852|Sufczyn||430||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Roztoka-Brzeziny (ID=586818),Numer budynku: 160,Liczba znalezionych kodów: 0|A1666329|PL|33-316|Roztoka Brzeziny||160||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=592761),Numer budynku: 52,Liczba znalezionych kodów: 0|A1690406|PL|38-312|Ropa||52||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz (ID=561297),Ulica: Romańskiego (ID=1839829),Numer budynku: 6,Liczba znalezionych kodów: 0|A1704728|PL|85-011|BYDGOSZCZ|Rumińskiego|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory (ID=629543),Ulica: Władysława (ID=2013955),Numer budynku: 1G,Liczba znalezionych kodów: 0|A1707664|PL|44-240|Żory|os. Księcia Władysła|1G|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poznań (ID=649858),Ulica: Chrobrego (ID=1997355),Numer budynku: 32,Liczba znalezionych kodów: 0|A1714877|PL|60-681|Poznań|os.Bolesława Chrobre|32|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz (ID=561297),Ulica: Romańskiego (ID=1839829),Numer budynku: 6,Liczba znalezionych kodów: 0|A1724590|PL|85-030|BYDGOSZCZ|Rumińskiego|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=592761),Numer budynku: 66,Liczba znalezionych kodów: 0|A1780123|PL|38-312|Ropa||66||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jaworzno (ID=629768),Ulica: Pileckiego (ID=2071353),Numer budynku: 52,Liczba znalezionych kodów: 0|A1786834|PL|43-600|JAWORZNO|Piłsuckiego|52|12|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Przyborów (ID=586631),Numer budynku: 398,Liczba znalezionych kodów: 0|A1791400|PL|32-825|BORZĘCIN|Przyborów|398||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=589213),Numer budynku: 442,Liczba znalezionych kodów: 0|A1806943|PL|32-852|Sufczyn||442||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=586864),Numer budynku: 700,Liczba znalezionych kodów: 0|A1810043|PL|33-316|ROŻNÓW||700||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=586864),Numer budynku: 617,Liczba znalezionych kodów: 0|A1872847|PL|33-318|Rożnów||617|1|MAŁOPOLSKIE|NOWOSĄDECKI|GRÓDEK NAD DUNAJCEM
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=586864),Numer budynku: 700,Liczba znalezionych kodów: 0|A1904021|PL|33-316|ROŻNÓW||700||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poznań (ID=649858),Ulica: Czapskiego (ID=2032502),Numer budynku: 3,Liczba znalezionych kodów: 0|A1930255|PL|61-712|POZNAŃ|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=592761),Numer budynku: 10,Liczba znalezionych kodów: 0|A1966297|PL|38-312|ROPA||10|10|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=592761),Numer budynku: 52,Liczba znalezionych kodów: 0|A1987026|PL|38-312|Ropa||52||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=589213),Numer budynku: 498,Liczba znalezionych kodów: 0|A1988630|PL|32-852|Sufczyn||498||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wrocław (ID=557140),Ulica: Grodecka (ID=1871118),Numer budynku: 40,Liczba znalezionych kodów: 0|A1993983|PL|51-314|WROCŁAW|Grolicka|40||||

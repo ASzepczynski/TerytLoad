@@ -1,0 +1,166 @@
+﻿@page
+@model TerytLoad.Pages.ProcessTaxOfficesModel
+@{
+    ViewData["Title"] = "Przetwarzanie Urzędów Skarbowych";
+}
+
+<div class="container">
+    <h1 class="display-4">
+        <i class="bi bi-building"></i> Przetwarzanie Urzędów Skarbowych
+    </h1>
+    <p class="lead">Import danych urzędów skarbowych z pliku Excel do bazy danych z automatycznym dopasowaniem ulic</p>
+
+    <hr class="my-4" />
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">
+                        <i class="bi bi-file-earmark-excel"></i> Import z pliku Excel
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="alert alert-info">
+                            <h6><i class="bi bi-info-circle"></i> Informacje o procesie:</h6>
+                            <ul class="mb-0">
+                                <li><strong>Plik źródłowy:</strong> <code>c:\dane\us\UrzedySkarbowe.xlsx</code></li>
+                                <li><strong>Tabela docelowa:</strong> <code>UrzedySkarbowe</code> w bazie danych</li>
+                                <li><strong>Akcja:</strong> Zastąpienie istniejących danych</li>
+                                <li><strong>Dopasowanie ulic:</strong> Automatyczne używając AddressSearchService</li>
+                            </ul>
+                        </div>
+
+                        <div class="alert alert-warning">
+                            <h6><i class="bi bi-exclamation-triangle"></i> Struktura danych w pliku Excel:</h6>
+                            <p class="mb-1">Dane są odczytywane z kolumny A w następującej kolejności (cyklicznie co 5 wierszy):</p>
+                            <ol class="mb-0">
+                                <li><strong>A1, A6, A11...</strong> - Nazwa urzędu</li>
+                                <li><strong>A2, A7, A12...</strong> - Adres urzędu</li>
+                                <li><strong>A3, A8, A13...</strong> - Telefon/Faks</li>
+                                <li><strong>A4, A9, A14...</strong> - Email</li>
+                                <li><strong>A5, A10, A15...</strong> - Adres WWW</li>
+                            </ol>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" asp-page-handler="Process" class="btn btn-primary btn-lg">
+                                <i class="bi bi-database-fill-add"></i> Importuj do bazy danych
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-secondary text-white">
+                    <h5 class="mb-0">
+                        <i class="bi bi-question-circle"></i> Pomoc
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <h6>Import do bazy danych:</h6>
+                    <p class="small">
+                        Dane z pliku Excel zostaną wstawione do tabeli <code>UrzedySkarbowe</code> z następującymi kolumnami:
+                    </p>
+                    <ul class="small">
+                        <li><strong>Nazwa</strong> - nazwa urzędu</li>
+                        <li><strong>Kod</strong> - kod pocztowy (parsowany z adresu)</li>
+                        <li><strong>Miasto</strong> - nazwa miasta (parsowana z adresu)</li>
+                        <li><strong>Ulica</strong> - nazwa ulicy (parsowana z adresu)</li>
+                        <li><strong>NrDomu</strong> - numer budynku (parsowany z adresu)</li>
+                        <li><strong>UlicaId</strong> - automatycznie dopasowany FK do tabeli Ulice</li>
+                        <li><strong>Email</strong> - adres email</li>
+                        <li><strong>Www</strong> - strona internetowa</li>
+                    </ul>
+
+                    <hr />
+
+                    <h6>Uwagi:</h6>
+                    <ul class="small mb-0">
+                        <li>Istniejące dane zostaną usunięte</li>
+                        <li>Adres jest automatycznie parsowany</li>
+                        <li>Format: "ulica nr, kod miasto"</li>
+                        <li>UlicaId dopasowywane przez AddressSearchService</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header @(Model.Message.Contains("❌") ? "bg-danger" : "bg-success") text-white">
+                        <h5 class="mb-0">
+                            <i class="bi bi-@(Model.Message.Contains("❌") ? "x-circle" : "check-circle")"></i>
+                            Wynik importu
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <pre class="mb-0" style="white-space: pre-wrap; font-family: 'Courier New', monospace;">@Model.Message</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    @if (Model.Stats != null)
+    {
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h6 class="text-muted">Wierszy w Excelu</h6>
+                        <h2 class="display-6 text-primary">@Model.Stats.TotalRows</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h6 class="text-muted">Przetworzonych urzędów</h6>
+                        <h2 class="display-6 text-success">@Model.Stats.ProcessedRecords</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h6 class="text-muted">Zapisanych w bazie</h6>
+                        <h2 class="display-6 text-info">@Model.Stats.SavedRecords</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h6 class="text-muted">Dopasowanych ulic</h6>
+                        <h2 class="display-6 text-warning">@Model.Stats.MatchedStreets</h2>
+                        @if (Model.Stats.ProcessedRecords > 0)
+                        {
+                            <small class="text-muted">@(((double)Model.Stats.MatchedStreets / Model.Stats.ProcessedRecords * 100).ToString("F1"))%</small>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        // Pokaż komunikat po zakończeniu przetwarzania
+        @if (!string.IsNullOrEmpty(Model.Message))
+        {
+            <text>
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            </text>
+        }
+    </script>
+}
