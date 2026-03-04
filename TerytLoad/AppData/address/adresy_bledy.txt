@@ -220,8 +220,6 @@ Błędna nazwa ulicy 'Organizacji Wolności i Niezawisłości'/'organizacji woln
 Błędna nazwa ulicy 'os. Czerwonków'/'czerwonkow'/Szukana ulica: 'os. Czerwonków',Znormalizowana: 'czerwonkow',Ulica NIE istnieje w bazie TERYT|A1854493|PL|48-120|Baborów|os. Czerwonków|17b|2|||
 Błędna nazwa ulicy 'os. Ksecia Władysława'/'ksecia wladyslawa'/Szukana ulica: 'os. Ksecia Władysława',Znormalizowana: 'ksecia wladyslawa',Ulica NIE istnieje w bazie TERYT|A1713915|PL|44-240|Żory|os. Ksecia Władysława|5D|40|||
 Błędna nazwa ulicy 'os. Niedośpiały'/'niedospialy'/Szukana ulica: 'os. Niedośpiały',Znormalizowana: 'niedospialy',Ulica NIE istnieje w bazie TERYT|A1876751|PL|34-730|Łostówka|os. Niedośpiały|11||||
-Błędna nazwa ulicy 'Os. Osiedle albertyńskie'/'osiedle albertynskie'/Szukana ulica: 'Os. Osiedle albertyńskie',Znormalizowana: 'osiedle albertynskie',Ulica NIE istnieje w bazie TERYT|A1965298|PL|31-855|Kraków|Os. Osiedle albertyńskie|37|21|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Błędna nazwa ulicy 'OS. OSIEDLE KALINOWE'/'osiedle kalinowe'/Szukana ulica: 'OS. OSIEDLE KALINOWE',Znormalizowana: 'osiedle kalinowe',Ulica NIE istnieje w bazie TERYT|A1965311|PL|31-812|Kraków|OS. OSIEDLE KALINOWE|2|78|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Błędna nazwa ulicy 'os. Powstańców Śląsk'/'powstancow slask'/Szukana ulica: 'os. Powstańców Śląsk',Znormalizowana: 'powstancow slask',Ulica NIE istnieje w bazie TERYT|A1642494|PL|44-240|Żory|os. Powstańców Śląsk|17||||
 Błędna nazwa ulicy 'os. Pyrze'/'pyrze'/Szukana ulica: 'os. Pyrze',Znormalizowana: 'pyrze',Ulica NIE istnieje w bazie TERYT|A1895922|PL|34-736|Lubomierz|os. Pyrze|433||||
 Błędna nazwa ulicy 'os. Pyrze'/'pyrze'/Szukana ulica: 'os. Pyrze',Znormalizowana: 'pyrze',Ulica NIE istnieje w bazie TERYT|A1915566|PL|34-736|Lubomierz|os. Pyrze|424||||
@@ -252,7 +250,6 @@ Błędna nazwa ulicy 'Panorama Zagórska'/'panorama zagorska'/Szukana ulica: 'Pa
 Błędna nazwa ulicy 'Pietrzykowa'/'pietrzykowa'/Szukana ulica: 'Pietrzykowa',Znormalizowana: 'pietrzykowa',Ulica NIE istnieje w bazie TERYT|A1636529|PL|34-240|Toporzysko|Pietrzykowa|126||||
 Błędna nazwa ulicy 'Pileckiego Witolda'/'pileckiego witolda'/Szukana ulica: 'Pileckiego Witolda',Znormalizowana: 'pileckiego witolda',Ulica NIE istnieje w bazie TERYT|A1389443|PL|10-693|OLSZTYN|Pileckiego Witolda|5|8|WARMIŃSKO-MAZURSKIE|OLSZTYN|OLSZTYN
 Błędna nazwa ulicy 'Piułsudskiego'/'piulsudskiego'/Szukana ulica: 'Piułsudskiego',Znormalizowana: 'piulsudskiego',Ulica NIE istnieje w bazie TERYT|A1435405|PL|42-360|PORAJ|Piułsudskiego|7|1|ŚLĄSKIE|MYSZKOWSKI|PORAJ
-Błędna nazwa ulicy 'pl. Plac Wolnica'/'plac wolnica'/Szukana ulica: 'pl. Plac Wolnica',Znormalizowana: 'plac wolnica',Ulica NIE istnieje w bazie TERYT|A1406940|PL|31-060|Kraków|pl. Plac Wolnica|14||MAŁOPOLSKIE|Kraków|Kraków
 Błędna nazwa ulicy 'plac.Jana Pawła II'/'plac. jana pawla ii'/Szukana ulica: 'plac.Jana Pawła II',Znormalizowana: 'plac. jana pawla ii',Ulica NIE istnieje w bazie TERYT|A1792629|PL|41-709|RUDA ŚLĄSKA|plac.Jana Pawła II|3|4|||
 Błędna nazwa ulicy 'PO BOX'/'po box'/Szukana ulica: 'PO BOX',Znormalizowana: 'po box',Ulica NIE istnieje w bazie TERYT|A1171246|PL|20-845|LUBLIN 56|PO BOX|36||ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
 Błędna nazwa ulicy 'Podbipięty Longinusa'/'podbipiety longinusa'/Szukana ulica: 'Podbipięty Longinusa',Znormalizowana: 'podbipiety longinusa',Ulica NIE istnieje w bazie TERYT|A1808958|PL|31-980|KRAKÓW|Podbipięty Longinusa|29A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
@@ -307,14 +304,7 @@ Błędna nazwa ulicy 'ul.  Baczyńskiego Krzysztofa Kamila'/'baczynskiego krzysz
 Błędna nazwa ulicy 'ul.  Kusocińskiego Janusza'/'kusocinskiego janusza'/Szukana ulica: 'ul.  Kusocińskiego Janusza',Znormalizowana: 'kusocinskiego janusza',Ulica NIE istnieje w bazie TERYT|A1616486|PL|32-626|Jawiszowice|ul.  Kusocińskiego Janusza|45||MAŁOPOLSKIE|oświęcimski|Brzeszcze
 Błędna nazwa ulicy 'ul.  Skłodowskiej-Curie Marii'/'sklodowskiej-curie marii'/Szukana ulica: 'ul.  Skłodowskiej-Curie Marii',Znormalizowana: 'sklodowskiej-curie marii',Ulica NIE istnieje w bazie TERYT|A1787436|PL|44-152|Gliwice|ul.  Skłodowskiej-Curie Marii|14|9|ŚLĄSKIE|Gliwice|Gliwice
 Błędna nazwa ulicy 'ul.  Skłodowskiej-Curie Marii'/'sklodowskiej-curie marii'/Szukana ulica: 'ul.  Skłodowskiej-Curie Marii',Znormalizowana: 'sklodowskiej-curie marii',Ulica NIE istnieje w bazie TERYT|A1919113|PL|44-152|Gliwice|ul.  Skłodowskiej-Curie Marii|8|2|ŚLĄSKIE|Gliwice|Gliwice
-Błędna nazwa ulicy 'ul. Aleja Jana Pawła II'/'aleja jana pawla ii'/Szukana ulica: 'ul. Aleja Jana Pawła II',Znormalizowana: 'aleja jana pawla ii',Ulica NIE istnieje w bazie TERYT|A1698581|PL|00-175|WARSZAWA|ul. Aleja Jana Pawła II|nr 80|lok. 5|||
-Błędna nazwa ulicy 'ul. Aleja Majowa'/'aleja majowa'/Szukana ulica: 'ul. Aleja Majowa',Znormalizowana: 'aleja majowa',Ulica NIE istnieje w bazie TERYT|A1962075|PL|44-100|Gliwice|ul. Aleja Majowa|17|3|||
-Błędna nazwa ulicy 'ul. Aleja Wyzwolenia'/'aleja wyzwolenia'/Szukana ulica: 'ul. Aleja Wyzwolenia',Znormalizowana: 'aleja wyzwolenia',Ulica NIE istnieje w bazie TERYT|A1860439|PL|42-224|CZĘSTOCHOWA|ul. Aleja Wyzwolenia|2A|3|||
-Błędna nazwa ulicy 'ul. Aleje Jerozolimskie'/'aleje jerozolimskie'/Szukana ulica: 'ul. Aleje Jerozolimskie',Znormalizowana: 'aleje jerozolimskie',Ulica NIE istnieje w bazie TERYT|A1444050|PL|02-305|WARSZAWA|ul. Aleje Jerozolimskie|142B||||
-Błędna nazwa ulicy 'ul. Aleje Jerozolimskie'/'aleje jerozolimskie'/Szukana ulica: 'ul. Aleje Jerozolimskie',Znormalizowana: 'aleje jerozolimskie',Ulica NIE istnieje w bazie TERYT|A1847307|PL|02-017|WARSZAWA|ul. Aleje Jerozolimskie|121|123/5|||
-Błędna nazwa ulicy 'ul. Aleje Solidarności'/'aleje solidarnosci'/Szukana ulica: 'ul. Aleje Solidarności',Znormalizowana: 'aleje solidarnosci',Ulica NIE istnieje w bazie TERYT|A1942491|PL|61-696|POZNAŃ|ul. Aleje Solidarności|46||WIELKOPOLSKIE||
 Błędna nazwa ulicy 'ul. Bogusławskiego Wojciecha'/'boguslawskiego wojciecha'/Szukana ulica: 'ul. Bogusławskiego Wojciecha',Znormalizowana: 'boguslawskiego wojciecha',Ulica NIE istnieje w bazie TERYT|A1685965|PL|42-202|Częstochowa|ul. Bogusławskiego Wojciecha|4||ŚLĄSKIE|Częstochowa|Częstochowa
-Błędna nazwa ulicy 'ul. Droga Dębińska'/'droga debinska'/Szukana ulica: 'ul. Droga Dębińska',Znormalizowana: 'droga debinska',Ulica NIE istnieje w bazie TERYT|A1842681|PL|61-555|POZNAŃ|ul. Droga Dębińska|12||||
 Błędna nazwa ulicy 'Ul. Fika'/'fika'/Szukana ulica: 'Ul. Fika',Znormalizowana: 'fika',Ulica NIE istnieje w bazie TERYT|A1394431|PL|32-600|OŚWIECIM|Ul. Fika|13|5|||
 Błędna nazwa ulicy 'ul. Focha Ferdynanda'/'focha ferdynanda'/Szukana ulica: 'ul. Focha Ferdynanda',Znormalizowana: 'focha ferdynanda',Ulica NIE istnieje w bazie TERYT|A10072|PL|30-111|Kraków|ul. Focha Ferdynanda|1||MAŁOPOLSKIE|Kraków|Kraków
 Błędna nazwa ulicy 'ul. Gorzyca'/'gorzyca'/Szukana ulica: 'ul. Gorzyca',Znormalizowana: 'gorzyca',Ulica NIE istnieje w bazie TERYT|A1937672|PL|59-311|Lubin|ul. Gorzyca|51B||||
@@ -333,12 +323,7 @@ Błędna nazwa ulicy 'ul. Maczka Stanisława'/'maczka stanislawa'/Szukana ulica:
 Błędna nazwa ulicy 'ul. Malchera Jerzego'/'malchera jerzego'/Szukana ulica: 'ul. Malchera Jerzego',Znormalizowana: 'malchera jerzego',Ulica NIE istnieje w bazie TERYT|A1402428|PL|44-206|Rybnik|ul. Malchera Jerzego|16||ŚLĄSKIE|Rybnik|Rybnik
 Błędna nazwa ulicy 'ul. Maya Leana Wiktora'/'maya leana wiktora'/Szukana ulica: 'ul. Maya Leana Wiktora',Znormalizowana: 'maya leana wiktora',Ulica NIE istnieje w bazie TERYT|A1988990|PL|97-200|Tomaszów Mazowiecki|ul. Maya Leana Wiktora|10.gru|13|ŁÓDZKIE|tomaszowski|Tomaszów Mazowiecki
 Błędna nazwa ulicy 'ul. Mielęckiego Andrzeja'/'mieleckiego andrzeja'/Szukana ulica: 'ul. Mielęckiego Andrzeja',Znormalizowana: 'mieleckiego andrzeja',Ulica NIE istnieje w bazie TERYT|A1940484|PL|41-506|Chorzów|ul. Mielęckiego Andrzeja|45|5|ŚLĄSKIE|Chorzów|Chorzów
-Błędna nazwa ulicy 'ul. Osiedle Czecha'/'osiedle czecha'/Szukana ulica: 'ul. Osiedle Czecha',Znormalizowana: 'osiedle czecha',Ulica NIE istnieje w bazie TERYT|A1886082|PL|61-292|POZNAŃ|ul. Osiedle Czecha|138|8|||
-Błędna nazwa ulicy 'ul. Osiedle Hutnicze'/'osiedle hutnicze'/Szukana ulica: 'ul. Osiedle Hutnicze',Znormalizowana: 'osiedle hutnicze',Ulica NIE istnieje w bazie TERYT|A1991140|PL|31-917|Kraków|ul. Osiedle Hutnicze|1|107|||
-Błędna nazwa ulicy 'ul. Park Hutniczy'/'park hutniczy'/Szukana ulica: 'ul. Park Hutniczy',Znormalizowana: 'park hutniczy',Ulica NIE istnieje w bazie TERYT|A1963931|PL|41-800|Zabrze|ul. Park Hutniczy|2|6|||
 Błędna nazwa ulicy 'ul. Pełczyńskiego Tadeusza'/'pelczynskiego tadeusza'/Szukana ulica: 'ul. Pełczyńskiego Tadeusza',Znormalizowana: 'pelczynskiego tadeusza',Ulica NIE istnieje w bazie TERYT|A1782833|PL|31-341|Kraków|ul. Pełczyńskiego Tadeusza|37||MAŁOPOLSKIE|Kraków|Kraków
-Błędna nazwa ulicy 'Ul. Plac Opatrzności Bożej'/'plac opatrznosci bozej'/Szukana ulica: 'Ul. Plac Opatrzności Bożej',Znormalizowana: 'plac opatrznosci bozej',Ulica NIE istnieje w bazie TERYT|A1938848|PL|43-300|Bielsko-Biała|Ul. Plac Opatrzności Bożej|20|6|||
-Błędna nazwa ulicy 'ul. Plac Stefana Żeromskiego'/'plac stefana zeromskiego'/Szukana ulica: 'ul. Plac Stefana Żeromskiego',Znormalizowana: 'plac stefana zeromskiego',Ulica NIE istnieje w bazie TERYT|A1839121|PL|41-910|BYTOM|ul. Plac Stefana Żeromskiego|3|15|||
 Błędna nazwa ulicy 'ul. Poleczkińskiego'/'poleczkinskiego'/Szukana ulica: 'ul. Poleczkińskiego',Znormalizowana: 'poleczkinskiego',Ulica NIE istnieje w bazie TERYT|A1450481|PL|02-822|WARSZAWA|ul. Poleczkińskiego|35||MAZOWIECKIE||
 Błędna nazwa ulicy 'ul. Połowniaka Henryka'/'polowniaka henryka'/Szukana ulica: 'ul. Połowniaka Henryka',Znormalizowana: 'polowniaka henryka',Ulica NIE istnieje w bazie TERYT|A1190490|PL|25-634|Kielce|ul. Połowniaka Henryka|2|25|ŚWIĘTOKRZYSKIE|Kielce|Kielce
 Błędna nazwa ulicy 'ul. Połowniaka Henryka'/'polowniaka henryka'/Szukana ulica: 'ul. Połowniaka Henryka',Znormalizowana: 'polowniaka henryka',Ulica NIE istnieje w bazie TERYT|A1349875|PL|25-634|Kielce|ul. Połowniaka Henryka|15|23|ŚWIĘTOKRZYSKIE|Kielce|Kielce
@@ -360,7 +345,6 @@ Błędna nazwa ulicy 'ul. Połowniaka Henryka'/'polowniaka henryka'/Szukana ulic
 Błędna nazwa ulicy 'ul. Połowniaka Henryka'/'polowniaka henryka'/Szukana ulica: 'ul. Połowniaka Henryka',Znormalizowana: 'polowniaka henryka',Ulica NIE istnieje w bazie TERYT|A1724012|PL|25-634|Kielce|ul. Połowniaka Henryka|6|29|ŚWIĘTOKRZYSKIE|Kielce|Kielce
 Błędna nazwa ulicy 'ul. Pułaskiego Kazimierza'/'pulaskiego kazimierza'/Szukana ulica: 'ul. Pułaskiego Kazimierza',Znormalizowana: 'pulaskiego kazimierza',Ulica NIE istnieje w bazie TERYT|A1871629|PL|85-619|Bydgoszcz|ul. Pułaskiego Kazimierza|45||KUJAWSKO-POMORSKIE|Bydgoszcz|Bydgoszcz
 Błędna nazwa ulicy 'Ul. Rogów Komorniki'/'rogow komorniki'/Szukana ulica: 'Ul. Rogów Komorniki',Znormalizowana: 'rogow komorniki',Ulica NIE istnieje w bazie TERYT|A1986864|PL|26-503|Mirów|Ul. Rogów Komorniki|160c||||
-Błędna nazwa ulicy 'ul. Rynek Kościuszki'/'rynek kosciuszki'/Szukana ulica: 'ul. Rynek Kościuszki',Znormalizowana: 'rynek kosciuszki',Ulica NIE istnieje w bazie TERYT|A1474998|PL|15-950|BIAŁYSTOK|ul. Rynek Kościuszki|7||||
 Błędna nazwa ulicy 'Ul. Siedlacza'/'siedlacza'/Szukana ulica: 'Ul. Siedlacza',Znormalizowana: 'siedlacza',Ulica NIE istnieje w bazie TERYT|A1415118|PL|43-386|GRODZIEC|Ul. Siedlacza|77a||||
 Błędna nazwa ulicy 'ul. Siemińskiego Józefa'/'sieminskiego jozefa'/Szukana ulica: 'ul. Siemińskiego Józefa',Znormalizowana: 'sieminskiego jozefa',Ulica NIE istnieje w bazie TERYT|A1807168|PL|44-100|Gliwice|ul. Siemińskiego Józefa|11|7|ŚLĄSKIE|Gliwice|Gliwice
 Błędna nazwa ulicy 'ul. Skłodowskiej-Curie Marii'/'sklodowskiej-curie marii'/Szukana ulica: 'ul. Skłodowskiej-Curie Marii',Znormalizowana: 'sklodowskiej-curie marii',Ulica NIE istnieje w bazie TERYT|A1349475|PL|32-300|Olkusz|ul. Skłodowskiej-Curie Marii|43|15|MAŁOPOLSKIE|olkuski|Olkusz
@@ -879,412 +863,11 @@ Kod pocztowy 99-232 nie pasuje do żadnego miasta o nazwie 'Grabinka'/Szukane mi
 Kod pocztowy 99-232 nie pasuje do żadnego miasta o nazwie 'Grabinka'/Szukane miasto: Grabinka,Znaleziono 3 miast o tej nazwie,Kod pocztowy: 99-232,Nie można jednoznacznie określić miasta|A1917703|PL|99-232|Grabinka||18||||
 Kod pocztowy 99-311 nie pasuje do żadnego miasta o nazwie 'BEDLNO'/Szukane miasto: BEDLNO,Znaleziono 4 miast o tej nazwie,Kod pocztowy: 99-311,Nie można jednoznacznie określić miasta|A1809278|PL|99-311|BEDLNO|Bedlno|26A||||
 Kod pocztowy 99-400 nie pasuje do żadnego miasta o nazwie 'KATARZYNÓW'/Szukane miasto: KATARZYNÓW,Znaleziono 9 miast o tej nazwie,Kod pocztowy: 99-400,Nie można jednoznacznie określić miasta|A1616237|PL|99-400|KATARZYNÓW||80||||
-Nie znaleziono kodów pocztowych dla Bąków/Orzeszkowej/|A1736749|PL|37-464|Bąków|Orzeszkowej|90||||
-Nie znaleziono kodów pocztowych dla Bąków/Zacisze/|A1829165|PL|37-464|Bąków|Zacisze|17||||
-Nie znaleziono kodów pocztowych dla BĘDZIN/mjr. Bolesława Zagórnego/|A1378193|PL|42-506|BĘDZIN|mjr. Bolesława Zagórnego|18||||
-Nie znaleziono kodów pocztowych dla Będzin/ul. Zagórnego/|A1965084|PL|42-506|Będzin|ul. Zagórnego|21|20|||
-Nie znaleziono kodów pocztowych dla Białystok/pl. Piłsudskiego/|A1642135|PL|16-070|Białystok|pl. Piłsudskiego|5|29|PODLASKIE|Białystok|Białystok
-Nie znaleziono kodów pocztowych dla Białystok/Stanisława Moniuszki/|A1896573|PL|15-192|Białystok|Stanisława Moniuszki|42||||
-Nie znaleziono kodów pocztowych dla Białystok/ul. Stanisława Moniuszki/|A1960853|PL|15-196|Białystok|ul. Stanisława Moniuszki|80||||
-Nie znaleziono kodów pocztowych dla BIAŁYSTOK/WĘGIERSKA/|A1670565|PL|15-616|BIAŁYSTOK|WĘGIERSKA|6||PODLASKIE|BIAŁYSTOK|BIAŁYSTOK
-Nie znaleziono kodów pocztowych dla BIELOSKO- BIAŁA/1 Dywizji Pancernej/|A1865902|PL|43-300|BIELOSKO- BIAŁA|1 Dywizji Pancernej|45|206|||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/1 Dywizji Pancernej/|A1890864|PL|43-300|BIELSKO BIAŁA|1 Dywizji Pancernej|45||||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/1 Dywizji Pancernej/|A1886638|PL|43-300|BIELSKO-BIAŁA|1 Dywizji Pancernej|45||||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Balladyny/|A1675154|PL|43-382|BIELSKO-BIAŁA|Balladyny|12||||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Bartnicza/|A1710455|PL|43-300|Bielsko-Biała|Bartnicza|17|6|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Bartnicza/|A1415130|PL|43-300|BIELSKO-BIAŁA|Bartnicza|13||||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Filomatów/|A1469512|PL|43-300|BIELSKO-BIAŁA|Filomatów|11||||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Filomatów/|A1625850|PL|43-300|BIELSKO-BIAŁA|Filomatów|5|1|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/I Dywizji Pancernej/|A1679080|PL|43-300|BIELSKO-BIAŁA|I Dywizji Pancernej|45||||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Krzywa/|A1660845|PL|43-382|Bielsko-Biała|Krzywa|36||||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Przesmyk/|A1733869|PL|43-382|Bielsko-Biała|Przesmyk|12||ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Roztoki/|A1756495|PL|43-300|Bielsko-Biała|Roztoki|1|16|||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/Roztoki/|A1831294|PL|43-300|Bielsko-Biała|Roztoki|3|70|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Roztoki/|A1368530|PL|43-316|BIELSKO-BIAŁA|Roztoki|3|120|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Roztoki/|A1436694|PL|43-316|BIELSKO-BIAŁA|Roztoki|3|42|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Rudawka/|A21372949|PL|43-300|BIELSKO-BIAŁA|Rudawka|80||||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/ul. Roztoki/|A1990879|PL|43-316|Bielsko-Biała|ul. Roztoki|7|37|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Ul. Roztoki/|A1391712|PL|43-316|BIELSKO-BIAŁA|Ul. Roztoki|1|19|||
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/Ul. Roztoki/|A1393894|PL|43-316|BIELSKO-BIAŁA|Ul. Roztoki|3|94|||
-Nie znaleziono kodów pocztowych dla Bielsko-Biała/ul.Bartnicza/|A1990494|PL|43-300|Bielsko-Biała|ul.Bartnicza|11|25|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
-Nie znaleziono kodów pocztowych dla BIELSKO-BIAŁA/ul.Krzywa/|A1726287|PL|43-300|BIELSKO-BIAŁA|ul.Krzywa 36|||||
-Nie znaleziono kodów pocztowych dla Brzezinka/Brzozowa/|A1691391|PL|32-610|Brzezinka|Brzozowa|36||||
-Nie znaleziono kodów pocztowych dla BRZEZINKA/Męczeństwa Narodów/|A1350054|PL|32-610|BRZEZINKA|Męczeństwa Narodów|8||||
-Nie znaleziono kodów pocztowych dla BYDGOSZCZ/16 Pułku Ułanów Wielkopolskich/|A1993995|PL|85-319|BYDGOSZCZ|16 Pułku Ułanów Wielkopolskich|14||||
-Nie znaleziono kodów pocztowych dla CHORZÓW/Aleja Muzyków/|A1646787|PL|41-500|CHORZÓW|Aleja Muzyków 1|||||
-Nie znaleziono kodów pocztowych dla CHORZÓW/Kroczymiech/|A1362261|PL|32-500|CHORZÓW|Kroczymiech|2||||
-Nie znaleziono kodów pocztowych dla CHORZÓW/Marii Curie Skłodowskiej/|A1763084|PL|41-503|CHORZÓW|Marii Curie Skłodowskiej|30||||
-Nie znaleziono kodów pocztowych dla CHORZÓW/Marii Skłodowskie Curie/|A1871568|PL|41-503|CHORZÓW|Marii Skłodowskie Curie|30||||
-Nie znaleziono kodów pocztowych dla CHYLICZKI/Budowlana/|A1787519|PL|05-500|CHYLICZKI|Budowlana|1||||
-Nie znaleziono kodów pocztowych dla CHYLICZKI/Łamana/|A1751085|PL|05-510|CHYLICZKI|Łamana|1||||
-Nie znaleziono kodów pocztowych dla CHYLICZKI/Orzechowa/|A1815108|PL|05-500|CHYLICZKI|Orzechowa|1||||
-Nie znaleziono kodów pocztowych dla CHYLICZKI/Wschodnia/|A1702373|PL|05-510|CHYLICZKI|Wschodnia|1||||
-Nie znaleziono kodów pocztowych dla CIĄGOWICE/1 Maja/|A1466533|PL|42-450|CIĄGOWICE|1 Maja|25|2|||
-Nie znaleziono kodów pocztowych dla CIĄGOWICE/Kopalniana/|A1612471|PL|42-450|CIĄGOWICE|Kopalniana|9||ŚLĄSKIE|ZAWIERCIAŃSKI|ŁAZY
-Nie znaleziono kodów pocztowych dla Ciągowice/Zacisze/|A1642530|PL|42-450|Ciągowice|Zacisze|19||||
-Nie znaleziono kodów pocztowych dla Ciągowice/Zwycięstwa/|A1713924|PL|42-450|Ciągowice|Zwycięstwa|51||||
-Nie znaleziono kodów pocztowych dla CIECHANÓW/ul.Rynek/|A1477166|PL|06-400|CIECHANÓW|ul.Rynek 8|||||
-Nie znaleziono kodów pocztowych dla Częstochowa/Tokarzewskiego-Karaszewicza/|A1709374|PL|42-200|Częstochowa|Tokarzewskiego-Karaszewicza|23||||
-Nie znaleziono kodów pocztowych dla Częstochowa/Tokarzewskiego-Karaszewicza/|A1804883|PL|42-221|Częstochowa|Tokarzewskiego-Karaszewicza|10||ŚLĄSKIE|CZĘSTOCHOWA|CZĘSTOCHOWA
-Nie znaleziono kodów pocztowych dla CZĘSTOCHOWA/TOKARZEWSKIEGO-KARASZEWICZA/|A1888625|PL|42-200|CZĘSTOCHOWA|TOKARZEWSKIEGO-KARASZEWICZA|27||ŚLĄSKIE|CZĘSTOCHOWA|CZĘSTOCHOWA
-Nie znaleziono kodów pocztowych dla CZĘSTOCHOWA/Ul. Tokarzewskiego-Karaszewicz/|A1391103|PL|42-221|CZĘSTOCHOWA|Ul. Tokarzewskiego-Karaszewicz|17||||
-Nie znaleziono kodów pocztowych dla CZĘSTOCHOWA/ul. zMickiewicza/|A1376591|PL|42-200|CZĘSTOCHOWA|ul. zMickiewicza|16|11|||
-Nie znaleziono kodów pocztowych dla Dąbrowa Górnicza/Buczka/|A1643139|PL|41-303|Dąbrowa Górnicza|Buczka|3C|6|||
-Nie znaleziono kodów pocztowych dla DĄBROWA GÓRNICZA/Buczka/|A1715833|PL|41-300|DĄBROWA GÓRNICZA|Buczka|3c|6|||
 Nie znaleziono kodów pocztowych dla DĄBROWA GÓRNICZA/Jana Majewskiego/|A1696191|PL||DĄBROWA GÓRNICZA|Jana Majewskiego|339|17|||
-Nie znaleziono kodów pocztowych dla DĄBROWA GÓRNICZA/Toruńska/|A1639874|PL|41-303|DĄBROWA GÓRNICZA|Toruńska|7||||
-Nie znaleziono kodów pocztowych dla DĄBROWA GÓRNICZA/Toruńska/|A1865904|PL|41-300|DĄBROWA GÓRNICZA|Toruńska|7||||
-Nie znaleziono kodów pocztowych dla GDAŃSK/Pl. Władysława Bartoszewskiego/|A1905709|PL|80-862|GDAŃSK|Pl. Władysława Bartoszewskiego|1||||
-Nie znaleziono kodów pocztowych dla GDYNIA/Rondo Bitwy pod Oliwą/|A1651706|PL|81-103|GDYNIA|Rondo Bitwy pod Oliwą|1||||
-Nie znaleziono kodów pocztowych dla GDYNIA/Rondo Bitwy pod Oliwą/|A1652411|PL|81-103|GDYNIA|Rondo Bitwy pod Oliwą|1||||
-Nie znaleziono kodów pocztowych dla GLIWICE/Alberta Einstaina/|A1822051|PL|44-109|GLIWICE|Alberta Einstaina|36||||
-Nie znaleziono kodów pocztowych dla GLIWICE/Elsnera/|A1834217|PL|44-105|GLIWICE|Elsnera|6||||
-Nie znaleziono kodów pocztowych dla Gliwice/Józefa Elsnera/|A1874296|PL|44-105|Gliwice|Józefa Elsnera|41E||||
-Nie znaleziono kodów pocztowych dla GLIWICE/Pl. Piłsudskiego/|A1946611|PL|44-100|GLIWICE|Pl. Piłsudskiego|6|3|||
-Nie znaleziono kodów pocztowych dla GLIWICE/ul. Usługowa/|A1390931|PL|44-100|GLIWICE|ul. Usługowa|20||ŚLĄSKIE||
-Nie znaleziono kodów pocztowych dla Gliwice/ul.Elsnera/|A1941643|PL|44-105|Gliwice|ul.Elsnera|40||||
-Nie znaleziono kodów pocztowych dla GLIWICE/ul.Piłsudskiego/|A1475113|PL|44-106|GLIWICE|ul.Piłsudskiego 9|||||
-Nie znaleziono kodów pocztowych dla GŁOGÓW/Powstańców/|A1248045|PL|67-200|GŁOGÓW|Powstańców|13|2|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
-Nie znaleziono kodów pocztowych dla GŁOGÓW/Powstańców/|A1266190|PL|67-200|GŁOGÓW|Powstańców|13|2|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
-Nie znaleziono kodów pocztowych dla GŁOGÓW/Powstańców/|A1368237|PL|67-200|GŁOGÓW|Powstańców|07-mar||DOLNOŚLĄSKIE||
-Nie znaleziono kodów pocztowych dla GŁOGÓW/Powstańców/|A1400690|PL|67-200|GŁOGÓW|Powstańców|9|5|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
-Nie znaleziono kodów pocztowych dla GORZELNIA/Podlaska/|A1879996|PL|42-290|GORZELNIA|Podlaska|12||||
-Nie znaleziono kodów pocztowych dla GORZELNIA/Wielkoborska/|A1734493|PL|42-290|GORZELNIA|Wielkoborska|4||||
-Nie znaleziono kodów pocztowych dla Gorzeń Górny/Zakopiańska/|ZA1782500|PL|34-100|Gorzeń Górny|Zakopiańska|194||MAŁOPOLSKIE|WADOWICKI|WADOWICE
-Nie znaleziono kodów pocztowych dla Górka-Zabłocie/kościelna/|A1709446|PL|22-530|Górka-Zabłocie|kościelna|7||||
-Nie znaleziono kodów pocztowych dla Iława/Dobrawy/|A1873495|PL|14-200|Iława|Dobrawy|3||||
-Nie znaleziono kodów pocztowych dla IŁAWA/Sikorskiego/|A1909004|PL|14-200|IŁAWA|Sikorskiego|45||||
-Nie znaleziono kodów pocztowych dla IŁAWA/SIKORSKIEGO/|A1789615|PL|14-200|IŁAWA|SIKORSKIEGO|41||WARMIŃSKO-MAZURSKIE|IŁAWSKI|IŁAWA
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Karola Miarki/|A1677015|PL|44-330|JASTRZĘBIE ZDRÓJ|Karola Miarki|21||||
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Karola Miarki/|A1707719|PL|44-330|Jastrzębie-Zdrój|Karola Miarki|1|46|||
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Królowej Jadwigi/|A1664717|PL|44-330|Jastrzębie Zdrój|Królowej Jadwigi|6||||
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Okrzei/|A1682251|PL|44-337|Jastrzębie Zdrój|Okrzei|28||||
-Nie znaleziono kodów pocztowych dla Jastrzębie-Zdrój/Okrzei/|A1682361|PL|44-337|Jastrzębie-Zdrój|Okrzei|12C||||
-Nie znaleziono kodów pocztowych dla JASTRZĘBIE-ZDRÓJ/ul. Okrzei/|A1949872|PL|44-337|JASTRZĘBIE-ZDRÓJ|ul. Okrzei|12D||ŚLĄSKIE||
-Nie znaleziono kodów pocztowych dla JASTRZĘBIE/Ul. Zielona/|A1416164|PL|44-335|JASTRZĘBIE|Ul. Zielona|39|34|||
-Nie znaleziono kodów pocztowych dla JAWORZNO/DOBREJ ENERGII/|A21869139|PL|43-603|JAWORZNO|DOBREJ ENERGII|11||||
-Nie znaleziono kodów pocztowych dla JÓZEFÓW/M.C.Skłodowskiej/|A1655310|PL|05-420|JÓZEFÓW|M.C.Skłodowskiej|33||||
-Nie znaleziono kodów pocztowych dla JÓZEFÓW/Rozkoszna/|A1652889|PL|05-410|JÓZEFÓW|Rozkoszna|1||||
-Nie znaleziono kodów pocztowych dla JÓZEFÓW/ul.Skłodowskiej/|A1399718|PL|05-420|JÓZEFÓW|ul.Skłodowskiej|22a||||
-Nie znaleziono kodów pocztowych dla JÓZEFÓW/Ziarnista/|A11729768|PL|05-410|JÓZEFÓW|Ziarnista|22||||
-Nie znaleziono kodów pocztowych dla KATOWICE/Al. Rodzieńskiego/|A1338149|PL|40-203|KATOWICE|Al. Rodzieńskiego|190B||||
-Nie znaleziono kodów pocztowych dla KATOWICE/al.Rożdżeńskiego/|A1300008|PL|40-203|KATOWICE|al.Rożdżeńskiego|188||||
-Nie znaleziono kodów pocztowych dla Katowice/Jasieńskiego/|A1662327|PL|40-586|Katowice|Jasieńskiego|9||||
-Nie znaleziono kodów pocztowych dla KATOWICE/Raździeńskiego/|A1287342|PL|40-203|KATOWICE|Raździeńskiego|96|135|ŚLĄSKIE|KATOWICE|KATOWICE
-Nie znaleziono kodów pocztowych dla KATOWICE/Rożdziańskiego/|A1285348|PL|40-203|KATOWICE|Rożdziańskiego|188b||||
-Nie znaleziono kodów pocztowych dla KIELCE/Plac Zamkowy/|A1645714|PL|25-010|KIELCE|Plac Zamkowy|1||||
-Nie znaleziono kodów pocztowych dla KIELCE/Seminaryjna/|A1406050|PL|25-372|KIELCE|Seminaryjna|11|6|||
-Nie znaleziono kodów pocztowych dla KIELCE/Seminaryjna/|A1722926|PL|25-372|KIELCE|Seminaryjna|18|36|||
-Nie znaleziono kodów pocztowych dla KIELCE/Zakładowa/|A1280549|PL|25-672|KIELCE|Zakładowa|1||||
-Nie znaleziono kodów pocztowych dla KIELCE/Zakładowa/|A1649524|PL|25-670|KIELCE|Zakładowa|4||||
-Nie znaleziono kodów pocztowych dla Knurów/Chabrowa/|A1804240|PL|44-190|Knurów|Chabrowa|5||||
-Nie znaleziono kodów pocztowych dla KONSTANCIN JEZIORNA/Pułaskiego/|A1280073|PL|05-510|KONSTANCIN JEZIORNA|Pułaskiego|2||||
-Nie znaleziono kodów pocztowych dla KONSTANCIN-JEZIORNA/Kazimierza Pułaskiego/|A1870183|PL|05-510|KONSTANCIN-JEZIORNA|Kazimierza Pułaskiego|76||||
-Nie znaleziono kodów pocztowych dla KRAKOW/Biskupia/|A10487|PL|31-144|KRAKOW|Biskupia|10|14|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
 Nie znaleziono kodów pocztowych dla Krakow/Krowodra Górka/|T17064|PL||Krakow|Krowodra Górka|22|91|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono kodów pocztowych dla Krakow/Krowodra Górka/|TU17064|PL||Krakow|Krowodra Górka|22|91|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Biskupia/|A1657794|PL|31-144|Kraków|Biskupia|6|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Biskupia/|A1683722|PL|31-144|Kraków|Biskupia|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Biskupia/|A1782813|PL|31-144|Kraków|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Biskupia/|A1826139|PL|31-144|Kraków|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A11480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1297638|PL|31-144|KRAKÓW|Biskupia|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1325193|PL|31-142|KRAKÓW|Biskupia|22|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1350807|PL|31-144|KRAKÓW|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1394915|PL|31-144|KRAKÓW|Biskupia|20||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1409857|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1419867|PL|31-144|KRAKÓW|Biskupia|22|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1432683|PL|31-144|KRAKÓW|Biskupia|2|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1454989|PL|31-144|KRAKÓW|Biskupia|3|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1468336|PL|31-144|KRAKÓW|Biskupia|22|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1623928|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1676491|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1691474|PL|30-144|KRAKÓW|Biskupia|3|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1839215|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|A1888268|PL|31-144|KRAKÓW|Biskupia|10|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|AP1480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Biskupia/|AP1676491|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/BISKUPIA/|A1247525|PL|31-055|KRAKÓW|BISKUPIA|14|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Bogdanowicza/|A1898012|PL|30-405|Kraków|Bogdanowicza|4||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Bogdanowicza/|A1429124|PL|30-405|KRAKÓW|Bogdanowicza|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Bogdanowicza/|A1441612|PL|30-405|KRAKÓW|Bogdanowicza|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimech/|A1296260|PL|30-667|KRAKÓW|Facimech|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1633284|PL|30-667|Kraków|Facimiech|12A|43|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1659893|PL|30-667|Kraków|Facimiech|18|36|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1663387|PL|30-667|Kraków|Facimiech|18|36|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1682195|PL|30-667|Kraków|Facimiech|18|33|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1830918|PL|30-683|Kraków|Facimiech|6C||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1873895|PL|30-667|Kraków|Facimiech|3b||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1874893|PL|30-667|Kraków|Facimiech|4b|12|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1919257|PL|30-667|Kraków|Facimiech|9|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Facimiech/|A1919896|PL|30-667|Kraków|Facimiech|16|48|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A1303861|PL|30-667|KRAKÓW|Facimiech|16|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A1342301|PL|30-667|KRAKÓW|Facimiech|14|9|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A1430041|PL|30-667|KRAKÓW|Facimiech|12a|37|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A16813|PL|30-667|KRAKÓW|Facimiech|14|15|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|A17971|PL|30-667|KRAKÓW|Facimiech|16|17|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|K1777946|PL|30-667|KRAKÓW|Facimiech|4B|19|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|T1369355|PL|30-667|KRAKÓW|Facimiech|12A|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Facimiech/|T1777946|PL|30-667|KRAKÓW|Facimiech|4B|19|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/FACIMIECH/|A1982956|PL|30-667|KRAKÓW|FACIMIECH|12A|12|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Medyczna/|A1309388|PL|30-688|KRAKÓW|Medyczna|7||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Na Grządkach/|A1896098|PL|30-421|Kraków|Na Grządkach|5a|6|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na grządkach/|A1468818|PL|30-421|KRAKÓW|Na grządkach|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na Grządkach/|A1621921|PL|30-421|KRAKÓW|Na Grządkach|16||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na Grządkach/|A1789392|PL|30-421|KRAKÓW|Na Grządkach|1|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na Grządkach/|A1818304|PL|30-421|KRAKÓW|Na Grządkach|2|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na Grządkach/|A1847781|PL|30-421|KRAKÓW|Na Grządkach|2|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Na Grządkach/|A1992809|PL|30-421|KRAKÓW|Na Grządkach|5|6|||
-Nie znaleziono kodów pocztowych dla KRAKÓW/nad Sudołem/|A1842634|PL|31-228|KRAKÓW|nad Sudołem|6||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Ofiar Katynia/|A1230574|PL|37-700|KRAKÓW|Ofiar Katynia|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Ogrodniki/|A1708530|PL|30-421|Kraków|Ogrodniki|1|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Ogrodniki/|A1738752|PL|30-421|Kraków|Ogrodniki|4|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Ogrodniki/|A1278102|PL|30-421|KRAKÓW|Ogrodniki|5|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Ogrodniki/|A1304784|PL|30-421|KRAKÓW|Ogrodniki|10a||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Ogrodniki/|A1420015|PL|30-421|KRAKÓW|Ogrodniki|7|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Oraczy/|A1760351|PL|30-418|Kraków|Oraczy|5|6|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Oraczy/|A1782092|PL|30-418|Kraków|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Oraczy/|A1919789|PL|30-418|Kraków|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Oraczy/|A1395756|PL|30-418|KRAKÓW|Oraczy|12|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Oraczy/|A1795007|PL|30-418|KRAKÓW|Oraczy|14|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Oraczy/|T1185371|PL|30-065|KRAKÓW|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Oraczy/|TU1185371|PL|30-065|KRAKÓW|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ORACZY/|A1185963|PL|30-418|KRAKÓW|ORACZY|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ORACZY/|A1842226|PL|30-418|KRAKÓW|ORACZY|5|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/pl.Słowiański/|A1223900|PL|31-141|KRAKÓW|pl.Słowiański|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1894095|PL|30-668|Kraków|Polonijna|7|160|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1894795|PL|30-668|Kraków|Polonijna|7|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1894814|PL|30-668|Kraków|Polonijna|11|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1897425|PL|30-668|Kraków|Polonijna|11|94|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|A1917280|PL|30-668|Kraków|Polonijna|7|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Polonijna/|TU1368464|PL|30-668|Kraków|Polonijna|7|142|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1289673|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1607876|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1652873|PL|30-668|KRAKÓW|Polonijna|16|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1668621|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1834797|PL|30-668|KRAKÓW|Polonijna|16|11|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1841683|PL|30-668|KRAKÓW|Polonijna|21|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A1886955|PL|30-668|KRAKÓW|Polonijna|7|183|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|A21289673|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|F1318300|PL|30-668|KRAKÓW|Polonijna|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|K1614835|PL|30-668|KRAKÓW|Polonijna|19|13|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|S1436631|PL|30-668|KRAKÓW|Polonijna|11|11|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|S1686521|PL|30-668|KRAKÓW|Polonijna|7|99|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Polonijna/|TU1614835|PL|30-668|KRAKÓW|Polonijna|19|13|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/POLONIJNA/|A1943252|PL|30-668|KRAKÓW|POLONIJNA|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/POLONIJNA/|A1944927|PL|30-668|KRAKÓW|POLONIJNA|21|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW-PODGÓRZE
-Nie znaleziono kodów pocztowych dla Kraków/Przy Torze/|A1710977|PL|30-421|Kraków|Przy Torze|14 A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono kodów pocztowych dla KRAKÓW/Przy Torze/|A1445180|PL||KRAKÓW|Przy Torze|15||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/PRZY TORZE/|A1814195|PL|30-421|KRAKÓW|PRZY TORZE|14A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Rynek Dędnicki/|A1620627|PL|30-319|KRAKÓW|Rynek Dędnicki|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Sapiechy/|TU1367837|PL|31-644|KRAKÓW|Sapiechy|33||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Sapiechy/|ZA1330979|PL|31-644|KRAKÓW|Sapiechy|21||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Sapiechy/|ZA1367837|PL|31-644|KRAKÓW|Sapiechy|33||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Słupska/|A1653837|PL|30-405|KRAKÓW|Słupska|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Szaniawskiego/|A1739880|PL|30-405|Kraków|Szaniawskiego|23||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1239533|PL|30-405|KRAKÓW|Szaniawskiego|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1280423|PL|30-405|KRAKÓW|Szaniawskiego|18|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1436866|PL|30-405|KRAKÓW|Szaniawskiego|14||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1467747|PL|30-405|KRAKÓW|Szaniawskiego|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1629452|PL|30-405|KRAKÓW|Szaniawskiego|29||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/Szaniawskiego/|A1915048|PL|30-405|KRAKÓW|Szaniawskiego|29||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/Św. Brata Alberta/|A1803951|PL|30-444|Kraków|Św. Brata Alberta|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul. Biskupia/|A1962212|PL|31-144|Kraków|ul. Biskupia|14|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul. Facimiech/|A1987468|PL|30-667|Kraków|ul. Facimiech|18|36|||
-Nie znaleziono kodów pocztowych dla KRAKÓW/ul. Młynówka Królewska/|A1416088|PL|30-134|KRAKÓW|ul. Młynówka Królewska|2||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul. Polonijna/|A1938047|PL|30-668|Kraków|ul. Polonijna|11|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul. Polonijna/|A1961284|PL|30-668|Kraków|ul. Polonijna|7|40|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ul.Facimiech/|A1468522|PL|30-667|KRAKÓW|ul.Facimiech|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ul.Ogrodniki/|A1742873|PL|30-421|KRAKÓW|ul.Ogrodniki 4/4|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla KRAKÓW/ul.Polonijna/|T1318300|PL|30-668|KRAKÓW|ul.Polonijna|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraków/ul.Szaniawskiego/|A1939805|PL|30-405|Kraków|ul.Szaniawskiego|12a||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Kraśnik/Księdza Zielińskiego/|A1635221|PL|23-210|Kraśnik|Księdza Zielińskiego|10|16|||
-Nie znaleziono kodów pocztowych dla KRAŚNIK/Zielińskiego/|A1436798|PL|23-210|KRAŚNIK|Zielińskiego|11|3|||
-Nie znaleziono kodów pocztowych dla Krępiec/Reymonta/|A1828636|PL|21-007|Krępiec|Reymonta|40B||||
-Nie znaleziono kodów pocztowych dla Lasowice Małe/Stawowa/|A1666154|PL|46-282|Lasowice Małe|Stawowa|22||||
-Nie znaleziono kodów pocztowych dla LEGIONOWO/Szarych Szeregów/|A1694846|PL|05-119|LEGIONOWO|Szarych Szeregów|17||||
-Nie znaleziono kodów pocztowych dla LUBLIN/KRUPIŃSKIEGO/|A1872388|PL|59-300|LUBLIN|KRUPIŃSKIEGO|95A||||
-Nie znaleziono kodów pocztowych dla Łaziska Górne/Głowińskiego/|A1894028|PL|43-173|Łaziska Górne|Głowińskiego|26B|6|||
-Nie znaleziono kodów pocztowych dla Łaziska Górne/Głowińskiego/|ZA1894028|PL|43-173|Łaziska Górne|Głowińskiego|26B|6|ŚLĄSKIE|MIKOŁOWSKI|ŁAZISKA GÓRNE
-Nie znaleziono kodów pocztowych dla ŁOMIANKI DOLNE/Lutosławskiego/|A1956099|PL|05-092|ŁOMIANKI DOLNE|Lutosławskiego|7||||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/al.ks.kard.Stefana Wyszyńskieg/|A1968340|PL|94-042|ŁÓDŹ|al.ks.kard.Stefana Wyszyńskieg|7A|19|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/al.Ks.Kardynała S.Wszyńskiego/|A1993416|PL|94-047|ŁÓDŹ|al.Ks.Kardynała S.Wszyńskiego|43|9|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Al.Wyszyńskiego/|A1388449|PL|94-050|ŁÓDŹ|Al.Wyszyńskiego|83|17|||
-Nie znaleziono kodów pocztowych dla Łódź/Kard. Wyszyńskiego/|A1637565|PL|94-047|Łódź|Kard. Wyszyńskiego|52|4|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Pl.Dąbrowskigo/|A1277825|PL|90-249|ŁÓDŹ|Pl.Dąbrowskigo|3|6|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/ul.Wyszyńskiego/|A1603663|PL|94-047|ŁÓDŹ|ul.Wyszyńskiego|33|11|||
-Nie znaleziono kodów pocztowych dla Łódź/Wyszyńskiego/|A1643044|PL|94-047|Łódź|Wyszyńskiego|68|70|||
-Nie znaleziono kodów pocztowych dla Łódź/Wyszyńskiego/|A1690851|PL|94-047|Łódź|Wyszyńskiego|47|29|||
-Nie znaleziono kodów pocztowych dla Łódź/Wyszyńskiego/|A1807142|PL|94-047|Łódź|Wyszyńskiego|43|7|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1609118|PL|94-047|ŁÓDŹ|Wyszyńskiego|58|25|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1670837|PL|94-051|ŁÓDŹ|Wyszyńskiego|93|20|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1677244|PL|94-050|ŁÓDŹ|Wyszyńskiego|83|4|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1740585|PL|94-042|ŁÓDŹ|Wyszyńskiego|12|5|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1772350|PL|94-047|ŁÓDŹ|Wyszyńskiego|63|27|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1889396|PL|94-047|ŁÓDŹ|Wyszyńskiego|33|8|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1907283|PL|94-042|ŁÓDŹ|Wyszyńskiego|24|46|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/Wyszyńskiego/|A1958269|PL|94-047|ŁÓDŹ|Wyszyńskiego|38||||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/WYSZYŃSKIEGO/|A1755218|PL|94-047|ŁÓDŹ|WYSZYŃSKIEGO|68|34A|||
-Nie znaleziono kodów pocztowych dla ŁÓDŹ/ZAGŁOBY/|A1849038|PL|92-430|ŁÓDŹ|ZAGŁOBY|18|6|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
-Nie znaleziono kodów pocztowych dla MICHAŁÓW RUDNICKI/Częstochowska/|A1882460|PL|42-270|MICHAŁÓW RUDNICKI|Częstochowska|10||ŚLĄSKIE|CZĘSTOCHOWSKI|KŁOMNICE
-Nie znaleziono kodów pocztowych dla Mikołów/Sikorek/|A1940670|PL|43-190|Mikołów|Sikorek|10||ŚLĄSKIE|MIKOŁOWSKI|MIKOŁÓW
-Nie znaleziono kodów pocztowych dla MYSŁOWICE/ul Onrzeźna Zachodnia/|A1388426|PL|41-400|MYSŁOWICE|ul Onrzeźna Zachodnia 37|||||
-Nie znaleziono kodów pocztowych dla NOWA WIEŚ/ul. Wiejska/|A1464742|PL|42-690|NOWA WIEŚ|ul. Wiejska|123||||
-Nie znaleziono kodów pocztowych dla NOWA WIEŚ/Wiejska/|ZA1464742|PL|42-690|NOWA WIEŚ|Wiejska|123||ŚLĄSKIE|TARNOGÓRSKI|TARNOWSKIE GÓRY
-Nie znaleziono kodów pocztowych dla Nowy Dwór Mazowiecki/diamentowa/|A1918470|PL|05-101|Nowy Dwór Mazowiecki|diamentowa|6a||||
-Nie znaleziono kodów pocztowych dla OLSZTYN/POZNAŃSKIEGO/|A1410881|PL|10-767|OLSZTYN|POZNAŃSKIEGO|13||WARMIŃSKO-MAZURSKIE|OLSZTYN|OLSZTYN
-Nie znaleziono kodów pocztowych dla OLSZTYN/Rajewskiego/|A1992138|PL|10-683|OLSZTYN|Rajewskiego|5||||
-Nie znaleziono kodów pocztowych dla OSTROŁĘKA/księdza Edmunda Waltera/|A1927117|PL|07-410|OSTROŁĘKA|księdza Edmunda Waltera|6||||
-Nie znaleziono kodów pocztowych dla Ostrołęka/ul. Borówkowa/|A1962006|PL|07-401|Ostrołęka|ul. Borówkowa|9||||
-Nie znaleziono kodów pocztowych dla OTWOCK/Lisia/|A1719198|PL|05-400|OTWOCK|Lisia|2||MAZOWIECKIE|OTWOCKI|OTWOCK
-Nie znaleziono kodów pocztowych dla OTWOCK/Marusarzówny/|A1752202|PL|05-402|OTWOCK|Marusarzówny|32||||
-Nie znaleziono kodów pocztowych dla OTWOCK/Mysia/|A1645523|PL|05-400|OTWOCK|Mysia|5|7|||
-Nie znaleziono kodów pocztowych dla OTWOCK/Sowińskiego/|A1717424|PL|05-402|OTWOCK|Sowińskiego|20||MAZOWIECKIE|OTWOCKI|OTWOCK
-Nie znaleziono kodów pocztowych dla OTWOCK/Wojska Polskiego/|A1813611|PL|05-402|OTWOCK|Wojska Polskiego|26||MAZOWIECKIE|OTWOCKI|OTWOCK
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A11952204|PL|05-500|PIASECZNO|Kineskopowa|1||||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A1838480|PL|05-500|PIASECZNO|Kineskopowa|1B|126|||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A1849489|PL|05-500|PIASECZNO|Kineskopowa|1D||||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A1929084|PL|05-500|PIASECZNO|Kineskopowa|1|114|||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Kineskopowa/|A1953571|PL|05-500|PIASECZNO|Kineskopowa|1||||
-Nie znaleziono kodów pocztowych dla PIASECZNO/Piasta/|A1481318|PL|05-820|PIASECZNO|Piasta|13||MAZOWIECKIE|PRUSZKOWSKI|PIASTÓW
-Nie znaleziono kodów pocztowych dla PIEKARY ŚLĄSKIE/Głęboka/|A1272300|PL|41-940|PIEKARY ŚLĄSKIE|Głęboka|14||ŚLĄSKIE|PIEKARY ŚLĄSKIE|PIEKARY ŚLĄSKIE
-Nie znaleziono kodów pocztowych dla Podklasztor/Turzyniec/|A1708416|PL|22-440|Podklasztor|Turzyniec|6||||
-Nie znaleziono kodów pocztowych dla Ponikiew/Jodłowa/|A1991735|PL|34-100|Ponikiew|Jodłowa|77||||
-Nie znaleziono kodów pocztowych dla Ponikiew/Wadowicka/|A1991719|PL|34-100|Ponikiew|Wadowicka|330||||
-Nie znaleziono kodów pocztowych dla PORAJ/MICKIEWICZA/|A1252046|PL|42-297|PORAJ|MICKIEWICZA|48||ŚLĄSKIE|MYSZKOWSKI|MYSZKÓW
-Nie znaleziono kodów pocztowych dla PORAJ/Ogrodowa/|A1209395|PL|42-297|PORAJ|Ogrodowa|10||ŚLĄSKIE|MYSZKOWSKI|MYSZKÓW
-Nie znaleziono kodów pocztowych dla PORAJ/ul.Górnicza/|A1478011|PL|42-297|PORAJ|ul.Górnicza|14||||
-Nie znaleziono kodów pocztowych dla POZNAŃ/Królowej Jadwogi/|A1902273|PL|61-872|POZNAŃ|Królowej Jadwogi|43||||
-Nie znaleziono kodów pocztowych dla POZNAŃ/Miedziana/|A1775052|PL|60-118|POZNAŃ|Miedziana|3||||
-Nie znaleziono kodów pocztowych dla POZNAŃ/Os.Bol.Chrobrego/|A1283306|PL|60-681|POZNAŃ|Os.Bol.Chrobrego|20|51|WIELKOPOLSKIE|POZNAŃ|POZNAŃ
-Nie znaleziono kodów pocztowych dla RADOM/Malczeskiego/|A1609879|PL|26-600|RADOM|Malczeskiego|25||||
-Nie znaleziono kodów pocztowych dla RUDA ŚLĄSKA/Szyb Barbary/|A1929686|PL|41-709|RUDA ŚLĄSKA|Szyb Barbary|2||||
-Nie znaleziono kodów pocztowych dla RUDKI/Pocztowa/|A1205032|PL|26-007|RUDKI|Pocztowa|13|9|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodów pocztowych dla Rybnik/Księdza Śliwki/|A1827396|PL|44-206|Rybnik|Księdza Śliwki|20||||
-Nie znaleziono kodów pocztowych dla Rybnik/Leopolda Staffa/|A1807077|PL|44-274|Rybnik|Leopolda Staffa|23||||
-Nie znaleziono kodów pocztowych dla RYBNIK/Patryjotów/|A1421859|PL|44-253|RYBNIK|Patryjotów|40A|9|ŚLĄSKIE|RYBNIK|RYBNIK
-Nie znaleziono kodów pocztowych dla Rybnik/Pod Hałdą/|A1854597|PL|44-206|Rybnik|Pod Hałdą|29a||||
-Nie znaleziono kodów pocztowych dla Rybnik/Spółdzielcza/|A1682660|PL|44-274|Rybnik|Spółdzielcza|20||||
-Nie znaleziono kodów pocztowych dla Rybnik/Spółdzielcza/|A1689396|PL|44-274|Rybnik|Spółdzielcza|14||||
-Nie znaleziono kodów pocztowych dla RYBNIK/SPÓŁDZIELCZA/|ZA1347521|PL|44-274|RYBNIK|SPÓŁDZIELCZA|14||ŚLĄSKIE|RYBNIK|RYBNIK
-Nie znaleziono kodów pocztowych dla Rybnik/Staffa/|A1713175|PL|44-274|Rybnik|Staffa|10c||||
-Nie znaleziono kodów pocztowych dla Rybnik/Staffa/|A1854187|PL|44-274|Rybnik|Staffa|10 c||||
-Nie znaleziono kodów pocztowych dla RYBNIK/Zebrzydowska/|A1404193|PL|44-217|RYBNIK|Zebrzydowska|117||ŚLĄSKIE||
-Nie znaleziono kodów pocztowych dla Siedlce/Liliowa/|A1855316|PL|08-110|Siedlce|Liliowa|14||MAZOWIECKIE|SIEDLCE|SIEDLCE
-Nie znaleziono kodów pocztowych dla SIEMIANOWICE ŚLĄSKIE/Tkacka/|A1404257|PL|34-120|SIEMIANOWICE ŚLĄSKIE|Tkacka|30||||
-Nie znaleziono kodów pocztowych dla SOSNOWIEC/Dietla/|A1261389|PL|41-200|SOSNOWIEC|Dietla|15A||ŚLĄSKIE|SOSNOWIEC|SOSNOWIEC
-Nie znaleziono kodów pocztowych dla SOSNOWIEC/Dietla/|A1370044|PL|41-214|SOSNOWIEC|Dietla|5a|10|||
-Nie znaleziono kodów pocztowych dla SOSNOWIEC/Dietla/|A1391826|PL|41-200|SOSNOWIEC|Dietla|16||||
-Nie znaleziono kodów pocztowych dla SOSNOWIEC/Dietla/|A1394600|PL|41-214|SOSNOWIEC|Dietla|7a|9|||
-Nie znaleziono kodów pocztowych dla Sosnowiec/Stoczniowców/|A1690443|PL|41-208|Sosnowiec|Stoczniowców|3A|3|||
-Nie znaleziono kodów pocztowych dla SULEJÓWEK/Sielankowa/|A1717012|PL|05-070|SULEJÓWEK|Sielankowa|4|2|||
-Nie znaleziono kodów pocztowych dla SULEJÓWEK/Sielankowa/|A1987073|PL|05-070|SULEJÓWEK|Sielankowa|9|1|MAZOWIECKIE|MIŃSKI|SULEJÓWEK
-Nie znaleziono kodów pocztowych dla SZCZECIN/Brylantowa/|A1469624|PL|71-235|SZCZECIN|Brylantowa|3|5|||
-Nie znaleziono kodów pocztowych dla SZCZECIN/Sasankowa/|A1307735|PL|72-003|SZCZECIN|Sasankowa|25||ZACHODNIOPOMORSKIE|SZCZECIN|SZCZECIN
-Nie znaleziono kodów pocztowych dla SZYCE/KRAJOBRAZOWA/|A1942409|PL|32-085|SZYCE|KRAJOBRAZOWA|5||||
-Nie znaleziono kodów pocztowych dla SZYCE/Nasza/|K1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
-Nie znaleziono kodów pocztowych dla SZYCE/Nasza/|T1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
-Nie znaleziono kodów pocztowych dla SZYCE/Nasza/|TU1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
-Nie znaleziono kodów pocztowych dla SZYCE/NASZA/|A1935848|PL|32-085|SZYCE|NASZA|1C||||
-Nie znaleziono kodów pocztowych dla SZYCE/NASZA/|ZA1460647|PL|32-085|SZYCE|NASZA|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
-Nie znaleziono kodów pocztowych dla SZYCE/ul. Wesoła/|A1942253|PL|32-085|SZYCE|ul. Wesoła|48||MAŁOPOLSKIE||
-Nie znaleziono kodów pocztowych dla Szyce/Wesoła/|A1715426|PL|32-085|Szyce|Wesoła|28||||
 Nie znaleziono kodów pocztowych dla TARNÓW OPOLSKI/Kopernika/|A1872007|PL||TARNÓW OPOLSKI|Kopernika|17a||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Biała/|A1808159|PL|33-102|TARNÓW|Biała|42||||
-Nie znaleziono kodów pocztowych dla Tarnów/Osiedle/|A1739876|PL|33-100|Tarnów|Osiedle|29||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Rozwojowa/|A1908328|PL|33-100|TARNÓW|Rozwojowa|49||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Rozwojowa/|A1947316|PL|33-100|TARNÓW|Rozwojowa|9||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Rozwojowa/|A1995208|PL|33-100|TARNÓW|Rozwojowa|41||||
-Nie znaleziono kodów pocztowych dla TARNÓW/ROZWOJOWA/|A1965770|PL|33-100|TARNÓW|ROZWOJOWA|47A||||
-Nie znaleziono kodów pocztowych dla Tarnów/Sławomira Mrożka/|A1807588|PL|33-100|Tarnów|Sławomira Mrożka|5|3|||
-Nie znaleziono kodów pocztowych dla Tarnów/Szarych Szeregow/|A1683658|PL|33-101|Tarnów|Szarych Szeregow|14||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Technologiczna/|A1946716|PL|33-100|TARNÓW|Technologiczna|14A||||
-Nie znaleziono kodów pocztowych dla Tarnów/ul. Osiedle/|A1941517|PL|33-100|Tarnów|ul. Osiedle|30||||
-Nie znaleziono kodów pocztowych dla TARNÓW/ul.Św.St.Kostki/|A1650055|PL|33-100|TARNÓW|ul.Św.St.Kostki 3a|||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Wiesława Wody/|A11848465|PL|33-100|TARNÓW|Wiesława Wody|27||||
-Nie znaleziono kodów pocztowych dla TARNÓW/Wiesława Wody/|A1848465|PL|33-100|TARNÓW|Wiesława Wody|27||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A01429280|PL|00-043|WARSZAWA|Czackiego|3/5|416|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A10713|PL|00-043|WARSZAWA|Czackiego|3|5 l.416|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A10994|PL|00-043|WARSZAWA|Czackiego|3|5|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A110713|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A11631686|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1219837|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1254951|PL|00-950|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1286562|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1306350|PL|00-043|WARSZAWA|Czackiego|19||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1424738|PL|00-043|WARSZAWA|Czackiego|3|5|MAZOWIECKIE||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1429280|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1436030|PL|00-043|WARSZAWA|Czackiego|3/5|115|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1445716|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1525684|PL|00-950|WARSZAWA|Czackiego|15|17|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1631686|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1678483|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1740578|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1789614|PL|00-043|WARSZAWA|Czackiego|7/9|11|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1796961|PL|00-043|WARSZAWA|Czackiego|3/5|121|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1879559|PL|00-043|WARSZAWA|Czackiego|3/5|302|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1884526|PL|00-043|WARSZAWA|Czackiego|3/5|21|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1932596|PL|00-043|WARSZAWA|Czackiego|3|5/502|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1952519|PL|00-043|WARSZAWA|Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|A1980456|PL|00-043|WARSZAWA|Czackiego|15|17|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czackiego/|AP1640036|PL|00-043|WARSZAWA|Czackiego|3/5|121|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Czckiego/|A21631686|PL|00-043|WARSZAWA|Czckiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Dynasy/|A1481102|PL|00-354|WARSZAWA|Dynasy|4|14|MAZOWIECKIE|WARSZAWA|ŚRÓDMIEŚCIE
-Nie znaleziono kodów pocztowych dla WARSZAWA/DYNASY/|A1965623|PL|00-354|WARSZAWA|DYNASY|6|9|MAZOWIECKIE|WARSZAWA|WARSZAWA
-Nie znaleziono kodów pocztowych dla WARSZAWA/Elektryczna/|A1242210|PL|00-346|WARSZAWA|Elektryczna|2a||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/IV Poprzeczna/|A1269487|PL|04-611|WARSZAWA|IV Poprzeczna|3a||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Jacka Kaczmarskiego/|A114706|PL|02-679|WARSZAWA|Jacka Kaczmarskiego|27||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Jacka Kaczmarskiego/|A14706|PL|02-679|WARSZAWA|Jacka Kaczmarskiego|27||ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
-Nie znaleziono kodów pocztowych dla WARSZAWA/Jordana/|A71178986|PL|00-050|WARSZAWA|Jordana|25||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/pl.J.H. Dąbrowskiego/|A1478018|PL|00-950|WARSZAWA|pl.J.H. Dąbrowskiego 3|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/PŁK. ZOLTANA BALO/|A1430913|PL|02-793|WARSZAWA|PŁK. ZOLTANA BALO|4|8|MAZOWIECKIE|WARSZAWA|URSYNÓW
-Nie znaleziono kodów pocztowych dla WARSZAWA/Sengera/|A01396300|PL|02-790|WARSZAWA|Sengera|24|2a|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/T. Czackiego/|A1762725|PL|00-043|WARSZAWA|T. Czackiego|3/5|405|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Traugutta/|A1815032|PL|00-067|WARSZAWA|Traugutta|7|9|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/Ujazdowske/|A1810923|PL|00-583|WARSZAWA|Ujazdowske|9||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul -Czackiego/|A1202275|PL|00-043|WARSZAWA|ul -Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul. Romualda Traugutta/|A1848976|PL|00-067|WARSZAWA|ul. Romualda Traugutta|3|6|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul. Tadeusza Czackiego/|A1213241|PL|00-043|WARSZAWA|ul. Tadeusza Czackiego|3/5||MAZOWIECKIE||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A01286562|PL|00-043|WARSZAWA|ul.Czackiego 3/5|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A1418656|PL|00-950|WARSZAWA|ul.Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A1477388|PL|00-950|WARSZAWA|ul.Czackiego 21/23|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A1761972|PL|00-043|WARSZAWA|ul.Czackiego 3/5|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Czackiego/|A31429280|PL|00-043|WARSZAWA|ul.Czackiego|3|5|||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Traugutta/|A1475602|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Traugutta/|A1475603|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Traugutta/|A1475606|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
-Nie znaleziono kodów pocztowych dla WARSZAWA/ul.Traugutta/|A1475607|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
-Nie znaleziono kodów pocztowych dla WOJCIESZYCE/Parkowa/|A1722594|PL|66-415|WOJCIESZYCE|Parkowa|33||LUBUSKIE|GORZOWSKI|KŁODAWA
-Nie znaleziono kodów pocztowych dla WOJCIESZYCE/Parkowa/|A1844097|PL|66-415|WOJCIESZYCE|Parkowa|33||||
-Nie znaleziono kodów pocztowych dla Wojcieszyce/Słoneczna/|A1916774|PL|66-415|Wojcieszyce|Słoneczna|14||LUBUSKIE|GORZOWSKI|KŁODAWA
-Nie znaleziono kodów pocztowych dla WROCŁAW/Gen. ładysława Sikorskiego/|A141151|PL|53-659|WROCŁAW|Gen. ładysława Sikorskiego|2-8||||
-Nie znaleziono kodów pocztowych dla WROCŁAW/Św. Mikołaja/|A1280796|PL|50-128|WROCŁAW|Św. Mikołaja|32/33|8|DOLNOŚLĄSKIE|WROCŁAW|WROCŁAW
-Nie znaleziono kodów pocztowych dla WROCŁAW/Św. Mikołaja/|A1396785|PL|50-126|WROCŁAW|Św. Mikołaja|72||||
-Nie znaleziono kodów pocztowych dla WROCŁAW/ul. Św. Mikołaja/|A1330234|PL|50-125|WROCŁAW|ul. Św. Mikołaja|8.-11.||||
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/os.Na Stoku/|A1664272|PL|32-080|ZABIERZÓW|os.Na Stoku|7||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/Osiedle Na Stoku/|ZA1685721|PL|32-080|ZABIERZÓW|Osiedle Na Stoku|1||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/Pl.Rynek/|A1836037|PL|32-080|ZABIERZÓW|Pl.Rynek|1||||
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/Pogorzany/|A1811|PL|32-080|ZABIERZÓW|Pogorzany|16||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/Rynek/|A1836378|PL|32-080|ZABIERZÓW|Rynek|1||||
-Nie znaleziono kodów pocztowych dla ZABIERZÓW/ul. Śliczna/|A1959463|PL|32-080|ZABIERZÓW|ul. Śliczna|29||MAŁOPOLSKIE||
-Nie znaleziono kodów pocztowych dla ZABRZE/Georgiusa Agricoli/|A11702822|PL|41-800|ZABRZE|Georgiusa Agricoli|2||||
-Nie znaleziono kodów pocztowych dla Zabrze/Goethego/|A1856465|PL|41-800|Zabrze|Goethego|16|6|||
-Nie znaleziono kodów pocztowych dla ZABRZE/Pl.N.Kroczka/|A1371744|PL|41-807|ZABRZE|Pl.N.Kroczka|9|1|||
-Nie znaleziono kodów pocztowych dla Zielona Góra/Zawadzkiego Tadeusza/|A1683090|PL|65-530|Zielona Góra|Zawadzkiego Tadeusza|17|3|||
-Nie znaleziono kodów pocztowych dla ZRĘBICE/ul.Główna/|A1651897|PL|42-256|ZRĘBICE|ul.Główna 17|||||
-Nie znaleziono kodów pocztowych dla ŻORY/Dębowa/|A1393867|PL|44-240|ŻORY|Dębowa|25||||
-Nie znaleziono kodów pocztowych dla ŻORY/Dębowa/|A1462338|PL|44-240|ŻORY|Dębowa|25||||
-Nie znaleziono kodów pocztowych dla ŻORY/Ks.Władysława/|A1694342|PL|44-240|ŻORY|Ks.Władysława|13G|6|||
-Nie znaleziono kodów pocztowych dla Żory/os. Gwarków/|A1659113|PL|44-240|Żory|os. Gwarków|32c|1|||
-Nie znaleziono kodów pocztowych dla ŻORY/os.Ks.Władysława/|ZA1417999|PL|44-240|ŻORY|os.Ks.Władysława|10a|38|ŚLĄSKIE|ŻORY|ŻORY
-Nie znaleziono kodów pocztowych dla ŻORY/OS.KS.WŁADYSŁAWA/|A1729919|PL|44-240|ŻORY|OS.KS.WŁADYSŁAWA|2H|5|ŚLĄSKIE|ŻORY|ŻORY
-Nie znaleziono kodów pocztowych dla ŻORY/os.Księcia Władysława/|A1643806|PL|44-240|ŻORY|os.Księcia Władysława|10D|6|ŚLĄSKIE|ŻORY|ŻORY
-Nie znaleziono kodów pocztowych dla ŻORY/Os.Księcia Władysława/|A1267365|PL|44-240|ŻORY|Os.Księcia Władysława|56|11|ŚLĄSKIE|ŻORY|ŻORY
-Nie znaleziono kodów pocztowych dla ŻORY/oś.Księcia Władysława/|A1411525|PL|44-240|ŻORY|oś.Księcia Władysława|13G|6|||
-Nie znaleziono kodów pocztowych dla ŻORY/oś.Księcia Władysława/|A1412881|PL|44-240|ŻORY|oś.Księcia Władysława|5||||
-Nie znaleziono kodów pocztowych dla ŻORY/Oś.Księcia Władysława/|A1870640|PL|44-240|ŻORY|Oś.Księcia Władysława|5E|26|||
-Nie znaleziono kodów pocztowych dla ŻORY/Pileckiego/|A1928353|PL|44-240|ŻORY|Pileckiego|31||||
 Nie znaleziono miejscowości: ???????/Szukana miejscowość: ???????,Znormalizowana nazwa: ???????|T18142|PL||???????|Mszana Gorna|310||||
 Nie znaleziono miejscowości: 2/Szukana miejscowość: 2,Znormalizowana nazwa: 2|A1626459|PL|67-200|2|Jagiellońska|Jagiell|47|||
 Nie znaleziono miejscowości: 20832/Szukana miejscowość: 20832,Znormalizowana nazwa: 20832|A1696514|PL||20832|Deszczowa|19|Lublin|||
@@ -3008,7 +2591,6 @@ Nie znaleziono ulicy ''Al Solidarności' w miejscowości 'WARSZAWA''/Szukana uli
 Nie znaleziono ulicy ''Al Solidarności' w miejscowości 'WARSZAWA''/Szukana ulica: 'Al Solidarności',Miejscowość: 'WARSZAWA',Ulica istnieje w 10 innych miejscowościach|A1741705|PL|00-090|WARSZAWA|Al Solidarności|75|26|||
 Nie znaleziono ulicy ''al. 1000-lecia' w miejscowości 'Rabka''/Szukana ulica: 'al. 1000-lecia',Miejscowość: 'Rabka',Ulica istnieje w 10 innych miejscowościach|A1988920|PL|34-700|Rabka|al. Tysiąclecia|7c||||
 Nie znaleziono ulicy ''Al. Jana Pawła II' w miejscowości 'OSIECZNA''/Szukana ulica: 'Al. Jana Pawła II',Miejscowość: 'OSIECZNA',Ulica istnieje w 10 innych miejscowościach|A1655918|PL|64-113|OSIECZNA|Al. Jana Pawła II|16||||
-Nie znaleziono ulicy ''al. Tadeusza Kościuszki' w miejscowości 'ŁÓDŹ''/Szukana ulica: 'al. Tadeusza Kościuszki',Miejscowość: 'ŁÓDŹ',Ulica istnieje w 10 innych miejscowościach|A1475003|PL|90-514|ŁÓDŹ|al. Tadeusza Kościuszki 63|||||
 Nie znaleziono ulicy ''al.Chopina' w miejscowości 'ŁOMIANKI''/Szukana ulica: 'al.Chopina',Miejscowość: 'ŁOMIANKI',Ulica istnieje w 10 innych miejscowościach|A1749532|PL|05-028|ŁOMIANKI|al.Chopina 98A|||||
 Nie znaleziono ulicy ''Al.gen. Tadeusza Bora-Komorows' w miejscowości 'KRAKÓW''/Szukana ulica: 'Al.gen. Tadeusza Bora-Komorows',Miejscowość: 'KRAKÓW',Ulica istnieje w 10 innych miejscowościach|A1931992|PL|31-876|KRAKÓW|Al.gen. Tadeusza Bora-Komorows|37||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''al.Henryka' w miejscowości 'CHORZÓW''/Szukana ulica: 'al.Henryka',Miejscowość: 'CHORZÓW',Ulica istnieje w 10 innych miejscowościach|A1358686|PL|32-500|CHORZÓW|al.Henryka|63||||
@@ -3089,7 +2671,6 @@ Nie znaleziono ulicy ''Baranowskiego' w miejscowości 'Jaworzno''/Szukana ulica:
 Nie znaleziono ulicy ''Baranowskiego' w miejscowości 'JAWORZNO''/Szukana ulica: 'Baranowskiego',Miejscowość: 'JAWORZNO',Ulica istnieje w 10 innych miejscowościach|A1368224|PL|43-607|JAWORZNO|Baranowskiego|94||ŚLĄSKIE||
 Nie znaleziono ulicy ''Baranowskiego' w miejscowości 'JAWORZNO''/Szukana ulica: 'Baranowskiego',Miejscowość: 'JAWORZNO',Ulica istnieje w 10 innych miejscowościach|A1462958|PL|43-607|JAWORZNO|Baranowskiego|29||||
 Nie znaleziono ulicy ''Bartosza Głowackiego' w miejscowości 'ALWERNIA''/Szukana ulica: 'Bartosza Głowackiego',Miejscowość: 'ALWERNIA',Ulica istnieje w 10 innych miejscowościach|A1607087|PL|32-566|ALWERNIA|Bartosza Głowackiego|36||||
-Nie znaleziono ulicy ''Bartosza Głowackiego' w miejscowości 'CHRZANÓW''/Szukana ulica: 'Bartosza Głowackiego',Miejscowość: 'CHRZANÓW',Ulica istnieje w 10 innych miejscowościach|A1906555|PL|32-500|CHRZANÓW|Bartosza Głowackiego|29||MAŁOPOLSKIE|CHRZANOWSKI|CHRZANÓW
 Nie znaleziono ulicy ''Batalionów Chłopskich' w miejscowości 'WIERZBNA''/Szukana ulica: 'Batalionów Chłopskich',Miejscowość: 'WIERZBNA',Ulica istnieje w 10 innych miejscowościach|A1797799|PL|37-100|WIERZBNA|Batalionów Chłopskich|1||||
 Nie znaleziono ulicy ''Batalionu Parasol' w miejscowości 'WARSZAWA''/Szukana ulica: 'Batalionu Parasol',Miejscowość: 'WARSZAWA',Ulica istnieje w 2 innych miejscowościach|A1667301|PL|01-120|WARSZAWA|Batalionu Parasol|3A|23|||
 Nie znaleziono ulicy ''Batalionu Zośka' w miejscowości 'WARSZAWA''/Szukana ulica: 'Batalionu Zośka',Miejscowość: 'WARSZAWA',Ulica istnieje w 5 innych miejscowościach|A1449905|PL|01-130|WARSZAWA|Batalionu Zośka|3|45|||
@@ -3143,8 +2724,6 @@ Nie znaleziono ulicy ''Bojarska' w miejscowości 'Kijow''/Szukana ulica: 'Bojars
 Nie znaleziono ulicy ''Bolesława Chrobrego' w miejscowości 'GORZÓW''/Szukana ulica: 'Bolesława Chrobrego',Miejscowość: 'GORZÓW',Ulica istnieje w 10 innych miejscowościach|A1744916|PL|66-400|GORZÓW|Bolesława Chrobrego|9||||
 Nie znaleziono ulicy ''Bolesława Komorowski' w miejscowości 'Kraków''/Szukana ulica: 'Bolesława Komorowski',Miejscowość: 'Kraków',Ulica istnieje w 1 innych miejscowościach|A1713081|PL|30-106|Kraków|Bolesława Komorowski|5|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Bolesława Limanowskiego' w miejscowości 'Dąbrowa Górnicza''/Szukana ulica: 'Bolesława Limanowskiego',Miejscowość: 'Dąbrowa Górnicza',Ulica istnieje w 10 innych miejscowościach|A1778291|PL|41-300|Dąbrowa Górnicza|Bolesława Limanowskiego|10|H|||
-Nie znaleziono ulicy ''Bolesława Prusa' w miejscowości 'Brzeszcze''/Szukana ulica: 'Bolesława Prusa',Miejscowość: 'Brzeszcze',Ulica istnieje w 10 innych miejscowościach|A1641509|PL|30-620|Brzeszcze|Bolesława Prusa|7|16|||
-Nie znaleziono ulicy ''Bolesława Prusa' w miejscowości 'Brzeszcze''/Szukana ulica: 'Bolesława Prusa',Miejscowość: 'Brzeszcze',Ulica istnieje w 10 innych miejscowościach|A1689353|PL|32-620|Brzeszcze|Bolesława Prusa|2|8|||
 Nie znaleziono ulicy ''Bora Komorowskiego' w miejscowości 'Katowice''/Szukana ulica: 'Bora Komorowskiego',Miejscowość: 'Katowice',Ulica istnieje w 4 innych miejscowościach|A1781860|PL|40-748|Katowice|Bora Komorowskiego|11||||
 Nie znaleziono ulicy ''Borowikowa' w miejscowości 'Jankowice''/Szukana ulica: 'Borowikowa',Miejscowość: 'Jankowice',Ulica istnieje w 10 innych miejscowościach|A1660651|PL|43-215|Jankowice|Borowikowa|5||||
 Nie znaleziono ulicy ''Borowikowa' w miejscowości 'Jankowice''/Szukana ulica: 'Borowikowa',Miejscowość: 'Jankowice',Ulica istnieje w 10 innych miejscowościach|A1757190|PL|43-215|Jankowice|Borowikowa|7a||||
@@ -3359,7 +2938,6 @@ Nie znaleziono ulicy ''Dziedzica' w miejscowości 'KRAKÓW''/Szukana ulica: 'Dzi
 Nie znaleziono ulicy ''Dziedzica' w miejscowości 'KRAKÓW''/Szukana ulica: 'Dziedzica',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1296815|PL|31-416|KRAKÓW|Dziedzica|7|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Dziedzica' w miejscowości 'KRAKÓW''/Szukana ulica: 'Dziedzica',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1362072|PL||KRAKÓW|Dziedzica|1A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Egipska' w miejscowości 'BIAŁYSTOK''/Szukana ulica: 'Egipska',Miejscowość: 'BIAŁYSTOK',Ulica istnieje w 4 innych miejscowościach|A1870130|PL|15-521|BIAŁYSTOK|Egipska|1||||
-Nie znaleziono ulicy ''Emilii Plater' w miejscowości 'MIELEC''/Szukana ulica: 'Emilii Plater',Miejscowość: 'MIELEC',Ulica istnieje w 10 innych miejscowościach|A1747096|PL|39-300|MIELEC|Emilii Plater|14||||
 Nie znaleziono ulicy ''Energetyczna' w miejscowości 'BEŁCHATÓW''/Szukana ulica: 'Energetyczna',Miejscowość: 'BEŁCHATÓW',Ulica istnieje w 10 innych miejscowościach|A11365903|PL|97-400|BEŁCHATÓW|Energetyczna|9||||
 Nie znaleziono ulicy ''Energetyków' w miejscowości 'GORZÓW''/Szukana ulica: 'Energetyków',Miejscowość: 'GORZÓW',Ulica istnieje w 10 innych miejscowościach|A1786313|PL|66-400|GORZÓW|Energetyków|6||||
 Nie znaleziono ulicy ''F.Wspaniałego' w miejscowości 'ALWERNIA''/Szukana ulica: 'F.Wspaniałego',Miejscowość: 'ALWERNIA',Ulica istnieje w 2 innych miejscowościach|A1910313|PL|32-566|ALWERNIA|F.Wspaniałego|1||||
@@ -3382,8 +2960,6 @@ Nie znaleziono ulicy ''Franciszka Zubrzyckiego' w miejscowości 'Łańcut''/Szuk
 Nie znaleziono ulicy ''Furgola' w miejscowości 'CZERWIONKA''/Szukana ulica: 'Furgola',Miejscowość: 'CZERWIONKA',Ulica istnieje w 2 innych miejscowościach|A1681720|PL|44-230|CZERWIONKA|Furgola|61||||
 Nie znaleziono ulicy ''Furgoła' w miejscowości 'Czerwionka''/Szukana ulica: 'Furgoła',Miejscowość: 'Czerwionka',Ulica istnieje w 2 innych miejscowościach|A1642648|PL|44-230|Czerwionka|Furgoła|61||||
 Nie znaleziono ulicy ''G.Zapolskiej' w miejscowości 'IZDEBNIK''/Szukana ulica: 'G.Zapolskiej',Miejscowość: 'IZDEBNIK',Ulica istnieje w 10 innych miejscowościach|A1301936|PL|34-144|IZDEBNIK 542|G.Zapolskiej|42||||
-Nie znaleziono ulicy ''Gabriela Narutowicza' w miejscowości 'Lublin''/Szukana ulica: 'Gabriela Narutowicza',Miejscowość: 'Lublin',Ulica istnieje w 10 innych miejscowościach|A1637182|PL|20-016|Lublin|Gabriela Narutowicza|38/42|28|||
-Nie znaleziono ulicy ''Gabriela Narutowicza' w miejscowości 'Lublin''/Szukana ulica: 'Gabriela Narutowicza',Miejscowość: 'Lublin',Ulica istnieje w 10 innych miejscowościach|ZA1637182|PL|20-016|Lublin|Gabriela Narutowicza|38/42|28|LUBELSKIE|LUBLIN|LUBLIN
 Nie znaleziono ulicy ''Gać' w miejscowości 'DĘBÓW''/Szukana ulica: 'Gać',Miejscowość: 'DĘBÓW',Ulica istnieje w 1 innych miejscowościach|A1875026|PL|37-200|DĘBÓW|Gać|35||PODKARPACKIE|PRZEWORSKI|GAĆ
 Nie znaleziono ulicy ''Gać' w miejscowości 'DĘBÓW''/Szukana ulica: 'Gać',Miejscowość: 'DĘBÓW',Ulica istnieje w 1 innych miejscowościach|K1875026|PL|37-200|DĘBÓW|Gać|35||PODKARPACKIE|PRZEWORSKI|GAĆ
 Nie znaleziono ulicy ''Gagarina' w miejscowości 'MIELEC''/Szukana ulica: 'Gagarina',Miejscowość: 'MIELEC',Ulica istnieje w 10 innych miejscowościach|A1190947|PL|39-300|MIELEC|Gagarina|11|2|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
@@ -3410,8 +2986,6 @@ Nie znaleziono ulicy ''Gen. Mariana Turkows' w miejscowości 'Bochnia''/Szukana 
 Nie znaleziono ulicy ''gen. Witolda Urbanowicza' w miejscowości 'WARSZAWA''/Szukana ulica: 'gen. Witolda Urbanowicza',Miejscowość: 'WARSZAWA',Ulica istnieje w 6 innych miejscowościach|A1832639|PL|00-908|WARSZAWA|gen. Witolda Urbanowicza|25a|22|||
 Nie znaleziono ulicy ''Gen. Witolda Urbanowicza' w miejscowości 'WARSZAWA''/Szukana ulica: 'Gen. Witolda Urbanowicza',Miejscowość: 'WARSZAWA',Ulica istnieje w 6 innych miejscowościach|A1834261|PL|01-476|WARSZAWA|Gen. Witolda Urbanowicza|21||||
 Nie znaleziono ulicy ''Gen. Władysława Siko' w miejscowości 'Nowy Targ''/Szukana ulica: 'Gen. Władysława Siko',Miejscowość: 'Nowy Targ',Ulica istnieje w 10 innych miejscowościach|A1708880|PL|34-400|Nowy Targ|Gen. Władysława Siko|7|34|||
-Nie znaleziono ulicy ''gen.Henryka Dąbrowskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'gen.Henryka Dąbrowskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 10 innych miejscowościach|A1809323|PL|30-532|KRAKÓW|gen.Henryka Dąbrowskiego|4|14|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Gen.Henryka Dąbrowskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'Gen.Henryka Dąbrowskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 10 innych miejscowościach|A1288164|PL|30-532|KRAKÓW|Gen.Henryka Dąbrowskiego|24||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Gen.Maczka' w miejscowości 'DĄBRÓWKI''/Szukana ulica: 'Gen.Maczka',Miejscowość: 'DĄBRÓWKI',Ulica istnieje w 10 innych miejscowościach|TU1278900|PL|37-100|DĄBRÓWKI|Gen.Maczka|19|42|PODKARPACKIE|ŁAŃCUCKI|ŁAŃCUT
 Nie znaleziono ulicy ''Gen.Maczka' w miejscowości 'DĄBRÓWKI''/Szukana ulica: 'Gen.Maczka',Miejscowość: 'DĄBRÓWKI',Ulica istnieje w 10 innych miejscowościach|ZA1278900|PL|37-100|DĄBRÓWKI|Gen.Maczka|19|42|PODKARPACKIE|ŁAŃCUCKI|ŁAŃCUT
 Nie znaleziono ulicy ''Gen.Okulickiego' w miejscowości 'PORAJ''/Szukana ulica: 'Gen.Okulickiego',Miejscowość: 'PORAJ',Ulica istnieje w 10 innych miejscowościach|A1922249|PL|42-360|PORAJ|Gen.Okulickiego|3||||
@@ -3535,8 +3109,6 @@ Nie znaleziono ulicy ''Hedy-Szarego' w miejscowości 'OSTROWIEC ŚWIĘTOKRZYSKI'
 Nie znaleziono ulicy ''HENRYK' w miejscowości 'BRODY''/Szukana ulica: 'HENRYK',Miejscowość: 'BRODY',Ulica istnieje w 10 innych miejscowościach|A1978931|PL|27-230|BRODY|HENRYK|1||||
 Nie znaleziono ulicy ''HENRYK' w miejscowości 'BRODY''/Szukana ulica: 'HENRYK',Miejscowość: 'BRODY',Ulica istnieje w 10 innych miejscowościach|ZA1978931|PL|27-230|BRODY|HENRYK|1||ŚWIĘTOKRZYSKIE|STARACHOWICKI|BRODY
 Nie znaleziono ulicy ''Henryka i Karola Cze' w miejscowości 'KRAKÓW''/Szukana ulica: 'Henryka i Karola Cze',Miejscowość: 'KRAKÓW',Ulica istnieje w 1 innych miejscowościach|TU1465046|PL|30-798|KRAKÓW|Henryka i Karola Cze|14|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Henryka Probusa' w miejscowości 'WARSZAWA''/Szukana ulica: 'Henryka Probusa',Miejscowość: 'WARSZAWA',Ulica istnieje w 6 innych miejscowościach|A1695788|PL|02-496|WARSZAWA|Henryka Probusa|9||MAZOWIECKIE|WARSZAWA|URSUS
-Nie znaleziono ulicy ''Henryka Sienkiewicza' w miejscowości 'Mielec''/Szukana ulica: 'Henryka Sienkiewicza',Miejscowość: 'Mielec',Ulica istnieje w 10 innych miejscowościach|A1896231|PL|39-300|Mielec|Henryka Sienkiewicza|139||PODKARPACKIE|MIELECKI|MIELEC
 Nie znaleziono ulicy ''Henrykowska' w miejscowości 'BIAŁYSTOK''/Szukana ulica: 'Henrykowska',Miejscowość: 'BIAŁYSTOK',Ulica istnieje w 10 innych miejscowościach|A1722849|PL|15-509|BIAŁYSTOK|Henrykowska|9|3|||
 Nie znaleziono ulicy ''Hetm.Jana Tarnowskie' w miejscowości 'Lubaczów''/Szukana ulica: 'Hetm.Jana Tarnowskie',Miejscowość: 'Lubaczów',Ulica istnieje w 1 innych miejscowościach|A1634815|PL|37-600|Lubaczów|Hetm.Jana Tarnowskie|14||||
 Nie znaleziono ulicy ''Hetmana Mikołaja Kam' w miejscowości 'Odrzykoń''/Szukana ulica: 'Hetmana Mikołaja Kam',Miejscowość: 'Odrzykoń',Ulica istnieje w 1 innych miejscowościach|A1638531|PL|38-406|Odrzykoń|Hetmana Mikołaja Kam|67||||
@@ -3666,8 +3238,6 @@ Nie znaleziono ulicy ''Jodłowa' w miejscowości 'Rokiciny''/Szukana ulica: 'Jod
 Nie znaleziono ulicy ''Jodłowa' w miejscowości 'STARE MIASTO''/Szukana ulica: 'Jodłowa',Miejscowość: 'STARE MIASTO',Ulica istnieje w 10 innych miejscowościach|A1404736|PL|62-571|STARE MIASTO|Jodłowa|15a||||
 Nie znaleziono ulicy ''Josef-Orlopp-Strabe' w miejscowości 'BERLIN''/Szukana ulica: 'Josef-Orlopp-Strabe',Miejscowość: 'BERLIN',Ulica istnieje w 2 innych miejscowościach|A1925755|PL|10-365|BERLIN|Josef-Orlopp-Strabe|55||||
 Nie znaleziono ulicy ''Józefa Ignacego Kras' w miejscowości 'Łańcut''/Szukana ulica: 'Józefa Ignacego Kras',Miejscowość: 'Łańcut',Ulica istnieje w 10 innych miejscowościach|A1683887|PL|37-100|Łańcut|Józefa Ignacego Kras|166||||
-Nie znaleziono ulicy ''Józefa Sowińskiego' w miejscowości 'KATOWICE''/Szukana ulica: 'Józefa Sowińskiego',Miejscowość: 'KATOWICE',Ulica istnieje w 10 innych miejscowościach|A1886025|PL|40-018|KATOWICE|Józefa Sowińskiego|21||||
-Nie znaleziono ulicy ''Juliana Tuwima' w miejscowości 'Sanok''/Szukana ulica: 'Juliana Tuwima',Miejscowość: 'Sanok',Ulica istnieje w 10 innych miejscowościach|A1830912|PL|38-500|Sanok|Juliana Tuwima|12||||
 Nie znaleziono ulicy ''JULIANA URSYNA NIEMC' w miejscowości 'NOWA WIEŚ''/Szukana ulica: 'JULIANA URSYNA NIEMC',Miejscowość: 'NOWA WIEŚ',Ulica istnieje w 10 innych miejscowościach|A1439023|PL|32-651|NOWA WIEŚ|JULIANA URSYNA NIEMC|10||||
 Nie znaleziono ulicy ''Jurajska' w miejscowości 'MICHAŁOWICE''/Szukana ulica: 'Jurajska',Miejscowość: 'MICHAŁOWICE',Ulica istnieje w 10 innych miejscowościach|A1786356|PL|32-091|MICHAŁOWICE|Jurajska|7||||
 Nie znaleziono ulicy ''Jurajska' w miejscowości 'ZABIERZÓW''/Szukana ulica: 'Jurajska',Miejscowość: 'ZABIERZÓW',Ulica istnieje w 10 innych miejscowościach|A1483010|PL|30-082|ZABIERZÓW|Jurajska|27A||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
@@ -3693,8 +3263,6 @@ Nie znaleziono ulicy ''Kapliczna' w miejscowości 'Podłęże''/Szukana ulica: '
 Nie znaleziono ulicy ''Kapliczna' w miejscowości 'Podłęże''/Szukana ulica: 'Kapliczna',Miejscowość: 'Podłęże',Ulica istnieje w 10 innych miejscowościach|A1915752|PL|32-003|Podłęże|Kapliczna|366||||
 Nie znaleziono ulicy ''Kapliczna' w miejscowości 'Podłęże''/Szukana ulica: 'Kapliczna',Miejscowość: 'Podłęże',Ulica istnieje w 10 innych miejscowościach|A1965119|PL|32-003|Podłęże|Kapliczna|11||||
 Nie znaleziono ulicy ''Kapliczna' w miejscowości 'PODŁĘŻE''/Szukana ulica: 'Kapliczna',Miejscowość: 'PODŁĘŻE',Ulica istnieje w 10 innych miejscowościach|A1396183|PL|32-003|PODŁĘŻE|Kapliczna|465||||
-Nie znaleziono ulicy ''Kardynała Adama Sapiehy' w miejscowości 'KRAKÓW''/Szukana ulica: 'Kardynała Adama Sapiehy',Miejscowość: 'KRAKÓW',Ulica istnieje w 4 innych miejscowościach|A1468586|PL|31-644|KRAKÓW|Kardynała Adama Sapiehy|18||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Kardynała Stefana Wyszyńskiego' w miejscowości 'Mielec''/Szukana ulica: 'Kardynała Stefana Wyszyńskiego',Miejscowość: 'Mielec',Ulica istnieje w 10 innych miejscowościach|A1893950|PL|39-300|Mielec|Kardynała Stefana Wyszyńskiego|6/8||||
 Nie znaleziono ulicy ''Kasztanowa' w miejscowości 'BABICE''/Szukana ulica: 'Kasztanowa',Miejscowość: 'BABICE',Ulica istnieje w 10 innych miejscowościach|A1438501|PL|32-600|BABICE|Kasztanowa|2||||
 Nie znaleziono ulicy ''Kasztanowa' w miejscowości 'Brzezinka''/Szukana ulica: 'Kasztanowa',Miejscowość: 'Brzezinka',Ulica istnieje w 10 innych miejscowościach|A1665228|PL|32-600|Brzezinka|Kasztanowa|3||||
 Nie znaleziono ulicy ''Kasztanowa' w miejscowości 'BRZEZINKA''/Szukana ulica: 'Kasztanowa',Miejscowość: 'BRZEZINKA',Ulica istnieje w 10 innych miejscowościach|A1436548|PL|32-600|BRZEZINKA|Kasztanowa|1||MAŁOPOLSKIE|OŚWIĘCIMSKI|OŚWIĘCIM
@@ -3705,7 +3273,6 @@ Nie znaleziono ulicy ''Katowicka' w miejscowości 'JASTRZĘBIE''/Szukana ulica: 
 Nie znaleziono ulicy ''Katowicka' w miejscowości 'NOWA WIEŚ''/Szukana ulica: 'Katowicka',Miejscowość: 'NOWA WIEŚ',Ulica istnieje w 10 innych miejscowościach|A1437471|PL|42-262|NOWA WIEŚ|Katowicka|5||||
 Nie znaleziono ulicy ''Kazimierza Janczykow' w miejscowości 'Chełm''/Szukana ulica: 'Kazimierza Janczykow',Miejscowość: 'Chełm',Ulica istnieje w 1 innych miejscowościach|A1756119|PL|22-100|Chełm|Kazimierza Janczykow|1||||
 Nie znaleziono ulicy ''Kazimierza Przerwy Tetmaje' w miejscowości 'LUDŹMIERZ''/Szukana ulica: 'Kazimierza Przerwy Tetmaje',Miejscowość: 'LUDŹMIERZ',Ulica istnieje w 3 innych miejscowościach|A1436429|PL|34-471|LUDŹMIERZ|Kazimierza Przerwy Tetmaje|1026||||
-Nie znaleziono ulicy ''Kazimierza Pułaskiego' w miejscowości 'Dąbrowa Górnicza''/Szukana ulica: 'Kazimierza Pułaskiego',Miejscowość: 'Dąbrowa Górnicza',Ulica istnieje w 10 innych miejscowościach|A1894141|PL|41-300|Dąbrowa Górnicza|Kazimierza Pułaskiego|20||ŚLĄSKIE|DĄBROWA GÓRNICZA|DĄBROWA GÓRNICZA
 Nie znaleziono ulicy ''Kazimierza Tumidajsk' w miejscowości 'Lublin''/Szukana ulica: 'Kazimierza Tumidajsk',Miejscowość: 'Lublin',Ulica istnieje w 2 innych miejscowościach|A1781363|PL|20-247|Lublin|Kazimierza Tumidajsk|18|10|||
 Nie znaleziono ulicy ''Kazimierza Wielkiego' w miejscowości 'LUBOŃ''/Szukana ulica: 'Kazimierza Wielkiego',Miejscowość: 'LUBOŃ',Ulica istnieje w 10 innych miejscowościach|A1426641|PL|59-800|LUBOŃ|Kazimierza Wielkiego|8b|30|||
 Nie znaleziono ulicy ''Kazimierza' w miejscowości 'KRAKÓW''/Szukana ulica: 'Kazimierza',Miejscowość: 'KRAKÓW',Ulica istnieje w 10 innych miejscowościach|A1234226|PL|30-074|KRAKÓW|Kazimierza|Wlk.43|10|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
@@ -3918,9 +3485,7 @@ Nie znaleziono ulicy ''ks. Piotra Sciegiennego' w miejscowości 'KATOWICE''/Szuk
 Nie znaleziono ulicy ''Ks. Prof. Józefa' w miejscowości 'Stary Sącz''/Szukana ulica: 'Ks. Prof. Józefa',Miejscowość: 'Stary Sącz',Ulica istnieje w 10 innych miejscowościach|A1613723|PL|33-340|Stary Sącz|Ks. Prof. Józefa|Tis||||
 Nie znaleziono ulicy ''ks. Stanisława Decow' w miejscowości 'Krosno''/Szukana ulica: 'ks. Stanisława Decow',Miejscowość: 'Krosno',Ulica istnieje w 1 innych miejscowościach|A1732191|PL|38-400|Krosno|ks. Stanisława Decow|33||||
 Nie znaleziono ulicy ''Ks.Jeremiego' w miejscowości 'IZABELIN''/Szukana ulica: 'Ks.Jeremiego',Miejscowość: 'IZABELIN',Ulica istnieje w 10 innych miejscowościach|A1879610|PL|05-080|IZABELIN|Ks.Jeremiego|62||||
-Nie znaleziono ulicy ''Ks.Kard.Adama Sapiehy' w miejscowości 'KRAKÓW''/Szukana ulica: 'Ks.Kard.Adama Sapiehy',Miejscowość: 'KRAKÓW',Ulica istnieje w 4 innych miejscowościach|A1346113|PL|31-644|KRAKÓW|Ks.Kard.Adama Sapiehy|69||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Ks.Łąckiego' w miejscowości 'ALWERNIA''/Szukana ulica: 'Ks.Łąckiego',Miejscowość: 'ALWERNIA',Ulica istnieje w 2 innych miejscowościach|A1455793|PL|32-566|ALWERNIA|Ks.Łąckiego|2||||
-Nie znaleziono ulicy ''ks.Piotra Skargi' w miejscowości 'ŁÓDŹ''/Szukana ulica: 'ks.Piotra Skargi',Miejscowość: 'ŁÓDŹ',Ulica istnieje w 10 innych miejscowościach|A1946035|PL|93-036|ŁÓDŹ|ks.Piotra Skargi|12||||
 Nie znaleziono ulicy ''Ks.Tomasza Banacha' w miejscowości 'IWANOWICE WŁOŚCIAŃSKIE''/Szukana ulica: 'Ks.Tomasza Banacha',Miejscowość: 'IWANOWICE WŁOŚCIAŃSKIE',Ulica istnieje w 1 innych miejscowościach|A1886365|PL|32-095|IWANOWICE WŁOŚCIAŃSKIE|Ks.Tomasza Banacha|130||||
 Nie znaleziono ulicy ''Księdza Biskupa Band' w miejscowości 'Kraków''/Szukana ulica: 'Księdza Biskupa Band',Miejscowość: 'Kraków',Ulica istnieje w 2 innych miejscowościach|A1691235|PL|31-515|Kraków|Księdza Biskupa Band|62|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Księdza Kalemby' w miejscowości 'Strumiany''/Szukana ulica: 'Księdza Kalemby',Miejscowość: 'Strumiany',Ulica istnieje w 2 innych miejscowościach|A1778611|PL|32-002|Strumiany|Księdza Kalemby|63||||
@@ -3958,20 +3523,7 @@ Nie znaleziono ulicy ''Lasek-Trute' w miejscowości 'KLIKUSZOWA''/Szukana ulica:
 Nie znaleziono ulicy ''Laskowa' w miejscowości 'BIERY''/Szukana ulica: 'Laskowa',Miejscowość: 'BIERY',Ulica istnieje w 10 innych miejscowościach|A1464987|PL|43-386|BIERY|Laskowa|228||||
 Nie znaleziono ulicy ''Lawendowa' w miejscowości 'Nowy Targ''/Szukana ulica: 'Lawendowa',Miejscowość: 'Nowy Targ',Ulica istnieje w 10 innych miejscowościach|A1708544|PL|32-087|Nowy Targ|Lawendowa|68A|2|MAŁOPOLSKIE|KRAKOWSKI|ZIELONKI
 Nie znaleziono ulicy ''Ląd' w miejscowości 'LĄDEK''/Szukana ulica: 'Ląd',Miejscowość: 'LĄDEK',Ulica istnieje w 3 innych miejscowościach|A1860155|PL|62-406|LĄDEK|Ląd|42||||
-Nie znaleziono ulicy ''Lecha Kaczyńskiego' w miejscowości 'WARSZAWA''/Szukana ulica: 'Lecha Kaczyńskiego',Miejscowość: 'WARSZAWA',Ulica istnieje w 10 innych miejscowościach|A1359084|PL|00-638|WARSZAWA|Lecha Kaczyńskiego|14||||
-Nie znaleziono ulicy ''Lecha Kaczyńskiego' w miejscowości 'WARSZAWA''/Szukana ulica: 'Lecha Kaczyńskiego',Miejscowość: 'WARSZAWA',Ulica istnieje w 10 innych miejscowościach|A1776895|PL|00-609|WARSZAWA|Lecha Kaczyńskiego|26||||
-Nie znaleziono ulicy ''Lecha Kaczyńskiego' w miejscowości 'WARSZAWA''/Szukana ulica: 'Lecha Kaczyńskiego',Miejscowość: 'WARSZAWA',Ulica istnieje w 10 innych miejscowościach|A1816770|PL|00-637|WARSZAWA|Lecha Kaczyńskiego|16||||
 Nie znaleziono ulicy ''Legionistów' w miejscowości 'Brzezinka Dolna''/Szukana ulica: 'Legionistów',Miejscowość: 'Brzezinka Dolna',Ulica istnieje w 10 innych miejscowościach|A1756002|PL|34-120|Brzezinka Dolna|Legionistów|17a||||
-Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'Kraków''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'Kraków',Ulica istnieje w 3 innych miejscowościach|A1666895|PL|30-509|Kraków|Legionów Piłsudskiego|23|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'Kraków''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'Kraków',Ulica istnieje w 3 innych miejscowościach|A1689802|PL|30-509|Kraków|Legionów Piłsudskiego|19|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'Kraków''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'Kraków',Ulica istnieje w 3 innych miejscowościach|A8238|PL|30-509|Kraków|Legionów Piłsudskiego|7|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1271032|PL|30-509|KRAKÓW|Legionów Piłsudskiego|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1303082|PL|30-509|KRAKÓW|Legionów Piłsudskiego|19|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1350873|PL|30-509|KRAKÓW|Legionów Piłsudskiego|19|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1432827|PL|30-509|KRAKÓW|Legionów Piłsudskiego|23|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1480981|PL|30-509|KRAKÓW|Legionów Piłsudskiego|13|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1728739|PL|30-509|KRAKÓW|Legionów Piłsudskiego|13||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''LEGIONÓW PIŁSUDSKIEGO' w miejscowości 'KRAKÓW''/Szukana ulica: 'LEGIONÓW PIŁSUDSKIEGO',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1403112|PL|30-509|KRAKÓW|LEGIONÓW PIŁSUDSKIEGO|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Legionów Piłsudskiego' w miejscowości 'KRZESZOWICE''/Szukana ulica: 'Legionów Piłsudskiego',Miejscowość: 'KRZESZOWICE',Ulica istnieje w 3 innych miejscowościach|A1407358|PL|32-065|KRZESZOWICE|Legionów Piłsudskiego|10||||
 Nie znaleziono ulicy ''Legionów Polskich' w miejscowości 'BRZESKO''/Szukana ulica: 'Legionów Polskich',Miejscowość: 'BRZESKO',Ulica istnieje w 10 innych miejscowościach|A1351699|PL|32-700|BRZESKO|Legionów Polskich|30|2|||
 Nie znaleziono ulicy ''Legionów Polskich' w miejscowości 'BRZESKO''/Szukana ulica: 'Legionów Polskich',Miejscowość: 'BRZESKO',Ulica istnieje w 10 innych miejscowościach|A1772092|PL|32-800|BRZESKO|Legionów Polskich|2||||
@@ -4099,7 +3651,6 @@ Nie znaleziono ulicy ''Marii Curie-Skłodows' w miejscowości 'KOŁACZYCE''/Szuk
 Nie znaleziono ulicy ''Marii Skłodowskiej-C' w miejscowości 'Częstochowa''/Szukana ulica: 'Marii Skłodowskiej-C',Miejscowość: 'Częstochowa',Ulica istnieje w 10 innych miejscowościach|A1781161|PL|42-217|Częstochowa|Marii Skłodowskiej-C|14/16|19|||
 Nie znaleziono ulicy ''Marii Skłodowskiej-C' w miejscowości 'Katowice''/Szukana ulica: 'Marii Skłodowskiej-C',Miejscowość: 'Katowice',Ulica istnieje w 10 innych miejscowościach|A1806540|PL|40-057|Katowice|Marii Skłodowskiej-C|43|3|||
 Nie znaleziono ulicy ''Marii Skłodowskiej-C' w miejscowości 'Krosno''/Szukana ulica: 'Marii Skłodowskiej-C',Miejscowość: 'Krosno',Ulica istnieje w 10 innych miejscowościach|A1683836|PL|38-400|Krosno|Marii Skłodowskiej-C|24a||||
-Nie znaleziono ulicy ''MARII SKŁODOWSKIEJ-CURIE' w miejscowości 'KATOWICE''/Szukana ulica: 'MARII SKŁODOWSKIEJ-CURIE',Miejscowość: 'KATOWICE',Ulica istnieje w 10 innych miejscowościach|A1792067|PL|40-058|KATOWICE|MARII SKŁODOWSKIEJ-CURIE|22||||
 Nie znaleziono ulicy ''Marii Skłodowskiej' w miejscowości 'Krosno''/Szukana ulica: 'Marii Skłodowskiej',Miejscowość: 'Krosno',Ulica istnieje w 10 innych miejscowościach|A1807941|PL|38-400|Krosno|Marii Skłodowskiej|8||PODKARPACKIE|KROSNO|KROSNO
 Nie znaleziono ulicy ''Marka' w miejscowości 'POZNAŃ''/Szukana ulica: 'Marka',Miejscowość: 'POZNAŃ',Ulica istnieje w 10 innych miejscowościach|A1276205|PL|61-809|POZNAŃ|Marka|74||||
 Nie znaleziono ulicy ''Marki' w miejscowości 'Słopnice''/Szukana ulica: 'Marki',Miejscowość: 'Słopnice',Ulica istnieje w 1 innych miejscowościach|A1852690|PL|34-615|Słopnice|Marki|980||||
@@ -4111,7 +3662,6 @@ Nie znaleziono ulicy ''Mastalerza' w miejscowości 'SKOPANIE''/Szukana ulica: 'M
 Nie znaleziono ulicy ''Matejki' w miejscowości 'Ostrowiec Sw.''/Szukana ulica: 'Matejki',Miejscowość: 'Ostrowiec Sw.',Ulica istnieje w 10 innych miejscowościach|A1634791|PL|27-400|Ostrowiec Sw.|Matejki|23||||
 Nie znaleziono ulicy ''Mazowiecka' w miejscowości 'CZECHOWICE-DZIEDZICE''/Szukana ulica: 'Mazowiecka',Miejscowość: 'CZECHOWICE-DZIEDZICE',Ulica istnieje w 10 innych miejscowościach|A1188127|PL|43-502|CZECHOWICE-DZIEDZICE|Mazowiecka|70||ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
 Nie znaleziono ulicy ''mazur' w miejscowości 'ŁĘKI''/Szukana ulica: 'mazur',Miejscowość: 'ŁĘKI',Ulica istnieje w 3 innych miejscowościach|A1415047|PL|32-823|ŁĘKI|mazur|62||||
-Nie znaleziono ulicy ''MC Skłodowskiej' w miejscowości 'LUBLINIEC''/Szukana ulica: 'MC Skłodowskiej',Miejscowość: 'LUBLINIEC',Ulica istnieje w 1 innych miejscowościach|A1307992|PL|42-700|LUBLINIEC|MC Skłodowskiej|87/89||||
 Nie znaleziono ulicy ''Meblowa' w miejscowości 'DOBRYSZYCE''/Szukana ulica: 'Meblowa',Miejscowość: 'DOBRYSZYCE',Ulica istnieje w 10 innych miejscowościach|A1791794|PL|97-505|DOBRYSZYCE|Meblowa|4A||||
 Nie znaleziono ulicy ''Męczeństwa Narodów' w miejscowości 'BRZEZINKA''/Szukana ulica: 'Męczeństwa Narodów',Miejscowość: 'BRZEZINKA',Ulica istnieje w 1 innych miejscowościach|A1205113|PL|32-600|BRZEZINKA|Męczeństwa Narodów|4||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Michała Drzymały' w miejscowości 'Kraków''/Szukana ulica: 'Michała Drzymały',Miejscowość: 'Kraków',Ulica istnieje w 10 innych miejscowościach|A1779838|PL|30-136|Kraków|Michała Drzymały|13||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
@@ -4135,15 +3685,6 @@ Nie znaleziono ulicy ''Miedzianka' w miejscowości 'Podzamcze''/Szukana ulica: '
 Nie znaleziono ulicy ''Mielecka' w miejscowości 'KOLBUSZOWA''/Szukana ulica: 'Mielecka',Miejscowość: 'KOLBUSZOWA',Ulica istnieje w 10 innych miejscowościach|A1391614|PL|36-100|KOLBUSZOWA|Mielecka|252||PODKARPACKIE|KOLBUSZOWSKI|KOLBUSZOWA
 Nie znaleziono ulicy ''Mielecka' w miejscowości 'KOLBUSZOWA''/Szukana ulica: 'Mielecka',Miejscowość: 'KOLBUSZOWA',Ulica istnieje w 10 innych miejscowościach|A1908387|PL|36-100|KOLBUSZOWA|Mielecka|123a||||
 Nie znaleziono ulicy ''Mieszka I' w miejscowości 'CHORZÓW''/Szukana ulica: 'Mieszka I',Miejscowość: 'CHORZÓW',Ulica istnieje w 10 innych miejscowościach|A1233209|PL|32-500|CHORZÓW|Mieszka I|11a|34|||
-Nie znaleziono ulicy ''Mikołaja Reja' w miejscowości 'Brzeszcze''/Szukana ulica: 'Mikołaja Reja',Miejscowość: 'Brzeszcze',Ulica istnieje w 10 innych miejscowościach|A1782949|PL|32-620|Brzeszcze|Mikołaja Reja|17||||
-Nie znaleziono ulicy ''Mikołaja Reja' w miejscowości 'BRZESZCZE''/Szukana ulica: 'Mikołaja Reja',Miejscowość: 'BRZESZCZE',Ulica istnieje w 10 innych miejscowościach|A1413486|PL|32-620|BRZESZCZE|Mikołaja Reja|6||||
-Nie znaleziono ulicy ''Mikołaja Reja' w miejscowości 'BRZESZCZE''/Szukana ulica: 'Mikołaja Reja',Miejscowość: 'BRZESZCZE',Ulica istnieje w 10 innych miejscowościach|A1417627|PL|32-620|BRZESZCZE|Mikołaja Reja|18||||
-Nie znaleziono ulicy ''Mikołaja Reja' w miejscowości 'BRZESZCZE''/Szukana ulica: 'Mikołaja Reja',Miejscowość: 'BRZESZCZE',Ulica istnieje w 10 innych miejscowościach|A1419876|PL|32-620|BRZESZCZE|Mikołaja Reja|8||||
-Nie znaleziono ulicy ''Mikołaja Reja' w miejscowości 'DĘBICA''/Szukana ulica: 'Mikołaja Reja',Miejscowość: 'DĘBICA',Ulica istnieje w 10 innych miejscowościach|A1443003|PL|39-200|DĘBICA|Mikołaja Reja|8||||
-Nie znaleziono ulicy ''Mikołaja Reja' w miejscowości 'DĘBICA''/Szukana ulica: 'Mikołaja Reja',Miejscowość: 'DĘBICA',Ulica istnieje w 10 innych miejscowościach|A1468752|PL|39-200|DĘBICA|Mikołaja Reja|5||||
-Nie znaleziono ulicy ''Mikołaja Reja' w miejscowości 'Lędziny''/Szukana ulica: 'Mikołaja Reja',Miejscowość: 'Lędziny',Ulica istnieje w 10 innych miejscowościach|A1660020|PL|43-140|Lędziny|Mikołaja Reja|9||||
-Nie znaleziono ulicy ''Mikołaja Reja' w miejscowości 'Mielec''/Szukana ulica: 'Mikołaja Reja',Miejscowość: 'Mielec',Ulica istnieje w 10 innych miejscowościach|A1615575|PL|39-300|Mielec|Mikołaja Reja|19||||
-Nie znaleziono ulicy ''Mikołaja Reja' w miejscowości 'Mielec''/Szukana ulica: 'Mikołaja Reja',Miejscowość: 'Mielec',Ulica istnieje w 10 innych miejscowościach|A1826892|PL|39-300|Mielec|Mikołaja Reja|19 b||||
 Nie znaleziono ulicy ''Miodowa' w miejscowości 'ALWERNIA''/Szukana ulica: 'Miodowa',Miejscowość: 'ALWERNIA',Ulica istnieje w 10 innych miejscowościach|A1950755|PL|32-566|ALWERNIA|Miodowa|5a||||
 Nie znaleziono ulicy ''Miodowa' w miejscowości 'GRÓDEK''/Szukana ulica: 'Miodowa',Miejscowość: 'GRÓDEK',Ulica istnieje w 10 innych miejscowościach|A1868017|PL|86-140|GRÓDEK|Miodowa|8||||
 Nie znaleziono ulicy ''Miodowa' w miejscowości 'LISZKI''/Szukana ulica: 'Miodowa',Miejscowość: 'LISZKI',Ulica istnieje w 10 innych miejscowościach|A1295394|PL|32-060|LISZKI|Miodowa|58A||MAŁOPOLSKIE|KRAKOWSKI|LISZKI
@@ -4497,7 +4038,6 @@ Nie znaleziono ulicy ''Oświęcimska' w miejscowości 'DWORY''/Szukana ulica: 'O
 Nie znaleziono ulicy ''Oświęcimska' w miejscowości 'DWORY''/Szukana ulica: 'Oświęcimska',Miejscowość: 'DWORY',Ulica istnieje w 10 innych miejscowościach|A1438683|PL|32-600|DWORY 2|Oświęcimska|35||||
 Nie znaleziono ulicy ''Oświęcimska' w miejscowości 'DWORY''/Szukana ulica: 'Oświęcimska',Miejscowość: 'DWORY',Ulica istnieje w 10 innych miejscowościach|A1465169|PL|32-642|DWORY|Oświęcimska|40||||
 Nie znaleziono ulicy ''Otto-Suhr-Allee' w miejscowości 'BERLIN''/Szukana ulica: 'Otto-Suhr-Allee',Miejscowość: 'BERLIN',Ulica istnieje w 6 innych miejscowościach|A39107|PL||BERLIN|Otto-Suhr-Allee|26|28|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
-Nie znaleziono ulicy ''P. Gabriela Narutowicza' w miejscowości 'ŁÓDŹ''/Szukana ulica: 'P. Gabriela Narutowicza',Miejscowość: 'ŁÓDŹ',Ulica istnieje w 10 innych miejscowościach|A1934897|PL|90-135|ŁÓDŹ|P. Gabriela Narutowicza|40|1|||
 Nie znaleziono ulicy ''Paderewskiego' w miejscowości 'KARNIOWICE''/Szukana ulica: 'Paderewskiego',Miejscowość: 'KARNIOWICE',Ulica istnieje w 10 innych miejscowościach|A1850451|PL|32-545|KARNIOWICE|Paderewskiego|45a||||
 Nie znaleziono ulicy ''Paderewskiego' w miejscowości 'KARNIOWICE''/Szukana ulica: 'Paderewskiego',Miejscowość: 'KARNIOWICE',Ulica istnieje w 10 innych miejscowościach|A1879934|PL|32-545|KARNIOWICE|Paderewskiego|14c||||
 Nie znaleziono ulicy ''Paderewskiego' w miejscowości 'KLUCZE''/Szukana ulica: 'Paderewskiego',Miejscowość: 'KLUCZE',Ulica istnieje w 10 innych miejscowościach|A1291085|PL|93-313|KLUCZE|Paderewskiego|8||MAŁOPOLSKIE|OLKUSKI|KLUCZE
@@ -4558,8 +4098,6 @@ Nie znaleziono ulicy ''Piwniczna' w miejscowości 'Brzezinka''/Szukana ulica: 'P
 Nie znaleziono ulicy ''pl. Generała Władysława Sikors' w miejscowości 'Kraków''/Szukana ulica: 'pl. Generała Władysława Sikors',Miejscowość: 'Kraków',Ulica istnieje w 10 innych miejscowościach|A1986778|PL|31-115|Kraków|pl. Generała Władysława Sikors|10|5|||
 Nie znaleziono ulicy ''Pl. Kś. Anny Mazowie' w miejscowości 'OSTRÓW MAZOWIECKA''/Szukana ulica: 'Pl. Kś. Anny Mazowie',Miejscowość: 'OSTRÓW MAZOWIECKA',Ulica istnieje w 1 innych miejscowościach|A1660487|PL|07-300|OSTRÓW MAZOWIECKA|Pl. Kś. Anny Mazowie|6|46|||
 Nie znaleziono ulicy ''pl.1 Maja' w miejscowości 'CZECHOWICE-DZIEDZICE''/Szukana ulica: 'pl.1 Maja',Miejscowość: 'CZECHOWICE-DZIEDZICE',Ulica istnieje w 10 innych miejscowościach|A1318706|PL|43-502|CZECHOWICE-DZIEDZICE|pl.1 Maja|1||||
-Nie znaleziono ulicy ''pl.Gabriela Narutowicza' w miejscowości 'BEŁCHATÓW''/Szukana ulica: 'pl.Gabriela Narutowicza',Miejscowość: 'BEŁCHATÓW',Ulica istnieje w 10 innych miejscowościach|A1475777|PL|97-400|BEŁCHATÓW|pl.Gabriela Narutowicza 16|||||
-Nie znaleziono ulicy ''Pl.Legionów Piłsudskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'Pl.Legionów Piłsudskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1905640|PL|30-509|KRAKÓW|Pl.Legionów Piłsudskiego|23|9|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''pl.Młodzieży Powstańczej' w miejscowości 'KATOWICE''/Szukana ulica: 'pl.Młodzieży Powstańczej',Miejscowość: 'KATOWICE',Ulica istnieje w 1 innych miejscowościach|A1475049|PL|40-956|KATOWICE|pl.Młodzieży Powstańczej 6|||||
 Nie znaleziono ulicy ''Pl.Partyzantów' w miejscowości 'BIAŁA PODLASKA''/Szukana ulica: 'Pl.Partyzantów',Miejscowość: 'BIAŁA PODLASKA',Ulica istnieje w 10 innych miejscowościach|A1981355|PL|21-505|BIAŁA PODLASKA|Pl.Partyzantów|1|1|||
 Nie znaleziono ulicy ''pl.Szwedzki' w miejscowości 'RASZYN''/Szukana ulica: 'pl.Szwedzki',Miejscowość: 'RASZYN',Ulica istnieje w 3 innych miejscowościach|A1477391|PL|05-090|RASZYN|pl.Szwedzki|3||||
@@ -4877,10 +4415,8 @@ Nie znaleziono ulicy ''Spółdzielcza' w miejscowości 'KOZIEGŁOWY''/Szukana ul
 Nie znaleziono ulicy ''Stanisława Augusta Poniatowski' w miejscowości 'Kraków''/Szukana ulica: 'Stanisława Augusta Poniatowski',Miejscowość: 'Kraków',Ulica istnieje w 10 innych miejscowościach|A1852963|PL|31-709|Kraków|Stanisława Augusta Poniatowski|33||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Stanisława Lenartowi' w miejscowości 'Andrychów''/Szukana ulica: 'Stanisława Lenartowi',Miejscowość: 'Andrychów',Ulica istnieje w 1 innych miejscowościach|A1660345|PL|34-120|Andrychów|Stanisława Lenartowi|14|38|||
 Nie znaleziono ulicy ''Stanisława Mikołajcz' w miejscowości 'Koszyce Wielkie''/Szukana ulica: 'Stanisława Mikołajcz',Miejscowość: 'Koszyce Wielkie',Ulica istnieje w 10 innych miejscowościach|A1662985|PL|33-111|Koszyce Wielkie|Stanisława Mikołajcz|15||||
-Nie znaleziono ulicy ''Stanisława Mikołajczyka' w miejscowości 'Mielec''/Szukana ulica: 'Stanisława Mikołajczyka',Miejscowość: 'Mielec',Ulica istnieje w 10 innych miejscowościach|A1896015|PL|39-300|Mielec|Stanisława Mikołajczyka|11||||
 Nie znaleziono ulicy ''Stanisława Moniuszki' w miejscowości 'Nowa Wi''/Szukana ulica: 'Stanisława Moniuszki',Miejscowość: 'Nowa Wi',Ulica istnieje w 10 innych miejscowościach|A1612093|PL|32-651|Nowa Wi|Stanisława Moniuszki|2||||
 Nie znaleziono ulicy ''Stanisława Smolki' w miejscowości 'KRAKÓW''/Szukana ulica: 'Stanisława Smolki',Miejscowość: 'KRAKÓW',Ulica istnieje w 2 innych miejscowościach|A1788238|PL|30-513|KRAKÓW|Stanisława Smolki|8|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Stanisława Staszica' w miejscowości 'Dąbrowa Górnicza''/Szukana ulica: 'Stanisława Staszica',Miejscowość: 'Dąbrowa Górnicza',Ulica istnieje w 10 innych miejscowościach|A1710414|PL|41-300|Dąbrowa Górnicza|Stanisława Staszica|80a||||
 Nie znaleziono ulicy ''Stanisława Wyspiańsk' w miejscowości 'Bochnia''/Szukana ulica: 'Stanisława Wyspiańsk',Miejscowość: 'Bochnia',Ulica istnieje w 10 innych miejscowościach|A1757746|PL|32-700|Bochnia|Stanisława Wyspiańsk|38||||
 Nie znaleziono ulicy ''Stanisława Żółkiewskiego' w miejscowości 'Kraków''/Szukana ulica: 'Stanisława Żółkiewskiego',Miejscowość: 'Kraków',Ulica istnieje w 10 innych miejscowościach|A1757918|PL|31-539|Kraków|Stanisława Żółkiewskiego|20||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Stanów Zjednoczonych' w miejscowości 'KRAKÓW''/Szukana ulica: 'Stanów Zjednoczonych',Miejscowość: 'KRAKÓW',Ulica istnieje w 2 innych miejscowościach|A1817203|PL|04-028|KRAKÓW|Stanów Zjednoczonych|61A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
@@ -5096,7 +4632,6 @@ Nie znaleziono ulicy ''Świętej Heleny' w miejscowości 'NOWY SĄCZ''/Szukana u
 Nie znaleziono ulicy ''Świętej Jadwigi-Król' w miejscowości 'Leżajsk''/Szukana ulica: 'Świętej Jadwigi-Król',Miejscowość: 'Leżajsk',Ulica istnieje w 10 innych miejscowościach|A1732717|PL|37-300|Leżajsk|Świętej Jadwigi-Król|41||||
 Nie znaleziono ulicy ''Świętej Katarzyny' w miejscowości 'Kraków''/Szukana ulica: 'Świętej Katarzyny',Miejscowość: 'Kraków',Ulica istnieje w 6 innych miejscowościach|A1665701|PL|31-063|Kraków|Świętej Katarzyny|5|10|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Świętej Katarzyny' w miejscowości 'KRAKÓW''/Szukana ulica: 'Świętej Katarzyny',Miejscowość: 'KRAKÓW',Ulica istnieje w 6 innych miejscowościach|A1543431|PL|31-063|KRAKÓW|Świętej Katarzyny|4||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono ulicy ''Świętej Kingi' w miejscowości 'BIELSKO-BIAŁA''/Szukana ulica: 'Świętej Kingi',Miejscowość: 'BIELSKO-BIAŁA',Ulica istnieje w 10 innych miejscowościach|A1455199|PL|43-300|BIELSKO-BIAŁA|Świętej Kingi|3||||
 Nie znaleziono ulicy ''Świętej Kingi' w miejscowości 'KROŚCIENKO''/Szukana ulica: 'Świętej Kingi',Miejscowość: 'KROŚCIENKO',Ulica istnieje w 10 innych miejscowościach|A1463044|PL|34-450|KROŚCIENKO|Świętej Kingi|81||||
 Nie znaleziono ulicy ''Świętokrzyska' w miejscowości 'GRZYBOWA''/Szukana ulica: 'Świętokrzyska',Miejscowość: 'GRZYBOWA',Ulica istnieje w 10 innych miejscowościach|A1442132|PL|26-115|GRZYBOWA|Świętokrzyska|82||||
 Nie znaleziono ulicy ''Świętokrzyska' w miejscowości 'Św. Katarzyna''/Szukana ulica: 'Świętokrzyska',Miejscowość: 'Św. Katarzyna',Ulica istnieje w 10 innych miejscowościach|A1676996|PL|26-010|Św. Katarzyna|Świętokrzyska|2||||
@@ -5234,7 +4769,6 @@ Nie znaleziono ulicy ''ul. Jana Henryka Dąbrowskiego' w miejscowości 'Kraków'
 Nie znaleziono ulicy ''Ul. Jana III Sobiesk' w miejscowości 'PIWNICZNA-ZDRÓJ''/Szukana ulica: 'Ul. Jana III Sobiesk',Miejscowość: 'PIWNICZNA-ZDRÓJ',Ulica istnieje w 10 innych miejscowościach|A1413020|PL|33-350|PIWNICZNA-ZDRÓJ|Ul. Jana III Sobiesk|21|37|||
 Nie znaleziono ulicy ''ul. Jana Kiepury' w miejscowości 'Ciężkowice''/Szukana ulica: 'ul. Jana Kiepury',Miejscowość: 'Ciężkowice',Ulica istnieje w 10 innych miejscowościach|A1962913|PL|43-600|Ciężkowice|ul. Jana Kiepury|6||||
 Nie znaleziono ulicy ''ul. Jana Pawła II' w miejscowości 'Szczytniki''/Szukana ulica: 'ul. Jana Pawła II',Miejscowość: 'Szczytniki',Ulica istnieje w 10 innych miejscowościach|A1989905|PL|32-420|Szczytniki|ul. Jana Pawła II|38||||
-Nie znaleziono ulicy ''ul. Janusza Korczaka' w miejscowości 'Przeworsk''/Szukana ulica: 'ul. Janusza Korczaka',Miejscowość: 'Przeworsk',Ulica istnieje w 10 innych miejscowościach|A1990743|PL|37-200|Przeworsk|ul. Janusza Korczaka|18||||
 Nie znaleziono ulicy ''ul. Jasienica' w miejscowości 'Myślenice''/Szukana ulica: 'ul. Jasienica',Miejscowość: 'Myślenice',Ulica istnieje w 1 innych miejscowościach|A1960856|PL|32-400|Myślenice|ul. Jasienica|406||||
 Nie znaleziono ulicy ''Ul. Jastrzębia' w miejscowości 'Łask''/Szukana ulica: 'Ul. Jastrzębia',Miejscowość: 'Łask',Ulica istnieje w 10 innych miejscowościach|A1987353|PL|98-100|Łask|Ul. Jastrzębia|31|31|||
 Nie znaleziono ulicy ''ul. Jaśminowa' w miejscowości 'WIELKA WIEŚ''/Szukana ulica: 'ul. Jaśminowa',Miejscowość: 'WIELKA WIEŚ',Ulica istnieje w 10 innych miejscowościach|A1303309|PL|32-839|WIELKA WIEŚ|ul. Jaśminowa|4||||
@@ -5279,14 +4813,11 @@ Nie znaleziono ulicy ''ul. Kruczkowskiego' w miejscowości 'SULEJÓWEK''/Szukana
 Nie znaleziono ulicy ''ul. Krymska' w miejscowości 'Odessa''/Szukana ulica: 'ul. Krymska',Miejscowość: 'Odessa',Ulica istnieje w 5 innych miejscowościach|A1989523|PL||Odessa|ul. Krymska|84||||
 Nie znaleziono ulicy ''ul. Krzyszkowicka' w miejscowości 'Krzyszkowice''/Szukana ulica: 'ul. Krzyszkowicka',Miejscowość: 'Krzyszkowice',Ulica istnieje w 1 innych miejscowościach|A1988622|PL|32-020|Krzyszkowice|ul. Krzyszkowicka|5z|1|||
 Nie znaleziono ulicy ''Ul. Ks. Jerzego Popi' w miejscowości 'KROSNO''/Szukana ulica: 'Ul. Ks. Jerzego Popi',Miejscowość: 'KROSNO',Ulica istnieje w 10 innych miejscowościach|A1413901|PL|38-400|KROSNO|Ul. Ks. Jerzego Popi|105|6|||
-Nie znaleziono ulicy ''Ul. Ks. Piotra Skargi' w miejscowości 'ŁÓDŹ''/Szukana ulica: 'Ul. Ks. Piotra Skargi',Miejscowość: 'ŁÓDŹ',Ulica istnieje w 10 innych miejscowościach|A1836864|PL|93-036|ŁÓDŹ|Ul. Ks. Piotra Skargi|12|lok.B5|||
 Nie znaleziono ulicy ''ul. Ks. Prymasa Stefana Wyszyń' w miejscowości 'Kraków''/Szukana ulica: 'ul. Ks. Prymasa Stefana Wyszyń',Miejscowość: 'Kraków',Ulica istnieje w 10 innych miejscowościach|A1940748|PL|30-688|Kraków|ul. Ks. Prymasa Stefana Wyszyń|2|15|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''ul. Księcia Władysława Opolski' w miejscowości 'Chorzów''/Szukana ulica: 'ul. Księcia Władysława Opolski',Miejscowość: 'Chorzów',Ulica istnieje w 3 innych miejscowościach|A1990314|PL|41-500|Chorzów|ul. Księcia Władysława Opolski|9|27|||
 Nie znaleziono ulicy ''ul. Księdza Kazimierza Ostafiń' w miejscowości 'Brzostek''/Szukana ulica: 'ul. Księdza Kazimierza Ostafiń',Miejscowość: 'Brzostek',Ulica istnieje w 1 innych miejscowościach|A1938538|PL|39-230|Brzostek|ul. Księdza Kazimierza Ostafiń|11||||
 Nie znaleziono ulicy ''ul. Kwiatowa' w miejscowości 'Babice''/Szukana ulica: 'ul. Kwiatowa',Miejscowość: 'Babice',Ulica istnieje w 10 innych miejscowościach|A1941597|PL|32-600|Babice|ul. Kwiatowa|30||||
 Nie znaleziono ulicy ''ul. Langego' w miejscowości 'SIEMIANOWICE ŚLĄSKIE''/Szukana ulica: 'ul. Langego',Miejscowość: 'SIEMIANOWICE ŚLĄSKIE',Ulica istnieje w 2 innych miejscowościach|A1416709|PL|41-106|SIEMIANOWICE ŚLĄSKIE|ul. Langego|6||||
-Nie znaleziono ulicy ''ul. Legionów Piłsudskiego' w miejscowości 'Kraków''/Szukana ulica: 'ul. Legionów Piłsudskiego',Miejscowość: 'Kraków',Ulica istnieje w 3 innych miejscowościach|A1988342|PL|30-509|Kraków|ul. Legionów Piłsudskiego|19|6|||
-Nie znaleziono ulicy ''ul. Legionów Piłsudskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'ul. Legionów Piłsudskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1416607|PL|30-509|KRAKÓW|ul. Legionów Piłsudskiego|23|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Ul. Lelewela-Borelowskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'Ul. Lelewela-Borelowskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1392837|PL|30-108|KRAKÓW|Ul. Lelewela-Borelowskiego|13|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''Ul. Lipowa' w miejscowości 'BABICE''/Szukana ulica: 'Ul. Lipowa',Miejscowość: 'BABICE',Ulica istnieje w 10 innych miejscowościach|A1417502|PL|32-600|BABICE|Ul. Lipowa|1||||
 Nie znaleziono ulicy ''Ul. Lipowa' w miejscowości 'BIERY''/Szukana ulica: 'Ul. Lipowa',Miejscowość: 'BIERY',Ulica istnieje w 10 innych miejscowościach|A1414976|PL|43-386|BIERY|Ul. Lipowa|162||||
@@ -5310,7 +4841,6 @@ Nie znaleziono ulicy ''ul. Marszałka Józefa Piłsudski' w miejscowości 'Krak�
 Nie znaleziono ulicy ''ul. Marszowicka' w miejscowości 'Kocmyrzów''/Szukana ulica: 'ul. Marszowicka',Miejscowość: 'Kocmyrzów',Ulica istnieje w 2 innych miejscowościach|A1938308|PL|32-010|Kocmyrzów|ul. Marszowicka|13|13|||
 Nie znaleziono ulicy ''ul. Mazanka' w miejscowości 'Czerwionka''/Szukana ulica: 'ul. Mazanka',Miejscowość: 'Czerwionka',Ulica istnieje w 2 innych miejscowościach|A1992038|PL|44-230|Czerwionka|ul. Mazanka|11||||
 Nie znaleziono ulicy ''Ul. Mickiewicza' w miejscowości 'PYSZNICA''/Szukana ulica: 'Ul. Mickiewicza',Miejscowość: 'PYSZNICA',Ulica istnieje w 10 innych miejscowościach|A1418394|PL|37-403|PYSZNICA|Ul. Mickiewicza|9||||
-Nie znaleziono ulicy ''ul. Mikołaja Kopernika' w miejscowości 'Dąbrowa Tarnowska''/Szukana ulica: 'ul. Mikołaja Kopernika',Miejscowość: 'Dąbrowa Tarnowska',Ulica istnieje w 10 innych miejscowościach|A1938975|PL|33-200|Dąbrowa Tarnowska|ul. Mikołaja Kopernika|125||||
 Nie znaleziono ulicy ''Ul. Miła' w miejscowości 'ANDRYCHÓW''/Szukana ulica: 'Ul. Miła',Miejscowość: 'ANDRYCHÓW',Ulica istnieje w 10 innych miejscowościach|A1417815|PL|34-120|ANDRYCHÓW|Ul. Miła|16||MAŁOPOLSKIE|WADOWICKI|ANDRYCHÓW
 Nie znaleziono ulicy ''ul. Mirowska' w miejscowości 'PIEKARY''/Szukana ulica: 'ul. Mirowska',Miejscowość: 'PIEKARY',Ulica istnieje w 9 innych miejscowościach|A1369925|PL|32-060|PIEKARY|ul. Mirowska|275||||
 Nie znaleziono ulicy ''ul. Młynarska' w miejscowości 'ZAGNAŃSK''/Szukana ulica: 'ul. Młynarska',Miejscowość: 'ZAGNAŃSK',Ulica istnieje w 10 innych miejscowościach|A1416467|PL|26-050|ZAGNAŃSK|ul. Młynarska|18A||||
@@ -5395,7 +4925,6 @@ Nie znaleziono ulicy ''ul. Słoneczna' w miejscowości 'Przeciszów''/Szukana ul
 Nie znaleziono ulicy ''ul. Smardzowicka' w miejscowości 'Cianowice Małe''/Szukana ulica: 'ul. Smardzowicka',Miejscowość: 'Cianowice Małe',Ulica istnieje w 1 innych miejscowościach|A1939406|PL|32-043|Cianowice Małe|ul. Smardzowicka|25||||
 Nie znaleziono ulicy ''ul. Stanisława Augusta Poniato' w miejscowości 'Kraków''/Szukana ulica: 'ul. Stanisława Augusta Poniato',Miejscowość: 'Kraków',Ulica istnieje w 10 innych miejscowościach|A1940489|PL|31-709|Kraków|ul. Stanisława Augusta Poniato|51||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''ul. Stanisława Augusta Poniato' w miejscowości 'Kraków''/Szukana ulica: 'ul. Stanisława Augusta Poniato',Miejscowość: 'Kraków',Ulica istnieje w 10 innych miejscowościach|A1987885|PL|31-709|Kraków|ul. Stanisława Augusta Poniato|21||||
-Nie znaleziono ulicy ''ul. Stanisława Moniuszki' w miejscowości 'Kraków''/Szukana ulica: 'ul. Stanisława Moniuszki',Miejscowość: 'Kraków',Ulica istnieje w 10 innych miejscowościach|A1964816|PL|31-518|Kraków|ul. Stanisława Moniuszki|10|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''ul. Stara Wieś' w miejscowości 'Limanowa''/Szukana ulica: 'ul. Stara Wieś',Miejscowość: 'Limanowa',Ulica istnieje w 10 innych miejscowościach|A1965213|PL|34-600|Limanowa|ul. Stara Wieś|345||||
 Nie znaleziono ulicy ''ul. Stara Wieś' w miejscowości 'Limanowa''/Szukana ulica: 'ul. Stara Wieś',Miejscowość: 'Limanowa',Ulica istnieje w 10 innych miejscowościach|A1988463|PL|34-600|Limanowa|ul. Stara Wieś|70||||
 Nie znaleziono ulicy ''ul. Starowiejska' w miejscowości 'Mała Wieś''/Szukana ulica: 'ul. Starowiejska',Miejscowość: 'Mała Wieś',Ulica istnieje w 10 innych miejscowościach|A1937397|PL|33-395|Mała Wieś|ul. Starowiejska|9 A||||
@@ -5519,10 +5048,8 @@ Nie znaleziono ulicy ''Ul.Kruczkowskiego' w miejscowości 'KROSNO''/Szukana ulic
 Nie znaleziono ulicy ''UL.KS.GAJDY' w miejscowości 'KOLONOWSKIE''/Szukana ulica: 'UL.KS.GAJDY',Miejscowość: 'KOLONOWSKIE',Ulica istnieje w 6 innych miejscowościach|A1476542|PL|46-057|KOLONOWSKIE|UL.KS.GAJDY 6|||||
 Nie znaleziono ulicy ''UL.KSIĘDZA KLIMASA' w miejscowości 'TARNÓW OPOLSKI''/Szukana ulica: 'UL.KSIĘDZA KLIMASA',Miejscowość: 'TARNÓW OPOLSKI',Ulica istnieje w 7 innych miejscowościach|A1476512|PL|46-050|TARNÓW OPOLSKI|UL.KSIĘDZA KLIMASA 46|||||
 Nie znaleziono ulicy ''ul.Kwiatowa' w miejscowości 'BABICE''/Szukana ulica: 'ul.Kwiatowa',Miejscowość: 'BABICE',Ulica istnieje w 10 innych miejscowościach|A1740270|PL|32-600|BABICE|ul.Kwiatowa 12a|||||
-Nie znaleziono ulicy ''ul.Legionów Piłsudskiego' w miejscowości 'KRAKÓW''/Szukana ulica: 'ul.Legionów Piłsudskiego',Miejscowość: 'KRAKÓW',Ulica istnieje w 3 innych miejscowościach|A1474831|PL|30-509|KRAKÓW|ul.Legionów Piłsudskiego 19|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono ulicy ''UL.LUBELSKA' w miejscowości 'KRYNICE''/Szukana ulica: 'UL.LUBELSKA',Miejscowość: 'KRYNICE',Ulica istnieje w 10 innych miejscowościach|A1476960|PL|22-610|KRYNICE|UL.LUBELSKA 108|||||
 Nie znaleziono ulicy ''UL.LUDOWA' w miejscowości 'KRYNICA''/Szukana ulica: 'UL.LUDOWA',Miejscowość: 'KRYNICA',Ulica istnieje w 10 innych miejscowościach|A1268400|PL|33-380|KRYNICA|UL.LUDOWA|4||MAŁOPOLSKIE|NOWOSĄDECKI|KRYNICA-ZDRÓJ
-Nie znaleziono ulicy ''ul.Marii Skłodowskiej-Curie' w miejscowości 'BIAŁYSTOK''/Szukana ulica: 'ul.Marii Skłodowskiej-Curie',Miejscowość: 'BIAŁYSTOK',Ulica istnieje w 10 innych miejscowościach|A1653320|PL||BIAŁYSTOK|ul.Marii Skłodowskiej-Curie 2|||||
 Nie znaleziono ulicy ''ul.Mazowiecka' w miejscowości 'KSIĘŻNO''/Szukana ulica: 'ul.Mazowiecka',Miejscowość: 'KSIĘŻNO',Ulica istnieje w 10 innych miejscowościach|A1422333|PL|16-002|KSIĘŻNO|ul.Mazowiecka|20||||
 Nie znaleziono ulicy ''UL.MAZOWIECKA' w miejscowości 'ZAWIDZ''/Szukana ulica: 'UL.MAZOWIECKA',Miejscowość: 'ZAWIDZ',Ulica istnieje w 10 innych miejscowościach|A1476612|PL|09-226|ZAWIDZ|UL.MAZOWIECKA 28|||||
 Nie znaleziono ulicy ''UL.MICKIEWICZA' w miejscowości 'HORYNIEC''/Szukana ulica: 'UL.MICKIEWICZA',Miejscowość: 'HORYNIEC',Ulica istnieje w 10 innych miejscowościach|A1476653|PL|37-620|HORYNIEC|UL.MICKIEWICZA 8|||||
@@ -5708,7 +5235,6 @@ Nie znaleziono ulicy ''Wl.Łokietka' w miejscowości 'NAKŁO''/Szukana ulica: 'W
 Nie znaleziono ulicy ''Władysława Broniewsk' w miejscowości 'Gorlice''/Szukana ulica: 'Władysława Broniewsk',Miejscowość: 'Gorlice',Ulica istnieje w 10 innych miejscowościach|A1802218|PL|38-300|Gorlice|Władysława Broniewsk|9|35|MAŁOPOLSKIE|GORLICKI|GORLICE
 Nie znaleziono ulicy ''Władysława Jagiełły' w miejscowości 'CEKANÓW''/Szukana ulica: 'Władysława Jagiełły',Miejscowość: 'CEKANÓW',Ulica istnieje w 10 innych miejscowościach|A1710854|PL|97-200|CEKANÓW|Władysława Jagiełły|21||ŁÓDZKIE|TOMASZOWSKI|TOMASZÓW MAZOWIECKI
 Nie znaleziono ulicy ''Władysława Jagiełły' w miejscowości 'KARNIOWICE''/Szukana ulica: 'Władysława Jagiełły',Miejscowość: 'KARNIOWICE',Ulica istnieje w 10 innych miejscowościach|A1464067|PL|32-545|KARNIOWICE|Władysława Jagiełły|17||||
-Nie znaleziono ulicy ''Władysława Łokietka' w miejscowości 'Brzeg''/Szukana ulica: 'Władysława Łokietka',Miejscowość: 'Brzeg',Ulica istnieje w 10 innych miejscowościach|A1663015|PL|49-300|Brzeg|Władysława Łokietka|14||||
 Nie znaleziono ulicy ''Włostowice' w miejscowości 'KOSZYCE''/Szukana ulica: 'Włostowice',Miejscowość: 'KOSZYCE',Ulica istnieje w 1 innych miejscowościach|A1256663|PL||KOSZYCE|Włostowice|33||||
 Nie znaleziono ulicy ''Wodociągowa' w miejscowości 'Staniątki''/Szukana ulica: 'Wodociągowa',Miejscowość: 'Staniątki',Ulica istnieje w 10 innych miejscowościach|A1635928|PL|32-005|Staniątki|Wodociągowa|369||||
 Nie znaleziono ulicy ''Wodzisław' w miejscowości 'CZARNOGŁOWY''/Szukana ulica: 'Wodzisław',Miejscowość: 'CZARNOGŁOWY',Ulica istnieje w 1 innych miejscowościach|A1832583|PL|72-121|CZARNOGŁOWY|Wodzisław|22||||

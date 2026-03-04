@@ -10,6 +10,7 @@ Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gdańsk (ID=6249
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=589213),Numer budynku: 430,Liczba znalezionych kodów: 0|A1614488|PL|32-852|Dębno|Sufczyn|430||MAŁOPOLSKIE|BRZESKI|DĘBNO
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=589213),Numer budynku: 430,Liczba znalezionych kodów: 0|A1636562|PL|32-852|Sufczyn||430||||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Roztoka-Brzeziny (ID=586818),Numer budynku: 160,Liczba znalezionych kodów: 0|A1666329|PL|33-316|Roztoka Brzeziny||160||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zielona Góra (ID=570815),Ulica: Zeusa (ID=1849973),Numer budynku: 17,Liczba znalezionych kodów: 0|A1683090|PL|65-530|Zielona Góra|Zawadzkiego Tadeusza|17|3|||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=592761),Numer budynku: 52,Liczba znalezionych kodów: 0|A1690406|PL|38-312|Ropa||52||||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz (ID=561297),Ulica: Romańskiego (ID=1839829),Numer budynku: 6,Liczba znalezionych kodów: 0|A1704728|PL|85-011|BYDGOSZCZ|Rumińskiego|6||||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory (ID=629543),Ulica: Władysława (ID=2013955),Numer budynku: 1G,Liczba znalezionych kodów: 0|A1707664|PL|44-240|Żory|os. Księcia Władysła|1G|6|||
