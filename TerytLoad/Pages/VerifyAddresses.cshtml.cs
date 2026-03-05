@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
 using System.ComponentModel.DataAnnotations;
+using System.Reflection;
 using System.Text;
 using TerytLoad.Hubs;
 
@@ -363,6 +364,14 @@ namespace TerytLoad.Pages
                     NumerDomu = string.IsNullOrWhiteSpace(item.NrDomu) ? null : item.NrDomu,
                     NumerMieszkania = string.IsNullOrWhiteSpace(item.NrLokalu) ? null : item.NrLokalu
                 };
+
+                var plik = System.IO.Path.Combine(_env.ContentRootPath, DataDirectory,"Przetworzono.txt");
+                var values = item.GetType()
+                    .GetProperties(BindingFlags.Instance | BindingFlags.Public)
+                    .Select(p => p.GetValue(item));
+
+                var razem=string.Join("|", values);
+                System.IO.File.AppendAllText(plik, razem + Environment.NewLine);
 
                 var searchResult = await searchService.SearchAsync(request);
 

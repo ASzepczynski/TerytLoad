@@ -189,6 +189,7 @@ A1317623|PL|!31-929[31-932]|Kraków|os. Centrum C[os.Centrum]|D-2|136|MAŁOPOLSK
 A1319085|PL|32-100[32-123]|Przezwody||13||MAŁOPOLSKIE|proszowicki|Proszowice
 A1319201|PL|31-273|Kraków|ul. Batalionu "Skała" AK[Batalionu Skała AK]|8|46|MAŁOPOLSKIE|Kraków|Kraków
 A1319460|PL|30-108|Kraków|ul. Borelowskiego-Lelewela[Borelewskiego Lelewela]|11|1|MAŁOPOLSKIE|Kraków|Kraków
+A1319708|PL|!41-100[41-106]|Siemianowice Śląskie[SIEMIANOWICE ŚL.]|ul. Bohaterów Westerplatte[Westerplatte]|10|26|ŚLĄSKIE|Siemianowice Śląskie|Siemianowice Śląskie
 A1319761|PL|31-711|Kraków|ul. Mortkowicz-Olczakowej[Mortkowicz-Olciakowej]|12||MAŁOPOLSKIE|Kraków|Kraków
 A1319985|PL|32-090[32-094]|Zaborze||23||MAŁOPOLSKIE[]|krakowski[]|Słomniki[]
 A1323517|PL|93-242[92-214]|Łódź|ul. Bielska[bielańska]|40||ŁÓDZKIE[]|Łódź[]|Łódź[]
@@ -1367,6 +1368,7 @@ ZA1214005|PL|32-020[32-021]|Janowice|[JANOWICE]|3||MAŁOPOLSKIE|wielicki|Wielicz
 ZA1220031|PL|30-433|Kraków|ul. Armii "Kraków"["ul. Armii ""Kraków"""]|67||MAŁOPOLSKIE|Kraków|Kraków
 ZA1249091|PL|31-752[30-112]|Kraków|ul. Wańkowicza[D.Wąsowicza]|26|1|MAŁOPOLSKIE|Kraków|Kraków
 ZA1260152|PL|30-433|Kraków|ul. Armii "Kraków"["ul. Armii ""Kraków"""]|49||MAŁOPOLSKIE|Kraków|Kraków
+ZA1319708|PL|!41-100[41-106]|Siemianowice Śląskie[SIEMIANOWICE ŚL.]|ul. Bohaterów Westerplatte[Westerplatte]|10|26|ŚLĄSKIE|Siemianowice Śląskie|Siemianowice Śląskie
 ZA1334411|PL|42-500|Będzin|ul. Górna[15-go Grudnia]|4|17|ŚLĄSKIE|będziński|Będzin
 ZA1335806|PL|31-273|Kraków|ul. Batalionu "Skała" AK[Batalionu Skała AK]|10|11|MAŁOPOLSKIE|Kraków|Kraków
 ZA1350925|PL|31-273|Kraków|ul. Batalionu "Skała" AK[Batalionu Skała AK]|2A|32|MAŁOPOLSKIE|Kraków|Kraków

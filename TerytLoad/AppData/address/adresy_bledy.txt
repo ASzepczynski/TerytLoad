@@ -398,6 +398,7 @@ Błędna nazwa ulicy 'UL.Wybrzeże Wyspiańskiego'/'wybrzeze wyspianskiego'/Szuk
 Błędna nazwa ulicy 'ul.X-lecia PL'/'x-lecia pl'/Szukana ulica: 'ul.X-lecia PL',Znormalizowana: 'x-lecia pl',Ulica NIE istnieje w bazie TERYT|A1476963|PL|68-100|ŻAGAŃ|ul.X-lecia PL 6/1|||||
 Błędna nazwa ulicy 'ul.Ząbkowiecka'/'zabkowiecka'/Szukana ulica: 'ul.Ząbkowiecka',Znormalizowana: 'zabkowiecka',Ulica NIE istnieje w bazie TERYT|A1261340|PL|41-523|ŁOSIEŃ|ul.Ząbkowiecka|103||ŚLĄSKIE|DĄBROWA GÓRNICZA|DĄBROWA GÓRNICZA
 Błędna nazwa ulicy 'Wasilewskiego Oseta'/'wasilewskiego oseta'/Szukana ulica: 'Wasilewskiego Oseta',Znormalizowana: 'wasilewskiego oseta',Ulica NIE istnieje w bazie TERYT|A1248636|PL|26-110|SKARŻYSKO-KAMIENNA|Wasilewskiego Oseta|12|32|ŚWIĘTOKRZYSKIE|SKARŻYSKI|SKARŻYSKO-KAMIENNA
+Błędna nazwa ulicy 'Witkowo Drugie'/'witkowo drugie'/Szukana ulica: 'Witkowo Drugie',Znormalizowana: 'witkowo drugie',Ulica NIE istnieje w bazie TERYT|A1608512|PL|72-102|STARGARD SZCZECIŃSKI|Witkowo Drugie|16a||||
 Błędna nazwa ulicy 'Władysława Kniewskiego'/'wladyslawa kniewskiego'/Szukana ulica: 'Władysława Kniewskiego',Znormalizowana: 'wladyslawa kniewskiego',Ulica NIE istnieje w bazie TERYT|A1401983|PL|43-600|JAWORZNO|Władysława Kniewskiego|12||||
 Błędna nazwa ulicy 'Władysława Kniewskiego'/'wladyslawa kniewskiego'/Szukana ulica: 'Władysława Kniewskiego',Znormalizowana: 'wladyslawa kniewskiego',Ulica NIE istnieje w bazie TERYT|A1643280|PL|43-600|Jaworzno|Władysława Kniewskiego|3|0|||
 Błędna nazwa ulicy 'Władysława Kniewskiego'/'wladyslawa kniewskiego'/Szukana ulica: 'Władysława Kniewskiego',Znormalizowana: 'wladyslawa kniewskiego',Ulica NIE istnieje w bazie TERYT|A1713961|PL|43-600|Jaworzno|Władysława Kniewskiego|2||||
@@ -901,7 +902,7 @@ Nie znaleziono miejscowości: 57-200 ZĄBKOWICE ŚLĄSKIE/Szukana miejscowość:
 Nie znaleziono miejscowości: 59220/Szukana miejscowość: 59220,Znormalizowana nazwa: 59220|A1740277|PL||59220|Kilińskiego|2|Legnica|||
 Nie znaleziono miejscowości: 60595/Szukana miejscowość: 60595,Znormalizowana nazwa: 60595|AF1291209|PL||60595|Polska|13|poznań|||
 Nie znaleziono miejscowości: 61397/Szukana miejscowość: 61397,Znormalizowana nazwa: 61397|A1858636|PL||61397|os.Rzeczypospolitej 14|13|poznań|||
-Nie znaleziono miejscowości: 66-400 GORZÓW WLKP./Szukana miejscowość: 66-400 GORZÓW WLKP.,Znormalizowana nazwa: 66-400 gorzow wlkp.|A1838827|PL||66-400 GORZÓW WLKP.|ul.Dąbrowskiego|33||||
+Nie znaleziono miejscowości: 66-400 Gorzów Wielkopolski/Szukana miejscowość: 66-400 Gorzów Wielkopolski,Znormalizowana nazwa: 66-400 gorzow wielkopolski|A1838827|PL||66-400 GORZÓW WLKP.|ul.Dąbrowskiego|33||||
 Nie znaleziono miejscowości: 7711000995/Szukana miejscowość: 7711000995,Znormalizowana nazwa: 7711000995|A1631607|PL|95-080|7711000995|Trybunalska|4||||
 Nie znaleziono miejscowości: 90312/Szukana miejscowość: 90312,Znormalizowana nazwa: 90312|A1766809|PL||90312|Plac Zwycięstwa|2|Łódź|||
 Nie znaleziono miejscowości: AKKRUM/Szukana miejscowość: AKKRUM,Znormalizowana nazwa: akkrum|A1820838|PL||AKKRUM|ADAM HURDRIDERSTJITTE|2||||
@@ -997,11 +998,6 @@ Nie znaleziono miejscowości: BUSKO ZD./Szukana miejscowość: BUSKO ZD.,Znormal
 Nie znaleziono miejscowości: Busko-Z/Szukana miejscowość: Busko-Z,Znormalizowana nazwa: busko-z|A1612378|PL|28-100|Busko-Z|Rokosza|8||||
 Nie znaleziono miejscowości: BYSTRA KRAKOWSKA/Szukana miejscowość: BYSTRA KRAKOWSKA,Znormalizowana nazwa: bystra krakowska|A1752860|PL|43-360|BYSTRA KRAKOWSKA|Klimczoka|80||||
 Nie znaleziono miejscowości: BYSTRA ŚL.- ODDZIAŁ/Szukana miejscowość: BYSTRA ŚL.- ODDZIAŁ,Znormalizowana nazwa: bystra sl. - oddzial|A1275546|PL|43-360|BYSTRA ŚL.- ODDZIAŁ|Promienista|18||||
-Nie znaleziono miejscowości: Bystra Śląska/Szukana miejscowość: Bystra Śląska,Znormalizowana nazwa: bystra slaska|A1616538|PL|43-360|Bystra Śląska|Szczyrkowska|140||||
-Nie znaleziono miejscowości: Bystra Śląska/Szukana miejscowość: Bystra Śląska,Znormalizowana nazwa: bystra slaska|A1616857|PL|43-360|Bystra Śląska|Kolorowa|18||||
-Nie znaleziono miejscowości: Bystra Śląska/Szukana miejscowość: Bystra Śląska,Znormalizowana nazwa: bystra slaska|A1915733|PL|43-360|Bystra Śląska|Piękna|5||||
-Nie znaleziono miejscowości: Bystra Śląska/Szukana miejscowość: Bystra Śląska,Znormalizowana nazwa: bystra slaska|A1941774|PL|43-360|Bystra Śląska|ul. Ogrodowa|25||||
-Nie znaleziono miejscowości: BYSTRA ŚLĄSKA/Szukana miejscowość: BYSTRA ŚLĄSKA,Znormalizowana nazwa: bystra slaska|A1475272|PL|43-360|BYSTRA ŚLĄSKA|UL. ZDROJOWA 3|||||
 Nie znaleziono miejscowości: Bystrzejowice/Szukana miejscowość: Bystrzejowice,Znormalizowana nazwa: bystrzejowice|A1886084|PL|21-050|Bystrzejowice|Bystrzejowice|3|25|||
 Nie znaleziono miejscowości: BYSTRZYCA KŁ./Szukana miejscowość: BYSTRZYCA KŁ.,Znormalizowana nazwa: bystrzyca kl.|A1609605|PL|57-500|BYSTRZYCA KŁ.|Strażacka|11||||
 Nie znaleziono miejscowości: BYSTRZYCA KŁ./Szukana miejscowość: BYSTRZYCA KŁ.,Znormalizowana nazwa: bystrzyca kl.|A1609606|PL|57-500|BYSTRZYCA KŁ.|Strażacka|11||||
@@ -1165,40 +1161,6 @@ Nie znaleziono miejscowości: GORZÓW WLKP/Szukana miejscowość: GORZÓW WLKP,Z
 Nie znaleziono miejscowości: GORZÓW WLKP/Szukana miejscowość: GORZÓW WLKP,Znormalizowana nazwa: gorzow wlkp|A1845764|PL|66-400|GORZÓW WLKP|Walczaka|25||||
 Nie znaleziono miejscowości: GORZÓW WLKP/Szukana miejscowość: GORZÓW WLKP,Znormalizowana nazwa: gorzow wlkp|A1890412|PL|66-400|GORZÓW WLKP|Plac Słoneczny|13|3|||
 Nie znaleziono miejscowości: GORZÓW WLKP/Szukana miejscowość: GORZÓW WLKP,Znormalizowana nazwa: gorzow wlkp|A1906177|PL|66-400|GORZÓW WLKP|Szwoleżerów|14||||
-Nie znaleziono miejscowości: Gorzów Wlkp./Szukana miejscowość: Gorzów Wlkp.,Znormalizowana nazwa: gorzow wlkp.|A1659838|PL|66-400|Gorzów Wlkp.|Nowa|28||||
-Nie znaleziono miejscowości: Gorzów Wlkp./Szukana miejscowość: Gorzów Wlkp.,Znormalizowana nazwa: gorzow wlkp.|A1688025|PL|66-400|Gorzów Wlkp.|Walczaka|43A|22|||
-Nie znaleziono miejscowości: Gorzów Wlkp./Szukana miejscowość: Gorzów Wlkp.,Znormalizowana nazwa: gorzow wlkp.|A1803756|PL|66-400|Gorzów Wlkp.|Dąbrowskiego|29|7|||
-Nie znaleziono miejscowości: Gorzów Wlkp./Szukana miejscowość: Gorzów Wlkp.,Znormalizowana nazwa: gorzow wlkp.|A1827875|PL|66-400|Gorzów Wlkp.|Sosnkowskiego|46B|10|||
-Nie znaleziono miejscowości: Gorzów Wlkp./Szukana miejscowość: Gorzów Wlkp.,Znormalizowana nazwa: gorzow wlkp.|A1987557|PL|66-400|Gorzów Wlkp.|Ul. Przy stadionie|16|1|LUBUSKIE|GORZÓW WIELKOPOLSKI|GORZÓW WIELKOPOLSKI
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1292348|PL|66-400|GORZÓW WLKP.|Łokietka|23||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1298848|PL|64-400|GORZÓW WLKP.|Owocowa|8||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1406337|PL|66-400|GORZÓW WLKP.|Sikorskiego|115||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1410863|PL|66-400|GORZÓW WLKP.|Pocztowa|6||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1418278|PL|66-400|GORZÓW WLKP.|Narutowicza|28|7|||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1430916|PL|66-400|GORZÓW WLKP.|Kosynierów Gdyńskich|64||LUBUSKIE||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1463157|PL|66-400|GORZÓW WLKP.|ARMII POLSKIEJ|12|5|||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1476148|PL|66-400|GORZÓW WLKP.|ul. Wł. Sikorskiego 7|||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1645685|PL|66-400|GORZÓW WLKP.|Zuchów|53||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1691952|PL|66-400|GORZÓW WLKP.|Kirkora|11||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1699153|PL|66-400|GORZÓW WLKP.|Kosynierów Gdyńskich|51||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1700335|PL|66-400|GORZÓW WLKP.|Kombatantów|34|611|||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1726023|PL|66-400|GORZÓW WLKP.|Walczaka|110||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1729271|PL|66-400|GORZÓW WLKP.|DĄBROWSKIEGO|20B||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1753643|PL|66-400|GORZÓW WLKP.|WALCZAKA|55|1|||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1771096|PL|66-400|GORZÓW WLKP.|Mieszka I-go|56||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1775654|PL|66-400|GORZÓW WLKP.|Mieszka I-go|15|1|||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1776274|PL|66-400|GORZÓW WLKP.|Walczaka|25||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1794200|PL|66-400|GORZÓW WLKP.|Kostrzyńska|96||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1794982|PL|66-400|GORZÓW WLKP.|Sikorskiego|30||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1808042|PL|66-400|GORZÓW WLKP.|Walczaka 114|||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1814019|PL|66-400|GORZÓW WLKP.|Dąbrowskiego|33||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1814712|PL|66-400|GORZÓW WLKP.|Mickiewicza|29|3|||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1816855|PL|66-400|GORZÓW WLKP.|Prądzyńskiego|29|4|||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1835715|PL|66-400|GORZÓW WLKP.|Rzepińska|8||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1838806|PL|66-400|GORZÓW WLKP.|ul. Czereśniowa 4e|||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1862023|PL|66-400|GORZÓW WLKP.|ul. Czereśniowa|4 e||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1901010|PL|66-400|GORZÓW WLKP.|Kostrzyńska|89||||
-Nie znaleziono miejscowości: GORZÓW WLKP./Szukana miejscowość: GORZÓW WLKP.,Znormalizowana nazwa: gorzow wlkp.|A1901964|PL|66-400|GORZÓW WLKP.|Żwirowa|15|17|||
 Nie znaleziono miejscowości: GORZYCE K. RYBNIKA/Szukana miejscowość: GORZYCE K. RYBNIKA,Znormalizowana nazwa: gorzyce k. rybnika|A1475293|PL|44-350|GORZYCE K. RYBNIKA|UL.KOŚCIELNA 21A|||||
 Nie znaleziono miejscowości: GORZYCE TARNOBRZESKIE/Szukana miejscowość: GORZYCE TARNOBRZESKIE,Znormalizowana nazwa: gorzyce tarnobrzeskie|A1877613|PL|39-432|GORZYCE TARNOBRZESKIE|Norwida|7||||
 Nie znaleziono miejscowości: Gościeradów/Szukana miejscowość: Gościeradów,Znormalizowana nazwa: goscieradow|A1683692|PL|23-275|Gościeradów|Jaśmiowa|4||||
@@ -1219,11 +1181,6 @@ Nie znaleziono miejscowości: GRODZISK MAZ./Szukana miejscowość: GRODZISK MAZ.
 Nie znaleziono miejscowości: GRODZISK MAZOW./Szukana miejscowość: GRODZISK MAZOW.,Znormalizowana nazwa: grodzisk mazow.|A1346953|PL|05-825|GRODZISK MAZOW.|Narutowicza|20||||
 Nie znaleziono miejscowości: GRODZISK WIELKOP./Szukana miejscowość: GRODZISK WIELKOP.,Znormalizowana nazwa: grodzisk wielkop.|A1764535|PL|62-065|GRODZISK WIELKOP.|GARBARY|19A||||
 Nie znaleziono miejscowości: GRODZISK WLKP/Szukana miejscowość: GRODZISK WLKP,Znormalizowana nazwa: grodzisk wlkp|A1840555|PL|62-065|GRODZISK WLKP|15 Lipca|29||||
-Nie znaleziono miejscowości: Grodzisk Wlkp./Szukana miejscowość: Grodzisk Wlkp.,Znormalizowana nazwa: grodzisk wlkp.|A1714972|PL|62-065|Grodzisk Wlkp.|Kusocińskiego|11||||
-Nie znaleziono miejscowości: GRODZISK WLKP./Szukana miejscowość: GRODZISK WLKP.,Znormalizowana nazwa: grodzisk wlkp.|A1476630|PL|62-065|GRODZISK WLKP.|ul.Chopina 1|||||
-Nie znaleziono miejscowości: GRODZISK WLKP./Szukana miejscowość: GRODZISK WLKP.,Znormalizowana nazwa: grodzisk wlkp.|A1765646|PL|62-065|GRODZISK WLKP.|ul.Słomińskiego 7|||||
-Nie znaleziono miejscowości: GRODZISK WLKP./Szukana miejscowość: GRODZISK WLKP.,Znormalizowana nazwa: grodzisk wlkp.|A1823704|PL|62-065|GRODZISK WLKP.|Przemysłowa|12||||
-Nie znaleziono miejscowości: GRODZISK WLKP./Szukana miejscowość: GRODZISK WLKP.,Znormalizowana nazwa: grodzisk wlkp.|A1979379|PL|62-065|GRODZISK WLKP.|Powstańców Chocieszyńskich|87||||
 Nie znaleziono miejscowości: GRÓDEK N/DUNAJCEM/Szukana miejscowość: GRÓDEK N/DUNAJCEM,Znormalizowana nazwa: grodek n/dunajcem|A1476453|PL|33-318|GRÓDEK N/DUNAJCEM 100||||||
 Nie znaleziono miejscowości: GRÓDEK N/DUNAJCEM/Szukana miejscowość: GRÓDEK N/DUNAJCEM,Znormalizowana nazwa: grodek n/dunajcem|A1672834|PL|33-318|GRÓDEK N/DUNAJCEM|Gródek n/Dunajcem|153||||
 Nie znaleziono miejscowości: GRÓDEK N/DUNAJCEM/Szukana miejscowość: GRÓDEK N/DUNAJCEM,Znormalizowana nazwa: grodek n/dunajcem|A1899545|PL|33-318|GRÓDEK N/DUNAJCEM|Gródek n/Dunajcem|240||||
@@ -1826,21 +1783,6 @@ Nie znaleziono miejscowości: PILAWA G./Szukana miejscowość: PILAWA G.,Znormal
 Nie znaleziono miejscowości: PIŁA SALEZJAŃSKA/Szukana miejscowość: PIŁA SALEZJAŃSKA,Znormalizowana nazwa: pila salezjanska|A1752934|PL|64-920|PIŁA SALEZJAŃSKA||1a||||
 Nie znaleziono miejscowości: PIOTRKÓW MTRYB./Szukana miejscowość: PIOTRKÓW MTRYB.,Znormalizowana nazwa: piotrkow mtryb.|A1807962|PL|97-300|PIOTRKÓW MTRYB.|Polna|16||||
 Nie znaleziono miejscowości: PIOTRKÓW TR./Szukana miejscowość: PIOTRKÓW TR.,Znormalizowana nazwa: piotrkow tr.|A1668263|PL|97-300|PIOTRKÓW TR.|Łódzka|33|2|ŁÓDZKIE|PIOTRKÓW TRYBUNALSKI|PIOTRKÓW TRYBUNALSKI
-Nie znaleziono miejscowości: Piotrków Tryb./Szukana miejscowość: Piotrków Tryb.,Znormalizowana nazwa: piotrkow tryb.|A1657688|PL|97-300|Piotrków Tryb.|Migdałowa|43||||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1353189|PL|97-300|PIOTRKÓW TRYB.|Pawłowska|23||||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1353257|PL|97-300|PIOTRKÓW TRYB.|Mickiewicza|35||ŁÓDZKIE|PIOTRKÓW TRYBUNALSKI|PIOTRKÓW TRYBUNALSKI
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1353428|PL|97-300|PIOTRKÓW TRYB.|Piastowska|10|27|||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1368346|PL|97-300|PIOTRKÓW TRYB.|Polna|21a||ŁÓDZKIE||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1368957|PL|97-300|PIOTRKÓW TRYB.|Kościelna|2|8|ŁÓDZKIE||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1369007|PL|97-300|PIOTRKÓW TRYB.|Wojska Polskiego|120||ŁÓDZKIE||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1370552|PL|97-300|PIOTRKÓW TRYB.|Lelewela|19||||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1370871|PL|97-300|PIOTRKÓW TRYB.|Doroszewskiego|1|37|ŁÓDZKIE||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1418194|PL|97-300|PIOTRKÓW TRYB.|Emilii Plater|3|13|||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1437309|PL|97-300|PIOTRKÓW TRYB.|Krasickiego|9|36|||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1448377|PL|97-300|PIOTRKÓW TRYB.|ul.Promienna|26||||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1468810|PL|97-300|PIOTRKÓW TRYB.|Dolna|28||||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1748226|PL|97-300|PIOTRKÓW TRYB.|ŹRÓDLANA|18||||
-Nie znaleziono miejscowości: PIOTRKÓW TRYB./Szukana miejscowość: PIOTRKÓW TRYB.,Znormalizowana nazwa: piotrkow tryb.|A1790380|PL|97-300|PIOTRKÓW TRYB.|RUSAŁKI|45||ŁÓDZKIE|PIOTRKÓW TRYBUNALSKI|PIOTRKÓW TRYBUNALSKI
 Nie znaleziono miejscowości: PIOTRKÓW TRYBUN/Szukana miejscowość: PIOTRKÓW TRYBUN,Znormalizowana nazwa: piotrkow trybun|A1351801|PL|97-300|PIOTRKÓW TRYBUN|Wojska Polskiego|218||ŁÓDZKIE||
 Nie znaleziono miejscowości: PIOTRKÓW TRYBUN/Szukana miejscowość: PIOTRKÓW TRYBUN,Znormalizowana nazwa: piotrkow trybun|A1352931|PL|97-300|PIOTRKÓW TRYBUN|Jagodowa|14||ŁÓDZKIE||
 Nie znaleziono miejscowości: PIOTRKÓW TRYBUN/Szukana miejscowość: PIOTRKÓW TRYBUN,Znormalizowana nazwa: piotrkow trybun|A1368591|PL|97-300|PIOTRKÓW TRYBUN|Piastowska|14|16 9|||
@@ -1937,13 +1879,6 @@ Nie znaleziono miejscowości: ROGOŹNO WLKP/Szukana miejscowość: ROGOŹNO WLKP
 Nie znaleziono miejscowości: ROKIETNICA-SOBOTA/Szukana miejscowość: ROKIETNICA-SOBOTA,Znormalizowana nazwa: rokietnica-sobota|A1765819|PL|62-090|ROKIETNICA-SOBOTA|Poznańska|43||||
 Nie znaleziono miejscowości: Ropczyce (Ropczycko-Sędzis/Szukana miejscowość: Ropczyce (Ropczycko-Sędzis,Znormalizowana nazwa: ropczyce (ropczycko-sedzis|A1896988|PL|39-100|Ropczyce (Ropczycko-Sędzis|Ogrodnicza|40||||
 Nie znaleziono miejscowości: Rożniatiw/Szukana miejscowość: Rożniatiw,Znormalizowana nazwa: rozniatiw|A1663309|PL|77-600|Rożniatiw|Hetmana Mazepy|27||||
-Nie znaleziono miejscowości: RUDA ŚL./Szukana miejscowość: RUDA ŚL.,Znormalizowana nazwa: ruda sl.|A1247936|PL|41-712|RUDA ŚL.|Joanny|18|66|ŚLĄSKIE|RUDA ŚLĄSKA|RUDA ŚLĄSKA
-Nie znaleziono miejscowości: RUDA ŚL./Szukana miejscowość: RUDA ŚL.,Znormalizowana nazwa: ruda sl.|A1270187|PL|41-709|RUDA ŚL.|Czarnoleśna|43c|7|ŚLĄSKIE|RUDA ŚLĄSKA|RUDA ŚLĄSKA
-Nie znaleziono miejscowości: RUDA ŚL./Szukana miejscowość: RUDA ŚL.,Znormalizowana nazwa: ruda sl.|A1300046|PL|41-706|RUDA ŚL.|Gojawiczyńskiej|2|6|ŚLĄSKIE|RUDA ŚLĄSKA|RUDA ŚLĄSKA
-Nie znaleziono miejscowości: RUDA ŚL./Szukana miejscowość: RUDA ŚL.,Znormalizowana nazwa: ruda sl.|A1414858|PL|41-707|RUDA ŚL.|Ks. Tunkla|141|6|||
-Nie znaleziono miejscowości: RUDA ŚL./Szukana miejscowość: RUDA ŚL.,Znormalizowana nazwa: ruda sl.|A1676309|PL|41-709|RUDA ŚL.|Chorzowska|37||||
-Nie znaleziono miejscowości: RUDA ŚL./Szukana miejscowość: RUDA ŚL.,Znormalizowana nazwa: ruda sl.|A1755090|PL|41-711|RUDA ŚL.|Kokota|172||||
-Nie znaleziono miejscowości: RUDA ŚL./Szukana miejscowość: RUDA ŚL.,Znormalizowana nazwa: ruda sl.|A1793680|PL|41-710|RUDA ŚL.|Teatralna|6||||
 Nie znaleziono miejscowości: RUDNIK N/SANEM/Szukana miejscowość: RUDNIK N/SANEM,Znormalizowana nazwa: rudnik n/sanem|A1350512|PL|37-420|RUDNIK N/SANEM|Piłsudskiego|18|18|||
 Nie znaleziono miejscowości: RUDNIK N/SANEM/Szukana miejscowość: RUDNIK N/SANEM,Znormalizowana nazwa: rudnik n/sanem|A1476851|PL|37-420|RUDNIK N/SANEM|UL.RYNEK 7|||||
 Nie znaleziono miejscowości: RUSKOWY BRÓD/Szukana miejscowość: RUSKOWY BRÓD,Znormalizowana nazwa: ruskowy brod|A1927381|PL|03-289|RUSKOWY BRÓD|Ruskowy Bród|102HA|1|||
@@ -1985,27 +1920,6 @@ Nie znaleziono miejscowości: SĘDZISZÓW MAŁOPOL./Szukana miejscowość: SĘDZ
 Nie znaleziono miejscowości: Sędziszów Młp/Szukana miejscowość: Sędziszów Młp,Znormalizowana nazwa: sedziszow mlp|A1641596|PL|39-120|Sędziszów Młp|Kochanowskiego|1||||
 Nie znaleziono miejscowości: SĘDZISZÓW MŁP/Szukana miejscowość: SĘDZISZÓW MŁP,Znormalizowana nazwa: sedziszow mlp|A1415311|PL|39-120|SĘDZISZÓW MŁP|Ul. 3-Go Maja|56||||
 Nie znaleziono miejscowości: SĘDZISZÓW MŁP/Szukana miejscowość: SĘDZISZÓW MŁP,Znormalizowana nazwa: sedziszow mlp|A1467554|PL|39-120|SĘDZISZÓW MŁP|Rzeszowska|16||||
-Nie znaleziono miejscowości: Sędziszów Młp./Szukana miejscowość: Sędziszów Młp.,Znormalizowana nazwa: sedziszow mlp.|A1613871|PL|39-120|Sędziszów Młp.|Wyszyńskiego|17||||
-Nie znaleziono miejscowości: Sędziszów Młp./Szukana miejscowość: Sędziszów Młp.,Znormalizowana nazwa: sedziszow mlp.|A1686122|PL|39-120|Sędziszów Młp.|Klonowa|29a||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1235512|PL|39-120|SĘDZISZÓW MŁP.|OS.MŁODYCH|17|57|PODKARPACKIE|ROPCZYCKO-SĘDZISZOWSKI|SĘDZISZÓW MAŁOPOLSKI
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1292958|PL|39-120|SĘDZISZÓW MŁP.|Reja|2||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1351171|PL|39-120|SĘDZISZÓW MŁP.|SIENKIEWICZA|24||PODKARPACKIE||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1353173|PL|39-120|SĘDZISZÓW MŁP.|Rędziny|56||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1353191|PL|39-120|SĘDZISZÓW MŁP.|Klonowa|29a||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1353554|PL|39-120|SĘDZISZÓW MŁP.|Węglowskiego|1||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1358176|PL|39-120|SĘDZISZÓW MŁP.|Św.Klary|1||PODKARPACKIE|ROPCZYCKO-SĘDZISZOWSKI|SĘDZISZÓW MAŁOPOLSKI
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1373635|PL|39-120|SĘDZISZÓW MŁP.|Osiedle Młodych|3|51|PODKARPACKIE|ROPCZYCKO-SĘDZISZOWSKI|SĘDZISZÓW MAŁOPOLSKI
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1417786|PL|39-120|SĘDZISZÓW MŁP.|Konopnickiej|13||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1440593|PL|39-120|SĘDZISZÓW MŁP.|Klonowa|6||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1442190|PL|39-120|SĘDZISZÓW MŁP.|Klonowa|5||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1466325|PL|39-120|SĘDZISZÓW MŁP.|os. Młodych|16|2|||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1469101|PL|39-120|SĘDZISZÓW MŁP.|Słowackiego|21||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1617247|PL|39-120|SĘDZISZÓW MŁP.|Rynek|14||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1649124|PL|39-120|SĘDZISZÓW MŁP.|Węglowskiego|6||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1815411|PL|39-120|SĘDZISZÓW MŁP.|Osiedle Młodych|12|55|||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1861489|PL|39-120|SĘDZISZÓW MŁP.|Słoneczna|2C||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|A1877952|PL|39-120|SĘDZISZÓW MŁP.|Ziołowa|39||||
-Nie znaleziono miejscowości: SĘDZISZÓW MŁP./Szukana miejscowość: SĘDZISZÓW MŁP.,Znormalizowana nazwa: sedziszow mlp.|TU1235512|PL|39-120|SĘDZISZÓW MŁP.|os.Młodych|17|57|PODKARPACKIE|ROPCZYCKO-SĘDZISZOWSKI|SĘDZISZÓW MAŁOPOLSKI
 Nie znaleziono miejscowości: SĘPÓLNO KRAJ./Szukana miejscowość: SĘPÓLNO KRAJ.,Znormalizowana nazwa: sepolno kraj.|A1476009|PL|89-400|SĘPÓLNO KRAJ.|PL.WOLNOŚCI 21|||||
 Nie znaleziono miejscowości: Siedliska Tomaszowskie/Szukana miejscowość: Siedliska Tomaszowskie,Znormalizowana nazwa: siedliska tomaszowskie|A1825718|PL|22-680|Siedliska Tomaszowskie||151||||
 Nie znaleziono miejscowości: Siekacze/Szukana miejscowość: Siekacze,Znormalizowana nazwa: siekacze|A1783150|PL|34-734|Siekacze||214||||
@@ -2033,38 +1947,6 @@ Nie znaleziono miejscowości: SIEMIANOWICE ŚL/Szukana miejscowość: SIEMIANOWI
 Nie znaleziono miejscowości: SIEMIANOWICE ŚL/Szukana miejscowość: SIEMIANOWICE ŚL,Znormalizowana nazwa: siemianowice sl|A1355053|PL|41-106|SIEMIANOWICE ŚL|Boh. Westerplatte|6|27|ŚLĄSKIE||
 Nie znaleziono miejscowości: SIEMIANOWICE ŚL/Szukana miejscowość: SIEMIANOWICE ŚL,Znormalizowana nazwa: siemianowice sl|A1403826|PL|41-100|SIEMIANOWICE ŚL|SROKOWIECKA|18||||
 Nie znaleziono miejscowości: SIEMIANOWICE ŚL/Szukana miejscowość: SIEMIANOWICE ŚL,Znormalizowana nazwa: siemianowice sl|A1430876|PL|41-100|SIEMIANOWICE ŚL|ul.Sienkiewicza|12||||
-Nie znaleziono miejscowości: Siemianowice Śl./Szukana miejscowość: Siemianowice Śl.,Znormalizowana nazwa: siemianowice sl.|A1613328|PL|41-100|Siemianowice Śl.|Michałkowicka|21a|4|||
-Nie znaleziono miejscowości: Siemianowice Śl./Szukana miejscowość: Siemianowice Śl.,Znormalizowana nazwa: siemianowice sl.|ZA1613328|PL|41-100|Siemianowice Śl.|Michałkowicka|21a|4|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1251540|PL|41-100|SIEMIANOWICE ŚL.|Zielona|11a|9|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1253931|PL|41-400|SIEMIANOWICE ŚL.|Wróbla|4a|10|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1253934|PL|41-103|SIEMIANOWICE ŚL.|Stawowa|13b|12|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1253936|PL|41-103|SIEMIANOWICE ŚL.|Niepodległości|66h|8|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1253940|PL|41-100|SIEMIANOWICE ŚL.|POWSTAŃCÓW|53|6|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1253941|PL|41-103|SIEMIANOWICE ŚL.|Przyjaźni|8|6|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1254941|PL|41-100|SIEMIANOWICE ŚL.|Okrężna|8|9|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1256874|PL|41-106|SIEMIANOWICE ŚL.|Związku Harcerstwa Polskiego|7|25|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1256876|PL|41-106|SIEMIANOWICE ŚL.|Związku Harcerstwa Polskiego|7|25|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1301827|PL|41-106|SIEMIANOWICE ŚL.|Niepodległości|65 a||||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1307664|PL|41-100|SIEMIANOWICE ŚL.|Srokowiecka|18||||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1319708|PL|41-106|SIEMIANOWICE ŚL.|Westerplatte|10|26|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1326825|PL|41-106|SIEMIANOWICE ŚL.|Jagiełły|13A|9|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1346112|PL|41-100|SIEMIANOWICE ŚL.|Śląska|17|2|||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1348981|PL|41-106|SIEMIANOWICE ŚL.|SZARYCH SZEREGÓW|4|13|ŚLĄSKIE||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1352987|PL||SIEMIANOWICE ŚL.|Wróbla|7D|103|||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1400298|PL|41-103|SIEMIANOWICE ŚL.|ul.żeromskiego|21||||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1410381|PL|41-106|SIEMIANOWICE ŚL.|ul.Wróblewskiego|7||||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1421093|PL|41-400|SIEMIANOWICE ŚL.|Lipowa|4a|13|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1424103|PL|41-106|SIEMIANOWICE ŚL.|Waloszka|56||ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1435284|PL|41-100|SIEMIANOWICE ŚL.|ul.pszczelnicza|14||||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1464683|PL|41-100|SIEMIANOWICE ŚL.|Brzozowa|7|1|||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1473976|PL|41-100|SIEMIANOWICE ŚL.|J.Śniadeckiego|2|9|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1483158|PL|41-100|SIEMIANOWICE ŚL.|ul.Fabryczna|19||||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1694670|PL|41-106|SIEMIANOWICE ŚL.|Grunwaldzka|3A|15|||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1808901|PL|41-103|SIEMIANOWICE ŚL.|Skłodowskiej-Curie|73|6|||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1834058|PL|41-100|SIEMIANOWICE ŚL.|Aleja Młodych|7|31|||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1889470|PL|41-106|SIEMIANOWICE ŚL.|Al.Młodych|21||||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|A1977521|PL|41-100|SIEMIANOWICE ŚL.|ks.Jana Kapicy|9||||
-Nie znaleziono miejscowości: SIEMIANOWICE ŚL./Szukana miejscowość: SIEMIANOWICE ŚL.,Znormalizowana nazwa: siemianowice sl.|ZA1319708|PL|41-106|SIEMIANOWICE ŚL.|Westerplatte|10|26|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
 Nie znaleziono miejscowości: SIEMIANOWICE ŚLĄS./Szukana miejscowość: SIEMIANOWICE ŚLĄS.,Znormalizowana nazwa: siemianowice slas.|A1252882|PL|41-100|SIEMIANOWICE ŚLĄS.|Trafalczyka|14|6|ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE|SIEMIANOWICE ŚLĄSKIE
 Nie znaleziono miejscowości: SIERAKÓW WIELKOPOLSKI/Szukana miejscowość: SIERAKÓW WIELKOPOLSKI,Znormalizowana nazwa: sierakow wielkopolski|A1383582|PL|64-410|SIERAKÓW WIELKOPOLSKI|Poznańska|35||WIELKOPOLSKIE||
 Nie znaleziono miejscowości: Sierosławice Konecka/Szukana miejscowość: Sierosławice Konecka,Znormalizowana nazwa: sieroslawice konecka|A1912707|PL|26-200|Sierosławice Konecka||56A||||
@@ -2102,12 +1984,6 @@ Nie znaleziono miejscowości: Słupia Jędrzejowska/Szukana miejscowość: Słup
 Nie znaleziono miejscowości: Smakoszów/Szukana miejscowość: Smakoszów,Znormalizowana nazwa: smakoszow|A1984294|PL|98-235|Smakoszów||16D||||
 Nie znaleziono miejscowości: SMOLEC JABŁONIOWA/Szukana miejscowość: SMOLEC JABŁONIOWA,Znormalizowana nazwa: smolec jabloniowa|A1900631|PL|55-080|SMOLEC JABŁONIOWA||11||||
 Nie znaleziono miejscowości: SMOLNICA POLSKA/Szukana miejscowość: SMOLNICA POLSKA,Znormalizowana nazwa: smolnica polska|A1845861|PL|44-153|SMOLNICA POLSKA|Wiejska|13||||
-Nie znaleziono miejscowości: Sokołów Młp./Szukana miejscowość: Sokołów Młp.,Znormalizowana nazwa: sokolow mlp.|A1664088|PL|36-050|Sokołów Młp.|Rzeszowska|27||||
-Nie znaleziono miejscowości: Sokołów Młp./Szukana miejscowość: Sokołów Młp.,Znormalizowana nazwa: sokolow mlp.|A1780714|PL|36-050|Sokołów Młp.|Paderewskiego|17||||
-Nie znaleziono miejscowości: SOKOŁÓW MŁP./Szukana miejscowość: SOKOŁÓW MŁP.,Znormalizowana nazwa: sokolow mlp.|A1333974|PL||SOKOŁÓW MŁP.|Wojska Polskiego|36||||
-Nie znaleziono miejscowości: SOKOŁÓW MŁP./Szukana miejscowość: SOKOŁÓW MŁP.,Znormalizowana nazwa: sokolow mlp.|A1348761|PL|36-050|SOKOŁÓW MŁP.|Pileckich|2|45|||
-Nie znaleziono miejscowości: SOKOŁÓW MŁP./Szukana miejscowość: SOKOŁÓW MŁP.,Znormalizowana nazwa: sokolow mlp.|A1368506|PL|36-050|SOKOŁÓW MŁP.|Partyzantów|19||||
-Nie znaleziono miejscowości: SOKOŁÓW MŁP./Szukana miejscowość: SOKOŁÓW MŁP.,Znormalizowana nazwa: sokolow mlp.|A1845853|PL|36-050|SOKOŁÓW MŁP.|Rynek|16||||
 Nie znaleziono miejscowości: Sosnowiec (Sosnowiec, Śląs/Szukana miejscowość: Sosnowiec (Sosnowiec, Śląs,Znormalizowana nazwa: sosnowiec (sosnowiec, slas|A1916757|PL|41-208|Sosnowiec (Sosnowiec, Śląs|Wygoda|23||||
 Nie znaleziono miejscowości: SOSNOWIECLKI/Szukana miejscowość: SOSNOWIECLKI,Znormalizowana nazwa: sosnowieclki|TU1337756|PL|41-200|SOSNOWIECLKI|Kilińskiego|14|10|ŚLĄSKIE|SOSNOWIEC|SOSNOWIEC
 Nie znaleziono miejscowości: SOSNOWIECLKI/Szukana miejscowość: SOSNOWIECLKI,Znormalizowana nazwa: sosnowieclki|ZA1337756|PL|41-200|SOSNOWIECLKI|Kilińskiego|14|10|ŚLĄSKIE|SOSNOWIEC|SOSNOWIEC
@@ -2141,41 +2017,6 @@ Nie znaleziono miejscowości: STARGARD SZCZ./Szukana miejscowość: STARGARD SZC
 Nie znaleziono miejscowości: STARGARD SZCZ./Szukana miejscowość: STARGARD SZCZ.,Znormalizowana nazwa: stargard szcz.|A1413523|PL|73-110|STARGARD SZCZ.|Wojska Polskiego|82|1|||
 Nie znaleziono miejscowości: STARGARD SZCZ./Szukana miejscowość: STARGARD SZCZ.,Znormalizowana nazwa: stargard szcz.|A1421166|PL|73-110|STARGARD SZCZ.|ul.Usługowa|3||||
 Nie znaleziono miejscowości: STARGARD SZCZ./Szukana miejscowość: STARGARD SZCZ.,Znormalizowana nazwa: stargard szcz.|A1448031|PL|73-110|STARGARD SZCZ.|Usługowa|3||||
-Nie znaleziono miejscowości: Stargard Szczeciński/Szukana miejscowość: Stargard Szczeciński,Znormalizowana nazwa: stargard szczecinski|A1734393|PL|73-110|Stargard Szczeciński|os. Zachód|B14/c|2|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A11706810|PL|73-110|STARGARD SZCZECIŃSKI|PIERWSZEJ BRYGADY|35||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1343436|PL|73-110|STARGARD SZCZECIŃSKI|Bydgoska|5|3|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1344244|PL|71-113|STARGARD SZCZECIŃSKI|Lechonia|7a|3|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1362441|PL|73-110|STARGARD SZCZECIŃSKI|Czarnieckiego|34||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1365995|PL|73-110|STARGARD SZCZECIŃSKI|Sikorskiego|12|2|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1386216|PL|73-110|STARGARD SZCZECIŃSKI|Dworcowa|21|7|ZACHODNIOPOMORSKIE|STARGARDZKI|STARGARD
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1393989|PL|73-110|STARGARD SZCZECIŃSKI|Wojska Polskiego|82|1|ZACHODNIOPOMORSKIE|STARGARDZKI|STARGARD
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1394021|PL|73-110|STARGARD SZCZECIŃSKI|Ul. Chopina|52|B/8|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1408504|PL|73-110|STARGARD SZCZECIŃSKI|Sucharskiego|1b|1|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1436953|PL|73-110|STARGARD SZCZECIŃSKI|Płatnerzy|1c|4|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1452396|PL|73-110|STARGARD SZCZECIŃSKI|J.Przybosia|20||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1454743|PL|73-110|STARGARD SZCZECIŃSKI|Łokietka|3a||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1467960|PL|73-110|STARGARD SZCZECIŃSKI|Kaszubska|17|1|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1474809|PL|73-110|STARGARD SZCZECIŃSKI|ul.Piłsudskiego 4/5|||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1474892|PL|73-110|STARGARD SZCZECIŃSKI|ul.Czarnieckiego 16|||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1476824|PL|73-110|STARGARD SZCZECIŃSKI|UL.CZARNIECKIEGO 33|||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1477123|PL|73-110|STARGARD SZCZECIŃSKI|ul.Wyszyńskiego 10|||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1608512|PL|72-102|STARGARD SZCZECIŃSKI|Witkowo Drugie|16a||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1608528|PL|73-100|STARGARD SZCZECIŃSKI|os.Zachód|A13a|6|ZACHODNIOPOMORSKIE|STARGARDZKI|STARGARD
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1608671|PL||STARGARD SZCZECIŃSKI|Kołłataja|13|1|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1618585|PL|73-110|STARGARD SZCZECIŃSKI|CIEPLNA|1||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1623966|PL|73-103|STARGARD SZCZECIŃSKI|Wojska Polskiego|100|4|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1654311|PL|73-110|STARGARD SZCZECIŃSKI|Wł.Łokietka|3 a||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1668458|PL|73-110|STARGARD SZCZECIŃSKI|Podleśna|14A||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1672765|PL|73-110|STARGARD SZCZECIŃSKI|Na Grobli|4||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1695462|PL|73-110|STARGARD SZCZECIŃSKI|Szczecińska|80/3||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1706810|PL|73-110|STARGARD SZCZECIŃSKI|Pierwszej Brygady|35||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1715606|PL|73-110|STARGARD SZCZECIŃSKI|Brzozowa|40|2|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1745432|PL|73-110|STARGARD SZCZECIŃSKI|Bydgoska|41|1|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1784646|PL|73-110|STARGARD SZCZECIŃSKI|Witolda Gombrowicza 37|||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1787549|PL|73-100|STARGARD SZCZECIŃSKI|Tadeusza Kościuszki|22||||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1791625|PL|73-110|STARGARD SZCZECIŃSKI|Hetmana Stefana Czarnieckiego|13|20|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1859145|PL|73-110|STARGARD SZCZECIŃSKI|Kościuszki|51|2|||
-Nie znaleziono miejscowości: STARGARD SZCZECIŃSKI/Szukana miejscowość: STARGARD SZCZECIŃSKI,Znormalizowana nazwa: stargard szczecinski|A1913033|PL|73-110|STARGARD SZCZECIŃSKI|Armii Krajowej|9C|3|||
 Nie znaleziono miejscowości: STARGARG SZCZECIŃSKI/Szukana miejscowość: STARGARG SZCZECIŃSKI,Znormalizowana nazwa: stargarg szczecinski|A1704367|PL|73-110|STARGARG SZCZECIŃSKI|Al.Żołnierza|27c|14|||
 Nie znaleziono miejscowości: STARGARG SZCZECIŃSKI/Szukana miejscowość: STARGARG SZCZECIŃSKI,Znormalizowana nazwa: stargarg szczecinski|A21706810|PL|73-110|STARGARG SZCZECIŃSKI|Pierwszej Brygady|35||||
 Nie znaleziono miejscowości: STARGRAD SZCZECIŃSKI/Szukana miejscowość: STARGRAD SZCZECIŃSKI,Znormalizowana nazwa: stargrad szczecinski|A1823714|PL|73-110|STARGRAD SZCZECIŃSKI|Os.Tysiąclecia|4e|3|||
@@ -2270,21 +2111,6 @@ Nie znaleziono miejscowości: TOMASZŁÓW MAZ./Szukana miejscowość: TOMASZŁÓ
 Nie znaleziono miejscowości: Tomaszo/Szukana miejscowość: Tomaszo,Znormalizowana nazwa: tomaszo|A1612153|PL|32-085|Tomaszo|Krakowska|5||||
 Nie znaleziono miejscowości: TOMASZÓW LUB./Szukana miejscowość: TOMASZÓW LUB.,Znormalizowana nazwa: tomaszow lub.|A1247271|PL|22-600|TOMASZÓW LUB.|Lwowska|32||||
 Nie znaleziono miejscowości: Tomaszów Maz/Szukana miejscowość: Tomaszów Maz,Znormalizowana nazwa: tomaszow maz|A1989945|PL|97-200|Tomaszów Maz|ul. Różana|51||||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1239463|PL|97-200|TOMASZÓW MAZ.|Paszkowskiego|6|31|||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1332209|PL|97-200|TOMASZÓW MAZ.|O.Lange|28a|15     62|||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1334256|PL|97-200|TOMASZÓW MAZ.|Graniczna|37|39 m. 4|||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1352069|PL|97-200|TOMASZÓW MAZ.|Hoża|5|7/18|ŁÓDZKIE||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1353422|PL|97-200|TOMASZÓW MAZ.|Dzieci Polskich|13|39|||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1368126|PL|97-200|TOMASZÓW MAZ.|Sterlinga|13-sty||ŁÓDZKIE||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1376299|PL|97-200|TOMASZÓW MAZ.|ul.Milenijna 38/40|||||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1394060|PL|97-200|TOMASZÓW MAZ.|Sterlinga|5|16|ŁÓDZKIE|TOMASZOWSKI|TOMASZÓW MAZOWIECKI
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1417095|PL|97-200|TOMASZÓW MAZ.|Ul.Zagajnikowa|5|24|||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1418245|PL|97-200|TOMASZÓW MAZ.|Ul.Sterlinga|1|13|||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1443288|PL|97-200|TOMASZÓW MAZ.|Biernackiego|866||||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1639802|PL|97-200|TOMASZÓW MAZ.|Wróblewskiego|3|50|||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1668815|PL|97-200|TOMASZÓW MAZ.|Majowa|71a||ŁÓDZKIE|TOMASZOWSKI|TOMASZÓW MAZOWIECKI
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1748432|PL|97-200|TOMASZÓW MAZ.|Św.Antoniego|32|25|||
-Nie znaleziono miejscowości: TOMASZÓW MAZ./Szukana miejscowość: TOMASZÓW MAZ.,Znormalizowana nazwa: tomaszow maz.|A1785319|PL|97-200|TOMASZÓW MAZ.|WIERZBOWA|136||||
 Nie znaleziono miejscowości: TOMASZÓW MAZOWI/Szukana miejscowość: TOMASZÓW MAZOWI,Znormalizowana nazwa: tomaszow mazowi|A1370998|PL|97-200|TOMASZÓW MAZOWI|Siedmiodomki|8|3|ŁÓDZKIE||
 Nie znaleziono miejscowości: TOMASZÓW MAZOWI/Szukana miejscowość: TOMASZÓW MAZOWI,Znormalizowana nazwa: tomaszow mazowi|A1390592|PL|97-200|TOMASZÓW MAZOWI|Ul. Osiedlowa|18||||
 Nie znaleziono miejscowości: TOMASZÓW MAZOWI/Szukana miejscowość: TOMASZÓW MAZOWI,Znormalizowana nazwa: tomaszow mazowi|A1394987|PL|97-200|TOMASZÓW MAZOWI|Ul. Zamenhofa|4||||
@@ -2339,31 +2165,6 @@ Nie znaleziono miejscowości: WODZISŁAW K.JĘDRZEJOWA/Szukana miejscowość: WO
 Nie znaleziono miejscowości: WODZISŁAW ŚL/Szukana miejscowość: WODZISŁAW ŚL,Znormalizowana nazwa: wodzislaw sl|A1283035|PL|44-300|WODZISŁAW ŚL|Wolności|36||ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
 Nie znaleziono miejscowości: WODZISŁAW ŚL/Szukana miejscowość: WODZISŁAW ŚL,Znormalizowana nazwa: wodzislaw sl|A1323992|PL|44-300|WODZISŁAW ŚL|Skrzyszowska|45||||
 Nie znaleziono miejscowości: WODZISŁAW ŚL/Szukana miejscowość: WODZISŁAW ŚL,Znormalizowana nazwa: wodzislaw sl|A1464380|PL|44-300|WODZISŁAW ŚL|Ofiar oświęcimskich|3||||
-Nie znaleziono miejscowości: Wodzisław Śl./Szukana miejscowość: Wodzisław Śl.,Znormalizowana nazwa: wodzislaw sl.|A1635571|PL|44-304|Wodzisław Śl.|Mszańska|10||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1208304|PL|44-307|WODZISŁAW ŚL.|Przemysława|3|116|ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1245571|PL|44-300|WODZISŁAW ŚL.|Piastowska|18|4|||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1257155|PL|44-373|WODZISŁAW ŚL.|Młodzieżowa|266||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1265104|PL|44-300|WODZISŁAW ŚL.|Przytulna|4||ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1266791|PL|44-300|WODZISŁAW ŚL.|Wałowa|47||ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1301405|PL|44-300|WODZISŁAW ŚL.|Tysiąclecia|15|7|ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1304496|PL|44-313|WODZISŁAW ŚL.|Krupińskiego|6||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1309220|PL|44-300|WODZISŁAW ŚL.|Krokusowa|6||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1309242|PL|44-300|WODZISŁAW ŚL.|Pszowska|43A||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1356188|PL|44-300|WODZISŁAW ŚL.|Plac Gladbeck|6||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1395550|PL|44-304|WODZISŁAW ŚL.|ul. L. Teligi|100||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1427725|PL|44-300|WODZISŁAW ŚL.|Piastowska|18|4|ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1439387|PL|44-304|WODZISŁAW ŚL.|L. Teligi|100||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1457626|PL|44-300|WODZISŁAW ŚL.|Gałczyńskiego|1||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1622851|PL|44-286|WODZISŁAW ŚL.|ul.Jastrzębska|114|10|ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1694608|PL|44-300|WODZISŁAW ŚL.|os.Dąbrówki|15|7|ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1748482|PL|44-300|WODZISŁAW ŚL.|Marklowicka|30a||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1808282|PL|44-304|WODZISŁAW ŚL.|1 Maja|16K||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1819530|PL|44-313|WODZISŁAW ŚL.|Marii Skłodowskiej-Curie|22||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1850439|PL|44-373|WODZISŁAW ŚL.|Młodzieżowa|295|c|||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1923342|PL|44-300|WODZISŁAW ŚL.|Połomska|45||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1928215|PL|44-300|WODZISŁAW ŚL.|os.Dąbrówki|8a|7|||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A1928223|PL|44-300|WODZISŁAW ŚL.|Wolności|76b||||
-Nie znaleziono miejscowości: WODZISŁAW ŚL./Szukana miejscowość: WODZISŁAW ŚL.,Znormalizowana nazwa: wodzislaw sl.|A28614|PL|44-286|WODZISŁAW ŚL.|os.Dąbrówki|25|5|ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
 Nie znaleziono miejscowości: Wodzisław Śląski- Zawada/Szukana miejscowość: Wodzisław Śląski- Zawada,Znormalizowana nazwa: wodzislaw slaski- zawada|A1714551|PL|44-373|Wodzisław Śląski- Zawada||8A||||
 Nie znaleziono miejscowości: WODZISŁAWŚL./Szukana miejscowość: WODZISŁAWŚL.,Znormalizowana nazwa: wodzislawsl.|A1378075|PL|44-300|WODZISŁAWŚL.|Bracka|9B||ŚLĄSKIE|WODZISŁAWSKI|WODZISŁAW ŚLĄSKI
 Nie znaleziono miejscowości: Wojciechów Pierwsza Koloni/Szukana miejscowość: Wojciechów Pierwsza Koloni,Znormalizowana nazwa: wojciechow pierwsza koloni|A1714362|PL|24-204|Wojciechów Pierwsza Koloni||16||||
@@ -3774,6 +3575,7 @@ Nie znaleziono ulicy ''Nowowiejska' w miejscowości 'ZABRZE''/Szukana ulica: 'No
 Nie znaleziono ulicy ''Nowy Świat' w miejscowości 'RABKA''/Szukana ulica: 'Nowy Świat',Miejscowość: 'RABKA',Ulica istnieje w 10 innych miejscowościach|A1268696|PL|34-700|RABKA|Nowy Świat|8|1|MAŁOPOLSKIE|NOWOTARSKI|NOWY TARG
 Nie znaleziono ulicy ''Null' w miejscowości 'SPYTKOWICE''/Szukana ulica: 'Null',Miejscowość: 'SPYTKOWICE',Ulica istnieje w 1 innych miejscowościach|A1833908|PL|34-745|SPYTKOWICE|Null|116||||
 Nie znaleziono ulicy ''O.Lange' w miejscowości 'CZĘSTOCHOWA''/Szukana ulica: 'O.Lange',Miejscowość: 'CZĘSTOCHOWA',Ulica istnieje w 4 innych miejscowościach|A1432332|PL|42-200|CZĘSTOCHOWA|O.Lange|5|83|ŚLĄSKIE|CZĘSTOCHOWA|CZĘSTOCHOWA
+Nie znaleziono ulicy ''O.Lange' w miejscowości 'Tomaszów Mazowiecki''/Szukana ulica: 'O.Lange',Miejscowość: 'Tomaszów Mazowiecki',Ulica istnieje w 4 innych miejscowościach|A1332209|PL|97-200|TOMASZÓW MAZ.|O.Lange|28a|15     62|||
 Nie znaleziono ulicy ''O.Langego' w miejscowości 'JAWORZNO''/Szukana ulica: 'O.Langego',Miejscowość: 'JAWORZNO',Ulica istnieje w 2 innych miejscowościach|A1277156|PL|32-511|JAWORZNO|O.Langego|8|28|||
 Nie znaleziono ulicy ''Obornicka' w miejscowości 'Szlachęcin''/Szukana ulica: 'Obornicka',Miejscowość: 'Szlachęcin',Ulica istnieje w 10 innych miejscowościach|A1602742|PL|62-005|Szlachęcin|Obornicka|46||||
 Nie znaleziono ulicy ''Odrodzenia' w miejscowości 'LASOWICE MAŁE''/Szukana ulica: 'Odrodzenia',Miejscowość: 'LASOWICE MAŁE',Ulica istnieje w 10 innych miejscowościach|A1932236|PL|46-280|LASOWICE MAŁE|Odrodzenia|19||||
