@@ -1,0 +1,93 @@
+﻿@page
+@model TerytLoad.Pages.LoadTypyUlicModel
+@{
+    ViewData["Title"] = "Ładowanie Typów Ulic";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h5 class="mb-0">Parsowanie nazw ulic z TERYT do TypyUlic</h5>
+    </div>
+    <div class="card-body">
+        <p class="text-muted">
+            Ta funkcja przetwarza unikalne kombinacje <code>Nazwa1</code> i <code>Nazwa2</code> z tabeli <strong>TerytUlic</strong>
+            i zapisuje je do tabeli <strong>TypyUlic</strong> z rozdzieleniem na:
+        </p>
+        <ul class="text-muted">
+            <li><strong>Prefiks</strong>: płk., gen., ks.</li>
+            <li><strong>Tytuł</strong>: doktora, profesora</li>
+            <li><strong>Imię</strong> / <strong>Imię2</strong>: Stanisława, Kamila</li>
+            <li><strong>Nazwisko</strong> / <strong>Nazwisko2</strong>: Dekutowskiego, Modrzewskiego</li>
+            <li><strong>Postfiks</strong>: Zapory, Zośki</li>
+        </ul>
+
+        @if (!Model.IsProcessing)
+        {
+            <form method="post">
+                <button type="submit" class="btn btn-primary btn-lg">
+                    <i class="bi bi-arrow-repeat"></i> Rozpocznij ładowanie
+                </button>
+            </form>
+        }
+        else
+        {
+            <div class="alert alert-info">
+                <strong>Trwa przetwarzanie...</strong>
+                <div class="progress mt-2">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar"
+                         style="width: @Model.ProgressPercentage%"
+                         aria-valuenow="@Model.ProgressPercentage"
+                         aria-valuemin="0"
+                         aria-valuemax="100">
+                        @Model.ProgressPercentage%
+                    </div>
+                </div>
+                <p class="mt-2 mb-0">@Model.CurrentOperation</p>
+            </div>
+        }
+    </div>
+</div>
+
+@if (Model.ShowResults)
+{
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            <h5 class="mb-0">✓ Zakończono</h5>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th>Usuniętych rekordów:</th>
+                        <td>@Model.DeletedCount</td>
+                    </tr>
+                    <tr>
+                        <th>Przetworzonych unikalnych nazw:</th>
+                        <td>@Model.TotalCount</td>
+                    </tr>
+                    <tr>
+                        <th>Wstawionych rekordów:</th>
+                        <td class="text-success fw-bold">@Model.InsertedCount</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        // Auto-refresh co 2 sekundy podczas przetwarzania
+        @if (Model.IsProcessing)
+        {
+            <text>
+            setTimeout(function() {
+                location.reload();
+            }, 2000);
+            </text>
+        }
+    </script>
+}
