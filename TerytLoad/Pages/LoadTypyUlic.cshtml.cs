@@ -1,11 +1,12 @@
-using AddressLibrary;
+using AddressLibrary.Data;
 using AddressLibrary.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using AddressLibrary;
 
 namespace TerytLoad.Pages
 {
-    public class LoadTerytUlicPoprawkiModel : PageModel
+    public class LoadTypyUlicModel : PageModel
     {
         private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _environment;
@@ -14,11 +15,13 @@ namespace TerytLoad.Pages
         public bool ShowResults { get; set; }
         public string CurrentOperation { get; set; } = string.Empty;
         public int TotalCount { get; set; }
-        public int InsertedCount { get; set; }
-        public int DeletedCount { get; set; }
-        public int ProgressPercentage => TotalCount > 0 ? (InsertedCount * 100 / TotalCount) : 0;
+        public int FoundCount { get; set; }
+        public int NotFoundCount { get; set; }
+        public string LogFilePath { get; set; } = string.Empty;
+        public int ProgressPercentage => TotalCount > 0 ? (ProcessedCount * 100 / TotalCount) : 0;
+        private int ProcessedCount { get; set; }
 
-        public LoadTerytUlicPoprawkiModel(IConfiguration configuration, IWebHostEnvironment environment)
+        public LoadTypyUlicModel(IConfiguration configuration, IWebHostEnvironment environment)
         {
             _configuration = configuration;
             _environment = environment;
@@ -43,13 +46,13 @@ namespace TerytLoad.Pages
                 var db = new AddressDatabase(connectionString, appDataPath);
                 var context = db.GetContext();
 
-                var loader = new TerytUlicPoprawkiLoaderService(context, appDataPath);
+                var loader = new LoadTypyUlicService(context, appDataPath);
 
-                var progress = new Progress<LoadTerytUlicPoprawkiProgress>(p =>
+                var progress = new Progress<ValidatorProgress>(p =>
                 {
                     CurrentOperation = p.CurrentOperation;
                     TotalCount = p.TotalCount;
-                    InsertedCount = p.ProcessedCount;
+                    ProcessedCount = p.ProcessedCount;
                 });
 
                 var result = await loader.LoadAsync(progress);
@@ -57,10 +60,13 @@ namespace TerytLoad.Pages
                 // Poka¿ wyniki
                 IsProcessing = false;
                 ShowResults = true;
-                CurrentOperation = "Zakoñczono";
+                CurrentOperation = "Zakoñczono ³adowanie";
                 TotalCount = result.TotalCount;
-                InsertedCount = result.InsertedCount;
-                DeletedCount = result.DeletedCount;
+                FoundCount = result.FoundCount;
+                NotFoundCount = result.NotFoundCount;
+                LogFilePath = Path.Combine(appDataPath, "AppData", "Logs", "LoadTypyUlic.txt");
+
+                loader.Dispose();
 
                 return Page();
             }

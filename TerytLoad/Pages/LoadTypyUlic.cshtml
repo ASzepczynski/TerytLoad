@@ -1,40 +1,34 @@
 ﻿@page
-@model TerytLoad.Pages.LoadTerytUlicPoprawkiModel
+@model TerytLoad.Pages.LoadTypyUlicModel
 @{
-    ViewData["Title"] = "Ładowanie Typów Ulic";
+    ViewData["Title"] = "Ładowanie TypyUlic";
 }
 
 <h1>@ViewData["Title"]</h1>
 
 <div class="card mb-4">
     <div class="card-header">
-        <h5 class="mb-0">Parsowanie nazw ulic z TERYT do TerytUlicPoprawki</h5>
+        <h5 class="mb-0">Ładowanie TypyUlic z słownika do bazy danych</h5>
     </div>
     <div class="card-body">
         <p class="text-muted">
-            Ta funkcja przetwarza unikalne kombinacje <code>Nazwa1</code> i <code>Nazwa2</code> z tabeli <strong>TerytUlic</strong>
-            i zapisuje je do tabeli <strong>TerytUlicPoprawki</strong> z rozdzieleniem na:
+            Ta funkcja porównuje wszystkie wpisy z tabeli <strong>TerytUlic</strong> ze słownikiem
+            <code>AppData/Dictionaries/TypyUlic.xlsx</code> i ładuje je do tabeli <strong>TypyUlic</strong>.
+            Logi są zapisywane do <code>AppData/Logs/LoadTypyUlic.txt</code>
         </p>
-        <ul class="text-muted">
-            <li><strong>Prefiks</strong>: płk., gen., ks.</li>
-            <li><strong>Tytuł</strong>: doktora, profesora</li>
-            <li><strong>Imię</strong> / <strong>Imię2</strong>: Stanisława, Kamila</li>
-            <li><strong>Nazwisko</strong> / <strong>Nazwisko2</strong>: Dekutowskiego, Modrzewskiego</li>
-            <li><strong>Postfiks</strong>: Zapory, Zośki</li>
-        </ul>
 
         @if (!Model.IsProcessing)
         {
             <form method="post">
                 <button type="submit" class="btn btn-primary btn-lg">
-                    <i class="bi bi-arrow-repeat"></i> Rozpocznij ładowanie
+                    <i class="bi bi-download"></i> Rozpocznij ładowanie
                 </button>
             </form>
         }
         else
         {
             <div class="alert alert-info">
-                <strong>Trwa przetwarzanie...</strong>
+                <strong>Trwa ładowanie...</strong>
                 <div class="progress mt-2">
                     <div class="progress-bar progress-bar-striped progress-bar-animated"
                          role="progressbar"
@@ -55,25 +49,41 @@
 {
     <div class="card">
         <div class="card-header bg-success text-white">
-            <h5 class="mb-0">✓ Zakończono</h5>
+            <h5 class="mb-0">✓ Zakończono ładowanie</h5>
         </div>
         <div class="card-body">
             <table class="table">
                 <tbody>
                     <tr>
-                        <th>Usuniętych rekordów:</th>
-                        <td>@Model.DeletedCount</td>
-                    </tr>
-                    <tr>
-                        <th>Przetworzonych unikalnych nazw:</th>
+                        <th>Przetworzonych wpisów:</th>
                         <td>@Model.TotalCount</td>
                     </tr>
                     <tr>
-                        <th>Wstawionych rekordów:</th>
-                        <td class="text-success fw-bold">@Model.InsertedCount</td>
+                        <th>Znaleziono w słowniku:</th>
+                        <td class="text-success fw-bold">@Model.FoundCount</td>
+                    </tr>
+                    <tr>
+                        <th>Brak w słowniku:</th>
+                        <td class="text-danger fw-bold">@Model.NotFoundCount</td>
+                    </tr>
+                    <tr>
+                        <th>Procent pokrycia:</th>
+                        <td>
+                            @{
+                                var coverage = Model.TotalCount > 0 ? (Model.FoundCount * 100.0 / Model.TotalCount) : 0;
+                            }
+                            <span class="@(coverage >= 95 ? "text-success" : coverage >= 80 ? "text-warning" : "text-danger") fw-bold">
+                                @coverage.ToString("F2")%
+                            </span>
+                        </td>
                     </tr>
                 </tbody>
             </table>
+
+            <div class="alert alert-info mt-3">
+                <i class="bi bi-info-circle"></i>
+                Szczegółowy log: <code>@Model.LogFilePath</code>
+            </div>
         </div>
     </div>
 }
