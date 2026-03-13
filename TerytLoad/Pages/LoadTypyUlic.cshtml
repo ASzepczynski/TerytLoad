@@ -1,5 +1,5 @@
 ﻿@page
-@model TerytLoad.Pages.LoadTypyUlicModel
+@model TerytLoad.Pages.LoadTerytUlicPoprawkiModel
 @{
     ViewData["Title"] = "Ładowanie Typów Ulic";
 }
@@ -8,12 +8,12 @@
 
 <div class="card mb-4">
     <div class="card-header">
-        <h5 class="mb-0">Parsowanie nazw ulic z TERYT do TypyUlic</h5>
+        <h5 class="mb-0">Parsowanie nazw ulic z TERYT do TerytUlicPoprawki</h5>
     </div>
     <div class="card-body">
         <p class="text-muted">
             Ta funkcja przetwarza unikalne kombinacje <code>Nazwa1</code> i <code>Nazwa2</code> z tabeli <strong>TerytUlic</strong>
-            i zapisuje je do tabeli <strong>TypyUlic</strong> z rozdzieleniem na:
+            i zapisuje je do tabeli <strong>TerytUlicPoprawki</strong> z rozdzieleniem na:
         </p>
         <ul class="text-muted">
             <li><strong>Prefiks</strong>: płk., gen., ks.</li>

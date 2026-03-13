@@ -1,5 +1,5 @@
 ﻿@page
-@model TerytLoad.Pages.ValidateTypyUlicModel
+@model TerytLoad.Pages.ValidateTerytUlicPoprawkiModel
 @{
     ViewData["Title"] = "Walidacja TerytUlic";
 }
@@ -8,12 +8,12 @@
 
 <div class="card mb-4">
     <div class="card-header">
-        <h5 class="mb-0">Walidacja TerytUlic względem słownika TypyUlic.xlsx</h5>
+        <h5 class="mb-0">Walidacja TerytUlic względem słownika TerytUlicPoprawki.xlsx</h5>
     </div>
     <div class="card-body">
         <p class="text-muted">
             Ta funkcja porównuje wszystkie wpisy z tabeli <strong>TerytUlic</strong> ze słownikiem 
-            <code>AppData/Dictionaries/TypyUlic.xlsx</code> i loguje brakujące wpisy do 
+            <code>AppData/Dictionaries/TerytUlicPoprawki.xlsx</code> i loguje brakujące wpisy do 
             <code>AppData/Logs/TerytUlic.txt</code>
         </p>
 

@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace TerytLoad.Pages
 {
-    public class LoadTypyUlicModel : PageModel
+    public class LoadTerytUlicPoprawkiModel : PageModel
     {
         private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _environment;
@@ -18,7 +18,7 @@ namespace TerytLoad.Pages
         public int DeletedCount { get; set; }
         public int ProgressPercentage => TotalCount > 0 ? (InsertedCount * 100 / TotalCount) : 0;
 
-        public LoadTypyUlicModel(IConfiguration configuration, IWebHostEnvironment environment)
+        public LoadTerytUlicPoprawkiModel(IConfiguration configuration, IWebHostEnvironment environment)
         {
             _configuration = configuration;
             _environment = environment;
@@ -43,9 +43,9 @@ namespace TerytLoad.Pages
                 var db = new AddressDatabase(connectionString, appDataPath);
                 var context = db.GetContext();
 
-                var loader = new TypyUlicLoaderService(context, appDataPath);
+                var loader = new TerytUlicPoprawkiLoaderService(context, appDataPath);
 
-                var progress = new Progress<LoadTypyUlicProgress>(p =>
+                var progress = new Progress<LoadTerytUlicPoprawkiProgress>(p =>
                 {
                     CurrentOperation = p.CurrentOperation;
                     TotalCount = p.TotalCount;

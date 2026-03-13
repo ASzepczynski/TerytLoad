@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace TerytLoad.Pages
 {
-    public class ValidateTypyUlicModel : PageModel
+    public class ValidateTerytUlicPoprawkiModel : PageModel
     {
         private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _environment;
@@ -21,7 +21,7 @@ namespace TerytLoad.Pages
         public int ProgressPercentage => TotalCount > 0 ? (ProcessedCount * 100 / TotalCount) : 0;
         private int ProcessedCount { get; set; }
 
-        public ValidateTypyUlicModel(IConfiguration configuration, IWebHostEnvironment environment)
+        public ValidateTerytUlicPoprawkiModel(IConfiguration configuration, IWebHostEnvironment environment)
         {
             _configuration = configuration;
             _environment = environment;
@@ -46,7 +46,7 @@ namespace TerytLoad.Pages
                 var db = new AddressDatabase(connectionString, appDataPath);
                 var context = db.GetContext();
 
-                var validator = new TypyUlicValidatorService(context, appDataPath);
+                var validator = new TerytUlicPoprawkiValidatorService(context, appDataPath);
 
                 var progress = new Progress<ValidatorProgress>(p =>
                 {
