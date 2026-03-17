@@ -13,34 +13,31 @@
     <div class="card-body">
         <p class="text-muted">
             Ta funkcja porównuje wszystkie wpisy z tabeli <strong>TerytUlic</strong> ze słownikiem 
-            <code>AppData/Dictionaries/TerytUlicPoprawki.xlsx</code> i loguje brakujące wpisy do 
+            <code>AppData/Dictionaries/TerytUlicPoprawki.xlsx</code> i loguje różnice do 
             <code>AppData/Logs/TerytUlic.txt</code>
         </p>
 
-        @if (!Model.IsProcessing)
+        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
         {
-            <form method="post">
-                <button type="submit" class="btn btn-primary btn-lg">
+            <div class="alert alert-danger">
+                <i class="bi bi-exclamation-triangle"></i>
+                <strong>Błąd:</strong> @Model.ErrorMessage
+            </div>
+        }
+
+        @if (!Model.ShowResults)
+        {
+            <form method="post" id="validateForm">
+                <button type="submit" class="btn btn-primary btn-lg" id="btnValidate">
                     <i class="bi bi-check-circle"></i> Rozpocznij walidację
                 </button>
-            </form>
-        }
-        else
-        {
-            <div class="alert alert-info">
-                <strong>Trwa walidacja...</strong>
-                <div class="progress mt-2">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated"
-                         role="progressbar"
-                         style="width: @Model.ProgressPercentage%"
-                         aria-valuenow="@Model.ProgressPercentage"
-                         aria-valuemin="0"
-                         aria-valuemax="100">
-                        @Model.ProgressPercentage%
+                <div id="loadingSpinner" class="mt-3" style="display: none;">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Ładowanie...</span>
                     </div>
+                    <span class="ms-2">Trwa walidacja, proszę czekać...</span>
                 </div>
-                <p class="mt-2 mb-0">@Model.CurrentOperation</p>
-            </div>
+            </form>
         }
     </div>
 </div>
@@ -82,22 +79,21 @@
 
             <div class="alert alert-info mt-3">
                 <i class="bi bi-info-circle"></i>
-                Szczegółowy log brakujących wpisów: <code>@Model.LogFilePath</code>
+                Szczegółowy log: <code>@Model.LogFilePath</code>
             </div>
+
+            <a href="@Url.Page("/ValidateTerytUlicPoprawki")" class="btn btn-secondary">
+                <i class="bi bi-arrow-counterclockwise"></i> Uruchom ponownie
+            </a>
         </div>
     </div>
 }
 
 @section Scripts {
     <script>
-        // Auto-refresh co 2 sekundy podczas przetwarzania
-        @if (Model.IsProcessing)
-        {
-            <text>
-            setTimeout(function() {
-                location.reload();
-            }, 2000);
-            </text>
-        }
+        document.getElementById('validateForm')?.addEventListener('submit', function() {
+            document.getElementById('btnValidate').disabled = true;
+            document.getElementById('loadingSpinner').style.display = 'block';
+        });
     </script>
 }

@@ -1,5 +1,6 @@
-using AddressLibrary;
+ï»¿using AddressLibrary;
 using AddressLibrary.Models;
+using AddressLibrary.Extensions; // âœ… DODAJ TÄ˜ LINIÄ˜
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -47,13 +48,13 @@ namespace TerytLoad.Pages
             var database = new AddressDatabase(connectionString, appDataPath);
             var context = database.GetContext();
 
-            // Zawsze ³aduj województwa
+            // Zawsze Å‚aduj wojewÃ³dztwa
             Wojewodztwa = await context.Wojewodztwa
                 .Where(w => w.Id != -1)
                 .OrderBy(w => w.Nazwa)
                 .ToListAsync();
 
-            // Jeœli wybrano województwo, za³aduj powiaty
+            // JeÅ›li wybrano wojewÃ³dztwo, zaÅ‚aduj powiaty
             if (WojewodztwoId.HasValue)
             {
                 var wojewodztwo = await context.Wojewodztwa.FindAsync(WojewodztwoId.Value);
@@ -68,7 +69,7 @@ namespace TerytLoad.Pages
                 }
             }
 
-            // Jeœli wybrano powiat, za³aduj gminy
+            // JeÅ›li wybrano powiat, zaÅ‚aduj gminy
             if (PowiatId.HasValue)
             {
                 var powiat = await context.Powiaty
@@ -87,7 +88,7 @@ namespace TerytLoad.Pages
                 }
             }
 
-            // Jeœli wybrano gminê, za³aduj miejscowoœci
+            // JeÅ›li wybrano gminÄ™, zaÅ‚aduj miejscowoÅ›ci
             if (GminaId.HasValue)
             {
                 var gmina = await context.Gminy
@@ -105,7 +106,7 @@ namespace TerytLoad.Pages
                         .OrderBy(m => m.Nazwa)
                         .ToListAsync();
 
-                    // Pobierz kody pocztowe dla ka¿dego miasta
+                    // Pobierz kody pocztowe dla kaÅ¼dego miasta
                     var miastaIds = miasta.Select(m => m.Id).ToList();
                     var kody = await context.KodyPocztowe
                         .Where(k => miastaIds.Contains(k.MiastoId))
@@ -133,7 +134,7 @@ namespace TerytLoad.Pages
                 }
             }
 
-            // Jeœli wybrano miejscowoœæ, za³aduj ulice
+            // JeÅ›li wybrano miejscowoÅ›Ä‡, zaÅ‚aduj ulice
             if (MiastoId.HasValue)
             {
                 var miasto = await context.Miasta
@@ -146,11 +147,14 @@ namespace TerytLoad.Pages
                 {
                     CurrentPath = $"{miasto.Gmina.Powiat.Wojewodztwo.Nazwa} > {miasto.Gmina.Powiat.Nazwa} > {miasto.Gmina.Nazwa} > {miasto.Nazwa}";
 
+                    // âœ… POPRAWIONE: UsuÅ„ OrderBy/ThenBy z zapytania SQL
                     var ulice = await context.Ulice
+                        .IncludeTypUlicy() // ZaÅ‚aduj TypUlicy dla computed properties
                         .Where(u => u.MiastoId == MiastoId.Value && u.Id != -1)
-                        .OrderBy(u => u.Cecha)
-                        .ThenBy(u => u.Nazwa1)
-                        .ToListAsync();
+                        .ToListAsync(); // Najpierw pobierz do pamiÄ™ci
+
+                    // âœ… Sortowanie w pamiÄ™ci (computed properties dziaÅ‚ajÄ…)
+                    ulice = ulice.SortByNazwa();
 
                     List<int> ulicaIds = ulice
                         .Where(u => u.Id != -1)
@@ -182,7 +186,7 @@ namespace TerytLoad.Pages
                                         .Distinct()
                                         .OrderBy(n =>
                                         {
-                                            // Wyci¹gnij pierwsz¹ liczbê z numeru, np. "12A" -> 12
+                                            // WyciÄ…gnij pierwszÄ… liczbÄ™ z numeru, np. "12A" -> 12
                                             var match = System.Text.RegularExpressions.Regex.Match(n, @"\d+");
                                             return match.Success ? int.Parse(match.Value) : int.MaxValue;
                                         })

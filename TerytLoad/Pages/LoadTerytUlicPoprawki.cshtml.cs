@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace TerytLoad.Pages
 {
-    public class ValidateTerytUlicPoprawkiModel : PageModel
+    public class LoadTerytUlicPoprawkiModel : PageModel
     {
         private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _environment;
@@ -14,14 +14,12 @@ namespace TerytLoad.Pages
         public bool ShowResults { get; set; }
         public string CurrentOperation { get; set; } = string.Empty;
         public int TotalCount { get; set; }
-        public int ProcessedCount { get; set; }
-        public int FoundCount { get; set; }
-        public int NotFoundCount { get; set; }
+        public int InsertedCount { get; set; }
         public string LogFilePath { get; set; } = string.Empty;
         public int ProgressPercentage => TotalCount > 0 ? (ProcessedCount * 100 / TotalCount) : 0;
-        public string? ErrorMessage { get; set; }
+        private int ProcessedCount { get; set; }
 
-        public ValidateTerytUlicPoprawkiModel(IConfiguration configuration, IWebHostEnvironment environment)
+        public LoadTerytUlicPoprawkiModel(IConfiguration configuration, IWebHostEnvironment environment)
         {
             _configuration = configuration;
             _environment = environment;
@@ -29,13 +27,15 @@ namespace TerytLoad.Pages
 
         public void OnGet()
         {
-            // Strona startowa - nic nie rób
+            // Strona startowa
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
             try
             {
+                IsProcessing = true;
+
                 var connectionString = _configuration.GetConnectionString("AddressDatabase")
                     ?? throw new InvalidOperationException("Connection string 'AddressDatabase' not found.");
 
@@ -44,35 +44,33 @@ namespace TerytLoad.Pages
                 var db = new AddressDatabase(connectionString, appDataPath);
                 var context = db.GetContext();
 
-                var validator = new TerytUlicPoprawkiValidatorService(context, appDataPath);
+                var loader = new LoadTerytUlicPoprawkiService(context, appDataPath);
 
-                // Progress nie dzia³a w synchronicznym POST - mo¿esz go usun¹æ lub zostawiæ dla logowania
-                var progress = new Progress<ValidatorProgress>(p =>
+                var progress = new Progress<LoadProgress>(p =>
                 {
-                    // To siê wykonuje, ale nie widaæ w UI bo POST jest blokuj¹cy
-                    System.Diagnostics.Debug.WriteLine($"Progress: {p.CurrentOperation}");
+                    CurrentOperation = p.CurrentOperation;
+                    TotalCount = p.TotalCount;
+                    ProcessedCount = p.ProcessedCount;
                 });
 
-                // Wykonaj walidacjê
-                var result = await validator.ValidateAsync(progress);
+                var result = await loader.LoadAsync(progress);
 
-                // Ustaw wyniki
+                // Poka¿ wyniki
+                IsProcessing = false;
                 ShowResults = true;
-                CurrentOperation = "Zakoñczono walidacjê";
+                CurrentOperation = "Zakoñczono ³adowanie";
                 TotalCount = result.TotalCount;
-                ProcessedCount = result.ProcessedCount;
-                FoundCount = result.FoundCount;
-                NotFoundCount = result.NotFoundCount;
-                LogFilePath = Path.Combine(appDataPath, "AppData", "Logs", "TerytUlic.txt");
+                InsertedCount = result.InsertedCount;
+                LogFilePath = Path.Combine(appDataPath, "AppData", "Logs", "LoadTerytUlicPoprawki.txt");
 
-                validator.Dispose();
+                loader.Dispose();
 
                 return Page();
             }
             catch (Exception ex)
             {
-                ErrorMessage = ex.Message;
-                ShowResults = false;
+                ModelState.AddModelError(string.Empty, $"B³¹d: {ex.Message}");
+                IsProcessing = false;
                 return Page();
             }
         }
