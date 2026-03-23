@@ -13,72 +13,100 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">System TERYT</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <i class="bi bi-house-fill"></i> System TERYT
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+                        
+                        <!-- 1. Strona główna -->
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Strona główna</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Database">Baza danych</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/BuildHierarchy">Struktura hierarchiczna</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" id="pnaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dane PNA
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">
+                                <i class="bi bi-house"></i> Strona główna
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="pnaDropdown">
-                                <li><a class="dropdown-item" asp-area="" asp-page="/LoadPnaCsv">📄 Ładuj z CSV</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-page="/LoadPdf">📕 Ładuj z PDF (stare)</a></li>
+                        </li>
+
+                        <!-- 2. Przeglądanie danych -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="browseDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-eye"></i> Przeglądanie danych
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="browseDropdown">
+                                <li><a class="dropdown-item" asp-page="/BrowseTeryt"><i class="bi bi-map"></i> Przeglądarka TERYT</a></li>
+                                <li><a class="dropdown-item" asp-page="/Browse"><i class="bi bi-diagram-3"></i> Przeglądarka hierarchii</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/LoadPostalCodes">Kody pocztowe</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Browse">Przeglądarka</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/BrowseTeryt">TERYT</a>
-                        </li>
+
+                        <!-- 3. Ładowanie danych -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" id="searchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Wyszukiwanie
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="loadDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-download"></i> Ładowanie
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="searchDropdown">
-                                <li><a class="dropdown-item" asp-area="" asp-page="/Szukaj">🔍 Pojedyncze</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-page="/VerifyAddresses">✔️ Masowa weryfikacja</a></li>
+                            <ul class="dropdown-menu" aria-labelledby="loadDropdown">
+                                <li><h6 class="dropdown-header">Dane TERYT</h6></li>
+                                <li><a class="dropdown-item" asp-page="/Database"><i class="bi bi-table"></i> Ładuj dane TERYT</a></li>
+                                <li><a class="dropdown-item" asp-page="/BuildHierarchy"><i class="bi bi-diagram-3-fill"></i> Buduj strukturę hierarchiczną</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-header">Kody pocztowe</h6></li>
+                                <li><a class="dropdown-item" asp-page="/LoadPnaCsv"><i class="bi bi-file-earmark-csv"></i> Kody PNA (CSV)</a></li>
+                                <li><a class="dropdown-item" asp-page="/LoadPdf"><i class="bi bi-file-earmark-pdf"></i> Kody PNA (PDF - stare)</a></li>
+                                <li><a class="dropdown-item" asp-page="/LoadPostalCodes"><i class="bi bi-mailbox"></i> Kody pocztowe</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-header">Słowniki</h6></li>
+                                <li><a class="dropdown-item" asp-page="/LoadTypyUlic"><i class="bi bi-signpost-split"></i> Typy ulic</a></li>
+                                <li><a class="dropdown-item" asp-page="/LoadTerytUlicPoprawki"><i class="bi bi-pencil-square"></i> Poprawki nazw ulic</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Tools/FilterAddresses">🧹 Filtruj adresy (błędy)</a>
+
+                        <!-- 4. Baza danych -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="databaseDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-database"></i> Baza danych
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="databaseDropdown">
+                                <li><a class="dropdown-item text-danger" asp-page="/Database"><i class="bi bi-trash"></i> Usuń bazę danych</a></li>
+                                <li><a class="dropdown-item text-warning" asp-page="/Database"><i class="bi bi-eraser"></i> Wyczyść dane</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/ProcessTaxOffices">🏢 Urzędy Skarbowe</a>
+
+                        <!-- 5. Przetwarzanie danych -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="processDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-gear"></i> Przetwarzanie
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="processDropdown">
+                                <li><h6 class="dropdown-header">Wyszukiwanie</h6></li>
+                                <li><a class="dropdown-item" asp-page="/Szukaj"><i class="bi bi-search"></i> Szukanie pojedyncze</a></li>
+                                <li><a class="dropdown-item" asp-page="/VerifyAddresses"><i class="bi bi-check2-square"></i> Masowa weryfikacja adresów</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-header">Narzędzia</h6></li>
+                                <li><a class="dropdown-item" asp-page="/Tools/FilterAddresses"><i class="bi bi-funnel"></i> Filtruj adresy (błędy)</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/ExportToExcel">📊 Eksport do Excel</a>
+
+                        <!-- 6. Inne -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="otherDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-three-dots"></i> Inne
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="otherDropdown">
+                                <li><a class="dropdown-item" asp-page="/ValidateTerytUlicPoprawki"><i class="bi bi-check-circle"></i> Walidacja typów ulic</a></li>
+                                <li><a class="dropdown-item" asp-page="/VerifyPostalCodes"><i class="bi bi-mailbox2"></i> Weryfikacja kodów pocztowych</a></li>
+                                <li><a class="dropdown-item" asp-page="/ExportToExcel"><i class="bi bi-file-earmark-excel"></i> Eksport do Excel</a></li>
+                                <li><a class="dropdown-item" asp-page="/ProcessTaxOffices"><i class="bi bi-building"></i> Urzędy skarbowe</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/LoadTerytUlicPoprawki">📥 Ładuj TerytUlicPoprawki</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/LoadTypyUlic">Typy Ulic</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/ValidateTerytUlicPoprawki">Walidacja Typów Ulic</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

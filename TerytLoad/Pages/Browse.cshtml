@@ -196,12 +196,13 @@
                 @if (Model.UliceWithPostalCodes.Any())
                 {
                     <div class="table-responsive">
-                        <table class="table table-striped table-hover">
-                            <thead>
+                        <table class="table table-striped table-hover table-sm">
+                            <thead class="table-dark">
                                 <tr>
                                     <th>Cecha</th>
                                     <th>Nazwa główna</th>
                                     <th>Nazwa dodatkowa</th>
+                                    <th>Szczegóły TypUlicy</th>
                                     <th>Dzielnica</th>
                                     <th>Symbol</th>
                                     <th>Kody pocztowe</th>
@@ -214,6 +215,49 @@
                                         <td>@item.Ulica.Cecha</td>
                                         <td><strong>@item.Ulica.Nazwa1</strong></td>
                                         <td>@item.Ulica.Nazwa2</td>
+                                        <td>
+                                            @if (item.Ulica.TypUlicy != null && item.Ulica.TypUlicyId != -1)
+                                            {
+                                                <div class="small">
+                                                    @if (!string.IsNullOrWhiteSpace(item.Ulica.TypUlicy.Prefiks))
+                                                    {
+                                                        <span class="badge bg-secondary me-1">Prefiks: @item.Ulica.TypUlicy.Prefiks</span>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(item.Ulica.TypUlicy.Tytul))
+                                                    {
+                                                        <span class="badge bg-info me-1">Tytuł: @item.Ulica.TypUlicy.Tytul</span>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(item.Ulica.TypUlicy.Imie))
+                                                    {
+                                                        <span class="badge bg-success me-1">Imię: @item.Ulica.TypUlicy.Imie</span>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(item.Ulica.TypUlicy.Imie2))
+                                                    {
+                                                        <span class="badge bg-success me-1">Imię2: @item.Ulica.TypUlicy.Imie2</span>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(item.Ulica.TypUlicy.Nazwisko))
+                                                    {
+                                                        <span class="badge bg-primary me-1">Nazwisko: @item.Ulica.TypUlicy.Nazwisko</span>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(item.Ulica.TypUlicy.Nazwisko2))
+                                                    {
+                                                        <span class="badge bg-primary me-1">Nazwisko2: @item.Ulica.TypUlicy.Nazwisko2</span>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(item.Ulica.TypUlicy.Pseudonim))
+                                                    {
+                                                        <span class="badge bg-warning text-dark me-1">Pseudonim: @item.Ulica.TypUlicy.Pseudonim</span>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(item.Ulica.TypUlicy.Postfiks))
+                                                    {
+                                                        <span class="badge bg-dark me-1">Postfiks: @item.Ulica.TypUlicy.Postfiks</span>
+                                                    }
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-muted fst-italic">-</span>
+                                            }
+                                        </td>
                                         <td>
                                             @if (!string.IsNullOrEmpty(item.Ulica.Dzielnica))
                                             {

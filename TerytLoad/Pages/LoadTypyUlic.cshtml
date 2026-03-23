@@ -12,9 +12,10 @@
     </div>
     <div class="card-body">
         <p class="text-muted">
-            Ta funkcja porównuje wszystkie wpisy z tabeli <strong>TerytUlic</strong> ze słownikiem
-            <code>AppData/Dictionaries/TypyUlic.xlsx</code> i ładuje je do tabeli <strong>TypyUlic</strong>.
-            Logi są zapisywane do <code>AppData/Logs/LoadTypyUlic.txt</code>
+            Ta funkcja porównuje wszystkie wpisy z tabeli <strong>TerytUlic</strong> z tabelą
+            <code>TerytUlicPoprawki</code> i ładuje ich unikalne wystąpienia do tabeli <strong>TypyUlic</strong>.
+            Wcześniej ładuje tabele z arkuszy Excel z AddressLibrary/AppData/Dictionaries: <strong>CechyUlic</strong> i <strong>TytulyStopnie</strong>.
+            Logi są zapisywane do folderu <code>AppData/Logs</code>: <code>LoadTypyUlic.txt</code> <code>LoadCechyUlic.txt</code> i <code>LoadTytulyStopnie.txt</code>.
         </p>
 
         @if (!Model.IsProcessing)
