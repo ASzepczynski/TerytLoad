@@ -71,7 +71,7 @@ namespace TerytLoad.Pages
                         Console.WriteLine($"[{info.PercentageComplete:F1}%] {info.CurrentOperation}");
                     });
 
- // var pnaData = context.Pna.Where(x=>x.Ulica.Contains("Jachowicza") && x.Miasto=="Józefów").ToList();
+// var pnaData = context.Pna.Where(x=>x.Ulica.Contains("Kiejstuta") && x.Miasto=="Białystok").ToList();
                     var pnaData = context.Pna.ToList();
 
                     if (!pnaData.Any())
