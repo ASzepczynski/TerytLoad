@@ -1,110 +1,184 @@
 ﻿@page
 @model TerytLoad.Pages.LoadTerytUlicPoprawkiModel
 @{
-    ViewData["Title"] = "Ładowanie TerytUlicPoprawki";
+    ViewData["Title"] = "Ładowanie słowników ulic";
 }
 
-<h1>@ViewData["Title"]</h1>
+<div class="container mt-4">
+    <h1 class="mb-4">
+        <i class="bi bi-pencil-square"></i> Ładowanie słowników ulic
+    </h1>
 
-<div class="card mb-4">
-    <div class="card-header">
-        <h5 class="mb-0">📥 Ładowanie danych TerytUlicPoprawki z Excela do bazy</h5>
-    </div>
-    <div class="card-body">
-        <p class="text-muted">
-            Ta funkcja wczytuje dane z pliku 
-            <code>AppData/Dictionaries/TerytUlicPoprawki.xlsx</code> 
-            i ładuje je do tabeli <strong>TerytUlicPoprawki</strong> w bazie danych.
+    <div class="alert alert-info">
+        <h5><i class="bi bi-info-circle"></i> Informacje</h5>
+        <p>Ten proces wykonuje dwie operacje:</p>
+        <ol>
+            <li><strong>Ładowanie TerytUlicPoprawki</strong> - Ładuje słownik poprawek nazw ulic z pliku Excel</li>
+            <li><strong>Generowanie TypyUlic</strong> - Przetwarza dane z TerytUlic i generuje unikalne typy ulic na podstawie załadowanego słownika</li>
+        </ol>
+        <p class="mb-0">
+            <strong>Plik źródłowy:</strong> <code>AppData\Dictionaries\TerytUlicPoprawki.xlsx</code>
         </p>
+    </div>
 
-        <div class="alert alert-warning">
-            <i class="bi bi-exclamation-triangle"></i>
-            <strong>Uwaga:</strong> Ta operacja wyczyści wszystkie istniejące dane w tabeli TerytUlicPoprawki!
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">
+            <h5><i class="bi bi-exclamation-triangle"></i> Błąd podczas przetwarzania</h5>
+            <pre class="mb-3" style="white-space: pre-wrap; font-family: monospace; font-size: 0.9em; background-color: #f8d7da; padding: 10px; border-radius: 5px;">@Model.ErrorMessage</pre>
+            
+            @if (!string.IsNullOrEmpty(Model.StackTrace))
+            {
+                <details>
+                    <summary><strong>Stack Trace (szczegóły techniczne)</strong></summary>
+                    <pre class="mt-2" style="white-space: pre-wrap; font-family: monospace; font-size: 0.8em; background-color: #fff3cd; padding: 10px; border-radius: 5px;">@Model.StackTrace</pre>
+                </details>
+            }
+            
+            <hr />
+            
+            <h6><i class="bi bi-file-text"></i> Sprawdź logi:</h6>
+            <ul class="mb-0">
+                <li><code>AppData\Logs\LoadTerytUlicPoprawki.txt</code></li>
+                <li><code>AppData\Logs\LoadTypyUlic.txt</code></li>
+            </ul>
         </div>
+    }
 
-        @if (!Model.IsProcessing)
-        {
-            <form method="post">
-                <button type="submit" class="btn btn-primary btn-lg">
-                    <i class="bi bi-upload"></i> Rozpocznij ładowanie
-                </button>
-            </form>
-        }
-        else
-        {
-            <div class="alert alert-info">
-                <strong>Trwa ładowanie...</strong>
-                <div class="progress mt-2">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated"
-                         role="progressbar"
+    @if (Model.IsProcessing)
+    {
+        <div class="card border-primary">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="bi bi-hourglass-split spin"></i> Przetwarzanie w tle...
+                </h5>
+                
+                <div class="progress mb-3" style="height: 30px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" 
+                         role="progressbar" 
                          style="width: @Model.ProgressPercentage%"
-                         aria-valuenow="@Model.ProgressPercentage"
-                         aria-valuemin="0"
+                         aria-valuenow="@Model.ProgressPercentage" 
+                         aria-valuemin="0" 
                          aria-valuemax="100">
                         @Model.ProgressPercentage%
                     </div>
                 </div>
-                <p class="mt-2 mb-0">@Model.CurrentOperation</p>
+
+                <p class="mb-2"><strong>@Model.CurrentOperation</strong></p>
+                
+                @if (Model.TotalCount > 0)
+                {
+                    <p class="text-muted mb-0">
+                        <small>Postęp: @Model.ProcessedCount z @Model.TotalCount elementów</small>
+                    </p>
+                }
+                
+                <div class="mt-3 alert alert-info">
+                    <i class="bi bi-info-circle"></i> Proces działa w tle. Możesz odświeżyć stronę aby zobaczyć aktualny postęp.
+                    <br/>
+                    <small class="text-muted">Automatyczne odświeżanie co 3 sekundy...</small>
+                </div>
             </div>
-        }
-    </div>
+        </div>
+    }
+    else if (Model.ShowResults)
+    {
+        <div class="card border-success">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0"><i class="bi bi-check-circle"></i> Zakończono pomyślnie</h5>
+            </div>
+            <div class="card-body">
+                <p class="text-success fw-bold">@Model.CurrentOperation</p>
+                
+                <hr />
+                
+                <h6><i class="bi bi-1-circle-fill"></i> TerytUlicPoprawki</h6>
+                <ul>
+                    <li>Wstawiono rekordów: <strong class="text-success">@Model.InsertedCount</strong></li>
+                </ul>
+
+                <hr />
+
+                <h6><i class="bi bi-2-circle-fill"></i> TypyUlic</h6>
+                <ul>
+                    <li>Całkowita liczba wpisów w TerytUlic: <strong>@Model.TotalCount</strong></li>
+                    <li>Znaleziono w słowniku: <strong class="text-success">@Model.FoundCount</strong></li>
+                    <li>Brak w słowniku: <strong class="text-warning">@Model.NotFoundCount</strong></li>
+                    <li>Procent pokrycia: <strong>@((Model.TotalCount > 0 ? (Model.FoundCount * 100.0 / Model.TotalCount) : 0).ToString("F2"))%</strong></li>
+                </ul>
+
+                <hr />
+
+                <h6><i class="bi bi-file-earmark-text"></i> Logi</h6>
+                <ul>
+                    <li>TerytUlicPoprawki: <code>@Model.LogFilePath</code></li>
+                    <li>TypyUlic: <code>@Model.LogFilePathTypyUlic</code></li>
+                </ul>
+
+                <div class="mt-3">
+                    <a asp-page="/Index" class="btn btn-primary">
+                        <i class="bi bi-house"></i> Powrót do strony głównej
+                    </a>
+                    <a asp-page="/Browse" class="btn btn-secondary">
+                        <i class="bi bi-diagram-3"></i> Przeglądaj hierarchię
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <form method="post">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="bi bi-play-circle"></i> Rozpocznij ładowanie
+                    </h5>
+                    <p class="card-text">
+                        Kliknij poniżej, aby rozpocząć proces ładowania słowników ulic w tle.
+                    </p>
+                    
+                    <div class="alert alert-warning">
+                        <strong><i class="bi bi-exclamation-triangle"></i> Wymagania:</strong>
+                        <ul class="mb-0">
+                            <li>Plik <code>TerytUlicPoprawki.xlsx</code> musi istnieć w <code>AppData\Dictionaries</code></li>
+                            <li>Tabela <code>TerytUlic</code> musi zawierać dane TERYT</li>
+                            <li>Proces może zająć 5-15 minut dla pełnej bazy danych</li>
+                            <li><strong>Proces będzie działał w tle</strong> - możesz monitorować postęp odświeżając stronę</li>
+                        </ul>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="bi bi-download"></i> Rozpocznij ładowanie
+                    </button>
+                </div>
+            </div>
+        </form>
+    }
 </div>
-
-@if (Model.ShowResults)
-{
-    <div class="card">
-        <div class="card-header bg-success text-white">
-            <h5 class="mb-0">✓ Zakończono ładowanie</h5>
-        </div>
-        <div class="card-body">
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <th>Wczytano z Excela:</th>
-                        <td>@Model.TotalCount</td>
-                    </tr>
-                    <tr>
-                        <th>Wstawiono do bazy:</th>
-                        <td class="text-success fw-bold">@Model.InsertedCount</td>
-                    </tr>
-                    <tr>
-                        <th>Status:</th>
-                        <td>
-                            @if (Model.InsertedCount == Model.TotalCount)
-                            {
-                                <span class="text-success fw-bold">✓ Wszystkie dane zostały załadowane pomyślnie</span>
-                            }
-                            else
-                            {
-                                <span class="text-warning fw-bold">⚠️ Część danych nie została załadowana</span>
-                            }
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <div class="alert alert-info mt-3">
-                <i class="bi bi-info-circle"></i>
-                Szczegółowy log: <code>@Model.LogFilePath</code>
-            </div>
-
-            <a asp-page="/Index" class="btn btn-primary mt-2">
-                <i class="bi bi-arrow-left"></i> Powrót do strony głównej
-            </a>
-        </div>
-    </div>
-}
 
 @section Scripts {
     <script>
-        // Auto-refresh co 2 sekundy podczas przetwarzania
+        // Auto-refresh co 3 sekundy podczas przetwarzania
         @if (Model.IsProcessing)
         {
             <text>
             setTimeout(function() {
+                console.log('Auto-refreshing page...');
                 location.reload();
-            }, 2000);
+            }, 3000);
             </text>
         }
     </script>
 }
+
+<style>
+    .spin {
+        animation: spin 2s linear infinite;
+    }
+    
+    @@keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
