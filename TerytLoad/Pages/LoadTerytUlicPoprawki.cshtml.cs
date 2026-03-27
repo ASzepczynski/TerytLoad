@@ -368,7 +368,7 @@ namespace TerytLoad.Pages
             logger.LogInfo($"Deduplikacja {uliceList.Count} wpisów...");
             var uniqueUliceSet = new HashSet<TypUlicy>(new LocalTypUlicyEqualityComparer());
 
-            var tytulyDict = new AddressLibrary.Services.Dictionaries.TytulyStopnie.TytulyStopnieDictionary(context);
+            var tytulyDict = new AddressLibrary.Dictionaries.TytulyStopnie.TytulyStopnieDictionary(context);
             await tytulyDict.GetDopelniaczToIdMappingAsync();
 
             foreach (var item in uliceList)
