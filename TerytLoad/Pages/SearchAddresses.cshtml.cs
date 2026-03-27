@@ -79,7 +79,7 @@ namespace TerytLoad.Pages
                 Status = r.Status.ToString(),
                 ZnalezionyKodPocztowy = r.KodPocztowy?.Kod,
                 Miasto = r.Miasto?.Nazwa,
-                Ulica = r.Ulica != null ? $"{r.Ulica.Cecha} {r.Ulica.Nazwa1}" : null,
+                Ulica = r.Ulica != null ? $"{r.Ulica.CechaUlicy.Skrot} {r.Ulica.Nazwa1}" : null,
                 Message = r.Message
             }).ToList();
 

@@ -380,7 +380,7 @@ namespace TerytLoad.Pages
                 if (searchResult.Ulica != null)
                 {
                     string sPrefix;
-                    switch (searchResult.Ulica.Cecha)
+                    switch (searchResult.Ulica.CechaUlicy.Skrot)
                     {
                         case "rynek":
                             sPrefix = "";
@@ -389,7 +389,7 @@ namespace TerytLoad.Pages
                             sPrefix = "";
                             break;
                         default:
-                            sPrefix = searchResult.Ulica.Cecha ?? "";
+                            sPrefix = searchResult.Ulica.CechaUlicy.Skrot ?? "";
                             break;
                     }
                     ;

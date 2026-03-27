@@ -1,6 +1,6 @@
 ﻿using AddressLibrary;
 using AddressLibrary.Models;
-using AddressLibrary.Extensions; // ✅ DODAJ TĘ LINIĘ
+using AddressLibrary.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -147,13 +147,13 @@ namespace TerytLoad.Pages
                 {
                     CurrentPath = $"{miasto.Gmina.Powiat.Wojewodztwo.Nazwa} > {miasto.Gmina.Powiat.Nazwa} > {miasto.Gmina.Nazwa} > {miasto.Nazwa}";
 
-                    // ✅ POPRAWIONE: Usuń OrderBy/ThenBy z zapytania SQL
+                    // ✅ POPRAWIONE: Dodano Include dla CechaUlicy
                     var ulice = await context.Ulice
-                        .IncludeTypUlicy() // Załaduj TypUlicy dla computed properties
+                        .Include(u => u.CechaUlicy)  // ✅ DODANE
+                        .IncludeTypUlicy()
                         .Where(u => u.MiastoId == MiastoId.Value && u.Id != -1)
-                        .ToListAsync(); // Najpierw pobierz do pamięci
+                        .ToListAsync();
 
-                    // ✅ Sortowanie w pamięci (computed properties działają)
                     ulice = ulice.SortByNazwa();
 
                     List<int> ulicaIds = ulice
@@ -161,7 +161,6 @@ namespace TerytLoad.Pages
                         .Select(u => u.Id)
                         .ToList();
 
-                    // Pobierz kody pocztowe i dzielnice dla ulic
                     var kodyBezDzielnic = await context.KodyPocztowe
                         .Where(k => ulicaIds.Contains(k.UlicaId))
                         .Select(k => new { k.UlicaId, k.Kod })
@@ -178,36 +177,29 @@ namespace TerytLoad.Pages
                             var kodyPocztoweZNumerami = kodyZNumerami
                                 .Where(k => k.UlicaId == u.Id)
                                 .GroupBy(k => k.Kod)
-                                .Select(g =>
+                                .Select(g => new KodPocztowyZNumerami
                                 {
-                                    var numery = g
-                                        .Select(x => x.Numery)
-                                        .Where(n => !string.IsNullOrWhiteSpace(n))
-                                        .Distinct()
-                                        .OrderBy(n =>
-                                        {
-                                            // Wyciągnij pierwszą liczbę z numeru, np. "12A" -> 12
-                                            var match = System.Text.RegularExpressions.Regex.Match(n, @"\d+");
-                                            return match.Success ? int.Parse(match.Value) : int.MaxValue;
-                                        })
-                                        .ToList();
-
-                                    var numeryStr = numery.Count > 0 ? string.Join(",", numery) : "-";
-                                    // Dla sortowania po pierwszej liczbie z numeryStr
-                                    var pierwszaLiczba = numery.Count > 0
-                                        ? int.TryParse(System.Text.RegularExpressions.Regex.Match(numery[0], @"\d+").Value, out var val) ? val : int.MaxValue
-                                        : int.MaxValue;
-
-                                    return new { Kod = g.Key, NumeryStr = numeryStr, PierwszaLiczba = pierwszaLiczba };
+                                    Kod = g.Key,
+                                    Numery = g.SelectMany(x => x.Numery?.Split(',') ?? Array.Empty<string>())
+                                            .Where(n => !string.IsNullOrWhiteSpace(n))
+                                            .Select(n => n.Trim())
+                                            .OrderBy(n => n, new NumeryComparer())
+                                            .ToList()
                                 })
-                                .OrderBy(x => x.PierwszaLiczba)
-                                .Select(x => $"{x.NumeryStr}({x.Kod})")
+                                .ToList();
+
+                            var kodySimplee = kodyBezDzielnic
+                                .Where(k => k.UlicaId == u.Id)
+                                .Select(k => k.Kod)
+                                .Distinct()
+                                .OrderBy(k => k)
                                 .ToList();
 
                             return new UlicaWithPostalCodes
                             {
                                 Ulica = u,
-                                KodyPocztoweZNumerami = string.Join(Environment.NewLine, kodyPocztoweZNumerami)
+                                KodyPocztoweZNumerami = kodyPocztoweZNumerami,
+                                KodyPocztowe = kodySimplee
                             };
                         })
                         .ToList();
@@ -215,20 +207,47 @@ namespace TerytLoad.Pages
             }
         }
 
-        public class MiastoWithPostalCodes
-        {
-            public Miasto Miasto { get; set; } = default!;
-            public string? MinKod { get; set; }
-            public string? MaxKod { get; set; }
-        }
         public List<MiastoWithPostalCodes> MiastaWithPostalCodes { get; set; } = new();
-
-        public class UlicaWithPostalCodes
-        {
-            public Ulica Ulica { get; set; } = default!;
-            public List<string> KodyPocztoweZDzielnicami { get; set; } = new();
-            public string KodyPocztoweZNumerami { get; set; } = string.Empty;
-        }
         public List<UlicaWithPostalCodes> UliceWithPostalCodes { get; set; } = new();
+    }
+
+    public class MiastoWithPostalCodes
+    {
+        public Miasto Miasto { get; set; } = null!;
+        public string? MinKod { get; set; }
+        public string? MaxKod { get; set; }
+    }
+
+    public class UlicaWithPostalCodes
+    {
+        public Ulica Ulica { get; set; } = null!;
+        public List<string> KodyPocztowe { get; set; } = new();
+        public List<KodPocztowyZNumerami> KodyPocztoweZNumerami { get; set; } = new();
+    }
+
+    public class KodPocztowyZNumerami
+    {
+        public string Kod { get; set; } = string.Empty;
+        public List<string> Numery { get; set; } = new();
+    }
+
+    public class NumeryComparer : IComparer<string>
+    {
+        public int Compare(string? x, string? y)
+        {
+            if (x == y) return 0;
+            if (x == null) return -1;
+            if (y == null) return 1;
+
+            var xParts = x.Split('/');
+            var yParts = y.Split('/');
+
+            if (int.TryParse(xParts[0], out int xNum) && int.TryParse(yParts[0], out int yNum))
+            {
+                return xNum.CompareTo(yNum);
+            }
+
+            return string.Compare(x, y, StringComparison.Ordinal);
+        }
     }
 }

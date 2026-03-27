@@ -212,7 +212,7 @@
                                 @foreach (var item in Model.UliceWithPostalCodes)
                                 {
                                     <tr>
-                                        <td>@item.Ulica.Cecha</td>
+                                        <td>@(item.Ulica.CechaUlicy?.Skrot ?? "-")</td>
                                         <td><strong>@item.Ulica.Nazwa1</strong></td>
                                         <td>@item.Ulica.Nazwa2</td>
                                         <td>
@@ -269,8 +269,34 @@
                                             }
                                         </td>
                                         <td><small class="text-muted">@item.Ulica.Symbol</small></td>
-                                        <td style="white-space: pre-line;">
-                                            @item.KodyPocztoweZNumerami
+                                        <td>
+                                            @if (item.KodyPocztoweZNumerami != null && item.KodyPocztoweZNumerami.Any())
+                                            {
+                                                <div class="d-flex flex-column gap-1">
+                                                    @foreach (var kodZNumerami in item.KodyPocztoweZNumerami)
+                                                    {
+                                                        <div>
+                                                            <span class="badge bg-primary">@kodZNumerami.Kod</span>
+                                                            @if (kodZNumerami.Numery != null && kodZNumerami.Numery.Any())
+                                                            {
+                                                                <small class="text-muted ms-1">@string.Join(", ", kodZNumerami.Numery.Take(10))</small>
+                                                                @if (kodZNumerami.Numery.Count > 10)
+                                                                {
+                                                                    <small class="text-muted">... (+@(kodZNumerami.Numery.Count - 10))</small>
+                                                                }
+                                                            }
+                                                        </div>
+                                                    }
+                                                </div>
+                                            }
+                                            else if (item.KodyPocztowe != null && item.KodyPocztowe.Any())
+                                            {
+                                                <span>@string.Join(", ", item.KodyPocztowe)</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-muted fst-italic">brak</span>
+                                            }
                                         </td>
                                     </tr>
                                 }
