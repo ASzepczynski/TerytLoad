@@ -375,6 +375,12 @@ namespace TerytLoad.Pages
             {
                 int tytulStopienId = tytulyDict.MapDopelniaczToId(item.Tytul);
 
+                if (tytulStopienId == -2)
+                {
+                    _logger.LogError($"Brak tytułu [{item.Tytul}]");
+                    tytulStopienId = -1;
+                }
+
                 var typUlicy = new TypUlicy
                 {
                     Prefiks = item.Prefiks?.Length > 200 ? item.Prefiks.Substring(0, 200) : item.Prefiks,
