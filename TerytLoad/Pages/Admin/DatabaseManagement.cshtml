@@ -1,0 +1,27 @@
+﻿@page
+@model TerytLoad.Pages.Admin.DatabaseManagementModel
+@{
+    ViewData["Title"] = "Zarządzanie bazą danych";
+}
+
+<div class="container mt-4">
+    <h1 class="text-danger">⚠️ Zarządzanie bazą danych</h1>
+    
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert alert-info">@Model.Message</div>
+    }
+    
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5>Status: @(Model.CanConnect ? "✓ Połączono" : "❌ Brak połączenia")</h5>
+            
+            <form method="post" asp-page-handler="Recreate" 
+                  onsubmit="return confirm('⚠️⚠️⚠️ CZY NA PEWNO chcesz usunąć CAŁĄ BAZĘ DANYCH? Wszystkie dane zostaną utracone!');">
+                <button type="submit" class="btn btn-danger mt-3">
+                    🗑️ USUŃ I ODTWÓRZ BAZĘ DANYCH
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

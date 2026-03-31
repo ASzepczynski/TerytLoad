@@ -1,6 +1,6 @@
-﻿using AddressLibrary;
-using AddressLibrary.Logging;
+﻿using AddressLibrary.Logging;
 using AddressLibrary.Data;
+using AddressLibrary;
 using AddressLibrary.Helpers;
 using AddressLibrary.Models;
 using AddressLibrary.Services;
@@ -63,6 +63,22 @@ namespace TerytLoad.Pages
                 LogFilePath = Path.Combine(appDataPath, "AppData", "Logs", "LoadTerytUlicPoprawki.txt");
                 LogFilePathTypyUlic = Path.Combine(appDataPath, "AppData", "Logs", "LoadTypyUlic.txt");
             }
+        }
+
+        public IActionResult OnPostReset()
+        {
+            // Reset stanu - przygotowanie do ponownego uruchomienia
+            _isRunning = false;
+            _isCompleted = false;
+            _totalCount = 0;
+            _processedCount = 0;
+            _currentOperation = string.Empty;
+            _errorMessage = null;
+            _stackTrace = null;
+            _resultPoprawki = null;
+            _resultTypyUlic = null;
+
+            return RedirectToPage();
         }
 
         public IActionResult OnPost()
