@@ -1,0 +1,334 @@
+﻿STATUS;NAZWA PLACÓWKI;MIEJSCOWOŚĆ;ULICA;NR;GMINA;POWIAT;WOJEWÓDZTWO;POPRZEDNIO;TERAZ
+-;AP Andrychów;Andrychów;Beskidzka;5a;Andrychów;wadowicki;małopolskie;34-120;
++;AP Babięty Wielkie;Babięty Wielkie;;52a;Susz;iławski;warmińsko-mazurskie;;14-245
++;AP Baciuty;Baciuty;Wygoda;8;Turośń Kościelna;białostocki;podlaskie;;18-107
+-;AP Barkowo k. Człuchowa;Barkowo;;15 A;Człuchów;człuchowski;pomorskie;77-300;
+-;AP Barszczewo;Barszczewo;;11A;Choroszcz;białostocki;podlaskie;16-070;
++;AP Barszczewo;Barszczewo;;2;Choroszcz;białostocki;podlaskie;;16-070
+-;AP Batorowo;Batorowo;Stefana Batorego;49A;Tarnowo Podgórne;poznański;wielkopolskie;62-081;
+-;AP Białystok;Białystok;Wasilkowska;1/10;Białystok;Białystok;podlaskie;15-146;
+-;AP Bielcza;Bielcza;;68;Borzęcin;brzeski;małopolskie;32-826;
+-;AP Bieździedza;Bieździedza;;97;Kołaczyce;jasielski;podkarpackie;38-213;
++;AP Boby-Kolonia;Boby-Kolonia;;93;Urzędów;kraśnicki;lubelskie;;23-252
++;AP Bodzentyn;Bodzentyn;Langiewicza;19;Bodzentyn;kielecki;świętokrzyskie;;26-010
+-;AP Bodzentyn;Bodzentyn;Langiewicza;20;Bodzentyn;kielecki;świętokrzyskie;26-010;
++;AP Chocznia;Chocznia;Główna;53;Wadowice;wadowicki;małopolskie;;34-123
+-;AP Chocznia;Chocznia;Tadeusza Kościuszki;111;Wadowice;wadowicki;małopolskie;34-123;
+-;AP Czerniewo;Czerniewo;;11;Trąbki Wielkie;gdański;pomorskie;83-042;
++;AP Dąbrówka Warszawska;Dąbrówka Warszawska;;42;Wierzbica;radomski;mazowieckie;;26-681
++;AP Dębno k. Leżajska;Dębno;;64;Leżajsk;leżajski;podkarpackie;;37-300
+-;AP Drezdenko;Drezdenko;Mickiewicza;14a;Drezdenko;strzelecko-drezdenecki;lubuskie;66-531;
+-;AP Dziwnówek;Dziwnówek;Wolności;16;Dziwnów;kamieński;zachodniopomorskie;72-421;
++;AP Gęś;Gęś;;95;Jabłoń;parczewski;lubelskie;;21-205
+-;AP Gęś;Gęś;;96A;Jabłoń;parczewski;lubelskie;21-205;
++;AP Giełczew Druga;Giełczew Druga;;42A;Wysokie;lubelski;lubelskie;;23-147
++;AP Ględowo;Ględowo;;21 A;Człuchów;człuchowski;pomorskie;;77-302
++;AP Głobino;Głobino;Główna;72;Redzikowo;słupski;pomorskie;;76-204
+-;AP Gnojno;Gnojno;;40;Gnojno;buski;świętokrzyskie;28-114;
++;AP Gogolewo;Gogolewo;Strażacka;1;Dębnica Kaszubska;słupski;pomorskie;;76-247
+-;AP Gogolewo;Gogolewo;;39A;Dębnica Kaszubska;słupski;pomorskie;76-247;
++;AP Grabówka;Grabówka;Górna;10a;Grabówka;białostocki;podlaskie;;15-524
++;AP Grybów;Grybów;os. Osiedle Biała Wyżna;b/n;Grybów;nowosądecki;małopolskie;;33-337
++;AP Jamielnik;Jamielnik;Nowomiejska;8;Bratian;nowomiejski;warmińsko-mazurskie;;13-332
+-;AP Jamielnik;Jamielnik;Nowomiejska;8;Nowe Miasto Lubawskie;nowomiejski;warmińsko-mazurskie;13-332;
++;AP Jarnołtowo;Jarnołtowo;;18;Małdyty;ostródzki;warmińsko-mazurskie;;14-332
+-;AP Jastarnia;Jurata;Mestwina;51;Jastarnia;pucki;pomorskie;84-141;
+-;AP Jodłówka;Jodłówka;;215;Pruchnik;jarosławski;podkarpackie;37-560;
+-;AP Kalinówka Kościelna;Kalinówka Kościelna;;34;Knyszyn;moniecki;podlaskie;19-121;
+-;AP Kamienna Góra;Kamienna Góra;Ludwika Waryńskiego;32;Kamienna Góra;kamiennogórski;dolnośląskie;58-401;
++;AP Kamienna Góra;Kamienna Góra;Ludwika Waryńskiego;4;Kamienna Góra;kamiennogórski;dolnośląskie;;58-401
++;AP Karakule;Karakule;;72;Supraśl;białostocki;podlaskie;;16-031
++;AP Klepacze;Klepacze;Niewodnicka;19A;Choroszcz;białostocki;podlaskie;;15-636
+-;AP Kojły;Kojły;;109;Czyże;hajnowski;podlaskie;17-202;
+-;AP Kopki;Kopki;Podborze;19;Rudnik nad Sanem;niżański;podkarpackie;37-422;
++;AP Koryta;Koryta;;4;Raszków;ostrowski;wielkopolskie;;63-441
++;AP Kościerzyna;Kościerzyna;Rynek;8;Kościerzyna;kościerski;pomorskie;;83-400
+-;AP Kościerzyna;Kościerzyna;Słodowa;1;Kościerzyna;kościerski;pomorskie;83-400;
++;AP Krosno;Krosno;;24A;Pasłęk;elbląski;warmińsko-mazurskie;;14-403
+-;AP Krynica-Zdrój;Krynica-Zdrój;Józefa Ignacego Kraszewskiego;111 A;Krynica-Zdrój;nowosądecki;małopolskie;33-381;
+-;AP Kurzyna Średnia;Kurzyna Średnia;;16;Ulanów;niżański;podkarpackie;37-411;
+-;AP Kwietniewo;Kwietniewo;;200/1;Rychliki;elbląski;warmińsko-mazurskie;14-412;
+-;AP Lasowice Małe;Lasowice Małe;Odrodzenia;30;Lasowice Wielkie;kluczborski;opolskie;46-282;
++;AP Leśno;Leśno;Kardynała Stefana Wyszyńskiego;27;Brusy;chojnicki;pomorskie;;89-634
+-;AP Ligota;Ligota;Ostrowska;17;Raszków;ostrowski;wielkopolskie;63-441;
++;AP Lubliniec;Lubliniec;Powstańców Śląskich;54 ;Lubliniec;lubliniecki;śląskie;;42-700
+-;AP Lubliniec;Lubliniec;Powstańców Śląskich;54 B;Lubliniec;lubliniecki;śląskie;42-700;
+-;AP Lubostroń;Lubostroń;;15;Łabiszyn;żniński;kujawsko-pomorskie;89-211;
++;AP Łódź;Łódź (Łódź-Górna);Łęczycka;56;Łódź;Łódź;łódzkie;;93-193
++;AP Łódź;Łódź (Łódź-Widzew);Pomorska;116;Łódź;Łódź;łódzkie;;91-403
+-;AP Łupianka Stara;Łupianka Stara;;32D;Łapy;białostocki;podlaskie;18-100;
++;AP Maków Podhalański;Maków Podhalański;Wolności;33;Maków Podhalański;suski;małopolskie;;34-219
++;AP Marzewo;Marzewo;;21;Pasłęk;elbląski;warmińsko-mazurskie;;14-402
+-;AP Mieszewo;Mieszewo;;35a;Węgorzyno;łobeski;zachodniopomorskie;73-155;
++;AP Mława;Mława;Padlewskiego;22/15;Mława;mławski;mazowieckie;;06-500
++;AP Moryń;Moryń;Odrzańska;2;Moryń;gryfiński;zachodniopomorskie;;74-504
+-;AP Mroczków Gościnny;Mroczków Gościnny;;52;Opoczno;opoczyński;łódzkie;26-300;
+-;AP Muchówka;Muchówka;;60;Nowy Wiśnicz;bocheński;małopolskie;32-723;
+-;AP Nidzica;Nidzica;1 Maja;49;Nidzica;nidzicki;warmińsko-mazurskie;13-101;
++;AP Nidzica;Nidzica;Aleja Sprzymierzonych;32;Nidzica;nidzicki;warmińsko-mazurskie;;13-103
+-;AP Nidzica;Nidzica;Konopnickiej;12;Nidzica;nidzicki;warmińsko-mazurskie;13-104;
+-;AP Nidzica;Nidzica;Słoneczna;1;Nidzica;nidzicki;warmińsko-mazurskie;13-103;
+-;AP Nowa Pawłówka;Nowa Pawłówka;;2A;Przerośl;suwalski;podlaskie;16-427;
++;AP Nowy Dwór Gdański;Nowy Dwór Gdański;gen. Władysława Sikorskiego;9/1;Nowy Dwór Gdański;nowodworski;pomorskie;;82-101
+-;AP Oblekoń;Oblekoń;;265A;Pacanów;buski;świętokrzyskie;28-134;
++;AP Odechowiec;Odechowiec;;107;Skaryszew;radomski;mazowieckie;;26-626
+-;AP Odechowiec;Odechowiec;;135;Skaryszew;radomski;mazowieckie;26-626;
++;AP Ogorzeliny;Ogorzeliny;Pocztowa;2;Chojnice;chojnicki;pomorskie;;89-666
++;AP Oława;Oława;3 Maja;4B;Oława;oławski;dolnośląskie;;55-207
+-;AP Oława;Oława;3 Maja;4H;Oława;oławski;dolnośląskie;55-207;
++;AP Parchowo;Parchowo;Kartuska;55;Parchowo;bytowski;pomorskie;;77-128
+-;AP Piekary Śląskie;Piekary Śląskie;Józefa Bema;15;Piekary Śląskie;Piekary Śląskie;śląskie;41-940;
+-;AP Pionki;Pionki;Bohaterów Studzianek;22;Pionki;radomski;mazowieckie;26-670;
++;AP Pionki;Pionki;Szpitalna;19;Pionki;radomski;mazowieckie;;26-670
+-;AP Piotrkowo;Piotrkowo;;30A;Susz;iławski;warmińsko-mazurskie;14-244;
+-;AP Popkowice;Popkowice;;6;Urzędów;kraśnicki;lubelskie;23-250;
+-;AP Pruszcz Gdański;Pruszcz Gdański;Stefana Rogozińskiego;3;Pruszcz Gdański;gdański;pomorskie;83-001;
+-;AP Przemyśl;Przemyśl;Lwowska;7B/2;Przemyśl;Przemyśl;podkarpackie;37-709;
++;AP Przędzel;Przędzel;Adama Mickiewicza;176;Rudnik nad Sanem;niżański;podkarpackie;;37-422
+-;AP Puck;Puck;Żeromskiego;33;Puck;pucki;pomorskie;84-101;
++;AP Pyrzyce;Pyrzyce;1 Maja;20;Pyrzyce;pyrzycki;zachodniopomorskie;;74-203
++;AP Radomno;Radomno;;54;Bratian;nowomiejski;warmińsko-mazurskie;;13-304
+-;AP Radomno;Radomno;;54;Nowe Miasto Lubawskie;nowomiejski;warmińsko-mazurskie;13-304;
+-;AP Radoszyce;Radoszyce;Rynek;24;Radoszyce;konecki;świętokrzyskie;26-230;
+-;AP Rataje;Rataje Karskie (Rataje);;19 B;Pacanów;buski;świętokrzyskie;28-133;
++;AP Redkowice;Redkowice;;25;Nowa Wieś Lęborska;lęborski;pomorskie;;84-355
++;AP Robakowo;Robakowo;Osiedle Tygrysie;26;Kórnik;poznański;wielkopolskie;;62-023
+-;AP Robakowo;Robakowo;Tygrysie Os.;26;Kórnik;poznański;wielkopolskie;62-023;
+-;AP Rogalinek;Rogalinek;Poznańska;3;Mosina;poznański;wielkopolskie;62-022;
++;AP Rostkowo;Rostkowo;;10;Czernice Borowe;przasnyski;mazowieckie;;06-418
+-;AP Rzeszów;Rzeszów;Jacentego Gałęzowskiego;bn;Rzeszów;Rzeszów;podkarpackie;35-076;
+-;AP Sianowo;Sianowo;;10;Kartuzy;kartuski;pomorskie;83-300;
+-;AP Słupsk;Słupsk;Tadeusza Sygietyńskiego;4C;Słupsk;Słupsk;pomorskie;76-222;
+-;AP Sobieradz;Sobieradz;;37;Gryfino;gryfiński;zachodniopomorskie;74-102;
++;AP Staniszewo;Staniszewo;Kartuska;40;Kartuzy;kartuski;pomorskie;;83-327
++;AP Stare Kosiny;Stare Kosiny;;36c;Wiśniewo;mławski;mazowieckie;;06-524
++;AP Stare Lubiejewo;Stare Lubiejewo;Słoneczna;3;Ostrów Mazowiecka;ostrowski;mazowieckie;;07-307
+-;AP Straszydle;Straszydle;;57;Lubenia;rzeszowski;podkarpackie;36-044;
+-;AP Strykowo;Strykowo;Bukowska;34;Stęszew;poznański;wielkopolskie;62-060;
++;AP Strzebiń;Strzebiń;Lubliniecka;15B;Koszęcin;lubliniecki;śląskie;;42-286
+-;AP Strzelin;Strzelin;Leśna;6;Strzelin;strzeliński;dolnośląskie;57-100;
++;AP Studzianki;Studzianki;Wasilkowska;16;Wasilków;białostocki;podlaskie;;16-011
+-;AP Sucha;Sucha;Główna;23;Lubiewo;tucholski;kujawsko-pomorskie;89-525;
+-;AP Sulejówek;Sulejówek;Kombatantów;55;Sulejówek;miński;mazowieckie;05-072;
++;AP Sułkowice;Sułkowice;Beskidzka;108B;Andrychów;wadowicki;małopolskie;;34-120
++;AP Swarzędz;Swarzędz;Średzka;2;Swarzędz;poznański;wielkopolskie;;62-020
++;AP Szalowa;Szalowa;;11;Łużna;gorlicki;małopolskie;;38-331
+-;AP Szalowa;Szalowa;;18;Łużna;gorlicki;małopolskie;38-331;
++;AP Szymonowo;Szymonowo;;18;Małdyty;ostródzki;warmińsko-mazurskie;;14-331
++;AP Świniary Stare;Świniary Stare;;35C;Łoniów;sandomierski;świętokrzyskie;;27-672
++;AP Tarnów;Tarnów;Klikowska;12/3;Tarnów;Tarnów;małopolskie;;33-117
++;AP Tarnów;Tarnów;Klikowska;185;Tarnów;Tarnów;małopolskie;;33-118
++;AP Tomaszów Mazowiecki;Tomaszów Mazowiecki;Aleja Marszałka Józefa Piłsudskiego;26A;Tomaszów Mazowiecki;tomaszowski;łódzkie;;97-200
++;AP Tuchorza;Tuchorza;Prosta;15;Siedlec;wolsztyński;wielkopolskie;;64-212
+-;AP Tułodziad;Tułodziad;;11;Dąbrówno;ostródzki;warmińsko-mazurskie;14-121;
+-;AP Upałty Małe;Upałty Małe;;5;Giżycko;giżycki;warmińsko-mazurskie;11-502;
+-;AP Warszawa;Warszawa (Mokotów);Barcelońska;1;Warszawa;Warszawa;mazowieckie;02-762;
+-;AP Warszawa;Warszawa (Praga-Południe);Grochowska;219/U1;Warszawa;Warszawa;mazowieckie;04-077;
++;AP Warszawa;Warszawa (Praga-Południe);Ostrobramska;101/311;Warszawa;Warszawa;mazowieckie;;04-041
+-;AP Warszawa;Warszawa (Praga-Południe);Ostrobramska;101/316;Warszawa;Warszawa;mazowieckie;04-041;
++;AP Warszawa;Warszawa (Ursynów);"Bronisława Pietraszewicza ""Lota""";7A/2A;Warszawa;Warszawa;mazowieckie;;02-810
+-;AP Wąsowo;Wąsowo;Lipowa;30;Kuślin;nowotomyski;wielkopolskie;64-314;
++;AP Wiechlice;Wiechlice;Brzozowa; ;Szprotawa;żagański;lubuskie;;67-301
+-;AP Wiekowo;Wiekowo;;1;Darłowo;sławieński;zachodniopomorskie;76-150;
+-;AP Wieniec;Wieniec;Brzeska;3;Brześć Kujawski;włocławski;kujawsko-pomorskie;87-880;
+-;AP Wierzchowo Człuchowskie;Wierzchowo;Szkolna;12;Człuchów;człuchowski;pomorskie;77-300;
++;AP Wierzchowo-Dworzec;Wierzchowo-Dworzec;Szkolna;12;Człuchów;człuchowski;pomorskie;;77-301
++;AP Wiśniewko;Wiśniewko;;31;Wiśniewo;mławski;mazowieckie;;06-541
+-;AP Włodary;Włodary;Nyska;6;Korfantów;nyski;opolskie;48-319;
++;AP Wrocław;Wrocław (Wrocław-Fabryczna);Ibn Siny Awicenny;18/1/2;Wrocław;Wrocław;dolnośląskie;;52-405
+-;AP Wrony Nowe;Wrony Nowe;;1 A;Giżycko;giżycki;warmińsko-mazurskie;11-505;
++;AP Zębowo;Zębowo;Plac Św. Jana;30;Lwówek;nowotomyski;wielkopolskie;;64-310
+-;AP Zębowo;Zębowo;Świętego Jana Pl.;30;Lwówek;nowotomyski;wielkopolskie;64-310;
+-;AP Zybułtowo;Zybułtowo;;31;Grunwald;ostródzki;warmińsko-mazurskie;14-109;
++;AP Żagań;Żagań;Szprotawska;43B;Żagań;żagański;lubuskie;;68-106
+-;AP Żdżary;Żdżary;;75A;Nowe Miasto nad Pilicą;grójecki;mazowieckie;26-420;
++;AP Żychlin;Żychlin;Osiedle Słoneczne;77;Stare Miasto;koniński;wielkopolskie;;62-572
+-;AP Żychlin;Żychlin;Słoneczne Os.;77;Stare Miasto;koniński;wielkopolskie;62-572;
++;AP Żytkiejmy;Żytkiejmy;Marii Konopnickiej;1;Dubeninki;gołdapski;warmińsko-mazurskie;;19-504
+-;AP Żytkiejmy;Żytkiejmy;Plac Wolności;4;Dubeninki;gołdapski;warmińsko-mazurskie;19-504;
++;FUP Aleksandrów Kujawski 1;Bądkowo;Kujawska;41;Bądkowo;aleksandrowski;kujawsko-pomorskie;;87-704
++;FUP Aleksandrów Kujawski 1;Lubanie;;17a;Lubanie;włocławski;kujawsko-pomorskie;;87-732
+-;FUP Bądkowo;Lubanie;;17a;Lubanie;włocławski;kujawsko-pomorskie;87-732;
++;FUP Bielsko-Biała 1;Bielsko-Biała;Leszczyńska;20;Bielsko-Biała;Bielsko-Biała;śląskie;;43-300
+-;FUP Bieżuń;Lutocin;Stefana Żeromskiego;2;Lutocin;żuromiński;mazowieckie;09-317;
++;FUP Biłgoraj 1;Biszcza;;79;Biszcza;biłgorajski;lubelskie;;23-426
++;FUP Biłgoraj 1;Obsza;;36;Obsza;biłgorajski;lubelskie;;23-416
++;FUP Biłgoraj 1;Potok Górny;;116;Potok Górny;biłgorajski;lubelskie;;23-427
++;FUP Biłgoraj 1;Tarnogród;Rynek;20;Tarnogród;biłgorajski;lubelskie;;23-420
++;FUP Brodnica 1;Bartniczka;Pocztowa;7;Bartniczka;brodnicki;kujawsko-pomorskie;;87-323
++;FUP Brodnica 1;Górzno;Pocztowa;10;Górzno;brodnicki;kujawsko-pomorskie;;87-320
++;FUP Brodnica 1;Świedziebnia;;19;Świedziebnia;brodnicki;kujawsko-pomorskie;;87-336
++;FUP Bychawa;Wysokie;Rynek Jabłonowskich;3;Wysokie;lubelski;lubelskie;;23-146
++;FUP Bychawa;Zakrzew;;26;Zakrzew;lubelski;lubelskie;;23-156
++;FUP Cegłów;Mrozy;Jana Kilińskiego;1;Mrozy;miński;mazowieckie;;05-320
+#;FUP Chełm 1;Białopole;Chełmska;9;Białopole;chełmski;lubelskie;22-135;22-136
+#;FUP Chełm 1;Kamień;Diamentowa;5;Kamień;chełmski;lubelskie;22-113;22-115
++;FUP Chmielnik;Gnojno;;145;Gnojno;buski;świętokrzyskie;;28-115
+-;FUP Chorzele;Krzynowłoga Mała;Przasnyska;1A;Krzynowłoga Mała;przasnyski;mazowieckie;06-316;
++;FUP Czerwińsk n. Wisłą;Czerwińsk nad Wisłą;Władysława Jagiełły;21;Czerwińsk nad Wisłą;płoński;mazowieckie;;09-153
+-;FUP Dęblin 1;Dęblin;Dworcowa;2D;Dęblin;rycki;lubelskie;08-530;
+-;FUP Dęblin 1;Dęblin;Pułkownika pilota Jerzego Rogowskiego;1;Dęblin;rycki;lubelskie;08-530;
+-;FUP Dęblin 1;Dęblin;Szkoły Podchorążych Lotnictwa;11;Dęblin;rycki;lubelskie;08-521;
+-;FUP Dęblin 1;Dęblin;Wiślana;6/26;Dęblin;rycki;lubelskie;08-530;
+-;FUP Dobrzyń n. Wisłą;Wielgie;Starowiejska;87;Wielgie;lipnowski;kujawsko-pomorskie;87-603;
++;FUP Dynów;Błażowa;3 Maja;9;Błażowa;rzeszowski;podkarpackie;;36-030
+-;FUP Gliwice 2;Gliwice;Pszczyńska;315;Gliwice;Gliwice;śląskie;44-115;
++;FUP Głowno 1;Głowno;gen. Władysława Sikorskiego;45/49;Głowno;zgierski;łódzkie;;95-016
+-;FUP Głowno 1;Głowno;Władysława Sikorskiego;45/49;Głowno;zgierski;łódzkie;95-016;
+-;FUP Górzno k. Brodnicy;Bartniczka;Pocztowa;7;Bartniczka;brodnicki;kujawsko-pomorskie;87-321;
+-;FUP Górzno k. Brodnicy;Świedziebnia;;19;Świedziebnia;brodnicki;kujawsko-pomorskie;87-335;
++;FUP Hajnówka;Rzepiska;;31;Hajnówka;hajnowski;podlaskie;;17-205
++;FUP Hrubieszów;Dołhobyczów;Hallera;10;Dołhobyczów;hrubieszowski;lubelskie;;22-540
++;FUP Hrubieszów;Mircze;Kryłowska;33;Mircze;hrubieszowski;lubelskie;;22-530
++;FUP Jasło 1;Tarnowiec;;30;Tarnowiec;jasielski;podkarpackie;;38-208
+-;FUP Jawor 1;Przybyłowice;;19;Męcinka;jaworski;dolnośląskie;59-424;
+-;FUP Jelenia Góra 9;Szklarska Poręba;Dworcowa;6;Szklarska Poręba;karkonoski;dolnośląskie;58-581;
+-;FUP Józefów k. Otwocka 3;Józefów;Generała Sikorskiego;91;Józefów;otwocki;mazowieckie;05-420;
+-;FUP Katowice 25;Katowice;Trasa imienia Nikodema i Józefa Renców;30;Katowice;Katowice;śląskie;40-878;
++;FUP Katowice 25;Katowice;Trasa Imienia Nikodema i Józefa Reńców;30;Katowice;Katowice;śląskie;;40-878
++;FUP Kłodzko 1;Stronie Śląskie;Kościuszki;41;Stronie Śląskie;kłodzki;dolnośląskie;;57-550
+-;FUP Korczew n. Bugiem;Paprotnia;Jana Pawła II;4;Paprotnia;siedlecki;mazowieckie;08-107;
+-;FUP Korczew n. Bugiem;Przesmyki;11 Listopada;5B;Przesmyki;siedlecki;mazowieckie;08-109;
++;FUP Kościan 1;Krzywiń;Rynek;8;Krzywiń;kościański;wielkopolskie;;64-010
++;FUP Krasnosielc;Płoniawy-Bramura;;64;Płoniawy-Bramura;makowski;mazowieckie;;06-210
++;FUP Krzyż Wielkopolski;Wieleń;Kościuszki;33;Wieleń;czarnkowsko-trzcianecki;wielkopolskie;;64-730
+-;FUP Legnica 1;Legnica;Izerska;2;Legnica;Legnica;dolnośląskie;59-210;
++;FUP Legnica 1;Legnica;Izerska;36;Legnica;Legnica;dolnośląskie;;59-210
++;FUP Leszno 2;Leszno;Bolesława Chrobrego;45;Leszno;Leszno;wielkopolskie;;64-107
++;FUP Lipno 1;Dobrzyń nad Wisłą;Stodólna;16;Dobrzyń nad Wisłą;lipnowski;kujawsko-pomorskie;;87-613
++;FUP Lipno 1;Wielgie;Starowiejska;87;Wielgie;lipnowski;kujawsko-pomorskie;;87-604
+#;FUP Lubartów 1;Stary Uścimów;;37;Uścimów;lubartowski;lubelskie;21-109;21-111
++;FUP Łańcut;Białobrzegi;;4;Białobrzegi;łańcucki;podkarpackie;;37-114
++;FUP Łęczna 1;Milejów;Partyzancka;13;Milejów;łęczyński;lubelskie;;21-020
+-;FUP Łęczna 1;Milejów-Osada;Partyzancka;13;Milejów;łęczyński;lubelskie;21-020;
++;FUP Łosice;Korczew;Szkolna;3;Korczew;siedlecki;mazowieckie;;08-108
++;FUP Łosice;Paprotnia;Jana Pawła II;4;Paprotnia;siedlecki;mazowieckie;;08-107
++;FUP Łosice;Przesmyki;11 Listopada;5B;Przesmyki;siedlecki;mazowieckie;;08-109
+-;FUP Miączyn;Grabowiec;Wojsławska;1;Grabowiec;zamojski;lubelskie;22-426;
++;FUP Mińsk Mazowiecki 2;Halinów;Jana Pawła II;30;Halinów;miński;mazowieckie;;05-074
+-;FUP Mircze;Dołhobyczów;Hallera;10;Dołhobyczów;hrubieszowski;lubelskie;22-540;
++;FUP Mława 1;Strzegowo;Wyzwolenia;25;Strzegowo;mławski;mazowieckie;;06-445
+-;FUP Odolanów;Sośnie;Wielkopolska;45;Sośnie;ostrowski;wielkopolskie;63-435;
++;FUP Ostrołęka 2;Młynarze;Ostrołęcka;22;Młynarze;makowski;mazowieckie;;06-231
++;FUP Ostrołęka 2;Różan;Warszawska;8;Różan;makowski;mazowieckie;;06-230
++;FUP Ostrów Wielkopolski 2;Odolanów;Bartosza;3;Odolanów;ostrowski;wielkopolskie;;63-430
++;FUP Ostrów Wielkopolski 2;Przygodzice;Wrocławska;54;Przygodzice;ostrowski;wielkopolskie;;63-421
++;FUP Ostrów Wielkopolski 2;Sośnie;Wielkopolska;45;Sośnie;ostrowski;wielkopolskie;;63-435
++;FUP Otwock 1;Józefów;Generała Sikorskiego;23;Józefów;otwocki;mazowieckie;;05-410
++;FUP Otwock 1;Józefów;Generała Sikorskiego;91;Józefów;otwocki;mazowieckie;;05-421
++;FUP Płock 1;Płock;Bartnicza;3a;Płock;Płock;mazowieckie;;09-421
+-;FUP Poznań 2;Poznań (Poznań-Jeżyce);rynek Jeżycki;1;Poznań;Poznań;wielkopolskie;60-870;
++;FUP Poznań 2;Poznań (Poznań-Jeżyce);rynek Jeżycki;1/2;Poznań;Poznań;wielkopolskie;;60-870
+-;FUP Poznań 56;Poznań (Poznań-Stare Miasto);os. Przyjaźni;115;Poznań;Poznań;wielkopolskie;61-690;
++;FUP Przasnysz 1;Chorzele;Mostowa;13;Chorzele;przasnyski;mazowieckie;;06-330
++;FUP Przasnysz 1;Krzynowłoga Mała;Przasnyska;1A;Krzynowłoga Mała;przasnyski;mazowieckie;;06-316
+-;FUP Radzanów n. Wkrą;Siemiątkowo;Władysława Reymonta;3;Siemiątkowo;żuromiński;mazowieckie;09-135;
+-;FUP Radzanów n. Wkrą;Szreńsk;Rynek;12;Szreńsk;mławski;mazowieckie;06-550;
+-;FUP Różan;Młynarze;Ostrołęcka;22;Młynarze;makowski;mazowieckie;06-231;
+-;FUP Rybnik 1;Rybnik;Żorska;60;Rybnik;Rybnik;śląskie;44-200;
++;FUP Ryki;Dęblin;Bankowa;17;Dęblin;rycki;lubelskie;;08-530
++;FUP Ryki;Dęblin;Dworcowa;2D;Dęblin;rycki;lubelskie;;08-532
++;FUP Ryki;Dęblin;Pułkownika pilota Jerzego Rogowskiego;1;Dęblin;rycki;lubelskie;;08-533
++;FUP Ryki;Dęblin;Szkoły Podchorążych Lotnictwa;11;Dęblin;rycki;lubelskie;;08-521
++;FUP Ryki;Dęblin;Wiślana;6/26;Dęblin;rycki;lubelskie;;08-532
++;FUP Sejny;Kukle;;29;Giby;sejneński;podlaskie;;16-507
++;FUP Siedlce 1;Siedlce;Geodetów;7;Siedlce;Siedlce;mazowieckie;;08-132
++;FUP Siedlce 2;Siedlce;Graniczna;4a;Siedlce;Siedlce;mazowieckie;;08-133
++;FUP Sieradz 1;Sieradz;Jagiellońska;15;Sieradz;sieradzki;łódzkie;;98-206
++;FUP Sieradz 2;Goszczanów;Kaliska;19;Goszczanów;sieradzki;łódzkie;;98-216
++;FUP Sieradz 2;Warta;Tadeusza Kościuszki;8;Warta;sieradzki;łódzkie;;98-290
++;FUP Skwierzyna;Przytoczna;Pocztowa;31;Przytoczna;międzyrzecki;lubuskie;;66-340
+-;FUP Słupca 1;Strzałkowo;Al. Prym. Wyszyńskiego;13;Strzałkowo;słupecki;wielkopolskie;62-421;
++;FUP Słupca 1;Strzałkowo;Aleja Prymasa Wyszyńskiego;13;Strzałkowo;słupecki;wielkopolskie;;62-421
+-;FUP Suchy Las;Biedrusko;Parkowa;3;Suchy Las;poznański;wielkopolskie;62-003;
++;FUP Suchy Las;Biedrusko;Zjednoczenia;12;Suchy Las;poznański;wielkopolskie;;62-003
+-;FUP Szamotuły;Obrzycko;Lipowy Pl.;14;Obrzycko;szamotulski;wielkopolskie;64-520;
++;FUP Szamotuły;Obrzycko;Plac Lipowy;14;Obrzycko;szamotulski;wielkopolskie;;64-520
++;FUP Szczecin 2;skrytki/przegródki;;;Szczecin;Szczecin;zachodniopomorskie;;70-952
++;FUP Szczecin 2;Szczecin;Dworcowa;20b;Szczecin;Szczecin;zachodniopomorskie;;70-950
++;FUP Śrem 1;Dolsk;Plac Wyzwolenia;18;Dolsk;śremski;wielkopolskie;;63-100
+-;FUP Śrem 1;Dolsk;Wyzwolenia Pl.;18;Dolsk;śremski;wielkopolskie;63-100;
+-;FUP Świdnica Śląska 1;Mościsko;Kolejowa;12b;Dzierżoniów;dzierżoniowski;dolnośląskie;58-116;
+-;FUP Tarnogród;Biszcza;;79;Biszcza;biłgorajski;lubelskie;23-425;
+-;FUP Tarnogród;Obsza;;36;Obsza;biłgorajski;lubelskie;23-413;
+-;FUP Tarnogród;Potok Górny;;116;Potok Górny;biłgorajski;lubelskie;23-423;
++;FUP Turek 1;Tuliszków;Plac Powstańców Styczniowych 1863;1A;Tuliszków;turecki;wielkopolskie;;62-740
+-;FUP Turek 1;Tuliszków;Powstańców Styczniowych 1863 R. Pl.;1A;Tuliszków;turecki;wielkopolskie;62-740;
+-;FUP Ustka 1;Ustka;Promenada Nadmorska;10;Ustka;słupski;pomorskie;76-273;
++;FUP Ustroń k. Cieszyna 1;Wisła;pl. Bogumiła Hoffa;2;Wisła;cieszyński;śląskie;;43-463
++;FUP Wałbrzych 1;Wałbrzych;Gdyńska;7;Wałbrzych;Wałbrzych;dolnośląskie;;58-313
++;FUP Warszawa 1;Warszawa (Śródmieście);Plac Defilad;1/83;Warszawa;Warszawa;mazowieckie;;00-111
+-;FUP Warszawa 27;Warszawa (Wola);Okocimska;2/3;Warszawa;Warszawa;mazowieckie;01-114;
+-;FUP Warszawa 47;Warszawa (Śródmieście);Stawki;2;Warszawa;Warszawa;mazowieckie;00-964;
+#;FUP Warszawa 76;Warszawa (Wilanów);Kazachska;7;Warszawa;Warszawa;mazowieckie;03-006;02-999
++;FUP Warszawa 76;Warszawa (Wilanów);Przyczółkowa;219/221/223/B.1.10;Warszawa;Warszawa;mazowieckie;;02-961
+-;FUP Warta;Goszczanów;Kaliska;19;Goszczanów;sieradzki;łódzkie;98-215;
+-;FUP Włocławek 11;Włocławek;Aleja Jana Pawła II;83a;Włocławek;Włocławek;kujawsko-pomorskie;87-807;
++;FUP Wodzisław Śląski;Radlin;Wojciecha Korfantego;3;Radlin;wodzisławski;śląskie;;44-310
++;FUP Wolin;Międzyzdroje;Gryfa Pomorskiego;7;Międzyzdroje;kamieński;zachodniopomorskie;;72-500
+-;FUP Wysokie;Zakrzew;;26;Zakrzew;lubelski;lubelskie;23-155;
++;FUP Wyszogród;Wyszogród;Rębowska;51/53;Wyszogród;płocki;mazowieckie;;09-453
++;FUP Zabrze 1;Zabrze;Brygadzistów;2;Zabrze;Zabrze;śląskie;;41-807
++;FUP Zabrze 1;Zabrze;Franciszkańska;21;Zabrze;Zabrze;śląskie;;41-819
+-;FUP Zabrze 1;Zabrze;Ignacego Paderewskiego;25;Zabrze;Zabrze;śląskie;41-800;
+-;FUP Zabrze 1;Zabrze;Legnicka;4;Zabrze;Zabrze;śląskie;41-800;
++;FUP Zamość 1;Grabowiec;Wojsławska;1;Grabowiec;zamojski;lubelskie;;22-426
++;FUP Zamość 1;Miączyn;;164;Miączyn;zamojski;lubelskie;;22-455
++;FUP Zawiercie 1;Zawiercie;Józefa Piłsudskiego;13;Zawiercie;zawierciański;śląskie;;42-404
++;FUP Zwoleń;Lipiny;;32A;Przyłęk;zwoleński;mazowieckie;;26-704
++;FUP Żuromin;Bieżuń;Zacisze;1;Bieżuń;żuromiński;mazowieckie;;09-320
++;FUP Żuromin;Lubowidz;Jana Pawła II;48;Lubowidz;żuromiński;mazowieckie;;09-304
++;FUP Żuromin;Lutocin;Stefana Żeromskiego;2;Lutocin;żuromiński;mazowieckie;;09-319
++;FUP Żuromin;Radzanów;Mławska;4;Radzanów;mławski;mazowieckie;;06-542
++;FUP Żuromin;Siemiątkowo;Władysława Reymonta;3;Siemiątkowo;żuromiński;mazowieckie;;09-137
++;FUP Żuromin;Szreńsk;Rynek;12;Szreńsk;mławski;mazowieckie;;06-551
++;PP Kielce 2;Kielce;pl. Niepodległości;2;Kielce;Kielce;świętokrzyskie;;25-090
+-;PP Piotrków Trybunalski E301;Piotrków Trybunalski;Łódzka;66;Piotrków Trybunalski;Piotrków Trybunalski;łódzkie;97-303;
+-;PP Szczecin Z101;skrytki/przegródki;;;Szczecin;Szczecin;zachodniopomorskie;70-952;
+-;UP Bądkowo;Bądkowo;Kujawska;41;Bądkowo;aleksandrowski;kujawsko-pomorskie;87-704;
+-;UP Białobrzegi k. Łańcuta;Białobrzegi;;4;Białobrzegi;łańcucki;podkarpackie;37-114;
+-;UP Bieżuń;Bieżuń;Zacisze;1;Bieżuń;żuromiński;mazowieckie;09-320;
+-;UP Błażowa Rzeszowska;Błażowa;3 Maja;9;Błażowa;rzeszowski;podkarpackie;36-030;
+-;UP Chorzele;Chorzele;Mostowa;13;Chorzele;przasnyski;mazowieckie;06-330;
+-;UP Dęblin 1;Dęblin;Bankowa;17;Dęblin;rycki;lubelskie;08-530;
+-;UP Dobrzyń n. Wisłą;Dobrzyń nad Wisłą;Stodólna;16;Dobrzyń nad Wisłą;lipnowski;kujawsko-pomorskie;87-610;
+-;UP Działoszyn;Działoszyn;Os. Józefa Piłsudskiego;28 D;Działoszyn;pajęczański;łódzkie;98-355;
++;UP Działoszyn;Działoszyn;Piłsudskiego;28 D;Działoszyn;pajęczański;łódzkie;;98-355
+-;UP Górzno k. Brodnicy;Górzno;Pocztowa;10;Górzno;brodnicki;kujawsko-pomorskie;87-320;
+-;UP Halinów;Halinów;Jana Pawła II;30;Halinów;miński;mazowieckie;05-074;
+-;UP Józefów k. Otwocka 3;Józefów;Generała Sikorskiego;23;Józefów;otwocki;mazowieckie;05-410;
+-;UP Korczew n. Bugiem;Korczew;Szkolna;3;Korczew;siedlecki;mazowieckie;08-108;
+-;UP Krzywiń;Krzywiń;Rynek;8;Krzywiń;kościański;wielkopolskie;64-010;
+-;UP Lubowidz;Lubowidz;Jana Pawła II;48;Lubowidz;żuromiński;mazowieckie;09-304;
+-;UP Miączyn;Miączyn;;164;Miączyn;zamojski;lubelskie;22-455;
+-;UP Międzyzdroje;Międzyzdroje;Gryfa Pomorskiego;7;Międzyzdroje;kamieński;zachodniopomorskie;72-500;
+-;UP Mircze;Mircze;Kryłowska;33;Mircze;hrubieszowski;lubelskie;22-530;
+-;UP Mrozy;Mrozy;Jana Kilińskiego;1;Mrozy;miński;mazowieckie;05-320;
+-;UP Odolanów;Odolanów;Bartosza;3;Odolanów;ostrowski;wielkopolskie;63-430;
+-;UP Ostrów Lubelski;Ostrów Lubelski;Partyzantów;1 A;Ostrów Lubelski;lubartowski;lubelskie;21-110;
+-;UP Płoniawy-Bramura;Płoniawy-Bramura;;64;Płoniawy-Bramura;makowski;mazowieckie;06-210;
+-;UP Poznań 29;Poznań (Poznań-Jeżyce);Strzeszyńska;63;Poznań;Poznań;wielkopolskie;60-470;
+-;UP Poznań 29;skrytki/przegródki;;;Poznań;Poznań;wielkopolskie;60-995;
++;UP Poznań 29;skrytki/przegródki;;;Suchy Las;poznański;wielkopolskie;;60-995
++;UP Poznań 29;Suchy Las;pl. Nowy Rynek;3;Suchy Las;poznański;wielkopolskie;;62-000
+-;UP Przygodzice;Przygodzice;Wrocławska;54;Przygodzice;ostrowski;wielkopolskie;63-421;
+-;UP Przyłęk;Lipiny;;32A;Przyłęk;zwoleński;mazowieckie;26-704;
+-;UP Przytoczna;Przytoczna;Pocztowa;31;Przytoczna;międzyrzecki;lubuskie;66-340;
+-;UP Radlin;Radlin;Wojciecha Korfantego;3;Radlin;wodzisławski;śląskie;44-310;
+-;UP Radzanów n. Wkrą;Radzanów;Mławska;4;Radzanów;mławski;mazowieckie;06-540;
+-;UP Różan;Różan;Warszawska;8;Różan;makowski;mazowieckie;06-230;
+-;UP Sicienko;Sicienko;Bydgoska;4;Sicienko;bydgoski;kujawsko-pomorskie;86-014;
++;UP Sicienko;Sicienko;Pocztowy Rynek;4;Sicienko;bydgoski;kujawsko-pomorskie;;86-014
+-;UP Strzegowo;Strzegowo;Wyzwolenia;25;Strzegowo;mławski;mazowieckie;06-445;
+-;UP Śrem 1;Śrem;20 Października Pl.;41;Śrem;śremski;wielkopolskie;63-100;
++;UP Śrem 1;Śrem;Plac 20 Października;41;Śrem;śremski;wielkopolskie;;63-100
+-;UP Tarnogród;Tarnogród;Rynek;20;Tarnogród;biłgorajski;lubelskie;23-420;
+-;UP Tarnowiec;Tarnowiec;;30;Tarnowiec;jasielski;podkarpackie;38-204;
+-;UP Wałbrzych 2;Wałbrzych;Gdyńska;7;Wałbrzych;Wałbrzych;dolnośląskie;58-313;
+-;UP Warszawa 154;Warszawa (Wilanów);Przyczółkowa;219/221/223/B.1.10;Warszawa;Warszawa;mazowieckie;02-962;
+-;UP Warta;Warta;Tadeusza Kościuszki;8;Warta;sieradzki;łódzkie;98-290;
+-;UP Wieleń n. Notecią;Wieleń;Kościuszki;33;Wieleń;czarnkowsko-trzcianecki;wielkopolskie;64-730;
+-;UP Wysokie;Wysokie;Rynek Jabłonowskich;3;Wysokie;lubelski;lubelskie;23-145;
+-;UP Zabrze 7;Zabrze;Brygadzistów;2;Zabrze;Zabrze;śląskie;41-807;
+-;UP Zabrze 19;Zabrze;Franciszkańska;21;Zabrze;Zabrze;śląskie;41-819;
+-;UP Żmudź;Żmudź;Kasztanowa;2;Żmudź;chełmski;lubelskie;22-114;

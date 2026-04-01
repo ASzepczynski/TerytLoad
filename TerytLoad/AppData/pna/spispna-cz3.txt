@@ -3,9 +3,11 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 26-341;FUP AleksandrÛw k. Opoczna;MniszkÛw;PowstaÒcÛw Wielkopolskich;1;MniszkÛw;opoczyÒski;≥Ûdzkie
 87-700;UP AleksandrÛw Kujawski 1;AleksandrÛw Kujawski;Dworcowa;1;AleksandrÛw Kujawski;aleksandrowski;kujawsko-pomorskie
 87-712;FUP AleksandrÛw Kujawski 1;AleksandrÛw Kujawski;Szkolna;13;AleksandrÛw Kujawski;aleksandrowski;kujawsko-pomorskie
+87-704;FUP AleksandrÛw Kujawski 1;Bπdkowo;Kujawska;41;Bπdkowo;aleksandrowski;kujawsko-pomorskie
 87-720;FUP AleksandrÛw Kujawski 1;Ciechocinek;Plac GdaÒski;1;Ciechocinek;aleksandrowski;kujawsko-pomorskie
 87-722;FUP AleksandrÛw Kujawski 1;Ciechocinek;Polna;8;Ciechocinek;aleksandrowski;kujawsko-pomorskie
 87-703;FUP AleksandrÛw Kujawski 1;Koneck;úw. Prokopa;48;Koneck;aleksandrowski;kujawsko-pomorskie
+87-732;FUP AleksandrÛw Kujawski 1;Lubanie;;17a;Lubanie;w≥oc≥awski;kujawsko-pomorskie
 87-730;FUP AleksandrÛw Kujawski 1;Nieszawa;Stanis≥awa Noakowskiego;5;Nieszawa;aleksandrowski;kujawsko-pomorskie
 87-721;FUP AleksandrÛw Kujawski 1;Raciπøek;Szkolna;27;Raciπøek;aleksandrowski;kujawsko-pomorskie
 87-731;FUP AleksandrÛw Kujawski 1;Waganiec;Kolejowa;6;Waganiec;aleksandrowski;kujawsko-pomorskie
@@ -19,7 +21,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 34-120;UP AndrychÛw;AndrychÛw;Krakowska;100;AndrychÛw;wadowicki;ma≥opolskie
 34-120;FUP AndrychÛw;AndrychÛw;Stanis≥awa Lenartowicza;36 b;AndrychÛw;wadowicki;ma≥opolskie
 34-122;FUP AndrychÛw;Wieprz;Centralna;1;Wieprz;wadowicki;ma≥opolskie
-34-120;AP AndrychÛw;AndrychÛw;Beskidzka;5a;AndrychÛw;wadowicki;ma≥opolskie
 34-121;AP AndrychÛw;AndrychÛw;Krakowska;83 E;AndrychÛw;wadowicki;ma≥opolskie
 07-305;UP Andrzejewo k. Czyøewa;Andrzejewo;Wysocka;1 A;Andrzejewo;ostrowski;mazowieckie
 07-325;FUP Andrzejewo k. Czyøewa;Boguty-Pianki;Aleja Papieøa Jana Paw≥a II;45;Boguty-Pianki;ostrowski;mazowieckie
@@ -36,6 +37,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 16-320;FUP AugustÛw 1;Barg≥Ûw Koúcielny;Tysiπclecia;2;Barg≥Ûw Koúcielny;augustowski;podlaskie
 16-304;FUP AugustÛw 1;Nowinka;;27A;Nowinka;augustowski;podlaskie
 16-326;FUP AugustÛw 1;P≥aska;;53;P≥aska;augustowski;podlaskie
+14-245;AP BabiÍty Wielkie;BabiÍty Wielkie;;52a;Susz;i≥awski;warmiÒsko-mazurskie
+18-107;AP Baciuty;Baciuty;Wygoda;8;TuroúÒ Koúcielna;bia≥ostocki;podlaskie
 14-243;AP Ba≥oszyce;Ba≥oszyce;;16;Susz;i≥awski;warmiÒsko-mazurskie
 12-160;AP Baranowo;Baranowo;;18;Wielbark;szczycieÒski;warmiÒsko-mazurskie
 06-320;UP Baranowo k. Ostro≥Íki;Baranowo;pl. Rynek;7;Baranowo;ostro≥Ícki;mazowieckie
@@ -44,12 +47,11 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 88-193;AP Barcin;Barcin;åwiÍtego Wojciecha;5/1;Barcin;øniÒski;kujawsko-pomorskie
 11-010;UP Barczewo;Barczewo;pl. Pocztowy;1;Barczewo;olsztyÒski;warmiÒsko-mazurskie
 11-320;FUP Barczewo;Jeziorany;Kajki;26;Jeziorany;olsztyÒski;warmiÒsko-mazurskie
-77-300;AP Barkowo k. Cz≥uchowa;Barkowo;;15 A;Cz≥uchÛw;cz≥uchowski;pomorskie
 74-320;UP Barlinek;Barlinek;al. 1 Maja;6;Barlinek;myúliborski;zachodniopomorskie
 73-260;FUP Barlinek;Pe≥czyce;Rynek Bursztynowy;4;Pe≥czyce;choszczeÒski;zachodniopomorskie
 74-320;AP Barlinek;Barlinek;Øabia;2A;Barlinek;myúliborski;zachodniopomorskie
 83-220;AP Bar≥oøno;Bar≥oøno;;33;SkÛrcz;starogardzki;pomorskie
-16-070;AP Barszczewo;Barszczewo;;11A;Choroszcz;bia≥ostocki;podlaskie
+16-070;AP Barszczewo;Barszczewo;;2;Choroszcz;bia≥ostocki;podlaskie
 11-200;UP Bartoszyce 1;Bartoszyce;11 Listopada;3;Bartoszyce;bartoszycki;warmiÒsko-mazurskie
 11-201;FUP Bartoszyce 1;Bartoszyce;Genera≥a Bema;53;Bartoszyce;bartoszycki;warmiÒsko-mazurskie
 11-205;FUP Bartoszyce 1;Bartoszyce;Genera≥a Bema;16 B;Bartoszyce;bartoszycki;warmiÒsko-mazurskie
@@ -60,9 +62,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 11-220;FUP Bartoszyce 1;GÛrowo I≥aweckie;Szkolna;2;GÛrowo I≥aweckie;bartoszycki;warmiÒsko-mazurskie
 11-210;FUP Bartoszyce 1;SÍpopol;11 Listopada;6;SÍpopol;bartoszycki;warmiÒsko-mazurskie
 36-245;AP Barycz;Barycz;;264;Domaradz;brzozowski;podkarpackie
-62-081;AP Batorowo;Batorowo;Stefana Batorego;49A;Tarnowo PodgÛrne;poznaÒski;wielkopolskie
-87-704;UP Bπdkowo;Bπdkowo;Kujawska;41;Bπdkowo;aleksandrowski;kujawsko-pomorskie
-87-732;FUP Bπdkowo;Lubanie;;17a;Lubanie;w≥oc≥awski;kujawsko-pomorskie
 64-212;AP BelÍcin;BelÍcin;;30;Siedlec;wolsztyÒski;wielkopolskie
 97-400;AP Be≥chatÛw;Be≥chatÛw;OlsztyÒska;1 B;Be≥chatÛw;be≥chatowski;≥Ûdzkie
 97-405;AP Be≥chatÛw;Be≥chatÛw;Rynek Grocholski;27;Be≥chatÛw;be≥chatowski;≥Ûdzkie
@@ -120,7 +119,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 34-405;AP Bia≥ka TatrzaÒska;Bia≥ka TatrzaÒska;årodkowa;179;Bukowina TatrzaÒska;tatrzaÒski;ma≥opolskie
 26-802;AP Bia≥obrzegi;Bia≥obrzegi;Marii Konopnickiej;3/6;Bia≥obrzegi;bia≥obrzeski;mazowieckie
 16-300;AP Bia≥obrzegi;Bia≥obrzegi;;67A;AugustÛw;augustowski;podlaskie
-37-114;UP Bia≥obrzegi k. £aÒcuta;Bia≥obrzegi;;4;Bia≥obrzegi;≥aÒcucki;podkarpackie
 26-800;UP Bia≥obrzegi Radomskie;Bia≥obrzegi;11 Listopada;28;Bia≥obrzegi;bia≥obrzeski;mazowieckie
 26-803;FUP Bia≥obrzegi Radomskie;Promna-Kolonia;;5/6;Promna;bia≥obrzeski;mazowieckie
 26-808;FUP Bia≥obrzegi Radomskie;RadzanÛw;;92a;RadzanÛw;bia≥obrzeski;mazowieckie
@@ -136,7 +134,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 78-452;AP Bia≥owπs;Bia≥owπs;;4;Barwice;szczecinecki;zachodniopomorskie
 15-762;AP Bia≥ystok;Bia≥ystok;Antoniuk Fabryczny;55/4;Bia≥ystok;Bia≥ystok;podlaskie
 15-044;AP Bia≥ystok;Bia≥ystok;Piasta;13/4;Bia≥ystok;Bia≥ystok;podlaskie
-15-146;AP Bia≥ystok;Bia≥ystok;Wasilkowska;1/10;Bia≥ystok;Bia≥ystok;podlaskie
 15-705;AP Bia≥ystok;Bia≥ystok;Kardyna≥a Stefana WyszyÒskiego;2/1/5;Bia≥ystok;Bia≥ystok;podlaskie
 15-001;UP Bia≥ystok 1;Bia≥ystok;Warszawska;10;Bia≥ystok;Bia≥ystok;podlaskie
 15-950;UP Bia≥ystok 1;skrytki/przegrÛdki;;;Bia≥ystok;Bia≥ystok;podlaskie
@@ -203,7 +200,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 58-263;FUP Bielawa 1;Bielawa;Jana III Sobieskiego;17;Bielawa;dzierøoniowski;dolnoúlπskie
 58-260;FUP Bielawa 1;Bielawa;Stefana Øeromskiego;21;Bielawa;dzierøoniowski;dolnoúlπskie
 58-261;FUP Bielawa 1;skrytki/przegrÛdki;;;Bielawa;dzierøoniowski;dolnoúlπskie
-32-826;AP Bielcza;Bielcza;;68;BorzÍcin;brzeski;ma≥opolskie
 48-316;AP Bielice;Bielice;;80b;£ambinowice;nyski;opolskie
 74-503;AP Bielin;Bielin;;36;MoryÒ;gryfiÒski;zachodniopomorskie
 39-226;AP Bielowy;Bielowy;;bn;Pilzno;dÍbicki;podkarpackie
@@ -220,6 +216,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 43-300;FUP Bielsko-Bia≥a 1;Bielsko-Bia≥a;Aleja Armii Krajowej;220 A;Bielsko-Bia≥a;Bielsko-Bia≥a;úlπskie
 43-300;FUP Bielsko-Bia≥a 1;Bielsko-Bia≥a;GÛrska;50;Bielsko-Bia≥a;Bielsko-Bia≥a;úlπskie
 43-318;FUP Bielsko-Bia≥a 1;skrytki/przegrÛdki;;;Bielsko-Bia≥a;Bielsko-Bia≥a;úlπskie
+43-300;FUP Bielsko-Bia≥a 1;Bielsko-Bia≥a;LeszczyÒska;20;Bielsko-Bia≥a;Bielsko-Bia≥a;úlπskie
 43-300;FUP Bielsko-Bia≥a 1;Bielsko-Bia≥a;Lipnicka;133;Bielsko-Bia≥a;Bielsko-Bia≥a;úlπskie
 43-305;FUP Bielsko-Bia≥a 1;skrytki/przegrÛdki;;;Bielsko-Bia≥a;Bielsko-Bia≥a;úlπskie
 43-307;FUP Bielsko-Bia≥a 1;Bielsko-Bia≥a;1 Maja;4;Bielsko-Bia≥a;Bielsko-Bia≥a;úlπskie
@@ -250,19 +247,20 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 78-324;AP Bierzwnica;Bierzwnica;;49;åwidwin;úwidwiÒski;zachodniopomorskie
 11-036;AP Biesal;Biesal;;14;Gietrzwa≥d;olsztyÒski;warmiÒsko-mazurskie
 77-230;AP Biesowice;Biesowice;;36/2;KÍpice;s≥upski;pomorskie
-38-213;AP Bieüdziedza;Bieüdziedza;;97;Ko≥aczyce;jasielski;podkarpackie
-09-320;UP BieøuÒ;BieøuÒ;Zacisze;1;BieøuÒ;øuromiÒski;mazowieckie
-09-317;FUP BieøuÒ;Lutocin;Stefana Øeromskiego;2;Lutocin;øuromiÒski;mazowieckie
 26-026;AP Bilcza;Bilcza;Marmurowa;2;Morawica;kielecki;úwiÍtokrzyskie
 23-400;UP Bi≥goraj 1;Bi≥goraj;Tadeusza Koúciuszki;81;Bi≥goraj;bi≥gorajski;lubelskie
 23-409;FUP Bi≥goraj 1;AleksandrÛw (AleksandrÛw Drugi);;380;AleksandrÛw;bi≥gorajski;lubelskie
 23-400;FUP Bi≥goraj 1;Bi≥goraj;W≥osiankarska;5;Bi≥goraj;bi≥gorajski;lubelskie
 23-401;FUP Bi≥goraj 1;Bi≥goraj;Plac Wolnoúci;9;Bi≥goraj;bi≥gorajski;lubelskie
+23-426;FUP Bi≥goraj 1;Biszcza;;79;Biszcza;bi≥gorajski;lubelskie
 23-440;FUP Bi≥goraj 1;Frampol;Bi≥gorajska;23;Frampol;bi≥gorajski;lubelskie
 23-450;FUP Bi≥goraj 1;Goraj;Bednarska;1;Goraj;bi≥gorajski;lubelskie
 23-460;FUP Bi≥goraj 1;JÛzefÛw;Pocztowa;2;JÛzefÛw;bi≥gorajski;lubelskie
 23-415;FUP Bi≥goraj 1;KsiÍøpol;Bi≥gorajska;12;KsiÍøpol;bi≥gorajski;lubelskie
 23-411;FUP Bi≥goraj 1;£ukowa;;570/3;£ukowa;bi≥gorajski;lubelskie
+23-416;FUP Bi≥goraj 1;Obsza;;36;Obsza;bi≥gorajski;lubelskie
+23-427;FUP Bi≥goraj 1;Potok GÛrny;;116;Potok GÛrny;bi≥gorajski;lubelskie
+23-420;FUP Bi≥goraj 1;TarnogrÛd;Rynek;20;TarnogrÛd;bi≥gorajski;lubelskie
 23-407;FUP Bi≥goraj 1;Tereszpol-Zaorenda;Szkolna;3;Tereszpol;bi≥gorajski;lubelskie
 23-466;FUP Bi≥goraj 1;Turobin;Rynek;3;Turobin;bi≥gorajski;lubelskie
 63-452;AP Biniew;Biniew;;100;OstrÛw Wielkopolski;ostrowski;wielkopolskie
@@ -283,7 +281,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 62-814;UP BlizanÛw;BlizanÛw Drugi;;31;BlizanÛw;kaliski;wielkopolskie
 98-235;UP B≥aszki;B≥aszki;Sieradzka;57;B≥aszki;sieradzki;≥Ûdzkie
 23-320;AP B≥aøek;B≥aøek;;207;Batorz;janowski;lubelskie
-36-030;UP B≥aøowa Rzeszowska;B≥aøowa;3 Maja;9;B≥aøowa;rzeszowski;podkarpackie
 86-100;AP B≥πdzim;B≥πdzim;G≥Ûwna;12;Lniano;úwiecki;kujawsko-pomorskie
 05-870;UP B≥onie;B≥onie;Targowa;3 A;B≥onie;warszawski zachodni;mazowieckie
 05-872;FUP B≥onie;B≥onie;Nowakowskiego;2/4;B≥onie;warszawski zachodni;mazowieckie
@@ -295,6 +292,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 83-212;AP Bobowo;Bobowo;GdaÒska;71;Bobowo;starogardzki;pomorskie
 08-500;AP Bobrowniki;Bobrowniki;KrasnogliÒska;8;Ryki;rycki;lubelskie
 19-336;AP Bobry;Bobry;;20;Prostki;e≥cki;warmiÒsko-mazurskie
+23-252;AP Boby-Kolonia;Boby-Kolonia;;93;UrzÍdÛw;kraúnicki;lubelskie
 32-700;UP Bochnia;Bochnia;Kazimierza Wielkiego;34;Bochnia;bocheÒski;ma≥opolskie
 32-703;FUP Bochnia;Bochnia;LegionÛw Polskich;13/i;Bochnia;bocheÒski;ma≥opolskie
 32-701;FUP Bochnia;Bochnia;Proszowska;69;Bochnia;bocheÒski;ma≥opolskie
@@ -309,7 +307,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 26-010;UP Bodzentyn;Bodzentyn;Suchedniowska;1;Bodzentyn;kielecki;úwiÍtokrzyskie
 26-006;FUP Bodzentyn;Nowa S≥upia;åwiÍtokrzyska;18;Nowa S≥upia;kielecki;úwiÍtokrzyskie
 26-005;FUP Bodzentyn;Rudki;Pocztowa;2;Nowa S≥upia;kielecki;úwiÍtokrzyskie
-26-010;AP Bodzentyn;Bodzentyn;Langiewicza;20;Bodzentyn;kielecki;úwiÍtokrzyskie
+26-010;AP Bodzentyn;Bodzentyn;Langiewicza;19;Bodzentyn;kielecki;úwiÍtokrzyskie
 06-300;AP Bogate;Bogate;;66;Przasnysz;przasnyski;mazowieckie
 59-920;AP Bogatynia;Bogatynia;Jana Matejki;11;Bogatynia;zgorzelecki;dolnoúlπskie
 59-920;UP Bogatynia 1;Bogatynia;Pocztowa;1;Bogatynia;zgorzelecki;dolnoúlπskie
@@ -366,11 +364,14 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 73-240;AP BreÒ;BreÒ;;34;Bierzwnik;choszczeÒski;zachodniopomorskie
 87-306;AP Brodnica;Brodnica;OkrÍøna;22;Brodnica;brodnicki;kujawsko-pomorskie
 87-300;UP Brodnica 1;Brodnica;Pocztowa;5;Brodnica;brodnicki;kujawsko-pomorskie
+87-323;FUP Brodnica 1;Bartniczka;Pocztowa;7;Bartniczka;brodnicki;kujawsko-pomorskie
 87-327;FUP Brodnica 1;Bobrowo;;27;Bobrowo;brodnicki;kujawsko-pomorskie
 87-301;FUP Brodnica 1;Brodnica;Stanis≥awa WyspiaÒskiego;8;Brodnica;brodnicki;kujawsko-pomorskie
 87-302;FUP Brodnica 1;Brodnica;Zawiszy Czarnego;9;Brodnica;brodnicki;kujawsko-pomorskie
 87-315;FUP Brodnica 1;Brzozie;;35;Brzozie;brodnicki;kujawsko-pomorskie
+87-320;FUP Brodnica 1;GÛrzno;Pocztowa;10;GÛrzno;brodnicki;kujawsko-pomorskie
 87-340;FUP Brodnica 1;Osiek;;81;Osiek;brodnicki;kujawsko-pomorskie
+87-336;FUP Brodnica 1;åwiedziebnia;;19;åwiedziebnia;brodnicki;kujawsko-pomorskie
 87-305;FUP Brodnica 1;Zbiczno;Szosa Brodnicka;52;Zbiczno;brodnicki;kujawsko-pomorskie
 64-031;AP Bronikowo;Bronikowo;Morownicka;16;åmigiel;koúciaÒski;wielkopolskie
 18-221;AP Brulino-Piwki;Brulino-Piwki;;2;Czyøew;wysokomazowiecki;podlaskie
@@ -436,6 +437,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 28-160;FUP Busko-ZdrÛj 1;Wiúlica;Rynek;25;Wiúlica;buski;úwiÍtokrzyskie
 23-100;UP Bychawa;Bychawa;Marsza≥ka JÛzefa Pi≥sudskiego;7-15;Bychawa;lubelski;lubelskie
 23-107;FUP Bychawa;Strzyøewice;;109;Strzyøewice;lubelski;lubelskie
+23-146;FUP Bychawa;Wysokie;Rynek Jab≥onowskich;3;Wysokie;lubelski;lubelskie
+23-156;FUP Bychawa;Zakrzew;;26;Zakrzew;lubelski;lubelskie
 85-713;AP Bydgoszcz;Bydgoszcz;Aleja Stefana Kardyna≥a WyszyÒskiego;32;Bydgoszcz;Bydgoszcz;kujawsko-pomorskie
 85-307;AP Bydgoszcz;Bydgoszcz;Juliusza Kossaka;48;Bydgoszcz;Bydgoszcz;kujawsko-pomorskie
 85-857;AP Bydgoszcz;Bydgoszcz;Ogrody;15;Bydgoszcz;Bydgoszcz;kujawsko-pomorskie
@@ -523,11 +526,11 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 41-926;FUP Bytom 2;Bytom;Parkowa;2;Bytom;Bytom;úlπskie
 41-902;FUP Bytom 2;Bytom;Kazimierza Pu≥askiego;13;Bytom;Bytom;úlπskie
 41-901;FUP Bytom 2;Bytom;Jana Smolenia;35;Bytom;Bytom;úlπskie
-41-902;FUP Bytom 2;Bytom;StrzelcÛw Bytomskich;30 A;Bytom;Bytom;úlπskie
-41-939;FUP Bytom 2;Bytom;StrzelcÛw Bytomskich;250a;Bytom;Bytom;úlπskie
 41-914;FUP Bytom 2;Bytom;StrzelcÛw Bytomskich;157;Bytom;Bytom;úlπskie
-41-902;FUP Bytom 2;Bytom;StrzelcÛw Bytomskich;96;Bytom;Bytom;úlπskie
+41-939;FUP Bytom 2;Bytom;StrzelcÛw Bytomskich;250a;Bytom;Bytom;úlπskie
+41-902;FUP Bytom 2;Bytom;StrzelcÛw Bytomskich;30 A;Bytom;Bytom;úlπskie
 41-935;FUP Bytom 2;Bytom;StrzelcÛw Bytomskich;379;Bytom;Bytom;úlπskie
+41-902;FUP Bytom 2;Bytom;StrzelcÛw Bytomskich;96;Bytom;Bytom;úlπskie
 41-936;FUP Bytom 2;Bytom;SuchogÛrska;109;Bytom;Bytom;úlπskie
 41-916;FUP Bytom 2;Bytom;Stanis≥awa Witczaka;46;Bytom;Bytom;úlπskie
 41-905;FUP Bytom 2;Bytom;ZabrzaÒska;132;Bytom;Bytom;úlπskie
@@ -546,6 +549,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 05-251;AP Cegielnia;Cegielnia;Aleja Jana Paw≥a II;168;Radzymin;wo≥omiÒski;mazowieckie
 05-319;UP Ceg≥Ûw;Ceg≥Ûw;Tadeusza Koúciuszki;8;Ceg≥Ûw;miÒski;mazowieckie
 05-334;FUP Ceg≥Ûw;Latowicz;åwiÍtego Ducha;19;Latowicz;miÒski;mazowieckie
+05-320;FUP Ceg≥Ûw;Mrozy;Jana KiliÒskiego;1;Mrozy;miÒski;mazowieckie
 87-606;AP Chalin;Chalin;;8;DobrzyÒ nad Wis≥π;lipnowski;kujawsko-pomorskie
 47-460;AP Cha≥upki;Cha≥upki;BogumiÒska;8;Krzyøanowice;raciborski;úlπskie
 98-203;AP Char≥upia Ma≥a;Char≥upia Ma≥a;ks. RadzymiÒskiego;4;Sieradz;sieradzki;≥Ûdzkie
@@ -553,20 +557,20 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 76-270;AP Charnowo;Charnowo;;35 A;Ustka;s≥upski;pomorskie
 22-100;UP Che≥m 1;Che≥m;Aleja Øo≥nierzy I Armii Wojska Polskiego;41A;Che≥m;Che≥m;lubelskie
 22-175;FUP Che≥m 1;Berdyszcze;;2 A;Dorohusk;che≥mski;lubelskie
-22-135;FUP Che≥m 1;Bia≥opole;Che≥mska;9;Bia≥opole;che≥mski;lubelskie
+22-136;FUP Che≥m 1;Bia≥opole;Che≥mska;9;Bia≥opole;che≥mski;lubelskie
 22-177;FUP Che≥m 1;Brzeüno;D≥uga;28;Dorohusk;che≥mski;lubelskie
 22-117;FUP Che≥m 1;Che≥m;al. Marsza≥ka JÛzefa Pi≥sudskiego;32;Che≥m;Che≥m;lubelskie
 22-100;FUP Che≥m 1;Che≥m;Ceramiczna;1;Che≥m;Che≥m;lubelskie
 22-100;FUP Che≥m 1;Che≥m;Hrubieszowska;102;Che≥m;Che≥m;lubelskie
-22-102;FUP Che≥m 1;Che≥m;Lubelska;73a;Che≥m;Che≥m;lubelskie
 22-100;FUP Che≥m 1;Che≥m;Lubelska;43;Che≥m;Che≥m;lubelskie
+22-102;FUP Che≥m 1;Che≥m;Lubelska;73a;Che≥m;Che≥m;lubelskie
 22-103;FUP Che≥m 1;Che≥m;Niepodleg≥oúci Pl.;1;Che≥m;Che≥m;lubelskie
 22-104;FUP Che≥m 1;Che≥m;Henryka Sienkiewicza;3;Che≥m;Che≥m;lubelskie
 22-116;FUP Che≥m 1;Che≥m;Boles≥awa Wirskiego;4;Che≥m;Che≥m;lubelskie
 22-100;FUP Che≥m 1;Che≥m;Wolnoúci;3;Che≥m;Che≥m;lubelskie
 22-109;FUP Che≥m 1;Che≥m;Zachodnia;19;Che≥m;Che≥m;lubelskie
 22-146;FUP Che≥m 1;Dubienka;Rynek;18 A;Dubienka;che≥mski;lubelskie
-22-113;FUP Che≥m 1;KamieÒ;Diamentowa;5;KamieÒ;che≥mski;lubelskie
+22-115;FUP Che≥m 1;KamieÒ;Diamentowa;5;KamieÒ;che≥mski;lubelskie
 22-123;FUP Che≥m 1;PolitÛwka;;19B;Leúniowice;che≥mski;lubelskie
 22-362;FUP Che≥m 1;Rejowiec;Henryka Dπbrowskiego;3;Rejowiec;che≥mski;lubelskie
 22-170;FUP Che≥m 1;Rejowiec Fabryczny;Ludwika Hirszfelda;6/1;Rejowiec Fabryczny;che≥mski;lubelskie
@@ -594,13 +598,14 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 66-620;AP Chlebowo k. Gubina;Chlebowo;;140;Gubin;kroúnieÒski;lubuskie
 98-215;AP Chlewo;Chlewo;;57;GoszczanÛw;sieradzki;≥Ûdzkie
 26-020;UP Chmielnik;Chmielnik;Wolnoúci;5;Chmielnik;kielecki;úwiÍtokrzyskie
+28-115;FUP Chmielnik;Gnojno;;145;Gnojno;buski;úwiÍtokrzyskie
 26-015;FUP Chmielnik;Pierzchnica;UrzÍdnicza;6;Pierzchnica;kielecki;úwiÍtokrzyskie
 39-443;AP ChmielÛw;ChmielÛw;Kolejowa;58;Nowa DÍba;tarnobrzeski;podkarpackie
 59-340;AP Chobienia;Chobienia;rynek Rynek;7;Rudna;lubiÒski;dolnoúlπskie
 46-282;AP Chocianowice;Chocianowice;;125 c;Lasowice Wielkie;kluczborski;opolskie
 59-140;UP ChocianÛw 1;ChocianÛw;Pocztowa;12;ChocianÛw;polkowicki;dolnoúlπskie
 09-146;AP Chociszewo;Chociszewo;;44a;CzerwiÒsk nad Wis≥π;p≥oÒski;mazowieckie
-34-123;AP Chocznia;Chocznia;Tadeusza Koúciuszki;111;Wadowice;wadowicki;ma≥opolskie
+34-123;AP Chocznia;Chocznia;G≥Ûwna;53;Wadowice;wadowicki;ma≥opolskie
 87-860;UP Chodecz;Chodecz;pl. Tadeusza Koúciuszki;7;Chodecz;w≥oc≥awski;kujawsko-pomorskie
 87-865;FUP Chodecz;Izbica Kujawska;Marsza≥ka Pi≥sudskiego;31;Izbica Kujawska;w≥oc≥awski;kujawsko-pomorskie
 87-840;FUP Chodecz;LubieÒ Kujawski;Wojska Polskiego;18C;LubieÒ Kujawski;w≥oc≥awski;kujawsko-pomorskie
@@ -631,8 +636,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 59-229;FUP ChojnÛw 1;Krzywa;;29;ChojnÛw;legnicki;dolnoúlπskie
 38-458;UP ChorkÛwka;ChorkÛwka;;189;ChorkÛwka;kroúnieÒski;podkarpackie
 47-317;AP Chorula;Chorula;Opolska;50;Gogolin;krapkowicki;opolskie
-06-330;UP Chorzele;Chorzele;Mostowa;13;Chorzele;przasnyski;mazowieckie
-06-316;FUP Chorzele;Krzynow≥oga Ma≥a;Przasnyska;1A;Krzynow≥oga Ma≥a;przasnyski;mazowieckie
 41-509;AP ChorzÛw;ChorzÛw;Krzyøowa;12;ChorzÛw;ChorzÛw;úlπskie
 41-518;AP ChorzÛw;ChorzÛw;Odrodzenia;36;ChorzÛw;ChorzÛw;úlπskie
 41-501;AP ChorzÛw;ChorzÛw;PowstaÒcÛw;16/1;ChorzÛw;ChorzÛw;úlπskie
@@ -753,12 +756,12 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 97-212;FUP Czerniewice k. Rawy Mazowieckiej;Budziszewice;Jana Chryzostoma Paska;66a;Budziszewice;tomaszowski;≥Ûdzkie
 97-220;FUP Czerniewice k. Rawy Mazowieckiej;Rzeczyca;Tomaszowska;2;Rzeczyca;tomaszowski;≥Ûdzkie
 97-226;FUP Czerniewice k. Rawy Mazowieckiej;Øelechlinek;Plac Tysiπclecia PaÒstwa Polskiego;1;Øelechlinek;tomaszowski;≥Ûdzkie
-83-042;AP Czerniewo;Czerniewo;;11;Trπbki Wielkie;gdaÒski;pomorskie
 89-650;UP Czersk;Czersk;Dworcowa;5;Czersk;chojnicki;pomorskie
 89-652;FUP Czersk;£πg;Chojnicka;30;Czersk;chojnicki;pomorskie
 89-642;FUP Czersk;Rytel;GdaÒska;10;Czersk;chojnicki;pomorskie
 66-016;AP CzerwieÒsk;CzerwieÒsk;ZielonogÛrska;69;CzerwieÒsk;zielonogÛrski;lubuskie
 09-150;UP CzerwiÒsk n. Wis≥π;CzerwiÒsk nad Wis≥π;Klasztorna;4;CzerwiÒsk nad Wis≥π;p≥oÒski;mazowieckie
+09-153;FUP CzerwiÒsk n. Wis≥π;CzerwiÒsk nad Wis≥π;W≥adys≥awa Jagie≥≥y;21;CzerwiÒsk nad Wis≥π;p≥oÒski;mazowieckie
 44-230;AP Czerwionka-Leszczyny;Czerwionka-Leszczyny;Pocztowa;12;Czerwionka-Leszczyny;rybnicki;úlπskie
 44-230;UP Czerwionka-Leszczyny 3;Czerwionka-Leszczyny;3 Maja;2C;Czerwionka-Leszczyny;rybnicki;úlπskie
 44-238;FUP Czerwionka-Leszczyny 3;Czerwionka-Leszczyny;Plac Matejki;1;Czerwionka-Leszczyny;rybnicki;úlπskie
@@ -779,8 +782,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 42-219;FUP CzÍstochowa 1;CzÍstochowa;BohaterÛw Katynia;35;CzÍstochowa;CzÍstochowa;úlπskie
 42-203;FUP CzÍstochowa 1;CzÍstochowa;Katedralna;6;CzÍstochowa;CzÍstochowa;úlπskie
 42-218;FUP CzÍstochowa 1;CzÍstochowa;Jana KiliÒskiego;153;CzÍstochowa;CzÍstochowa;úlπskie
-42-225;FUP CzÍstochowa 1;CzÍstochowa;o. Augustyna Kordeckiego;2;CzÍstochowa;CzÍstochowa;úlπskie
 42-226;FUP CzÍstochowa 1;CzÍstochowa;o. Augustyna Kordeckiego;49;CzÍstochowa;CzÍstochowa;úlπskie
+42-225;FUP CzÍstochowa 1;CzÍstochowa;o. Augustyna Kordeckiego;2;CzÍstochowa;CzÍstochowa;úlπskie
 42-211;FUP CzÍstochowa 1;CzÍstochowa;KsiÍøycowa;14;CzÍstochowa;CzÍstochowa;úlπskie
 42-213;FUP CzÍstochowa 1;CzÍstochowa;LegionÛw;56;CzÍstochowa;CzÍstochowa;úlπskie
 42-208;FUP CzÍstochowa 1;CzÍstochowa;JÛzefa Mireckiego;31;CzÍstochowa;CzÍstochowa;úlπskie
@@ -795,9 +798,9 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 42-271;FUP CzÍstochowa 1;CzÍstochowa;Plac Walecznych;1;CzÍstochowa;CzÍstochowa;úlπskie
 42-200;FUP CzÍstochowa 1;CzÍstochowa;Aleja Wojska Polskiego;207;CzÍstochowa;CzÍstochowa;úlπskie
 42-210;FUP CzÍstochowa 1;CzÍstochowa;WrÍczycka;20;CzÍstochowa;CzÍstochowa;úlπskie
-42-236;FUP CzÍstochowa 1;CzÍstochowa;èrÛdlana;8a;CzÍstochowa;CzÍstochowa;úlπskie
 42-232;FUP CzÍstochowa 1;CzÍstochowa;èrÛdlana;6;CzÍstochowa;CzÍstochowa;úlπskie
 42-237;FUP CzÍstochowa 1;CzÍstochowa;èrÛdlana;8;CzÍstochowa;CzÍstochowa;úlπskie
+42-236;FUP CzÍstochowa 1;CzÍstochowa;èrÛdlana;8a;CzÍstochowa;CzÍstochowa;úlπskie
 42-244;FUP CzÍstochowa 1;MstÛw;Gminna;14;MstÛw;czÍstochowski;úlπskie
 42-242;FUP CzÍstochowa 1;RÍdziny;Wolnoúci;87;RÍdziny;czÍstochowski;úlπskie
 42-202;UP CzÍstochowa 2;CzÍstochowa;Stanis≥awa Orzechowskiego;7;CzÍstochowa;CzÍstochowa;úlπskie
@@ -861,6 +864,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 18-210;AP Dπbrowa-Kaski;Dπbrowa-Kaski;;1A;Szepietowo;wysokomazowiecki;podlaskie
 23-402;AP Dπbrowica;Dπbrowica;;121 A;Bi≥goraj;bi≥gorajski;lubelskie
 39-450;AP Dπbrowica;Dπbrowica;;53;BaranÛw Sandomierski;tarnobrzeski;podkarpackie
+26-681;AP DπbrÛwka Warszawska;DπbrÛwka Warszawska;;42;Wierzbica;radomski;mazowieckie
 77-312;AP Debrzno;Debrzno;Ogrodowa;9;Debrzno;cz≥uchowski;pomorskie
 66-446;UP Deszczno;Deszczno;Lubuska;110;Deszczno;gorzowski;lubuskie
 39-202;AP DÍbica;DÍbica;Cmentarna;59;DÍbica;dÍbicki;podkarpackie
@@ -875,14 +879,10 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 39-206;FUP DÍbica 2;PustkÛw;;26;DÍbica;dÍbicki;podkarpackie
 39-204;FUP DÍbica 2;ØyrakÛw;;139;ØyrakÛw;dÍbicki;podkarpackie
 08-531;AP DÍblin;DÍblin;Warszawska;88;DÍblin;rycki;lubelskie
-08-530;UP DÍblin 1;DÍblin;Bankowa;17;DÍblin;rycki;lubelskie
-08-530;FUP DÍblin 1;DÍblin;Dworcowa;2D;DÍblin;rycki;lubelskie
-08-530;FUP DÍblin 1;DÍblin;Pu≥kownika pilota Jerzego Rogowskiego;1;DÍblin;rycki;lubelskie
-08-521;FUP DÍblin 1;DÍblin;Szko≥y Podchorπøych Lotnictwa;11;DÍblin;rycki;lubelskie
-08-530;FUP DÍblin 1;DÍblin;Wiúlana;6/26;DÍblin;rycki;lubelskie
 74-400;UP DÍbno;DÍbno;Armii Krajowej;6;DÍbno;myúliborski;zachodniopomorskie
 74-400;AP DÍbno;DÍbno;Juliusza S≥owackiego;23;DÍbno;myúliborski;zachodniopomorskie
 26-006;AP DÍbno k. Kielc;DÍbno;;51;Nowa S≥upia;kielecki;úwiÍtokrzyskie
+37-300;AP DÍbno k. Leøajska;DÍbno;;64;Leøajsk;leøajski;podkarpackie
 63-905;AP DÍbno Polskie;DÍbno Polskie;Rawicka;48;Rawicz;rawicki;wielkopolskie
 59-930;AP D≥uøyna Dolna;D≥uøyna Dolna;;27;PieÒsk;zgorzelecki;dolnoúlπskie
 32-410;UP Dobczyce;Dobczyce;Parkowa;1;Dobczyce;myúlenicki;ma≥opolskie
@@ -913,8 +913,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 55-002;AP Dobrzykowice;Dobrzykowice;Brylantowa;7E/4;Czernica;wroc≥awski;dolnoúlπskie
 09-522;AP DobrzykÛw;DobrzykÛw;S≥oneczna;22;Gπbin;p≥ocki;mazowieckie
 16-060;AP DobrzyniÛwka;DobrzyniÛwka;;65;Zab≥udÛw;bia≥ostocki;podlaskie
-87-610;UP DobrzyÒ n. Wis≥π;DobrzyÒ nad Wis≥π;StodÛlna;16;DobrzyÒ nad Wis≥π;lipnowski;kujawsko-pomorskie
-87-603;FUP DobrzyÒ n. Wis≥π;Wielgie;Starowiejska;87;Wielgie;lipnowski;kujawsko-pomorskie
 18-105;AP Doktorce;Doktorce;;41;Suraø;bia≥ostocki;podlaskie
 19-100;AP Dolistowo Nowe;Dolistowo Nowe;;61A;Jaúwi≥y;moniecki;podlaskie
 17-308;AP Do≥ubowo;Do≥ubowo;;81b;Dziadkowice;siemiatycki;podlaskie
@@ -933,7 +931,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 77-203;AP DretyÒ;DretyÒ;;46 C;Miastko;bytowski;pomorskie
 66-530;UP Drezdenko;Drezdenko;Koúciuszki;4;Drezdenko;strzelecko-drezdenecki;lubuskie
 66-540;FUP Drezdenko;Stare Kurowo;Pocztowa;5;Stare Kurowo;strzelecko-drezdenecki;lubuskie
-66-531;AP Drezdenko;Drezdenko;Mickiewicza;14a;Drezdenko;strzelecko-drezdenecki;lubuskie
 09-210;UP Drobin;Drobin;Komisji Edukacji Narodowej;4;Drobin;p≥ocki;mazowieckie
 11-410;AP Drogosze;Drogosze;;19;Barciany;kÍtrzyÒski;warmiÒsko-mazurskie
 18-421;AP Drozdowo;Drozdowo;Dolna;44;Piπtnica;≥omøyÒski;podlaskie
@@ -952,6 +949,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 36-069;AP Dylπgowa;Dylπgowa;;43a;DynÛw;rzeszowski;podkarpackie
 36-025;AP DylπgÛwka;DylπgÛwka;;bn;Hyøne;rzeszowski;podkarpackie
 36-065;UP DynÛw;DynÛw;Mickiewicza;29;DynÛw;rzeszowski;podkarpackie
+36-030;FUP DynÛw;B≥aøowa;3 Maja;9;B≥aøowa;rzeszowski;podkarpackie
 48-231;AP DytmarÛw;DytmarÛw;;45;Lubrza;prudnicki;opolskie
 13-200;UP Dzia≥dowo 1;Dzia≥dowo;Marii Sk≥odowskiej-Curie;12;Dzia≥dowo;dzia≥dowski;warmiÒsko-mazurskie
 13-201;FUP Dzia≥dowo 1;Dzia≥dowo;Norwida;2 C;Dzia≥dowo;dzia≥dowski;warmiÒsko-mazurskie
@@ -961,7 +959,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 13-214;FUP Dzia≥dowo 1;Uzdowo;;70;Dzia≥dowo;dzia≥dowski;warmiÒsko-mazurskie
 13-210;UP Dzia≥dowo 2;Dzia≥dowo;Marii Sk≥odowskiej-Curie;41;Dzia≥dowo;dzia≥dowski;warmiÒsko-mazurskie
 56-502;AP Dzia≥osza;Dzia≥osza;;7;SycÛw;oleúnicki;dolnoúlπskie
-98-355;UP Dzia≥oszyn;Dzia≥oszyn;Os. JÛzefa Pi≥sudskiego;28 D;Dzia≥oszyn;pajÍczaÒski;≥Ûdzkie
+98-355;UP Dzia≥oszyn;Dzia≥oszyn;Pi≥sudskiego;28 D;Dzia≥oszyn;pajÍczaÒski;≥Ûdzkie
 64-843;AP DziembÛwko;DziembÛwko;Dworcowa;45;Kaczory;pilski;wielkopolskie
 16-506;AP DziemianÛwka;DziemianÛwka;;6;Giby;sejneÒski;podlaskie
 83-425;UP Dziemiany;Dziemiany;Wyzwolenia;22;Dziemiany;koúcierski;pomorskie
@@ -984,7 +982,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 89-240;AP Dziewierzewo;Dziewierzewo;;30;Kcynia;nakielski;kujawsko-pomorskie
 57-400;AP Dzikowiec;Dzikowiec;;84;Nowa Ruda;k≥odzki;dolnoúlπskie
 96-202;AP Dziurdzio≥y;Dziurdzio≥y;;28a;Rawa Mazowiecka;rawski;≥Ûdzkie
-72-421;AP DziwnÛwek;DziwnÛwek;Wolnoúci;16;DziwnÛw;kamieÒski;zachodniopomorskie
 73-121;AP Dzwonowo;Dzwonowo;;61;Marianowo;stargardzki;zachodniopomorskie
 82-309;AP Elblπg;Elblπg;Pu≥kownika Stanis≥awa Dπbka;152;Elblπg;Elblπg;warmiÒsko-mazurskie
 82-310;AP Elblπg;Elblπg;Aleja Grunwaldzka;2;Elblπg;Elblπg;warmiÒsko-mazurskie
@@ -1115,8 +1112,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 80-825;FUP GdaÒsk 50;GdaÒsk;Szeroka;98;GdaÒsk;GdaÒsk;pomorskie
 80-806;FUP GdaÒsk 50;GdaÒsk;Targ Rakowy;7/8;GdaÒsk;GdaÒsk;pomorskie
 80-223;UP GdaÒsk 53;GdaÒsk;Czerwony DwÛr;17;GdaÒsk;GdaÒsk;pomorskie
-80-323;FUP GdaÒsk 53;GdaÒsk;Ko≥obrzeska;5-7;GdaÒsk;GdaÒsk;pomorskie
 80-325;FUP GdaÒsk 53;GdaÒsk;Ko≥obrzeska;48C;GdaÒsk;GdaÒsk;pomorskie
+80-323;FUP GdaÒsk 53;GdaÒsk;Ko≥obrzeska;5-7;GdaÒsk;GdaÒsk;pomorskie
 80-334;FUP GdaÒsk 53;GdaÒsk;ObroÒcÛw Wybrzeøa;2;GdaÒsk;GdaÒsk;pomorskie
 80-326;FUP GdaÒsk 53;GdaÒsk;SzczeciÒska;2/2;GdaÒsk;GdaÒsk;pomorskie
 80-961;FUP GdaÒsk 53;skrytki/przegrÛdki;;;GdaÒsk;GdaÒsk;pomorskie
@@ -1145,8 +1142,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 81-004;UP Gdynia 4;Gdynia;ChyloÒska;124;Gdynia;Gdynia;pomorskie
 81-040;FUP Gdynia 4;Gdynia;B≥awatna;11 A/1U;Gdynia;Gdynia;pomorskie
 81-005;FUP Gdynia 4;Gdynia;Gniewska;21;Gdynia;Gdynia;pomorskie
-81-209;FUP Gdynia 4;Gdynia;Morska;99;Gdynia;Gdynia;pomorskie
 81-006;FUP Gdynia 4;Gdynia;Morska;228/C;Gdynia;Gdynia;pomorskie
+81-209;FUP Gdynia 4;Gdynia;Morska;99;Gdynia;Gdynia;pomorskie
 81-290;FUP Gdynia 4;Gdynia;Ludwika Zamenhofa;15;Gdynia;Gdynia;pomorskie
 81-510;UP Gdynia 10;Gdynia;al. ZwyciÍstwa;254;Gdynia;Gdynia;pomorskie
 81-513;FUP Gdynia 10;Gdynia;Plac GÛrnoúlπski;8/1;Gdynia;Gdynia;pomorskie
@@ -1157,9 +1154,10 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 81-516;FUP Gdynia 16;Gdynia;Korzenna;15;Gdynia;Gdynia;pomorskie
 81-570;FUP Gdynia 16;Gdynia;Nagietkowa;13A;Gdynia;Gdynia;pomorskie
 81-577;FUP Gdynia 16;Gdynia;NowowiczliÒska;35;Gdynia;Gdynia;pomorskie
-21-205;AP GÍú;GÍú;;96A;Jab≥oÒ;parczewski;lubelskie
+21-205;AP GÍú;GÍú;;95;Jab≥oÒ;parczewski;lubelskie
 59-631;AP Giebu≥tÛw;Giebu≥tÛw;;136;Mirsk;lwÛwecki;dolnoúlπskie
 37-301;AP Giedlarowa;Giedlarowa;;339;Leøajsk;leøajski;podkarpackie
+23-147;AP Gie≥czew Druga;Gie≥czew Druga;;42A;Wysokie;lubelski;lubelskie
 59-731;AP Giera≥tÛw;Giera≥tÛw;;44;Nowogrodziec;boles≥awiecki;dolnoúlπskie
 62-402;AP GiewartÛw;GiewartÛw;Kwiatowa;16;Ostrowite;s≥upecki;wielkopolskie
 11-504;AP Giøycko;Giøycko;Aleja 1 Maja;3/1;Giøycko;giøycki;warmiÒsko-mazurskie
@@ -1171,6 +1169,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 11-508;FUP Giøycko 1;Giøycko;KrÛlowej Jadwigi;4/2;Giøycko;giøycki;warmiÒsko-mazurskie
 11-612;FUP Giøycko 1;Kruklanki;Dworcowa;3;Kruklanki;giøycki;warmiÒsko-mazurskie
 11-513;FUP Giøycko 1;Mi≥ki;Mazurska;2;Mi≥ki;giøycki;warmiÒsko-mazurskie
+77-302;AP GlÍdowo;GlÍdowo;;21 A;Cz≥uchÛw;cz≥uchowski;pomorskie
 14-106;AP GlÍdy;GlÍdy;;27;£ukta;ostrÛdzki;warmiÒsko-mazurskie
 44-116;AP Gliwice;Gliwice;Chorzowska;44b;Gliwice;Gliwice;úlπskie
 44-100;AP Gliwice;Gliwice;Miko≥owska;4/U8;Gliwice;Gliwice;úlπskie
@@ -1186,7 +1185,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 44-102;FUP Gliwice 2;Gliwice;Lipowa;1;Gliwice;Gliwice;úlπskie
 44-102;FUP Gliwice 2;Gliwice;al. Jana Nowaka-JezioraÒskiego;1;Gliwice;Gliwice;úlπskie
 44-111;FUP Gliwice 2;Gliwice;ObroÒcÛw Poczty GdaÒskiej;10;Gliwice;Gliwice;úlπskie
-44-115;FUP Gliwice 2;Gliwice;PszczyÒska;315;Gliwice;Gliwice;úlπskie
 44-109;FUP Gliwice 2;Gliwice;Staromiejska;4;Gliwice;Gliwice;úlπskie
 44-105;FUP Gliwice 2;Gliwice;TarnogÛrska;231;Gliwice;Gliwice;úlπskie
 44-119;FUP Gliwice 2;Gliwice;Wiúlana;5;Gliwice;Gliwice;úlπskie
@@ -1196,6 +1194,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 44-125;FUP Gliwice 22;Gliwice;Per≥owa;21;Gliwice;Gliwice;úlπskie
 44-121;FUP Gliwice 22;Gliwice;Emilii Plater;1;Gliwice;Gliwice;úlπskie
 44-165;FUP Gliwice 22;Gliwice;Sopocka;2;Gliwice;Gliwice;úlπskie
+76-204;AP G≥obino;G≥obino;G≥Ûwna;72;Redzikowo;s≥upski;pomorskie
 32-444;AP G≥ogoczÛw;G≥ogoczÛw;;918;Myúlenice;myúlenicki;ma≥opolskie
 67-201;AP G≥ogÛw;G≥ogÛw;Cukrownicza;2A;G≥ogÛw;g≥ogowski;dolnoúlπskie
 67-201;AP G≥ogÛw;G≥ogÛw;Garncarska;7;G≥ogÛw;g≥ogowski;dolnoúlπskie
@@ -1221,7 +1220,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 87-500;AP G≥owiÒsk;G≥owiÒsk;;48a;Rypin;rypiÒski;kujawsko-pomorskie
 95-017;AP G≥owno;G≥owno;Juliana Tuwima;7;G≥owno;zgierski;≥Ûdzkie
 95-015;UP G≥owno 1;G≥owno;Zgierska;6;G≥owno;zgierski;≥Ûdzkie
-95-016;FUP G≥owno 1;G≥owno;W≥adys≥awa Sikorskiego;45/49;G≥owno;zgierski;≥Ûdzkie
+95-016;FUP G≥owno 1;G≥owno;gen. W≥adys≥awa Sikorskiego;45/49;G≥owno;zgierski;≥Ûdzkie
 48-100;UP G≥ubczyce;G≥ubczyce;Pocztowa;4;G≥ubczyce;g≥ubczycki;opolskie
 48-120;FUP G≥ubczyce;BaborÛw;rynek Rynek;5 A;BaborÛw;g≥ubczycki;opolskie
 48-140;FUP G≥ubczyce;Branice;G≥Ûwna;63;Branice;g≥ubczycki;opolskie
@@ -1251,12 +1250,11 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 62-270;FUP Gniezno 2;K≥ecko;dr. Juliana DomaÒskiego;2;K≥ecko;gnieünieÒski;wielkopolskie
 62-212;FUP Gniezno 2;Mieleszyn;;11;Mieleszyn;gnieünieÒski;wielkopolskie
 62-220;FUP Gniezno 2;Niechanowo;RÛøana;1;Niechanowo;gnieünieÒski;wielkopolskie
-28-114;AP Gnojno;Gnojno;;40;Gnojno;buski;úwiÍtokrzyskie
 98-277;AP Godynice;Godynice;;5;Brπszewice;sieradzki;≥Ûdzkie
 55-206;AP Godzikowice;Godzikowice;;16;O≥awa;o≥awski;dolnoúlπskie
 83-250;AP Godziszewo;Godziszewo;Tczewska;11;Skarszewy;starogardzki;pomorskie
 43-376;AP Godziszka;Godziszka;Øywiecka;3;Buczkowice;bielski;úlπskie
-76-247;AP Gogolewo;Gogolewo;;39A;DÍbnica Kaszubska;s≥upski;pomorskie
+76-247;AP Gogolewo;Gogolewo;Straøacka;1;DÍbnica Kaszubska;s≥upski;pomorskie
 58-123;AP Gola åwidnicka;Gola åwidnicka;;21;Marcinowice;úwidnicki;dolnoúlπskie
 36-231;AP Golcowa;Golcowa;;50;Domaradz;brzozowski;podkarpackie
 72-100;UP GoleniÛw 1;GoleniÛw;Konstytucji 3 Maja;17;GoleniÛw;goleniowski;zachodniopomorskie
@@ -1379,9 +1377,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 46-062;AP GÛrki;GÛrki;Opolska;9;PrÛszkÛw;opolski;opolskie
 19-506;AP GÛrne;GÛrne;;19;Go≥dap;go≥dapski;warmiÒsko-mazurskie
 36-051;AP GÛrno;GÛrno;Centralna;2/8;Soko≥Ûw Ma≥opolski;rzeszowski;podkarpackie
-87-320;UP GÛrzno k. Brodnicy;GÛrzno;Pocztowa;10;GÛrzno;brodnicki;kujawsko-pomorskie
-87-321;FUP GÛrzno k. Brodnicy;Bartniczka;Pocztowa;7;Bartniczka;brodnicki;kujawsko-pomorskie
-87-335;FUP GÛrzno k. Brodnicy;åwiedziebnia;;19;åwiedziebnia;brodnicki;kujawsko-pomorskie
 49-100;AP Grabin;Grabin;Nyska;42;Niemodlin;opolski;opolskie
 36-200;AP Grabownica StarzeÒska;Grabownica StarzeÒska;;800;BrzozÛw;brzozowski;podkarpackie
 56-416;AP Grabowno Wielkie;Grabowno Wielkie;;56 B;TwardogÛra;oleúnicki;dolnoúlπskie
@@ -1390,6 +1385,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 99-150;UP GrabÛw k. £Íczycy;GrabÛw;1 Maja;21;GrabÛw;≥Íczycki;≥Ûdzkie
 99-140;FUP GrabÛw k. £Íczycy;åwinice Warckie;åwiÍtej Faustyny;5;åwinice Warckie;≥Íczycki;≥Ûdzkie
 63-520;UP GrabÛw nad Prosnπ;GrabÛw nad Prosnπ;Henryka Sienkiewicza;12;GrabÛw nad Prosnπ;ostrzeszowski;wielkopolskie
+15-524;AP GrabÛwka;GrabÛwka;GÛrna;10a;GrabÛwka;bia≥ostocki;podlaskie
 49-153;AP Gracze;Gracze;NiemodliÒska;42;Niemodlin;opolski;opolskie
 19-208;AP Grajewo;Grajewo;Wojska Polskiego;46;Grajewo;grajewski;podlaskie
 19-200;UP Grajewo 1;Grajewo;JÛzefa Pi≥sudskiego;12;Grajewo;grajewski;podlaskie
@@ -1419,8 +1415,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 64-061;FUP Grodzisk Wielkopolski;Kamieniec;1000-lecia PaÒstwa Polskiego;25;Kamieniec;grodziski;wielkopolskie
 62-065;AP Grodzisk Wielkopolski;Grodzisk Wielkopolski;Nowotomyska;11;Grodzisk Wielkopolski;grodziski;wielkopolskie
 63-303;AP Grodzisko;Grodzisko;;6/A;Pleszew;pleszewski;wielkopolskie
-58-262;AP Grodziszcze;Grodziszcze;;68;Stoszowice;zπbkowicki;dolnoúlπskie
 58-100;AP Grodziszcze;Grodziszcze;;67;åwidnica;úwidnicki;dolnoúlπskie
+58-262;AP Grodziszcze;Grodziszcze;;68;Stoszowice;zπbkowicki;dolnoúlπskie
 32-591;AP Gromiec;Gromiec;Kolonia;2;Libiπø;chrzanowski;ma≥opolskie
 33-180;UP Gromnik;Gromnik;PogÛrze;2;Gromnik;tarnowski;ma≥opolskie
 33-165;FUP Gromnik;Rzepiennik Strzyøewski;;400;Rzepiennik Strzyøewski;tarnowski;ma≥opolskie
@@ -1459,6 +1455,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 33-330;UP GrybÛw;GrybÛw;Koúciuszki;8;GrybÛw;nowosπdecki;ma≥opolskie
 33-322;FUP GrybÛw;Korzenna;;325;Korzenna;nowosπdecki;ma≥opolskie
 33-331;FUP GrybÛw;StrÛøe;;31;GrybÛw;nowosπdecki;ma≥opolskie
+33-337;AP GrybÛw;GrybÛw;os. Osiedle Bia≥a Wyøna;b/n;GrybÛw;nowosπdecki;ma≥opolskie
 72-305;AP Gryfice;Gryfice;Szewska;15;Gryfice;gryficki;zachodniopomorskie
 72-300;UP Gryfice 1;Gryfice;Dworcowa;20;Gryfice;gryficki;zachodniopomorskie
 72-304;FUP Gryfice 1;Brojce;D≥uga;45;Brojce;gryficki;zachodniopomorskie
@@ -1499,8 +1496,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 17-250;FUP HajnÛwka;Kleszczele;pl. Parkowy;5;Kleszczele;hajnowski;podlaskie
 17-210;FUP HajnÛwka;Narew;Topolowa;6;Narew;hajnowski;podlaskie
 17-220;FUP HajnÛwka;Narewka;Adama Mickiewicza;39;Narewka;hajnowski;podlaskie
+17-205;FUP HajnÛwka;Rzepiska;;31;HajnÛwka;hajnowski;podlaskie
 17-203;AP HajnÛwka;HajnÛwka;Wrzosowa;2;HajnÛwka;hajnowski;podlaskie
-05-074;UP HalinÛw;HalinÛw;Jana Paw≥a II;30;HalinÛw;miÒski;mazowieckie
 37-413;UP Harasiuki;Harasiuki;D≥uga;11;Harasiuki;niøaÒski;podkarpackie
 38-243;AP Harklowa;Harklowa;;360;Sko≥yszyn;jasielski;podkarpackie
 13-221;AP Hartowiec;Hartowiec;;53;Rybno;dzia≥dowski;warmiÒsko-mazurskie
@@ -1508,8 +1505,10 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 18-212;AP Hodyszewo;Hodyszewo;pp≥k. Stefana Platonoffa;26;Nowe Piekuty;wysokomazowiecki;podlaskie
 22-424;AP HoryszÛw Polski;HoryszÛw Polski;;85;Sitno;zamojski;lubelskie
 22-500;UP HrubieszÛw;HrubieszÛw;JÛzefa Pi≥sudskiego;7;HrubieszÛw;hrubieszowski;lubelskie
+22-540;FUP HrubieszÛw;Do≥hobyczÛw;Hallera;10;Do≥hobyczÛw;hrubieszowski;lubelskie
 22-523;FUP HrubieszÛw;Horod≥o;Rynek;11;Horod≥o;hrubieszowski;lubelskie
 22-500;FUP HrubieszÛw;HrubieszÛw;"mjr. Henryka DobrzaÒskiego ""Hubala""";5;HrubieszÛw;hrubieszowski;lubelskie
+22-530;FUP HrubieszÛw;Mircze;Kry≥owska;33;Mircze;hrubieszowski;lubelskie
 22-555;FUP HrubieszÛw;Trzeszczany Pierwsze;;194;Trzeszczany;hrubieszowski;lubelskie
 22-511;FUP HrubieszÛw;Uchanie;Staszica;4;Uchanie;hrubieszowski;lubelskie
 22-550;FUP HrubieszÛw;Werbkowice;Pi≥sudskiego JÛzefa;9;Werbkowice;hrubieszowski;lubelskie
@@ -1572,7 +1571,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 59-941;AP Jagodzin;Jagodzin;;69;WÍgliniec;zgorzelecki;dolnoúlπskie
 26-231;AP Jakimowice-Kolonia;Jakimowice-Kolonia;;3 C;Radoszyce;konecki;úwiÍtokrzyskie
 16-050;AP Ja≥Ûwka;Ja≥Ûwka;Rynek;5;Micha≥owo;bia≥ostocki;podlaskie
-13-332;AP Jamielnik;Jamielnik;Nowomiejska;8;Nowe Miasto Lubawskie;nowomiejski;warmiÒsko-mazurskie
+13-332;AP Jamielnik;Jamielnik;Nowomiejska;8;Bratian;nowomiejski;warmiÒsko-mazurskie
 16-310;AP Jaminy;Jaminy;;49;Sztabin;augustowski;podlaskie
 86-183;AP Jania GÛra;Jania GÛra;;1;åwiekatowo;úwiecki;kujawsko-pomorskie
 88-160;UP Janikowo;Janikowo;Dworcowa;9;Janikowo;inowroc≥awski;kujawsko-pomorskie
@@ -1591,6 +1590,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 23-311;FUP JanÛw Lubelski;Modliborzyce;JÛzefa Pi≥sudskiego;48;Modliborzyce;janowski;lubelskie
 23-313;FUP JanÛw Lubelski;Potok Wielki;;106;Potok Wielki;janowski;lubelskie
 16-300;AP JanÛwka;JanÛwka;;60;AugustÛw;augustowski;podlaskie
+14-332;AP Jarno≥towo;Jarno≥towo;;18;Ma≥dyty;ostrÛdzki;warmiÒsko-mazurskie
 63-200;UP Jarocin PoznaÒski 1;Jarocin;Dworcowa;1;Jarocin;jarociÒski;wielkopolskie
 63-233;FUP Jarocin PoznaÒski 1;Jaraczewo;Kolejowa;18;Jaraczewo;jarociÒski;wielkopolskie
 63-200;FUP Jarocin PoznaÒski 1;Jarocin;os. Osiedle Konstytucji 3 Maja;31;Jarocin;jarociÒski;wielkopolskie
@@ -1624,9 +1624,9 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 38-205;FUP Jas≥o 1;Jas≥o;Towarowa;35;Jas≥o;jasielski;podkarpackie
 38-223;FUP Jas≥o 1;Osiek Jasielski;;106;Osiek Jasielski;jasielski;podkarpackie
 38-244;FUP Jas≥o 1;Sko≥yszyn;;12;Sko≥yszyn;jasielski;podkarpackie
+38-208;FUP Jas≥o 1;Tarnowiec;;30;Tarnowiec;jasielski;podkarpackie
 84-140;UP Jastarnia;Jastarnia;Mariana Stelmaszczyka;7;Jastarnia;pucki;pomorskie
 84-150;FUP Jastarnia;Hel;Wiejska;55;Hel;pucki;pomorskie
-84-141;AP Jastarnia;Jurata;Mestwina;51;Jastarnia;pucki;pomorskie
 37-403;AP Jastkowice;Jastkowice;Armii Krajowej;20A;Pysznica;stalowowolski;podkarpackie
 21-002;UP JastkÛw;PanieÒszczyzna;al. Warszawska;51B;JastkÛw;lubelski;lubelskie
 21-080;FUP JastkÛw;GarbÛw;Krakowskie Przedmieúcie;52;GarbÛw;lubelski;lubelskie
@@ -1662,7 +1662,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 59-401;FUP Jawor 1;Jawor;Stanis≥awa Moniuszki;10;Jawor;jaworski;dolnoúlπskie
 59-426;FUP Jawor 1;MÍcinka;;10;MÍcinka;jaworski;dolnoúlπskie
 59-411;FUP Jawor 1;Paszowice;;260;Paszowice;jaworski;dolnoúlπskie
-59-424;FUP Jawor 1;Przyby≥owice;;19;MÍcinka;jaworski;dolnoúlπskie
 59-430;FUP Jawor 1;Wπdroøe Wielkie;;64;Wπdroøe Wielkie;jaworski;dolnoúlπskie
 43-600;AP Jaworzno;Jaworzno;Granitowa;6;Jaworzno;Jaworzno;úlπskie
 43-609;AP Jaworzno;Jaworzno;Starowiejska;7a;Jaworzno;Jaworzno;úlπskie
@@ -1700,7 +1699,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 58-573;FUP Jelenia GÛra 9;Piechowice;Adama Mickiewicza;7;Piechowice;karkonoski;dolnoúlπskie
 58-562;FUP Jelenia GÛra 9;PodgÛrzyn;Øo≥nierska;17;PodgÛrzyn;karkonoski;dolnoúlπskie
 58-512;FUP Jelenia GÛra 9;Stara Kamienica;Izerska;11;Stara Kamienica;karkonoski;dolnoúlπskie
-58-581;FUP Jelenia GÛra 9;Szklarska PorÍba;Dworcowa;6;Szklarska PorÍba;karkonoski;dolnoúlπskie
 58-580;FUP Jelenia GÛra 9;Szklarska PorÍba;Jednoúci Narodowej;8;Szklarska PorÍba;karkonoski;dolnoúlπskie
 58-508;UP Jelenia GÛra 14;Jelenia GÛra;Tadeusza SygietyÒskiego;8;Jelenia GÛra;Jelenia GÛra;dolnoúlπskie
 58-520;FUP Jelenia GÛra 14;Janowice Wielkie;Kolejowa;4;Janowice Wielkie;karkonoski;dolnoúlπskie
@@ -1734,12 +1732,9 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 28-305;FUP JÍdrzejÛw 1;SobkÛw;Plac Wolnoúci;10;SobkÛw;jÍdrzejowski;úwiÍtokrzyskie
 34-620;UP Jod≥ownik;Jod≥ownik;;198;Jod≥ownik;limanowski;ma≥opolskie
 34-624;FUP Jod≥ownik;Szczyrzyc;;120;Jod≥ownik;limanowski;ma≥opolskie
-37-560;AP Jod≥Ûwka;Jod≥Ûwka;;215;Pruchnik;jaros≥awski;podkarpackie
 66-200;AP Jordanowo;Jordanowo;; ;åwiebodzin;úwiebodziÒski;lubuskie
 34-240;UP JordanÛw;JordanÛw;Rynek;2;JordanÛw;suski;ma≥opolskie
 95-064;AP JordanÛw;JordanÛw;;11;Brzeziny;brzeziÒski;≥Ûdzkie
-05-410;UP JÛzefÛw k. Otwocka 3;JÛzefÛw;Genera≥a Sikorskiego;23;JÛzefÛw;otwocki;mazowieckie
-05-420;FUP JÛzefÛw k. Otwocka 3;JÛzefÛw;Genera≥a Sikorskiego;91;JÛzefÛw;otwocki;mazowieckie
 34-532;AP JurgÛw;JurgÛw;;125;Bukowina TatrzaÒska;tatrzaÒski;ma≥opolskie
 28-210;AP Jurkowice;Jurkowice;;33;Bogoria;staszowski;úwiÍtokrzyskie
 16-052;AP Juszkowy GrÛd;Juszkowy GrÛd;;29;Micha≥owo;bia≥ostocki;podlaskie
@@ -1752,7 +1747,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 98-235;AP Kalinowa;Kalinowa;;88;B≥aszki;sieradzki;≥Ûdzkie
 57-219;AP Kalinowice GÛrne;Kalinowice GÛrne;;3;ZiÍbice;zπbkowicki;dolnoúlπskie
 18-422;AP Kalinowo;Kalinowo;;36 A;Piπtnica;≥omøyÒski;podlaskie
-19-121;AP KalinÛwka Koúcielna;KalinÛwka Koúcielna;;34;Knyszyn;moniecki;podlaskie
 62-806;AP Kalisz;Kalisz;Barska;7;Kalisz;Kalisz;wielkopolskie
 62-800;UP Kalisz 1;Kalisz;Zamkowa;18-20;Kalisz;Kalisz;wielkopolskie
 62-800;FUP Kalisz 1;Kalisz;Armii Krajowej;9;Kalisz;Kalisz;wielkopolskie
@@ -1787,7 +1781,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 57-230;AP Kamieniec Zπbkowicki;Kamieniec Zπbkowicki;Kolejowa;85;Kamieniec Zπbkowicki;zπbkowicki;dolnoúlπskie
 58-400;AP Kamienna GÛra;Kamienna GÛra;Plac Browarowy;5/1;Kamienna GÛra;kamiennogÛrski;dolnoúlπskie
 58-402;AP Kamienna GÛra;Kamienna GÛra;Juliusza S≥owackiego;4;Kamienna GÛra;kamiennogÛrski;dolnoúlπskie
-58-401;AP Kamienna GÛra;Kamienna GÛra;Ludwika WaryÒskiego;32;Kamienna GÛra;kamiennogÛrski;dolnoúlπskie
+58-401;AP Kamienna GÛra;Kamienna GÛra;Ludwika WaryÒskiego;4;Kamienna GÛra;kamiennogÛrski;dolnoúlπskie
 58-400;UP Kamienna GÛra 1;Kamienna GÛra;Papieøa Jana Paw≥a II;31;Kamienna GÛra;kamiennogÛrski;dolnoúlπskie
 58-406;FUP Kamienna GÛra 1;KrzeszÛw;Micha≥a Willmanna;1;Kamienna GÛra;kamiennogÛrski;dolnoúlπskie
 58-420;FUP Kamienna GÛra 1;Lubawka;Dworcowa;7;Lubawka;kamiennogÛrski;dolnoúlπskie
@@ -1807,6 +1801,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 43-514;AP KaniÛw;KaniÛw;BatalionÛw Ch≥opskich; ;Bestwina;bielski;úlπskie
 37-220;UP KaÒczuga;KaÒczuga;Marsza≥ka JÛzefa Pi≥sudskiego;6;KaÒczuga;przeworski;podkarpackie
 37-232;FUP KaÒczuga;Jawornik Polski;Rynek;30;Jawornik Polski;przeworski;podkarpackie
+16-031;AP Karakule;Karakule;;72;Supraúl;bia≥ostocki;podlaskie
 66-120;UP Kargowa;Kargowa;Sulechowska;8;Kargowa;zielonogÛrski;lubuskie
 66-130;FUP Kargowa;Bojad≥a;Sulechowska;8;Bojad≥a;zielonogÛrski;lubuskie
 46-037;AP Kar≥owice;Kar≥owice;Kolejowa;12;PopielÛw;opolski;opolskie
@@ -1856,6 +1851,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 40-200;FUP Katowice 25;skrytki/przegrÛdki;;;Katowice;Katowice;úlπskie
 40-528;FUP Katowice 25;Katowice;GawronÛw;20;Katowice;Katowice;úlπskie
 40-856;FUP Katowice 25;Katowice;Gliwicka;127;Katowice;Katowice;úlπskie
+40-878;FUP Katowice 25;Katowice;Trasa Imienia Nikodema i JÛzefa ReÒcÛw;30;Katowice;Katowice;úlπskie
 40-032;FUP Katowice 25;Katowice;JagielloÒska;25;Katowice;Katowice;úlπskie
 40-035;FUP Katowice 25;Katowice;Henryka Jordana;12;Katowice;Katowice;úlπskie
 40-600;FUP Katowice 25;Katowice;Tadeusza Koúciuszki;229;Katowice;Katowice;úlπskie
@@ -1873,9 +1869,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 40-927;FUP Katowice 25;Katowice;Gen. JÛzefa Longina SowiÒskiego;35;Katowice;Katowice;úlπskie
 40-042;FUP Katowice 25;Katowice;Wita Stwosza;31;Katowice;Katowice;úlπskie
 40-100;FUP Katowice 25;skrytki/przegrÛdki;;;Katowice;Katowice;úlπskie
-40-878;FUP Katowice 25;Katowice;Trasa imienia Nikodema i JÛzefa RencÛw;30;Katowice;Katowice;úlπskie
-40-871;FUP Katowice 25;Katowice;Tysiπclecia;90;Katowice;Katowice;úlπskie
 40-874;FUP Katowice 25;Katowice;Tysiπclecia;5;Katowice;Katowice;úlπskie
+40-871;FUP Katowice 25;Katowice;Tysiπclecia;90;Katowice;Katowice;úlπskie
 40-610;UP Katowice 26;Katowice;Boles≥awa Prusa;42;Katowice;Katowice;úlπskie
 28-500;UP Kazimierza Wielka;Kazimierza Wielka;Miko≥aja Reja;17;Kazimierza Wielka;kazimierski;úwiÍtokrzyskie
 28-512;FUP Kazimierza Wielka;Bejsce;;252;Bejsce;kazimierski;úwiÍtokrzyskie
@@ -1948,6 +1943,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 25-001;FUP Kielce 1;Kielce;Warszawska;26;Kielce;Kielce;úwiÍtokrzyskie
 25-517;FUP Kielce 1;Kielce;al. IX WiekÛw Kielc;3;Kielce;Kielce;úwiÍtokrzyskie
 25-090;UP Kielce 2;Kielce;pl. Niepodleg≥oúci;2;Kielce;Kielce;úwiÍtokrzyskie
+25-090;PP Kielce 2;Kielce;pl. Niepodleg≥oúci;2;Kielce;Kielce;úwiÍtokrzyskie
 25-113;UP Kielce 3;Kielce;Barwinek;28;Kielce;Kielce;úwiÍtokrzyskie
 25-309;FUP Kielce 3;Kielce;Petyhorska;15;Kielce;Kielce;úwiÍtokrzyskie
 25-381;FUP Kielce 3;Kielce;Wapiennikowa;45;Kielce;Kielce;úwiÍtokrzyskie
@@ -1979,6 +1975,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 83-307;AP Kie≥pino;Kie≥pino;D≥uga;36A;Kartuzy;kartuski;pomorskie
 10-687;AP Klebark Wielki;Klebark Wielki;;14;Purda;olsztyÒski;warmiÒsko-mazurskie
 34-101;AP Klecza Dolna;Klecza Dolna;Stryszowska;2;Wadowice;wadowicki;ma≥opolskie
+15-636;AP Klepacze;Klepacze;Niewodnicka;19A;Choroszcz;bia≥ostocki;podlaskie
 19-404;AP Kleszczewo;Kleszczewo;;9/1;Wieliczki;olecki;warmiÒsko-mazurskie
 83-206;AP Kleszczewo Koúcierskie;Kleszczewo Koúcierskie;G≥Ûwna; 11;Zblewo;starogardzki;pomorskie
 77-415;AP Kleszczyna;Kleszczyna;;98;Z≥otÛw;z≥otowski;wielkopolskie
@@ -2014,6 +2011,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 57-303;FUP K≥odzko 1;K≥odzko;£uøycka;1-3;K≥odzko;k≥odzki;dolnoúlπskie
 57-360;FUP K≥odzko 1;O≥drzychowice K≥odzkie;K≥odzka;48;K≥odzko;k≥odzki;dolnoúlπskie
 57-320;FUP K≥odzko 1;Polanica-ZdrÛj;Warszawska;6;Polanica-ZdrÛj;k≥odzki;dolnoúlπskie
+57-550;FUP K≥odzko 1;Stronie ålπskie;Koúciuszki;41;Stronie ålπskie;k≥odzki;dolnoúlπskie
 42-270;UP K≥omnice;K≥omnice;Straøacka;18 A;K≥omnice;czÍstochowski;úlπskie
 42-209;FUP K≥omnice;CzÍstochowa;Cypriana Kamila Norwida;11/15;CzÍstochowa;CzÍstochowa;úlπskie
 42-238;FUP K≥omnice;CzÍstochowa;gen. Stefana Roweckiego-Grota;12/44;CzÍstochowa;CzÍstochowa;úlπskie
@@ -2037,7 +2035,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 64-521;AP Kobylniki;Kobylniki;;24;Obrzycko;szamotulski;wielkopolskie
 18-233;AP Koce-Basie;Koce-Basie;;3A;Ciechanowiec;wysokomazowiecki;podlaskie
 32-010;UP KocmyrzÛw;KocmyrzÛw;JagielloÒska;20;KocmyrzÛw-Luborzyca;krakowski;ma≥opolskie
-17-202;AP Koj≥y;Koj≥y;;109;Czyøe;hajnowski;podlaskie
 62-817;AP Kokanin;Kokanin;;42;ØelazkÛw;kaliski;wielkopolskie
 83-050;UP Kolbudy;Kolbudy;prof. Bronis≥awa Bukowskiego;3;Kolbudy;gdaÒski;pomorskie
 83-047;FUP Kolbudy;Przywidz;GdaÒska;16;Przywidz;gdaÒski;pomorskie
@@ -2146,15 +2143,11 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 26-212;FUP KoÒskie 1;SmykÛw;;91;SmykÛw;konecki;úwiÍtokrzyskie
 26-220;FUP KoÒskie 1;StπporkÛw;Marsza≥ka JÛzefa Pi≥sudskiego;137;StπporkÛw;konecki;úwiÍtokrzyskie
 64-225;AP Kopanica;Kopanica;ZbπszyÒska;6;Siedlec;wolsztyÒski;wielkopolskie
-37-422;AP Kopki;Kopki;Podborze;19;Rudnik nad Sanem;niøaÒski;podkarpackie
 27-660;UP Koprzywnica;Koprzywnica;11 Listopada;88;Koprzywnica;sandomierski;úwiÍtokrzyskie
 27-640;FUP Koprzywnica;KlimontÛw;Krakowska;15;KlimontÛw;sandomierski;úwiÍtokrzyskie
 27-670;FUP Koprzywnica;£oniÛw;;48;£oniÛw;sandomierski;úwiÍtokrzyskie
 83-231;AP Kopytkowo;Kopytkowo;;23 A;SmÍtowo Graniczne;starogardzki;pomorskie
 38-459;AP Kopytowa;Kopytowa;;bn.;ChorkÛwka;kroúnieÒski;podkarpackie
-08-108;UP Korczew n. Bugiem;Korczew;Szkolna;3;Korczew;siedlecki;mazowieckie
-08-107;FUP Korczew n. Bugiem;Paprotnia;Jana Paw≥a II;4;Paprotnia;siedlecki;mazowieckie
-08-109;FUP Korczew n. Bugiem;Przesmyki;11 Listopada;5B;Przesmyki;siedlecki;mazowieckie
 48-317;UP KorfantÛw;KorfantÛw;Wyzwolenia;1;KorfantÛw;nyski;opolskie
 48-316;FUP KorfantÛw;£ambinowice;Dworcowa;1;£ambinowice;nyski;opolskie
 32-411;AP Kornatka;Kornatka;;353 a;Dobczyce;myúlenicki;ma≥opolskie
@@ -2163,6 +2156,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 86-010;FUP Koronowo 1;Koronowo;Pomianowskiego;5a;Koronowo;bydgoski;kujawsko-pomorskie
 86-013;FUP Koronowo 1;Mπkowarsko;Tucholska;29;Koronowo;bydgoski;kujawsko-pomorskie
 86-011;FUP Koronowo 1;Wtelno;Bydgoska;25;Koronowo;bydgoski;kujawsko-pomorskie
+63-441;AP Koryta;Koryta;;4;RaszkÛw;ostrowski;wielkopolskie
 82-507;AP Korzeniewo;Korzeniewo;KwidzyÒska;23;Kwidzyn;kwidzyÒski;pomorskie
 18-500;AP Korzeniste;Korzeniste;;43;Ma≥y P≥ock;kolneÒski;podlaskie
 55-141;AP KorzeÒsko;KorzeÒsko;PowstaÒcÛw Wielkopolskich;6a;ØmigrÛd;trzebnicki;dolnoúlπskie
@@ -2181,9 +2175,9 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 75-202;AP Koszalin;Koszalin;Paproci;66;Koszalin;Koszalin;zachodniopomorskie
 75-704;AP Koszalin;Koszalin;Genera≥a W≥adys≥awa Sikorskiego;4G;Koszalin;Koszalin;zachodniopomorskie
 75-016;UP Koszalin 1;Koszalin;W≥adys≥awa Andersa;22;Koszalin;Koszalin;zachodniopomorskie
-75-617;FUP Koszalin 1;Koszalin;ZwyciÍstwa;186;Koszalin;Koszalin;zachodniopomorskie
 75-640;FUP Koszalin 1;Koszalin;ZwyciÍstwa;297;Koszalin;Koszalin;zachodniopomorskie
 75-606;FUP Koszalin 1;Koszalin;ZwyciÍstwa;153;Koszalin;Koszalin;zachodniopomorskie
+75-617;FUP Koszalin 1;Koszalin;ZwyciÍstwa;186;Koszalin;Koszalin;zachodniopomorskie
 76-032;FUP Koszalin 1;Mielno;1 Maja;5;Mielno;koszaliÒski;zachodniopomorskie
 76-034;FUP Koszalin 1;Sarbinowo;M≥yÒska;4;Mielno;koszaliÒski;zachodniopomorskie
 76-004;FUP Koszalin 1;SianÛw;Armii Polskiej;37;SianÛw;koszaliÒski;zachodniopomorskie
@@ -2209,11 +2203,12 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 64-000;UP Koúcian 1;Koúcian;Aleja Tadeusza Koúciuszki;11;Koúcian;koúciaÒski;wielkopolskie
 64-000;FUP Koúcian 1;Koúcian;Szkolna;15;Koúcian;koúciaÒski;wielkopolskie
 64-000;FUP Koúcian 1;Koúcian;åmigielska;21 A;Koúcian;koúciaÒski;wielkopolskie
+64-010;FUP Koúcian 1;KrzywiÒ;Rynek;8;KrzywiÒ;koúciaÒski;wielkopolskie
 42-242;AP Koúcielec;Koúcielec;Mykanowska;2;RÍdziny;czÍstochowski;úlπskie
 46-331;AP Koúcieliska;Koúcieliska;;42;Rad≥Ûw;oleski;opolskie
 62-800;AP Koúcielna Wieú;Koúcielna Wieú;åw. WawrzyÒca;2;Go≥uchÛw;pleszewski;wielkopolskie
 83-402;AP Koúcierzyna;Koúcierzyna;Jeziorna;2;Koúcierzyna;koúcierski;pomorskie
-83-400;AP Koúcierzyna;Koúcierzyna;S≥odowa;1;Koúcierzyna;koúcierski;pomorskie
+83-400;AP Koúcierzyna;Koúcierzyna;Rynek;8;Koúcierzyna;koúcierski;pomorskie
 83-402;AP Koúcierzyna;Koúcierzyna;Stanis≥awa Staszica;13;Koúcierzyna;koúcierski;pomorskie
 83-400;UP Koúcierzyna 1;Koúcierzyna;3 Maja;3;Koúcierzyna;koúcierski;pomorskie
 83-401;FUP Koúcierzyna 1;Koúcierzyna;Stanis≥awa Staszica;6;Koúcierzyna;koúcierski;pomorskie
@@ -2288,8 +2283,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 30-681;FUP KrakÛw 4;KrakÛw (KrakÛw-PodgÛrze);OkÛlna;4;KrakÛw;KrakÛw;ma≥opolskie
 30-870;FUP KrakÛw 4;KrakÛw (KrakÛw-PodgÛrze);Leonida Teligi;24;KrakÛw;KrakÛw;ma≥opolskie
 30-902;FUP KrakÛw 4;KrakÛw (KrakÛw-PodgÛrze);Wielicka;72;KrakÛw;KrakÛw;ma≥opolskie
-30-639;FUP KrakÛw 4;KrakÛw (KrakÛw-PodgÛrze);Wincentego Witosa;7;KrakÛw;KrakÛw;ma≥opolskie
 30-647;FUP KrakÛw 4;KrakÛw (KrakÛw-PodgÛrze);Wincentego Witosa;39;KrakÛw;KrakÛw;ma≥opolskie
+30-639;FUP KrakÛw 4;KrakÛw (KrakÛw-PodgÛrze);Wincentego Witosa;7;KrakÛw;KrakÛw;ma≥opolskie
 31-045;FUP KrakÛw 4;KrakÛw (KrakÛw-årÛdmieúcie);Aleja Ignacego DaszyÒskiego;16;KrakÛw;KrakÛw;ma≥opolskie
 31-542;FUP KrakÛw 4;KrakÛw (KrakÛw-årÛdmieúcie);Kazimierza Kordylewskiego;7/1U;KrakÛw;KrakÛw;ma≥opolskie
 31-037;FUP KrakÛw 4;KrakÛw (KrakÛw-årÛdmieúcie);Starowiúlna;56;KrakÛw;KrakÛw;ma≥opolskie
@@ -2310,8 +2305,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 30-093;FUP KrakÛw 23;KrakÛw (KrakÛw-Krowodrza);Na B≥onie;13E;KrakÛw;KrakÛw;ma≥opolskie
 31-274;FUP KrakÛw 23;KrakÛw (KrakÛw-Krowodrza);Opolska;37;KrakÛw;KrakÛw;ma≥opolskie
 30-067;FUP KrakÛw 23;KrakÛw (KrakÛw-Krowodrza);Piastowska;47;KrakÛw;KrakÛw;ma≥opolskie
-31-300;FUP KrakÛw 23;KrakÛw (KrakÛw-Krowodrza);Eliasza Radzikowskiego;29;KrakÛw;KrakÛw;ma≥opolskie
 31-330;FUP KrakÛw 23;KrakÛw (KrakÛw-Krowodrza);Eliasza Radzikowskiego;129;KrakÛw;KrakÛw;ma≥opolskie
+31-300;FUP KrakÛw 23;KrakÛw (KrakÛw-Krowodrza);Eliasza Radzikowskiego;29;KrakÛw;KrakÛw;ma≥opolskie
 30-963;FUP KrakÛw 23;skrytki/przegrÛdki;;;KrakÛw;KrakÛw;ma≥opolskie
 30-104;FUP KrakÛw 23;KrakÛw (KrakÛw-Krowodrza);Senatorska;26;KrakÛw;KrakÛw;ma≥opolskie
 31-313;FUP KrakÛw 23;KrakÛw (KrakÛw-Krowodrza);Stawowa;61;KrakÛw;KrakÛw;ma≥opolskie
@@ -2382,6 +2377,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 46-044;AP KrasiejÛw;KrasiejÛw;SpÛracka;28;Ozimek;opolski;opolskie
 36-007;UP Krasne;Krasne;;175;Krasne;rzeszowski;podkarpackie
 06-212;UP Krasnosielc;Krasnosielc;M≥ynarska;20;Krasnosielc;makowski;mazowieckie
+06-210;FUP Krasnosielc;P≥oniawy-Bramura;;64;P≥oniawy-Bramura;makowski;mazowieckie
 06-216;FUP Krasnosielc;Sypniewo;Ostro≥Ícka;31;Sypniewo;makowski;mazowieckie
 16-310;AP KrasnybÛr;KrasnybÛr;;47;Sztabin;augustowski;podlaskie
 22-300;UP Krasnystaw;Krasnystaw;Plac 3 Maja;26;Krasnystaw;krasnostawski;lubelskie
@@ -2413,6 +2409,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 20-515;AP KrÍønica Jara;KrÍønica Jara;;39;Niedrzwica Duøa;lubelski;lubelskie
 42-425;UP Kroczyce;Kroczyce;BatalionÛw Ch≥opskich;14;Kroczyce;zawierciaÒski;úlπskie
 42-446;FUP Kroczyce;Irzπdze;;141;Irzπdze;zawierciaÒski;úlπskie
+14-403;AP Krosno;Krosno;;24A;Pas≥Ík;elblπski;warmiÒsko-mazurskie
 97-351;AP Krosno;Krosno;;1;Gorzkowice;piotrkowski;≥Ûdzkie
 38-400;UP Krosno 1;Krosno;Podwale;38;Krosno;Krosno;podkarpackie
 38-420;FUP Krosno 1;Korczyna;Rynek;17;Korczyna;kroúnieÒski;podkarpackie
@@ -2459,7 +2456,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 33-380;UP Krynica-ZdrÛj;Krynica-ZdrÛj;Zdrojowa;28;Krynica-ZdrÛj;nowosπdecki;ma≥opolskie
 33-370;FUP Krynica-ZdrÛj;Muszyna;Rynek;24;Muszyna;nowosπdecki;ma≥opolskie
 33-380;FUP Krynica-ZdrÛj;Tylicz;Rynek;3;Krynica-ZdrÛj;nowosπdecki;ma≥opolskie
-33-381;AP Krynica-ZdrÛj;Krynica-ZdrÛj;JÛzefa Ignacego Kraszewskiego;111 A;Krynica-ZdrÛj;nowosπdecki;ma≥opolskie
 07-430;AP Krysiaki;Krysiaki;;58A;Myszyniec;ostro≥Ícki;mazowieckie
 36-110;AP Krzπtka;Krzπtka;;102;Majdan KrÛlewski;kolbuszowski;podkarpackie
 23-110;UP KrzczonÛw;KrzczonÛw (KrzczonÛw-WÛjtostwo);Spokojna;7;KrzczonÛw;lubelski;lubelskie
@@ -2477,9 +2473,9 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 66-435;UP Krzeszyce;Krzeszyce;SkwierzyÒska;3;Krzeszyce;sulÍciÒski;lubuskie
 66-436;FUP Krzeszyce;S≥oÒsk;Sikorskiego;23;S≥oÒsk;sulÍciÒski;lubuskie
 74-120;AP Krzywin GryfiÒski;Krzywin;KrÛlewiecka;3;Widuchowa;gryfiÒski;zachodniopomorskie
-64-010;UP KrzywiÒ;KrzywiÒ;Rynek;8;KrzywiÒ;koúciaÒski;wielkopolskie
 64-761;UP Krzyø Wielkopolski;Krzyø Wielkopolski;Jana Paw≥a II;3;Krzyø Wielkopolski;czarnkowsko-trzcianecki;wielkopolskie
 64-733;FUP Krzyø Wielkopolski;Drawsko;PowstaÒcÛw Wielkopolskich;121;Drawsko;czarnkowsko-trzcianecki;wielkopolskie
+64-730;FUP Krzyø Wielkopolski;WieleÒ;Koúciuszki;33;WieleÒ;czarnkowsko-trzcianecki;wielkopolskie
 18-217;AP Krzyøewo;Krzyøewo;;15;Soko≥y;wysokomazowiecki;podlaskie
 57-350;UP Kudowa-ZdrÛj 1;Kudowa-ZdrÛj;1 Maja;12;Kudowa-ZdrÛj;k≥odzki;dolnoúlπskie
 57-340;FUP Kudowa-ZdrÛj 1;Duszniki-ZdrÛj;Adama Mickiewicza;10;Duszniki-ZdrÛj;k≥odzki;dolnoúlπskie
@@ -2492,7 +2488,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 07-440;AP Kunin;Kunin;;55;Goworowo;ostro≥Ícki;mazowieckie
 46-082;AP Kup;Kup;Rynek;18;DobrzeÒ Wielki;opolski;opolskie
 29-100;AP KurzelÛw;KurzelÛw;Plac 1 Maja;19;W≥oszczowa;w≥oszczowski;úwiÍtokrzyskie
-37-411;AP Kurzyna årednia;Kurzyna årednia;;16;UlanÛw;niøaÒski;podkarpackie
 64-316;AP Kuúlin;Kuúlin;PowstaÒcÛw Wielkopolskich;3;Kuúlin;nowotomyski;wielkopolskie
 99-305;AP Kutno;Kutno;Chopina;2;Kutno;kutnowski;≥Ûdzkie
 99-300;AP Kutno;Kutno;Stanis≥awa Konarskiego;1;Kutno;kutnowski;≥Ûdzkie
@@ -2517,14 +2512,12 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 82-505;FUP Kwidzyn 1;Kwidzyn;Sokola;7A;Kwidzyn;kwidzyÒski;pomorskie
 82-550;FUP Kwidzyn 1;Prabuty;Warszawska;1;Prabuty;kwidzyÒski;pomorskie
 82-522;FUP Kwidzyn 1;Sadlinki;KwidzyÒska;18;Sadlinki;kwidzyÒski;pomorskie
-14-412;AP Kwietniewo;Kwietniewo;;200/1;Rychliki;elblπski;warmiÒsko-mazurskie
 14-202;AP Laseczno;Laseczno;;39;I≥awa;i≥awski;warmiÒsko-mazurskie
 63-620;AP Laski;Laski;KÍpiÒska;15;Trzcinica;kÍpiÒski;wielkopolskie
 88-410;AP Laski Wielkie;Laski Wielkie;;9;Gπsawa;øniÒski;kujawsko-pomorskie
 64-110;AP Lasocice;Lasocice;åwiÍciechowska;12;åwiÍciechowa;leszczyÒski;wielkopolskie
 27-530;AP Lasocin;Lasocin;Oøarowska;2;OøarÛw;opatowski;úwiÍtokrzyskie
 59-243;AP Lasowice;Lasowice;;65;Ruja;legnicki;dolnoúlπskie
-46-282;AP Lasowice Ma≥e;Lasowice Ma≥e;Odrodzenia;30;Lasowice Wielkie;kluczborski;opolskie
 88-112;AP Latkowo;Latkowo;;32;Inowroc≥aw;inowroc≥awski;kujawsko-pomorskie
 57-551;UP Lπdek-ZdrÛj;Stronie ålπskie;Koúciuszki;41;Stronie ålπskie;k≥odzki;dolnoúlπskie
 57-543;FUP Lπdek-ZdrÛj;Lπdek-ZdrÛj;pl. Starom≥yÒski;2;Lπdek-ZdrÛj;k≥odzki;dolnoúlπskie
@@ -2549,7 +2542,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 59-200;UP Legnica 1;Legnica;Piastowska;72;Legnica;Legnica;dolnoúlπskie
 59-217;FUP Legnica 1;Legnica;Fabryczna;3;Legnica;Legnica;dolnoúlπskie
 59-212;FUP Legnica 1;Legnica;Jana Heweliusza;7;Legnica;Legnica;dolnoúlπskie
-59-210;FUP Legnica 1;Legnica;Izerska;2;Legnica;Legnica;dolnoúlπskie
+59-210;FUP Legnica 1;Legnica;Izerska;36;Legnica;Legnica;dolnoúlπskie
 59-204;FUP Legnica 1;Legnica;JaworzyÒska;43/45;Legnica;Legnica;dolnoúlπskie
 59-208;FUP Legnica 1;Legnica;Neptuna;15;Legnica;Legnica;dolnoúlπskie
 59-213;FUP Legnica 1;Legnica;Nowy åwiat;12;Legnica;Legnica;dolnoúlπskie
@@ -2588,6 +2581,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 64-104;FUP Leszno 1;Leszno;Ludwika Zamenhofa;18;Leszno;Leszno;wielkopolskie
 64-110;UP Leszno 2;Leszno;Dworcowa;3;Leszno;Leszno;wielkopolskie
 64-120;FUP Leszno 2;Krzemieniewo;Wiejska;164;Krzemieniewo;leszczyÒski;wielkopolskie
+64-107;FUP Leszno 2;Leszno;Boles≥awa Chrobrego;45;Leszno;Leszno;wielkopolskie
 64-110;FUP Leszno 2;Lipno;PowstaÒcÛw Wielkopolskich;53;Lipno;leszczyÒski;wielkopolskie
 64-113;FUP Leszno 2;Osieczna;Koúciuszki;10;Osieczna;leszczyÒski;wielkopolskie
 64-130;FUP Leszno 2;Rydzyna;rynek Rynek;5;Rydzyna;leszczyÒski;wielkopolskie
@@ -2595,6 +2589,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 64-115;FUP Leszno 2;skrytki/przegrÛdki;;;åwiÍciechowa;leszczyÒski;wielkopolskie
 64-150;FUP Leszno 2;Wijewo;PowstaÒcÛw Wielkopolskich;19;Wijewo;leszczyÒski;wielkopolskie
 64-140;FUP Leszno 2;W≥oszakowice;Apolonii Pra≥at;3;W≥oszakowice;leszczyÒski;wielkopolskie
+89-634;AP Leúno;Leúno;Kardyna≥a Stefana WyszyÒskiego;27;Brusy;chojnicki;pomorskie
 49-340;UP Lewin Brzeski;Lewin Brzeski;Pocztowa;8;Lewin Brzeski;brzeski;opolskie
 49-332;FUP Lewin Brzeski;Olszanka;;21;Olszanka;brzeski;opolskie
 49-345;FUP Lewin Brzeski;Skorogoszcz;Opolska;25;Lewin Brzeski;brzeski;opolskie
@@ -2625,7 +2620,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 11-106;FUP Lidzbark WarmiÒski;Kiwity;;29;Kiwity;lidzbarski;warmiÒsko-mazurskie
 11-100;FUP Lidzbark WarmiÒski;Lidzbark WarmiÒski;Bartoszycka;9;Lidzbark WarmiÒski;lidzbarski;warmiÒsko-mazurskie
 11-101;FUP Lidzbark WarmiÒski;Lidzbark WarmiÒski;Hoøa;1;Lidzbark WarmiÒski;lidzbarski;warmiÒsko-mazurskie
-63-441;AP Ligota;Ligota;Ostrowska;17;RaszkÛw;ostrowski;wielkopolskie
 56-400;AP Ligota Polska;Ligota Polska;;4A;Oleúnica;oleúnicki;dolnoúlπskie
 34-600;UP Limanowa;Limanowa;ks. Kazimierza £azarskiego;9;Limanowa;limanowski;ma≥opolskie
 34-642;FUP Limanowa;Dobra;;524;Dobra;limanowski;ma≥opolskie
@@ -2646,10 +2640,12 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 87-617;FUP Lipno 1;Bobrowniki;Senatorska;8;Bobrowniki;lipnowski;kujawsko-pomorskie
 87-602;FUP Lipno 1;Chrostkowo;;99;Chrostkowo;lipnowski;kujawsko-pomorskie
 87-640;FUP Lipno 1;Czernikowo;Juliusza S≥owackiego;2;Czernikowo;toruÒski;kujawsko-pomorskie
+87-613;FUP Lipno 1;DobrzyÒ nad Wis≥π;StodÛlna;16;DobrzyÒ nad Wis≥π;lipnowski;kujawsko-pomorskie
 87-621;FUP Lipno 1;KikÛ≥;RypiÒska;9;KikÛ≥;lipnowski;kujawsko-pomorskie
 87-601;FUP Lipno 1;Lipno;3 Maja;16;Lipno;lipnowski;kujawsko-pomorskie
 87-630;FUP Lipno 1;SkÍpe;Al. 1 Maja;68;SkÍpe;lipnowski;kujawsko-pomorskie
 87-605;FUP Lipno 1;T≥uchowo;Sierpecka;20;T≥uchowo;lipnowski;kujawsko-pomorskie
+87-604;FUP Lipno 1;Wielgie;Starowiejska;87;Wielgie;lipnowski;kujawsko-pomorskie
 87-645;FUP Lipno 1;ZbÛjno;;35;ZbÛjno;golubsko-dobrzyÒski;kujawsko-pomorskie
 12-103;AP Lipowiec;Lipowiec;;7;Szczytno;szczycieÒski;warmiÒsko-mazurskie
 14-504;AP Lipowina;Lipowina;;7;Braniewo;braniewski;warmiÒsko-mazurskie
@@ -2694,7 +2690,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 21-112;FUP LubartÛw 1;OstrÛw Lubelski;PartyzantÛw;1 A;OstrÛw Lubelski;lubartowski;lubelskie
 21-105;FUP LubartÛw 1;OstrÛwek-Kolonia;;57;OstrÛwek;lubartowski;lubelskie
 21-106;FUP LubartÛw 1;Serniki;;76A;Serniki;lubartowski;lubelskie
-21-109;FUP LubartÛw 1;Stary UúcimÛw;;37;UúcimÛw;lubartowski;lubelskie
+21-111;FUP LubartÛw 1;Stary UúcimÛw;;37;UúcimÛw;lubartowski;lubelskie
 14-260;UP Lubawa;Lubawa;GdaÒska;13;Lubawa;i≥awski;warmiÒsko-mazurskie
 14-261;AP Lubawa;Lubawa;Rzepnikowskiego;50;Lubawa;i≥awski;warmiÒsko-mazurskie
 33-162;AP Lubcza k. Jas≥a;Lubcza;;494;Ryglice;tarnowski;ma≥opolskie
@@ -2734,8 +2730,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 20-473;FUP Lublin 2;Lublin;Zbigniewa Herberta;14;Lublin;Lublin;lubelskie
 20-324;FUP Lublin 2;Lublin;KraÒcowa;106;Lublin;Lublin;lubelskie
 20-519;FUP Lublin 2;Lublin;KrÍønicka;167;Lublin;Lublin;lubelskie
-20-427;FUP Lublin 2;Lublin;W≥adys≥awa Kunickiego;229;Lublin;Lublin;lubelskie
 20-436;FUP Lublin 2;Lublin;W≥adys≥awa Kunickiego;132;Lublin;Lublin;lubelskie
+20-427;FUP Lublin 2;Lublin;W≥adys≥awa Kunickiego;229;Lublin;Lublin;lubelskie
 20-284;FUP Lublin 2;Lublin;Wac≥awa Moritza;2;Lublin;Lublin;lubelskie
 20-490;FUP Lublin 2;Lublin;Na≥kowskich;104;Lublin;Lublin;lubelskie
 20-448;FUP Lublin 2;Lublin;Na≥kowskich;230;Lublin;Lublin;lubelskie
@@ -2771,8 +2767,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 20-600;FUP Lublin 24;Lublin;Tomasza Zana;19;Lublin;Lublin;lubelskie
 20-155;UP Lublin 50;Lublin;Marii Koryznowej;2 C;Lublin;Lublin;lubelskie
 20-258;FUP Lublin 50;Jakubowice Murowane;;8;WÛlka;lubelski;lubelskie
-20-156;FUP Lublin 50;Lublin;Aleja SpÛ≥dzielczoúci Pracy;88;Lublin;Lublin;lubelskie
 20-160;FUP Lublin 50;Lublin;Aleja SpÛ≥dzielczoúci Pracy;32-36b/97;Lublin;Lublin;lubelskie
+20-156;FUP Lublin 50;Lublin;Aleja SpÛ≥dzielczoúci Pracy;88;Lublin;Lublin;lubelskie
 20-245;FUP Lublin 50;Lublin;Ignacego DaszyÒskiego;4a;Lublin;Lublin;lubelskie
 20-223;FUP Lublin 50;Lublin;Doøynkowa;21;Lublin;Lublin;lubelskie
 20-155;FUP Lublin 50;Lublin;Franciszka Kleeberga;12A;Lublin;Lublin;lubelskie
@@ -2787,7 +2783,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 20-859;FUP Lublin 56;Lublin;JÛzefa åliwiÒskiego;1;Lublin;Lublin;lubelskie
 20-856;FUP Lublin 56;Lublin;Wojciecha Øywnego;8;Lublin;Lublin;lubelskie
 20-990;PP Lublin L101;Lublin;Wac≥awa Moritza;2;Lublin;Lublin;lubelskie
-42-700;AP Lubliniec;Lubliniec;PowstaÒcÛw ålπskich;54 B;Lubliniec;lubliniecki;úlπskie
+42-700;AP Lubliniec;Lubliniec;PowstaÒcÛw ålπskich;54 ;Lubliniec;lubliniecki;úlπskie
 42-700;UP Lubliniec 1;Lubliniec;Miarki;22;Lubliniec;lubliniecki;úlπskie
 42-794;FUP Lubliniec 1;Ciasna;Magazynowa;19;Ciasna;lubliniecki;úlπskie
 42-713;FUP Lubliniec 1;Kochanowice;Lubliniecka;7;Kochanowice;lubliniecki;úlπskie
@@ -2801,9 +2797,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 62-032;FUP LuboÒ 1;skrytki/przegrÛdki;;;LuboÒ;poznaÒski;wielkopolskie
 62-030;FUP LuboÒ 1;LuboÒ;JÛzefa Poniatowskiego;18;LuboÒ;poznaÒski;wielkopolskie
 62-030;FUP LuboÒ 1;LuboÒ;Øabikowska;62;LuboÒ;poznaÒski;wielkopolskie
-89-211;AP LubostroÒ;LubostroÒ;;15;£abiszyn;øniÒski;kujawsko-pomorskie
 64-423;AP Lubosz;Lubosz;Wπska;1;Kwilcz;miÍdzychodzki;wielkopolskie
-09-304;UP Lubowidz;Lubowidz;Jana Paw≥a II;48;Lubowidz;øuromiÒski;mazowieckie
 68-300;UP Lubsko 1;Lubsko;PowstaÒcÛw Wielkopolskich;4A;Lubsko;øarski;lubuskie
 68-300;FUP Lubsko 1;Brody;Plac Zamkowy;3;Brody;øarski;lubuskie
 68-343;FUP Lubsko 1;skrytki/przegrÛdki;;;Brody;øarski;lubuskie
@@ -2824,6 +2818,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 26-003;FUP £agÛw k. Staszowa;Bieliny;Øeromskiego;2;Bieliny;kielecki;úwiÍtokrzyskie
 11-431;AP £ankiejmy;£ankiejmy;;11/1;Korsze;kÍtrzyÒski;warmiÒsko-mazurskie
 37-100;UP £aÒcut;£aÒcut;KrÛlowej Eløbiety;8;£aÒcut;≥aÒcucki;podkarpackie
+37-114;FUP £aÒcut;Bia≥obrzegi;;4;Bia≥obrzegi;≥aÒcucki;podkarpackie
 37-100;FUP £aÒcut;£aÒcut;Podzwierzyniec;41;£aÒcut;≥aÒcucki;podkarpackie
 37-120;FUP £aÒcut;Markowa;;1399;Markowa;≥aÒcucki;podkarpackie
 32-740;UP £apanÛw;£apanÛw;;80;£apanÛw;bocheÒski;ma≥opolskie
@@ -2870,7 +2865,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 21-070;FUP £Íczna 1;CycÛw;Che≥mska;1 G;CycÛw;≥ÍczyÒski;lubelskie
 21-075;FUP £Íczna 1;Ludwin;;23;Ludwin;≥ÍczyÒski;lubelskie
 21-017;FUP £Íczna 1;£Íczna;Wiosenna;4;£Íczna;≥ÍczyÒski;lubelskie
-21-020;FUP £Íczna 1;MilejÛw-Osada;Partyzancka;13;MilejÛw;≥ÍczyÒski;lubelskie
+21-020;FUP £Íczna 1;MilejÛw;Partyzancka;13;MilejÛw;≥ÍczyÒski;lubelskie
 21-013;FUP £Íczna 1;PuchaczÛw;Rynek;3;PuchaczÛw;≥ÍczyÒski;lubelskie
 21-077;FUP £Íczna 1;Spiczyn;;23;Spiczyn;≥ÍczyÒski;lubelskie
 99-100;UP £Íczyca;£Íczyca;Kaliska;42;£Íczyca;≥Íczycki;≥Ûdzkie
@@ -2922,9 +2917,12 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 26-070;AP £opuszno;£opuszno;Straøacka;4;£opuszno;kielecki;úwiÍtokrzyskie
 08-200;UP £osice;£osice;Koúciuszki;3;£osice;≥osicki;mazowieckie
 08-206;FUP £osice;Huszlew;;77;Huszlew;≥osicki;mazowieckie
+08-108;FUP £osice;Korczew;Szkolna;3;Korczew;siedlecki;mazowieckie
 08-141;FUP £osice;Mordy;KiliÒskiego;8;Mordy;siedlecki;mazowieckie
 08-207;FUP £osice;Olszanka;;38;Olszanka;≥osicki;mazowieckie
+08-107;FUP £osice;Paprotnia;Jana Paw≥a II;4;Paprotnia;siedlecki;mazowieckie
 08-211;FUP £osice;PlaterÛw;Pocztowa;10;PlaterÛw;≥osicki;mazowieckie
+08-109;FUP £osice;Przesmyki;11 Listopada;5B;Przesmyki;siedlecki;mazowieckie
 08-220;FUP £osice;Sarnaki;Kolejowa;8;Sarnaki;≥osicki;mazowieckie
 08-205;FUP £osice;Stara Kornica;;168;Stara Kornica;≥osicki;mazowieckie
 08-200;AP £osice;£osice;Kolejowa;37;£osice;≥osicki;mazowieckie
@@ -2953,6 +2951,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 91-157;AP £Ûdü;£Ûdü (£Ûdü-Ba≥uty);Wici;44;£Ûdü;£Ûdü;≥Ûdzkie
 93-510;AP £Ûdü;£Ûdü (£Ûdü-GÛrna);Konstantego Cio≥kowskiego;6;£Ûdü;£Ûdü;≥Ûdzkie
 90-322;AP £Ûdü;£Ûdü (£Ûdü-GÛrna);Jana KiliÒskiego;164;£Ûdü;£Ûdü;≥Ûdzkie
+93-193;AP £Ûdü;£Ûdü (£Ûdü-GÛrna);£Íczycka;56;£Ûdü;£Ûdü;≥Ûdzkie
 93-410;AP £Ûdü;£Ûdü (£Ûdü-GÛrna);£ukowa;18/u 2;£Ûdü;£Ûdü;≥Ûdzkie
 93-102;AP £Ûdü;£Ûdü (£Ûdü-GÛrna);Stanis≥awa Przybyszewskiego;17;£Ûdü;£Ûdü;≥Ûdzkie
 93-008;AP £Ûdü;£Ûdü (£Ûdü-GÛrna);Rzgowska;37;£Ûdü;£Ûdü;≥Ûdzkie
@@ -2963,6 +2962,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 90-135;AP £Ûdü;£Ûdü (£Ûdü-årÛdmieúcie);Prezydenta Gabriela Narutowicza;8/10;£Ûdü;£Ûdü;≥Ûdzkie
 90-306;AP £Ûdü;£Ûdü (£Ûdü-årÛdmieúcie);al. marsz. JÛzefa Pi≥sudskiego;15/23;£Ûdü;£Ûdü;≥Ûdzkie
 90-530;AP £Ûdü;£Ûdü (£Ûdü-årÛdmieúcie);WÛlczaÒska;167/1U;£Ûdü;£Ûdü;≥Ûdzkie
+91-403;AP £Ûdü;£Ûdü (£Ûdü-Widzew);Pomorska;116;£Ûdü;£Ûdü;≥Ûdzkie
 93-286;AP £Ûdü;£Ûdü (£Ûdü-Widzew);PrzÍdzalniana;133;£Ûdü;£Ûdü;≥Ûdzkie
 92-548;AP £Ûdü;£Ûdü (£Ûdü-Widzew);Aleksandra Tansmana;2/4;£Ûdü;£Ûdü;≥Ûdzkie
 90-001;UP £Ûdü 1;£Ûdü (£Ûdü-årÛdmieúcie);Juliana Tuwima;38;£Ûdü;£Ûdü;≥Ûdzkie
@@ -3026,15 +3026,15 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 91-071;FUP £Ûdü 40;£Ûdü (£Ûdü-Ba≥uty);Jana Karskiego;5;£Ûdü;£Ûdü;≥Ûdzkie
 93-457;FUP £Ûdü 40;£Ûdü (£Ûdü-GÛrna);Pabianicka;245;£Ûdü;£Ûdü;≥Ûdzkie
 94-001;FUP £Ûdü 40;£Ûdü (£Ûdü-Polesie);Rajdowa;2;£Ûdü;£Ûdü;≥Ûdzkie
-90-054;FUP £Ûdü 40;£Ûdü (£Ûdü-årÛdmieúcie);Piotrkowska;134;£Ûdü;£Ûdü;≥Ûdzkie
 90-407;FUP £Ûdü 40;£Ûdü (£Ûdü-årÛdmieúcie);Piotrkowska;17;£Ûdü;£Ûdü;≥Ûdzkie
+90-054;FUP £Ûdü 40;£Ûdü (£Ûdü-årÛdmieúcie);Piotrkowska;134;£Ûdü;£Ûdü;≥Ûdzkie
 90-955;FUP £Ûdü 40;skrytki/przegrÛdki;;;£Ûdü;£Ûdü;≥Ûdzkie
 90-979;FUP £Ûdü 40;skrytki/przegrÛdki;;;£Ûdü;£Ûdü;≥Ûdzkie
 91-101;UP £Ûdü 52;£Ûdü (£Ûdü-Ba≥uty);Lipiec Reymontowskich;7;£Ûdü;£Ûdü;≥Ûdzkie
 90-961;UP £Ûdü 52;skrytki/przegrÛdki;;;£Ûdü;£Ûdü;≥Ûdzkie
 91-154;FUP £Ûdü 52;£Ûdü (£Ûdü-Ba≥uty);Aleksandrowska;149;£Ûdü;£Ûdü;≥Ûdzkie
-91-333;FUP £Ûdü 52;£Ûdü (£Ûdü-Ba≥uty);Boles≥awa Limanowskiego;119;£Ûdü;£Ûdü;≥Ûdzkie
 91-031;FUP £Ûdü 52;£Ûdü (£Ûdü-Ba≥uty);Boles≥awa Limanowskiego;196 A;£Ûdü;£Ûdü;≥Ûdzkie
+91-333;FUP £Ûdü 52;£Ûdü (£Ûdü-Ba≥uty);Boles≥awa Limanowskiego;119;£Ûdü;£Ûdü;≥Ûdzkie
 91-159;FUP £Ûdü 52;£Ûdü (£Ûdü-Ba≥uty);Lniana;2;£Ûdü;£Ûdü;≥Ûdzkie
 91-174;FUP £Ûdü 52;£Ûdü (£Ûdü-Ba≥uty);Romanowska;55 F;£Ûdü;£Ûdü;≥Ûdzkie
 91-023;FUP £Ûdü 52;£Ûdü (£Ûdü-Ba≥uty);Øubardzka;3;£Ûdü;£Ûdü;≥Ûdzkie
@@ -3073,8 +3073,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 90-983;UP £Ûdü 84;skrytki/przegrÛdki;;;£Ûdü;£Ûdü;≥Ûdzkie
 93-610;FUP £Ûdü 84;£Ûdü (£Ûdü-GÛrna);Kolumny;6/36;£Ûdü;£Ûdü;≥Ûdzkie
 93-159;FUP £Ûdü 84;£Ûdü (£Ûdü-GÛrna);Maurycego Mochnackiego;1/3;£Ûdü;£Ûdü;≥Ûdzkie
-93-316;FUP £Ûdü 84;£Ûdü (£Ûdü-GÛrna);Rzgowska;281/289;£Ûdü;£Ûdü;≥Ûdzkie
 93-315;FUP £Ûdü 84;£Ûdü (£Ûdü-GÛrna);Rzgowska;214 A;£Ûdü;£Ûdü;≥Ûdzkie
+93-316;FUP £Ûdü 84;£Ûdü (£Ûdü-GÛrna);Rzgowska;281/289;£Ûdü;£Ûdü;≥Ûdzkie
 93-385;FUP £Ûdü 84;£Ûdü (£Ûdü-GÛrna);Øywotna;66/68;£Ûdü;£Ûdü;≥Ûdzkie
 90-958;FUP £Ûdü 84;skrytki/przegrÛdki;;;£Ûdü;£Ûdü;≥Ûdzkie
 90-016;PP £Ûdü E225;£Ûdü (£Ûdü-Polesie);al. W≥Ûkniarzy;227;£Ûdü;£Ûdü;≥Ûdzkie
@@ -3095,7 +3095,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 21-404;FUP £ukÛw 1;TrzebieszÛw Drugi;;32;TrzebieszÛw;≥ukowski;lubelskie
 21-423;FUP £ukÛw 1;Tuchowicz;;66 B;Stanin;≥ukowski;lubelskie
 21-426;FUP £ukÛw 1;Wola Mys≥owska;;57;Wola Mys≥owska;≥ukowski;lubelskie
-18-100;AP £upianka Stara;£upianka Stara;;32D;£apy;bia≥ostocki;podlaskie
 20-258;AP £uszczÛw Drugi;£uszczÛw Drugi;;103;WÛlka;lubelski;lubelskie
 06-463;AP £ysakowo;£ysakowo;;2;Grudusk;ciechanowski;mazowieckie
 07-437;UP £yse;£yse;Poleg≥ych;22;£yse;ostro≥Ícki;mazowieckie
@@ -3109,6 +3108,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 06-232;FUP MakÛw Mazowiecki;Czerwonka Szlachecka;;42;Czerwonka;makowski;mazowieckie
 06-225;FUP MakÛw Mazowiecki;Rzewnie;;44a;Rzewnie;makowski;mazowieckie
 06-220;FUP MakÛw Mazowiecki;Stary SzelkÛw;;34;SzelkÛw;makowski;mazowieckie
+34-219;AP MakÛw PodhalaÒski;MakÛw PodhalaÒski;Wolnoúci;33;MakÛw PodhalaÒski;suski;ma≥opolskie
 82-200;UP Malbork 1;Malbork;17 Marca;38;Malbork;malborski;pomorskie
 82-203;FUP Malbork 1;Lasowice Wielkie;;86;Malbork;malborski;pomorskie
 82-224;FUP Malbork 1;Lichnowy;Tczewska;6;Lichnowy;malborski;pomorskie
@@ -3138,6 +3138,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 05-260;FUP Marki 1;Marki (Pustelnik);Al. Marsz. JÛzefa Pi≥sudskiego;139;Marki;wo≥omiÒski;mazowieckie
 38-124;AP Markuszowa;Markuszowa;;32;Wiúniowa;strzyøowski;podkarpackie
 11-403;AP Martiany;Martiany;; ;KÍtrzyn;kÍtrzyÒski;warmiÒsko-mazurskie
+14-402;AP Marzewo;Marzewo;;21;Pas≥Ík;elblπski;warmiÒsko-mazurskie
 13-307;AP MarzÍcice;MarzÍcice;Nowomiejska;9;KurzÍtnik;nowomiejski;warmiÒsko-mazurskie
 22-501;AP Mas≥omÍcz;Mas≥omÍcz;;100;HrubieszÛw;hrubieszowski;lubelskie
 98-301;AP Mas≥owice;Mas≥owice;;144B;WieluÒ;wieluÒski;≥Ûdzkie
@@ -3148,8 +3149,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 77-200;UP Miastko 1;Miastko;Armii Krajowej;31;Miastko;bytowski;pomorskie
 77-220;FUP Miastko 1;Kocza≥a;Cz≥uchowska;26;Kocza≥a;cz≥uchowski;pomorskie
 77-200;FUP Miastko 1;Miastko;Ma≥opolska;34;Miastko;bytowski;pomorskie
-22-455;UP Miπczyn;Miπczyn;;164;Miπczyn;zamojski;lubelskie
-22-426;FUP Miπczyn;Grabowiec;Wojs≥awska;1;Grabowiec;zamojski;lubelskie
 21-140;UP MichÛw;MichÛw;Straøacka;4/3;MichÛw;lubartowski;lubelskie
 21-143;FUP MichÛw;AbramÛw;Szkolna;2;AbramÛw;lubartowski;lubelskie
 21-146;FUP MichÛw;Jeziorzany;Rynek;33;Jeziorzany;lubartowski;lubelskie
@@ -3183,7 +3182,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 39-308;FUP Mielec 1;Wadowice GÛrne;;116;Wadowice GÛrne;mielecki;podkarpackie
 78-630;AP MielÍcin k. Wa≥cza;MielÍcin;1 Maja;12;Cz≥opa;wa≥ecki;zachodniopomorskie
 42-460;UP MierzÍcice;MierzÍcice;Wolnoúci;95;MierzÍcice;bÍdziÒski;úlπskie
-73-155;AP Mieszewo;Mieszewo;;35a;WÍgorzyno;≥obeski;zachodniopomorskie
 63-200;AP MieszkÛw;MieszkÛw;Dworcowa;20 A;Jarocin;jarociÒski;wielkopolskie
 56-514;AP MiÍdzybÛrz;MiÍdzybÛrz;Rynek;11;MiÍdzybÛrz;oleúnicki;dolnoúlπskie
 34-312;UP MiÍdzybrodzie Bialskie;MiÍdzybrodzie Bialskie;Straøacka;9;CzernichÛw;øywiecki;úlπskie
@@ -3207,7 +3205,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 66-331;FUP MiÍdzyrzecz 1;Pszczew;PoznaÒska;23/1;Pszczew;miÍdzyrzecki;lubuskie
 66-320;FUP MiÍdzyrzecz 1;Trzciel;PoznaÒska;2;Trzciel;miÍdzyrzecki;lubuskie
 43-392;AP MiÍdzyrzecze GÛrne;MiÍdzyrzecze GÛrne;Centralna;453;Jasienica;bielski;úlπskie
-72-500;UP MiÍdzyzdroje;MiÍdzyzdroje;Gryfa Pomorskiego;7;MiÍdzyzdroje;kamieÒski;zachodniopomorskie
 32-708;AP Mikluszowice;Mikluszowice;;263;Drwinia;bocheÒski;ma≥opolskie
 43-191;AP Miko≥Ûw;Miko≥Ûw;Krakowska;16;Miko≥Ûw;miko≥owski;úlπskie
 43-190;UP Miko≥Ûw 1;Miko≥Ûw;Øwirki i Wigury;11;Miko≥Ûw;miko≥owski;úlπskie
@@ -3233,22 +3230,23 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 05-303;UP MiÒsk Mazowiecki 2;Stojad≥a;Pogodna;1;MiÒsk Mazowiecki;miÒski;mazowieckie
 05-311;FUP MiÒsk Mazowiecki 2;DÍbe Wielkie;Straøacka;3;DÍbe Wielkie;miÒski;mazowieckie
 05-308;FUP MiÒsk Mazowiecki 2;Dobre;Tadeusza Koúciuszki;28;Dobre;miÒski;mazowieckie
+05-074;FUP MiÒsk Mazowiecki 2;HalinÛw;Jana Paw≥a II;30;HalinÛw;miÒski;mazowieckie
 05-306;FUP MiÒsk Mazowiecki 2;JakubÛw;MiÒska;27;JakubÛw;miÒski;mazowieckie
 05-332;FUP MiÒsk Mazowiecki 2;Siennica;Ko≥bielska;3;Siennica;miÒski;mazowieckie
 05-304;FUP MiÒsk Mazowiecki 2;Stanis≥awÛw;Rynek;7;Stanis≥awÛw;miÒski;mazowieckie
-22-530;UP Mircze;Mircze;Kry≥owska;33;Mircze;hrubieszowski;lubelskie
-22-540;FUP Mircze;Do≥hobyczÛw;Hallera;10;Do≥hobyczÛw;hrubieszowski;lubelskie
 55-095;UP MirkÛw;MirkÛw;Wolnoúci;42/44;D≥ugo≥Íka;wroc≥awski;dolnoúlπskie
 55-090;FUP MirkÛw;D≥ugo≥Íka;W≥adys≥awa Broniewskiego;11;D≥ugo≥Íka;wroc≥awski;dolnoúlπskie
 55-093;FUP MirkÛw;Kie≥czÛw;Wilczycka;14;D≥ugo≥Íka;wroc≥awski;dolnoúlπskie
 55-095;FUP MirkÛw;£ozina;Milicka;4;D≥ugo≥Íka;wroc≥awski;dolnoúlπskie
 06-503;AP M≥awa;M≥awa;Dobra;24;M≥awa;m≥awski;mazowieckie
+06-500;AP M≥awa;M≥awa;Padlewskiego;22/15;M≥awa;m≥awski;mazowieckie
 06-500;UP M≥awa 1;M≥awa;Øwirki;2;M≥awa;m≥awski;mazowieckie
 06-523;FUP M≥awa 1;Dzierzgowo;Cicha;1;Dzierzgowo;m≥awski;mazowieckie
 06-560;FUP M≥awa 1;Konopki;Kwiatowa;14;Stupsk;m≥awski;mazowieckie
 06-545;FUP M≥awa 1;Lipowiec Koúcielny;;213;Lipowiec Koúcielny;m≥awski;mazowieckie
 06-501;FUP M≥awa 1;M≥awa;os. Osiedle M≥odych;36;M≥awa;m≥awski;mazowieckie
 06-500;FUP M≥awa 1;M≥awa;Henryka Sienkiewicza;13/14;M≥awa;m≥awski;mazowieckie
+06-445;FUP M≥awa 1;Strzegowo;Wyzwolenia;25;Strzegowo;m≥awski;mazowieckie
 06-562;FUP M≥awa 1;Stupsk;Henryka Sienkiewicza;10;Stupsk;m≥awski;mazowieckie
 06-516;FUP M≥awa 1;Szyd≥owo;Mazowiecka;74;Szyd≥owo;m≥awski;mazowieckie
 06-513;FUP M≥awa 1;Wieczfnia Koúcielna;;96;Wieczfnia Koúcielna;m≥awski;mazowieckie
@@ -3284,6 +3282,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 14-301;AP Morπg;Morπg;Armii Krajowej;13/1;Morπg;ostrÛdzki;warmiÒsko-mazurskie
 14-302;AP Morπg;Morπg;Genera≥a Jana Henryka Dπbrowskiego;50;Morπg;ostrÛdzki;warmiÒsko-mazurskie
 14-303;AP Morπg;Morπg;Mickiewicza;11 C;Morπg;ostrÛdzki;warmiÒsko-mazurskie
+74-504;AP MoryÒ;MoryÒ;OdrzaÒska;2;MoryÒ;gryfiÒski;zachodniopomorskie
 62-050;UP Mosina;Mosina;Kolejowa;1;Mosina;poznaÒski;wielkopolskie
 62-050;FUP Mosina;Mosina;BudzyÒska;10a;Mosina;poznaÒski;wielkopolskie
 62-050;AP Mosina;Mosina;Krasickiego;1;Mosina;poznaÒski;wielkopolskie
@@ -3298,17 +3297,14 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 11-710;FUP Mrπgowo 1;Piecki;Wolnoúci;1;Piecki;mrπgowski;warmiÒsko-mazurskie
 11-731;FUP Mrπgowo 1;Sorkwity;Szkolna;18;Sorkwity;mrπgowski;warmiÒsko-mazurskie
 63-604;AP MroczeÒ;MroczeÒ;Pa≥acowa;10;BaranÛw;kÍpiÒski;wielkopolskie
-26-300;AP MroczkÛw Goúcinny;MroczkÛw Goúcinny;;52;Opoczno;opoczyÒski;≥Ûdzkie
 13-308;AP Mroczno;Mroczno;;78A;Grodziczno;nowomiejski;warmiÒsko-mazurskie
 36-072;AP Mrowla;Mrowla;;83 D;åwilcza;rzeszowski;podkarpackie
-05-320;UP Mrozy;Mrozy;Jana KiliÒskiego;1;Mrozy;miÒski;mazowieckie
 38-503;AP Mrzyg≥Ûd;Mrzyg≥Ûd;;175;Sanok;sanocki;podkarpackie
 34-730;UP Mszana Dolna;Mszana Dolna;Maksymiliana Marii Kolbego;3;Mszana Dolna;limanowski;ma≥opolskie
 34-735;FUP Mszana Dolna;Niedüwiedü;;233;Niedüwiedü;limanowski;ma≥opolskie
 19-214;AP Múcichy;Múcichy;;24;Radzi≥Ûw;grajewski;podlaskie
 83-325;AP Múciszewice;Múciszewice;Kaszubska;1;SulÍczyno;kartuski;pomorskie
 59-407;AP MúciwojÛw;MúciwojÛw;;40A;MúciwojÛw;jaworski;dolnoúlπskie
-32-723;AP MuchÛwka;MuchÛwka;;60;Nowy Wiúnicz;bocheÒski;ma≥opolskie
 62-095;UP Murowana Goúlina 1;Murowana Goúlina;Mostowa;2;Murowana Goúlina;poznaÒski;wielkopolskie
 62-095;FUP Murowana Goúlina 1;Murowana Goúlina;Nowy Rynek;16;Murowana Goúlina;poznaÒski;wielkopolskie
 62-096;FUP Murowana Goúlina 1;skrytki/przegrÛdki;;;Murowana Goúlina;poznaÒski;wielkopolskie
@@ -3376,9 +3372,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 13-113;FUP Nidzica;Janowo;Przasnyska;14;Janowo;nidzicki;warmiÒsko-mazurskie
 13-124;FUP Nidzica;Koz≥owo;Nidzicka;17;Koz≥owo;nidzicki;warmiÒsko-mazurskie
 13-100;FUP Nidzica;Nidzica;OlsztyÒska;2 C;Nidzica;nidzicki;warmiÒsko-mazurskie
-13-104;AP Nidzica;Nidzica;Konopnickiej;12;Nidzica;nidzicki;warmiÒsko-mazurskie
-13-101;AP Nidzica;Nidzica;1 Maja;49;Nidzica;nidzicki;warmiÒsko-mazurskie
-13-103;AP Nidzica;Nidzica;S≥oneczna;1;Nidzica;nidzicki;warmiÒsko-mazurskie
+13-103;AP Nidzica;Nidzica;Aleja Sprzymierzonych;32;Nidzica;nidzicki;warmiÒsko-mazurskie
 38-500;AP Niebieszczany;Niebieszczany;;111A;Sanok;sanocki;podkarpackie
 99-416;UP NieborÛw k. £owicza;NieborÛw;Aleja Lipowa;96;NieborÛw;≥owicki;≥Ûdzkie
 99-418;FUP NieborÛw k. £owicza;Be≥chÛw;Przemys≥owa;2;NieborÛw;≥owicki;≥Ûdzkie
@@ -3428,7 +3422,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 39-460;UP Nowa DÍba;Nowa DÍba;Rzeszowska;3;Nowa DÍba;tarnobrzeski;podkarpackie
 39-461;AP Nowa DÍba;Nowa DÍba;Ignacego Krasickiego;bn;Nowa DÍba;tarnobrzeski;podkarpackie
 09-440;AP Nowa GÛra;Nowa GÛra;P≥ocka;20;Staroüreby;p≥ocki;mazowieckie
-16-427;AP Nowa Paw≥Ûwka;Nowa Paw≥Ûwka;;2A;Przeroúl;suwalski;podlaskie
 57-400;UP Nowa Ruda 1;Nowa Ruda;Niepodleg≥oúci;1;Nowa Ruda;k≥odzki;dolnoúlπskie
 57-403;FUP Nowa Ruda 1;Nowa Ruda;KraÒcowa;1;Nowa Ruda;k≥odzki;dolnoúlπskie
 57-401;FUP Nowa Ruda 1;Nowa Ruda;åwidnicka;35;Nowa Ruda;k≥odzki;dolnoúlπskie
@@ -3487,6 +3480,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 82-100;UP Nowy DwÛr GdaÒski;Nowy DwÛr GdaÒski;Dworcowa;14;Nowy DwÛr GdaÒski;nowodworski;pomorskie
 82-100;FUP Nowy DwÛr GdaÒski;Ostaszewo;Nowodworska;10;Ostaszewo;nowodworski;pomorskie
 82-100;AP Nowy DwÛr GdaÒski;Nowy DwÛr GdaÒski;os. Osiedle im. Kardyna≥a Stefana WyszyÒskiego;5;Nowy DwÛr GdaÒski;nowodworski;pomorskie
+82-101;AP Nowy DwÛr GdaÒski;Nowy DwÛr GdaÒski;gen. W≥adys≥awa Sikorskiego;9/1;Nowy DwÛr GdaÒski;nowodworski;pomorskie
 05-103;AP Nowy DwÛr Mazowiecki;Nowy DwÛr Mazowiecki;ChemikÛw;6A;Nowy DwÛr Mazowiecki;nowodworski;mazowieckie
 05-100;UP Nowy DwÛr Mazowiecki 1;Nowy DwÛr Mazowiecki;ModliÒska;2;Nowy DwÛr Mazowiecki;nowodworski;mazowieckie
 05-152;FUP Nowy DwÛr Mazowiecki 1;CzosnÛw;Straøacka;10;CzosnÛw;nowodworski;mazowieckie
@@ -3547,7 +3541,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 48-304;FUP Nysa 3;Nysa;22 Stycznia;14;Nysa;nyski;opolskie
 26-027;AP Obice;Obice;Kwiatowa;1;Morawica;kielecki;úwiÍtokrzyskie
 28-350;AP ObiechÛw;ObiechÛw;;13;S≥upia;jÍdrzejowski;úwiÍtokrzyskie
-28-134;AP OblekoÒ;OblekoÒ;;265A;PacanÛw;buski;úwiÍtokrzyskie
 59-333;AP Obora;Obora;Szafirowa;19;Lubin;lubiÒski;dolnoúlπskie
 64-600;AP Oborniki;Oborniki;11 Listopada;2;Oborniki;obornicki;wielkopolskie
 64-600;UP Oborniki k. Poznania 1;Oborniki;Marsza≥ka JÛzefa Pi≥sudskiego;30;Oborniki;obornicki;wielkopolskie
@@ -3559,11 +3552,10 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 82-550;AP Obrzynowo;Obrzynowo;;35;Prabuty;kwidzyÒski;pomorskie
 63-460;AP Ociπø;Ociπø;Parkowa;28;Nowe Skalmierzyce;ostrowski;wielkopolskie
 83-240;AP Ocypel;Ocypel;Kociewska;38;Lubichowo;starogardzki;pomorskie
-26-626;AP Odechowiec;Odechowiec;;135;Skaryszew;radomski;mazowieckie
-63-430;UP OdolanÛw;OdolanÛw;Bartosza;3;OdolanÛw;ostrowski;wielkopolskie
-63-435;FUP OdolanÛw;Soúnie;Wielkopolska;45;Soúnie;ostrowski;wielkopolskie
+26-626;AP Odechowiec;Odechowiec;;107;Skaryszew;radomski;mazowieckie
 38-406;AP OdrzykoÒ;OdrzykoÒ;Jana Paw≥a II;34;WojaszÛwka;kroúnieÒski;podkarpackie
 66-503;AP Ogardy;Ogardy;;19;Strzelce KrajeÒskie;strzelecko-drezdenecki;lubuskie
+89-666;AP Ogorzeliny;Ogorzeliny;Pocztowa;2;Chojnice;chojnicki;pomorskie
 42-440;UP Ogrodzieniec;Ogrodzieniec;Plac Wolnoúci;41;Ogrodzieniec;zawierciaÒski;úlπskie
 27-423;AP OkÛ≥;OkÛ≥;;118;Ba≥tÛw;ostrowiecki;úwiÍtokrzyskie
 22-105;AP OkszÛw;OkszÛw;RÛøana;8;Che≥m;che≥mski;lubelskie
@@ -3645,13 +3637,13 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 11-036;FUP Olsztynek;Gietrzwa≥d;OlsztyÒska;2;Gietrzwa≥d;olsztyÒski;warmiÒsko-mazurskie
 59-831;AP Olszyna;Olszyna;Legnicka;47;Olszyna;lubaÒski;dolnoúlπskie
 18-421;AP Olszyny;Olszyny;Weso≥a;22 A;Piπtnica;≥omøyÒski;podlaskie
-33-164;AP Olszyny;Olszyny;;44B;Rzepiennik Strzyøewski;tarnowski;ma≥opolskie
 12-100;AP Olszyny;Olszyny;;34;Szczytno;szczycieÒski;warmiÒsko-mazurskie
+33-164;AP Olszyny;Olszyny;;44B;Rzepiennik Strzyøewski;tarnowski;ma≥opolskie
 55-208;AP O≥awa;O≥awa;Boles≥awa Chrobrego;23/A;O≥awa;o≥awski;dolnoúlπskie
 55-204;AP O≥awa;O≥awa;Fryderyka Chopina;17/A;O≥awa;o≥awski;dolnoúlπskie
 55-205;AP O≥awa;O≥awa;ks. Franciszka Kutrowskiego;29/C;O≥awa;o≥awski;dolnoúlπskie
 55-200;AP O≥awa;O≥awa;11 Listopada;2/16;O≥awa;o≥awski;dolnoúlπskie
-55-207;AP O≥awa;O≥awa;3 Maja;4H;O≥awa;o≥awski;dolnoúlπskie
+55-207;AP O≥awa;O≥awa;3 Maja;4B;O≥awa;o≥awski;dolnoúlπskie
 55-200;UP O≥awa 1;O≥awa;1 Maja;21;O≥awa;o≥awski;dolnoúlπskie
 55-203;FUP O≥awa 1;O≥awa;Jaros≥awa Iwaszkiewicza;9;O≥awa;o≥awski;dolnoúlπskie
 55-201;FUP O≥awa 1;O≥awa;Wroc≥awska;6;O≥awa;o≥awski;dolnoúlπskie
@@ -3689,8 +3681,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 45-222;FUP Opole 6;Opole;ChabrÛw;31;Opole;Opole;opolskie
 45-316;FUP Opole 6;Opole;Kielecka;2;Opole;Opole;opolskie
 45-286;FUP Opole 6;Opole;SkautÛw Opolskich;7A;Opole;Opole;opolskie
-45-265;FUP Opole 6;Opole;Kazimierza Sosnkowskiego;40/42;Opole;Opole;opolskie
 45-273;FUP Opole 6;Opole;Kazimierza Sosnkowskiego;16/24;Opole;Opole;opolskie
+45-265;FUP Opole 6;Opole;Kazimierza Sosnkowskiego;40/42;Opole;Opole;opolskie
 45-470;FUP Opole 6;Opole;Tysiπclecia;33;Opole;Opole;opolskie
 45-710;UP Opole 7;Opole;Stanis≥awa Spychalskiego;4 D/15;Opole;Opole;opolskie
 46-071;FUP Opole 7;Komprachcice;Szkolna;15;Komprachcice;opolski;opolskie
@@ -3735,6 +3727,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 07-407;FUP Ostro≥Íka 2;Czerwin;Piastowska;7;Czerwin;ostro≥Ícki;mazowieckie
 07-440;FUP Ostro≥Íka 2;Goworowo;Rynek;14;Goworowo;ostro≥Ícki;mazowieckie
 07-402;FUP Ostro≥Íka 2;Lelis;Szkolna;41;Lelis;ostro≥Ícki;mazowieckie
+06-231;FUP Ostro≥Íka 2;M≥ynarze;Ostro≥Ícka;22;M≥ynarze;makowski;mazowieckie
 07-415;FUP Ostro≥Íka 2;Olszewo-Borki;3-go Maja;1;Olszewo-Borki;ostro≥Ícki;mazowieckie
 07-401;FUP Ostro≥Íka 2;Ostro≥Íka;Aleja Wojska Polskiego;42;Ostro≥Íka;Ostro≥Íka;mazowieckie
 07-410;FUP Ostro≥Íka 2;Ostro≥Íka;Aleja Jana Paw≥a II;4;Ostro≥Íka;Ostro≥Íka;mazowieckie
@@ -3742,6 +3735,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 07-413;FUP Ostro≥Íka 2;Ostro≥Íka;gen. W≥adys≥awa Sikorskiego;4;Ostro≥Íka;Ostro≥Íka;mazowieckie
 07-419;FUP Ostro≥Íka 2;Ostro≥Íka;Targowa;24;Ostro≥Íka;Ostro≥Íka;mazowieckie
 07-417;FUP Ostro≥Íka 2;Ostro≥Íka;Stefana Øeromskiego;13;Ostro≥Íka;Ostro≥Íka;mazowieckie
+06-230;FUP Ostro≥Íka 2;RÛøan;Warszawska;8;RÛøan;makowski;mazowieckie
 07-411;FUP Ostro≥Íka 2;RzekuÒ;Koúciuszki;40;RzekuÒ;ostro≥Ícki;mazowieckie
 07-405;FUP Ostro≥Íka 2;Troszyn;Szkolna;3;Troszyn;ostro≥Ícki;mazowieckie
 58-260;AP Ostroszowice;Ostroszowice;Bielawska;54;DzierøoniÛw;dzierøoniowski;dolnoúlπskie
@@ -3777,7 +3771,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 14-100;FUP OstrÛda 1;OstrÛda;Stefana Jaracza;20;OstrÛda;ostrÛdzki;warmiÒsko-mazurskie
 14-100;FUP OstrÛda 1;OstrÛda;Seweryna PieniÍønego;47 B;OstrÛda;ostrÛdzki;warmiÒsko-mazurskie
 23-215;AP OstrÛw;OstrÛw;;30;Wilko≥az;kraúnicki;lubelskie
-21-110;UP OstrÛw Lubelski;OstrÛw Lubelski;PartyzantÛw;1 A;OstrÛw Lubelski;lubartowski;lubelskie
 07-301;AP OstrÛw Mazowiecka;OstrÛw Mazowiecka;Tamkowa;28;OstrÛw Mazowiecka;ostrowski;mazowieckie
 07-300;UP OstrÛw Mazowiecka 1;OstrÛw Mazowiecka;Pocztowa;6;OstrÛw Mazowiecka;ostrowski;mazowieckie
 07-306;FUP OstrÛw Mazowiecka 1;Brok;Warszawska;15;Brok;ostrowski;mazowieckie
@@ -3796,7 +3789,10 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 63-400;FUP OstrÛw Wielkopolski 1;OstrÛw Wielkopolski;Konopnickiej;30A;OstrÛw Wielkopolski;ostrowski;wielkopolskie
 63-400;FUP OstrÛw Wielkopolski 1;OstrÛw Wielkopolski;Aleja PowstaÒcÛw Wielkopolskich;18;OstrÛw Wielkopolski;ostrowski;wielkopolskie
 63-410;UP OstrÛw Wielkopolski 2;OstrÛw Wielkopolski;Towarowa;3;OstrÛw Wielkopolski;ostrowski;wielkopolskie
+63-430;FUP OstrÛw Wielkopolski 2;OdolanÛw;Bartosza;3;OdolanÛw;ostrowski;wielkopolskie
+63-421;FUP OstrÛw Wielkopolski 2;Przygodzice;Wroc≥awska;54;Przygodzice;ostrowski;wielkopolskie
 63-440;FUP OstrÛw Wielkopolski 2;RaszkÛw;Pleszewska;12;RaszkÛw;ostrowski;wielkopolskie
+63-435;FUP OstrÛw Wielkopolski 2;Soúnie;Wielkopolska;45;Soúnie;ostrowski;wielkopolskie
 07-132;AP OstrÛwek;OstrÛwek;Fabryczna;64;£ochÛw;wÍgrowski;mazowieckie
 05-205;AP OstrÛwek;OstrÛwek;Kolejowa;133;KlembÛw;wo≥omiÒski;mazowieckie
 63-501;AP OstrzeszÛw;OstrzeszÛw;Armii Krajowej;5;OstrzeszÛw;ostrzeszowski;wielkopolskie
@@ -3834,6 +3830,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 05-400;UP Otwock 1;Otwock;Armii Krajowej;1;Otwock;otwocki;mazowieckie
 05-430;FUP Otwock 1;CelestynÛw;Regucka;3 A;CelestynÛw;otwocki;mazowieckie
 05-409;FUP Otwock 1;Glinianka;NapoleoÒska;46;Wiπzowna;otwocki;mazowieckie
+05-421;FUP Otwock 1;JÛzefÛw;Genera≥a Sikorskiego;91;JÛzefÛw;otwocki;mazowieckie
+05-410;FUP Otwock 1;JÛzefÛw;Genera≥a Sikorskiego;23;JÛzefÛw;otwocki;mazowieckie
 05-480;FUP Otwock 1;Karczew;Koúcielna;57;Karczew;otwocki;mazowieckie
 05-340;FUP Otwock 1;Ko≥biel;Tadeusza Koúciuszki;2;Ko≥biel;otwocki;mazowieckie
 05-400;FUP Otwock 1;Otwock;Karczewska;47;Otwock;otwocki;mazowieckie
@@ -3877,6 +3875,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 44-177;UP PaniÛwki;PaniÛwki;PowstaÒcÛw ålπskich;1;Giera≥towice;gliwicki;úlπskie
 44-177;FUP PaniÛwki;Giera≥towice;KsiÍdza Roboty;48;Giera≥towice;gliwicki;úlπskie
 44-177;FUP PaniÛwki;Przyszowice;PowstaÒcÛw ålπskich;33;Giera≥towice;gliwicki;úlπskie
+77-128;AP Parchowo;Parchowo;Kartuska;55;Parchowo;bytowski;pomorskie
 06-323;AP Parciaki;Parciaki;;99a;Jednoroøec;przasnyski;mazowieckie
 21-200;UP Parczew;Parczew;Koúcielna;7;Parczew;parczewski;lubelskie
 21-211;FUP Parczew;DÍbowa K≥oda;;116 A/1;DÍbowa K≥oda;parczewski;lubelskie
@@ -3934,7 +3933,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 83-261;AP Piece;Piece;6 Marca 1938 r.;35;Kaliska;starogardzki;pomorskie
 58-574;AP Piechowice;Piechowice;Sudecka;10a;Piechowice;karkonoski;dolnoúlπskie
 11-711;AP Piecki;Piecki;ZwyciÍstwa;28/2;Piecki;mrπgowski;warmiÒsko-mazurskie
-41-940;AP Piekary ålπskie;Piekary ålπskie;JÛzefa Bema;15;Piekary ålπskie;Piekary ålπskie;úlπskie
 41-940;AP Piekary ålπskie;Piekary ålπskie;Jana Sobieskiego;26;Piekary ålπskie;Piekary ålπskie;úlπskie
 41-941;AP Piekary ålπskie;Piekary ålπskie;Prymasa Stefana WyszyÒskiego;37;Piekary ålπskie;Piekary ålπskie;úlπskie
 41-940;UP Piekary ålπskie 1;Piekary ålπskie;Bytomska;90;Piekary ålπskie;Piekary ålπskie;úlπskie
@@ -3986,8 +3984,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 28-411;FUP PiÒczÛw;Micha≥Ûw;;115;Micha≥Ûw;piÒczowski;úwiÍtokrzyskie
 28-425;FUP PiÒczÛw;Z≥ota;Sienkiewicza;68;Z≥ota;piÒczowski;úwiÍtokrzyskie
 28-400;AP PiÒczÛw;PiÒczÛw;LegionistÛw;8;PiÒczÛw;piÒczowski;úwiÍtokrzyskie
-26-670;AP Pionki;Pionki;BohaterÛw Studzianek;22;Pionki;radomski;mazowieckie
 26-671;AP Pionki;Pionki;Kolejowa;45;Pionki;radomski;mazowieckie
+26-670;AP Pionki;Pionki;Szpitalna;19;Pionki;radomski;mazowieckie
 26-670;UP Pionki 1;Pionki;Plac Konstytucji 3 Maja;7;Pionki;radomski;mazowieckie
 26-635;FUP Pionki 1;GÛzd;Radomska;7;GÛzd;radomski;mazowieckie
 26-631;FUP Pionki 1;JastrzÍbia;;110;JastrzÍbia;radomski;mazowieckie
@@ -3995,7 +3993,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 26-675;FUP Pionki 1;Pionki;Aleje Lipowe;14;Pionki;radomski;mazowieckie
 26-720;FUP Pionki 1;Policzna;Boles≥awa Prusa;11;Policzna;zwoleÒski;mazowieckie
 26-020;AP Piotrkowice k. Buska-Zdroju;Piotrkowice;Kielecka;3;Chmielnik;kielecki;úwiÍtokrzyskie
-14-244;AP Piotrkowo;Piotrkowo;;30A;Susz;i≥awski;warmiÒsko-mazurskie
 88-230;UP PiotrkÛw Kujawski;PiotrkÛw Kujawski;W≥oc≥awska;46;PiotrkÛw Kujawski;radziejowski;kujawsko-pomorskie
 88-235;FUP PiotrkÛw Kujawski;Nowa Wieú;;28a;PiotrkÛw Kujawski;radziejowski;kujawsko-pomorskie
 97-305;AP PiotrkÛw Trybunalski;PiotrkÛw Trybunalski;Gabriela Narutowicza;104/2;PiotrkÛw Trybunalski;PiotrkÛw Trybunalski;≥Ûdzkie
@@ -4009,7 +4006,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 97-308;FUP PiotrkÛw Trybunalski 1;PiotrkÛw Trybunalski;Szklarska;7/9;PiotrkÛw Trybunalski;PiotrkÛw Trybunalski;≥Ûdzkie
 97-304;FUP PiotrkÛw Trybunalski 1;PiotrkÛw Trybunalski;Szkolna;28;PiotrkÛw Trybunalski;PiotrkÛw Trybunalski;≥Ûdzkie
 97-309;FUP PiotrkÛw Trybunalski 1;PiotrkÛw Trybunalski;Wronia;65;PiotrkÛw Trybunalski;PiotrkÛw Trybunalski;≥Ûdzkie
-97-303;PP PiotrkÛw Trybunalski E301;PiotrkÛw Trybunalski;£Ûdzka;66;PiotrkÛw Trybunalski;PiotrkÛw Trybunalski;≥Ûdzkie
 23-107;AP Piotrowice;Piotrowice;;183;Strzyøewice;lubelski;lubelskie
 19-314;AP Pisanica;Pisanica;;89;Kalinowo;e≥cki;warmiÒsko-mazurskie
 34-654;AP Pisarzowa;Pisarzowa;;528;Limanowa;limanowski;ma≥opolskie
@@ -4050,6 +4046,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 09-420;AP P≥ock;P≥ock;Øyzna;2A;P≥ock;P≥ock;mazowieckie
 09-400;UP P≥ock 1;P≥ock;Bielska;14 B;P≥ock;P≥ock;mazowieckie
 09-400;FUP P≥ock 1;Maszewo Duøe;Lipnowska;79;Stara Bia≥a;p≥ocki;mazowieckie
+09-421;FUP P≥ock 1;P≥ock;Bartnicza;3a;P≥ock;P≥ock;mazowieckie
 09-404;FUP P≥ock 1;P≥ock;Grodzka;10;P≥ock;P≥ock;mazowieckie
 09-400;FUP P≥ock 1;P≥ock;Medyczna;19;P≥ock;P≥ock;mazowieckie
 09-405;FUP P≥ock 1;P≥ock;Marii Sk≥odowskiej-Curie;1;P≥ock;P≥ock;mazowieckie
@@ -4072,7 +4069,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 09-472;FUP P≥ock 12;S≥upno;Miszewska;8A;S≥upno;p≥ocki;mazowieckie
 09-417;UP P≥ock 13;P≥ock;Narodowych Si≥ Zbrojnych;6;P≥ock;P≥ock;mazowieckie
 09-416;FUP P≥ock 13;P≥ock;Przemys≥owa;19;P≥ock;P≥ock;mazowieckie
-06-210;UP P≥oniawy-Bramura;P≥oniawy-Bramura;;64;P≥oniawy-Bramura;makowski;mazowieckie
 09-102;AP P≥oÒsk;P≥oÒsk;P≥ocka;3/2;P≥oÒsk;p≥oÒski;mazowieckie
 09-105;AP P≥oÒsk;P≥oÒsk;Przejazd;2/1;P≥oÒsk;p≥oÒski;mazowieckie
 09-100;UP P≥oÒsk 1;P≥oÒsk;Grunwaldzka;42;P≥oÒsk;p≥oÒski;mazowieckie
@@ -4143,7 +4139,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 24-320;UP Poniatowa;Poniatowa;1 Maja;6;Poniatowa;opolski;lubelskie
 24-320;AP Poniatowa;Poniatowa;Brzozowa;1;Poniatowa;opolski;lubelskie
 44-172;AP Poniszowice;Poniszowice;Gliwicka;23;Rudziniec;gliwicki;úlπskie
-23-250;AP Popkowice;Popkowice;;6;UrzÍdÛw;kraúnicki;lubelskie
 66-351;AP Popowo;Popowo;;33;Bledzew;miÍdzyrzecki;lubuskie
 59-921;AP PorajÛw;PorajÛw;Poniatowskiego;2;Bogatynia;zgorzelecki;dolnoúlπskie
 43-353;UP Porπbka k. KÍt;Porπbka;Rynek;6;Porπbka;bielski;úlπskie
@@ -4165,7 +4160,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 60-959;UP PoznaÒ 2;skrytki/przegrÛdki;;;PoznaÒ;PoznaÒ;wielkopolskie
 60-700;FUP PoznaÒ 2;PoznaÒ (PoznaÒ-Grunwald);rynek £azarski;7;PoznaÒ;PoznaÒ;wielkopolskie
 60-986;FUP PoznaÒ 2;skrytki/przegrÛdki;;;PoznaÒ;PoznaÒ;wielkopolskie
-60-870;FUP PoznaÒ 2;PoznaÒ (PoznaÒ-Jeøyce);rynek Jeøycki;1;PoznaÒ;PoznaÒ;wielkopolskie
+60-870;FUP PoznaÒ 2;PoznaÒ (PoznaÒ-Jeøyce);rynek Jeøycki;1/2;PoznaÒ;PoznaÒ;wielkopolskie
 60-880;FUP PoznaÒ 2;PoznaÒ (PoznaÒ-Jeøyce);PoznaÒska;27;PoznaÒ;PoznaÒ;wielkopolskie
 61-530;UP PoznaÒ 5;PoznaÒ (PoznaÒ-Wilda);28 Czerwca 1956 r.;132;PoznaÒ;PoznaÒ;wielkopolskie
 60-965;UP PoznaÒ 5;skrytki/przegrÛdki;;;PoznaÒ;PoznaÒ;wielkopolskie
@@ -4185,8 +4180,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 60-460;UP PoznaÒ 20;PoznaÒ (PoznaÒ-Jeøyce);Su≥owska;1;PoznaÒ;PoznaÒ;wielkopolskie
 60-460;FUP PoznaÒ 20;PoznaÒ (PoznaÒ-Jeøyce);Chojnicka;51/11;PoznaÒ;PoznaÒ;wielkopolskie
 60-460;FUP PoznaÒ 20;PoznaÒ (PoznaÒ-Jeøyce);S≥upska;25;PoznaÒ;PoznaÒ;wielkopolskie
-60-470;UP PoznaÒ 29;PoznaÒ (PoznaÒ-Jeøyce);StrzeszyÒska;63;PoznaÒ;PoznaÒ;wielkopolskie
-60-995;UP PoznaÒ 29;skrytki/przegrÛdki;;;PoznaÒ;PoznaÒ;wielkopolskie
+62-000;UP PoznaÒ 29;Suchy Las;pl. Nowy Rynek;3;Suchy Las;poznaÒski;wielkopolskie
+60-995;UP PoznaÒ 29;skrytki/przegrÛdki;;;Suchy Las;poznaÒski;wielkopolskie
 60-470;FUP PoznaÒ 29;PoznaÒ (PoznaÒ-Jeøyce);Literacka;45B;PoznaÒ;PoznaÒ;wielkopolskie
 60-993;FUP PoznaÒ 29;skrytki/przegrÛdki;;;PoznaÒ;PoznaÒ;wielkopolskie
 60-470;FUP PoznaÒ 29;PoznaÒ (PoznaÒ-Jeøyce);Szarych SzeregÛw;12/13;PoznaÒ;PoznaÒ;wielkopolskie
@@ -4253,7 +4248,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 60-987;FUP PoznaÒ 56;skrytki/przegrÛdki;;;PoznaÒ;PoznaÒ;wielkopolskie
 61-640;FUP PoznaÒ 56;PoznaÒ (PoznaÒ-Stare Miasto);os. Pod Lipami;104;PoznaÒ;PoznaÒ;wielkopolskie
 61-640;FUP PoznaÒ 56;PoznaÒ (PoznaÒ-Stare Miasto);os. Przyjaüni;132 B;PoznaÒ;PoznaÒ;wielkopolskie
-61-690;FUP PoznaÒ 56;PoznaÒ (PoznaÒ-Stare Miasto);os. Przyjaüni;115;PoznaÒ;PoznaÒ;wielkopolskie
 61-670;FUP PoznaÒ 56;PoznaÒ (PoznaÒ-Stare Miasto);os. Wichrowe WzgÛrze;104;PoznaÒ;PoznaÒ;wielkopolskie
 61-630;FUP PoznaÒ 56;PoznaÒ (PoznaÒ-Stare Miasto);Wilczak;18;PoznaÒ;PoznaÒ;wielkopolskie
 61-640;FUP PoznaÒ 56;PoznaÒ (PoznaÒ-Stare Miasto);os. ZwyciÍstwa;111;PoznaÒ;PoznaÒ;wielkopolskie
@@ -4299,7 +4293,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 48-200;FUP Prudnik;Lubrza;Wolnoúci;28 B;Lubrza;prudnicki;opolskie
 48-203;FUP Prudnik;Prudnik;KsiÍdza SkowroÒskiego;28;Prudnik;prudnicki;opolskie
 48-201;AP Prudnik;Prudnik;£angowskiego;1B;Prudnik;prudnicki;opolskie
-83-001;AP Pruszcz GdaÒski;Pruszcz GdaÒski;Stefana RogoziÒskiego;3;Pruszcz GdaÒski;gdaÒski;pomorskie
 83-000;UP Pruszcz GdaÒski 1;Pruszcz GdaÒski;Fryderyka Chopina;1;Pruszcz GdaÒski;gdaÒski;pomorskie
 83-020;FUP Pruszcz GdaÒski 1;Cedry Wielkie;M. P≥aøyÒskiego;8;Cedry Wielkie;gdaÒski;pomorskie
 83-000;FUP Pruszcz GdaÒski 1;£Ígowo;Spacerowa;9;Pruszcz GdaÒski;gdaÒski;pomorskie
@@ -4323,8 +4316,10 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 05-811;FUP PruszkÛw 1;PruszkÛw;Henryka Sienkiewicza;2;PruszkÛw;pruszkowski;mazowieckie
 06-300;AP Przasnysz;Przasnysz;Magnolii;28;Przasnysz;przasnyski;mazowieckie
 06-300;UP Przasnysz 1;Przasnysz;3 Maja;11;Przasnysz;przasnyski;mazowieckie
+06-330;FUP Przasnysz 1;Chorzele;Mostowa;13;Chorzele;przasnyski;mazowieckie
 06-323;FUP Przasnysz 1;Jednoroøec;Wincentego Witosa;2;Jednoroøec;przasnyski;mazowieckie
 06-408;FUP Przasnysz 1;Krasne;Komisji Edukacji Narodowej;1;Krasne;przasnyski;mazowieckie
+06-316;FUP Przasnysz 1;Krzynow≥oga Ma≥a;Przasnyska;1A;Krzynow≥oga Ma≥a;przasnyski;mazowieckie
 06-302;FUP Przasnysz 1;Przasnysz;Orlika;42;Przasnysz;przasnyski;mazowieckie
 39-320;UP Przec≥aw;Przec≥aw;KiliÒskiego;9;Przec≥aw;mielecki;podkarpackie
 39-320;FUP Przec≥aw;RzemieÒ;;70;Przec≥aw;mielecki;podkarpackie
@@ -4339,7 +4334,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 59-170;FUP PrzemkÛw 1;Radwanice;Przemys≥owa;23;Radwanice;polkowicki;dolnoúlπskie
 37-702;AP Przemyúl;Przemyúl;Grunwaldzka;58;Przemyúl;Przemyúl;podkarpackie
 37-700;AP Przemyúl;Przemyúl;Zygmunta KrasiÒskiego;bn;Przemyúl;Przemyúl;podkarpackie
-37-709;AP Przemyúl;Przemyúl;Lwowska;7B/2;Przemyúl;Przemyúl;podkarpackie
 37-703;AP Przemyúl;Przemyúl;Juliusza S≥owackiego;51;Przemyúl;Przemyúl;podkarpackie
 37-720;UP Przemyúl 2;Przemyúl;Adama Mickiewicza;13;Przemyúl;Przemyúl;podkarpackie
 37-734;FUP Przemyúl 2;Fredropol;;16;Fredropol;przemyski;podkarpackie
@@ -4374,19 +4368,17 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 62-080;FUP Przeümierowo;Tarnowo PodgÛrne;PoznaÒska;105;Tarnowo PodgÛrne;poznaÒski;wielkopolskie
 62-079;FUP Przeümierowo;Tarnowo PodgÛrne;Rokietnicka;2;Tarnowo PodgÛrne;poznaÒski;wielkopolskie
 62-083;AP Przeümierowo;Przeümierowo;Ogrodowa;16 A;Tarnowo PodgÛrne;poznaÒski;wielkopolskie
+37-422;AP PrzÍdzel;PrzÍdzel;Adama Mickiewicza;176;Rudnik nad Sanem;niøaÒski;podkarpackie
 72-300;AP PrzybiernÛwko;PrzybiernÛwko;;9A;Gryfice;gryficki;zachodniopomorskie
 62-606;AP Przyby≥Ûw;Przyby≥Ûw;;11/A;Ko≥o;kolski;wielkopolskie
 33-274;AP Przybys≥awice;Przybys≥awice;;23;Rad≥Ûw;tarnowski;ma≥opolskie
 26-801;AP Przybyszew;Przybyszew (Rynek);;21;Promna;bia≥obrzeski;mazowieckie
 18-230;AP Przybyszyn;Przybyszyn;;75;Ciechanowiec;wysokomazowiecki;podlaskie
-63-421;UP Przygodzice;Przygodzice;Wroc≥awska;54;Przygodzice;ostrowski;wielkopolskie
-26-704;UP Przy≥Ík;Lipiny;;32A;Przy≥Ík;zwoleÒski;mazowieckie
 26-400;UP Przysucha;Przysucha;Krakowska;26;Przysucha;przysuski;mazowieckie
 26-400;FUP Przysucha;Przysucha;Radomska;16;Przysucha;przysuski;mazowieckie
 34-604;AP Przyszowa;Przyszowa;;480;£ukowica;limanowski;ma≥opolskie
 37-433;AP PrzyszÛw Zapuúcie;PrzyszÛw;Jana Paw≥a II;43;BojanÛw;stalowowolski;podkarpackie
 34-141;AP Przytkowice;Przytkowice;;416;Kalwaria Zebrzydowska;wadowicki;ma≥opolskie
-66-340;UP Przytoczna;Przytoczna;Pocztowa;31;Przytoczna;miÍdzyrzecki;lubuskie
 63-100;AP Psarskie;Psarskie;Sikorskiego;69;årem;úremski;wielkopolskie
 38-120;AP Pstrπgowa;Pstrπgowa;;42A;Czudec;strzyøowski;podkarpackie
 43-200;UP Pszczyna;Pszczyna;Stefana Batorego;1;Pszczyna;pszczyÒski;úlπskie
@@ -4399,7 +4391,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 44-370;UP PszÛw;PszÛw;Pszowska;542;PszÛw;wodzis≥awski;úlπskie
 21-562;AP Puchacze;Puchacze;;13A;MiÍdzyrzec Podlaski;bialski;lubelskie
 84-100;UP Puck;Puck;Wa≥owa;1;Puck;pucki;pomorskie
-84-101;AP Puck;Puck;Øeromskiego;33;Puck;pucki;pomorskie
 63-842;AP Pudliszki;Pudliszki;Fabryczna;3;Krobia;gostyÒski;wielkopolskie
 17-133;AP Pulsze;Pulsze;;72;Wyszki;bielski;podlaskie
 24-100;UP Pu≥awy 1;Pu≥awy;Lubelska;3;Pu≥awy;pu≥awski;lubelskie
@@ -4442,6 +4433,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 74-210;FUP Pyrzyce;Przelewice;;95A;Przelewice;pyrzycki;zachodniopomorskie
 74-200;FUP Pyrzyce;Pyrzyce;LipiaÒska;4;Pyrzyce;pyrzycki;zachodniopomorskie
 74-201;FUP Pyrzyce;Warnice;;37B;Warnice;pyrzycki;zachodniopomorskie
+74-203;AP Pyrzyce;Pyrzyce;1 Maja;20;Pyrzyce;pyrzycki;zachodniopomorskie
 44-120;UP Pyskowice;Pyskowice;Armii Krajowej;22;Pyskowice;gliwicki;úlπskie
 44-120;FUP Pyskowice;Pyskowice;gen. W≥adys≥awa Sikorskiego;81;Pyskowice;gliwicki;úlπskie
 44-123;AP Pyskowice;Pyskowice;Wojska Polskiego;13;Pyskowice;gliwicki;úlπskie
@@ -4471,7 +4463,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 64-820;AP Raczyn;Raczyn;;38;Szamocin;chodzieski;wielkopolskie
 77-401;AP Radawnica;Radawnica;M≥yÒska;12;Z≥otÛw;z≥otowski;wielkopolskie
 66-521;AP RadÍcin;RadÍcin;;6B;Dobiegniew;strzelecko-drezdenecki;lubuskie
-44-310;UP Radlin;Radlin;Wojciecha Korfantego;3;Radlin;wodzis≥awski;úlπskie
 26-636;AP Radom;Radom;M≥odzianowska;154;Radom;Radom;mazowieckie
 26-611;AP Radom;Radom;Potkanowska;1;Radom;Radom;mazowieckie
 26-627;AP Radom;Radom;Andrzeja Struga;54;Radom;Radom;mazowieckie
@@ -4506,7 +4497,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 26-613;FUP Radom 14;Radom;Kozienicka;97;Radom;Radom;mazowieckie
 26-614;FUP Radom 14;Radom;OlsztyÒska;39;Radom;Radom;mazowieckie
 26-605;FUP Radom 14;Radom;Ignacego Paderewskiego;17;Radom;Radom;mazowieckie
-13-304;AP Radomno;Radomno;;54;Nowe Miasto Lubawskie;nowomiejski;warmiÒsko-mazurskie
+13-304;AP Radomno;Radomno;;54;Bratian;nowomiejski;warmiÒsko-mazurskie
 97-500;AP Radomsko;Radomsko;Brzeünicka;270;Radomsko;radomszczaÒski;≥Ûdzkie
 97-500;AP Radomsko;Radomsko;KsiÍdza Karola Koúciowa;35;Radomsko;radomszczaÒski;≥Ûdzkie
 97-500;AP Radomsko;Radomsko;Norwida;3 A;Radomsko;radomszczaÒski;≥Ûdzkie
@@ -4523,12 +4514,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 39-310;UP Radomyúl Wielki;Radomyúl Wielki;rynek Rynek;18;Radomyúl Wielki;mielecki;podkarpackie
 83-122;AP Radostowo;Radostowo;PielgrzymÛw;20;Subkowy;tczewski;pomorskie
 98-354;AP Radoszewice k. Wielunia;Radoszewice;Powstania Styczniowego;1;Siemkowice;pajÍczaÒski;≥Ûdzkie
-26-230;AP Radoszyce;Radoszyce;Rynek;24;Radoszyce;konecki;úwiÍtokrzyskie
 37-550;UP Radymno;Radymno;Rynek;22;Radymno;jaros≥awski;podkarpackie
 37-543;FUP Radymno;Laszki;;36;Laszki;jaros≥awski;podkarpackie
-06-540;UP RadzanÛw n. Wkrπ;RadzanÛw;M≥awska;4;RadzanÛw;m≥awski;mazowieckie
-09-135;FUP RadzanÛw n. Wkrπ;Siemiπtkowo;W≥adys≥awa Reymonta;3;Siemiπtkowo;øuromiÒski;mazowieckie
-06-550;FUP RadzanÛw n. Wkrπ;SzreÒsk;Rynek;12;SzreÒsk;m≥awski;mazowieckie
 11-602;AP Radzieje;Radzieje;WÍgorzewska;26;WÍgorzewo;wÍgorzewski;warmiÒsko-mazurskie
 88-200;UP RadziejÛw;RadziejÛw;Rynek;2;RadziejÛw;radziejowski;kujawsko-pomorskie
 88-232;FUP RadziejÛw;BytoÒ;;72/1;BytoÒ;radziejowski;kujawsko-pomorskie
@@ -4571,7 +4558,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 05-090;UP Raszyn;Raszyn;Szkolna;15;Raszyn;pruszkowski;mazowieckie
 05-094;FUP Raszyn;Janki;pl. Szwedzki;3;Raszyn;pruszkowski;mazowieckie
 05-090;AP Raszyn;Raszyn;Godebskiego;58;Raszyn;pruszkowski;mazowieckie
-28-133;AP Rataje;Rataje Karskie (Rataje);;19 B;PacanÛw;buski;úwiÍtokrzyskie
 24-350;AP Ratoszyn Drugi;Ratoszyn Drugi;;193;Chodel;opolski;lubelskie
 34-407;AP Ratu≥Ûw;Ratu≥Ûw;;322C;Czarny Dunajec;nowotarski;ma≥opolskie
 96-200;UP Rawa Mazowiecka;Rawa Mazowiecka;Koúciuszki;6;Rawa Mazowiecka;rawski;≥Ûdzkie
@@ -4587,15 +4573,15 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 63-901;FUP Rawicz 1;Rawicz;BohaterÛw Westerplatte;1/4;Rawicz;rawicki;wielkopolskie
 84-240;UP Reda;Reda;GdaÒska;11;Reda;wejherowski;pomorskie
 84-246;FUP Reda;Reda;Pucka;55;Reda;wejherowski;pomorskie
+84-355;AP Redkowice;Redkowice;;25;Nowa Wieú LÍborska;lÍborski;pomorskie
 19-306;AP Regielnica;Regielnica;;9;E≥k;e≥cki;warmiÒsko-mazurskie
 96-232;AP RegnÛw;RegnÛw;;96;RegnÛw;rawski;≥Ûdzkie
 72-403;AP Rekowo;Rekowo;;24;KamieÒ Pomorski;kamieÒski;zachodniopomorskie
 72-318;AP Resko;Resko;Wojska Polskiego;66E;Resko;≥obeski;zachodniopomorskie
 08-411;AP RÍbkÛw;RÍbkÛw;Starowiejska;67;Garwolin;garwoliÒski;mazowieckie
-62-023;AP Robakowo;Robakowo;Tygrysie Os.;26;KÛrnik;poznaÒski;wielkopolskie
+62-023;AP Robakowo;Robakowo;Osiedle Tygrysie;26;KÛrnik;poznaÒski;wielkopolskie
 78-120;AP RobuÒ;RobuÒ;;7;Goúcino;ko≥obrzeski;zachodniopomorskie
 11-200;AP Rodnowo;Rodnowo;;17;Bartoszyce;bartoszycki;warmiÒsko-mazurskie
-62-022;AP Rogalinek;Rogalinek;PoznaÒska;3;Mosina;poznaÒski;wielkopolskie
 66-210;AP Rogoziniec;Rogoziniec;;95a;Zbπszynek;úwiebodziÒski;lubuskie
 64-610;AP Rogoüno;Rogoüno;os. Osiedle Przemys≥awa II;7/a;Rogoüno;obornicki;wielkopolskie
 64-610;UP Rogoüno Wielkopolskie;Rogoüno;Wielka PoznaÒska;2;Rogoüno;obornicki;wielkopolskie
@@ -4619,6 +4605,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 59-216;AP Rosochata;Rosochata;;84;Kunice;legnicki;dolnoúlπskie
 18-221;AP Rosochate Koúcielne;Rosochate Koúcielne;Wierzbowa;1;Czyøew;wysokomazowiecki;podlaskie
 98-290;AP Rossoszyca;Rossoszyca;Warcka;49;Warta;sieradzki;≥Ûdzkie
+06-418;AP Rostkowo;Rostkowo;;10;Czernice Borowe;przasnyski;mazowieckie
 09-206;AP Roúciszewo;Roúciszewo;Armii Krajowej;6;Roúciszewo;sierpecki;mazowieckie
 58-253;AP RoúciszÛw;RoúciszÛw;;60;Pieszyce;dzierøoniowski;dolnoúlπskie
 21-110;AP Rozkopaczew;Rozkopaczew;;138;OstrÛw Lubelski;lubartowski;lubelskie
@@ -4633,8 +4620,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 64-602;AP Roønowo;Roønowo;Franciszka Mickiewicza;1;Oborniki;obornicki;wielkopolskie
 19-335;AP RoøyÒsk Wielki;RoøyÒsk Wielki;;26;Prostki;e≥cki;warmiÒsko-mazurskie
 38-450;AP RÛwne;RÛwne;D≥uga;18;Dukla;kroúnieÒski;podkarpackie
-06-230;UP RÛøan;RÛøan;Warszawska;8;RÛøan;makowski;mazowieckie
-06-231;FUP RÛøan;M≥ynarze;Ostro≥Ícka;22;M≥ynarze;makowski;mazowieckie
 59-706;AP RÛøyniec;RÛøyniec;;62;Gromadka;boles≥awiecki;dolnoúlπskie
 07-102;AP Ruchna;Ruchna;Siedlecka;1;Liw;wÍgrowski;mazowieckie
 39-310;AP Ruda;Ruda;;106 B;Radomyúl Wielki;mielecki;podkarpackie
@@ -4704,7 +4689,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 44-203;FUP Rybnik 1;Rybnik;Stawowa;9;Rybnik;Rybnik;úlπskie
 44-200;FUP Rybnik 1;Rybnik;Gabrieli Zapolskiej;1;Rybnik;Rybnik;úlπskie
 44-274;FUP Rybnik 1;skrytki/przegrÛdki;;;Rybnik;Rybnik;úlπskie
-44-200;FUP Rybnik 1;Rybnik;Øorska;60;Rybnik;Rybnik;úlπskie
 44-253;UP Rybnik 8;Rybnik;os. Po≥udnie;37;Rybnik;Rybnik;úlπskie
 44-251;FUP Rybnik 8;Rybnik;Sztolniowa;20;Rybnik;Rybnik;úlπskie
 44-210;UP Rybnik 15;Rybnik;Grunwaldzka;46;Rybnik;Rybnik;úlπskie
@@ -4720,6 +4704,11 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 06-454;AP Rydzewo;Rydzewo;;22A;CiechanÛw;ciechanowski;mazowieckie
 33-160;UP Ryglice;Ryglice;Rynek;9;Ryglice;tarnowski;ma≥opolskie
 08-500;UP Ryki;Ryki;Karola Wojty≥y;1;Ryki;rycki;lubelskie
+08-530;FUP Ryki;DÍblin;Bankowa;17;DÍblin;rycki;lubelskie
+08-532;FUP Ryki;DÍblin;Dworcowa;2D;DÍblin;rycki;lubelskie
+08-533;FUP Ryki;DÍblin;Pu≥kownika pilota Jerzego Rogowskiego;1;DÍblin;rycki;lubelskie
+08-521;FUP Ryki;DÍblin;Szko≥y Podchorπøych Lotnictwa;11;DÍblin;rycki;lubelskie
+08-532;FUP Ryki;DÍblin;Wiúlana;6/26;DÍblin;rycki;lubelskie
 08-551;FUP Ryki;K≥oczew;D≥uga;67;K≥oczew;rycki;lubelskie
 08-503;FUP Ryki;NowodwÛr;;71A;NowodwÛr;rycki;lubelskie
 08-540;FUP Ryki;StÍøyca;Rokicka;1;StÍøyca;rycki;lubelskie
@@ -4744,7 +4733,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 69-110;UP Rzepin;Rzepin;Wojska Polskiego;25;Rzepin;s≥ubicki;lubuskie
 69-220;FUP Rzepin;Oúno Lubuskie;11 Listopada;2;Oúno Lubuskie;s≥ubicki;lubuskie
 35-317;AP RzeszÛw;RzeszÛw;Budziwojska;327;RzeszÛw;RzeszÛw;podkarpackie
-35-076;AP RzeszÛw;RzeszÛw;Jacentego Ga≥Ízowskiego;bn;RzeszÛw;RzeszÛw;podkarpackie
 35-212;AP RzeszÛw;RzeszÛw;Pogwizdowska;43;RzeszÛw;RzeszÛw;podkarpackie
 35-001;UP RzeszÛw 2;RzeszÛw;Adama Asnyka;9;RzeszÛw;RzeszÛw;podkarpackie
 35-959;UP RzeszÛw 2;skrytki/przegrÛdki;;;RzeszÛw;RzeszÛw;podkarpackie
@@ -4808,6 +4796,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 22-448;AP Sπsiadka;Sπsiadka;;148;Su≥Ûw;zamojski;lubelskie
 16-500;UP Sejny;Sejny;JÛzefa Pi≥sudskiego;24;Sejny;sejneÒski;podlaskie
 16-503;FUP Sejny;Krasnopol;Henryka Sienkiewicza;24;Krasnopol;sejneÒski;podlaskie
+16-507;FUP Sejny;Kukle;;29;Giby;sejneÒski;podlaskie
 16-515;FUP Sejny;PuÒsk;Szkolna;3;PuÒsk;sejneÒski;podlaskie
 86-120;AP Serock Pomorski;Serock;al. Mickiewicza;1;Pruszcz;úwiecki;kujawsko-pomorskie
 28-340;UP SÍdziszÛw k. JÍdrzejowa;SÍdziszÛw;os. Sady;9;SÍdziszÛw;jÍdrzejowski;úwiÍtokrzyskie
@@ -4821,14 +4810,14 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 89-412;FUP SÍpÛlno KrajeÒskie;Soúno;Leúna;1;Soúno;sÍpoleÒski;kujawsko-pomorskie
 89-413;FUP SÍpÛlno KrajeÒskie;Wπwelno;Mrotecka;2;Soúno;sÍpoleÒski;kujawsko-pomorskie
 78-425;AP SÍpÛlno Wielkie;SÍpolno Wielkie;;55;Bia≥y BÛr;szczecinecki;zachodniopomorskie
-83-300;AP Sianowo;Sianowo;;10;Kartuzy;kartuski;pomorskie
-86-014;UP Sicienko;Sicienko;Bydgoska;4;Sicienko;bydgoski;kujawsko-pomorskie
+86-014;UP Sicienko;Sicienko;Pocztowy Rynek;4;Sicienko;bydgoski;kujawsko-pomorskie
 56-215;AP Siciny;Siciny;;130;NiechlÛw;gÛrowski;dolnoúlπskie
 34-236;UP Sidzina;Sidzina;; ;Bystra-Sidzina;suski;ma≥opolskie
 34-236;FUP Sidzina;Bystra PodhalaÒska;;373;Bystra-Sidzina;suski;ma≥opolskie
 76-005;AP Sieciemin;Sieciemin;;53;SianÛw;koszaliÒski;zachodniopomorskie
 08-123;AP Siedlce;Siedlce;M≥ynarska;15;Siedlce;Siedlce;mazowieckie
 08-100;UP Siedlce 1;Siedlce;JÛzefa Pi≥sudskiego;2;Siedlce;Siedlce;mazowieckie
+08-132;FUP Siedlce 1;Siedlce;GeodetÛw;7;Siedlce;Siedlce;mazowieckie
 08-100;FUP Siedlce 1;Siedlce;Rynkowa;8A;Siedlce;Siedlce;mazowieckie
 08-110;UP Siedlce 2;Siedlce;pl. Stanis≥awa Zdanowskiego;2;Siedlce;Siedlce;mazowieckie
 08-110;FUP Siedlce 2;Bia≥ki;£ukowska;111/19;Siedlce;siedlecki;mazowieckie
@@ -4836,8 +4825,9 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 08-131;FUP Siedlce 2;KotuÒ;Siedlecka;74;KotuÒ;siedlecki;mazowieckie
 08-110;FUP Siedlce 2;Siedlce;Armii Krajowej;13;Siedlce;Siedlce;mazowieckie
 08-119;FUP Siedlce 2;Siedlce;Boles≥awa Chrobrego;17;Siedlce;Siedlce;mazowieckie
-08-126;FUP Siedlce 2;Siedlce;Brzeska;124;Siedlce;Siedlce;mazowieckie
 08-102;FUP Siedlce 2;Siedlce;Brzeska;135;Siedlce;Siedlce;mazowieckie
+08-126;FUP Siedlce 2;Siedlce;Brzeska;124;Siedlce;Siedlce;mazowieckie
+08-133;FUP Siedlce 2;Siedlce;Graniczna;4a;Siedlce;Siedlce;mazowieckie
 08-101;FUP Siedlce 2;Siedlce;Kaszubska;1;Siedlce;Siedlce;mazowieckie
 08-121;FUP Siedlce 2;Siedlce;PartyzantÛw;16/1.8;Siedlce;Siedlce;mazowieckie
 08-120;FUP Siedlce 2;Siedlce;JÛzefa Pi≥sudskiego;74/1/L.47;Siedlce;Siedlce;mazowieckie
@@ -4872,12 +4862,15 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 98-277;FUP Sieradz 1;Brπszewice;Sieradzka;100 A;Brπszewice;sieradzki;≥Ûdzkie
 98-202;FUP Sieradz 1;Sieradz;Aleja Pokoju;5/5;Sieradz;sieradzki;≥Ûdzkie
 98-204;FUP Sieradz 1;Sieradz;BohaterÛw Wrzeúnia;61B;Sieradz;sieradzki;≥Ûdzkie
+98-206;FUP Sieradz 1;Sieradz;JagielloÒska;15;Sieradz;sieradzki;≥Ûdzkie
 98-209;FUP Sieradz 1;Sieradz;Jana Paw≥a II;28;Sieradz;sieradzki;≥Ûdzkie
 98-285;FUP Sieradz 1;WrÛblew;;15;WrÛblew;sieradzki;≥Ûdzkie
 98-210;UP Sieradz 2;Sieradz;1 Maja;120;Sieradz;sieradzki;≥Ûdzkie
 98-275;FUP Sieradz 2;Brzeünio;Sieradzka;2/22;Brzeünio;sieradzki;≥Ûdzkie
 98-260;FUP Sieradz 2;Burzenin;Wojska Polskiego;10;Burzenin;sieradzki;≥Ûdzkie
+98-216;FUP Sieradz 2;GoszczanÛw;Kaliska;19;GoszczanÛw;sieradzki;≥Ûdzkie
 98-273;FUP Sieradz 2;Klonowa;ks. JÛzefa Dalaka;4;Klonowa;sieradzki;≥Ûdzkie
+98-290;FUP Sieradz 2;Warta;Tadeusza Koúciuszki;8;Warta;sieradzki;≥Ûdzkie
 98-270;FUP Sieradz 2;Z≥oczew;Przechodnia;1;Z≥oczew;sieradzki;≥Ûdzkie
 83-340;UP Sierakowice;Sierakowice;Dworcowa;15;Sierakowice;kartuski;pomorskie
 64-410;AP SierakÛw Wielkopolski;SierakÛw;Ogrodowa;23;SierakÛw;miÍdzychodzki;wielkopolskie
@@ -4952,6 +4945,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 55-216;AP Skrzypnik;Skrzypnik;;39;DomaniÛw;o≥awski;dolnoúlπskie
 66-440;UP Skwierzyna;Skwierzyna;2 Lutego;3;Skwierzyna;miÍdzyrzecki;lubuskie
 66-350;FUP Skwierzyna;Bledzew;Rynek;12;Bledzew;miÍdzyrzecki;lubuskie
+66-340;FUP Skwierzyna;Przytoczna;Pocztowa;31;Przytoczna;miÍdzyrzecki;lubuskie
 66-440;AP Skwierzyna;Skwierzyna;Garnizonowa; ;Skwierzyna;miÍdzyrzecki;lubuskie
 67-410;UP S≥awa;S≥awa;WaryÒskiego;29;S≥awa;wschowski;lubuskie
 67-410;FUP S≥awa;Kolsko;Piastowska;44;Kolsko;nowosolski;lubuskie
@@ -4974,7 +4968,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 62-402;FUP S≥upca 1;Ostrowite;Zachodnia;3a;Ostrowite;s≥upecki;wielkopolskie
 62-430;FUP S≥upca 1;Powidz;Warszawska;15A;Powidz;s≥upecki;wielkopolskie
 62-401;FUP S≥upca 1;S≥upca;os. Niepodleg≥oúci;19;S≥upca;s≥upecki;wielkopolskie
-62-421;FUP S≥upca 1;Strza≥kowo;Al. Prym. WyszyÒskiego;13;Strza≥kowo;s≥upecki;wielkopolskie
+62-421;FUP S≥upca 1;Strza≥kowo;Aleja Prymasa WyszyÒskiego;13;Strza≥kowo;s≥upecki;wielkopolskie
 62-420;FUP S≥upca 1;skrytki/przegrÛdki;;;Strza≥kowo;s≥upecki;wielkopolskie
 62-410;FUP S≥upca 1;ZagÛrÛw;Duøy Rynek;13;ZagÛrÛw;s≥upecki;wielkopolskie
 77-311;AP S≥upia;S≥upia;;b/n;Debrzno;cz≥uchowski;pomorskie
@@ -4983,7 +4977,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 76-206;AP S≥upsk;S≥upsk;Stefana Banacha;6 A/77;S≥upsk;S≥upsk;pomorskie
 76-208;AP S≥upsk;S≥upsk;Romana Dmowskiego;10;S≥upsk;S≥upsk;pomorskie
 76-221;AP S≥upsk;S≥upsk;Garncarska;7/56;S≥upsk;S≥upsk;pomorskie
-76-222;AP S≥upsk;S≥upsk;Tadeusza SygietyÒskiego;4C;S≥upsk;S≥upsk;pomorskie
 76-200;UP S≥upsk 1;S≥upsk;Ko≥≥πtaja;31;S≥upsk;S≥upsk;pomorskie
 76-231;FUP S≥upsk 1;Damnica;Szkolna;1;Damnica;s≥upski;pomorskie
 76-248;FUP S≥upsk 1;DÍbnica Kaszubska;ks. Antoniego Kani;18;DÍbnica Kaszubska;s≥upski;pomorskie
@@ -5015,7 +5008,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 12-202;AP Snopki;Snopki;;27 B;Pisz;piski;warmiÒsko-mazurskie
 63-910;AP Sobia≥kowo;Sobia≥kowo;;113;Miejska GÛrka;rawicki;wielkopolskie
 74-103;AP Sobiemyúl;Sobiemyúl;;9A;Gryfino;gryfiÒski;zachodniopomorskie
-74-102;AP Sobieradz;Sobieradz;;37;Gryfino;gryfiÒski;zachodniopomorskie
 59-600;AP Sobota k. LwÛwka ålπskiego;Sobota;;46a;LwÛwek ålπski;lwÛwecki;dolnoúlπskie
 83-033;AP Sobowidz;Sobowidz;Tadeusza Koúciuszki;52/1;Trπbki Wielkie;gdaÒski;pomorskie
 55-051;AP SobÛtka;SobÛtka;Romana Zmorskiego;8;SobÛtka;wroc≥awski;dolnoúlπskie
@@ -5109,8 +5101,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 57-215;AP Srebrna GÛra;Srebrna GÛra;Letnia;10;Stoszowice;zπbkowicki;dolnoúlπskie
 34-445;AP Sromowce Wyøne;Sromowce Wyøne;Ogrodowa;1;Czorsztyn;nowotarski;ma≥opolskie
 99-419;AP Stachlew;Stachlew;;113a;£yszkowice;≥owicki;≥Ûdzkie
-37-452;AP Stalowa Wola;Stalowa Wola;Genera≥a Leopolda Okulickiego;11;Stalowa Wola;stalowowolski;podkarpackie
 37-451;AP Stalowa Wola;Stalowa Wola;Genera≥a Leopolda Okulickiego;108;Stalowa Wola;stalowowolski;podkarpackie
+37-452;AP Stalowa Wola;Stalowa Wola;Genera≥a Leopolda Okulickiego;11;Stalowa Wola;stalowowolski;podkarpackie
 37-450;UP Stalowa Wola 1;Stalowa Wola;ks. Jerzego Popie≥uszki;18;Stalowa Wola;stalowowolski;podkarpackie
 37-433;FUP Stalowa Wola 1;BojanÛw;Parkowa;5;BojanÛw;stalowowolski;podkarpackie
 37-403;FUP Stalowa Wola 1;Pysznica;Podorenda;1A;Pysznica;stalowowolski;podkarpackie
@@ -5128,6 +5120,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 37-415;FUP Stalowa Wola 1;Zaleszany;Tadeusza Koúciuszki;16;Zaleszany;stalowowolski;podkarpackie
 32-015;AP Stanis≥awice;Stanis≥awice;;140;Bochnia;bocheÒski;ma≥opolskie
 23-460;AP Stanis≥awÛw;Stanis≥awÛw;;115;JÛzefÛw;bi≥gorajski;lubelskie
+83-327;AP Staniszewo;Staniszewo;Kartuska;40;Kartuzy;kartuski;pomorskie
 37-433;AP Stany;Stany;Kolbuszowska;9A;BojanÛw;stalowowolski;podkarpackie
 39-215;AP Stara Jastrzπbka;Stara Jastrzπbka;;48 A;Czarna;dÍbicki;podkarpackie
 16-103;AP Stara Kamionka;Stara Kamionka;;64;SokÛ≥ka;sokÛlski;podlaskie
@@ -5155,7 +5148,9 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 18-430;AP Stare Boøejewo;Stare Boøejewo;;39A;Wizna;≥omøyÒski;podlaskie
 13-203;AP Stare D≥utowo;Stare D≥utowo;1000 lecia;15 B;Lidzbark;dzia≥dowski;warmiÒsko-mazurskie
 67-407;AP Stare Drzewce;Stare Drzewce;;95;Szlichtyngowa;wschowski;lubuskie
+06-524;AP Stare Kosiny;Stare Kosiny;;36c;Wiúniewo;m≥awski;mazowieckie
 48-251;AP Stare Kotkowice;Stare Kotkowice;Sudecka;34B;G≥ogÛwek;prudnicki;opolskie
+07-307;AP Stare Lubiejewo;Stare Lubiejewo;S≥oneczna;3;OstrÛw Mazowiecka;ostrowski;mazowieckie
 67-410;AP Stare Strπcze;Stare Strπcze;;32;S≥awa;wschowski;lubuskie
 73-110;UP Stargard 2;Stargard;KsiÍcia Barnima I;2;Stargard;stargardzki;zachodniopomorskie
 73-120;FUP Stargard 2;Chociwel;Armii Krajowej;39;Chociwel;stargardzki;zachodniopomorskie
@@ -5214,20 +5209,18 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 83-322;UP StÍøyca;StÍøyca;Jana III Sobieskiego;2 ;StÍøyca;kartuski;pomorskie
 83-320;FUP StÍøyca;SulÍczyno;Szydlicka;1;SulÍczyno;kartuski;pomorskie
 19-420;AP Stoøne;Stoøne;;35;Kowale Oleckie;olecki;warmiÒsko-mazurskie
-36-044;AP Straszydle;Straszydle;;57;Lubenia;rzeszowski;podkarpackie
 46-320;AP Strojec;Strojec;CzÍstochowska;80;Praszka;oleski;opolskie
 23-206;AP StrÛøa;StrÛøa;Kraúnicka;90;Kraúnik;kraúnicki;lubelskie
-62-060;AP Strykowo;Strykowo;Bukowska;34;StÍszew;poznaÒski;wielkopolskie
 95-010;UP StrykÛw k. £odzi;StrykÛw;Stary Rynek;1;StrykÛw;zgierski;≥Ûdzkie
 95-011;FUP StrykÛw k. £odzi;Bratoszewice;Szkolna;10;StrykÛw;zgierski;≥Ûdzkie
 97-500;AP Strza≥kÛw;Strza≥kÛw;Reymonta;35;Radomsko;radomszczaÒski;≥Ûdzkie
+42-286;AP StrzebiÒ;StrzebiÒ;Lubliniecka;15B;KoszÍcin;lubliniecki;úlπskie
 39-223;AP Strzegocice;Strzegocice;;103A;Pilzno;dÍbicki;podkarpackie
 06-123;AP Strzegocin;Strzegocin;;77;åwiercze;pu≥tuski;mazowieckie
 58-150;UP Strzegom;Strzegom;Tadeusza Koúciuszki;12;Strzegom;úwidnicki;dolnoúlπskie
 58-150;AP Strzegom;Strzegom;Aleja Wojska Polskiego;74;Strzegom;úwidnicki;dolnoúlπskie
 58-150;AP Strzegom;Strzegom;Kasztanowa;2;Strzegom;úwidnicki;dolnoúlπskie
 58-151;AP Strzegom;Strzegom;Legnicka;14 R;Strzegom;úwidnicki;dolnoúlπskie
-06-445;UP Strzegowo;Strzegowo;Wyzwolenia;25;Strzegowo;m≥awski;mazowieckie
 66-500;UP Strzelce KrajeÒskie;Strzelce KrajeÒskie;Gorzowska;1;Strzelce KrajeÒskie;strzelecko-drezdenecki;lubuskie
 66-542;FUP Strzelce KrajeÒskie;Zwierzyn;Wojska Polskiego;20;Zwierzyn;strzelecko-drezdenecki;lubuskie
 66-500;AP Strzelce KrajeÒskie;Strzelce KrajeÒskie;Juliusza S≥owackiego;17;Strzelce KrajeÒskie;strzelecko-drezdenecki;lubuskie
@@ -5247,7 +5240,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 57-100;FUP Strzelin;Przeworno;Pocztowa;15;Przeworno;strzeliÒski;dolnoúlπskie
 57-100;FUP Strzelin;WiπzÛw;Pocztowa;1;WiπzÛw;strzeliÒski;dolnoúlπskie
 57-103;AP Strzelin;Strzelin;Dzierøoniowska;16B;Strzelin;strzeliÒski;dolnoúlπskie
-57-100;AP Strzelin;Strzelin;Leúna;6;Strzelin;strzeliÒski;dolnoúlπskie
 88-320;UP Strzelno;Strzelno;úw. Ducha;32;Strzelno;mogileÒski;kujawsko-pomorskie
 88-324;FUP Strzelno;Jeziora Wielkie;;34;Jeziora Wielkie;mogileÒski;kujawsko-pomorskie
 84-222;AP Strzepcz;Strzepcz;ks. JÛzefa Rotty;16;Linia;wejherowski;pomorskie
@@ -5255,8 +5247,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 38-100;UP StrzyøÛw n. Wis≥okiem;StrzyøÛw;Parkowa;7;StrzyøÛw;strzyøowski;podkarpackie
 38-120;FUP StrzyøÛw n. Wis≥okiem;Czudec;Jasielska;11;Czudec;strzyøowski;podkarpackie
 38-117;FUP StrzyøÛw n. Wis≥okiem;Niebylec;;182 A;Niebylec;strzyøowski;podkarpackie
+16-011;AP Studzianki;Studzianki;Wasilkowska;16;WasilkÛw;bia≥ostocki;podlaskie
 21-498;AP Styrzyniec;Styrzyniec;S≥oneczna;100;Bia≥a Podlaska;bialski;lubelskie
-89-525;AP Sucha;Sucha;G≥Ûwna;23;Lubiewo;tucholski;kujawsko-pomorskie
 34-200;UP Sucha Beskidzka;Sucha Beskidzka;Adama Mickiewicza;50;Sucha Beskidzka;suski;ma≥opolskie
 34-211;FUP Sucha Beskidzka;BudzÛw;;503;BudzÛw;suski;ma≥opolskie
 34-232;FUP Sucha Beskidzka;Lachowice;;181;Stryszawa;suski;ma≥opolskie
@@ -5272,7 +5264,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 16-130;FUP Suchowola;JanÛw;SokÛlska;9;JanÛw;sokÛlski;podlaskie
 16-150;FUP Suchowola;Korycin;KnyszyÒska;2a;Korycin;sokÛlski;podlaskie
 62-002;UP Suchy Las;Suchy Las;pl. Nowy Rynek;3;Suchy Las;poznaÒski;wielkopolskie
-62-003;FUP Suchy Las;Biedrusko;Parkowa;3;Suchy Las;poznaÒski;wielkopolskie
+62-003;FUP Suchy Las;Biedrusko;Zjednoczenia;12;Suchy Las;poznaÒski;wielkopolskie
 62-002;FUP Suchy Las;Chludowo;Obornicka;1;Suchy Las;poznaÒski;wielkopolskie
 62-002;FUP Suchy Las;Z≥otniki;Plac Grzybowy;14;Suchy Las;poznaÒski;wielkopolskie
 27-407;AP SudÛ≥;SudÛ≥;;216 B;BodzechÛw;ostrowiecki;úwiÍtokrzyskie
@@ -5283,7 +5275,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 66-100;FUP SulechÛw 1;TrzebiechÛw;Sulechowska;2;TrzebiechÛw;zielonogÛrski;lubuskie
 97-330;UP SulejÛw;SulejÛw;Konecka;41;SulejÛw;piotrkowski;≥Ûdzkie
 97-332;AP SulejÛw;SulejÛw;Piotrkowska;55a;SulejÛw;piotrkowski;≥Ûdzkie
-05-072;AP SulejÛwek;SulejÛwek;KombatantÛw;55;SulejÛwek;miÒski;mazowieckie
 05-071;UP SulejÛwek 3;SulejÛwek (Mi≥osna);3 Maja;5;SulejÛwek;miÒski;mazowieckie
 05-079;FUP SulejÛwek 3;Okuniew;Rynek;10;HalinÛw;miÒski;mazowieckie
 05-070;FUP SulejÛwek 3;SulejÛwek;Pocztowa;4;SulejÛwek;miÒski;mazowieckie
@@ -5298,6 +5289,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 98-338;UP Sulmierzyce k. Radomska;Sulmierzyce;UrzÍdowa;1;Sulmierzyce;pajÍczaÒski;≥Ûdzkie
 98-337;FUP Sulmierzyce k. Radomska;Strzelce Wielkie;CzÍstochowska;14;Strzelce Wielkie;pajÍczaÒski;≥Ûdzkie
 32-440;UP Su≥kowice;Su≥kowice;Zagumnie;70;Su≥kowice;myúlenicki;ma≥opolskie
+34-120;AP Su≥kowice;Su≥kowice;Beskidzka;108B;AndrychÛw;wadowicki;ma≥opolskie
 56-301;AP Su≥Ûw;Su≥Ûw;Milicka;23a/2;Milicz;milicki;dolnoúlπskie
 83-214;AP Sumin;Sumin;;23;Starogard GdaÒski;starogardzki;pomorskie
 18-520;AP Sura≥y;Sura≥y;;3;Grabowo;kolneÒski;podlaskie
@@ -5319,6 +5311,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 16-433;FUP Suwa≥ki 4;Suwa≥ki;Ludwika Micha≥a Paca;5g;Suwa≥ki;Suwa≥ki;podlaskie
 16-430;FUP Suwa≥ki 4;Suwa≥ki;PÛ≥nocna;27a;Suwa≥ki;Suwa≥ki;podlaskie
 16-401;FUP Suwa≥ki 4;Suwa≥ki;SejneÒska;13;Suwa≥ki;Suwa≥ki;podlaskie
+62-020;AP SwarzÍdz;SwarzÍdz;åredzka;2;SwarzÍdz;poznaÒski;wielkopolskie
 62-017;UP SwarzÍdz 1;SwarzÍdz;Dworcowa;7;SwarzÍdz;poznaÒski;wielkopolskie
 63-005;FUP SwarzÍdz 1;Kleszczewo;PoznaÒska;4 B;Kleszczewo;poznaÒski;wielkopolskie
 62-016;FUP SwarzÍdz 1;SwarzÍdz;os. DπbrowszczakÛw;25;SwarzÍdz;poznaÒski;wielkopolskie
@@ -5333,12 +5326,12 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 64-915;AP Sypniewo;Sypniewo;Mickiewicza;57;Jastrowie;z≥otowski;wielkopolskie
 44-361;AP Syrynia;Syrynia;PowstaÒcÛw ålπskich;49;Lubomia;wodzis≥awski;úlπskie
 87-304;AP Szabda;Szabda;Sπdowa;39;Brodnica;brodnicki;kujawsko-pomorskie
-38-331;AP Szalowa;Szalowa;;18;£uøna;gorlicki;ma≥opolskie
+38-331;AP Szalowa;Szalowa;;11;£uøna;gorlicki;ma≥opolskie
 64-820;AP Szamocin;Szamocin;Rynek;20;Szamocin;chodzieski;wielkopolskie
 64-500;UP Szamotu≥y;Szamotu≥y;Dworcowa;11;Szamotu≥y;szamotulski;wielkopolskie
 64-500;FUP Szamotu≥y;Kaümierz;Szamotulska;22 A;Kaümierz;szamotulski;wielkopolskie
 64-530;FUP Szamotu≥y;skrytki/przegrÛdki;;;Kaümierz;szamotulski;wielkopolskie
-64-520;FUP Szamotu≥y;Obrzycko;Lipowy Pl.;14;Obrzycko;szamotulski;wielkopolskie
+64-520;FUP Szamotu≥y;Obrzycko;Plac Lipowy;14;Obrzycko;szamotulski;wielkopolskie
 64-500;FUP Szamotu≥y;OstrorÛg;Wroniecka;10;OstrorÛg;szamotulski;wielkopolskie
 64-500;FUP Szamotu≥y;Szamotu≥y;Sportowa;33A;Szamotu≥y;szamotulski;wielkopolskie
 64-500;AP Szamotu≥y;Szamotu≥y;PowstaÒcÛw Wielkopolskich;17;Szamotu≥y;szamotulski;wielkopolskie
@@ -5357,6 +5350,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 70-358;FUP Szczecin 1;Szczecin;Pocztowa;5;Szczecin;Szczecin;zachodniopomorskie
 70-950;UP Szczecin 2;Szczecin;Dworcowa;20;Szczecin;Szczecin;zachodniopomorskie
 70-950;FUP Szczecin 2;Szczecin;al. Wyzwolenia;44 A;Szczecin;Szczecin;zachodniopomorskie
+70-950;FUP Szczecin 2;Szczecin;Dworcowa;20b;Szczecin;Szczecin;zachodniopomorskie
+70-952;FUP Szczecin 2;skrytki/przegrÛdki;;;Szczecin;Szczecin;zachodniopomorskie
 70-662;FUP Szczecin 2;Szczecin;GdaÒska;15a;Szczecin;Szczecin;zachodniopomorskie
 70-950;FUP Szczecin 2;Szczecin;Krzysztofa Kolumba;1;Szczecin;Szczecin;zachodniopomorskie
 70-137;FUP Szczecin 2;Szczecin;MilczaÒska;51A;Szczecin;Szczecin;zachodniopomorskie
@@ -5420,7 +5415,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 71-250;FUP Szczecin 43;Szczecin;Emila Zegad≥owicza;12;Szczecin;Szczecin;zachodniopomorskie
 71-371;FUP Szczecin 43;skrytki/przegrÛdki;;;Szczecin;Szczecin;zachodniopomorskie
 70-901;PP Szczecin Z101;Szczecin;Franciszka Ksawerego Druckiego-Lubeckiego;1C;Szczecin;Szczecin;zachodniopomorskie
-70-952;PP Szczecin Z101;skrytki/przegrÛdki;;;Szczecin;Szczecin;zachodniopomorskie
 78-400;UP Szczecinek 1;Szczecinek;Boh. Warszawy;36;Szczecinek;szczecinecki;zachodniopomorskie
 78-460;FUP Szczecinek 1;Barwice;Plac Wolnoúci;4;Barwice;szczecinecki;zachodniopomorskie
 78-425;FUP Szczecinek 1;Bia≥y BÛr;S≥upska;15;Bia≥y BÛr;szczecinecki;zachodniopomorskie
@@ -5495,6 +5489,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 47-100;AP SzymiszÛw;SzymiszÛw;Wolnoúci;39;Strzelce Opolskie;strzelecki;opolskie
 16-050;AP Szymki;Szymki;;57;Micha≥owo;bia≥ostocki;podlaskie
 59-151;AP Szymocin;Szymocin;;38;GrÍbocice;polkowicki;dolnoúlπskie
+14-331;AP Szymonowo;Szymonowo;;18;Ma≥dyty;ostrÛdzki;warmiÒsko-mazurskie
 66-433;AP åciechÛw;åciechÛw;;115A;Lubiszyn;gorzowski;lubuskie
 57-410;AP åcinawka årednia;åcinawka årednia;Mickiewicza;11;RadkÛw;k≥odzki;dolnoúlπskie
 62-561;UP ålesin k. Konina;ålesin;Kleczewska;14;ålesin;koniÒski;wielkopolskie
@@ -5502,8 +5497,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 62-560;FUP ålesin k. Konina;Skulsk;KoniÒska;2;Skulsk;koniÒski;wielkopolskie
 48-210;AP åmicz;åmicz;;50;Bia≥a;prudnicki;opolskie
 64-030;UP åmigiel;åmigiel;LeszczyÒska;2;åmigiel;koúciaÒski;wielkopolskie
-63-100;UP årem 1;årem;20 Paüdziernika Pl.;41;årem;úremski;wielkopolskie
-63-100;FUP årem 1;Dolsk;Wyzwolenia Pl.;18;Dolsk;úremski;wielkopolskie
+63-100;UP årem 1;årem;Plac 20 Paüdziernika;41;årem;úremski;wielkopolskie
+63-100;FUP årem 1;Dolsk;Plac Wyzwolenia;18;Dolsk;úremski;wielkopolskie
 63-130;FUP årem 1;Ksiπø Wielkopolski;Tadeusza Koúciuszki;1;Ksiπø Wielkopolski;úremski;wielkopolskie
 63-112;FUP årem 1;Manieczki;Ogrodowa;1;Brodnica;úremski;wielkopolskie
 63-101;FUP årem 1;årem;Dezyderego Ch≥apowskiego;3;årem;úremski;wielkopolskie
@@ -5533,7 +5528,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 58-100;UP åwidnica ålπska 1;åwidnica;pl. Grunwaldzki;1;åwidnica;úwidnicki;dolnoúlπskie
 58-140;FUP åwidnica ålπska 1;Jaworzyna ålπska;1 Maja;28;Jaworzyna ålπska;úwidnicki;dolnoúlπskie
 58-124;FUP åwidnica ålπska 1;Marcinowice;åwidnicka;1;Marcinowice;úwidnicki;dolnoúlπskie
-58-116;FUP åwidnica ålπska 1;Moúcisko;Kolejowa;12b;DzierøoniÛw;dzierøoniowski;dolnoúlπskie
 58-100;FUP åwidnica ålπska 1;åwidnica;Jana Boduena de Courtenay;2;åwidnica;úwidnicki;dolnoúlπskie
 58-100;FUP åwidnica ålπska 1;åwidnica;Karola Marcinkowskiego;16;åwidnica;úwidnicki;dolnoúlπskie
 58-100;FUP åwidnica ålπska 1;åwidnica;Siostrzana;7 A;åwidnica;úwidnicki;dolnoúlπskie
@@ -5600,6 +5594,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 59-726;AP åwiÍtoszÛw;åwiÍtoszÛw;U≥aÒska;2H;Osiecznica;boles≥awiecki;dolnoúlπskie
 36-072;UP åwilcza;åwilcza;;164;åwilcza;rzeszowski;podkarpackie
 27-671;AP åwiniary Nowe;åwiniary Nowe;;47;£oniÛw;sandomierski;úwiÍtokrzyskie
+27-672;AP åwiniary Stare;åwiniary Stare;;35C;£oniÛw;sandomierski;úwiÍtokrzyskie
 72-600;UP åwinoujúcie 1;åwinoujúcie;Marsza≥ka JÛzefa Pi≥sudskiego;1;åwinoujúcie;åwinoujúcie;zachodniopomorskie
 72-602;FUP åwinoujúcie 1;åwinoujúcie;Norberta Barlickiego;17;åwinoujúcie;åwinoujúcie;zachodniopomorskie
 72-611;FUP åwinoujúcie 1;åwinoujúcie;Juliana Markiewicza;2;åwinoujúcie;åwinoujúcie;zachodniopomorskie
@@ -5625,13 +5620,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 39-401;FUP Tarnobrzeg 1;Tarnobrzeg;Stanis≥awa WyspiaÒskiego;19;Tarnobrzeg;Tarnobrzeg;podkarpackie
 39-403;FUP Tarnobrzeg 1;Tarnobrzeg;Zwierzyniecka;18;Tarnobrzeg;Tarnobrzeg;podkarpackie
 22-375;AP TarnogÛra;TarnogÛra;Krakowskie Przedmieúcie;71 a;Izbica;krasnostawski;lubelskie
-23-420;UP TarnogrÛd;TarnogrÛd;Rynek;20;TarnogrÛd;bi≥gorajski;lubelskie
-23-425;FUP TarnogrÛd;Biszcza;;79;Biszcza;bi≥gorajski;lubelskie
-23-413;FUP TarnogrÛd;Obsza;;36;Obsza;bi≥gorajski;lubelskie
-23-423;FUP TarnogrÛd;Potok GÛrny;;116;Potok GÛrny;bi≥gorajski;lubelskie
 17-222;AP Tarnopol;Tarnopol;;4A;Narewka;hajnowski;podlaskie
 22-678;AP Tarnoszyn;Tarnoszyn;;39 ;UlhÛwek;tomaszowski;lubelskie
-38-204;UP Tarnowiec;Tarnowiec;;30;Tarnowiec;jasielski;podkarpackie
 42-681;AP Tarnowskie GÛry;Tarnowskie GÛry;ZagÛrska;91;Tarnowskie GÛry;tarnogÛrski;úlπskie
 42-600;UP Tarnowskie GÛry 1;Tarnowskie GÛry;Marsza≥ka JÛzefa Pi≥sudskiego;12;Tarnowskie GÛry;tarnogÛrski;úlπskie
 42-609;FUP Tarnowskie GÛry 1;Tarnowskie GÛry;Armii Krajowej;4a;Tarnowskie GÛry;tarnogÛrski;úlπskie
@@ -5643,6 +5633,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 42-606;FUP Tarnowskie GÛry 1;Tarnowskie GÛry;S≥onecznikÛw;41;Tarnowskie GÛry;tarnogÛrski;úlπskie
 42-600;FUP Tarnowskie GÛry 1;Tarnowskie GÛry;Jana åniadeckiego;1;Tarnowskie GÛry;tarnogÛrski;úlπskie
 42-674;FUP Tarnowskie GÛry 1;Zbros≥awice;Mickiewicza;2;Zbros≥awice;tarnogÛrski;úlπskie
+33-118;AP TarnÛw;TarnÛw;Klikowska;185;TarnÛw;TarnÛw;ma≥opolskie
+33-117;AP TarnÛw;TarnÛw;Klikowska;12/3;TarnÛw;TarnÛw;ma≥opolskie
 33-103;AP TarnÛw;TarnÛw;Koszycka;4;TarnÛw;TarnÛw;ma≥opolskie
 33-116;AP TarnÛw;TarnÛw;Nowy åwiat;5;TarnÛw;TarnÛw;ma≥opolskie
 33-103;AP TarnÛw;TarnÛw;Tadeusza Romanowicza;59;TarnÛw;TarnÛw;ma≥opolskie
@@ -5701,6 +5693,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 22-672;FUP TomaszÛw Lubelski 1;Susiec;Tomaszowska;100;Susiec;tomaszowski;lubelskie
 22-604;FUP TomaszÛw Lubelski 1;Tarnawatka;Lubelska;35;Tarnawatka;tomaszowski;lubelskie
 22-602;FUP TomaszÛw Lubelski 1;TomaszÛw Lubelski;Zamojska;2;TomaszÛw Lubelski;tomaszowski;lubelskie
+97-200;AP TomaszÛw Mazowiecki;TomaszÛw Mazowiecki;Aleja Marsza≥ka JÛzefa Pi≥sudskiego;26A;TomaszÛw Mazowiecki;tomaszowski;≥Ûdzkie
 97-200;AP TomaszÛw Mazowiecki;TomaszÛw Mazowiecki;Plac Gabriela Narutowicza;119;TomaszÛw Mazowiecki;tomaszowski;≥Ûdzkie
 97-200;UP TomaszÛw Mazowiecki 1;TomaszÛw Mazowiecki;Prezydenta Ignacego Moúcickiego;14/18;TomaszÛw Mazowiecki;tomaszowski;≥Ûdzkie
 97-215;FUP TomaszÛw Mazowiecki 1;Inow≥Ûdz;pl. Kazimierza Wielkiego;24;Inow≥Ûdz;tomaszowski;≥Ûdzkie
@@ -5779,20 +5772,20 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 89-526;FUP Tuchola 1;Lubiewo;Wojska Polskiego;43;Lubiewo;tucholski;kujawsko-pomorskie
 89-530;FUP Tuchola 1;åliwice;Dworcowa;37;åliwice;tucholski;kujawsko-pomorskie
 89-501;FUP Tuchola 1;Tuchola;Aleja Ligi Ochrony Przyrody;9;Tuchola;tucholski;kujawsko-pomorskie
+64-212;AP Tuchorza;Tuchorza;Prosta;15;Siedlec;wolsztyÒski;wielkopolskie
 33-170;UP TuchÛw;TuchÛw;Jana Paw≥a II;2;TuchÛw;tarnowski;ma≥opolskie
 33-174;AP TuchÛw;TuchÛw;Kolejowa;8;TuchÛw;tarnowski;ma≥opolskie
 66-510;AP Tuczno;Tuczno;KrÛtka;6;Strzelce KrajeÒskie;strzelecko-drezdenecki;lubuskie
 82-104;AP Tujsk;Tujsk;;25;Stegna;nowodworski;pomorskie
 63-004;AP Tulce;Tulce;Fio≥kowa;1;Kleszczewo;poznaÒski;wielkopolskie
-14-121;AP Tu≥odziad;Tu≥odziad;;11;DπbrÛwno;ostrÛdzki;warmiÒsko-mazurskie
 62-700;UP Turek 1;Turek;Kaliska;32;Turek;turecki;wielkopolskie
 62-720;FUP Turek 1;Brudzew;Plac Wolnoúci;20 A;Brudzew;turecki;wielkopolskie
 62-709;FUP Turek 1;MalanÛw;Turecka;8;MalanÛw;turecki;wielkopolskie
-62-740;FUP Turek 1;TuliszkÛw;PowstaÒcÛw Styczniowych 1863 R. Pl.;1A;TuliszkÛw;turecki;wielkopolskie
+62-740;FUP Turek 1;TuliszkÛw;Plac PowstaÒcÛw Styczniowych 1863;1A;TuliszkÛw;turecki;wielkopolskie
 62-701;FUP Turek 1;Turek;LegionÛw Polskich;1;Turek;turecki;wielkopolskie
 62-710;FUP Turek 1;W≥adys≥awÛw;Senatorska;4;W≥adys≥awÛw;turecki;wielkopolskie
-22-547;AP Turkowice;Turkowice;;36;Werbkowice;hrubieszowski;lubelskie
 62-700;AP Turkowice;Turkowice;;109A;Turek;turecki;wielkopolskie
+22-547;AP Turkowice;Turkowice;;36;Werbkowice;hrubieszowski;lubelskie
 28-221;AP Tursko Wielkie;Tursko Wielkie;;38;Osiek;staszowski;úwiÍtokrzyskie
 83-100;AP Turze k. Tczewa;Turze;D≥uga;72;Tczew;tczewski;pomorskie
 14-112;AP Turznica;Turznica;;23A;OstrÛda;ostrÛdzki;warmiÒsko-mazurskie
@@ -5839,13 +5832,11 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 86-260;UP Unis≥aw;Unis≥aw;Parkowa;20;Unis≥aw;che≥miÒski;kujawsko-pomorskie
 86-253;FUP Unis≥aw;Kijewo KrÛlewskie;úw. WawrzyÒca;1;Kijewo KrÛlewskie;che≥miÒski;kujawsko-pomorskie
 86-221;FUP Unis≥aw;Papowo Biskupie;;120;Papowo Biskupie;che≥miÒski;kujawsko-pomorskie
-11-502;AP Upa≥ty Ma≥e;Upa≥ty Ma≥e;;5;Giøycko;giøycki;warmiÒsko-mazurskie
 76-270;AP Ustka;Ustka;Wczasowa;27;Ustka;s≥upski;pomorskie
 76-270;UP Ustka 1;Ustka;Marynarki Polskiej;47;Ustka;s≥upski;pomorskie
 76-212;FUP Ustka 1;Rowy;Ba≥tycka;4;Ustka;s≥upski;pomorskie
 76-270;FUP Ustka 1;Ustka;Komandorska;176;Ustka;s≥upski;pomorskie
 76-272;FUP Ustka 1;Ustka;Miko≥aja Kopernika;22;Ustka;s≥upski;pomorskie
-76-273;FUP Ustka 1;Ustka;Promenada Nadmorska;10;Ustka;s≥upski;pomorskie
 76-272;FUP Ustka 1;Ustka;Miko≥aja Reja;5 A;Ustka;s≥upski;pomorskie
 76-270;FUP Ustka 1;Ustka;Wilcza;14;Ustka;s≥upski;pomorskie
 43-452;AP UstroÒ;UstroÒ;3 Maja;44;UstroÒ;cieszyÒski;úlπskie
@@ -5856,6 +5847,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 43-454;FUP UstroÒ k. Cieszyna 1;UstroÒ;Dzia≥kowa;18;UstroÒ;cieszyÒski;úlπskie
 43-450;FUP UstroÒ k. Cieszyna 1;UstroÒ;Skoczowska;137;UstroÒ;cieszyÒski;úlπskie
 43-453;FUP UstroÒ k. Cieszyna 1;UstroÒ;Wczasowa;47;UstroÒ;cieszyÒski;úlπskie
+43-463;FUP UstroÒ k. Cieszyna 1;Wis≥a;pl. Bogumi≥a Hoffa;2;Wis≥a;cieszyÒski;úlπskie
 43-460;FUP UstroÒ k. Cieszyna 1;Wis≥a;pl. Bogumi≥a Hoffa;1;Wis≥a;cieszyÒski;úlπskie
 43-462;FUP UstroÒ k. Cieszyna 1;Wis≥a;WaÒkowska;2G;Wis≥a;cieszyÒski;úlπskie
 38-700;UP Ustrzyki Dolne;Ustrzyki Dolne;29 Listopada;29;Ustrzyki Dolne;bieszczadzki;podkarpackie
@@ -5882,13 +5874,13 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 58-300;FUP Wa≥brzych 1;Szczawno-ZdrÛj;JÛzefa £πczyÒskiego;44;Szczawno-ZdrÛj;wa≥brzyski;dolnoúlπskie
 58-304;FUP Wa≥brzych 1;Wa≥brzych;gen. W≥adys≥awa Andersa;140;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 58-302;FUP Wa≥brzych 1;Wa≥brzych;Armii Krajowej;26c;Wa≥brzych;Wa≥brzych;dolnoúlπskie
+58-313;FUP Wa≥brzych 1;Wa≥brzych;GdyÒska;7;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 58-305;FUP Wa≥brzych 1;Wa≥brzych;1 Maja;146;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 58-303;FUP Wa≥brzych 1;Wa≥brzych;Niepodleg≥oúci;217;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 58-301;FUP Wa≥brzych 1;Wa≥brzych;marsz. JÛzefa Pi≥sudskiego;76;Wa≥brzych;Wa≥brzych;dolnoúlπskie
-58-313;UP Wa≥brzych 2;Wa≥brzych;GdyÒska;7;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 58-316;UP Wa≥brzych 14;Wa≥brzych;HetmaÒska;1;Wa≥brzych;Wa≥brzych;dolnoúlπskie
-58-309;FUP Wa≥brzych 14;Wa≥brzych;D≥uga;4B;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 58-318;FUP Wa≥brzych 14;Wa≥brzych;D≥uga;5a;Wa≥brzych;Wa≥brzych;dolnoúlπskie
+58-309;FUP Wa≥brzych 14;Wa≥brzych;D≥uga;4B;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 58-309;FUP Wa≥brzych 14;Wa≥brzych;Ludwika Hirszfelda;8;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 58-306;FUP Wa≥brzych 14;Wa≥brzych;Joachima Lelewela;3;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 58-309;FUP Wa≥brzych 14;Wa≥brzych;W≥adys≥awa Orkana;50;Wa≥brzych;Wa≥brzych;dolnoúlπskie
@@ -5918,21 +5910,20 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 01-911;AP Warszawa;Warszawa (Bielany);Hansa Christiana Andersena;4;Warszawa;Warszawa;mazowieckie
 01-923;AP Warszawa;Warszawa (Bielany);Wojciecha Bogus≥awskiego;6a;Warszawa;Warszawa;mazowieckie
 01-963;AP Warszawa;Warszawa (Bielany);Wrzeciono;41;Warszawa;Warszawa;mazowieckie
-02-762;AP Warszawa;Warszawa (MokotÛw);BarceloÒska;1;Warszawa;Warszawa;mazowieckie
 03-982;AP Warszawa;Warszawa (Praga-Po≥udnie);gen. Romana Abrahama;4/102;Warszawa;Warszawa;mazowieckie
 04-125;AP Warszawa;Warszawa (Praga-Po≥udnie);"gen. Augusta Emila Fieldorfa ""Nila""";41;Warszawa;Warszawa;mazowieckie
-04-077;AP Warszawa;Warszawa (Praga-Po≥udnie);Grochowska;219/U1;Warszawa;Warszawa;mazowieckie
-04-041;AP Warszawa;Warszawa (Praga-Po≥udnie);Ostrobramska;101/316;Warszawa;Warszawa;mazowieckie
+04-041;AP Warszawa;Warszawa (Praga-Po≥udnie);Ostrobramska;101/311;Warszawa;Warszawa;mazowieckie
 03-748;AP Warszawa;Warszawa (Praga-PÛ≥noc);Bia≥ostocka;9;Warszawa;Warszawa;mazowieckie
 00-132;AP Warszawa;Warszawa (årÛdmieúcie);Grzybowska;5;Warszawa;Warszawa;mazowieckie
 00-132;AP Warszawa;Warszawa (årÛdmieúcie);Grzybowska;16/22/1;Warszawa;Warszawa;mazowieckie
 00-132;AP Warszawa;Warszawa (årÛdmieúcie);Grzybowska;9/1;Warszawa;Warszawa;mazowieckie
-00-133;AP Warszawa;Warszawa (årÛdmieúcie);Aleja Jana Paw≥a II;20;Warszawa;Warszawa;mazowieckie
 00-133;AP Warszawa;Warszawa (årÛdmieúcie);Aleja Jana Paw≥a II;26;Warszawa;Warszawa;mazowieckie
+00-133;AP Warszawa;Warszawa (årÛdmieúcie);Aleja Jana Paw≥a II;20;Warszawa;Warszawa;mazowieckie
 00-138;AP Warszawa;Warszawa (årÛdmieúcie);Plac Mirowski;1/109;Warszawa;Warszawa;mazowieckie
 00-100;AP Warszawa;Warszawa (årÛdmieúcie);Przechodnia;2 /U5;Warszawa;Warszawa;mazowieckie
 02-796;AP Warszawa;Warszawa (UrsynÛw);Stefana Dembego;21;Warszawa;Warszawa;mazowieckie
 02-784;AP Warszawa;Warszawa (UrsynÛw);Edwarda Dembowskiego;10;Warszawa;Warszawa;mazowieckie
+02-810;AP Warszawa;Warszawa (UrsynÛw);"Bronis≥awa Pietraszewicza ""Lota""";7A/2A;Warszawa;Warszawa;mazowieckie
 02-210;AP Warszawa;Warszawa (W≥ochy);Aleja Krakowska;264;Warszawa;Warszawa;mazowieckie
 01-029;AP Warszawa;Warszawa (Wola);Dzielna;21/17;Warszawa;Warszawa;mazowieckie
 01-248;AP Warszawa;Warszawa (Wola);Jana Kazimierza;46;Warszawa;Warszawa;mazowieckie
@@ -5941,6 +5932,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 00-001;UP Warszawa 1;Warszawa (årÛdmieúcie);åwiÍtokrzyska;31/33;Warszawa;Warszawa;mazowieckie
 00-950;UP Warszawa 1;skrytki/przegrÛdki;;;Warszawa;Warszawa;mazowieckie
 00-901;FUP Warszawa 1;Warszawa (årÛdmieúcie);Plac Defilad;1;Warszawa;Warszawa;mazowieckie
+00-111;FUP Warszawa 1;Warszawa (årÛdmieúcie);Plac Defilad;1/83;Warszawa;Warszawa;mazowieckie
 00-343;FUP Warszawa 1;Warszawa (årÛdmieúcie);Dobra;18/20;Warszawa;Warszawa;mazowieckie
 00-959;FUP Warszawa 1;skrytki/przegrÛdki;;;Warszawa;Warszawa;mazowieckie
 00-024;FUP Warszawa 1;Warszawa (årÛdmieúcie);Aleje Jerozolimskie;54/H21;Warszawa;Warszawa;mazowieckie
@@ -5982,8 +5974,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 00-993;FUP Warszawa 12;Warszawa (MokotÛw);Rakowiecka;2 A;Warszawa;Warszawa;mazowieckie
 02-600;UP Warszawa 13;Warszawa (MokotÛw);Pu≥awska;166;Warszawa;Warszawa;mazowieckie
 00-976;UP Warszawa 13;skrytki/przegrÛdki;;;Warszawa;Warszawa;mazowieckie
-02-671;FUP Warszawa 13;Warszawa (MokotÛw);Aleja Niepodleg≥oúci;103;Warszawa;Warszawa;mazowieckie
 02-671;FUP Warszawa 13;Warszawa (MokotÛw);Aleja Niepodleg≥oúci;77/85;Warszawa;Warszawa;mazowieckie
+02-671;FUP Warszawa 13;Warszawa (MokotÛw);Aleja Niepodleg≥oúci;103;Warszawa;Warszawa;mazowieckie
 02-691;FUP Warszawa 13;Warszawa (MokotÛw);Obrzeøna;1;Warszawa;Warszawa;mazowieckie
 02-631;FUP Warszawa 13;Warszawa (MokotÛw);Jana Paw≥a Woronicza;50;Warszawa;Warszawa;mazowieckie
 00-504;UP Warszawa 15;Warszawa (årÛdmieúcie);Plac Trzech Krzyøy;13;Warszawa;Warszawa;mazowieckie
@@ -6006,7 +5998,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 01-393;FUP Warszawa 27;Warszawa (Bemowo);Puszczy Solskiej;8;Warszawa;Warszawa;mazowieckie
 01-311;FUP Warszawa 27;Warszawa (Bemowo);gen. Ludomi≥a Rayskiego;11/11U;Warszawa;Warszawa;mazowieckie
 00-905;FUP Warszawa 27;Warszawa (Bemowo);Aleksandra åwiÍtochowskiego;2;Warszawa;Warszawa;mazowieckie
-01-114;FUP Warszawa 27;Warszawa (Wola);Okocimska;2/3;Warszawa;Warszawa;mazowieckie
 01-421;UP Warszawa 28;Warszawa (Wola);Obozowa;63/65;Warszawa;Warszawa;mazowieckie
 03-912;UP Warszawa 33;Warszawa (Praga-Po≥udnie);Aleja Jerzego Waszyngtona;26;Warszawa;Warszawa;mazowieckie
 00-989;UP Warszawa 33;skrytki/przegrÛdki;;;Warszawa;Warszawa;mazowieckie
@@ -6041,8 +6032,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 00-968;UP Warszawa 45;skrytki/przegrÛdki;;;Warszawa;Warszawa;mazowieckie
 01-878;FUP Warszawa 45;Warszawa (Bielany);"p≥k. Mieczys≥awa Niedzielskiego ""Øywiciela""";2C/104;Warszawa;Warszawa;mazowieckie
 01-888;FUP Warszawa 45;Warszawa (Bielany);W≥odzimierza PerzyÒskiego;3;Warszawa;Warszawa;mazowieckie
-01-882;FUP Warszawa 45;Warszawa (Bielany);Stefana Øeromskiego;29;Warszawa;Warszawa;mazowieckie
 01-880;FUP Warszawa 45;Warszawa (Bielany);Stefana Øeromskiego;1;Warszawa;Warszawa;mazowieckie
+01-882;FUP Warszawa 45;Warszawa (Bielany);Stefana Øeromskiego;29;Warszawa;Warszawa;mazowieckie
 01-499;UP Warszawa 46;Warszawa (Bemowo);PiastÛw ålπskich;29;Warszawa;Warszawa;mazowieckie
 05-082;FUP Warszawa 46;Stare Babice;Rynek;11;Stare Babice;warszawski zachodni;mazowieckie
 00-908;FUP Warszawa 46;Warszawa (Bemowo);gen. Sylwestra Kaliskiego;15;Warszawa;Warszawa;mazowieckie
@@ -6051,7 +6042,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 01-499;FUP Warszawa 46;Warszawa (Bemowo);Wroc≥awska;18;Warszawa;Warszawa;mazowieckie
 01-499;FUP Warszawa 46;Warszawa (Wola);GÛrczewska;124;Warszawa;Warszawa;mazowieckie
 00-191;UP Warszawa 47;Warszawa (årÛdmieúcie);JÛzefa Lewartowskiego;5;Warszawa;Warszawa;mazowieckie
-00-964;FUP Warszawa 47;Warszawa (årÛdmieúcie);Stawki;2;Warszawa;Warszawa;mazowieckie
 04-026;UP Warszawa 50;Warszawa (Praga-Po≥udnie);Aleja StanÛw Zjednoczonych;51;Warszawa;Warszawa;mazowieckie
 04-026;FUP Warszawa 50;Warszawa (Praga-Po≥udnie);MajdaÒska;13;Warszawa;Warszawa;mazowieckie
 04-041;FUP Warszawa 50;Warszawa (Praga-Po≥udnie);MiÍdzyborska;48;Warszawa;Warszawa;mazowieckie
@@ -6066,9 +6056,10 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 02-905;FUP Warszawa 76;Warszawa (MokotÛw);Go≥kowska;17;Warszawa;Warszawa;mazowieckie
 02-944;FUP Warszawa 76;Warszawa (MokotÛw);Przy BernardyÒskiej Wodzie;7;Warszawa;Warszawa;mazowieckie
 02-972;FUP Warszawa 76;Warszawa (WilanÛw);Prymasa Augusta Hlonda;2/U-4;Warszawa;Warszawa;mazowieckie
-03-006;FUP Warszawa 76;Warszawa (WilanÛw);Kazachska;7;Warszawa;Warszawa;mazowieckie
+02-999;FUP Warszawa 76;Warszawa (WilanÛw);Kazachska;7;Warszawa;Warszawa;mazowieckie
 02-789;FUP Warszawa 76;Warszawa (WilanÛw);Franciszka Klimczaka;1;Warszawa;Warszawa;mazowieckie
 02-931;FUP Warszawa 76;Warszawa (WilanÛw);Marconich;3;Warszawa;Warszawa;mazowieckie
+02-961;FUP Warszawa 76;Warszawa (WilanÛw);PrzyczÛ≥kowa;219/221/223/B.1.10;Warszawa;Warszawa;mazowieckie
 02-975;FUP Warszawa 76;Warszawa (WilanÛw);Sarmacka;5;Warszawa;Warszawa;mazowieckie
 02-990;FUP Warszawa 76;Warszawa (WilanÛw);Zygmunta Vogla;62/22;Warszawa;Warszawa;mazowieckie
 02-792;UP Warszawa 78;Warszawa (UrsynÛw);Na Uboczu;3;Warszawa;Warszawa;mazowieckie
@@ -6079,8 +6070,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 02-363;UP Warszawa 79;Warszawa (Ochota);Bia≥obrzeska;22;Warszawa;Warszawa;mazowieckie
 00-973;UP Warszawa 79;skrytki/przegrÛdki;;;Warszawa;Warszawa;mazowieckie
 02-035;FUP Warszawa 79;Warszawa (Ochota);Filtrowa;62;Warszawa;Warszawa;mazowieckie
-02-363;FUP Warszawa 79;Warszawa (Ochota);Aleje Jerozolimskie;179;Warszawa;Warszawa;mazowieckie
 02-363;FUP Warszawa 79;Warszawa (Ochota);Aleje Jerozolimskie;148;Warszawa;Warszawa;mazowieckie
+02-363;FUP Warszawa 79;Warszawa (Ochota);Aleje Jerozolimskie;179;Warszawa;Warszawa;mazowieckie
 02-303;FUP Warszawa 79;Warszawa (Ochota);Aleje Jerozolimskie;144;Warszawa;Warszawa;mazowieckie
 02-218;FUP Warszawa 79;Warszawa (Ochota);Opaczewska;43;Warszawa;Warszawa;mazowieckie
 02-108;FUP Warszawa 79;Warszawa (Ochota);Pruszkowska;4 D;Warszawa;Warszawa;mazowieckie
@@ -6161,9 +6152,9 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 02-200;FUP Warszawa 119;Warszawa (W≥ochy);Kazimierza Wielkiego;2;Warszawa;Warszawa;mazowieckie
 02-275;FUP Warszawa 119;Warszawa (W≥ochy);Aleja Krakowska;110/114;Warszawa;Warszawa;mazowieckie
 02-220;FUP Warszawa 119;Warszawa (W≥ochy);£opuszaÒska;22;Warszawa;Warszawa;mazowieckie
-02-143;FUP Warszawa 119;Warszawa (W≥ochy);Øwirki i Wigury;1;Warszawa;Warszawa;mazowieckie
-02-143;FUP Warszawa 119;Warszawa (W≥ochy);Øwirki i Wigury;3a;Warszawa;Warszawa;mazowieckie
 00-909;FUP Warszawa 119;Warszawa (W≥ochy);Øwirki i Wigury;9/13;Warszawa;Warszawa;mazowieckie
+02-143;FUP Warszawa 119;Warszawa (W≥ochy);Øwirki i Wigury;3a;Warszawa;Warszawa;mazowieckie
+02-143;FUP Warszawa 119;Warszawa (W≥ochy);Øwirki i Wigury;1;Warszawa;Warszawa;mazowieckie
 02-741;UP Warszawa 121;Warszawa (MokotÛw);Wa≥brzyska;11;Warszawa;Warszawa;mazowieckie
 02-694;FUP Warszawa 121;Warszawa (MokotÛw);Be≥dan;2;Warszawa;Warszawa;mazowieckie
 02-495;UP Warszawa 122;Warszawa (Ursus);BohaterÛw Warszawy;6;Warszawa;Warszawa;mazowieckie
@@ -6205,10 +6196,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 05-076;FUP Warszawa 145;Warszawa (Weso≥a);Wilanowska;3;Warszawa;Warszawa;mazowieckie
 03-295;UP Warszawa 148;Warszawa (Bia≥o≥Íka);Goúcinna;2;Warszawa;Warszawa;mazowieckie
 03-287;FUP Warszawa 148;Warszawa (Bia≥o≥Íka);Leona Berensona;12/U16;Warszawa;Warszawa;mazowieckie
-02-962;UP Warszawa 154;Warszawa (WilanÛw);PrzyczÛ≥kowa;219/221/223/B.1.10;Warszawa;Warszawa;mazowieckie
 00-903;PP Warszawa W101;Warszawa (UrsynÛw);£πczyny;8;Warszawa;Warszawa;mazowieckie
-98-290;UP Warta;Warta;Tadeusza Koúciuszki;8;Warta;sieradzki;≥Ûdzkie
-98-215;FUP Warta;GoszczanÛw;Kaliska;19;GoszczanÛw;sieradzki;≥Ûdzkie
 32-125;UP WawrzeÒczyce;WawrzeÒczyce;;160;Igo≥omia-WawrzeÒczyce;krakowski;ma≥opolskie
 87-200;UP Wπbrzeüno 1;Wπbrzeüno;1 Maja;27;Wπbrzeüno;wπbrzeski;kujawsko-pomorskie
 87-207;FUP Wπbrzeüno 1;DÍbowa £πka;;22;DÍbowa £πka;wπbrzeski;kujawsko-pomorskie
@@ -6227,7 +6215,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 62-100;AP Wπgrowiec;Wπgrowiec;Letnia;4;Wπgrowiec;wπgrowiecki;wielkopolskie
 62-100;AP Wπgrowiec;Wπgrowiec;Stanis≥awa Miko≥ajczyka;62;Wπgrowiec;wπgrowiecki;wielkopolskie
 19-222;AP Wπsosz;Wπsosz;Plac RzÍdziana;7;Wπsosz;grajewski;podlaskie
-64-314;AP Wπsowo;Wπsowo;Lipowa;30;Kuúlin;nowotomyski;wielkopolskie
 84-201;AP Wejherowo;Wejherowo;Gabriela Narutowicza;4a;Wejherowo;wejherowski;pomorskie
 84-205;AP Wejherowo;Wejherowo;Pomorska;3A;Wejherowo;wejherowski;pomorskie
 84-209;AP Wejherowo;Wejherowo;Rybacka;10;Wejherowo;wejherowski;pomorskie
@@ -6257,9 +6244,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 12-203;AP Wiartel;Wiartel;;12A;Pisz;piski;warmiÒsko-mazurskie
 86-109;AP Wiπg;Wiπg;;21b;åwiecie;úwiecki;kujawsko-pomorskie
 28-200;AP Wiπzownica Duøa;Wiπzownica Duøa;;218;StaszÛw;staszowski;úwiÍtokrzyskie
-76-150;AP Wiekowo;Wiekowo;;1;Dar≥owo;s≥awieÒski;zachodniopomorskie
+67-301;AP Wiechlice;Wiechlice;Brzozowa; ;Szprotawa;øagaÒski;lubuskie
 64-732;AP WieleÒ;WieleÒ;Jana Paw≥a II;5A;WieleÒ;czarnkowsko-trzcianecki;wielkopolskie
-64-730;UP WieleÒ n. Noteciπ;WieleÒ;Koúciuszki;33;WieleÒ;czarnkowsko-trzcianecki;wielkopolskie
 98-311;AP Wielgie k. Wielunia;Wielgie;;47;OstrÛwek;wieluÒski;≥Ûdzkie
 05-334;AP Wielgolas;Wielgolas;MiÒska;26;Latowicz;miÒski;mazowieckie
 64-050;UP Wielichowo;Wielichowo;Pocztowa;14;Wielichowo;grodziski;wielkopolskie
@@ -6287,7 +6273,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 98-324;FUP WieluÒ 1;Wierzchlas;Szkolna;15;Wierzchlas;wieluÒski;≥Ûdzkie
 26-432;UP Wieniawa;Wieniawa;Kochanowskiego;90;Wieniawa;przysuski;mazowieckie
 26-422;FUP Wieniawa;Borkowice;ks. Jana Wiúniewskiego;7;Borkowice;przysuski;mazowieckie
-87-880;AP Wieniec;Wieniec;Brzeska;3;BrzeúÊ Kujawski;w≥oc≥awski;kujawsko-pomorskie
 34-384;AP Wieprz;Wieprz;Øywiecka;138;Radziechowy-Wieprz;øywiecki;úlπskie
 16-422;AP Wierciochy;Wierciochy;;6;Raczki;suwalski;podlaskie
 98-400;UP WieruszÛw;WieruszÛw;Piskorska;21;WieruszÛw;wieruszowski;≥Ûdzkie
@@ -6310,7 +6295,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 16-100;AP Wierzchlesie;Wierzchlesie;;89;Szudzia≥owo;sokÛlski;podlaskie
 88-140;AP Wierzchos≥awice;Wierzchos≥awice;;59;Gniewkowo;inowroc≥awski;kujawsko-pomorskie
 23-310;AP Wierzchowiska Pierwsze;Wierzchowiska Pierwsze;;153;Modliborzyce;janowski;lubelskie
-77-300;AP Wierzchowo Cz≥uchowskie;Wierzchowo;Szkolna;12;Cz≥uchÛw;cz≥uchowski;pomorskie
+77-301;AP Wierzchowo-Dworzec;Wierzchowo-Dworzec;Szkolna;12;Cz≥uchÛw;cz≥uchowski;pomorskie
 17-313;AP Wierzchuca NagÛrna;Wierzchuca NagÛrna;;68;Drohiczyn;siemiatycki;podlaskie
 89-410;UP WiÍcbork;WiÍcbork;Pocztowa;5;WiÍcbork;sÍpoleÒski;kujawsko-pomorskie
 89-410;FUP WiÍcbork;Runowo KrajeÒskie;;81;WiÍcbork;sÍpoleÒski;kujawsko-pomorskie
@@ -6337,6 +6322,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 21-524;FUP Wisznice;Tuczna;;191 A;Tuczna;bialski;lubelskie
 22-532;AP WiszniÛw;WiszniÛw;;36a;Mircze;hrubieszowski;lubelskie
 08-112;UP Wiúniew k. Siedlec;Wiúniew;Siedlecka;13;Wiúniew;siedlecki;mazowieckie
+06-541;AP Wiúniewko;Wiúniewko;;31;Wiúniewo;m≥awski;mazowieckie
 32-412;UP Wiúniowa;Wiúniowa;;646;Wiúniowa;myúlenicki;ma≥opolskie
 38-124;UP Wiúniowa n. Wis≥okiem;Wiúniowa;;262 A;Wiúniowa;strzyøowski;podkarpackie
 38-130;FUP Wiúniowa n. Wis≥okiem;Frysztak;Plac úw. Floriana;12;Frysztak;strzyøowski;podkarpackie
@@ -6368,7 +6354,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 87-851;FUP W≥oc≥awek 11;Boniewo;Szkolna;26;Boniewo;w≥oc≥awski;kujawsko-pomorskie
 87-850;FUP W≥oc≥awek 11;ChoceÒ;Sikorskiego;15;ChoceÒ;w≥oc≥awski;kujawsko-pomorskie
 87-853;FUP W≥oc≥awek 11;Kruszyn;Szkolna;9;W≥oc≥awek;w≥oc≥awski;kujawsko-pomorskie
-87-807;FUP W≥oc≥awek 11;W≥oc≥awek;Aleja Jana Paw≥a II;83a;W≥oc≥awek;W≥oc≥awek;kujawsko-pomorskie
 87-816;UP W≥oc≥awek 13;W≥oc≥awek;Promienna;7A;W≥oc≥awek;W≥oc≥awek;kujawsko-pomorskie
 87-804;FUP W≥oc≥awek 13;W≥oc≥awek;Wieniecka;14;W≥oc≥awek;W≥oc≥awek;kujawsko-pomorskie
 87-822;FUP W≥oc≥awek 13;W≥oc≥awek;Øurawia;22;W≥oc≥awek;W≥oc≥awek;kujawsko-pomorskie
@@ -6380,7 +6365,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 87-803;FUP W≥oc≥awek 14;W≥oc≥awek;P≥ocka;137;W≥oc≥awek;W≥oc≥awek;kujawsko-pomorskie
 87-806;FUP W≥oc≥awek 14;W≥oc≥awek;Øytnia;66/68;W≥oc≥awek;W≥oc≥awek;kujawsko-pomorskie
 87-823;PP W≥oc≥awek C322;W≥oc≥awek;Duninowska;9a;W≥oc≥awek;W≥oc≥awek;kujawsko-pomorskie
-48-319;AP W≥odary;W≥odary;Nyska;6;KorfantÛw;nyski;opolskie
 22-200;UP W≥odawa 1;W≥odawa;11 Listopada;6;W≥odawa;w≥odawski;lubelskie
 22-221;FUP W≥odawa 1;Hanna;Rynek;2/2;Hanna;w≥odawski;lubelskie
 22-236;FUP W≥odawa 1;HaÒsk Pierwszy;Osiedlowa;8;HaÒsk;w≥odawski;lubelskie
@@ -6405,6 +6389,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 44-340;FUP Wodzis≥aw ålπski;GodÛw;1 Maja;53 A;GodÛw;wodzis≥awski;úlπskie
 44-321;FUP Wodzis≥aw ålπski;Marklowice;Wyzwolenia;71;Marklowice;wodzis≥awski;úlπskie
 44-325;FUP Wodzis≥aw ålπski;Mszana;1 Maja;81;Mszana;wodzis≥awski;úlπskie
+44-310;FUP Wodzis≥aw ålπski;Radlin;Wojciecha Korfantego;3;Radlin;wodzis≥awski;úlπskie
 44-300;FUP Wodzis≥aw ålπski;Wodzis≥aw ålπski;26 Marca;21;Wodzis≥aw ålπski;wodzis≥awski;úlπskie
 44-300;FUP Wodzis≥aw ålπski;Wodzis≥aw ålπski;os. Osiedle 1 Maja;15;Wodzis≥aw ålπski;wodzis≥awski;úlπskie
 44-304;FUP Wodzis≥aw ålπski;skrytki/przegrÛdki;;;Wodzis≥aw ålπski;wodzis≥awski;úlπskie
@@ -6448,6 +6433,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 83-222;AP Wolental;Wolental;;15;SkÛrcz;starogardzki;pomorskie
 57-400;AP WolibÛrz;WolibÛrz;;111a;Nowa Ruda;k≥odzki;dolnoúlπskie
 72-510;UP Wolin;Wolin;Zamkowa;22;Wolin;kamieÒski;zachodniopomorskie
+72-500;FUP Wolin;MiÍdzyzdroje;Gryfa Pomorskiego;7;MiÍdzyzdroje;kamieÒski;zachodniopomorskie
 64-202;AP Wolsztyn;Wolsztyn;S≥owackiego;9C/3;Wolsztyn;wolsztyÒski;wielkopolskie
 64-200;UP Wolsztyn 1;Wolsztyn;5 Stycznia;4;Wolsztyn;wolsztyÒski;wielkopolskie
 64-212;FUP Wolsztyn 1;Siedlec;ZbπszyÒska;8A;Siedlec;wolsztyÒski;wielkopolskie
@@ -6484,6 +6470,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 21-402;AP WÛlka åwiπtkowa;WÛlka åwiπtkowa;;18B;£ukÛw;≥ukowski;lubelskie
 26-640;AP WÛlka Twarogowa;WÛlka Twarogowa;;25a;Skaryszew;radomski;mazowieckie
 87-402;AP Wrocki;Wrocki;;23A;Golub-DobrzyÒ;golubsko-dobrzyÒski;kujawsko-pomorskie
+52-405;AP Wroc≥aw;Wroc≥aw (Wroc≥aw-Fabryczna);Ibn Siny Awicenny;18/1/2;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 54-129;AP Wroc≥aw;Wroc≥aw (Wroc≥aw-Fabryczna);Jerzego Bajana;65A;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 54-046;AP Wroc≥aw;Wroc≥aw (Wroc≥aw-Fabryczna);Boguszowska;82;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 54-610;AP Wroc≥aw;Wroc≥aw (Wroc≥aw-Fabryczna);Brodzka;159;Wroc≥aw;Wroc≥aw;dolnoúlπskie
@@ -6543,8 +6530,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 50-342;FUP Wroc≥aw 48;Wroc≥aw (Wroc≥aw-årÛdmieúcie);Grunwaldzka;46;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 50-399;FUP Wroc≥aw 48;Wroc≥aw (Wroc≥aw-årÛdmieúcie);úw. Idziego;2;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 50-259;FUP Wroc≥aw 48;Wroc≥aw (Wroc≥aw-årÛdmieúcie);Jednoúci Narodowej;47;Wroc≥aw;Wroc≥aw;dolnoúlπskie
-50-300;FUP Wroc≥aw 48;Wroc≥aw (Wroc≥aw-årÛdmieúcie);Jednoúci Narodowej;185;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 50-385;FUP Wroc≥aw 48;Wroc≥aw (Wroc≥aw-årÛdmieúcie);Jednoúci Narodowej;125;Wroc≥aw;Wroc≥aw;dolnoúlπskie
+50-300;FUP Wroc≥aw 48;Wroc≥aw (Wroc≥aw-årÛdmieúcie);Jednoúci Narodowej;185;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 51-603;FUP Wroc≥aw 48;Wroc≥aw (Wroc≥aw-årÛdmieúcie);al. Jana Kochanowskiego;39;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 50-386;FUP Wroc≥aw 48;Wroc≥aw (Wroc≥aw-årÛdmieúcie);wyb. Stanis≥awa WyspiaÒskiego;27;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 51-188;UP Wroc≥aw 49;Wroc≥aw (Wroc≥aw-Psie Pole);Jana D≥ugosza;31;Wroc≥aw;Wroc≥aw;dolnoúlπskie
@@ -6589,7 +6576,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 50-900;PP Wroc≥aw D101;Wroc≥aw (Wroc≥aw-Fabryczna);Ibn Siny Awicenny;21;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 64-200;AP Wroniawy;Wroniawy;Nowa;1;Wolsztyn;wolsztyÒski;wielkopolskie
 64-510;UP Wronki;Wronki;PoznaÒska;54;Wronki;szamotulski;wielkopolskie
-11-505;AP Wrony Nowe;Wrony Nowe;;1 A;Giøycko;giøycki;warmiÒsko-mazurskie
 24-300;AP Wrzelowiec;Wrzelowiec;Koúcielna;1;Opole Lubelskie;opolski;lubelskie
 11-042;AP Wrzesina;Wrzesina;;48a;Jonkowo;olsztyÒski;warmiÒsko-mazurskie
 98-100;AP Wrzeszczewice-Skrejnia;Wrzeszczewice-Skrejnia;;7 A;£ask;≥aski;≥Ûdzkie
@@ -6611,8 +6597,8 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 62-238;AP Wydartowo;Wydartowo;;16;Trzemeszno;gnieünieÒski;wielkopolskie
 11-510;UP Wydminy;Wydminy;Grunwaldzka;80;Wydminy;giøycki;warmiÒsko-mazurskie
 86-320;AP Wydrzno;Wydrzno;;8;£asin;grudziπdzki;kujawsko-pomorskie
-98-162;AP Wygie≥zÛw;Wygie≥zÛw;;15B;Zapolice;zduÒskowolski;≥Ûdzkie
 97-425;AP Wygie≥zÛw;Wygie≥zÛw;;34;ZelÛw;be≥chatowski;≥Ûdzkie
+98-162;AP Wygie≥zÛw;Wygie≥zÛw;;15B;Zapolice;zduÒskowolski;≥Ûdzkie
 18-404;AP Wygoda;Wygoda;Leúna;2;£omøa;≥omøyÒski;podlaskie
 59-731;AP Wykroty;Wykroty;G≥Ûwna;1;Nowogrodziec;boles≥awiecki;dolnoúlπskie
 89-300;UP Wyrzysk;Wyrzysk;Pocztowa;7;Wyrzysk;pilski;wielkopolskie
@@ -6623,8 +6609,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 32-200;AP Wysocice;Wysocice;;131c;Go≥cza;miechowski;ma≥opolskie
 59-171;AP Wysoka;Wysoka;;37a;PrzemkÛw;polkowicki;dolnoúlπskie
 38-100;AP Wysoka Strzyøowska;Wysoka Strzyøowska;;129A;StrzyøÛw;strzyøowski;podkarpackie
-23-145;UP Wysokie;Wysokie;Rynek Jab≥onowskich;3;Wysokie;lubelski;lubelskie
-23-155;FUP Wysokie;Zakrzew;;26;Zakrzew;lubelski;lubelskie
 18-200;UP Wysokie Mazowieckie;Wysokie Mazowieckie;JagielloÒska;55;Wysokie Mazowieckie;wysokomazowiecki;podlaskie
 18-220;FUP Wysokie Mazowieckie;Czyøew;Ma≥y Rynek;2;Czyøew;wysokomazowiecki;podlaskie
 18-204;FUP Wysokie Mazowieckie;Kobylin-Borzymy;G≥Ûwna;14;Kobylin-Borzymy;wysokomazowiecki;podlaskie
@@ -6649,6 +6633,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 07-230;FUP WyszkÛw 4;Zabrodzie;W≥. St. Reymonta;16;Zabrodzie;wyszkowski;mazowieckie
 09-450;UP WyszogrÛd;WyszogrÛd;Rynek;1;WyszogrÛd;p≥ocki;mazowieckie
 09-460;FUP WyszogrÛd;Ma≥a Wieú;Jana Kochanowskiego;7;Ma≥a Wieú;p≥ocki;mazowieckie
+09-453;FUP WyszogrÛd;WyszogrÛd;RÍbowska;51/53;WyszogrÛd;p≥ocki;mazowieckie
 09-450;AP WyszogrÛd;WyszogrÛd;RÍbowska;52;WyszogrÛd;p≥ocki;mazowieckie
 64-300;AP Wytomyúl;Wytomyúl;Szkolna;34B;Nowy Tomyúl;nowotomyski;wielkopolskie
 56-304;AP Wziπchowo Wielkie;Wziπchowo Wielkie;;13A;Milicz;milicki;dolnoúlπskie
@@ -6663,28 +6648,26 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 41-801;AP Zabrze;Zabrze;Juliusza Rogera;3a;Zabrze;Zabrze;úlπskie
 41-814;AP Zabrze;Zabrze;SzczeciÒska;43;Zabrze;Zabrze;úlπskie
 41-807;AP Zabrze;Zabrze;Tarnopolska;47;Zabrze;Zabrze;úlπskie
-41-812;AP Zabrze;Zabrze;Wolnoúci;251A;Zabrze;Zabrze;úlπskie
-41-821;AP Zabrze;Zabrze;Wolnoúci;345/1A;Zabrze;Zabrze;úlπskie
 41-822;AP Zabrze;Zabrze;Wolnoúci;107;Zabrze;Zabrze;úlπskie
+41-821;AP Zabrze;Zabrze;Wolnoúci;345/1A;Zabrze;Zabrze;úlπskie
+41-812;AP Zabrze;Zabrze;Wolnoúci;251A;Zabrze;Zabrze;úlπskie
 41-800;UP Zabrze 1;Zabrze;Plac Dworcowy;1;Zabrze;Zabrze;úlπskie
+41-807;FUP Zabrze 1;Zabrze;BrygadzistÛw;2;Zabrze;Zabrze;úlπskie
 41-803;FUP Zabrze 1;Zabrze;Bytomska;28;Zabrze;Zabrze;úlπskie
+41-819;FUP Zabrze 1;Zabrze;FranciszkaÒska;21;Zabrze;Zabrze;úlπskie
 41-808;FUP Zabrze 1;Zabrze;dr. Henryka Jordana;2;Zabrze;Zabrze;úlπskie
 41-813;FUP Zabrze 1;Zabrze;dr. Henryka Jordana;54;Zabrze;Zabrze;úlπskie
 41-806;FUP Zabrze 1;Zabrze;Kalinowa;7;Zabrze;Zabrze;úlπskie
-41-800;FUP Zabrze 1;Zabrze;Legnicka;4;Zabrze;Zabrze;úlπskie
-41-805;FUP Zabrze 1;Zabrze;3 Maja;60;Zabrze;Zabrze;úlπskie
 41-827;FUP Zabrze 1;Zabrze;3 Maja;18;Zabrze;Zabrze;úlπskie
+41-805;FUP Zabrze 1;Zabrze;3 Maja;60;Zabrze;Zabrze;úlπskie
 41-816;FUP Zabrze 1;Zabrze;Macieja MieløyÒskiego;5;Zabrze;Zabrze;úlπskie
-41-800;FUP Zabrze 1;Zabrze;Ignacego Paderewskiego;25;Zabrze;Zabrze;úlπskie
-41-815;FUP Zabrze 1;Zabrze;Franklina Roosevelta;20a/1;Zabrze;Zabrze;úlπskie
 41-826;FUP Zabrze 1;Zabrze;Franklina Roosevelta;104;Zabrze;Zabrze;úlπskie
+41-815;FUP Zabrze 1;Zabrze;Franklina Roosevelta;20a/1;Zabrze;Zabrze;úlπskie
 41-828;FUP Zabrze 1;Zabrze;JÛzefa Rymera;16;Zabrze;Zabrze;úlπskie
 41-809;FUP Zabrze 1;Zabrze;gen. W≥adys≥awa Sikorskiego;46;Zabrze;Zabrze;úlπskie
 41-800;FUP Zabrze 1;Zabrze;Plutonowego Ryszarda Szkubacza;1;Zabrze;Zabrze;úlπskie
 41-800;FUP Zabrze 1;Zabrze;Plac Teatralny;12;Zabrze;Zabrze;úlπskie
 41-820;FUP Zabrze 1;Zabrze;Wolnoúci;165;Zabrze;Zabrze;úlπskie
-41-807;UP Zabrze 7;Zabrze;BrygadzistÛw;2;Zabrze;Zabrze;úlπskie
-41-819;UP Zabrze 19;Zabrze;FranciszkaÒska;21;Zabrze;Zabrze;úlπskie
 41-851;PP Zabrze S101;Zabrze;Macieja MieløyÒskiego;5;Zabrze;Zabrze;úlπskie
 22-463;AP Zaburze;Zaburze;;92 A;Radecznica;zamojski;lubelskie
 64-800;AP Zacharzyn;Zacharzyn;;146;Chodzieø;chodzieski;wielkopolskie
@@ -6728,8 +6711,10 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 22-400;AP ZamoúÊ;ZamoúÊ;Lwowska;5;ZamoúÊ;ZamoúÊ;lubelskie
 22-407;AP ZamoúÊ;ZamoúÊ;PeowiakÛw;7;ZamoúÊ;ZamoúÊ;lubelskie
 22-400;UP ZamoúÊ 1;ZamoúÊ;Tadeusza Koúciuszki;9;ZamoúÊ;ZamoúÊ;lubelskie
+22-426;FUP ZamoúÊ 1;Grabowiec;Wojs≥awska;1;Grabowiec;zamojski;lubelskie
 22-435;FUP ZamoúÊ 1;KomarÛw-Osada;3 Maja;3;KomarÛw-Osada;zamojski;lubelskie
 22-438;FUP ZamoúÊ 1;£abunie;Zamojska;33;£abunie;zamojski;lubelskie
+22-455;FUP ZamoúÊ 1;Miπczyn;;164;Miπczyn;zamojski;lubelskie
 22-414;FUP ZamoúÊ 1;Nielisz;;146 A;Nielisz;zamojski;lubelskie
 22-424;FUP ZamoúÊ 1;Sitno;;80A;Sitno;zamojski;lubelskie
 22-421;FUP ZamoúÊ 1;SkierbieszÛw;Rynek;1;SkierbieszÛw;zamojski;lubelskie
@@ -6757,6 +6742,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 42-403;FUP Zawiercie 1;Zawiercie;Borowa;10;Zawiercie;zawierciaÒski;úlπskie
 42-400;FUP Zawiercie 1;Zawiercie;ObroÒcÛw Poczty GdaÒskiej;20I;Zawiercie;zawierciaÒski;úlπskie
 42-400;FUP Zawiercie 1;Zawiercie;OkÛlna;10;Zawiercie;zawierciaÒski;úlπskie
+42-404;FUP Zawiercie 1;Zawiercie;JÛzefa Pi≥sudskiego;13;Zawiercie;zawierciaÒski;úlπskie
 42-403;FUP Zawiercie 1;Zawiercie;PowstaÒcÛw ålπskich;1;Zawiercie;zawierciaÒski;úlπskie
 34-521;AP Zπb;Zπb;Szlak Papieski;210;Poronin;tatrzaÒski;ma≥opolskie
 05-096;AP Zπbki;Zπbki;Jacka Malczewskiego;3;Zπbki;wo≥omiÒski;mazowieckie
@@ -6796,7 +6782,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 97-425;UP ZelÛw;ZelÛw;Tadeusza Koúciuszki;9;ZelÛw;be≥chatowski;≥Ûdzkie
 97-403;FUP ZelÛw;Druøbice;;86;Druøbice;be≥chatowski;≥Ûdzkie
 97-428;AP ZelÛw;ZelÛw;úw. Anny;10;ZelÛw;be≥chatowski;≥Ûdzkie
-64-310;AP ZÍbowo;ZÍbowo;åwiÍtego Jana Pl.;30;LwÛwek;nowotomyski;wielkopolskie
+64-310;AP ZÍbowo;ZÍbowo;Plac åw. Jana;30;LwÛwek;nowotomyski;wielkopolskie
 95-100;AP Zgierz;Zgierz;Konstantego Ildefonsa Ga≥czyÒskiego;34;Zgierz;zgierski;≥Ûdzkie
 95-104;AP Zgierz;Zgierz;JÛzefa Pi≥sudskiego;32;Zgierz;zgierski;≥Ûdzkie
 95-100;UP Zgierz 1;Zgierz;£Íczycka;19;Zgierz;zgierski;≥Ûdzkie
@@ -6892,10 +6878,10 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 16-200;AP Zwierzyniec Wielki;Zwierzyniec Wielki;;25A;Dπbrowa Bia≥ostocka;sokÛlski;podlaskie
 26-700;UP ZwoleÒ;ZwoleÒ;W≥adys≥awa Jagie≥≥y;10;ZwoleÒ;zwoleÒski;mazowieckie
 26-713;FUP ZwoleÒ;KazanÛw;Plac PartyzantÛw;28;KazanÛw;zwoleÒski;mazowieckie
+26-704;FUP ZwoleÒ;Lipiny;;32A;Przy≥Ík;zwoleÒski;mazowieckie
 26-706;FUP ZwoleÒ;TczÛw;;124/3;TczÛw;zwoleÒski;mazowieckie
 26-701;AP ZwoleÒ;ZwoleÒ;11 Listopada;10;ZwoleÒ;zwoleÒski;mazowieckie
 26-700;AP ZwoleÒ;ZwoleÒ;Wojska Polskiego;57a;ZwoleÒ;zwoleÒski;mazowieckie
-14-109;AP Zybu≥towo;Zybu≥towo;;31;Grunwald;ostrÛdzki;warmiÒsko-mazurskie
 46-061;AP èlinice;èlinice;JÍdrzejczyka;12;PrÛszkÛw;opolski;opolskie
 33-240;UP Øabno;Øabno;rynek Rynek;12/2;Øabno;tarnowski;ma≥opolskie
 33-132;FUP Øabno;Niedomice;Osiedle;17;Øabno;tarnowski;ma≥opolskie
@@ -6903,6 +6889,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 33-242;AP Øabno;Øabno;Tarnowska;121;Øabno;tarnowski;ma≥opolskie
 68-102;AP ØagaÒ;ØagaÒ;Konopnickiej;2G;ØagaÒ;øagaÒski;lubuskie
 68-104;AP ØagaÒ;ØagaÒ;Myúliwska;7;ØagaÒ;øagaÒski;lubuskie
+68-106;AP ØagaÒ;ØagaÒ;Szprotawska;43B;ØagaÒ;øagaÒski;lubuskie
 68-100;UP ØagaÒ 1;ØagaÒ;Mickiewicza;22;ØagaÒ;øagaÒski;lubuskie
 68-100;FUP ØagaÒ 1;Brzeünica;ZielonogÛrska;24A;Brzeünica;øagaÒski;lubuskie
 68-105;FUP ØagaÒ 1;Tomaszowo;Brzozowa;12;ØagaÒ;øagaÒski;lubuskie
@@ -6922,7 +6909,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 68-214;FUP Øary 1;OlbrachtÛw;;102A;Øary;øarski;lubuskie
 68-200;FUP Øary 1;Øary;pl. InwalidÛw;9;Øary;øarski;lubuskie
 68-203;FUP Øary 1;Øary;OsadnikÛw Wojskowych;40;Øary;øarski;lubuskie
-26-420;AP Ødøary;Ødøary;;75A;Nowe Miasto nad Pilicπ;grÛjecki;mazowieckie
 63-304;AP Øegocin;Øegocin;;10;Czermin;pleszewski;wielkopolskie
 32-731;UP Øegocina;Øegocina;;316;Øegocina;bocheÒski;ma≥opolskie
 32-734;FUP Øegocina;Trzciana;;248;Trzciana;bocheÒski;ma≥opolskie
@@ -6938,7 +6924,6 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 47-120;AP ØÍdowice;ØÍdowice;Opolska;48;Zawadzkie;strzelecki;opolskie
 55-140;UP ØmigrÛd;ØmigrÛd;Kolejowa;11;ØmigrÛd;trzebnicki;dolnoúlπskie
 55-110;FUP ØmigrÛd;Prusice;Wroc≥awska;1;Prusice;trzebnicki;dolnoúlπskie
-22-114;UP Ømudü;Ømudü;Kasztanowa;2;Ømudü;che≥mski;lubelskie
 88-400;UP Ønin 1;Ønin;Pocztowa;19;Ønin;øniÒski;kujawsko-pomorskie
 88-190;FUP Ønin 1;Barcin;ArtylerzystÛw;5;Barcin;øniÒski;kujawsko-pomorskie
 88-410;FUP Ønin 1;Gπsawa;Rynek;3;Gπsawa;øniÒski;kujawsko-pomorskie
@@ -6971,11 +6956,17 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 82-440;AP Øu≥awka Sztumska;Øu≥awka Sztumska;;25;DzierzgoÒ;sztumski;pomorskie
 17-306;AP Øurobice;Øurobice;;68;Dziadkowice;siemiatycki;podlaskie
 09-300;UP Øuromin;Øuromin;Warszawska;7/13;Øuromin;øuromiÒski;mazowieckie
+09-320;FUP Øuromin;BieøuÒ;Zacisze;1;BieøuÒ;øuromiÒski;mazowieckie
 09-310;FUP Øuromin;Kuczbork-Osada;Adama Mickiewicza;7 A;Kuczbork-Osada;øuromiÒski;mazowieckie
+09-304;FUP Øuromin;Lubowidz;Jana Paw≥a II;48;Lubowidz;øuromiÒski;mazowieckie
+09-319;FUP Øuromin;Lutocin;Stefana Øeromskiego;2;Lutocin;øuromiÒski;mazowieckie
+06-542;FUP Øuromin;RadzanÛw;M≥awska;4;RadzanÛw;m≥awski;mazowieckie
+09-137;FUP Øuromin;Siemiπtkowo;W≥adys≥awa Reymonta;3;Siemiπtkowo;øuromiÒski;mazowieckie
+06-551;FUP Øuromin;SzreÒsk;Rynek;12;SzreÒsk;m≥awski;mazowieckie
 09-301;AP Øuromin;Øuromin;Lidzbarska;22/34H;Øuromin;øuromiÒski;mazowieckie
 99-320;UP Øychlin;Øychlin;£ukasiÒskiego;11;Øychlin;kutnowski;≥Ûdzkie
 99-311;FUP Øychlin;Bedlno;;30;Bedlno;kutnowski;≥Ûdzkie
-62-572;AP Øychlin;Øychlin;S≥oneczne Os.;77;Stare Miasto;koniÒski;wielkopolskie
+62-572;AP Øychlin;Øychlin;Osiedle S≥oneczne;77;Stare Miasto;koniÒski;wielkopolskie
 08-455;AP Øyczyn;Podeb≥ocie (Øyczyn);;191;TrojanÛw;garwoliÒski;mazowieckie
 62-241;AP Øydowo;Øydowo;Tulipanowa;3;Czerniejewo;gnieünieÒski;wielkopolskie
 96-300;AP ØyrardÛw;ØyrardÛw;Filipa de Girarda;5;ØyrardÛw;øyrardowski;mazowieckie
@@ -6992,7 +6983,7 @@ PNA;NAZWA PLAC”WKI;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 96-302;FUP ØyrardÛw 1;ØyrardÛw;JÛzefa Mireckiego;27;ØyrardÛw;øyrardowski;mazowieckie
 96-301;FUP ØyrardÛw 1;ØyrardÛw;Szarych SzeregÛw;1;ØyrardÛw;øyrardowski;mazowieckie
 96-304;FUP ØyrardÛw 1;ØyrardÛw;Izy ZieliÒskiej;36 C;ØyrardÛw;øyrardowski;mazowieckie
-19-504;AP Øytkiejmy;Øytkiejmy;Plac Wolnoúci;4;Dubeninki;go≥dapski;warmiÒsko-mazurskie
+19-504;AP Øytkiejmy;Øytkiejmy;Marii Konopnickiej;1;Dubeninki;go≥dapski;warmiÒsko-mazurskie
 46-325;AP ØytniÛw;ØytniÛw;;36;Rudniki;oleski;opolskie
 97-532;UP Øytno;Øytno;KrÛtka;4;Øytno;radomszczaÒski;≥Ûdzkie
 97-540;FUP Øytno;Gidle;Plac DominikaÒski;7;Gidle;radomszczaÒski;≥Ûdzkie

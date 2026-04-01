@@ -1,0 +1,2 @@
+﻿STATUS;NAZWA INSTYTUCJI;MIEJSCOWOŚĆ;ULICA;NR;GMINA;POWIAT;WOJEWÓDZTWO;POPRZEDNIO;TERAZ
+-;PKO BP SA CRB Biuro w Katowicach;Katowice;Konstantego Damrota;23;Katowice;Katowice;śląskie;40-980;

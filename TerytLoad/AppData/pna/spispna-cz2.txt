@@ -17,7 +17,6 @@ PNA;NAZWA INSTYTUCJI;MIEJSCOWOŒÆ;ULICA;NR;GMINA;POWIAT;WOJEWÓDZTWO
 20-950;Per³a-Browary Lubelskie S.A.;Lublin;Bernardyñska;15;Lublin;Lublin;lubelskie
 61-501;Pierwszy Urz¹d Skarbowy;Poznañ (Poznañ-Wilda);Dolna Wilda;80;Poznañ;Poznañ;wielkopolskie
 22-411;PKO Bank Polski Kancelaria;Zamoœæ;Partyzantów;15;Zamoœæ;Zamoœæ;lubelskie
-40-980;PKO BP SA CRB Biuro w Katowicach;Katowice;Konstantego Damrota;23;Katowice;Katowice;œl¹skie
 00-944;PKO BP SA Oddzia³  I w Warszawie;Warszawa (Œródmieœcie);Henryka Sienkiewicza;12;Warszawa;Warszawa;mazowieckie
 50-901;PKO BP SA Oddzia³  I we Wroc³awiu;Wroc³aw (Wroc³aw-Stare Miasto);Wita Stwosza;33/35;Wroc³aw;Wroc³aw;dolnoœl¹skie
 90-924;Politechnika £ódzka;£ódŸ (£ódŸ-Polesie);Stefana ¯eromskiego;116;£ódŸ;£ódŸ;³ódzkie
