@@ -1,0 +1,285 @@
+﻿@page
+@model TerytLoad.Pages.DbViewer.BrowseModel
+@using TerytLoad.Pages.DbViewer
+@{
+    ViewData["Title"] = Model.Config?.DisplayName ?? "Przeglądarka";
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>@Model.Config?.Icon @Model.Config?.DisplayName</h2>
+        <a href="/DbViewer" class="btn btn-secondary">← Powrót do menu</a>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <!-- Formularz filtrowania -->
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">🔍 Filtrowanie</h5>
+        </div>
+        <div class="card-body">
+            <form method="get" class="row g-3">
+                <input type="hidden" name="entity" value="@Model.Entity" />
+                <div class="col-md-3">
+                    <label class="form-label">Kolumna</label>
+                    <select name="FilterColumn" class="form-select" asp-for="FilterColumn">
+                        <option value="">-- Wybierz kolumnę --</option>
+                        @foreach (var col in Model.Config?.Columns.Where(c => c.IsFilterable) ?? Enumerable.Empty<ColumnConfig>())
+                        {
+                            <option value="@col.PropertyName">@col.DisplayName</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Operator</label>
+                    <select name="FilterOperator" class="form-select" asp-for="FilterOperator">
+                        <option value="contains">Zawiera</option>
+                        <option value="notcontains">Nie zawiera</option>
+                        <option value="equals">Równa się</option>
+                        <option value="notequals">Nie równa się</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Wartość</label>
+                    <input type="text" name="FilterValue" class="form-control" asp-for="FilterValue" placeholder="Wprowadź wartość...">
+                </div>
+                <div class="col-md-2 d-flex align-items-end">
+                    <button type="submit" class="btn btn-primary me-2">Filtruj</button>
+                    <a href="/DbViewer/Browse?entity=@Model.Entity" class="btn btn-secondary">Wyczyść</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tabela wyników -->
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">
+                📋 Wyniki (@Model.Items.Count rekordów
+                @if (string.IsNullOrEmpty(Model.FilterColumn) || string.IsNullOrEmpty(Model.FilterValue))
+                {
+                    <span class="text-muted">- maksymalnie 100 pozycji, użyj filtra aby zobaczyć więcej</span>
+                }
+                )
+            </h5>
+        </div>
+        <div class="card-body">
+            @if (string.IsNullOrEmpty(Model.FilterColumn) && Model.Items.Count == 100)
+            {
+                <div class="alert alert-info">
+                    ℹ️ Wyświetlono pierwsze 100 rekordów. Użyj filtrów powyżej, aby zawęzić wyniki.
+                </div>
+            }
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            @foreach (var col in Model.Config?.Columns ?? Enumerable.Empty<ColumnConfig>())
+                            {
+                                <th>@col.DisplayName</th>
+                            }
+                            <th style="width: 100px;">Akcje</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Items)
+                        {
+                            <tr>
+                                @foreach (var col in Model.Config?.Columns ?? Enumerable.Empty<ColumnConfig>())
+                                {
+                                    @if (col.IsForeignKey && !string.IsNullOrEmpty(col.ForeignKeyNavigationProperty))
+                                    {
+                                        @* ✅ UPROSZCZONE: Użyj EntityDescriptionHelper *@
+                                        var navProp = Model.Config!.EntityType.GetProperty(col.ForeignKeyNavigationProperty);
+                                        var navItem = navProp?.GetValue(item);
+                                        
+                                        if (navItem != null)
+                                        {
+                                            var fkConfig = ViewerRegistry.GetConfig(col.ForeignKeyEntity!);
+                                            var description = EntityDescriptionHelper.GetDescription(navItem, fkConfig);
+                                            <td>@description</td>
+                                        }
+                                        else
+                                        {
+                                            <td><em class="text-muted">-</em></td>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        var propValue = Model.Config!.EntityType.GetProperty(col.PropertyName)?.GetValue(item);
+                                        <td>@propValue</td>
+                                    }
+                                }
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                            ⚙️
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                @{
+                                                    var idProp = Model.Config!.EntityType.GetProperty("Id");
+                                                    var idValue = idProp?.GetValue(item);
+                                                }
+                                                <a class="dropdown-item" href="#" onclick="openEditModal('@Model.Entity', @idValue); return false;">
+                                                    ✏️ Edycja
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal edycji -->
+<div class="modal fade" id="editModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" asp-page-handler="Save" id="editForm">
+                <input type="hidden" name="entity" value="@Model.Entity" />
+                <div class="modal-header">
+                    <h5 class="modal-title">✏️ Edycja rekordu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="editFields">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anuluj</button>
+                    <button type="submit" class="btn btn-primary">💾 Zapisz</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        let configJson = null;
+        let foreignKeyCache = {};
+        
+        @if (Model.ConfigDto != null)
+        {
+            <text>
+            configJson = @Html.Raw(Model.ConfigDtoJson);
+            console.log('✅ Config loaded:', configJson);
+            </text>
+        }
+        else
+        {
+            <text>
+            console.error('❌ ConfigDto is NULL!');
+            </text>
+        }
+
+        async function loadForeignKeyOptions(entity) {
+            if (foreignKeyCache[entity]) {
+                return foreignKeyCache[entity];
+            }
+
+            try {
+                const response = await fetch(`/DbViewer/Browse?handler=ForeignKeyOptions&entity=${entity}`);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                
+                const options = await response.json();
+                foreignKeyCache[entity] = options;
+                return options;
+            } catch (error) {
+                console.error(`Error loading FK options for ${entity}:`, error);
+                return [];
+            }
+        }
+
+        async function openEditModal(entity, id) {
+            if (!configJson || !configJson.columns) {
+                alert('Błąd: Brak konfiguracji słownika.');
+                return;
+            }
+
+            try {
+                const url = `/DbViewer/Browse?handler=Edit&entity=${entity}&id=${id}`;
+                const response = await fetch(url);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const data = await response.json();
+                console.log('Data received:', data);
+                
+                const fieldsContainer = document.getElementById('editFields');
+                fieldsContainer.innerHTML = '';
+
+                const idValue = data.Id || data.id || id;
+                fieldsContainer.innerHTML += `<input type="hidden" name="formData[Id]" value="${idValue}" />`;
+
+                const editableColumns = configJson.columns.filter(col => col.isEditable);
+                
+                for (const col of editableColumns) {
+                    const value = data[col.propertyName] 
+                               || data[col.propertyName.charAt(0).toUpperCase() + col.propertyName.slice(1)]
+                               || '';
+                    
+                    const required = col.isRequired ? 'required' : '';
+                    const propertyNamePascal = col.propertyName.charAt(0).toUpperCase() + col.propertyName.slice(1);
+                    
+                    let fieldHtml = '';
+
+                    if (col.isForeignKey && col.foreignKeyEntity) {
+                        console.log(`Loading FK options for: ${col.foreignKeyEntity}`);
+                        const options = await loadForeignKeyOptions(col.foreignKeyEntity);
+                        
+                        fieldHtml = `
+                            <div class="mb-3">
+                                <label class="form-label">${col.displayName}</label>
+                                <select class="form-select" name="formData[${propertyNamePascal}]" ${required}>
+                                    <option value="">-- Wybierz --</option>
+                                    ${options.map(opt => 
+                                        `<option value="${opt.id}" ${opt.id == value ? 'selected' : ''}>${opt.text}</option>`
+                                    ).join('')}
+                                </select>
+                            </div>
+                        `;
+                    } else {
+                        fieldHtml = `
+                            <div class="mb-3">
+                                <label class="form-label">${col.displayName}</label>
+                                <input type="text" class="form-control" 
+                                       name="formData[${propertyNamePascal}]" 
+                                       value="${value}" ${required}>
+                            </div>
+                        `;
+                    }
+                    
+                    fieldsContainer.innerHTML += fieldHtml;
+                }
+                
+                const modal = new bootstrap.Modal(document.getElementById('editModal'));
+                modal.show();
+            } catch (error) {
+                console.error('Error in openEditModal:', error);
+                alert('Błąd: ' + error.message);
+            }
+        }
+    </script>
+}

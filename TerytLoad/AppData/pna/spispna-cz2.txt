@@ -2,7 +2,6 @@ PNA;NAZWA INSTYTUCJI;MIEJSCOWOŒÆ;ULICA;NR;GMINA;POWIAT;WOJEWÓDZTWO
 00-923;Bank Handlowy w Warszawie S.A.;Warszawa (Œródmieœcie);Senatorska;16;Warszawa;Warszawa;mazowieckie
 85-959;Bank Pocztowy S.A. Centrala;Bydgoszcz;Jagielloñska;17;Bydgoszcz;Bydgoszcz;kujawsko-pomorskie
 40-159;"Biuro Studiów, Projektów i Realizacji ""ENERGOPROJEKT-KATOWICE"" S.A.";Katowice;Jesionowa;15;Katowice;Katowice;œl¹skie
-30-100;BROKER FM S.A.;Kraków (Kraków-Krowodrza);Aleja Jerzego Waszyngtona;1;Kraków;Kraków;ma³opolskie
 00-980;Centrala Zak³adu Ubezpieczeñ Spo³ecznych w Warszawie;Warszawa (Mokotów);Czerniakowska;16;Warszawa;Warszawa;mazowieckie
 40-273;ENERGOAPARATURA S.A.;Katowice;gen. Kazimierza Pu³askiego;7;Katowice;Katowice;œl¹skie
 00-992;Fabryka Samochodów Osobowych S.A.;Warszawa (Praga-Pó³noc);Jagielloñska;88;Warszawa;Warszawa;mazowieckie

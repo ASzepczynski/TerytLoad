@@ -1,0 +1,2 @@
+STATUS;NAZWA INSTYTUCJI;MIEJSCOWOŒÆ;ULICA;NR;GMINA;POWIAT;WOJEWÓDZTWO;POPRZEDNIO;TERAZ
+-;BROKER FM S.A.;Kraków (Kraków-Krowodrza);Aleja Jerzego Waszyngtona;1;Kraków;Kraków;ma³opolskie;30-100;

@@ -1,6 +1,7 @@
 ﻿using AddressLibrary;
 using AddressLibrary.Data;
 using Microsoft.EntityFrameworkCore;
+using TerytLoad.Pages.DbViewer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,40 +18,11 @@ builder.Services.AddDbContext<AddressDbContext>(options =>
 
 var app = builder.Build();
 
-// ✅ BEZPIECZNA inicjalizacja bazy danych
-var appDataPath = app.Environment.ContentRootPath;
-var database = new AddressLibrary.AddressDatabase(connectionString, appDataPath);
-
-try
+// ✅ DODANE: Inicjalizacja ViewerRegistry przy starcie
+using (var scope = app.Services.CreateScope())
 {
-    app.Logger.LogInformation("Sprawdzanie bazy danych...");
-    
-    var canConnect = await database.CanConnectToDatabaseAsync();
-    
-    if (!canConnect)
-    {
-        app.Logger.LogWarning("Baza danych nie istnieje. Tworzenie nowej bazy...");
-        await database.InitializeDatabaseAsync();
-        app.Logger.LogInformation("✓ Baza danych utworzona.");
-    }
-    else
-    {
-        app.Logger.LogInformation("✓ Baza danych istnieje i jest dostępna.");
-        
-        // Opcjonalnie: sprawdź podstawowe tabele
-        var hasWojewodztwa = await database.TableExistsAsync("Wojewodztwa");
-        if (!hasWojewodztwa)
-        {
-            app.Logger.LogWarning("⚠️ UWAGA: Baza istnieje ale brak tabeli Wojewodztwa!");
-            app.Logger.LogWarning("⚠️ Możliwe że struktura jest niepełna.");
-            app.Logger.LogWarning("⚠️ Jeśli chcesz odtworzyć bazę, użyj metody ManualRecreateDatabaseAsync()");
-        }
-    }
-}
-catch (Exception ex)
-{
-    app.Logger.LogError(ex, "❌ Błąd podczas inicjalizacji bazy danych: {Message}", ex.Message);
-    throw;
+    var context = scope.ServiceProvider.GetRequiredService<AddressDbContext>();
+    ViewerRegistry.InitializeFromDbContext(context);
 }
 
 // Configure the HTTP request pipeline.

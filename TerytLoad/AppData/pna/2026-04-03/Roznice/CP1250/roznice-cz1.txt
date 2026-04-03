@@ -1,0 +1,1986 @@
+STATUS;MIEJSCOWOŒÆ;ULICA;NUMERY;GMINA;POWIAT;WOJEWÓDZTWO;POPRZEDNIO;TERAZ
++;Bêdzin;Sasanek;;Bêdzin;bêdziñski;œl¹skie;;42-506
+-;Bêdzin (Ksawera);Franciszka ¯wirki i Stanis³awa Wigury;;Bêdzin;bêdziñski;œl¹skie;42-500;
++;Bêdzin (Ksawera);¯wirki i Wigury;;Bêdzin;bêdziñski;œl¹skie;;42-500
+-;Bia³ystok;Aleja Konstytucji 3 Maja;;Bia³ystok;Bia³ystok;podlaskie;15-776;
++;Bia³ystok;Antoniny Soko³owskiej;;Bia³ystok;Bia³ystok;podlaskie;;15-162
+-;Bia³ystok;Bacieczki;1-7(n), 2-30a(p);Bia³ystok;Bia³ystok;podlaskie;15-681;
++;Bia³ystok;Bacieczki;1-7(n), 2-42(p);Bia³ystok;Bia³ystok;podlaskie;;15-681
+-;Bia³ystok;Bacieczki;9-141(n), 32-142(p), 174-DK;Bia³ystok;Bia³ystok;podlaskie;15-685;
++;Bia³ystok;Bacieczki;9-141(n), 44-142(p), 174-DK;Bia³ystok;Bia³ystok;podlaskie;;15-685
++;Bia³ystok;gen. Stanis³awa Sosabowskiego;1-23(n), 2-6(p), 25-DK;Bia³ystok;Bia³ystok;podlaskie;;15-182
+-;Bia³ystok;gen. Stanis³awa Sosabowskiego;1-DK(n), 2-6(p), 28-DK(p);Bia³ystok;Bia³ystok;podlaskie;15-182;
++;Bia³ystok;Jerzego Giedroycia;;Bia³ystok;Bia³ystok;podlaskie;;15-197
++;Bia³ystok;Konstytucji 3 Maja Al.;;Bia³ystok;Bia³ystok;podlaskie;;15-776
+-;Bia³ystok;Krzysztofa Kamila Baczyñskiego;;Bia³ystok;Bia³ystok;podlaskie;15-196;
++;Bia³ystok;Krzysztofa-Kamila Baczyñskiego;;Bia³ystok;Bia³ystok;podlaskie;;15-196
++;Bia³ystok;ks. Jerzego Popie³uszki;60-DK(p), 71-117(n);Bia³ystok;Bia³ystok;podlaskie;;15-657
+-;Bia³ystok;ks. Jerzego Popie³uszki;60-DK(p), 71-DK(n);Bia³ystok;Bia³ystok;podlaskie;15-657;
++;Bia³ystok;ks. Zdzis³awa Peszkowskiego;;Bia³ystok;Bia³ystok;podlaskie;;15-772
+#;Bia³ystok;Limonkowa;;Bia³ystok;Bia³ystok;podlaskie;15-795;15-794
+-;Bia³ystok;mjr. Henryka Sucharskiego;;Bia³ystok;Bia³ystok;podlaskie;15-199;
++;Bia³ystok;mjr Henryka Sucharskiego;;Bia³ystok;Bia³ystok;podlaskie;;15-199
+-;Bia³ystok;mjr. Hubala;;Bia³ystok;Bia³ystok;podlaskie;15-174;
++;Bia³ystok;mjr Hubala;;Bia³ystok;Bia³ystok;podlaskie;;15-174
+-;Bia³ystok;mjr. Pilota Jana Micha³owskiego;;Bia³ystok;Bia³ystok;podlaskie;15-326;
++;Bia³ystok;mjr pilota Jana Micha³owskiego;;Bia³ystok;Bia³ystok;podlaskie;;15-326
+-;Bia³ystok;Moniuszki;54-68(p), 63-67(n), 69-DK;Bia³ystok;Bia³ystok;podlaskie;15-196;
++;Bia³ystok;Moniuszki;54-DK(p), 63-DK(n);Bia³ystok;Bia³ystok;podlaskie;;15-196
+-;Bia³ystok;Odleg³a;1-3a(n), 2-24(p);Bia³ystok;Bia³ystok;podlaskie;15-152;
++;Bia³ystok;Odleg³a;1-3g(n), 2-24(p);Bia³ystok;Bia³ystok;podlaskie;;15-152
+#;Bia³ystok;Pistacjowa;;Bia³ystok;Bia³ystok;podlaskie;15-795;15-794
++;Bia³ystok;Szlachecka;;Bia³ystok;Bia³ystok;podlaskie;;15-698
+-;Bia³ystok;Wietnamska;;Bia³ystok;Bia³ystok;podlaskie;15-628;
++;Bia³ystok;Wschodnia;1-4;Bia³ystok;Bia³ystok;podlaskie;;15-159
+-;Bia³ystok;Wschodnia;1-DK;Bia³ystok;Bia³ystok;podlaskie;15-158;
++;Bia³ystok;Wschodnia;5-DK;Bia³ystok;Bia³ystok;podlaskie;;15-158
+-;Bia³ystok;Wschodnia;60;Bia³ystok;Bia³ystok;podlaskie;15-184;
++;Bielsko-Bia³a;Dêbowiec;;Bielsko-Bia³a;Bielsko-Bia³a;œl¹skie;;43-382
+-;Bielsko-Bia³a;Dywizji Koœciuszkowskiej;;Bielsko-Bia³a;Bielsko-Bia³a;œl¹skie;43-303;
++;Bielsko-Bia³a;Jana Karola Chodkiewicza;;Bielsko-Bia³a;Bielsko-Bia³a;œl¹skie;;43-300
++;Bielsko-Bia³a;Zamojska;;Bielsko-Bia³a;Bielsko-Bia³a;œl¹skie;;43-300
++;Bielsko-Bia³a;Zau³ek;;Bielsko-Bia³a;Bielsko-Bia³a;œl¹skie;;43-300
++;Bielsko-Bia³a;Zwrotnikowa;;Bielsko-Bia³a;Bielsko-Bia³a;œl¹skie;;43-318
+-;Bieruñ (Bieruñ Stary);Franciszka ¯wirki i Stanis³awa Wigury;;Bieruñ;bieruñsko-lêdziñski;œl¹skie;43-150;
++;Bieruñ (Bieruñ Stary);¯wirki i Wigury;;Bieruñ;bieruñsko-lêdziñski;œl¹skie;;43-150
+-;Biskupice Podgórne;;;Kobierzyce;wroc³awski;dolnoœl¹skie;55-040;
+-;Blizne Jasiñskiego;Adama Mickiewicza;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Aleksandra Fredry;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Boles³awa Prusa;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Cypriana Kamila Norwida;;Stare Babice;warszawski zachodni;mazowieckie;05-085;
+-;Blizne Jasiñskiego;Elizy Orzeszkowej;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Fryderyka Chopina;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Henryka Sienkiewicza;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Hubala Dobrzañskiego;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Jana Kochanowskiego;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Józefa Ignacego Kraszewskiego;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Juliusza S³owackiego;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Marii Konopnickiej;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Miko³aja Kopernika;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Miko³aja Reja;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Okrzei;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Piotra Skargi;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Stanis³awa Grzesiuka;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Stanis³awa Moniuszki;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Stefana ¯eromskiego;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Tadeusza Koœciuszki;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Warszawska;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
+-;Blizne Jasiñskiego;Zag³oby;;Stare Babice;warszawski zachodni;mazowieckie;05-082;
++;Blizne Jasiñskiego;;;Stare Babice;warszawski zachodni;mazowieckie;;05-082
++;Bolêcin;;;Trzebinia;chrzanowski;ma³opolskie;;32-540
++;Bór Zajaciñski;Wêzina;;Przystajñ;k³obucki;œl¹skie;;42-141
++;Bytom;Alberta;1-DK;Bytom;Bytom;œl¹skie;;41-923
++;Bytom;Alberta;8;Bytom;Bytom;œl¹skie;;41-902
+-;Bytom;Alberta;;Bytom;Bytom;œl¹skie;41-923;
++;Bytom;Bartosza G³owackiego;2-10(p), 3-5(n);Bytom;Bytom;œl¹skie;;41-910
++;Bytom;Bartosza G³owackiego;4;Bytom;Bytom;œl¹skie;;41-902
+-;Bytom;Bartosza G³owackiego;;Bytom;Bytom;œl¹skie;41-910;
+-;Bytom;Jaskó³cza;1-7(n), 4, 12-14(p);Bytom;Bytom;œl¹skie;41-935;
+-;Bytom;Jaskó³cza;2-4, 5-7(n), 8-12, 14-17;Bytom;Bytom;œl¹skie;41-923;
++;Bytom;Jaskó³cza;;Bytom;Bytom;œl¹skie;;41-935
++;Bytom;Owocowa;;Bytom;Bytom;œl¹skie;;41-914
++;Bytom;pl. Szpitalny;1-3;Bytom;Bytom;œl¹skie;;41-923
++;Bytom;pl. Szpitalny;3;Bytom;Bytom;œl¹skie;;41-902
+-;Bytom;pl. Szpitalny;;Bytom;Bytom;œl¹skie;41-923;
++;Bytom;Relaksowa;;Bytom;Bytom;œl¹skie;;41-923
++;Bytom;skwer Na Stroszku;1, 2-4(p);Bytom;Bytom;œl¹skie;;41-933
++;Bytom;skwer Na Stroszku;4;Bytom;Bytom;œl¹skie;;41-902
+-;Bytom;skwer Na Stroszku;;Bytom;Bytom;œl¹skie;41-933;
++;Bytom;W³adys³awa £okietka;1-7(n), 10-12;Bytom;Bytom;œl¹skie;;41-933
+-;Bytom;W³adys³awa £okietka;1-7(n), 4-6(p), 10-12;Bytom;Bytom;œl¹skie;41-933;
++;Choroñ (Rajczykowizna);;;Poraj;myszkowski;œl¹skie;;42-360
++;Chorzów;ks. Stanis³awa Konarskiego;;Chorzów;Chorzów;œl¹skie;;41-506
+-;Chorzów;Szczeciñska;1-DK;Chorzów;Chorzów;œl¹skie;41-506;
+-;Chorzów;Szczeciñska;7-59(n), 10;Chorzów;Chorzów;œl¹skie;41-516;
++;Chorzów;Szczeciñska;;Chorzów;Chorzów;œl¹skie;;41-506
++;CzeladŸ;Genera³a Józefa Hallera;;CzeladŸ;bêdziñski;œl¹skie;;41-250
++;CzeladŸ;Irysów;;CzeladŸ;bêdziñski;œl¹skie;;41-253
++;CzeladŸ;Nasze Osiedle;;CzeladŸ;bêdziñski;œl¹skie;;41-250
++;CzeladŸ;Orzechowa;;CzeladŸ;bêdziñski;œl¹skie;;41-253
++;CzeladŸ;Parkowa;;CzeladŸ;bêdziñski;œl¹skie;;41-250
++;CzeladŸ;Skalna;;CzeladŸ;bêdziñski;œl¹skie;;41-250
++;CzeladŸ;Ska³ka;;CzeladŸ;bêdziñski;œl¹skie;;41-250
+-;CzeladŸ;Szpitalna;8-60(p), 13-89(n);CzeladŸ;bêdziñski;œl¹skie;41-250;
++;CzeladŸ;Szpitalna;8-60(p), 21-89(n);CzeladŸ;bêdziñski;œl¹skie;;41-250
+-;CzeladŸ;Szybikowa;102-116(p);CzeladŸ;bêdziñski;œl¹skie;41-250;
+-;CzeladŸ;Szybikowa;1-DK;CzeladŸ;bêdziñski;œl¹skie;41-253;
++;CzeladŸ;Szybikowa;;CzeladŸ;bêdziñski;œl¹skie;;41-253
+#;Czêstochowa;Dojazdowa;1-DK;Czêstochowa;Czêstochowa;œl¹skie;42-202;42-216
+#;Czêstochowa;Dojazdowa;1-DK;Czêstochowa;Czêstochowa;œl¹skie;42-216;42-202
+#;Czêstochowa;£owicka;1-DK;Czêstochowa;Czêstochowa;œl¹skie;42-271;42-221
+#;Czêstochowa;£owicka;1-DK;Czêstochowa;Czêstochowa;œl¹skie;42-221;42-271
++;Czy¿ówka;;;Trzebinia;chrzanowski;ma³opolskie;;32-540
++;D¹browa Górnicza;Aleja Józefa Pi³sudskiego;1-13(n), 4-18(p);D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;41-300
+-;D¹browa Górnicza;Aleja Józefa Pi³sudskiego;1-13(n), 4-18(p), 92;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;41-300;
+-;D¹browa Górnicza;Aleja Józefa Pi³sudskiego;15-117(n), 20-76(p), 28-33, 90-92(p), 113-115;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;41-303;
++;D¹browa Górnicza;Aleja Józefa Pi³sudskiego;15-117(n), 20-92(p), 28-115;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;41-303
++;D¹browa Górnicza;Ba¿antów;;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;42-530
+-;D¹browa Górnicza;Budowlanych;11;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;41-300;
+-;D¹browa Górnicza;Budowlanych;1-11;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;41-303;
++;D¹browa Górnicza;Budowlanych;;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;41-303
++;D¹browa Górnicza;Ceramiczna;;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;42-520
++;D¹browa Górnicza;Franciszkañska;;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;41-303
++;D¹browa Górnicza;Innowacyjna;;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;42-520
++;D¹browa Górnicza;Kamienna;;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;42-530
++;D¹browa Górnicza;Œw. Jana Paw³a II;;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;42-520
++;D¹browa Górnicza;Wiosenna;;D¹browa Górnicza;D¹browa Górnicza;œl¹skie;;42-530
+-;Dêbowe Pole;;1-DK;Sienno;lipski;mazowieckie;27-350;
++;Dêbowe Pole;;;Sienno;lipski;mazowieckie;;27-350
+-;Dêbowe Pole (Izabelin);;1-DK;Sienno;lipski;mazowieckie;05-640;
++;Dulowa;;;Trzebinia;chrzanowski;ma³opolskie;;32-545
++;Gdañsk;Borowiecka;;Gdañsk;Gdañsk;pomorskie;;80-298
++;Gdañsk;Pêpowska;;Gdañsk;Gdañsk;pomorskie;;80-298
+-;Gdynia;Antoniego Abrahama;59-69(n), 62/64-72(p);Gdynia;Gdynia;pomorskie;81-393;
++;Gdynia;Antoniego Abrahama;59-69(n), 62-72(p);Gdynia;Gdynia;pomorskie;;81-393
+-;Gdynia;Uczniowska;1-3, 21-25(n);Gdynia;Gdynia;pomorskie;81-647;
++;Gdynia;Uczniowska;1/3-3, 21-25(n);Gdynia;Gdynia;pomorskie;;81-647
++;Gliwice;Astrów;;Gliwice;Gliwice;œl¹skie;;44-152
+-;Gliwice;Ciskaczy;;Gliwice;Gliwice;œl¹skie;44-103;
++;Gliwice;Józefa Elsnera;;Gliwice;Gliwice;œl¹skie;;44-105
+-;Gliwice;Rêbaczy;;Gliwice;Gliwice;œl¹skie;44-103;
++;Gliwice;Ton'ego Halika;;Gliwice;Gliwice;œl¹skie;;44-105
+-;Gliwice;Tony`ego Halika;;Gliwice;Gliwice;œl¹skie;44-105;
++;G³ogów;Modrzewiowa;;G³ogów;g³ogowski;dolnoœl¹skie;;67-200
++;G³ogów;S³onecznikowa;;G³ogów;g³ogowski;dolnoœl¹skie;;67-200
++;G³ogów;Ustronna;;G³ogów;g³ogowski;dolnoœl¹skie;;67-200
++;Gorzelnia;;;Blachownia;czêstochowski;œl¹skie;;42-290
++;Grabno;;1-45a(n), 47-48, 50-63, 65-85, 87-247, 249-DK;Wojnicz;tarnowski;ma³opolskie;;32-830
++;Grabno;;46, 49, 64, 86, 248;Wojnicz;tarnowski;ma³opolskie;;32-853
+-;Grabno;;;Wojnicz;tarnowski;ma³opolskie;32-830;
++;Gzowice;;;Jedlnia-Letnisko;radomski;mazowieckie;;26-630
++;Gzowice-Folwark;;;Jedlnia-Letnisko;radomski;mazowieckie;;26-630
++;Gzowice-Kolonia;;;Jedlnia-Letnisko;radomski;mazowieckie;;26-630
+#;Jasnowo;;;Chojnice;chojnicki;pomorskie;89-641;89-642
++;Jaworzno;Jana Kantego Steczkowskiego;;Jaworzno;Jaworzno;œl¹skie;;43-603
++;Jaworzno;Miodowa;1-17(n), 2-28(p);Jaworzno;Jaworzno;œl¹skie;;43-600
+-;Jaworzno;Miodowa;1-42;Jaworzno;Jaworzno;œl¹skie;43-600;
+-;Jaworzno;Miodowa;19-DK;Jaworzno;Jaworzno;œl¹skie;43-602;
++;Jaworzno;Miodowa;19-DK(n), 30-DK(p);Jaworzno;Jaworzno;œl¹skie;;43-602
++;Jaworzno;Pod Grodziskiem;;Jaworzno;Jaworzno;œl¹skie;;43-600
+#;Jelenia Góra;Nadbrze¿na;1-DK;Jelenia Góra;Jelenia Góra;dolnoœl¹skie;58-500;58-560
+#;Jelenia Góra;Nadbrze¿na;1-DK;Jelenia Góra;Jelenia Góra;dolnoœl¹skie;58-560;58-500
+#;Jelenia Góra;Poprzeczna;1-DK;Jelenia Góra;Jelenia Góra;dolnoœl¹skie;58-560;58-500
+#;Jelenia Góra;Poprzeczna;1-DK;Jelenia Góra;Jelenia Góra;dolnoœl¹skie;58-500;58-560
+#;Jelenia Góra;Stefana ¯eromskiego;1-DK;Jelenia Góra;Jelenia Góra;dolnoœl¹skie;58-570;58-500
+#;Jelenia Góra;Stefana ¯eromskiego;1-DK;Jelenia Góra;Jelenia Góra;dolnoœl¹skie;58-500;58-570
++;Jelenia Góra;Willowa;;Jelenia Góra;Jelenia Góra;dolnoœl¹skie;;58-560
++;Kad³ubiska;;;Narol;lubaczowski;podkarpackie;;37-610
+#;Kamionka (osada);;;Chojnice;chojnicki;pomorskie;89-620;89-608
+#;Kamionka (osada);;;Chojnice;chojnicki;pomorskie;89-608;89-620
++;Karniowice;;;Trzebinia;chrzanowski;ma³opolskie;;32-545
++;Kêdzierzyn-KoŸle;Pancernych;;Kêdzierzyn-KoŸle;kêdzierzyñsko-kozielski;opolskie;;47-200
++;Kêdzierzyn-KoŸle;Polskich Noblistów;;Kêdzierzyn-KoŸle;kêdzierzyñsko-kozielski;opolskie;;47-200
++;Kierszek;Kabacka;;Konstancin-Jeziorna;piaseczyñski;mazowieckie;;05-510
++;Kluczbork;Ksiêdza Skorupki;;Kluczbork;kluczborski;opolskie;;46-203
++;Knurów;Krucza;;Knurów;gliwicki;œl¹skie;;44-190
++;Knurów;Rybna;;Knurów;gliwicki;œl¹skie;;44-190
++;Kobiernice;Beskidzka;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Bielska;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Brzoskwiniowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Centralna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Cicha;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Cisowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Cyprysowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Dolna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Dworska;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Gajowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Go³êbia;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Górska;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Grabowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Graniczna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Groblowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Grzybowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Handlowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Ja³owcowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Jod³owa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Kamieniec;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Kamieniecka;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Kêcka;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Klubowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Krakowska;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Krañcowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Krótka;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;ks. Korzonkiewicza;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Kwiatowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Leœna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Lipowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;£¹kowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;£ukowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;£upkowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Mieszczyñsko;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Mi³a;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Modrzewiowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Mokra;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Myœliwska;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Ogrodowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Orzechowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Osadowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Owocowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Pañska;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Parkowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Piesza;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Podlesie;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Polna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Ró¿ana;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Sadowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Sarnia;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;S³oneczna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Solna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Sosnowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Spacerowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Spokojna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Sportowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Startowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Stawowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Szkolna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Œwierkowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Tradycyjna;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Ukryta;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Wa³owa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Wczasowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Wierzbowa;;Por¹bka;bielski;œl¹skie;;43-354
++;Kobiernice;Wiœniowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Wodoci¹gowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Wolnoœci;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Wo³ek;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Wrzosowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Zagrodowa;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Zakole;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Zakosik;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Zamoœcie;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Zap³ocie;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Zastruzie;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;Zau³ek;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;ZawieŸnica;;Por¹bka;bielski;œl¹skie;;43-356
++;Kobiernice;¯ywiecka;;Por¹bka;bielski;œl¹skie;;43-356
+-;Kobiernice;;;Por¹bka;bielski;œl¹skie;43-356;
++;Komorowo;;;Bia³a Piska;piski;warmiñsko-mazurskie;;12-230
+-;Konin;Zajêcza;;Konin;Konin;wielkopolskie;62-510;
++;Konstancin-Jeziorna;Daliowa;;Konstancin-Jeziorna;piaseczyñski;mazowieckie;;05-510
++;Koszalin;Piêkna;;Koszalin;Koszalin;zachodniopomorskie;;75-202
++;Kraków (Kraków-Nowa Huta);os. Osiedle Niepodleg³oœci;1-10;Kraków;Kraków;ma³opolskie;;31-861
++;Kraków (Kraków-Nowa Huta);os. Osiedle Niepodleg³oœci;11-DK;Kraków;Kraków;ma³opolskie;;31-862
+-;Kraków (Kraków-Nowa Huta);os. Osiedle Niepodleg³oœci;;Kraków;Kraków;ma³opolskie;31-861;
++;Kraków (Kraków-Podgórze);Alfreda Dauna;1-29(n), 2-22(p);Kraków;Kraków;ma³opolskie;;30-566
+-;Kraków (Kraków-Podgórze);Alfreda Dauna;1-29(n), 2-24(p);Kraków;Kraków;ma³opolskie;30-566;
++;Kraków (Kraków-Podgórze);Alfreda Dauna;24-30(p), 31-DK;Kraków;Kraków;ma³opolskie;;30-629
+-;Kraków (Kraków-Podgórze);Alfreda Dauna;26-30(p), 31-120;Kraków;Kraków;ma³opolskie;30-629;
++;Kraków (Kraków-Podgórze);Andrieja Sacharowa;1-10;Kraków;Kraków;ma³opolskie;;30-806
++;Kraków (Kraków-Podgórze);Andrieja Sacharowa;11-DK;Kraków;Kraków;ma³opolskie;;30-802
+-;Kraków (Kraków-Podgórze);Andrieja Sacharowa;;Kraków;Kraków;ma³opolskie;30-806;
++;Kraków (Kraków-Podgórze);Bie¿anowska;126-DK(p), 147-DK(n);Kraków;Kraków;ma³opolskie;;30-856
+-;Kraków (Kraków-Podgórze);Bie¿anowska;1-38, 39-113(n);Kraków;Kraków;ma³opolskie;30-812;
++;Kraków (Kraków-Podgórze);Bie¿anowska;1-38, 39-75(n), 40-70(p);Kraków;Kraków;ma³opolskie;;30-812
+-;Kraków (Kraków-Podgórze);Bie¿anowska;40-94(p);Kraków;Kraków;ma³opolskie;30-826;
++;Kraków (Kraków-Podgórze);Bie¿anowska;72-124(p), 77-145(n);Kraków;Kraków;ma³opolskie;;30-826
+-;Kraków (Kraków-Podgórze);Bie¿anowska;96-DK(p), 115-DK(n);Kraków;Kraków;ma³opolskie;30-856;
+-;Kraków (Kraków-Podgórze);Boles³awa Limanowskiego;1-DK(n);Kraków;Kraków;ma³opolskie;30-551;
++;Kraków (Kraków-Podgórze);Boles³awa Limanowskiego;1-DK(n), 30-DK(p);Kraków;Kraków;ma³opolskie;;30-551
++;Kraków (Kraków-Podgórze);Boles³awa Limanowskiego;2-28(p);Kraków;Kraków;ma³opolskie;;30-534
+-;Kraków (Kraków-Podgórze);Boles³awa Limanowskiego;2-DK(p);Kraków;Kraków;ma³opolskie;30-534;
+#;Kraków (Kraków-Podgórze);Cechowa;10;Kraków;Kraków;ma³opolskie;30-685;30-614
++;Kraków (Kraków-Podgórze);Cechowa;10-DK;Kraków;Kraków;ma³opolskie;;30-685
++;Kraków (Kraków-Podgórze);Feliksa Jasieñskiego;1-13(n), 2-16(p);Kraków;Kraków;ma³opolskie;;30-899
++;Kraków (Kraków-Podgórze);Feliksa Jasieñskiego;15-DK(n), 18-DK(p);Kraków;Kraków;ma³opolskie;;30-799
+-;Kraków (Kraków-Podgórze);Feliksa Jasieñskiego;;Kraków;Kraków;ma³opolskie;30-899;
++;Kraków (Kraków-Podgórze);Gromadzka;1-25, 27-35(n);Kraków;Kraków;ma³opolskie;;30-714
++;Kraków (Kraków-Podgórze);Gromadzka;26-34(p), 36-DK;Kraków;Kraków;ma³opolskie;;30-719
+-;Kraków (Kraków-Podgórze);Gromadzka;;Kraków;Kraków;ma³opolskie;30-714;
+-;Kraków (Kraków-Podgórze);Henryka Kamieñskiego;1-DK;Kraków;Kraków;ma³opolskie;30-644;
++;Kraków (Kraków-Podgórze);Henryka Kamieñskiego;1-DK(n);Kraków;Kraków;ma³opolskie;;30-644
++;Kraków (Kraków-Podgórze);Ignacego Krasickiego;1-15(n);Kraków;Kraków;ma³opolskie;;30-513
++;Kraków (Kraków-Podgórze);Ignacego Krasickiego;17-DK(n);Kraków;Kraków;ma³opolskie;;30-515
+-;Kraków (Kraków-Podgórze);Ignacego Krasickiego;1-DK(n);Kraków;Kraków;ma³opolskie;30-513;
+#;Kraków (Kraków-Podgórze);Juliusza Osterwy;22-DK(p), 31-DK(n);Kraków;Kraków;ma³opolskie;30-698;30-699
++;Kraków (Kraków-Podgórze);ks. Piotra Œciegiennego;1-52a, 53-61(n);Kraków;Kraków;ma³opolskie;;30-830
+-;Kraków (Kraków-Podgórze);ks. Piotra Œciegiennego;1-82;Kraków;Kraków;ma³opolskie;30-809;
++;Kraków (Kraków-Podgórze);ks. Piotra Œciegiennego;54-60a(p), 62-DK;Kraków;Kraków;ma³opolskie;;30-809
+-;Kraków (Kraków-Podgórze);ks. Piotra Œciegiennego;83-DK;Kraków;Kraków;ma³opolskie;30-830;
++;Kraków (Kraków-Podgórze);Malborska;21-85, 109-117(n);Kraków;Kraków;ma³opolskie;;30-646
+-;Kraków (Kraków-Podgórze);Malborska;21-85(n);Kraków;Kraków;ma³opolskie;30-646;
+-;Kraków (Kraków-Podgórze);Malborska;86-DK;Kraków;Kraków;ma³opolskie;30-624;
++;Kraków (Kraków-Podgórze);Malborska;86-DK(p), 87-107(n), 119-DK(n);Kraków;Kraków;ma³opolskie;;30-624
++;Kraków (Kraków-Podgórze);Medyczna;;Kraków;Kraków;ma³opolskie;;30-688
++;Kraków (Kraków-Podgórze);Na Koz³ówce;1, 5-9(n);Kraków;Kraków;ma³opolskie;;30-631
+-;Kraków (Kraków-Podgórze);Na Koz³ówce;1-9(n), 2;Kraków;Kraków;ma³opolskie;30-631;
++;Kraków (Kraków-Podgórze);Na Koz³ówce;2-4a, 6-10(p), 11-DK(n);Kraków;Kraków;ma³opolskie;;30-664
+-;Kraków (Kraków-Podgórze);Na Koz³ówce;4-6(p), 11-DK(n);Kraków;Kraków;ma³opolskie;30-664;
++;Kraków (Kraków-Podgórze);Pala Telekiego;;Kraków;Kraków;ma³opolskie;;30-609
+-;Kraków (Kraków-Podgórze);Powstañców Wielkopolskich;1-7(n);Kraków;Kraków;ma³opolskie;31-553;
++;Kraków (Kraków-Podgórze);Powstañców Wielkopolskich;1-7(n), 2-16(p);Kraków;Kraków;ma³opolskie;;30-553
+-;Kraków (Kraków-Podgórze);Powstañców Wielkopolskich;2-16(p);Kraków;Kraków;ma³opolskie;30-553;
++;Kraków (Kraków-Podgórze);Pó³³anki;10;Kraków;Kraków;ma³opolskie;;30-858
++;Kraków (Kraków-Podgórze);Pó³³anki;10-DK;Kraków;Kraków;ma³opolskie;;30-740
+-;Kraków (Kraków-Podgórze);Pó³³anki;;Kraków;Kraków;ma³opolskie;30-858;
++;Kraków (Kraków-Podgórze);Przewóz;1-39(n), 2-64(p);Kraków;Kraków;ma³opolskie;;30-716
++;Kraków (Kraków-Podgórze);Przewóz;41-DK(n), 66-DK(p);Kraków;Kraków;ma³opolskie;;30-721
+-;Kraków (Kraków-Podgórze);Przewóz;;Kraków;Kraków;ma³opolskie;30-716;
++;Kraków (Kraków-Podgórze);Rybitwy;1-81(n), 16-108(p);Kraków;Kraków;ma³opolskie;;30-722
++;Kraków (Kraków-Podgórze);Rybitwy;83-109(n), 110-DK;Kraków;Kraków;ma³opolskie;;30-736
+-;Kraków (Kraków-Podgórze);Rybitwy;;Kraków;Kraków;ma³opolskie;30-722;
+-;Kraków (Kraków-Podgórze);rynek Rynek Podgórski;1;Kraków;Kraków;ma³opolskie;30-533;
++;Kraków (Kraków-Podgórze);rynek Rynek Podgórski;1-4a;Kraków;Kraków;ma³opolskie;;30-533
+-;Kraków (Kraków-Podgórze);rynek Rynek Podgórski;2-DK;Kraków;Kraków;ma³opolskie;30-518;
++;Kraków (Kraków-Podgórze);rynek Rynek Podgórski;5-DK;Kraków;Kraków;ma³opolskie;;30-518
++;Kraków (Kraków-Podgórze);Saska;1-11(n), 2-2b;Kraków;Kraków;ma³opolskie;;30-715
+-;Kraków (Kraków-Podgórze);Saska;1-9a(n), 2-2c;Kraków;Kraków;ma³opolskie;30-715;
+-;Kraków (Kraków-Podgórze);Saska;4-DK(p), 11-DK(n);Kraków;Kraków;ma³opolskie;30-720;
++;Kraków (Kraków-Podgórze);Saska;4-DK(p), 13-DK(n);Kraków;Kraków;ma³opolskie;;30-720
++;Kraków (Kraków-Podgórze);Œliska;1-11, 13-DK(n);Kraków;Kraków;ma³opolskie;;30-504
++;Kraków (Kraków-Podgórze);Œliska;12-DK(p);Kraków;Kraków;ma³opolskie;;30-516
+-;Kraków (Kraków-Podgórze);Œliska;16-DK(p);Kraków;Kraków;ma³opolskie;30-516;
+-;Kraków (Kraków-Podgórze);Œliska;1-DK(n), 2-14(p);Kraków;Kraków;ma³opolskie;30-504;
++;Kraków (Kraków-Podgórze);Tuchowska;102-DK;Kraków;Kraków;ma³opolskie;;30-698
++;Kraków (Kraków-Podgórze);Tuchowska;1-101;Kraków;Kraków;ma³opolskie;;30-618
+-;Kraków (Kraków-Podgórze);Tuchowska;1-49;Kraków;Kraków;ma³opolskie;30-618;
+-;Kraków (Kraków-Podgórze);Tuchowska;50-DK;Kraków;Kraków;ma³opolskie;30-698;
+-;Kraków (Kraków-Podgórze);Turniejowa;1-55, 2-22(p);Kraków;Kraków;ma³opolskie;30-656;
++;Kraków (Kraków-Podgórze);Turniejowa;1-55(n), 2-22(p);Kraków;Kraków;ma³opolskie;;30-656
++;Kraków (Kraków-Podgórze);Turniejowa;24-72(p), 57-71(n), 73-DK;Kraków;Kraków;ma³opolskie;;30-619
+-;Kraków (Kraków-Podgórze);Turniejowa;57-DK;Kraków;Kraków;ma³opolskie;30-619;
+-;Kraków (Kraków-Podgórze);Turniejowa;59a-59b;Kraków;Kraków;ma³opolskie;30-519;
+#;Kraków (Kraków-Podgórze);Tyniecka;10;Kraków;Kraków;ma³opolskie;30-323;30-319
+#;Kraków (Kraków-Podgórze);Tyniecka;10;Kraków;Kraków;ma³opolskie;30-319;30-323
+-;Kraków (Kraków-Podgórze);Wielicka;1-119(n), 2-112(p);Kraków;Kraków;ma³opolskie;30-552;
++;Kraków (Kraków-Podgórze);Wielicka;114-248(p), 121-249(n), 250-DK;Kraków;Kraków;ma³opolskie;;30-663
+-;Kraków (Kraków-Podgórze);Wielicka;122-130(p);Kraków;Kraków;ma³opolskie;30-363;
+-;Kraków (Kraków-Podgórze);Wielicka;132-DK(p), 209-DK(n);Kraków;Kraków;ma³opolskie;30-663;
++;Kraków (Kraków-Podgórze);Wielicka;1-83a, 84-112(p), 85-119(n);Kraków;Kraków;ma³opolskie;;30-552
++;Kraków (Kraków-Podgórze);Zab³ocie;1-50;Kraków;Kraków;ma³opolskie;;30-701
++;Kraków (Kraków-Podgórze);Zab³ocie;51-DK;Kraków;Kraków;ma³opolskie;;30-706
+-;Kraków (Kraków-Podgórze);Zab³ocie;;Kraków;Kraków;ma³opolskie;30-701;
++;Kraków (Kraków-Podgórze);Zakopiañska;1-147(n), 2-70(p);Kraków;Kraków;ma³opolskie;;30-418
+-;Kraków (Kraków-Podgórze);Zakopiañska;33-147(n), 46-58b(p), 62-70a(p);Kraków;Kraków;ma³opolskie;30-418;
+-;Kraków (Kraków-Podgórze);Zakopiañska;60-62b(p), 72-264(p), 149-DK(n), 265-277;Kraków;Kraków;ma³opolskie;30-435;
++;Kraków (Kraków-Podgórze);Zakopiañska;72-DK(p), 149-DK(n);Kraków;Kraków;ma³opolskie;;30-435
+-;Kraków (Kraków-Œródmieœcie);Aleja Ignacego Daszyñskiego;1-23(n);Kraków;Kraków;ma³opolskie;31-537;
++;Kraków (Kraków-Œródmieœcie);Aleja Ignacego Daszyñskiego;1-5(n);Kraków;Kraków;ma³opolskie;;31-537
+-;Kraków (Kraków-Œródmieœcie);Aleja Ignacego Daszyñskiego;2-32(p), 25-31(n), 33-DK;Kraków;Kraków;ma³opolskie;31-534;
++;Kraków (Kraków-Œródmieœcie);Aleja Ignacego Daszyñskiego;2-DK, 7-DK(n);Kraków;Kraków;ma³opolskie;;31-534
++;Kraków (Kraków-Œródmieœcie);Bo¿ego Cia³a;1-4;Kraków;Kraków;ma³opolskie;;31-055
++;Kraków (Kraków-Œródmieœcie);Bo¿ego Cia³a;5-DK;Kraków;Kraków;ma³opolskie;;31-059
+-;Kraków (Kraków-Œródmieœcie);Bo¿ego Cia³a;;Kraków;Kraków;ma³opolskie;31-059;
++;Kraków (Kraków-Œródmieœcie);Dajwór;1-25(n), 2-DK(p);Kraków;Kraków;ma³opolskie;;31-052
++;Kraków (Kraków-Œródmieœcie);Dajwór;27-DK(n);Kraków;Kraków;ma³opolskie;;31-060
+-;Kraków (Kraków-Œródmieœcie);Dajwór;;Kraków;Kraków;ma³opolskie;31-052;
++;Kraków (Kraków-Œródmieœcie);Grzegórzecka;1-5(n);Kraków;Kraków;ma³opolskie;;31-537
++;Kraków (Kraków-Œródmieœcie);Grzegórzecka;16-48(p);Kraków;Kraków;ma³opolskie;;31-531
+-;Kraków (Kraków-Œródmieœcie);Grzegórzecka;1-65(n);Kraków;Kraków;ma³opolskie;31-532;
+-;Kraków (Kraków-Œródmieœcie);Grzegórzecka;16-70(p);Kraków;Kraków;ma³opolskie;31-531;
++;Kraków (Kraków-Œródmieœcie);Grzegórzecka;50-DK(p), 67-DK(n);Kraków;Kraków;ma³opolskie;;31-559
+-;Kraków (Kraków-Œródmieœcie);Grzegórzecka;67-105(n), 72-104(p);Kraków;Kraków;ma³opolskie;31-559;
++;Kraków (Kraków-Œródmieœcie);Grzegórzecka;7-65(n);Kraków;Kraków;ma³opolskie;;31-532
++;Kraków (Kraków-Œródmieœcie);ks. Franciszka Blachnickiego;1-DK(n);Kraków;Kraków;ma³opolskie;;31-535
++;Kraków (Kraków-Œródmieœcie);ks. Franciszka Blachnickiego;2-DK(p);Kraków;Kraków;ma³opolskie;;31-538
+-;Kraków (Kraków-Œródmieœcie);ks. Franciszka Blachnickiego;;Kraków;Kraków;ma³opolskie;31-538;
++;Kraków (Kraków-Œródmieœcie);Masarska;10-DK(p);Kraków;Kraków;ma³opolskie;;31-539
++;Kraków (Kraków-Œródmieœcie);Masarska;1-9, 11-DK(n);Kraków;Kraków;ma³opolskie;;31-534
+-;Kraków (Kraków-Œródmieœcie);Masarska;;Kraków;Kraków;ma³opolskie;31-534;
++;Kraków (Kraków-Œródmieœcie);Micha³a Siedleckiego;1-5, 7;Kraków;Kraków;ma³opolskie;;31-538
++;Kraków (Kraków-Œródmieœcie);Micha³a Siedleckiego;6-8(p), 9-DK;Kraków;Kraków;ma³opolskie;;31-536
+-;Kraków (Kraków-Œródmieœcie);Micha³a Siedleckiego;;Kraków;Kraków;ma³opolskie;31-538;
+-;Kraków (Kraków-Œródmieœcie);Miodowa;32-40(p), 33-DK(n);Kraków;Kraków;ma³opolskie;31-052;
++;Kraków (Kraków-Œródmieœcie);Miodowa;32-42(p), 33-47(n);Kraków;Kraków;ma³opolskie;;31-052
+-;Kraków (Kraków-Œródmieœcie);Miodowa;42-DK(p);Kraków;Kraków;ma³opolskie;31-036;
++;Kraków (Kraków-Œródmieœcie);Miodowa;44-54(p), 49-55(n), 56-DK;Kraków;Kraków;ma³opolskie;;31-036
+-;Kraków (Kraków-Œródmieœcie);Podgórska;1-25a;Kraków;Kraków;ma³opolskie;31-035;
++;Kraków (Kraków-Œródmieœcie);Podgórska;1-25(n);Kraków;Kraków;ma³opolskie;;31-035
++;Kraków (Kraków-Œródmieœcie);Podgórska;2-24(p);Kraków;Kraków;ma³opolskie;;31-061
++;Kraków (Kraków-Œródmieœcie);œw. Wawrzyñca;1-34;Kraków;Kraków;ma³opolskie;;31-060
++;Kraków (Kraków-Œródmieœcie);œw. Wawrzyñca;35-DK;Kraków;Kraków;ma³opolskie;;31-052
+-;Kraków (Kraków-Œródmieœcie);œw. Wawrzyñca;;Kraków;Kraków;ma³opolskie;31-060;
++;Krasny Las;;;Grabówka;bia³ostocki;podlaskie;;16-030
++;Krupniki;B³awatkowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Chabrowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Diamentowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Dworska;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Fio³kowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Irysowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Kasztanowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Klonowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Krokusowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Kruszewska;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;ks. Grzybowskiego;;Choroszcz;bia³ostocki;podlaskie;;15-635
++;Krupniki;Kwiatowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Lipowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Makowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Per³owa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Poziomkowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Ró¿ana;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Rubinowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Szafirowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Szmaragdowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Œwierkowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Topazowa;;Choroszcz;bia³ostocki;podlaskie;;16-070
++;Krupniki;Wêgierska;;Choroszcz;bia³ostocki;podlaskie;;16-070
+-;Krupniki;;;Choroszcz;bia³ostocki;podlaskie;16-070;
+-;Lêbork;1 Maja;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;3 Maja;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;8 Maja;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Abrahama;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Akacjowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Aleja Niepodleg³oœci;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Aleja Wolnoœci;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Aleksandra Majkowskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Architektów;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Armii Krajowej;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Artylerzystów;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Bartosza G³owackiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Basztowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Batalionów Ch³opskich;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Batalionu Zoœka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Beniowskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;B³êkitna;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Bohaterów Monte Cassino;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Bohaterów Westerplatte;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Boles³awa Krzywoustego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Boles³awa Prusa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Brzozowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Ceynowy;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Ch³opska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Chojnicka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Chopina;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Cisowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Curie-Sk³odowskiej;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Czo³gistów;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;D¹browskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Derdowskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Dêbowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Drêtowo;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Drzyma³y;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Dworcowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Dygasiñskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Dywizjonu 303;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Edwarda Bieszki;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Emilii Plater;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;F. Stamma;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Franciszkañska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Gdañska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;gen. Stanis³awa Sosabowskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Genera³a Bema;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Genera³a Sikorskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Genera³a Stanis³awa Maczka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Gierymskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Gliniana;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Górników;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Grudzi¹dzka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Grunwaldzka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Gryfa Pomorskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;H. Konopackiej;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;H. Marusarzówny;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Handlowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Harcerzy;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Henryka Arctowskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Henryka £asaka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Hutnicza;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Ignacego Domeyki;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;In¿ynierów;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;J. Kusociñskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Jagielloñska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Jana Styki;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Janusza Korczaka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Jerzego Kukuczki;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Jesionowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Jod³owa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Józefa Wybickiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Juliana Wêgrzynowicza;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kana³owa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kardyna³a Stefana Wyszyñskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kartuska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kasztanowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kaszubska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kazimierza Wielkiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kellera;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kiliñskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Klonowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kolejarzy;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kolonia;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Komuny Paryskiej;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kossaka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Koœciuszki;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;ks. Szczepana Gracza;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kujawska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Kwiatowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;L. Teligi;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Legionów Polskich;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Lipowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Lotników;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Lubelska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Ludwika Waryñskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;£¹czna;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;£owicka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Majora Henryka Sucharskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Malczewskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Ma³opolska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Ma³oszycka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Marcinkowskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Marii Konopnickiej;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Matejki;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Mazurska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Micha³a Mostnika;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Mieczys³awa Stryjewskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Mieszka I;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Miko³aja Reja;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Mireckiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;M³ynarska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Modrzewiowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Moniuszki;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Mœciwoja II;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Myœliwska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Nadmorska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Obroñców Wybrze¿a;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Ogrodowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Okrzei;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Olimpijczyków;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Orl¹t Lwowskich;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Orliñskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Orzeszkowej;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Osiedle Leœne;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Piecewo;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Pionierów;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Piotra Skargi;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Piotra Wysockiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Plac Kopernika;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Plac M³odzie¿y;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Plac Piastowski;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Plac Pokoju;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Plac Spó³dzielczy;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Podhalañska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Polna;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Polskich Marynarzy;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Pomorska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Powstania Styczniowego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Powstañców Warszawy;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Poznañska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Przymurna;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Przyzamcze;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Pu³askiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Pu³kownika Stanis³awa D¹bka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Robotnicza;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Rod³a;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Roszarnicza;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Ró¿yckiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;rtm. Witolda Pileckiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Rzemieœlnicza;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Sandomierska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Saperów;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Sienkiewicza;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Skar¿yñskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Skoczylasa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;S³oneczna;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;S³owackiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;S³upska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Spokojna;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Sportowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Spó³dzielcza;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Staromiejska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Staszica;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Strzelców Podhalañskich;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Syrokomli;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Szarych Szeregów;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Œl¹ska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Targowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Tatrzañska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Tczewska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Techników;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Topolowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Toruñska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Traugutta;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Warszawska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Weterynaryjna;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Wicka Rogali;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Wielkopolska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Wierzbowa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Wita Stwosza;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Witkacego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;W³adys³awa IV;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;W³adys³awa £okietka;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Wojska Polskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Wróblewskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Wyczó³kowskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Wyspiañskiego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Zawiszy Czarnego;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Zielona;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Zofii Witkowskiej;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Zwarowska;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;Zwyciêstwa;;Lêbork;lêborski;pomorskie;84-300;
+-;Lêbork;¯eromskiego;;Lêbork;lêborski;pomorskie;84-300;
++;Lêbork;;;Lêbork;lêborski;pomorskie;;84-300
+-;Lêbork (Rybki);;;Lêbork;lêborski;pomorskie;84-315;
++;Lgota;;;Trzebinia;chrzanowski;ma³opolskie;;32-543
+-;Libertów;Bartnicka;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Gajowa £¹ka;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Góra Libertowska;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Gwiezdna;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Jab³oniowa;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Jana Paw³a II;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Korczynowa;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Leœny Stok;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Ligustrowa;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Magnoliowa;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Olszyñska;;Mogilany;krakowski;ma³opolskie;30-698;
+-;Libertów;P³omienna;;Mogilany;krakowski;ma³opolskie;30-698;
+-;Libertów;Pogórze;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Po³udniowa;;Mogilany;krakowski;ma³opolskie;30-698;
+-;Libertów;Przydworska;;Mogilany;krakowski;ma³opolskie;30-698;
+-;Libertów;Przylesie;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Rumiana;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;S³oneczna;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Spacerowiczów;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Sportowców;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Srebrna;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Szlachecka;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Œw. Brata Alberta;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Œw. Floriana;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Œwietlista;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Weso³a;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Widokowa;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Zagajnik;;Mogilany;krakowski;ma³opolskie;30-444;
+-;Libertów;Zgodna;;Mogilany;krakowski;ma³opolskie;30-444;
++;Libertów;;;Mogilany;krakowski;ma³opolskie;;30-444
++;Lipina;;;Oleszyce;lubaczowski;podkarpackie;;37-630
+-;Lipowa;;1-18a;Œliwice;tucholski;kujawsko-pomorskie;89-530;
++;Lipowa;;;Œliwice;tucholski;kujawsko-pomorskie;;89-530
+-;Lipowa (Lipowa Tucholska);;1-DK;Œliwice;tucholski;kujawsko-pomorskie;83-243;
++;Lipowa (Lipowa Tucholska);;;Œliwice;tucholski;kujawsko-pomorskie;;89-530
+-;Lipowa (Ró¿anek);;1-DK;Œliwice;tucholski;kujawsko-pomorskie;89-530;
++;Lipowa (Ró¿anek);;;Œliwice;tucholski;kujawsko-pomorskie;;89-530
+-;Lipowa (Zielony Dó³);;28;Œliwice;tucholski;kujawsko-pomorskie;89-530;
++;Lipowa (Zielony Dó³);;;Œliwice;tucholski;kujawsko-pomorskie;;89-530
+-;Lisów;Akacjowa;;Herby;lubliniecki;œl¹skie;72-714;
+-;Lisów;Budowlanych;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Czêstochowska;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Dêbowa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Dworcowa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Górna;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Handlowa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Józefa Lompy;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Juliusza Ligonia;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Kardyna³a Stefana Wyszyñskiego;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Koszêciñska;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Krêta;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Krótka;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Kwiatowa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Leœna;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Orzechowa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Paprotna;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Paw³a Stalmacha;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Poprzeczna;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Przemys³owa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Sosnowa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Sportowa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Stawowa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Szkolna;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Œwierkowa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Wiejska;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Wincentego Witosa;;Herby;lubliniecki;œl¹skie;42-714;
+-;Lisów;Wiœniowa;;Herby;lubliniecki;œl¹skie;42-714;
++;Lisów;;;Herby;lubliniecki;œl¹skie;;42-714
++;Lublin;Mi³orzêbowa;;Lublin;Lublin;lubelskie;;20-221
+-;Lublin;Na Prze³êczy;;Lublin;Lublin;lubelskie;20-564;
+#;Lublin;Plac Litewski;1-DK;Lublin;Lublin;lubelskie;20-208;20-080
+#;Lublin;Plac Litewski;1-DK;Lublin;Lublin;lubelskie;20-080;20-208
+-;Lublin;Szpitalna;;Lublin;Lublin;lubelskie;20-708;
++;£aziska Górne;Kopalniana;;£aziska Górne;miko³owski;œl¹skie;;43-173
++;£aziska Górne;Os. Tadeusza Koœciuszki;;£aziska Górne;miko³owski;œl¹skie;;43-173
+-;£aziska Górne (£aziska Dolne);Kopalniana;;£aziska Górne;miko³owski;œl¹skie;43-173;
+-;£omianki;1 Maja;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;11 Listopada;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;22 Wrzeœnia;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;3 Maja;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;9 Maja;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;adm. Krzysztofa Arciszewskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Adolfa Pilcha;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Agawy;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Akacjowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Aleja Lip;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Aleksandra Fredry;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Armii Krajowej;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Armii Poznañ;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Asfaltowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Baonu Zoœka;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Batalionów Ch³opskich;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Boczna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Boles³awa Chrobrego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Brukowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Brzozowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;D¹brówki;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Dêbowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;D³uga;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Dobra;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Dolna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Dzia³kowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Fabryczna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Ferrytowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Fio³ka;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Francuska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;gen. Alojzego Fryderyka Brühla;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;gen. Miko³aja Bo³tucia;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;gen. Wojciecha Borzobohatego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Glinianki;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Gospodarcza;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Goœciñcowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Górna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Graniczna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Grzybowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;GwiaŸdzista;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Henryka Wieniawskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Irysa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Jana Kiepury;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Janusza Kusociñskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Jaœminowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Jednoœci Robotniczej;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Jeziorna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Jod³owa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Józefa Poniatowskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Józefa Przy³uskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Kaktusowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Kalinowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Kamienista;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Kampinoska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Kasztanowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Kmicica;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Kolejowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Konwaliowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Kosynierów;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Krokusa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Krótka;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Krzysztofa Kamila Baczyñskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Krzywa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;ks. Hugona Ko³³¹taja;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Ksiêcia Henryka Pobo¿nego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Kwiatowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Lalkowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Leœna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Leœnych Dêbów;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Ludowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Lwowska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;£¹kowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;£y¿wiarska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Macieja Rataja;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Maciejowicka;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Magnolii;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Majowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Malarska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Marcina Kasprzaka;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Mieszka I;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Miko³aja Reja;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Mi³osna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;M³ociñska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Modrzewiowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Narciarska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Normatywna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Nowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Okrê¿na;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Oleñki;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Olszynowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Orzechowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Osiedlowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Osikowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Palmowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Pancerz;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Parkingowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Parkowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Partyzantów;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Paw³owska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Piaskowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Pionierów;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Podbipiêty;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Podleœna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Polna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Poprzeczna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Powstañców Kampinosu;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Powstañców Warszawy;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Prochowni;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;prof. Mieczys³awa Micha³owicza;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Prosta;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Prymasa Stefana Wyszyñskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Przebiœniega;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Przechodnia;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Przelotowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Prze³ajowa;1-DK;£omianki;warszawski zachodni;mazowieckie;05-062;
+-;£omianki;Przeskok;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Przygodna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Rac³awicka;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Rajska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Rolnicza;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Romantyczna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Równa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Równoleg³a;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Rzemieœlnicza;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Sasanki;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Sezamkowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Sierakowska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Skrzetuskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;S³oneczna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Sosnowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Spacerowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Spokojna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Sportowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Stanis³awa Konarskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Stanis³awa Staszica;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Stara;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Starej Cegielni;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Staromiejska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Stary Tor;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Stefana Czarnieckiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Strumykowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Szczêœliwa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Szeroka;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Szkolna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Szpitalna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Œlepa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Œliska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Œwierkowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Tadeusza Koœciuszki;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;U³anów Jaz³owieckich;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Warszawska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;W¹ska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Weso³a;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Weteranów;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Wiejska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Wiosenna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Wiœlana;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Wjazdowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;W³oœciañska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Wojska Polskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Wo³odyjowskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Wólczyñska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Wyboista;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Wydmowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Zachodnia;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Zag³oby;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Zalotna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Zau³ek;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Zawilca;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;Zielona;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;¯wirowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki;¯ywiczna;;£omianki;warszawski zachodni;mazowieckie;05-092;
++;£omianki;;;£omianki;warszawski zachodni;mazowieckie;;05-092
+-;£omianki (Buraków);11 Listopada;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Brukowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Elizy Orzeszkowej;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Gen. Alojzego Fryderyka Brühla;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Gen. Tadeusza Koœciuszki;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Hetm. Stefana Czarnieckiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Jana III Sobieskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Józefa Przy³uskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Kolejowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Ks. Józefa Poniatowskiego;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);£¹kowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Ma³a;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Olszynowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Parkowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Pastewna;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Przechodnia;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Przelotowa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Prze³ajowa;1-DK;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Staromiejska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Œlepa;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Warszawska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Wólczyñska;;£omianki;warszawski zachodni;mazowieckie;05-092;
+-;£omianki (Buraków);Zau³ek;;£omianki;warszawski zachodni;mazowieckie;05-092;
++;£omianki (Buraków);;;£omianki;warszawski zachodni;mazowieckie;;05-092
++;£ódŸ (£ódŸ-Ba³uty);al. Al. Pierwszej Dywizji;;£ódŸ;£ódŸ;³ódzkie;;91-836
+-;£ódŸ (£ódŸ-Ba³uty);Czarna;;£ódŸ;£ódŸ;³ódzkie;91-306;
+-;£ódŸ (£ódŸ-Ba³uty);I Dywizji Al.;;£ódŸ;£ódŸ;³ódzkie;91-836;
++;£ódŸ (£ódŸ-Ba³uty);Urzêdnicza;40;£ódŸ;£ódŸ;³ódzkie;;91-306
+-;£ódŸ (£ódŸ-Górna);Jerzego Zawieyskiego;;£ódŸ;£ódŸ;³ódzkie;93-636;
+-;£ódŸ (£ódŸ-Górna);Oœwiêcimska;;£ódŸ;£ódŸ;³ódzkie;93-542;
+-;£ódŸ (£ódŸ-Górna);Podwale;;£ódŸ;£ódŸ;³ódzkie;93-430;
+-;£ódŸ (£ódŸ-Górna);Rycerska;;£ódŸ;£ódŸ;³ódzkie;93-368;
++;£ódŸ (£ódŸ-Górna);Rycerski Pl.;1-DK;£ódŸ;£ódŸ;³ódzkie;;93-368
++;£ódŸ (£ódŸ-Œródmieœcie);al. Zwi¹zku Harcerstwa Polskiego;;£ódŸ;£ódŸ;³ódzkie;;90-440
++;£ódŸ (£ódŸ-Œródmieœcie);Aleja Polskiego Czerwonego Krzy¿a;;£ódŸ;£ódŸ;³ódzkie;;90-456
+-;£ódŸ (£ódŸ-Œródmieœcie);PCK Al.;;£ódŸ;£ódŸ;³ódzkie;90-456;
+-;£ódŸ (£ódŸ-Œródmieœcie);ZHP Al.;;£ódŸ;£ódŸ;³ódzkie;90-440;
+-;£ódŸ (£ódŸ-Widzew);Borsucza;;£ódŸ;£ódŸ;³ódzkie;92-327;
+-;£ódŸ (£ódŸ-Widzew);NiedŸwiedzia;;£ódŸ;£ódŸ;³ódzkie;92-323;
+-;£ódŸ (£ódŸ-Widzew);Piechoty Wybranieckiej;;£ódŸ;£ódŸ;³ódzkie;92-438;
++;£ódŸ (£ódŸ-Widzew);Rycerski Pl.;1-DK;£ódŸ;£ódŸ;³ódzkie;;92-441
+-;£ódŸ (£ódŸ-Widzew);Rycerski Pl.;;£ódŸ;£ódŸ;³ódzkie;92-441;
+-;£ódŸ (£ódŸ-Widzew);Serpentyna;;£ódŸ;£ódŸ;³ódzkie;92-005;
+-;£ódŸ (£ódŸ-Widzew);Stanis³awa Czernika;1/3-7(n);£ódŸ;£ódŸ;³ódzkie;92-538;
++;£ódŸ (£ódŸ-Widzew);Stanis³awa Czernika;1-7(n);£ódŸ;£ódŸ;³ódzkie;;92-538
+-;£u¿na;;2-656, 137-667(n), 576-1340(p), 673-1339(n), 675-1326;£u¿na;gorlicki;ma³opolskie;38-322;
+-;£u¿na;;669-671(n);£u¿na;gorlicki;ma³opolskie;38-222;
++;£u¿na;;;£u¿na;gorlicki;ma³opolskie;;38-322
+#;Ma³achów (wieœ);;;Koñskie;konecki;œwiêtokrzyskie;26-220;26-200
+#;Ma³achów (wieœ);;;Koñskie;konecki;œwiêtokrzyskie;26-200;26-220
++;Mieszkowo;Graniczna;;Piaseczno;piaseczyñski;mazowieckie;;05-504
++;Mieszkowo;Jagódki;;Piaseczno;piaseczyñski;mazowieckie;;05-504
++;Mieszkowo;Malinowa;;Piaseczno;piaseczyñski;mazowieckie;;05-503
++;Mieszkowo;Pod Grusz¹;;Piaseczno;piaseczyñski;mazowieckie;;05-503
++;Mieszkowo;S³onecznej Polany;;Piaseczno;piaseczyñski;mazowieckie;;05-504
++;Mieszkowo;Szklarniowa;;Piaseczno;piaseczyñski;mazowieckie;;05-503
++;Mieszkowo;Traktowa;;Piaseczno;piaseczyñski;mazowieckie;;05-503
++;Mieszkowo;Ustronie;;Piaseczno;piaseczyñski;mazowieckie;;05-503
++;Mieszkowo;Zdrojowa;;Piaseczno;piaseczyñski;mazowieckie;;05-503
+-;Mieszkowo;;;Piaseczno;piaseczyñski;mazowieckie;05-503;
++;Miko³ów;Akacjowa;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;Astrów;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;Baziowa;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Botaniczna;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;Brzozowa;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Bzów;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Chabrów;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Chudowska;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;Cicha;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Cienista;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Cyprysów;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;Czereœniowa;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Dolina Jamny;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Dworcowa;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;Dworska;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;Dzwonkowa;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Go³êbia;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;GoŸdzików;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Grabowa;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Graniczna;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Gustawa Morcinka;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Henryka Sienkiewicza;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Irysów;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;Jagodowa;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Jana Brzechwy;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Janiny Poraziñskiej;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Jasna;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Je¿ynowa;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;Józefa Wieczorka;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Kalinowa;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;Kolonia Huta;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;Konstantego Wolnego;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;Kosów;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;Krêta;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;ks. Franciszka Górka;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;KuŸnicka;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;Kwiatowa;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;Leœna;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Ludwika Spyry;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;£¹czna;;Miko³ów;miko³owski;œl¹skie;;43-195
++;Miko³ów;Marii Konopnickiej;;Miko³ów;miko³owski;œl¹skie;;43-190
++;Miko³ów;Wojciecha Korfantego;;Miko³ów;miko³owski;œl¹skie;;43-196
++;Miko³ów;ródlana;;Miko³ów;miko³owski;œl¹skie;;43-195
+-;Miko³ów (Borowa Wieœ);Go³êbia;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Borowa Wieœ);Graniczna;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Bujaków);Cyprysów;;Miko³ów;miko³owski;œl¹skie;43-196;
+-;Miko³ów (Bujaków);Dworcowa;;Miko³ów;miko³owski;œl¹skie;43-196;
+-;Miko³ów (Bujaków);Dworska;;Miko³ów;miko³owski;œl¹skie;43-196;
+-;Miko³ów (Bujaków);Kalinowa;;Miko³ów;miko³owski;œl¹skie;43-196;
+-;Miko³ów (Bujaków);Konstantego Wolnego;;Miko³ów;miko³owski;œl¹skie;43-196;
+-;Miko³ów (Bujaków);Ks. Franciszka Górka;;Miko³ów;miko³owski;œl¹skie;43-196;
+-;Miko³ów (Bujaków);Ludwika Spyry;;Miko³ów;miko³owski;œl¹skie;43-196;
+-;Miko³ów (Kamionka);Cicha;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Cienista;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Czereœniowa;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Dolina Jamny;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Dzwonkowa;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);GoŸdzików;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Grabowa;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Gustawa Morcinka;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Jagodowa;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Jana Brzechwy;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Janiny Poraziñskiej;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Józefa Wieczorka;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Kamionka);Leœna;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Mokre);Irysów;;Miko³ów;miko³owski;œl¹skie;43-195;
+-;Miko³ów (Mokre);Je¿ynowa;;Miko³ów;miko³owski;œl¹skie;43-195;
+-;Miko³ów (Mokre);Kolonia Huta;;Miko³ów;miko³owski;œl¹skie;43-195;
+-;Miko³ów (Mokre);Kosów;;Miko³ów;miko³owski;œl¹skie;43-195;
+-;Miko³ów (Mokre);Krêta;;Miko³ów;miko³owski;œl¹skie;43-195;
+-;Miko³ów (Mokre);KuŸnicka;;Miko³ów;miko³owski;œl¹skie;43-195;
+-;Miko³ów (Mokre);Kwiatowa;;Miko³ów;miko³owski;œl¹skie;43-195;
+-;Miko³ów (Mokre);£¹czna;;Miko³ów;miko³owski;œl¹skie;43-195;
+-;Miko³ów (Reta Œmi³owicka);Jasna;;Miko³ów;miko³owski;œl¹skie;43-190;
+-;Miko³ów (Reta Œmi³owicka);Marii Konopnickiej;;Miko³ów;miko³owski;œl¹skie;43-190;
++;M³oszowa;;;Trzebinia;chrzanowski;ma³opolskie;;32-540
++;Mys³owice;Cytrynowa;;Mys³owice;Mys³owice;œl¹skie;;41-404
++;Mys³owice;Nowochrzanowska;;Mys³owice;Mys³owice;œl¹skie;;41-404
++;Mys³owice;Nowy Œwiat;;Mys³owice;Mys³owice;œl¹skie;;41-400
++;Mys³owice;Obrze¿na Zachodnia;;Mys³owice;Mys³owice;œl¹skie;;41-400
++;Mys³owice;Piotra Korusa;;Mys³owice;Mys³owice;œl¹skie;;41-404
++;Myœlachowice;;;Trzebinia;chrzanowski;ma³opolskie;;32-543
++;Narol-Wieœ;;;Narol;lubaczowski;podkarpackie;;37-610
+-;Nowa S³upia (Œwiêty Krzy¿);;;Nowa S³upia;kielecki;œwiêtokrzyskie;26-006;
+#;Nowe Krzewo;;;Zawady;bia³ostocki;podlaskie;16-080;16-075
+#;Olsztyn;Edwarda Abramowskiego;1-DK;Olsztyn;Olsztyn;warmiñsko-mazurskie;10-763;10-241
+#;Olsztyn;Edwarda Abramowskiego;1-DK;Olsztyn;Olsztyn;warmiñsko-mazurskie;10-241;10-763
++;Olsztyn;Jana Kochanowskiego;;Olsztyn;czêstochowski;œl¹skie;;42-256
++;Olsztyn;Kazimierza Wielkiego;;Olsztyn;czêstochowski;œl¹skie;;42-256
++;Olsztyn;Ksiêcia Jerzego Lubomirskiego;;Olsztyn;czêstochowski;œl¹skie;;42-256
++;Olsztyn;Morelowa;;Olsztyn;czêstochowski;œl¹skie;;42-256
+-;Olsztyn;Œw. Franciszka z Asy¿u;1-3(n);Olsztyn;Olsztyn;warmiñsko-mazurskie;10-358;
++;Olsztyn;Œw. Franciszka z Asy¿u;1-9(n);Olsztyn;Olsztyn;warmiñsko-mazurskie;;10-358
++;Olsztyn;Truskawkowa;;Olsztyn;Olsztyn;warmiñsko-mazurskie;;10-316
++;Olsztyn;Tulipanowa;;Olsztyn;czêstochowski;œl¹skie;;42-256
++;Olsztyn;Turystyczna;;Olsztyn;czêstochowski;œl¹skie;;42-256
++;Olsztyn;Wodoci¹gowa;;Olsztyn;czêstochowski;œl¹skie;;42-256
++;Olsztyn;Wspólna;;Olsztyn;czêstochowski;œl¹skie;;42-256
++;Opole;ks. dr. Zygmunta Nabzdyka;;Opole;Opole;opolskie;;45-763
++;Opole;Per³owa;;Opole;Opole;opolskie;;45-920
++;Opole;Potokowa;;Opole;Opole;opolskie;;45-771
++;Opole;Turmalinowa;;Opole;Opole;opolskie;;45-920
++;Orzesze;Fio³kowa;;Orzesze;miko³owski;œl¹skie;;43-186
++;Orzesze;Kryszta³owa;;Orzesze;miko³owski;œl¹skie;;43-187
++;Orzesze;Lisów;;Orzesze;miko³owski;œl¹skie;;43-186
++;Orzesze;Logistyków;;Orzesze;miko³owski;œl¹skie;;43-188
++;Orzesze;M³yñska;;Orzesze;miko³owski;œl¹skie;;43-180
++;Orzesze;Topolowa;;Orzesze;miko³owski;œl¹skie;;43-186
+#;Ostro³êka;ks. bp. Ignacego Krasickiego;1-DK;Ostro³êka;Ostro³êka;mazowieckie;07-417;07-409
+#;Ostro³êka;ks. bp. Ignacego Krasickiego;1-DK;Ostro³êka;Ostro³êka;mazowieckie;07-409;07-417
++;Paportno-Sopotnik;;;Fredropol;przemyski;podkarpackie;;37-743
++;Piaseczno;Hajduczka;;Piaseczno;piaseczyñski;mazowieckie;;05-500
++;Piaseczno;Koszykowa;;Piaseczno;piaseczyñski;mazowieckie;;05-500
++;Piaseczno;Zacisze;;Piaseczno;piaseczyñski;mazowieckie;;05-500
++;Pi³a Koœcielecka;;;Trzebinia;chrzanowski;ma³opolskie;;32-540
++;Piotrowice;;;Jedlnia-Letnisko;radomski;mazowieckie;;26-630
++;P³oki;;;Trzebinia;chrzanowski;ma³opolskie;;32-543
+#;Podole-Górowa;;65;Gródek nad Dunajcem;nowos¹decki;ma³opolskie;33-331;33-314
+-;Poznañ (Poznañ-Grunwald);Duszna;;Poznañ;Poznañ;wielkopolskie;60-208;
++;Poznañ (Poznañ-Grunwald);Kolejowa;1/3-5, 51-57;Poznañ;Poznañ;wielkopolskie;;60-715
+-;Poznañ (Poznañ-Grunwald);Kolejowa;1-5, 51-57;Poznañ;Poznañ;wielkopolskie;60-715;
+-;Poznañ (Poznañ-Je¿yce);Maksymiliana Jackowskiego;30-50(p);Poznañ;Poznañ;wielkopolskie;60-512;
++;Poznañ (Poznañ-Je¿yce);Maksymiliana Jackowskiego;30-50(p), 45a-45d;Poznañ;Poznañ;wielkopolskie;;60-512
++;Poznañ (Poznañ-Nowe Miasto);Zofii Micha³kiewicz;;Poznañ;Poznañ;wielkopolskie;;61-249
+-;Poznañ (Poznañ-Stare Miasto);Stary Rynek;85-100, 89/90-97/100(n);Poznañ;Poznañ;wielkopolskie;61-773;
++;Poznañ (Poznañ-Stare Miasto);Stary Rynek;85-100, 89/90-97/98(n);Poznañ;Poznañ;wielkopolskie;;61-773
++;Psary;;;Trzebinia;chrzanowski;ma³opolskie;;32-545
++;Radom;Andrzeja Struga;2-35, 40/42-42(p), 52-60(p);Radom;Radom;mazowieckie;;26-610
+-;Radom;Andrzeja Struga;2-35, 40-42(p), 52-60(p);Radom;Radom;mazowieckie;26-610;
+#;Roztoka-Brzeziny;;62-63;Gródek nad Dunajcem;nowos¹decki;ma³opolskie;33-331;33-314
+-;Ruda Œl¹ska;Arki Bo¿ka;;Ruda Œl¹ska;Ruda Œl¹ska;œl¹skie;41-711;
+-;Ruda Œl¹ska;Obroñców Pokoju;;Ruda Œl¹ska;Ruda Œl¹ska;œl¹skie;41-711;
++;Ruda Œl¹ska;Pokoju;1-22;Ruda Œl¹ska;Ruda Œl¹ska;œl¹skie;;41-709
++;Ruda Œl¹ska;Pokoju;1-DK;Ruda Œl¹ska;Ruda Œl¹ska;œl¹skie;;41-711
+-;Ruda Œl¹ska;Pokoju;;Ruda Œl¹ska;Ruda Œl¹ska;œl¹skie;41-709;
++;Rybnik;Józefa Poloka;;Rybnik;Rybnik;œl¹skie;;44-200
+#;Rybnik;Ró¿ana;1-DK;Rybnik;Rybnik;œl¹skie;44-251;44-200
+#;Rybnik;Ró¿ana;1-DK;Rybnik;Rybnik;œl¹skie;44-200;44-251
++;Rzeszów;al. prof. Adama Krzy¿anowskiego;1-7(n), 11-18, 14-22(p), 26-52(p);Rzeszów;Rzeszów;podkarpackie;;35-329
++;Rzeszów;al. prof. Adama Krzy¿anowskiego;4a-8(p), 24-24a;Rzeszów;Rzeszów;podkarpackie;;35-328
+-;Rzeszów;al. prof. Adama Krzy¿anowskiego;;Rzeszów;Rzeszów;podkarpackie;35-329;
+-;Rzeszów;Artura Grottgera;2-10(p);Rzeszów;Rzeszów;podkarpackie;35-068;
++;Rzeszów;Artura Grottgera;2-12(p);Rzeszów;Rzeszów;podkarpackie;;35-068
++;Rzeszów;Husarska;1-2;Rzeszów;Rzeszów;podkarpackie;;35-202
++;Rzeszów;Husarska;3-15(n), 6-20(p);Rzeszów;Rzeszów;podkarpackie;;35-242
+-;Rzeszów;Husarska;;Rzeszów;Rzeszów;podkarpackie;35-242;
++;Rzeszów;Jana Dekerta;1-5(n), 2;Rzeszów;Rzeszów;podkarpackie;;35-030
++;Rzeszów;Jana Dekerta;4-6(p);Rzeszów;Rzeszów;podkarpackie;;35-061
+-;Rzeszów;Jana Dekerta;;Rzeszów;Rzeszów;podkarpackie;35-030;
+-;Rzeszów;Jaros³awa D¹browskiego;10-33a, 25-71(n), 44-62a(p);Rzeszów;Rzeszów;podkarpackie;35-036;
++;Rzeszów;Jaros³awa D¹browskiego;10-72b, 44-82(p);Rzeszów;Rzeszów;podkarpackie;;35-036
+-;Rzeszów;Jaros³awa D¹browskiego;66-70(p), 72-83, 85-89(n);Rzeszów;Rzeszów;podkarpackie;35-040;
++;Rzeszów;Jaros³awa D¹browskiego;73-89(n);Rzeszów;Rzeszów;podkarpackie;;35-040
++;Rzeszów;Kosynierów;1-25(n), 9-15;Rzeszów;Rzeszów;podkarpackie;;35-242
+-;Rzeszów;Kosynierów;1-25(n), 9-16;Rzeszów;Rzeszów;podkarpackie;35-242;
++;Rzeszów;Kosynierów;2-4(p), 16-22(p);Rzeszów;Rzeszów;podkarpackie;;35-202
+-;Rzeszów;Kosynierów;2-4(p), 18-22(p);Rzeszów;Rzeszów;podkarpackie;35-202;
++;Rzeszów;W³adys³awa Broniewskiego;2-34(p);Rzeszów;Rzeszów;podkarpackie;;35-206
+-;Rzeszów;W³adys³awa Broniewskiego;2-34(p), 4-6;Rzeszów;Rzeszów;podkarpackie;35-206;
+#;Siemianowice Œl¹skie;Bohaterów Westerplatte;1-DK;Siemianowice Œl¹skie;Siemianowice Œl¹skie;œl¹skie;41-100;41-106
+#;Siemianowice Œl¹skie;Bohaterów Westerplatte;1-DK;Siemianowice Œl¹skie;Siemianowice Œl¹skie;œl¹skie;41-106;41-100
+#;Skorzêcin;;;Witkowo;gnieŸnieñski;wielkopolskie;62-215;62-230
+-;S³upsk;11 Listopada;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Adama Mickiewicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Akacjowa;1-37(n), 1-DK, 6-26(p), 41-47(n);S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;al. 3-go Maja;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;al. Francesco Nullo;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;al. Henryka Sienkiewicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Aleksandry Trzeciak;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Andrzeja Struga;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Andrzeja Zauchy;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Anny Gryfitki;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Anny £ajming;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Anny Walentynowicz;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Antoniego Madaliñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Arkadego Fiedlera;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Armii Krajowej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Artura Grottgera;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ba³tycka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Batalionów Ch³opskich;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Bitwy Warszawskiej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Bogus³awa X;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Bohaterów Westerplatte;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Boles³awa Chrobrego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Boles³awa Krzywoustego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Boles³awa Limanowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Boles³awa Prusa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Borówkowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Braci Gierymskich;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Braci Staniuków;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Bronis³awa Czecha;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Brzozowa;1-DK, 16-24(p);S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Bukowa;1-DK, 10-12a(p), 64-76a(p);S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Cecorska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Chocimska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Cicha;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Cienista;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Cisowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Cypriana Kamila Norwida;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Czes³awa Niemena;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;D¹brówki;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Deotymy;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Dêbowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;D³uga;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Dominikañska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;dr med. Kazimierza Fr¹ckowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;dra Alfonsa Modrzejewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;dra Edmunda Biernackiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;dra Jana Gellerta;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Drewniana;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Drzyma³y;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Edwarda £ady-Cybulskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Elizy Orzeszkowej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Eugeniusza Lokajskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Eugeniusza Paukszty;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Fabryczna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Filmowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Franciszka Szafranka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Frycza Modrzewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Fryderyka Chopina;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Gabriela Narutowicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Gajowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Garncarska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Gdañska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Gdyñska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;gen. Dezyderego Ch³apowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;gen. Józefa Dwernickiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;gen. Kazimierza Pu³askiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Gen. W³adys³awa Andersa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;gen. W³adys³awa Sikorskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Genera³a Henryka Dembiñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Genera³a Józefa Ch³opickiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Genera³a Józefa Sowiñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Genera³a Józefa Zaj¹czka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Genera³a Micha³a Sokolnickiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;"Genera³a Stefana Roweckiego ""GROTA""";;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Genera³a Tadeusza Bora-Komorowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;G³ogowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Górna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Grodzka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Grunwaldzka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Grzybowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Gustawa Morcinka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Hanki Ordonówny;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Heleny Marusarzówny;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Henryka Jordana;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Henryka Pobo¿nego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Henryka Wieniawskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Hubalczyków;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ignacego Bogdanowicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ignacego Daszyñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ignacego Jana Paderewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ignacego £ukasiewicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ignacego Pr¹dzyñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jacka Malczewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jagielloñska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ja³owcowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Bauera;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana D³ugosza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Druyffa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Kasprowicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Kazimierza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Kiepury;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Kiliñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Kochanowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Kozietulskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Matejki;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Nowaka-Jeziorañskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Ostroroga;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Paw³a II;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Posmykiewicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Sobieskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jana Zamojskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Janusza Kusociñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jaros³awa Iwaszkiewicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jarzêbinowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jasna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jaœminowa;1-DK, 51-63(n);S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jaworowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jeana Sibeliusa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jednoœci Narodowej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jerzego Bytnerowicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jesionowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Joachima Lelewela;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Jod³owa;1-DK, 50-66(p);S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Józefa Bema;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Józefa Che³moñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Józefa Pi³sudskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Józefa Su³kowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Józefa Wybickiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Juliana Fa³ata;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Juliana Niemcewicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Juliana Przybosia;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Juliana Tuwima;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Juliusza Kossaka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Juliusza S³owackiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Kalinowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;kard. Stefana Wyszyñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Karola Borchardta;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Karola Chodkiewicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Karola Kniaziewicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Karola Szymanowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Kasztanowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Kaszubska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Klonowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ko³³¹taja;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Konstantego Ildefonsa Ga³czyñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Konwaliowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Kosynierów Gdyñskich;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Koszaliñska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Kowalska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Krakusa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Królowej Jadwigi;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Krzysztofa Arciszewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Krzysztofa Kamila Baczyñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Krzywa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;ks. Brzóski;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;ks. Jana Ziei;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;ks. Józefa Poniatowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ksawerego Dunikowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ksiê¿nej Zofii;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Kwiatowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Legionów Polskich;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Legnicka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Leonida Teligi;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Leopolda Staffa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Leszczynowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Leœna;1-DK;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Lipowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ludwika Braille'a;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ludwika Mieros³awskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ludwika Solskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ludwika Waryñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ludwika Zamenhofa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;£¹kowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;£ukasza Ciepliñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Malinowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Marii Curie-Sk³odowskiej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Marii D¹browskiej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Marii Konopnickiej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Marii Zaborowskiej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Marty Aluchny-Emelianow;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Maurycego Mochnackiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Micha³a Mostnika;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Mieczys³awa Fogga;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Mieczys³awa Jastruna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Mieczys³awa Niedzia³kowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Mieczys³awa Or³owicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Miedziana;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Mieszka I;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Miko³aja Kopernika;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Miko³aja Reja;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Miko³ajska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;mjr. Henryka Sucharskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;MKS Cieœliki;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;M³yñska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Modrzewiowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Morska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Murarska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Myœliwska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Na Skarpie;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Na Wzgórzu;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Nad Œluzami;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Nowobramska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Nowowiejska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Obroñców Wybrze¿a;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ogrodowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Olchowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Olimpijska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Orl¹t Lwowskich;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Owocowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Parkowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Partyzantów;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Paw³a W³odkowica;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Piastów;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Piekie³ko;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Piotra Skargi;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Piotra Wysockiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;pl. D¹browskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;pl. Stary Rynek;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;pl. W³adys³awa Broniewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;pl. Zwyciêstwa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;P³owiecka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Podchor¹¿ych;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Podgórna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Pogodna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Policjantów;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Polna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Pomorska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Poprzeczna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Portowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Powstañców Warszawskich;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Powstañców Wielkopolskich;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Poziomkowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Poznañska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;prof. Adama Grucy;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;prof. Eugeniusza Romera;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;prof. Lotha;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Prof. Ludwika Rydygiera;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;prof. Stanis³awa Herbsta;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Prof. Tadeusza Browicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;prof. Tadeusza Kotarbiñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;prof. Wiktora Degi;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Prof. Wiktora Or³owskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;prof. Zbigniewa Religi;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;profesora Kazimierza Micha³owskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Prosta;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Przechodnia;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Przemys³awa II;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Przemys³owa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Psie Pole;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Rabina dr. Maxa Josepha;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Rac³awicka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Rafa³a Krajewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Raszyñska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Romana Awstrica;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Romana Dmowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Romualda Traugutta;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ró¿ana;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Rybacka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Rynek Rybacki;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ryszarda Riedla;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Rzemieœlnicza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Sadowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;S¹dowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Sierpinka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;S³oneczna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;S³owiañska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Sosnowa;1-DK;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Spacerowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Spokojna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Sportowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Konarskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Leszczyñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Ma³achowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Moniuszki;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Repelowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Sojki;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Staszica;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Szarmacha;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Szpilewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa Wyspiañskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awa ¯ó³kiewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stanis³awy Walasiewiczówny;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stefana Banacha;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stefana Batorego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stefana Czarnieckiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stefana Jaracza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stefana Starzyñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Stefana ¯eromskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Strumykowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Szarych Szeregów;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Szczeciñska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Szkolna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;œw. Klary z Asy¿u;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Œwierkowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Œwiêtego Ojca Pio;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Œwiêtego Piotra;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Œwiêtope³ka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Tadeusza Boya-¯eleñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Tadeusza Czapliñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Tadeusza Koœciuszki;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Tadeusza Mazowieckiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Tadeusza Nalepy;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Tadeusza Rejtana;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Tadeusza Sygietyñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Teatralna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Topolowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Towarowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Tramwajowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Turystyczna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wandy;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wandy Chotomskiej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wazów;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wczasowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wêdkarska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wiatraczna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wiejska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wielicka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wierzbowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wileñska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wincentego Kad³ubka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wincentego Witosa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wiœniowa;1-DK, 54-90(p);S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wita Stwosza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Witolda Lutos³awskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Witolda Ma³cu¿yñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;W³adys³awa Bartoszewskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;W³adys³awa Grabskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;W³adys³awa IV;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;W³adys³awa Jagie³³y;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;W³adys³awa Kijowskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;W³adys³awa Kwapisza;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;W³adys³awa £okietka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;W³adys³awa Orkana;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;W³adys³awa Reymonta;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wojska Polskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wolnoœci;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wroc³awska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Wysoka;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Zamiejska;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Zamkowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Zielona;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Ziemowita;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Z³ota;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Zofii Na³kowskiej;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Zygmunta Augusta;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;Zygmunta Krasiñskiego;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;¯elazna;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;¯urawinowa;;S³upsk;S³upsk;pomorskie;76-200;
+-;S³upsk;¯wirki i Wigury;;S³upsk;S³upsk;pomorskie;76-200;
++;S³upsk;;;S³upsk;S³upsk;pomorskie;;76-200
+-;S³upsk (Boles³awice);Akacjowa;1, 10-12(p), 18-23, 25-28;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Brzozowa;1-2, 4;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Bukowa;1, 5-6, 9-10;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Jaœminowa;1-DK;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Jod³owa;1, 3-6;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Kolorowa;;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Leœna;4-24(p), 15-21(n);S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Morelowa;;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Sezamkowa;;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);S³upska;;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Sosnowa;1;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Têczowa;;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Wi¹zowa;;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Wiœniowa;1-DK;S³upsk;S³upsk;pomorskie;76-251;
+-;S³upsk (Boles³awice);Wspólna;;S³upsk;S³upsk;pomorskie;76-251;
+-;Sosnowiec;Aleja Józefa Mireckiego;13-14, 18-46(p), 31-53(n);Sosnowiec;Sosnowiec;œl¹skie;41-205;
++;Sosnowiec;Aleja Józefa Mireckiego;18-46(p), 31-53(n);Sosnowiec;Sosnowiec;œl¹skie;;41-205
+-;Sosnowiec;Aleja Józefa Mireckiego;4-12, 14-15, 23-29(n);Sosnowiec;Sosnowiec;œl¹skie;41-209;
++;Sosnowiec;Aleja Józefa Mireckiego;4-5, 8-12(p), 9-29(n);Sosnowiec;Sosnowiec;œl¹skie;;41-209
+-;Sosnowiec;Gottlieba Daimlera;1;Sosnowiec;Sosnowiec;œl¹skie;41-200;
+-;Sosnowiec;Gottlieba Daimlera;1;Sosnowiec;Sosnowiec;œl¹skie;41-209;
++;Sosnowiec;Gottlieba Daimlera;;Sosnowiec;Sosnowiec;œl¹skie;;41-200
+-;Sosnowiec;Jana Kiliñskiego;1-DK, 5-11(n), 6-14(p);Sosnowiec;Sosnowiec;œl¹skie;41-209;
+-;Sosnowiec;Jana Kiliñskiego;20;Sosnowiec;Sosnowiec;œl¹skie;41-200;
++;Sosnowiec;Jana Kiliñskiego;;Sosnowiec;Sosnowiec;œl¹skie;;41-209
+-;Sosnowiec;Jana Sobieskiego;1-3(n), 4-54(p), 21-49(n), 58a-64a(p);Sosnowiec;Sosnowiec;œl¹skie;41-209;
++;Sosnowiec;Jana Sobieskiego;1-3(n), 4-64(p), 21-49(n);Sosnowiec;Sosnowiec;œl¹skie;;41-209
++;Sosnowiec;Jana Sobieskiego;7;Sosnowiec;Sosnowiec;œl¹skie;;41-200
+-;Sosnowiec;Jana Sobieskiego;7, 64a;Sosnowiec;Sosnowiec;œl¹skie;41-200;
+-;Sosnowiec;Nowopogoñska;1;Sosnowiec;Sosnowiec;œl¹skie;41-200;
+-;Sosnowiec;Nowopogoñska;1-57(n), 24-32(p);Sosnowiec;Sosnowiec;œl¹skie;41-205;
++;Sosnowiec;Nowopogoñska;;Sosnowiec;Sosnowiec;œl¹skie;;41-205
+-;Sosnowiec;Stefana ¯eromskiego;1;Sosnowiec;Sosnowiec;œl¹skie;41-200;
+-;Sosnowiec;Stefana ¯eromskiego;1-DK;Sosnowiec;Sosnowiec;œl¹skie;41-205;
++;Sosnowiec;Stefana ¯eromskiego;;Sosnowiec;Sosnowiec;œl¹skie;;41-205
++;Sosnowiec;Stoczniowców;;Sosnowiec;Sosnowiec;œl¹skie;;41-208
++;Szczecin;Akademicka;;Szczecin;Szczecin;zachodniopomorskie;;71-004
++;Szczecin;Bogatki;;Szczecin;Szczecin;zachodniopomorskie;;71-220
++;Szczecin;Goleniowska;51-76;Szczecin;Szczecin;zachodniopomorskie;;70-847
+-;Szczecin;Goleniowska;51-76, 61-67(n);Szczecin;Szczecin;zachodniopomorskie;70-847;
+-;Szczecin;Henryka Wieniawskiego;11-25;Szczecin;Szczecin;zachodniopomorskie;71-130;
++;Szczecin;Henryka Wieniawskiego;11-25, 19-21(n);Szczecin;Szczecin;zachodniopomorskie;;71-130
+-;Szczecin;Horeszków;;Szczecin;Szczecin;zachodniopomorskie;71-215;
+-;Szczecin;Janka Muzykanta;;Szczecin;Szczecin;zachodniopomorskie;71-212;
++;Szczecin;Kawalerzystów;;Szczecin;Szczecin;zachodniopomorskie;;71-884
++;Szczecin;Komuny Paryskiej;1-2;Szczecin;Szczecin;zachodniopomorskie;;71-674
+-;Szczecin;Komuny Paryskiej;1-2/3;Szczecin;Szczecin;zachodniopomorskie;71-674;
+-;Szczecin;Ksiêdza Robaka;;Szczecin;Szczecin;zachodniopomorskie;71-215;
+-;Szczecin;Marsza³ka Józefa Pi³sudskiego;38-40;Szczecin;Szczecin;zachodniopomorskie;70-421;
++;Szczecin;Marsza³ka Józefa Pi³sudskiego;38-40-42;Szczecin;Szczecin;zachodniopomorskie;;70-421
++;Szczecin;Nad Stawami;;Szczecin;Szczecin;zachodniopomorskie;;70-892
++;Szczecin;Szantowa;;Szczecin;Szczecin;zachodniopomorskie;;70-781
++;Szczecin;Szklarki;;Szczecin;Szczecin;zachodniopomorskie;;71-018
++;Szczecin;Waleriana £ukasiñskiego;1-13(n);Szczecin;Szczecin;zachodniopomorskie;;71-254
+-;Szczecin;Waleriana £ukasiñskiego;1-14;Szczecin;Szczecin;zachodniopomorskie;71-254;
+-;Szczecin;Waleriana £ukasiñskiego;15-29, 31;Szczecin;Szczecin;zachodniopomorskie;71-207;
++;Szczecin;Waleriana £ukasiñskiego;15-31(n), 20a-29;Szczecin;Szczecin;zachodniopomorskie;;71-207
++;Szczecin;Waleriana £ukasiñskiego;30-120(p), 33-57(n);Szczecin;Szczecin;zachodniopomorskie;;71-215
+-;Szczecin;Waleriana £ukasiñskiego;30-120(p), 33-57(n), 36-37a;Szczecin;Szczecin;zachodniopomorskie;71-215;
++;Szczecin;Wa³y Chrobrego;1/2-2, 3-5(n);Szczecin;Szczecin;zachodniopomorskie;;70-500
++;Szczecin;Wa³y Chrobrego;4;Szczecin;Szczecin;zachodniopomorskie;;70-502
+-;Szczecin;Wa³y Chrobrego;;Szczecin;Szczecin;zachodniopomorskie;70-500;
++;Szczecin;Wies³awa Maniaka;;Szczecin;Szczecin;zachodniopomorskie;;71-253
++;Szczecin;Zefirowa;;Szczecin;Szczecin;zachodniopomorskie;;71-872
++;Œwiêtoch³owice;Adama Mickiewicza;1-9(n), 4-16(p);Œwiêtoch³owice;Œwiêtoch³owice;œl¹skie;;41-605
+-;Œwiêtoch³owice;Adama Mickiewicza;1-9(n), 4-16(p), 22-24(p);Œwiêtoch³owice;Œwiêtoch³owice;œl¹skie;41-605;
+#;Tarnawa;;1-DK;Zabór;zielonogórski;lubuskie;66-234;66-003
+#;Tarnawa;;1-DK;Zabór;zielonogórski;lubuskie;66-003;66-234
++;Tarnowskie Góry;Druha Ignacego Sowy;;Tarnowskie Góry;tarnogórski;œl¹skie;;42-609
++;Trzebinia;;;Trzebinia;chrzanowski;ma³opolskie;;32-540
++;Tychy;Cedrowa;;Tychy;Tychy;œl¹skie;;43-100
++;Warszawa (Bemowo);Tarczowa;;Warszawa;Warszawa;mazowieckie;;01-327
+-;Warszawa (Bia³o³êka);Julija Beneszicia;;Warszawa;Warszawa;mazowieckie;03-127;
+-;Warszawa (Bia³o³êka);Karola Krejczego;;Warszawa;Warszawa;mazowieckie;03-127;
++;Warszawa (Bia³o³êka);Konfitury;;Warszawa;Warszawa;mazowieckie;;03-037
++;Warszawa (Mokotów);Adama Borkiewicza;;Warszawa;Warszawa;mazowieckie;;00-712
+-;Warszawa (Mokotów);Aleja Niepodleg³oœci;46/50-80(p), 49-111(n);Warszawa;Warszawa;mazowieckie;02-626;
++;Warszawa (Mokotów);Aleja Niepodleg³oœci;46/50e-80(p), 49-111(n);Warszawa;Warszawa;mazowieckie;;02-626
++;Warszawa (Mokotów);Ewy Grodeckiej;;Warszawa;Warszawa;mazowieckie;;02-672
++;Warszawa (Mokotów);Koszteli;;Warszawa;Warszawa;mazowieckie;;02-720
+-;Warszawa (Praga-Po³udnie);Piotra Skuratowicza;;Warszawa;Warszawa;mazowieckie;03-982;
++;Warszawa (Praga-Pó³noc);Siedlecka;1-13(n);Warszawa;Warszawa;mazowieckie;;03-756
+-;Warszawa (Praga-Pó³noc);Siedlecka;1/15-13(n);Warszawa;Warszawa;mazowieckie;03-756;
+-;Warszawa (Œródmieœcie);Dzielna;7-7a;Warszawa;Warszawa;mazowieckie;00-154;
++;Warszawa (Œródmieœcie);Dzielna;7-7b;Warszawa;Warszawa;mazowieckie;;00-154
++;Warszawa (Œródmieœcie);Edwarda Fondamiñskiego;;Warszawa;Warszawa;mazowieckie;;00-215
+-;Warszawa (Œródmieœcie);Leona Rodala;;Warszawa;Warszawa;mazowieckie;00-215;
+-;Warszawa (Œródmieœcie);rondo Rondo Organizacji Narodów Zjednoczonych;;Warszawa;Warszawa;mazowieckie;00-124;
++;Warszawa (Targówek);Pelcowizna;;Warszawa;Warszawa;mazowieckie;;03-202
+-;Warszawa (Targówek);Piotra Kartina;;Warszawa;Warszawa;mazowieckie;03-597;
+-;Warszawa (Targówek);Sêpoliñska;;Warszawa;Warszawa;mazowieckie;03-779;
+-;Warszawa (Targówek);Zgrzebna;;Warszawa;Warszawa;mazowieckie;03-869;
++;Warszawa (Ursynów);Kazimierza Laskowskiego;;Warszawa;Warszawa;mazowieckie;;02-826
++;Warszawa (Wawer);Duñska;;Warszawa;Warszawa;mazowieckie;;03-984
+-;Warszawa (Wawer);Dzia³ki Zerzeñ;;Warszawa;Warszawa;mazowieckie;04-871;
++;Warszawa (Wawer);Kopenhaska;;Warszawa;Warszawa;mazowieckie;;03-984
++;Warszawa (Weso³a);Spacerowa;3-10;Warszawa;Warszawa;mazowieckie;;05-075
+-;Warszawa (Weso³a);Spacerowa;3-8;Warszawa;Warszawa;mazowieckie;05-075;
++;Warszawa (Wilanów);Urokliwa;;Warszawa;Warszawa;mazowieckie;;02-992
++;Warszawa (W³ochy);Odlotowa;;Warszawa;Warszawa;mazowieckie;;02-231
++;Warszawa (W³ochy);Przylotowa;;Warszawa;Warszawa;mazowieckie;;02-232
+-;Warszawa (Wola);Budziszyñska;;Warszawa;Warszawa;mazowieckie;01-261;
++;Warszawa (Wola);"Danuty Siedzikówny ""Inki""";1-7(n);Warszawa;Warszawa;mazowieckie;;01-115
++;Warszawa (Wola);"Danuty Siedzikówny ""Inki""";2-DK(p), 9-DK(n);Warszawa;Warszawa;mazowieckie;;01-449
++;Warszawa (Wola);Ewy Pohoskiej;;Warszawa;Warszawa;mazowieckie;;01-210
+-;Warszawa (Wola);Ma³ego Franka;1-7(n);Warszawa;Warszawa;mazowieckie;01-115;
+-;Warszawa (Wola);Ma³ego Franka;2-DK(p), 9-DK(n);Warszawa;Warszawa;mazowieckie;01-449;
++;Wodzis³aw Œl¹ski;Bukowa;;Wodzis³aw Œl¹ski;wodzis³awski;œl¹skie;;44-300
++;Wodzis³aw Œl¹ski;Rozwojowa;;Wodzis³aw Œl¹ski;wodzis³awski;œl¹skie;;44-373
++;Wola Mêdrzechowska;;1-6;Mêdrzechów;d¹browski;ma³opolskie;;33-202
++;Wola Mêdrzechowska;;7-DK;Mêdrzechów;d¹browski;ma³opolskie;;33-221
+-;Wola Mêdrzechowska;;;Mêdrzechów;d¹browski;ma³opolskie;33-221;
++;Wroc³aw (Wroc³aw-Fabryczna);Legnicka;45;Wroc³aw;Wroc³aw;dolnoœl¹skie;;54-201
+-;Wroc³aw (Wroc³aw-Fabryczna);Legnicka;45-45b;Wroc³aw;Wroc³aw;dolnoœl¹skie;54-201;
++;Wroc³aw (Wroc³aw-Fabryczna);Zofii Gostomskiej-Zarzyckiej;;Wroc³aw;Wroc³aw;dolnoœl¹skie;;54-703
++;Wroc³aw (Wroc³aw-Krzyki);Planetarna;;Wroc³aw;Wroc³aw;dolnoœl¹skie;;52-225
++;Wroc³aw (Wroc³aw-Krzyki);Powstañców Œl¹skich;2-124(p);Wroc³aw;Wroc³aw;dolnoœl¹skie;;53-333
+-;Wroc³aw (Wroc³aw-Krzyki);Powstañców Œl¹skich;2/4-124(p);Wroc³aw;Wroc³aw;dolnoœl¹skie;53-333;
++;Wroc³aw (Wroc³aw-Psie Pole);Boles³awa Krzywoustego;107-199(n), 110/120-200(p);Wroc³aw;Wroc³aw;dolnoœl¹skie;;51-421
+-;Wroc³aw (Wroc³aw-Psie Pole);Boles³awa Krzywoustego;107-199(n), 110-200(p);Wroc³aw;Wroc³aw;dolnoœl¹skie;51-421;
++;Wroc³aw (Wroc³aw-Stare Miasto);Œw. Jana Kapistrana;;Wroc³aw;Wroc³aw;dolnoœl¹skie;;50-156
+-;Wroc³aw (Wroc³aw-Stare Miasto);œw. Jana Kapistrana;;Wroc³aw;Wroc³aw;dolnoœl¹skie;50-156;
++;Zabrze;dr. Bronis³awa Hagera;1-DK, 2-28(p);Zabrze;Zabrze;œl¹skie;;41-800
+-;Zabrze;dr. Bronis³awa Hagera;1-DK(n), 2-28(p);Zabrze;Zabrze;œl¹skie;41-800;
++;Zabrze;Jana Kasprowicza;1-3(n), 2-6(p), 7-DK;Zabrze;Zabrze;œl¹skie;;41-803
+-;Zabrze;Jana Kasprowicza;1-DK;Zabrze;Zabrze;œl¹skie;41-803;
++;Zabrze;Jana Kasprowicza;5;Zabrze;Zabrze;œl¹skie;;41-800
+-;Zabrze;Jana Kasprowicza;5-15(n), 8-11;Zabrze;Zabrze;œl¹skie;41-800;
++;Zabrze;Jaœminowa;;Zabrze;Zabrze;œl¹skie;;41-811
++;Zabrze;Johanna Goethego;;Zabrze;Zabrze;œl¹skie;;41-800
++;Zabrze;Józefa Gawrona;;Zabrze;Zabrze;œl¹skie;;41-811
+-;Zabrze;Kolejowa;;Zabrze;Zabrze;œl¹skie;41-800;
++;Zabrze;Królowej Jadwigi;;Zabrze;Zabrze;œl¹skie;;41-811
++;Zabrze;Kwarcowa;;Zabrze;Zabrze;œl¹skie;;41-814
++;Zabrze;£¹czna;;Zabrze;Zabrze;œl¹skie;;41-810
++;Zabrze;Makoszowska;1-6;Zabrze;Zabrze;œl¹skie;;41-800
++;Zabrze;Makoszowska;7-DK;Zabrze;Zabrze;œl¹skie;;41-811
++;Zabrze;Ma³a;;Zabrze;Zabrze;œl¹skie;;41-810
++;Zabrze;Olsztyñska;;Zabrze;Zabrze;œl¹skie;;41-810
++;Zabrze;Onyksowa;;Zabrze;Zabrze;œl¹skie;;41-814
++;Zabrze;Oriona;;Zabrze;Zabrze;œl¹skie;;41-818
+#;Zabrze;Piekarnicza;1-DK;Zabrze;Zabrze;œl¹skie;41-806;41-807
+#;Zabrze;Piekarnicza;1-DK;Zabrze;Zabrze;œl¹skie;41-807;41-806
++;Zabrze;Plutonowego Ryszarda Szkubacza;;Zabrze;Zabrze;œl¹skie;;41-800
++;Zabrze;Przystankowa;;Zabrze;Zabrze;œl¹skie;;41-800
++;Zabrze;Saturna;;Zabrze;Zabrze;œl¹skie;;41-800
++;Zabrze;Szmaragdowa;;Zabrze;Zabrze;œl¹skie;;41-810
++;Zabrze;Tenisowa;;Zabrze;Zabrze;œl¹skie;;41-814
+-;Zamoœæ;11 Listopada;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;4 Pu³ku Piechoty Liniowej - Czwartaków;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Adama Mickiewicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Akacjowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Akademicka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Aleje 1-go Maja;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Aleje Jana Paw³a II;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Aleksandra Fredry;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Aleksandra Gierymskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Altanowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Armii Krajowej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Artura Grottgera;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Asnyka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;B. Prusa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Batalionów Ch³opskich;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Bazyliañska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Bernarda Moranda;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;B³onie;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Bohaterów Monte Cassino;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Boles³awa Chrobrego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Boles³awa Krzywoustego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Boles³awa Leœmiana;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Botaniczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Braterstwa Broni;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Brzozowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Budowlana;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Bukowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Chabrowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ch³odna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Chmielna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Cicha;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ciep³a;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Cisowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Cypriana Kamila Norwida;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Czeremchowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Czes³awa Janczarskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Czes³awa Mi³osza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Dêbowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Dobra;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Dolna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Droga Mêczenników Rotundy;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Dzieci Zamojszczyzny;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Dzielna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Edwarda Dembowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Elizy Orzeszkowej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Emilii Plater;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Fabryczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Feliksa Nowowiejskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Feliksa Wolskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Floriana Szarego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Floriañska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Franciszka Fornalskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Franciszkañska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Fryderyka Szopena;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gabriela Narutowicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gabrieli Zapolskiej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. Gustawa Orlicz Dreszera;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. Józefa Bema;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. Józefa Dwernickiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. Józefa Wybickiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. Kazimierza Pu³askiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. Maurycego Haukego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. Miko³aja Bo³tucia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. Sowiñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;gen. Walerego Wróblewskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. W³adys³awa Andersa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gen. W³adys³awa Sikorskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Genera³a Franciszka Kleeberga;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Genera³a Stanis³awa Maczka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gêsia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gliniana;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;G³ogowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gminna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Górna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Grabowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Graniczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gra¿yny Kierszniewskiej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Grecka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Grodzka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Grunwaldzka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Gustawa Dani³owskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Harcerska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Henryka Jordana;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Henryka Sienkiewicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Henryka Wieniawskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Hetmana Czarnieckiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Hetmana Jana Zamoyskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Hrubieszowska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ignacego Daszyñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ignacego Moœcickiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ignacego Paderewskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ignacego Witkiewicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Infu³acka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Irysowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jacka Kaczmarskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jacka Malczewskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana Brzechwy;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana D³ugosza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana Heweliusza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana Kasprowicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana Kiepury;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana Kiliñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana Kochanowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana Marcina Szancera;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana Matejki;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jana Zachwatowicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Janiny Poraziñskiej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Janowicka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Janusza Korczaka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jaros³awa D¹browskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jasna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jaœminowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jaworowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jesienna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jesionowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Joachima Lelewela;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Joanny ¯ubrowej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jod³owa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Józefa Che³moñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Józefa Ignacego Kraszewskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Juliana Ordona;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Juliana Tuwima;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Juliusza S³owackiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Junacka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Jutrzenki;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kalinowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kamienna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Karola i Zdzis³awa K³ossowskich;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Karola Kurpiñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Karola Namys³owskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Karola Szymanowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kasztanowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kazimierza Przerwy Tetmajera;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kazimierza Sochaniewicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kazimierza Wielkiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Klonowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kmicica;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kolegiacka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ko³³¹taja;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Konopna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Konstantego Ildefonsa Ga³czyñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Konwaliowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kornela Makuszyñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kosynierów;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Koszary;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;KoŸmiana;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Krasnobrodzka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kresowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Krêta;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Królowej Jadwigi;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Krótka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Krucza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Krzysztofa Kamila Baczyñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Krzywa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ks. Jerzego Popie³uszki;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ksiêcia Józefa Poniatowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ksiêdza Franciszka Zawiszy;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kwiatowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Kwiatów Polnych;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Lawendowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Lazurowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Legionów;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Leona Jasielskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Leona Wyczó³kowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Leopolda Staffa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Leszczowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Leœna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Letnia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Lipowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Lipska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Listopadowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Lubelska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Lucjana Rydla;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ludowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ludwika Waryñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ludwika Zamenhofa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Lwowska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;£adna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;£anowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;£¹kowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;£êczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;£ubinowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Macieja Topornickiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Majdan;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Makowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Malinowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Malownicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ma³a;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Marii D¹browskiej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Marii Konopnickiej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Marii Sk³odowskiej-Curie;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Marka Grechuty;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Marsza³ka J. Pi³sudskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Micha³a Bojarczuka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Micha³a Drzyma³y;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Micha³a Kleofasa Ogiñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Micha³a Pieszki;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Micha³a Wazowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Mieszka I;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Miko³aja Kopernika;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Miko³aja Reja;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Mi³a;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Miodowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;M³odzie¿owa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;M³yñska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Modrzewiowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Mokra;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Montwi³³a;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Myœliwska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Nadrzeczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Narcyzowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Nasienna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Niepodleg³oœci;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Nikifora Krynickiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Niska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Nowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Nowy Rynek;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Nowy Œwiat;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;OboŸna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Obronna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Obroñców Pokoju;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Odrodzenia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ogrodnicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ogrodowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Okopowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Olchowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Olgi Boznañskiej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Orla;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Orl¹t Lwowskich;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ormiañska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Orna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Orzechowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Osiedlowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Parkowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Partyzantów;1-15(n), 2-DK(p), 19-DK(n);Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Partyzantów;15;Zamoœæ;Zamoœæ;lubelskie;22-411;
+-;Zamoœæ;Pawia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Paw³ówka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Peowiaków;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Pereca;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Piaskowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Piastowska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Piotra Œciegiennego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;pl. Melchiora Stefanidesa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Plac Wolnoœci;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;P³k. Jana Krysiñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;P³k. Lisa-Kuli;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Pochy³a;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Pocztowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Podchor¹¿ych;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Podgroble;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Podleœna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Podwale;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Pogodna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Polarna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Polna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Poprzeczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Powiatowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Powstañców;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Poziomkowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Pó³nocna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Promienna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Prosta;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Prymasa Stefana Wyszyñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Przechodnia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Przemys³owa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;PrzyjaŸni;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Pszeniczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Radosna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Radziecka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ratuszowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Redutowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Robotnicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Rodziny Kowerskich;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Rolnicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Romualda Traugutta;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Równa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ró¿ana;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ruchu Oporu;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Rynek Solny;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Rynek Wielki;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Sadowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Sadowisko;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Sasanki;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Sebastiana Klonowicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Skoœna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;S³oneczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;S³onecznikowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;S³owicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Sokola;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Solna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Sosnowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Sowia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Spadek;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Spokojna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Spo³eczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Spó³dzielcza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stanis³awa Herbsta;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stanis³awa M³odo¿eñca;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stanis³awa Moniuszki;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stanis³awa Staszica;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stanis³awa Wyspiañskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Starowiejska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stefana Batorego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stefana Milera;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stefana Okrzei;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stefana ¯eromskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Stefanii Sempo³owskiej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Strefowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Studzienna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Styczniowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Swobodna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Sybiraków;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Szarych Szeregów;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Szczebrzeska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Szklarniowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Szkolna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Szwedzka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Szymona Konarskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Szymona Piechowicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Szymona Szymonowica;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Œl¹ska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Œw. Pi¹tka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Œwierkowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Œwiêtego Brata Alberta;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Tadeusza Koœciuszki;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Tadeusza Makowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Tadeusza Onyszkiewicza;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Tadeusza Sygietyñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Tadeusza Zaremby;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Tarninowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Tartaczna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Tatarska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Têczowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Topolowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Ustronie;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Waleriana £ukasiñskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wa³owa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;W¹ska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Weso³a;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Weteranów;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wêgierska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wiejska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wierzbowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wincentego Pola;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wincentego Witosa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wiosenna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wiœniowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Witolda Lutos³awskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;W³adys³awa Broniewskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;W³adys³awa Grabskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;W³adys³awa Jagie³³y;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;W³adys³awa £okietka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;W³adys³awa Orkana;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;W³adys³awa Stanis³awa Reymonta;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;W³oœciañska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wojciecha G³owackiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wojciecha Kossaka;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wojska Polskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wrzosowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Wspólna;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zacisze;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zag³oby;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zagrodowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zajazd;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zakamarek;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zamkniêta;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zamkowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zarwanica;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zbigniewa Herberta;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zdrojowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zdzis³awa Maækowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zgoda;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zielona;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zimowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zofii Na³kowskiej;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zuchów;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zwi¹zkowa;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zygmunta Klukowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zygmunta Noskowskiego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;Zygmunta Starego;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;ródlana;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;¯abia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;¯aków;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;¯danowska;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;¯urawia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
+-;Zamoœæ;¯ytnia;;Zamoœæ;Zamoœæ;lubelskie;22-400;
++;Zamoœæ;;;Zamoœæ;Zamoœæ;lubelskie;;22-400
++;Zawiercie;Andrzeja Frycza-Modrzewskiego;;Zawiercie;zawierciañski;œl¹skie;;42-431
++;Zawiercie;Podk¹dzielowa;;Zawiercie;zawierciañski;œl¹skie;;42-400
++;Zielona Góra;Janusza Groszkowskiego;;Zielona Góra;Zielona Góra;lubuskie;;65-012
++;Zielona Góra;Kie³pin-Lwa;;Zielona Góra;Zielona Góra;lubuskie;;66-006
++;Zielona Góra;£ê¿yca-Piaskowa;;Zielona Góra;Zielona Góra;lubuskie;;66-016
++;Zielona Góra;£ê¿yca-Sosnowa;;Zielona Góra;Zielona Góra;lubuskie;;66-016
++;Zielona Góra;£ê¿yca-Urbanistów;;Zielona Góra;Zielona Góra;lubuskie;;66-016
+-;Zielona Góra;Przyleœna;1-3;Zielona Góra;Zielona Góra;lubuskie;65-544;
+-;Zielona Góra;Przyleœna;1-DK;Zielona Góra;Zielona Góra;lubuskie;66-004;
++;Zielona Góra;Przyleœna;;Zielona Góra;Zielona Góra;lubuskie;;65-544
++;Zielona Góra;Racula-Podleœna;;Zielona Góra;Zielona Góra;lubuskie;;66-004
++;¯ory;Adama Józefa Rostka;;¯ory;¯ory;œl¹skie;;44-240
++;¯ory;Cynamonowa;;¯ory;¯ory;œl¹skie;;44-240
++;¯ory;ks. Stanis³awa Garbocza;;¯ory;¯ory;œl¹skie;;44-244
++;¯ory;Magazynowa;;¯ory;¯ory;œl¹skie;;44-240
++;¯ory;So³ecka;;¯ory;¯ory;œl¹skie;;44-245
++;¯ory;Sowia;;¯ory;¯ory;œl¹skie;;44-245
++;¯ory;Sztygarska;;¯ory;¯ory;œl¹skie;;44-245
++;¯ory;Wieczorna;;¯ory;¯ory;œl¹skie;;44-240

@@ -1,0 +1,5 @@
+STATUS;NAZWA JEDNOSTKI ORGANIZACYJNEJ;MIEJSCOWOŒÆ;ULICA;NR;GMINA;POWIAT;WOJEWÓDZTWO;POPRZEDNIO;TERAZ
+-;Region Sieci Bydgoszcz;Bydgoszcz;Jagielloñska;6;Bydgoszcz;Bydgoszcz;kujawsko-pomorskie;85-001;
+-;Wydzia³ Ekspedycyjno-Rozdzielczy w Szczecinie;Szczecin;Dworcowa;20 b;Szczecin;Szczecin;zachodniopomorskie;70-900;
++;Wydzia³ Ekspedycyjno-Rozdzielczy w Szczecinie;Szczecin;Franciszka Ksawerego Druckiego-Lubeckiego;1C;Szczecin;Szczecin;zachodniopomorskie;;70-900
++;Region Sieci Bydgoszcz;Bydgoszcz;Bernardyñska;15;Bydgoszcz;Bydgoszcz;kujawsko-pomorskie;;85-940

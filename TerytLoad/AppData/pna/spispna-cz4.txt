@@ -18,15 +18,15 @@ PNA;NAZWA JEDNOSTKI ORGANIZACYJNEJ;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 50-940;Region Infrastruktury we Wroc≥awiu;Wroc≥aw;PowstaÒcÛw ålπskich;134;Wroc≥aw;Wroc≥aw;dolnoúlπskie
 80-206;Region Operacyjny w GdaÒsku;GdaÒsk;Aleja Grunwaldzka;108;GdaÒsk;GdaÒsk;pomorskie
 80-206;Region Handlowy w GdaÒsku;GdaÒsk;Aleja Grunwaldzka;108;GdaÒsk;GdaÒsk;pomorskie
-30-945;Region Operacyjny w Krakowie;KrakÛw;Prokocimska;6;KrakÛw;KrakÛw;ma≥opolskie
 30-945;Region Handlowy w Krakowie;KrakÛw;Prokocimska;6;KrakÛw;KrakÛw;ma≥opolskie
+30-945;Region Operacyjny w Krakowie;KrakÛw;Prokocimska;6;KrakÛw;KrakÛw;ma≥opolskie
 60-943;Region Handlowy w Poznaniu;PoznaÒ;G≥ogowska;17;PoznaÒ;PoznaÒ;wielkopolskie
 60-943;Region Operacyjny w Poznaniu;PoznaÒ;G≥ogowska;17;PoznaÒ;PoznaÒ;wielkopolskie
-00-941;Region Handlowy w Warszawie;Warszawa;åwiÍtokrzyska;31/33;Warszawa;Warszawa;mazowieckie
 00-941;Region Operacyjny w Warszawie;Warszawa;åwiÍtokrzyska;31/33;Warszawa;Warszawa;mazowieckie
+00-941;Region Handlowy w Warszawie;Warszawa;åwiÍtokrzyska;31/33;Warszawa;Warszawa;mazowieckie
 85-900;POL Region Dystrybucji Bydgoszcz;Lisi Ogon;Pocztowa;12;Bia≥e B≥ota;bydgoski;kujawsko-pomorskie
-15-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Bia≥ymstoku;Bia≥ystok;Welurowa;6;Bia≥ystok;Bia≥ystok;podlaskie
 15-900;Wydzia≥ Terenowy Transportu w Bia≥ymstoku;Bia≥ystok;Kolejowa;26;Bia≥ystok;Bia≥ystok;podlaskie
+15-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Bia≥ymstoku;Bia≥ystok;Welurowa;6;Bia≥ystok;Bia≥ystok;podlaskie
 19-300;Dzia≥ Ekspedycyjno-Rozdzielczy w E≥ku;E≥k;Fryderyka Chopina;1;E≥k;e≥cki;warmiÒsko-mazurskie
 85-700;Wydzia≥ Terenowy Transportu Bydgoszcz;Bydgoszcz;Gajowa;99;Bydgoszcz;Bydgoszcz;kujawsko-pomorskie
 19-300;Wydzia≥ Terenowy Transportu w E≥ku;E≥k;Suwalska;4 B;E≥k;e≥cki;warmiÒsko-mazurskie
@@ -34,8 +34,8 @@ PNA;NAZWA JEDNOSTKI ORGANIZACYJNEJ;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 88-100;Wydzia≥ Terenowy Transportu Inowroc≥aw;Inowroc≥aw;Dojazdowa;1;Inowroc≥aw;inowroc≥awski;kujawsko-pomorskie
 85-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Lisim Ogonie;Lisi Ogon;Pocztowa;12;Bia≥e B≥ota;bydgoski;kujawsko-pomorskie
 87-800;Dzia≥ Ekspedycyjno-Rozdzielczy we W≥oc≥awku;W≥oc≥awek;Stefana Okrzei;63;W≥oc≥awek;W≥oc≥awek;kujawsko-pomorskie
-10-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Olsztynie;Olsztyn;PartyzantÛw;39;Olsztyn;Olsztyn;warmiÒsko-mazurskie
 10-417;Wydzia≥ Terenowy Transportu Olsztyn;Olsztyn;Towarowa;4;Olsztyn;Olsztyn;warmiÒsko-mazurskie
+10-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Olsztynie;Olsztyn;PartyzantÛw;39;Olsztyn;Olsztyn;warmiÒsko-mazurskie
 64-900;Wydzia≥ Terenowy Transportu Pi≥a;Pi≥a;aleja PowstaÒcÛw Wielkopolskich;176;Pi≥a;pilski;wielkopolskie
 87-100;Wydzia≥ Terenowy Transportu ToruÒ;ToruÒ;Polna;17;ToruÒ;ToruÒ;kujawsko-pomorskie
 87-800;Wydzia≥ Terenowy Transportu W≥oc≥awek;W≥oc≥awek;Polna;7/9;W≥oc≥awek;W≥oc≥awek;kujawsko-pomorskie
@@ -50,14 +50,14 @@ PNA;NAZWA JEDNOSTKI ORGANIZACYJNEJ;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 76-200;Wydzia≥ Terenowy Transportu S≥upsk;S≥upsk;Wita Stwosza;14;S≥upsk;S≥upsk;pomorskie
 73-110;Wydzia≥ Terenowy Transportu Stargard ;Stargard;Stefana Okrzei;16;Stargard;stargardzki;zachodniopomorskie
 70-661;Wydzia≥ Terenowy Transportu Szczecin;Szczecin;GdaÒska;15a;Szczecin;Szczecin;zachodniopomorskie
-70-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Szczecinie;Szczecin;Dworcowa;20 b;Szczecin;Szczecin;zachodniopomorskie
+70-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Szczecinie;Szczecin;Franciszka Ksawerego Druckiego-Lubeckiego;1C;Szczecin;Szczecin;zachodniopomorskie
 41-850;Region Dystrybucji Katowice;Zabrze;Macieja MieløyÒskiego;5;Zabrze;Zabrze;úlπskie
 43-302;Wydzia≥ Terenowy Transportu Bielsko-Bia≥a;Bielsko-Bia≥a;LegionÛw;47;Bielsko-Bia≥a;Bielsko-Bia≥a;úlπskie
 42-200;Wydzia≥ Terenowy Transportu CzÍstochowa;CzÍstochowa;èrÛdlana;6;CzÍstochowa;CzÍstochowa;úlπskie
 40-555;Wydzia≥ Terenowy Transportu Katowice;Katowice;Rolna;7;Katowice;Katowice;úlπskie
 45-125;Wydzia≥ Terenowy Transportu Opole;Opole;Sk≥adowa;2;Opole;Opole;opolskie
-41-850;Wydzia≥ Ekspedycyjno-Rozdzielczy w Zabrzu;Zabrze;Macieja MieløyÒskiego;5;Zabrze;Zabrze;úlπskie
 41-850;Wydzia≥ Terenowy Transportu Zabrze;Zabrze;Macieja MieløyÒskiego;5;Zabrze;Zabrze;úlπskie
+41-850;Wydzia≥ Ekspedycyjno-Rozdzielczy w Zabrzu;Zabrze;Macieja MieløyÒskiego;5;Zabrze;Zabrze;úlπskie
 43-302;Dzia≥ Ekspedycyjno-Rozdzielczy Bielsko-Bia≥a;Bielsko-Bia≥a;LegionÛw;47;Bielsko-Bia≥a;Bielsko-Bia≥a;úlπskie
 42-202;Dzia≥ Ekspedycyjno-Rozdzielczy CzÍstochowa;CzÍstochowa;Stanis≥awa Orzechowskiego;7;CzÍstochowa;CzÍstochowa;úlπskie
 40-950;Dzia≥ Ekspedycyjno-Rozdzielczy Katowice;Katowice;Plac Oddzia≥Ûw M≥odzieøy PowstaÒczej;6;Katowice;Katowice;úlπskie
@@ -73,11 +73,11 @@ PNA;NAZWA JEDNOSTKI ORGANIZACYJNEJ;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 33-100;Wydzia≥ Terenowy Transportu TarnÛw;TarnÛw;Mieczys≥awa Jastruna;3;TarnÛw;TarnÛw;ma≥opolskie
 20-900;POL Region Dystrybucji Lublin;Lublin;Wac≥awa Moritza;2;Lublin;Lublin;lubelskie
 21-500;Wydzia≥ Terenowy Transportu Bia≥a Podlaska;Bia≥a Podlaska;£omaska;43 D;Bia≥a Podlaska;Bia≥a Podlaska;lubelskie
-25-313;Wydzia≥ Terenowy Transportu Kielce;Kielce;al. Solidarnoúci;24;Kielce;Kielce;úwiÍtokrzyskie
 25-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Kielcach;Kielce;al. Solidarnoúci;24;Kielce;Kielce;úwiÍtokrzyskie
+25-313;Wydzia≥ Terenowy Transportu Kielce;Kielce;al. Solidarnoúci;24;Kielce;Kielce;úwiÍtokrzyskie
 26-610;Dzia≥ Ekspedycyjno-Rozdzielczy w Radomiu;Radom;W≥adys≥awa Beliny-Praømowskiego;2;Radom;Radom;mazowieckie
-20-900;Wydzia≥ Terenowy Transportu Lublin;Lublin;Wac≥awa Moritza;2;Lublin;Lublin;lubelskie
 20-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Lublinie;Lublin;Wac≥awa Moritza;2;Lublin;Lublin;lubelskie
+20-900;Wydzia≥ Terenowy Transportu Lublin;Lublin;Wac≥awa Moritza;2;Lublin;Lublin;lubelskie
 21-300;Dzia≥ Ekspedycyjno-Rozdzielczy w Radzyniu Podlaskim;RadzyÒ Podlaski;Jaros≥awa Dπbrowskiego;18;RadzyÒ Podlaski;radzyÒski;lubelskie
 22-400;Dzia≥ Ekspedycyjno-Rozdzielczy w Zamoúciu;ZamoúÊ;Karola Namys≥owskiego;6;ZamoúÊ;ZamoúÊ;lubelskie
 26-600;Wydzia≥ Terenowy Transportu Radom;Radom;W≥adys≥awa Beliny-Praømowskiego;2;Radom;Radom;mazowieckie
@@ -98,8 +98,8 @@ PNA;NAZWA JEDNOSTKI ORGANIZACYJNEJ;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 65-900;Wydzia≥ Terenowy Transportu Zielona GÛra;Zielona GÛra;Elektronowa;1;Zielona GÛra;Zielona GÛra;lubuskie
 00-900;Region Dystrybucji Warszawa;Warszawa;£πczyny;8;Warszawa;Warszawa;mazowieckie
 06-400;Wydzia≥ Terenowy Transportu CiechanÛw;CiechanÛw;Gostkowska;39a;CiechanÛw;ciechanowski;mazowieckie
-05-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Ciemne;Ciemne;Logistyczna;10;Radzymin;wo≥omiÒski;mazowieckie
 05-900;Wydzia≥ Transportu Terenowego Ciemne;Ciemne;Logistyczna;10;Radzymin;wo≥omiÒski;mazowieckie
+05-900;Wydzia≥ Ekspedycyjno-Rozdzielczy w Ciemne;Ciemne;Logistyczna;10;Radzymin;wo≥omiÒski;mazowieckie
 07-410;Wydzia≥ Terenowy Transportu Ostro≥Íka;Ostro≥Íka;Targowa;24;Ostro≥Íka;Ostro≥Íka;mazowieckie
 09-401;Wydzia≥ Terenowy Transportu P≥ock;P≥ock;Przemys≥owa;19;P≥ock;P≥ock;mazowieckie
 08-110;Wydzia≥ Terenowy Transportu Siedlce;Siedlce;Brzeska;124;Siedlce;Siedlce;mazowieckie
@@ -119,7 +119,7 @@ PNA;NAZWA JEDNOSTKI ORGANIZACYJNEJ;MIEJSCOWOå∆;ULICA;NR;GMINA;POWIAT;WOJEW”DZTWO
 58-510;Dzia≥ Ekspedycyjno-Rozdzielczy Jelenia GÛra ;Jelenia GÛra;Tadeusza SygietyÒskiego;8;Jelenia GÛra;Jelenia GÛra;dolnoúlπskie
 58-319;Dzia≥ Ekspedycyjno-Rozdzielczy Wa≥brzych;Wa≥brzych;GdyÒska;7;Wa≥brzych;Wa≥brzych;dolnoúlπskie
 15-100;Region Sieci Bia≥ystok;Bia≥ystok;Bitwy Bia≥ostockiej;8 A;Bia≥ystok;Bia≥ystok;podlaskie
-85-001;Region Sieci Bydgoszcz;Bydgoszcz;JagielloÒska;6;Bydgoszcz;Bydgoszcz;kujawsko-pomorskie
+85-940;Region Sieci Bydgoszcz;Bydgoszcz;BernardyÒska;15;Bydgoszcz;Bydgoszcz;kujawsko-pomorskie
 80-940;Region Sieci GdaÒsk;GdaÒsk;Targ Rakowy;7/8;GdaÒsk;GdaÒsk;pomorskie
 66-400;Region Sieci GorzÛw Wielkopolski;GorzÛw Wielkopolski;Kazimierza JagielloÒczyka;4;GorzÛw Wielkopolski;GorzÛw Wielkopolski;lubuskie
 40-940;Region Sieci Katowice;Katowice;Plac Oddzia≥Ûw M≥odzieøy PowstaÒczej;7;Katowice;Katowice;úlπskie

@@ -1,0 +1,25 @@
+﻿@page
+@model TerytLoad.Pages.DbViewer.IndexModel
+@{
+    ViewData["Title"] = "Przeglądarka słowników";
+}
+
+<div class="container mt-4">
+    <h2>📚 Przeglądarka słowników</h2>
+    <p class="text-muted">Wybierz słownik do przeglądania i edycji</p>
+
+    <div class="row mt-4">
+        @foreach (var viewer in Model.Viewers)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@viewer.Icon @viewer.DisplayName</h5>
+                        <p class="card-text">@viewer.Description</p>
+                        <a href="/DbViewer/Browse?entity=@viewer.EntityName" class="btn btn-primary">Otwórz</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
