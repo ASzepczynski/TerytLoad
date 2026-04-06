@@ -17,11 +17,11 @@ namespace TerytLoad.Pages.DbViewer
 
             var type = entity.GetType();
 
-            // ✅ ZMIENIONO: Sprawdź czy istnieje PROPERTY Opis
-            var opisProperty = type.GetProperty("Opis", BindingFlags.Public | BindingFlags.Instance);
-            if (opisProperty != null && opisProperty.PropertyType == typeof(string) && opisProperty.CanRead)
+            // ✅ ZMIENIONO: Sprawdź czy istnieje METODA Opis()
+            var opisMethod = type.GetMethod("Opis", BindingFlags.Public | BindingFlags.Instance, null, Type.EmptyTypes, null);
+            if (opisMethod != null && opisMethod.ReturnType == typeof(string))
             {
-                return opisProperty.GetValue(entity)?.ToString() ?? string.Empty;
+                return opisMethod.Invoke(entity, null)?.ToString() ?? string.Empty;
             }
 
             // Fallback: konkatenacja wszystkich prostych pól (pomijamy Id i FK)
@@ -38,11 +38,11 @@ namespace TerytLoad.Pages.DbViewer
 
             var type = entity.GetType();
 
-            // ✅ ZMIENIONO: Sprawdź czy istnieje PROPERTY Opis
-            var opisProperty = type.GetProperty("Opis", BindingFlags.Public | BindingFlags.Instance);
-            if (opisProperty != null && opisProperty.PropertyType == typeof(string) && opisProperty.CanRead)
+            // ✅ ZMIENIONO: Sprawdź czy istnieje METODA Opis()
+            var opisMethod = type.GetMethod("Opis", BindingFlags.Public | BindingFlags.Instance, null, Type.EmptyTypes, null);
+            if (opisMethod != null && opisMethod.ReturnType == typeof(string))
             {
-                return opisProperty.GetValue(entity)?.ToString() ?? string.Empty;
+                return opisMethod.Invoke(entity, null)?.ToString() ?? string.Empty;
             }
 
             // Użyj ViewerConfig jeśli dostępny

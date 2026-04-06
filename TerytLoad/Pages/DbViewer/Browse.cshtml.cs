@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using System.Text.Json;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq.Expressions;
 
 namespace TerytLoad.Pages.DbViewer
 {
@@ -53,13 +54,13 @@ namespace TerytLoad.Pages.DbViewer
                 ForeignKeyEntity = c.ForeignKeyEntity,
                 ForeignKeyDisplayProperty = c.ForeignKeyDisplayProperty,
                 ForeignKeyNavigationProperty = c.ForeignKeyNavigationProperty,
-                HasOpisMethod = c.HasOpisMethod // ✅ DODANE
+                HasOpisMethod = c.HasOpisMethod
             }).ToList()
         } : null;
 
-        public string ConfigDtoJson => ConfigDto != null 
-            ? JsonSerializer.Serialize(ConfigDto, new JsonSerializerOptions 
-            { 
+        public string ConfigDtoJson => ConfigDto != null
+            ? JsonSerializer.Serialize(ConfigDto, new JsonSerializerOptions
+            {
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
                 WriteIndented = false
             })
@@ -71,18 +72,9 @@ namespace TerytLoad.Pages.DbViewer
             if (Config == null)
                 return NotFound($"Nie znaleziono konfiguracji dla: {Entity}");
 
-            var items = await GetItemsFromDbAsync(Config.EntityType);
+            var items = await GetItemsFromDbAsync(Config.EntityType, FilterColumn, FilterOperator, FilterValue);
             if (items == null)
                 return NotFound($"Nie znaleziono DbSet dla: {Entity}");
-
-            if (!string.IsNullOrEmpty(FilterColumn) && !string.IsNullOrEmpty(FilterValue))
-            {
-                items = ApplyFilter(items, Config, FilterColumn, FilterOperator!, FilterValue);
-            }
-            else
-            {
-                items = items.Take(100).ToList();
-            }
 
             Items = items;
             return Page();
@@ -118,9 +110,6 @@ namespace TerytLoad.Pages.DbViewer
             }
         }
 
-        /// <summary>
-        /// ✅ UPROSZCZONE: Użyj EntityDescriptionHelper
-        /// </summary>
         public async Task<IActionResult> OnGetForeignKeyOptionsAsync([FromQuery] string entity)
         {
             try
@@ -134,15 +123,15 @@ namespace TerytLoad.Pages.DbViewer
                     return NotFound();
 
                 var idProp = config.EntityType.GetProperty("Id");
-                
+
                 var options = items.Select(item =>
                 {
                     var id = idProp?.GetValue(item);
                     var text = EntityDescriptionHelper.GetDescription(item, config);
-                    
+
                     if (string.IsNullOrEmpty(text))
                         text = $"ID: {id}";
-                    
+
                     return new
                     {
                         id = id,
@@ -159,58 +148,10 @@ namespace TerytLoad.Pages.DbViewer
             }
         }
 
-        /// <summary>
-        /// ✅ NOWA METODA: Pobiera opis dla Foreign Key (dla wyświetlenia w tabeli)
-        /// </summary>
-        //public async Task<IActionResult> OnGetForeignKeyDisplayAsync([FromQuery] string entity, [FromQuery] int id)
-        //{
-        //    try
-        //    {
-        //        var config = ViewerRegistry.GetConfig(entity);
-        //        if (config == null)
-        //            return NotFound();
-
-        //        var item = await FindEntityByIdAsync(config.EntityType, id);
-        //        if (item == null)
-        //            return NotFound();
-
-        //        var opisMethod = config.EntityType.GetMethod("Opis", System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Instance);
-                
-        //        string text;
-        //        if (opisMethod != null && opisMethod.ReturnType == typeof(string))
-        //        {
-        //            text = opisMethod.Invoke(item, null)?.ToString() ?? $"ID: {id}";
-        //        }
-        //        else
-        //        {
-        //            var displayProperties = config.Columns
-        //                .Where(c => c.PropertyName != "Id" && !c.IsForeignKey)
-        //                .Select(c => config.EntityType.GetProperty(c.PropertyName))
-        //                .Where(p => p != null)
-        //                .ToList();
-
-        //            var values = displayProperties
-        //                .Select(p => p?.GetValue(item)?.ToString() ?? "")
-        //                .Where(v => !string.IsNullOrEmpty(v));
-                    
-        //            text = string.Join(" | ", values);
-        //            if (string.IsNullOrEmpty(text))
-        //                text = $"ID: {id}";
-        //        }
-
-        //        return new JsonResult(new { text });
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, $"Błąd podczas pobierania FK display");
-        //        return StatusCode(500, new { error = ex.Message });
-        //    }
-        //}
-
         public async Task<IActionResult> OnPostSaveAsync([FromForm] string entity, [FromForm] Dictionary<string, string> formData)
         {
             Config = ViewerRegistry.GetConfig(entity);
-            
+
             var config = ViewerRegistry.GetConfig(entity);
             if (config == null)
                 return BadRequest("Nieprawidłowa konfiguracja");
@@ -250,11 +191,10 @@ namespace TerytLoad.Pages.DbViewer
             }
         }
 
-        private async Task<List<object>?> GetItemsFromDbAsync(Type entityType)
+        private async Task<List<object>?> GetItemsFromDbAsync(Type entityType, string? filterColumn = null, string? filterOperator = null, string? filterValue = null)
         {
             try
             {
-                // ✅ UPROSZCZONE: Użyj generycznej metody
                 var getItemsMethod = typeof(BrowseModel)
                     .GetMethod(nameof(GetItemsFromDbGenericAsync), BindingFlags.NonPublic | BindingFlags.Instance)
                     ?.MakeGenericMethod(entityType);
@@ -265,34 +205,68 @@ namespace TerytLoad.Pages.DbViewer
                     return null;
                 }
 
-                var task = getItemsMethod.Invoke(this, null) as Task<List<object>>;
+                var task = getItemsMethod.Invoke(this, new object?[] { filterColumn, filterOperator, filterValue }) as Task<List<object>>;
                 if (task == null)
+                {
+                    _logger.LogWarning("Task jest null dla typu: {EntityType}", entityType.Name);
                     return null;
+                }
 
                 return await task;
             }
+            catch (TargetInvocationException ex)
+            {
+                // ✅ POPRAWKA: Zaloguj wewnętrzny wyjątek z refleksji
+                _logger.LogError(ex.InnerException ?? ex, $"Błąd podczas pobierania danych dla typu {entityType.Name}");
+                return null;
+            }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Błąd podczas pobierania danych");
+                _logger.LogError(ex, $"Błąd podczas pobierania danych dla typu {entityType.Name}");
                 return null;
             }
         }
 
         /// <summary>
-        /// ✅ UNIWERSALNA METODA: Automatycznie aplikuje Include dla wszystkich navigation properties (z zagnieżdżeniami)
+        /// ✅ ZOPTYMALIZOWANE: Aplikuje filtr i limit w SQL, nie w pamięci
         /// </summary>
-        private IQueryable<T> ApplyIncludes<T>(IQueryable<T> query) where T : class
+        private async Task<List<object>> GetItemsFromDbGenericAsync<T>(string? filterColumn = null, string? filterOperator = null, string? filterValue = null) where T : class
         {
-            var entityType = typeof(T);
-            var includePaths = GetIncludePathsForEntity(entityType, maxDepth: 3);
-            
-            foreach (var path in includePaths)
+            IQueryable<T> query = _context.Set<T>();
+            query = ApplyIncludes(query);
+
+            // ✅ Aplikuj filtr w SQL (PRZED pobraniem danych)
+            if (!string.IsNullOrEmpty(filterColumn) && !string.IsNullOrEmpty(filterValue))
             {
-                query = query.Include(path);
+                var config = ViewerRegistry.GetConfig(typeof(T).Name);
+                if (config != null)
+                {
+                    query = ApplyFilterToQuery(query, config, filterColumn, filterOperator ?? "contains", filterValue);
+                }
             }
-            
-            return query;
+
+            // ✅ Limituj do 100 rekordów w SQL (PRZED pobraniem danych)
+            query = query.Take(100);
+
+            var items = await query.ToListAsync();
+            return items.Cast<object>().ToList();
         }
+
+        /// <summary>
+/// ✅ UNIWERSALNA METODA: Automatycznie aplikuje Include dla wszystkich navigation properties
+/// </summary>
+private IQueryable<T> ApplyIncludes<T>(IQueryable<T> query) where T : class
+{
+    var entityType = typeof(T);
+    var includePaths = GetIncludePathsForEntity(entityType, maxDepth: 4); // ✅ ZMIENIONE: Z 3 na 4
+
+    foreach (var path in includePaths)
+    {
+        query = query.Include(path);
+    }
+
+    return query;
+}
 
         /// <summary>
         /// ✅ REKURENCYJNA METODA: Znajduje wszystkie ścieżki Include dla encji
@@ -300,17 +274,16 @@ namespace TerytLoad.Pages.DbViewer
         private List<string> GetIncludePathsForEntity(Type entityType, int maxDepth, int currentDepth = 0, HashSet<Type>? visitedTypes = null)
         {
             var paths = new List<string>();
-            
+
             if (currentDepth >= maxDepth)
                 return paths;
 
             visitedTypes ??= new HashSet<Type>();
             if (visitedTypes.Contains(entityType))
                 return paths;
-                
+
             visitedTypes.Add(entityType);
 
-            // Znajdź wszystkie navigation properties (reference, nie kolekcje)
             var navigationProperties = entityType.GetProperties(BindingFlags.Public | BindingFlags.Instance)
                 .Where(p => IsNavigationProperty(p))
                 .ToList();
@@ -319,18 +292,15 @@ namespace TerytLoad.Pages.DbViewer
             {
                 var navigationName = navProp.Name;
                 var relatedType = navProp.PropertyType;
-                
-                // Jeśli nullable, weź underlying type
+
                 if (Nullable.GetUnderlyingType(relatedType) != null)
                     relatedType = Nullable.GetUnderlyingType(relatedType)!;
 
-                // Dodaj bezpośrednią navigation property
                 paths.Add(navigationName);
 
-                // Rekurencyjnie znajdź zagnieżdżone navigation properties
                 var visitedCopy = new HashSet<Type>(visitedTypes);
                 var nestedPaths = GetIncludePathsForEntity(relatedType, maxDepth, currentDepth + 1, visitedCopy);
-                
+
                 foreach (var nestedPath in nestedPaths)
                 {
                     paths.Add($"{navigationName}.{nestedPath}");
@@ -341,28 +311,24 @@ namespace TerytLoad.Pages.DbViewer
         }
 
         /// <summary>
-        /// ✅ Sprawdza czy property jest navigation property (FK reference, nie kolekcja)
+        /// ✅ Sprawdza czy property jest navigation property
         /// </summary>
         private bool IsNavigationProperty(PropertyInfo property)
         {
-            // Pomijaj kolekcje (ICollection, IEnumerable, List, etc.)
             if (IsCollection(property.PropertyType))
                 return false;
 
-            // Pomijaj proste typy
             if (IsSimpleType(property.PropertyType))
                 return false;
 
-            // Sprawdź czy ma atrybut [ForeignKey]
             if (property.GetCustomAttribute<ForeignKeyAttribute>() != null)
                 return true;
 
-            // Sprawdź czy jest klasą z namespace zawierającego "Models"
             var propertyType = property.PropertyType;
             if (Nullable.GetUnderlyingType(propertyType) != null)
                 propertyType = Nullable.GetUnderlyingType(propertyType)!;
 
-            if (propertyType.IsClass && 
+            if (propertyType.IsClass &&
                 propertyType != typeof(string) &&
                 propertyType.Namespace?.Contains("Models") == true)
             {
@@ -372,18 +338,12 @@ namespace TerytLoad.Pages.DbViewer
             return false;
         }
 
-        /// <summary>
-        /// Sprawdza czy typ jest kolekcją
-        /// </summary>
         private bool IsCollection(Type type)
         {
-            return type != typeof(string) && 
+            return type != typeof(string) &&
                    typeof(System.Collections.IEnumerable).IsAssignableFrom(type);
         }
 
-        /// <summary>
-        /// Sprawdza czy typ jest prosty (nie jest obiektem złożonym)
-        /// </summary>
         private bool IsSimpleType(Type type)
         {
             return type.IsPrimitive ||
@@ -395,28 +355,80 @@ namespace TerytLoad.Pages.DbViewer
         }
 
         /// <summary>
-        /// ✅ UPROSZCZONE: Użyj ApplyIncludes
-        /// </summary>
-        private async Task<List<object>> GetItemsFromDbGenericAsync<T>() where T : class
+/// ✅ NAPRAWIONE: Użycie EF.Functions.Like() zamiast Contains() z StringComparison
+/// </summary>
+private IQueryable<T> ApplyFilterToQuery<T>(IQueryable<T> query, ViewerConfig config, string columnName, string op, string value) where T : class
+{
+    try
+    {
+        var property = config.EntityType.GetProperty(columnName);
+        if (property == null)
         {
-            IQueryable<T> query = _context.Set<T>();
-            query = ApplyIncludes(query);
-            
-            var items = await query.ToListAsync();
-            return items.Cast<object>().ToList();
+            _logger.LogWarning("Nie znaleziono właściwości {ColumnName} w typie {EntityType}", columnName, typeof(T).Name);
+            return query;
         }
 
-        /// <summary>
-        /// ✅ UPROSZCZONE: Użyj ApplyIncludes
-        /// </summary>
-        private async Task<object?> FindEntityByIdGenericAsync<T>(int id) where T : class
+        var parameter = Expression.Parameter(typeof(T), "x");
+        var propertyAccess = Expression.Property(parameter, property);
+
+        Expression filterExpression;
+
+        if (property.PropertyType == typeof(string))
         {
-            IQueryable<T> query = _context.Set<T>();
-            query = ApplyIncludes(query);
-            
-            var entity = await query.FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
-            return entity;
+            switch (op)
+            {
+                case "contains":
+                    // ✅ POPRAWKA: Użyj EF.Functions.Like() zamiast Contains() z StringComparison
+                    var likePattern = Expression.Constant($"%{value}%");
+                    var efFunctionsProperty = Expression.Property(null, typeof(EF), nameof(EF.Functions));
+                    var likeMethod = typeof(DbFunctionsExtensions).GetMethod(
+                        nameof(DbFunctionsExtensions.Like),
+                        new[] { typeof(DbFunctions), typeof(string), typeof(string) })!;
+                    filterExpression = Expression.Call(likeMethod, efFunctionsProperty, propertyAccess, likePattern);
+                    break;
+
+                case "notcontains":
+                    var notLikePattern = Expression.Constant($"%{value}%");
+                    var efFunctionsProperty2 = Expression.Property(null, typeof(EF), nameof(EF.Functions));
+                    var likeMethod2 = typeof(DbFunctionsExtensions).GetMethod(
+                        nameof(DbFunctionsExtensions.Like),
+                        new[] { typeof(DbFunctions), typeof(string), typeof(string) })!;
+                    var likeCall = Expression.Call(likeMethod2, efFunctionsProperty2, propertyAccess, notLikePattern);
+                    filterExpression = Expression.Not(likeCall);
+                    break;
+
+                case "equals":
+                    // ✅ Dla equals użyj prostego porównania (SQL Server domyślnie jest case-insensitive)
+                    var valueConstant = Expression.Constant(value, typeof(string));
+                    filterExpression = Expression.Equal(propertyAccess, valueConstant);
+                    break;
+
+                case "notequals":
+                    var notValueConstant = Expression.Constant(value, typeof(string));
+                    filterExpression = Expression.NotEqual(propertyAccess, notValueConstant);
+                    break;
+
+                default:
+                    _logger.LogWarning("Nieznany operator: {Operator}", op);
+                    return query;
+            }
         }
+        else
+        {
+            var convertedValue = ConvertValue(value, property.PropertyType);
+            var valueConstant = Expression.Constant(convertedValue, property.PropertyType);
+            filterExpression = Expression.Equal(propertyAccess, valueConstant);
+        }
+
+        var lambda = Expression.Lambda<Func<T, bool>>(filterExpression, parameter);
+        return query.Where(lambda);
+    }
+    catch (Exception ex)
+    {
+        _logger.LogError(ex, "Błąd podczas aplikowania filtra {ColumnName} = {Value}", columnName, value);
+        return query;
+    }
+}
 
         private async Task<object?> FindEntityByIdAsync(Type entityType, int id)
         {
@@ -442,25 +454,13 @@ namespace TerytLoad.Pages.DbViewer
             }
         }
 
-        private List<object> ApplyFilter(List<object> items, ViewerConfig config, string columnName, string op, string value)
+        private async Task<object?> FindEntityByIdGenericAsync<T>(int id) where T : class
         {
-            var property = config.EntityType.GetProperty(columnName);
-            if (property == null)
-                return items;
+            IQueryable<T> query = _context.Set<T>();
+            query = ApplyIncludes(query);
 
-            return items.Where(item =>
-            {
-                var propValue = property.GetValue(item)?.ToString() ?? "";
-
-                return op switch
-                {
-                    "contains" => propValue.Contains(value, StringComparison.OrdinalIgnoreCase),
-                    "notcontains" => !propValue.Contains(value, StringComparison.OrdinalIgnoreCase),
-                    "equals" => propValue.Equals(value, StringComparison.OrdinalIgnoreCase),
-                    "notequals" => !propValue.Equals(value, StringComparison.OrdinalIgnoreCase),
-                    _ => true
-                };
-            }).ToList();
+            var entity = await query.FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
+            return entity;
         }
 
         private object? ConvertValue(string value, Type targetType)
@@ -483,7 +483,6 @@ namespace TerytLoad.Pages.DbViewer
         }
     }
 
-    // ✅ TYLKO DTO (Data Transfer Objects) - nie duplikujemy ViewerConfig i ColumnConfig
     public class ViewerConfigDto
     {
         public string EntityName { get; set; } = string.Empty;
@@ -506,6 +505,6 @@ namespace TerytLoad.Pages.DbViewer
         public string? ForeignKeyEntity { get; set; }
         public string? ForeignKeyDisplayProperty { get; set; }
         public string? ForeignKeyNavigationProperty { get; set; }
-        public bool HasOpisMethod { get; set; } // ✅ DODANE
+        public bool HasOpisMethod { get; set; }
     }
 }
