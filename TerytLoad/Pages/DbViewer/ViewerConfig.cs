@@ -98,12 +98,12 @@ namespace TerytLoad.Pages.DbViewer
         }
 
         /// <summary>
-        /// ✅ NOWA METODA: Sprawdza czy typ ma metodę Opis() zwracającą string
+        /// ✅ ZMIENIONA: Sprawdza czy typ ma PROPERTY Opis zwracające string
         /// </summary>
         private static bool HasOpisMethod(Type type)
         {
-            var method = type.GetMethod("Opis", BindingFlags.Public | BindingFlags.Instance);
-            return method != null && method.ReturnType == typeof(string) && method.GetParameters().Length == 0;
+            var property = type.GetProperty("Opis", BindingFlags.Public | BindingFlags.Instance);
+            return property != null && property.PropertyType == typeof(string) && property.CanRead;
         }
 
         private static string GetFriendlyName(string propertyName)

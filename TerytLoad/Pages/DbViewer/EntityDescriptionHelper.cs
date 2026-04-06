@@ -1,14 +1,14 @@
-using System.Reflection;
+Ôªøusing System.Reflection;
 
 namespace TerytLoad.Pages.DbViewer
 {
     /// <summary>
-    /// Pomocnik do generowania opisÛw encji
+    /// Pomocnik do generowania opis√≥w encji
     /// </summary>
     public static class EntityDescriptionHelper
     {
         /// <summary>
-        /// Zwraca opis encji: wywo≥uje Opis() jeúli istnieje, inaczej konkatenuje pola przez |
+        /// Zwraca opis encji: wywo≈Çuje Opis() je≈õli istnieje, inaczej konkatenuje pola przez |
         /// </summary>
         public static string GetDescription<T>(T entity) where T : class
         {
@@ -17,19 +17,19 @@ namespace TerytLoad.Pages.DbViewer
 
             var type = entity.GetType();
 
-            // Sprawdü czy istnieje metoda Opis()
-            var opisMethod = type.GetMethod("Opis", BindingFlags.Public | BindingFlags.Instance);
-            if (opisMethod != null && opisMethod.ReturnType == typeof(string) && opisMethod.GetParameters().Length == 0)
+            // ‚úÖ ZMIENIONO: Sprawd≈∫ czy istnieje PROPERTY Opis
+            var opisProperty = type.GetProperty("Opis", BindingFlags.Public | BindingFlags.Instance);
+            if (opisProperty != null && opisProperty.PropertyType == typeof(string) && opisProperty.CanRead)
             {
-                return opisMethod.Invoke(entity, null)?.ToString() ?? string.Empty;
+                return opisProperty.GetValue(entity)?.ToString() ?? string.Empty;
             }
 
-            // Fallback: konkatenacja wszystkich prostych pÛl (pomijamy Id i FK)
+            // Fallback: konkatenacja wszystkich prostych p√≥l (pomijamy Id i FK)
             return GetConcatenatedFields(entity);
         }
 
         /// <summary>
-        /// Zwraca opis encji z uøyciem konfiguracji ViewerConfig
+        /// Zwraca opis encji z u≈ºyciem konfiguracji ViewerConfig
         /// </summary>
         public static string GetDescription(object entity, ViewerConfig? config = null)
         {
@@ -38,14 +38,14 @@ namespace TerytLoad.Pages.DbViewer
 
             var type = entity.GetType();
 
-            // Sprawdü czy istnieje metoda Opis()
-            var opisMethod = type.GetMethod("Opis", BindingFlags.Public | BindingFlags.Instance);
-            if (opisMethod != null && opisMethod.ReturnType == typeof(string) && opisMethod.GetParameters().Length == 0)
+            // ‚úÖ ZMIENIONO: Sprawd≈∫ czy istnieje PROPERTY Opis
+            var opisProperty = type.GetProperty("Opis", BindingFlags.Public | BindingFlags.Instance);
+            if (opisProperty != null && opisProperty.PropertyType == typeof(string) && opisProperty.CanRead)
             {
-                return opisMethod.Invoke(entity, null)?.ToString() ?? string.Empty;
+                return opisProperty.GetValue(entity)?.ToString() ?? string.Empty;
             }
 
-            // Uøyj ViewerConfig jeúli dostÍpny
+            // U≈ºyj ViewerConfig je≈õli dostƒôpny
             if (config != null)
             {
                 var values = config.Columns
@@ -56,7 +56,7 @@ namespace TerytLoad.Pages.DbViewer
                 return string.Join(" | ", values);
             }
 
-            // Fallback: konkatenacja wszystkich prostych pÛl
+            // Fallback: konkatenacja wszystkich prostych p√≥l
             return GetConcatenatedFields(entity);
         }
 
@@ -80,7 +80,7 @@ namespace TerytLoad.Pages.DbViewer
         }
 
         /// <summary>
-        /// Sprawdza czy typ jest prosty (nie jest obiektem z≥oøonym)
+        /// Sprawdza czy typ jest prosty (nie jest obiektem z≈Ço≈ºonym)
         /// </summary>
         private static bool IsSimpleType(Type type)
         {

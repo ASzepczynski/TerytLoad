@@ -279,15 +279,10 @@ namespace TerytLoad.Pages.DbViewer
         }
 
         /// <summary>
-        /// ✅ GENERYCZNA METODA: Automatycznie ładuje wszystkie navigation properties używając refleksji
+        /// ✅ WSPÓLNA METODA: Aplikuje Include dla encji (używana wszędzie)
         /// </summary>
-        private async Task<List<object>> GetItemsFromDbGenericAsync<T>() where T : class
+        private IQueryable<T> ApplyIncludes<T>(IQueryable<T> query) where T : class
         {
-            var config = ViewerRegistry.GetConfig(typeof(T).Name);
-            
-            IQueryable<T> query = _context.Set<T>();
-
-            // ✅ SPECJALNE PRZYPADKI dla zagnieżdżonych relacji
             var entityName = typeof(T).Name;
             
             if (entityName == "Gmina")
@@ -321,6 +316,7 @@ namespace TerytLoad.Pages.DbViewer
             else
             {
                 // ✅ Dla pozostałych: Aplikuj Include dla wszystkich FK navigation properties
+                var config = ViewerRegistry.GetConfig(entityName);
                 if (config != null)
                 {
                     var navigationProperties = config.Columns
@@ -334,9 +330,32 @@ namespace TerytLoad.Pages.DbViewer
                     }
                 }
             }
+            
+            return query;
+        }
 
+        /// <summary>
+        /// ✅ UPROSZCZONE: Użyj ApplyIncludes
+        /// </summary>
+        private async Task<List<object>> GetItemsFromDbGenericAsync<T>() where T : class
+        {
+            IQueryable<T> query = _context.Set<T>();
+            query = ApplyIncludes(query);
+            
             var items = await query.ToListAsync();
             return items.Cast<object>().ToList();
+        }
+
+        /// <summary>
+        /// ✅ UPROSZCZONE: Użyj ApplyIncludes
+        /// </summary>
+        private async Task<object?> FindEntityByIdGenericAsync<T>(int id) where T : class
+        {
+            IQueryable<T> query = _context.Set<T>();
+            query = ApplyIncludes(query);
+            
+            var entity = await query.FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
+            return entity;
         }
 
         /// <summary>
@@ -429,64 +448,6 @@ namespace TerytLoad.Pages.DbViewer
                 _logger.LogError(ex, $"Błąd podczas wyszukiwania encji");
                 return null;
             }
-        }
-
-        private async Task<object?> FindEntityByIdGenericAsync<T>(int id) where T : class
-        {
-            IQueryable<T> query = _context.Set<T>();
-            
-            // ✅ DODAJ TE SAME Include jak w GetItemsFromDbGenericAsync
-            var entityName = typeof(T).Name;
-            
-            if (entityName == "Gmina")
-            {
-                query = query.Include("Powiat.Wojewodztwo").Include("RodzajGminy");
-            }
-            else if (entityName == "Miasto")
-            {
-                query = query.Include("Gmina.Powiat.Wojewodztwo")
-                             .Include("Gmina.RodzajGminy")
-                             .Include("RodzajMiasta");
-            }
-            else if (entityName == "Powiat")
-            {
-                query = query.Include("Wojewodztwo");
-            }
-            else if (entityName == "Ulica")
-            {
-                query = query.Include("Miasto.Gmina.Powiat.Wojewodztwo")
-                             .Include("TypUlicy.TytulStopien");
-            }
-            else if (entityName == "TypUlicy")
-            {
-                query = query.Include("TytulStopien");
-            }
-            else if (entityName == "KodPocztowy")
-            {
-                query = query.Include("Miasto.Gmina.Powiat.Wojewodztwo")
-                             .Include("Ulica.TypUlicy");
-            }
-            else
-            {
-                // ✅ Dla pozostałych: Aplikuj Include dla wszystkich FK navigation properties
-                var config = ViewerRegistry.GetConfig(entityName);
-                if (config != null)
-                {
-                    var navigationProperties = config.Columns
-                        .Where(c => c.IsForeignKey && !string.IsNullOrEmpty(c.ForeignKeyNavigationProperty))
-                        .Select(c => c.ForeignKeyNavigationProperty!)
-                        .ToList();
-
-                    foreach (var navProp in navigationProperties)
-                    {
-                        query = query.Include(navProp);
-                    }
-                }
-            }
-            
-            // Pobierz encję z Id
-            var entity = await query.FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
-            return entity;
         }
 
         private List<object> ApplyFilter(List<object> items, ViewerConfig config, string columnName, string op, string value)
