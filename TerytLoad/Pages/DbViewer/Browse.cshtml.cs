@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using System.Text.Json;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TerytLoad.Pages.DbViewer
 {
@@ -278,7 +279,7 @@ namespace TerytLoad.Pages.DbViewer
         }
 
         /// <summary>
-        /// ✅ NOWA METODA: Generyczna metoda z eager loading
+        /// ✅ GENERYCZNA METODA: Automatycznie ładuje wszystkie navigation properties używając refleksji
         /// </summary>
         private async Task<List<object>> GetItemsFromDbGenericAsync<T>() where T : class
         {
@@ -286,23 +287,124 @@ namespace TerytLoad.Pages.DbViewer
             
             IQueryable<T> query = _context.Set<T>();
 
-            // Aplikuj Include dla wszystkich FK navigation properties
-            if (config != null)
+            // ✅ SPECJALNE PRZYPADKI dla zagnieżdżonych relacji
+            var entityName = typeof(T).Name;
+            
+            if (entityName == "Gmina")
             {
-                var navigationProperties = config.Columns
-                    .Where(c => c.IsForeignKey && !string.IsNullOrEmpty(c.ForeignKeyNavigationProperty))
-                    .Select(c => c.ForeignKeyNavigationProperty!)
-                    .ToList();
-
-                foreach (var navProp in navigationProperties)
+                query = query.Include("Powiat.Wojewodztwo").Include("RodzajGminy");
+            }
+            else if (entityName == "Miasto")
+            {
+                query = query.Include("Gmina.Powiat.Wojewodztwo")
+                             .Include("Gmina.RodzajGminy")
+                             .Include("RodzajMiasta");
+            }
+            else if (entityName == "Powiat")
+            {
+                query = query.Include("Wojewodztwo");
+            }
+            else if (entityName == "Ulica")
+            {
+                query = query.Include("Miasto.Gmina.Powiat.Wojewodztwo")
+                             .Include("TypUlicy.TytulStopien");
+            }
+            else if (entityName == "TypUlicy")
+            {
+                query = query.Include("TytulStopien");
+            }
+            else if (entityName == "KodPocztowy")
+            {
+                query = query.Include("Miasto.Gmina.Powiat.Wojewodztwo")
+                             .Include("Ulica.TypUlicy");
+            }
+            else
+            {
+                // ✅ Dla pozostałych: Aplikuj Include dla wszystkich FK navigation properties
+                if (config != null)
                 {
-                    // Dynamiczny Include używając string
-                    query = query.Include(navProp);
+                    var navigationProperties = config.Columns
+                        .Where(c => c.IsForeignKey && !string.IsNullOrEmpty(c.ForeignKeyNavigationProperty))
+                        .Select(c => c.ForeignKeyNavigationProperty!)
+                        .ToList();
+
+                    foreach (var navProp in navigationProperties)
+                    {
+                        query = query.Include(navProp);
+                    }
                 }
             }
 
             var items = await query.ToListAsync();
             return items.Cast<object>().ToList();
+        }
+
+        /// <summary>
+        /// ✅ REKURENCYJNA METODA: Znajduje wszystkie navigation properties używając refleksji
+        /// </summary>
+        private List<string> GetAllNavigationPaths(Type entityType, int maxDepth, int currentDepth = 0, HashSet<Type>? visitedTypes = null)
+        {
+            var paths = new List<string>();
+            
+            if (currentDepth >= maxDepth)
+                return paths;
+
+            // Zapobiegnij cyklicznym referencjom
+            visitedTypes ??= new HashSet<Type>();
+            if (visitedTypes.Contains(entityType))
+                return paths;
+            
+            visitedTypes.Add(entityType);
+
+            // Znajdź wszystkie właściwości, które są navigation properties
+            var properties = entityType.GetProperties()
+                .Where(p => 
+                    // Musi mieć atrybut [ForeignKey]
+                    p.GetCustomAttributes(typeof(ForeignKeyAttribute), true).Any() ||
+                    // LUB jest referencyjnym typem (klasa) z namespace Models i nie jest kolekcją
+                    (p.PropertyType.IsClass && 
+                     p.PropertyType != typeof(string) &&
+                     p.PropertyType.Namespace?.Contains("Models") == true &&
+                     !IsCollection(p.PropertyType))
+                )
+                .ToList();
+
+            foreach (var prop in properties)
+            {
+                var navigationPropertyName = prop.Name;
+                var navigationPropertyType = prop.PropertyType;
+                
+                // Jeśli to nullable type, weź underlying type
+                if (Nullable.GetUnderlyingType(navigationPropertyType) != null)
+                    continue;
+
+                // Dodaj bezpośrednią navigation property
+                paths.Add(navigationPropertyName);
+
+                // Rekurencyjnie szukaj zagnieżdżonych navigation properties
+                var nestedPaths = GetAllNavigationPaths(
+                    navigationPropertyType, 
+                    maxDepth, 
+                    currentDepth + 1, 
+                    new HashSet<Type>(visitedTypes) // Kopia aby nie wpływać na równoległe gałęzie
+                );
+
+                foreach (var nestedPath in nestedPaths)
+                {
+                    paths.Add($"{navigationPropertyName}.{nestedPath}");
+                }
+            }
+
+            return paths.Distinct().ToList();
+        }
+
+        /// <summary>
+        /// Sprawdza czy typ jest kolekcją (ICollection, IEnumerable, List, etc.)
+        /// </summary>
+        private bool IsCollection(Type type)
+        {
+            return type != typeof(string) && 
+                   typeof(System.Collections.IEnumerable).IsAssignableFrom(type);
         }
 
         private async Task<object?> FindEntityByIdAsync(Type entityType, int id)
@@ -331,8 +433,59 @@ namespace TerytLoad.Pages.DbViewer
 
         private async Task<object?> FindEntityByIdGenericAsync<T>(int id) where T : class
         {
-            var dbSet = _context.Set<T>();
-            var entity = await dbSet.FindAsync(id);
+            IQueryable<T> query = _context.Set<T>();
+            
+            // ✅ DODAJ TE SAME Include jak w GetItemsFromDbGenericAsync
+            var entityName = typeof(T).Name;
+            
+            if (entityName == "Gmina")
+            {
+                query = query.Include("Powiat.Wojewodztwo").Include("RodzajGminy");
+            }
+            else if (entityName == "Miasto")
+            {
+                query = query.Include("Gmina.Powiat.Wojewodztwo")
+                             .Include("Gmina.RodzajGminy")
+                             .Include("RodzajMiasta");
+            }
+            else if (entityName == "Powiat")
+            {
+                query = query.Include("Wojewodztwo");
+            }
+            else if (entityName == "Ulica")
+            {
+                query = query.Include("Miasto.Gmina.Powiat.Wojewodztwo")
+                             .Include("TypUlicy.TytulStopien");
+            }
+            else if (entityName == "TypUlicy")
+            {
+                query = query.Include("TytulStopien");
+            }
+            else if (entityName == "KodPocztowy")
+            {
+                query = query.Include("Miasto.Gmina.Powiat.Wojewodztwo")
+                             .Include("Ulica.TypUlicy");
+            }
+            else
+            {
+                // ✅ Dla pozostałych: Aplikuj Include dla wszystkich FK navigation properties
+                var config = ViewerRegistry.GetConfig(entityName);
+                if (config != null)
+                {
+                    var navigationProperties = config.Columns
+                        .Where(c => c.IsForeignKey && !string.IsNullOrEmpty(c.ForeignKeyNavigationProperty))
+                        .Select(c => c.ForeignKeyNavigationProperty!)
+                        .ToList();
+
+                    foreach (var navProp in navigationProperties)
+                    {
+                        query = query.Include(navProp);
+                    }
+                }
+            }
+            
+            // Pobierz encję z Id
+            var entity = await query.FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
             return entity;
         }
 
