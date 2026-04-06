@@ -279,59 +279,119 @@ namespace TerytLoad.Pages.DbViewer
         }
 
         /// <summary>
-        /// ✅ WSPÓLNA METODA: Aplikuje Include dla encji (używana wszędzie)
+        /// ✅ UNIWERSALNA METODA: Automatycznie aplikuje Include dla wszystkich navigation properties (z zagnieżdżeniami)
         /// </summary>
         private IQueryable<T> ApplyIncludes<T>(IQueryable<T> query) where T : class
         {
-            var entityName = typeof(T).Name;
+            var entityType = typeof(T);
+            var includePaths = GetIncludePathsForEntity(entityType, maxDepth: 3);
             
-            if (entityName == "Gmina")
+            foreach (var path in includePaths)
             {
-                query = query.Include("Powiat.Wojewodztwo").Include("RodzajGminy");
-            }
-            else if (entityName == "Miasto")
-            {
-                query = query.Include("Gmina.Powiat.Wojewodztwo")
-                             .Include("Gmina.RodzajGminy")
-                             .Include("RodzajMiasta");
-            }
-            else if (entityName == "Powiat")
-            {
-                query = query.Include("Wojewodztwo");
-            }
-            else if (entityName == "Ulica")
-            {
-                query = query.Include("Miasto.Gmina.Powiat.Wojewodztwo")
-                             .Include("TypUlicy.TytulStopien");
-            }
-            else if (entityName == "TypUlicy")
-            {
-                query = query.Include("TytulStopien");
-            }
-            else if (entityName == "KodPocztowy")
-            {
-                query = query.Include("Miasto.Gmina.Powiat.Wojewodztwo")
-                             .Include("Ulica.TypUlicy");
-            }
-            else
-            {
-                // ✅ Dla pozostałych: Aplikuj Include dla wszystkich FK navigation properties
-                var config = ViewerRegistry.GetConfig(entityName);
-                if (config != null)
-                {
-                    var navigationProperties = config.Columns
-                        .Where(c => c.IsForeignKey && !string.IsNullOrEmpty(c.ForeignKeyNavigationProperty))
-                        .Select(c => c.ForeignKeyNavigationProperty!)
-                        .ToList();
-
-                    foreach (var navProp in navigationProperties)
-                    {
-                        query = query.Include(navProp);
-                    }
-                }
+                query = query.Include(path);
             }
             
             return query;
+        }
+
+        /// <summary>
+        /// ✅ REKURENCYJNA METODA: Znajduje wszystkie ścieżki Include dla encji
+        /// </summary>
+        private List<string> GetIncludePathsForEntity(Type entityType, int maxDepth, int currentDepth = 0, HashSet<Type>? visitedTypes = null)
+        {
+            var paths = new List<string>();
+            
+            if (currentDepth >= maxDepth)
+                return paths;
+
+            visitedTypes ??= new HashSet<Type>();
+            if (visitedTypes.Contains(entityType))
+                return paths;
+                
+            visitedTypes.Add(entityType);
+
+            // Znajdź wszystkie navigation properties (reference, nie kolekcje)
+            var navigationProperties = entityType.GetProperties(BindingFlags.Public | BindingFlags.Instance)
+                .Where(p => IsNavigationProperty(p))
+                .ToList();
+
+            foreach (var navProp in navigationProperties)
+            {
+                var navigationName = navProp.Name;
+                var relatedType = navProp.PropertyType;
+                
+                // Jeśli nullable, weź underlying type
+                if (Nullable.GetUnderlyingType(relatedType) != null)
+                    relatedType = Nullable.GetUnderlyingType(relatedType)!;
+
+                // Dodaj bezpośrednią navigation property
+                paths.Add(navigationName);
+
+                // Rekurencyjnie znajdź zagnieżdżone navigation properties
+                var visitedCopy = new HashSet<Type>(visitedTypes);
+                var nestedPaths = GetIncludePathsForEntity(relatedType, maxDepth, currentDepth + 1, visitedCopy);
+                
+                foreach (var nestedPath in nestedPaths)
+                {
+                    paths.Add($"{navigationName}.{nestedPath}");
+                }
+            }
+
+            return paths.Distinct().ToList();
+        }
+
+        /// <summary>
+        /// ✅ Sprawdza czy property jest navigation property (FK reference, nie kolekcja)
+        /// </summary>
+        private bool IsNavigationProperty(PropertyInfo property)
+        {
+            // Pomijaj kolekcje (ICollection, IEnumerable, List, etc.)
+            if (IsCollection(property.PropertyType))
+                return false;
+
+            // Pomijaj proste typy
+            if (IsSimpleType(property.PropertyType))
+                return false;
+
+            // Sprawdź czy ma atrybut [ForeignKey]
+            if (property.GetCustomAttribute<ForeignKeyAttribute>() != null)
+                return true;
+
+            // Sprawdź czy jest klasą z namespace zawierającego "Models"
+            var propertyType = property.PropertyType;
+            if (Nullable.GetUnderlyingType(propertyType) != null)
+                propertyType = Nullable.GetUnderlyingType(propertyType)!;
+
+            if (propertyType.IsClass && 
+                propertyType != typeof(string) &&
+                propertyType.Namespace?.Contains("Models") == true)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// Sprawdza czy typ jest kolekcją
+        /// </summary>
+        private bool IsCollection(Type type)
+        {
+            return type != typeof(string) && 
+                   typeof(System.Collections.IEnumerable).IsAssignableFrom(type);
+        }
+
+        /// <summary>
+        /// Sprawdza czy typ jest prosty (nie jest obiektem złożonym)
+        /// </summary>
+        private bool IsSimpleType(Type type)
+        {
+            return type.IsPrimitive ||
+                   type == typeof(string) ||
+                   type == typeof(decimal) ||
+                   type == typeof(DateTime) ||
+                   type == typeof(Guid) ||
+                   Nullable.GetUnderlyingType(type) != null;
         }
 
         /// <summary>
@@ -356,74 +416,6 @@ namespace TerytLoad.Pages.DbViewer
             
             var entity = await query.FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
             return entity;
-        }
-
-        /// <summary>
-        /// ✅ REKURENCYJNA METODA: Znajduje wszystkie navigation properties używając refleksji
-        /// </summary>
-        private List<string> GetAllNavigationPaths(Type entityType, int maxDepth, int currentDepth = 0, HashSet<Type>? visitedTypes = null)
-        {
-            var paths = new List<string>();
-            
-            if (currentDepth >= maxDepth)
-                return paths;
-
-            // Zapobiegnij cyklicznym referencjom
-            visitedTypes ??= new HashSet<Type>();
-            if (visitedTypes.Contains(entityType))
-                return paths;
-            
-            visitedTypes.Add(entityType);
-
-            // Znajdź wszystkie właściwości, które są navigation properties
-            var properties = entityType.GetProperties()
-                .Where(p => 
-                    // Musi mieć atrybut [ForeignKey]
-                    p.GetCustomAttributes(typeof(ForeignKeyAttribute), true).Any() ||
-                    // LUB jest referencyjnym typem (klasa) z namespace Models i nie jest kolekcją
-                    (p.PropertyType.IsClass && 
-                     p.PropertyType != typeof(string) &&
-                     p.PropertyType.Namespace?.Contains("Models") == true &&
-                     !IsCollection(p.PropertyType))
-                )
-                .ToList();
-
-            foreach (var prop in properties)
-            {
-                var navigationPropertyName = prop.Name;
-                var navigationPropertyType = prop.PropertyType;
-                
-                // Jeśli to nullable type, weź underlying type
-                if (Nullable.GetUnderlyingType(navigationPropertyType) != null)
-                    continue;
-
-                // Dodaj bezpośrednią navigation property
-                paths.Add(navigationPropertyName);
-
-                // Rekurencyjnie szukaj zagnieżdżonych navigation properties
-                var nestedPaths = GetAllNavigationPaths(
-                    navigationPropertyType, 
-                    maxDepth, 
-                    currentDepth + 1, 
-                    new HashSet<Type>(visitedTypes) // Kopia aby nie wpływać na równoległe gałęzie
-                );
-
-                foreach (var nestedPath in nestedPaths)
-                {
-                    paths.Add($"{navigationPropertyName}.{nestedPath}");
-                }
-            }
-
-            return paths.Distinct().ToList();
-        }
-
-        /// <summary>
-        /// Sprawdza czy typ jest kolekcją (ICollection, IEnumerable, List, etc.)
-        /// </summary>
-        private bool IsCollection(Type type)
-        {
-            return type != typeof(string) && 
-                   typeof(System.Collections.IEnumerable).IsAssignableFrom(type);
         }
 
         private async Task<object?> FindEntityByIdAsync(Type entityType, int id)
