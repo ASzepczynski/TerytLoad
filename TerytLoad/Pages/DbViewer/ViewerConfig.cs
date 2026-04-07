@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using System.ComponentModel.DataAnnotations.Schema;
+using AddressLibrary.Attributes;
 
 namespace TerytLoad.Pages.DbViewer
 {
@@ -14,13 +15,19 @@ namespace TerytLoad.Pages.DbViewer
         public string Icon { get; set; } = "📄";
         public string Description { get; set; } = string.Empty;
         public List<ColumnConfig> Columns { get; set; } = new();
+        public List<ChildRelationship> ChildRelationships { get; set; } = new();
 
         /// <summary>
         /// Automatycznie generuje konfigurację z wykrywaniem Foreign Keys
         /// </summary>
-        public static ViewerConfig FromType<T>(string displayName, string icon, string description) where T : class
+        public static ViewerConfig FromType<T>(string displayName, string icon, string? descriptionOverride = null) where T : class
         {
             var type = typeof(T);
+            
+            // Pobierz Description z atrybutu TableParam
+            var tableParam = type.GetCustomAttribute<TableParamAttribute>();
+            var description = descriptionOverride ?? tableParam?.Description ?? $"Przeglądaj i edytuj rekordy {type.Name}";
+            
             var config = new ViewerConfig
             {
                 EntityName = type.Name,
@@ -42,10 +49,13 @@ namespace TerytLoad.Pages.DbViewer
                     continue;
                 }
 
+                // Pobierz MemberParam z właściwości
+                var memberParam = prop.GetCustomAttribute<MemberParamAttribute>();
+                
                 var column = new ColumnConfig
                 {
                     PropertyName = prop.Name,
-                    DisplayName = GetFriendlyName(prop.Name),
+                    DisplayName = memberParam?.Description ?? GetFriendlyName(prop.Name),
                     Type = prop.PropertyType,
                     IsFilterable = IsSimpleType(prop.PropertyType),
                     IsEditable = prop.CanWrite && prop.Name != "Id",
@@ -61,11 +71,12 @@ namespace TerytLoad.Pages.DbViewer
         }
 
         /// <summary>
-        /// Automatycznie wykrywa Foreign Key relationships
+        /// Automatycznie wykrywa Foreign Key relationships i pobiera Choice z klasy docelowej
         /// </summary>
         private static void DetectForeignKey(Type entityType, PropertyInfo property, ColumnConfig column)
         {
             var foreignKeyAttr = property.GetCustomAttribute<ForeignKeyAttribute>();
+            
             if (foreignKeyAttr != null)
             {
                 column.IsForeignKey = true;
@@ -74,10 +85,15 @@ namespace TerytLoad.Pages.DbViewer
                 var navProp = entityType.GetProperty(foreignKeyAttr.Name);
                 if (navProp != null)
                 {
-                    column.ForeignKeyEntity = navProp.PropertyType.Name;
-                    // ✅ ZMIENIONE: Sprawdź czy encja ma metodę Opis()
-                    column.HasOpisMethod = HasOpisMethod(navProp.PropertyType);
+                    var targetType = navProp.PropertyType;
+                    column.ForeignKeyEntity = targetType.Name;
+                    column.HasOpisMethod = HasOpisMethod(targetType);
+                    
+                    // ✅ KLUCZOWA ZMIANA: Pobierz Choice z klasy DOCELOWEJ
+                    var targetTableParam = targetType.GetCustomAttribute<TableParamAttribute>();
+                    column.ChoiceMode = targetTableParam?.Choice ?? ChoiceMode.Standard;
                 }
+                
                 return;
             }
 
@@ -88,23 +104,27 @@ namespace TerytLoad.Pages.DbViewer
                 
                 if (navigationProperty != null && !IsSimpleType(navigationProperty.PropertyType))
                 {
+                    var targetType = navigationProperty.PropertyType;
+                    
                     column.IsForeignKey = true;
-                    column.ForeignKeyEntity = navigationProperty.PropertyType.Name;
+                    column.ForeignKeyEntity = targetType.Name;
                     column.ForeignKeyNavigationProperty = navigationPropertyName;
-                    // ✅ ZMIENIONE: Sprawdź czy encja ma metodę Opis()
-                    column.HasOpisMethod = HasOpisMethod(navigationProperty.PropertyType);
+                    column.HasOpisMethod = HasOpisMethod(targetType);
+                    
+                    // ✅ KLUCZOWA ZMIANA: Pobierz Choice z klasy DOCELOWEJ
+                    var targetTableParam = targetType.GetCustomAttribute<TableParamAttribute>();
+                    column.ChoiceMode = targetTableParam?.Choice ?? ChoiceMode.Standard;
                 }
             }
         }
 
         /// <summary>
-        /// ✅ ZMIENIONA: Sprawdza czy typ ma METODĘ Opis() zwracającą string
+        /// Sprawdza czy typ ma METODĘ Opis() zwracającą string
         /// </summary>
         private static bool HasOpisMethod(Type type)
         {
             var method = type.GetMethod("Opis", BindingFlags.Public | BindingFlags.Instance, null, Type.EmptyTypes, null);
             return method != null && method.ReturnType == typeof(string);
-
         }
 
         private static string GetFriendlyName(string propertyName)
@@ -123,9 +143,8 @@ namespace TerytLoad.Pages.DbViewer
 
         private static int GetPropertyOrder(PropertyInfo prop)
         {
-            if (prop.Name == "Id") return 0;
-            if (prop.Name.EndsWith("Id")) return 1;
-            return 2;
+            // Zwróć MetadataToken, który reprezentuje kolejność deklaracji w kodzie źródłowym
+            return prop.MetadataToken;
         }
 
         private static bool IsForeignKeyProperty(PropertyInfo prop)
@@ -167,8 +186,39 @@ namespace TerytLoad.Pages.DbViewer
         public string? ForeignKeyDisplayProperty { get; set; }
         
         /// <summary>
-        /// ✅ NOWE: Czy encja FK ma metodę Opis()
+        /// Czy encja FK ma metodę Opis()
         /// </summary>
         public bool HasOpisMethod { get; set; }
+        
+        /// <summary>
+        /// Tryb wyboru referencji - pochodzi z TableParam klasy DOCELOWEJ
+        /// </summary>
+        public ChoiceMode ChoiceMode { get; set; } = ChoiceMode.Standard;
+    }
+
+    /// <summary>
+    /// Reprezentuje relację do encji-dziecka (encja, która ma FK do tego rejestru)
+    /// </summary>
+    public class ChildRelationship
+    {
+        /// <summary>
+        /// Nazwa encji-dziecka (np. "Gmina")
+        /// </summary>
+        public string ChildEntityName { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Nazwa wyświetlana encji-dziecka (np. "Gminy")
+        /// </summary>
+        public string ChildDisplayName { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Ikona encji-dziecka
+        /// </summary>
+        public string ChildIcon { get; set; } = "📄";
+
+        /// <summary>
+        /// Nazwa właściwości FK w encji-dziecku (np. "WojewodztwoId")
+        /// </summary>
+        public string ForeignKeyPropertyName { get; set; } = string.Empty;
     }
 }

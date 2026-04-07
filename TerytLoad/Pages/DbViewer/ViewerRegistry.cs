@@ -38,9 +38,9 @@ namespace TerytLoad.Pages.DbViewer
                 {
                     var icon = GetIconForEntity(entityName);
                     var displayName = GetDisplayNameForEntity(entityName);
-                    var description = GetDescriptionForEntity(entityName);
 
-                    var config = configMethod.Invoke(null, new object[] { displayName, icon, description }) as ViewerConfig;
+                    // Nie przekazuj description - niech FromType użyje atrybutu TableParam
+                    var config = configMethod.Invoke(null, new object?[] { displayName, icon, null }) as ViewerConfig;
 
                     if (config != null)
                     {
@@ -49,7 +49,37 @@ namespace TerytLoad.Pages.DbViewer
                 }
             }
 
+            // Druga pętla: wykryj relacje dzieci (child relationships)
+            DetectChildRelationships();
+
             _initialized = true;
+        }
+
+        private static void DetectChildRelationships()
+        {
+            foreach (var parentConfig in _configs.Values)
+            {
+                foreach (var childConfig in _configs.Values)
+                {
+                    if (parentConfig.EntityName == childConfig.EntityName)
+                        continue;
+
+                    // Sprawdź, czy childConfig ma FK do parentConfig
+                    var fkColumn = childConfig.Columns.FirstOrDefault(c =>
+                        c.IsForeignKey && c.ForeignKeyEntity == parentConfig.EntityName);
+
+                    if (fkColumn != null)
+                    {
+                        parentConfig.ChildRelationships.Add(new ChildRelationship
+                        {
+                            ChildEntityName = childConfig.EntityName,
+                            ChildDisplayName = childConfig.DisplayName,
+                            ChildIcon = childConfig.Icon,
+                            ForeignKeyPropertyName = fkColumn.PropertyName
+                        });
+                    }
+                }
+            }
         }
 
         private static string GetIconForEntity(string entityName)
@@ -91,27 +121,6 @@ namespace TerytLoad.Pages.DbViewer
                 "UrzadSkarbowy" => "Urzędy Skarbowe",
                 "TerytUlicPoprawka" => "Poprawki Ulic TERYT",
                 _ => entityName
-            };
-        }
-
-        private static string GetDescriptionForEntity(string entityName)
-        {
-            return entityName switch
-            {
-                "CechaUlicy" => "Przeglądaj i edytuj cechy ulic (ul., al., pl., itp.)",
-                "TytulStopien" => "Przeglądaj i edytuj tytuły i stopnie (gen., płk., dr., itp.)",
-                "TypUlicy" => "Przeglądaj i edytuj typy ulic (osobowe: imiona, nazwiska)",
-                "RodzajGminy" => "Przeglądaj i edytuj rodzaje gmin",
-                "RodzajMiasta" => "Przeglądaj i edytuj rodzaje miast",
-                "Wojewodztwo" => "Przeglądaj i edytuj województwa",
-                "Powiat" => "Przeglądaj i edytuj powiaty",
-                "Gmina" => "Przeglądaj i edytuj gminy",
-                "Miasto" => "Przeglądaj i edytuj miasta",
-                "Ulica" => "Przeglądaj i edytuj ulice",
-                "KodPocztowy" => "Przeglądaj i edytuj kody pocztowe",
-                "UrzadSkarbowy" => "Przeglądaj i edytuj urzędy skarbowe",
-                "TerytUlicPoprawka" => "Przeglądaj i edytuj poprawki nazw ulic z TERYT",
-                _ => $"Przeglądaj i edytuj rekordy {entityName}"
             };
         }
 

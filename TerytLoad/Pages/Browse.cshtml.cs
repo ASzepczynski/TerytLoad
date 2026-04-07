@@ -81,7 +81,6 @@ namespace TerytLoad.Pages
                     CurrentPath = $"{powiat.Wojewodztwo.Nazwa} > {powiat.Nazwa}";
 
                     Gminy = await context.Gminy
-                        .Include(g => g.RodzajGminy)
                         .Where(g => g.PowiatId == PowiatId.Value && g.Id != -1)
                         .OrderBy(g => g.Nazwa)
                         .ToListAsync();
@@ -92,8 +91,6 @@ namespace TerytLoad.Pages
             if (GminaId.HasValue)
             {
                 var gmina = await context.Gminy
-                    .Include(g => g.Powiat)
-                    .ThenInclude(p => p.Wojewodztwo)
                     .FirstOrDefaultAsync(g => g.Id == GminaId.Value);
 
                 if (gmina != null)
@@ -101,7 +98,6 @@ namespace TerytLoad.Pages
                     CurrentPath = $"{gmina.Powiat.Wojewodztwo.Nazwa} > {gmina.Powiat.Nazwa} > {gmina.Nazwa}";
 
                     var miasta = await context.Miasta
-                        .Include(m => m.RodzajMiasta)
                         .Where(m => m.GminaId == GminaId.Value && m.Id != -1)
                         .OrderBy(m => m.Nazwa)
                         .ToListAsync();
@@ -138,9 +134,6 @@ namespace TerytLoad.Pages
             if (MiastoId.HasValue)
             {
                 var miasto = await context.Miasta
-                    .Include(m => m.Gmina)
-                    .ThenInclude(g => g.Powiat)
-                    .ThenInclude(p => p.Wojewodztwo)
                     .FirstOrDefaultAsync(m => m.Id == MiastoId.Value);
 
                 if (miasto != null)
@@ -149,7 +142,6 @@ namespace TerytLoad.Pages
 
                     // ✅ POPRAWIONE: Dodano Include dla CechaUlicy
                     var ulice = await context.Ulice
-                        .Include(u => u.CechaUlicy)  // ✅ DODANE
                         .IncludeTypUlicy()
                         .Where(u => u.MiastoId == MiastoId.Value && u.Id != -1)
                         .ToListAsync();

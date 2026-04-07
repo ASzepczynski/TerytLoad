@@ -6,12 +6,25 @@
 }
 
 <div class="container-fluid mt-4">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-        <h2>@Model.Config?.Icon @Model.Config?.DisplayName</h2>
-        <a href="/DbViewer" class="btn btn-secondary">← Powrót do menu</a>
-    </div>
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>@Model.Config?.Icon @Model.Config?.DisplayName</h2>
+    <a href="/DbViewer" class="btn btn-secondary">← Powrót do menu</a>
+</div>
 
-    @if (TempData["SuccessMessage"] != null)
+@* Kontekst rodzica (jeśli przeglądamy relację dziecko) *@
+@if (!string.IsNullOrEmpty(Model.ParentEntity) && Model.ParentId.HasValue)
+{
+    <div class="alert alert-info">
+        <strong>@ViewerRegistry.GetConfig(Model.ParentEntity)?.Icon @ViewerRegistry.GetConfig(Model.ParentEntity)?.DisplayName:</strong> 
+        @Model.ParentDescription
+        <span class="text-muted">(ID: @Model.ParentId)</span>
+        <a href="/DbViewer/Browse?entity=@Model.ParentEntity" class="btn btn-sm btn-outline-primary ms-3">
+            ← Powrót do @ViewerRegistry.GetConfig(Model.ParentEntity)?.DisplayName
+        </a>
+    </div>
+}
+
+@if (TempData["SuccessMessage"] != null)
     {
         <div class="alert alert-success alert-dismissible fade show">
             @TempData["SuccessMessage"]
@@ -70,12 +83,13 @@
     <div class="card">
         <div class="card-header">
             <h5 class="mb-0">
-                📋 Wyniki (@Model.Items.Count rekordów
+                Tabela: @Model.Config?.Description
+                <span class="text-muted">(@Model.Items.Count rekordów
                 @if (string.IsNullOrEmpty(Model.FilterColumn) || string.IsNullOrEmpty(Model.FilterValue))
                 {
-                    <span class="text-muted">- maksymalnie 100 pozycji, użyj filtra aby zobaczyć więcej</span>
+                    <text>- maksymalnie 100 pozycji, użyj filtra aby zobaczyć więcej</text>
                 }
-                )
+                )</span>
             </h5>
         </div>
         <div class="card-body">
@@ -91,6 +105,11 @@
                         <tr>
                             @foreach (var col in Model.Config?.Columns ?? Enumerable.Empty<ColumnConfig>())
                             {
+                                // Ukryj kolumnę FK, jeśli przeglądamy w kontekście rodzica
+                                @if (!string.IsNullOrEmpty(Model.ParentEntity) && col.PropertyName == Model.FilterColumn)
+                                {
+                                    continue;
+                                }
                                 <th>@col.DisplayName</th>
                             }
                             <th style="width: 100px;">Akcje</th>
@@ -102,9 +121,14 @@
                             <tr>
                                 @foreach (var col in Model.Config?.Columns ?? Enumerable.Empty<ColumnConfig>())
                                 {
+                                    // Ukryj kolumnę FK, jeśli przeglądamy w kontekście rodzica
+                                    @if (!string.IsNullOrEmpty(Model.ParentEntity) && col.PropertyName == Model.FilterColumn)
+                                    {
+                                        continue; // Pomijamy kolumnę z FK do rodzica
+                                    }
+
                                     @if (col.IsForeignKey && !string.IsNullOrEmpty(col.ForeignKeyNavigationProperty))
                                     {
-                                        @* ✅ UPROSZCZONE: Użyj EntityDescriptionHelper *@
                                         var navProp = Model.Config!.EntityType.GetProperty(col.ForeignKeyNavigationProperty);
                                         var navItem = navProp?.GetValue(item);
                                         
@@ -140,6 +164,20 @@
                                                     ✏️ Edycja
                                                 </a>
                                             </li>
+                                            @if (Model.Config?.ChildRelationships.Any() == true)
+                                            {
+                                                <li><hr class="dropdown-divider"></li>
+                                                <li><h6 class="dropdown-header">Powiązane rekordy</h6></li>
+                                                @foreach (var childRel in Model.Config.ChildRelationships)
+                                                {
+                                                    var childIdValue = idProp?.GetValue(item);
+                                                    <li>
+                                                        <a class="dropdown-item" href="/DbViewer/Browse?entity=@childRel.ChildEntityName&FilterColumn=@childRel.ForeignKeyPropertyName&FilterOperator=equals&FilterValue=@childIdValue&ParentEntity=@Model.Entity&ParentId=@childIdValue">
+                                                            @childRel.ChildIcon @childRel.ChildDisplayName
+                                                        </a>
+                                                    </li>
+                                                }
+                                            }
                                         </ul>
                                     </div>
                                 </td>
@@ -159,7 +197,7 @@
             <form method="post" asp-page-handler="Save" id="editForm">
                 <input type="hidden" name="entity" value="@Model.Entity" />
                 <div class="modal-header">
-                    <h5 class="modal-title">✏️ Edycja rekordu</h5>
+                    <h5 class="modal-title">Edycja: @Model.Config?.Description</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body" id="editFields">
@@ -169,6 +207,31 @@
                     <button type="submit" class="btn btn-primary">💾 Zapisz</button>
                 </div>
             </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal wyszukiwania dla FK Huge -->
+<div class="modal fade" id="searchModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalTitle">🔍 Wyszukiwanie</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Wpisz tekst do wyszukania...">
+                </div>
+                <div id="searchResults" style="max-height: 400px; overflow-y: auto;">
+                    <div class="text-center text-muted">
+                        <p>Wpisz co najmniej 3 znaki, aby rozpocząć wyszukiwanie</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anuluj</button>
+            </div>
         </div>
     </div>
 </div>
@@ -246,20 +309,53 @@
                     let fieldHtml = '';
 
                     if (col.isForeignKey && col.foreignKeyEntity) {
-                        console.log(`Loading FK options for: ${col.foreignKeyEntity}`);
-                        const options = await loadForeignKeyOptions(col.foreignKeyEntity);
-                        
-                        fieldHtml = `
-                            <div class="mb-3">
-                                <label class="form-label">${col.displayName}</label>
-                                <select class="form-select" name="formData[${propertyNamePascal}]" ${required}>
-                                    <option value="">-- Wybierz --</option>
-                                    ${options.map(opt => 
-                                        `<option value="${opt.id}" ${opt.id == value ? 'selected' : ''}>${opt.text}</option>`
-                                    ).join('')}
-                                </select>
-                            </div>
-                        `;
+                        // Sprawdź tryb wyboru referencji
+                        if (col.choiceMode === 'Huge') {
+                            // Tryb HUGE - załaduj tylko opis dla aktualnej wartości
+                            console.log(`Loading description for: ${col.foreignKeyEntity}, ID=${value}`);
+                            let displayText = `ID: ${value}`;
+                            
+                            if (value) {
+                                try {
+                                    const descResponse = await fetch(`/DbViewer/Browse?handler=ForeignKeyDescription&entity=${col.foreignKeyEntity}&id=${value}`);
+                                    if (descResponse.ok) {
+                                        const descData = await descResponse.json();
+                                        displayText = descData.text || displayText;
+                                    }
+                                } catch (error) {
+                                    console.error(`Error loading description for ${col.foreignKeyEntity}:`, error);
+                                }
+                            }
+                            
+                            fieldHtml = `
+                                <div class="mb-3">
+                                    <label class="form-label">${col.displayName}</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" value="${displayText}" disabled id="fk_display_${propertyNamePascal}">
+                                        <input type="hidden" name="formData[${propertyNamePascal}]" value="${value}" id="fk_${propertyNamePascal}">
+                                        <button type="button" class="btn btn-outline-secondary" onclick="openSearchModal('${col.foreignKeyEntity}', '${propertyNamePascal}', '${col.displayName}')">
+                                            🔍 Zmień
+                                        </button>
+                                    </div>
+                                </div>
+                            `;
+                        } else {
+                            // Tryb STANDARD - standardowa lista rozwijana
+                            console.log(`Loading FK options for: ${col.foreignKeyEntity}`);
+                            const options = await loadForeignKeyOptions(col.foreignKeyEntity);
+                            
+                            fieldHtml = `
+                                <div class="mb-3">
+                                    <label class="form-label">${col.displayName}</label>
+                                    <select class="form-select" name="formData[${propertyNamePascal}]" ${required}>
+                                        <option value="">-- Wybierz --</option>
+                                        ${options.map(opt => 
+                                            `<option value="${opt.id}" ${opt.id == value ? 'selected' : ''}>${opt.text}</option>`
+                                        ).join('')}
+                                    </select>
+                                </div>
+                            `;
+                        }
                     } else {
                         fieldHtml = `
                             <div class="mb-3">
@@ -280,6 +376,77 @@
                 console.error('Error in openEditModal:', error);
                 alert('Błąd: ' + error.message);
             }
+        }
+
+        let currentSearchEntity = '';
+        let currentSearchField = '';
+        let searchTimeout = null;
+
+        function openSearchModal(entity, fieldName, displayName) {
+            currentSearchEntity = entity;
+            currentSearchField = fieldName;
+            
+            document.getElementById('searchModalTitle').textContent = `🔍 Wyszukiwanie: ${displayName}`;
+            document.getElementById('searchInput').value = '';
+            document.getElementById('searchResults').innerHTML = '<div class="text-center text-muted"><p>Wpisz co najmniej 3 znaki, aby rozpocząć wyszukiwanie</p></div>';
+            
+            const searchModal = new bootstrap.Modal(document.getElementById('searchModal'));
+            searchModal.show();
+            
+            // Nasłuchuj na wpisywanie
+            document.getElementById('searchInput').oninput = (e) => {
+                clearTimeout(searchTimeout);
+                const query = e.target.value;
+                
+                if (query.length < 3) {
+                    document.getElementById('searchResults').innerHTML = '<div class="text-center text-muted"><p>Wpisz co najmniej 3 znaki, aby rozpocząć wyszukiwanie</p></div>';
+                    return;
+                }
+                
+                searchTimeout = setTimeout(() => performSearch(query), 300);
+            };
+        }
+
+        async function performSearch(query) {
+            const resultsContainer = document.getElementById('searchResults');
+            resultsContainer.innerHTML = '<div class="text-center"><div class="spinner-border" role="status"></div><p>Wyszukiwanie...</p></div>';
+            
+            try {
+                const response = await fetch(`/DbViewer/Browse?handler=Search&entity=${currentSearchEntity}&query=${encodeURIComponent(query)}`);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                
+                const results = await response.json();
+                
+                if (results.length === 0) {
+                    resultsContainer.innerHTML = '<div class="alert alert-info">Nie znaleziono wyników</div>';
+                    return;
+                }
+                
+                let html = '<div class="list-group">';
+                results.forEach(item => {
+                    html += `
+                        <button type="button" class="list-group-item list-group-item-action" onclick="selectSearchResult(${item.id}, '${item.text.replace(/'/g, "\\'")}')">
+                            ${item.text}
+                        </button>
+                    `;
+                });
+                html += '</div>';
+                
+                resultsContainer.innerHTML = html;
+            } catch (error) {
+                console.error('Search error:', error);
+                resultsContainer.innerHTML = `<div class="alert alert-danger">Błąd wyszukiwania: ${error.message}</div>`;
+            }
+        }
+
+        function selectSearchResult(id, text) {
+            // Zaktualizuj wartości w formularzu edycji
+            document.getElementById(`fk_${currentSearchField}`).value = id;
+            document.getElementById(`fk_display_${currentSearchField}`).value = text;
+            
+            // Zamknij modal wyszukiwania
+            const searchModal = bootstrap.Modal.getInstance(document.getElementById('searchModal'));
+            searchModal.hide();
         }
     </script>
 }

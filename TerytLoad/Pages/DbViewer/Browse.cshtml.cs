@@ -6,6 +6,7 @@ using System.Reflection;
 using System.Text.Json;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq.Expressions;
+using AddressLibrary.Attributes;
 
 namespace TerytLoad.Pages.DbViewer
 {
@@ -32,8 +33,17 @@ namespace TerytLoad.Pages.DbViewer
         [BindProperty(SupportsGet = true)]
         public string? FilterValue { get; set; }
 
+        // Kontekst rodzica (gdy przeglądamy relację dziecko)
+        [BindProperty(SupportsGet = true)]
+        public string? ParentEntity { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public int? ParentId { get; set; }
+
         public ViewerConfig? Config { get; set; }
         public List<object> Items { get; set; } = new();
+        public object? ParentItem { get; set; }
+        public string? ParentDescription { get; set; }
 
         public ViewerConfigDto? ConfigDto => Config != null ? new ViewerConfigDto
         {
@@ -54,7 +64,8 @@ namespace TerytLoad.Pages.DbViewer
                 ForeignKeyEntity = c.ForeignKeyEntity,
                 ForeignKeyDisplayProperty = c.ForeignKeyDisplayProperty,
                 ForeignKeyNavigationProperty = c.ForeignKeyNavigationProperty,
-                HasOpisMethod = c.HasOpisMethod
+                HasOpisMethod = c.HasOpisMethod,
+                ChoiceMode = c.ChoiceMode.ToString()
             }).ToList()
         } : null;
 
@@ -71,6 +82,20 @@ namespace TerytLoad.Pages.DbViewer
             Config = ViewerRegistry.GetConfig(Entity);
             if (Config == null)
                 return NotFound($"Nie znaleziono konfiguracji dla: {Entity}");
+
+            // Jeśli mamy kontekst rodzica, załaduj informacje o rodzicu
+            if (!string.IsNullOrEmpty(ParentEntity) && ParentId.HasValue)
+            {
+                var parentConfig = ViewerRegistry.GetConfig(ParentEntity);
+                if (parentConfig != null)
+                {
+                    ParentItem = await FindEntityByIdAsync(parentConfig.EntityType, ParentId.Value);
+                    if (ParentItem != null)
+                    {
+                        ParentDescription = EntityDescriptionHelper.GetDescription(ParentItem, parentConfig);
+                    }
+                }
+            }
 
             var items = await GetItemsFromDbAsync(Config.EntityType, FilterColumn, FilterOperator, FilterValue);
             if (items == null)
@@ -148,6 +173,71 @@ namespace TerytLoad.Pages.DbViewer
             }
         }
 
+        public async Task<IActionResult> OnGetForeignKeyDescriptionAsync([FromQuery] string entity, [FromQuery] int id)
+        {
+            try
+            {
+                var config = ViewerRegistry.GetConfig(entity);
+                if (config == null)
+                    return NotFound();
+
+                var item = await FindEntityByIdAsync(config.EntityType, id);
+                if (item == null)
+                    return new JsonResult(new { id = id, text = $"ID: {id}" });
+
+                var text = EntityDescriptionHelper.GetDescription(item, config);
+                if (string.IsNullOrEmpty(text))
+                    text = $"ID: {id}";
+
+                return new JsonResult(new { id = id, text = text });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Błąd podczas pobierania opisu FK");
+                return StatusCode(500, new { error = ex.Message });
+            }
+        }
+
+        public async Task<IActionResult> OnGetSearchAsync([FromQuery] string entity, [FromQuery] string query)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(query) || query.Length < 3)
+                    return new JsonResult(new List<object>());
+
+                var config = ViewerRegistry.GetConfig(entity);
+                if (config == null)
+                    return NotFound();
+
+                var items = await GetItemsFromDbAsync(config.EntityType);
+                if (items == null)
+                    return new JsonResult(new List<object>());
+
+                var idProp = config.EntityType.GetProperty("Id");
+                var queryLower = query.ToLower();
+
+                var results = items
+                    .Select(item =>
+                    {
+                        var id = idProp?.GetValue(item);
+                        var text = EntityDescriptionHelper.GetDescription(item, config);
+                        if (string.IsNullOrEmpty(text))
+                            text = $"ID: {id}";
+                        return new { id, text };
+                    })
+                    .Where(x => x.text.ToLower().Contains(queryLower))
+                    .Take(50)
+                    .ToList();
+
+                return new JsonResult(results);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Błąd podczas wyszukiwania: {ex.Message}");
+                return StatusCode(500, new { error = ex.Message });
+            }
+        }
+
         public async Task<IActionResult> OnPostSaveAsync([FromForm] string entity, [FromForm] Dictionary<string, string> formData)
         {
             Config = ViewerRegistry.GetConfig(entity);
@@ -200,267 +290,161 @@ namespace TerytLoad.Pages.DbViewer
                     ?.MakeGenericMethod(entityType);
 
                 if (getItemsMethod == null)
-                {
-                    _logger.LogWarning("Nie znaleziono metody GetItemsFromDbGenericAsync");
                     return null;
-                }
 
                 var task = getItemsMethod.Invoke(this, new object?[] { filterColumn, filterOperator, filterValue }) as Task<List<object>>;
-                if (task == null)
-                {
-                    _logger.LogWarning("Task jest null dla typu: {EntityType}", entityType.Name);
-                    return null;
-                }
-
-                return await task;
-            }
-            catch (TargetInvocationException ex)
-            {
-                // ✅ POPRAWKA: Zaloguj wewnętrzny wyjątek z refleksji
-                _logger.LogError(ex.InnerException ?? ex, $"Błąd podczas pobierania danych dla typu {entityType.Name}");
-                return null;
+                return task != null ? await task : null;
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Błąd podczas pobierania danych dla typu {entityType.Name}");
+                _logger.LogError(ex, $"Błąd w GetItemsFromDbAsync dla {entityType.Name}");
                 return null;
             }
         }
 
-        /// <summary>
-        /// ✅ ZOPTYMALIZOWANE: Aplikuje filtr i limit w SQL, nie w pamięci
-        /// </summary>
-        private async Task<List<object>> GetItemsFromDbGenericAsync<T>(string? filterColumn = null, string? filterOperator = null, string? filterValue = null) where T : class
+        private async Task<List<object>> GetItemsFromDbGenericAsync<T>(string? filterColumn, string? filterOperator, string? filterValue) where T : class
         {
-            IQueryable<T> query = _context.Set<T>();
-            query = ApplyIncludes(query);
+            var query = _context.Set<T>().AsQueryable();
 
-            // ✅ Aplikuj filtr w SQL (PRZED pobraniem danych)
             if (!string.IsNullOrEmpty(filterColumn) && !string.IsNullOrEmpty(filterValue))
             {
                 var config = ViewerRegistry.GetConfig(typeof(T).Name);
-                if (config != null)
+                var columnConfig = config?.Columns.FirstOrDefault(c => c.PropertyName == filterColumn);
+                
+                // Jeśli to kolumna FK
+                if (columnConfig?.IsForeignKey == true && !string.IsNullOrEmpty(columnConfig.ForeignKeyNavigationProperty))
                 {
-                    query = ApplyFilterToQuery(query, config, filterColumn, filterOperator ?? "contains", filterValue);
+                    // Sprawdź, czy filtrujemy po ID (operator "equals" i wartość numeryczna)
+                    var isNumericFilter = int.TryParse(filterValue, out var numericValue) && 
+                                         filterOperator?.ToLower() == "equals";
+                    
+                    if (isNumericFilter)
+                    {
+                        // Filtruj bezpośrednio po wartości FK (przez Expression)
+                        var parameter = Expression.Parameter(typeof(T), "x");
+                        var property = Expression.Property(parameter, filterColumn);
+                        var constant = Expression.Constant(numericValue);
+                        var equality = Expression.Equal(property, constant);
+                        var lambda = Expression.Lambda<Func<T, bool>>(equality, parameter);
+                        query = query.Where(lambda);
+                    }
+                    else
+                    {
+                        // Filtrowanie po opisie z właściwości nawigacyjnej (dla tekstowego wyszukiwania)
+                        var allItems = await query.ToListAsync();
+                        
+                        var navPropertyName = columnConfig.ForeignKeyNavigationProperty;
+                        var fkEntityName = columnConfig.ForeignKeyEntity!;
+                        var currentFilterOperator = filterOperator;
+                        var currentFilterValue = filterValue;
+                        
+                        var filtered = allItems.Where(item =>
+                        {
+                            var navProp = typeof(T).GetProperty(navPropertyName);
+                            var navItem = navProp?.GetValue(item);
+                            
+                            if (navItem == null)
+                                return false;
+                            
+                            var fkConfig = ViewerRegistry.GetConfig(fkEntityName);
+                            var description = EntityDescriptionHelper.GetDescription(navItem, fkConfig);
+                            
+                            if (string.IsNullOrEmpty(description))
+                                return false;
+
+                            return currentFilterOperator?.ToLower() switch
+                            {
+                                "contains" => description.Contains(currentFilterValue, StringComparison.OrdinalIgnoreCase),
+                                "notcontains" => !description.Contains(currentFilterValue, StringComparison.OrdinalIgnoreCase),
+                                "equals" => description.Equals(currentFilterValue, StringComparison.OrdinalIgnoreCase),
+                                "notequals" => !description.Equals(currentFilterValue, StringComparison.OrdinalIgnoreCase),
+                                _ => description.Contains(currentFilterValue, StringComparison.OrdinalIgnoreCase)
+                            };
+                        }).ToList();
+                        
+                        return filtered.Cast<object>().ToList();
+                    }
+                }
+                else
+                {
+                    // Standardowe filtrowanie dla zwykłych kolumn
+                    var parameter = Expression.Parameter(typeof(T), "x");
+                    var property = Expression.Property(parameter, filterColumn);
+                    var propertyAsString = Expression.Call(property, typeof(object).GetMethod("ToString")!);
+                    var valueExpression = Expression.Constant(filterValue, typeof(string));
+
+                    Expression? filterExpression = null;
+
+                    switch (filterOperator?.ToLower())
+                    {
+                        case "contains":
+                            var containsMethod = typeof(string).GetMethod("Contains", new[] { typeof(string) })!;
+                            filterExpression = Expression.Call(propertyAsString, containsMethod, valueExpression);
+                            break;
+
+                        case "notcontains":
+                            var notContainsMethod = typeof(string).GetMethod("Contains", new[] { typeof(string) })!;
+                            var containsCall = Expression.Call(propertyAsString, notContainsMethod, valueExpression);
+                            filterExpression = Expression.Not(containsCall);
+                            break;
+
+                        case "equals":
+                            var equalsMethod = typeof(string).GetMethod("Equals", new[] { typeof(string) })!;
+                            filterExpression = Expression.Call(propertyAsString, equalsMethod, valueExpression);
+                            break;
+
+                        case "notequals":
+                            var notEqualsMethod = typeof(string).GetMethod("Equals", new[] { typeof(string) })!;
+                            var equalsCall = Expression.Call(propertyAsString, notEqualsMethod, valueExpression);
+                            filterExpression = Expression.Not(equalsCall);
+                            break;
+                    }
+
+                    if (filterExpression != null)
+                    {
+                        var lambda = Expression.Lambda<Func<T, bool>>(filterExpression, parameter);
+                        query = query.Where(lambda);
+                    }
                 }
             }
 
-            // ✅ Limituj do 100 rekordów w SQL (PRZED pobraniem danych)
-            query = query.Take(100);
-
-            var items = await query.ToListAsync();
-            return items.Cast<object>().ToList();
-        }
-
-        /// <summary>
-/// ✅ UNIWERSALNA METODA: Automatycznie aplikuje Include dla wszystkich navigation properties
-/// </summary>
-private IQueryable<T> ApplyIncludes<T>(IQueryable<T> query) where T : class
-{
-    var entityType = typeof(T);
-    var includePaths = GetIncludePathsForEntity(entityType, maxDepth: 4); // ✅ ZMIENIONE: Z 3 na 4
-
-    foreach (var path in includePaths)
-    {
-        query = query.Include(path);
-    }
-
-    return query;
-}
-
-        /// <summary>
-        /// ✅ REKURENCYJNA METODA: Znajduje wszystkie ścieżki Include dla encji
-        /// </summary>
-        private List<string> GetIncludePathsForEntity(Type entityType, int maxDepth, int currentDepth = 0, HashSet<Type>? visitedTypes = null)
-        {
-            var paths = new List<string>();
-
-            if (currentDepth >= maxDepth)
-                return paths;
-
-            visitedTypes ??= new HashSet<Type>();
-            if (visitedTypes.Contains(entityType))
-                return paths;
-
-            visitedTypes.Add(entityType);
-
-            var navigationProperties = entityType.GetProperties(BindingFlags.Public | BindingFlags.Instance)
-                .Where(p => IsNavigationProperty(p))
-                .ToList();
-
-            foreach (var navProp in navigationProperties)
+            if (string.IsNullOrEmpty(filterColumn) || string.IsNullOrEmpty(filterValue))
             {
-                var navigationName = navProp.Name;
-                var relatedType = navProp.PropertyType;
-
-                if (Nullable.GetUnderlyingType(relatedType) != null)
-                    relatedType = Nullable.GetUnderlyingType(relatedType)!;
-
-                paths.Add(navigationName);
-
-                var visitedCopy = new HashSet<Type>(visitedTypes);
-                var nestedPaths = GetIncludePathsForEntity(relatedType, maxDepth, currentDepth + 1, visitedCopy);
-
-                foreach (var nestedPath in nestedPaths)
-                {
-                    paths.Add($"{navigationName}.{nestedPath}");
-                }
+                query = query.Take(100);
             }
 
-            return paths.Distinct().ToList();
+            var results = await query.ToListAsync();
+            return results.Cast<object>().ToList();
         }
-
-        /// <summary>
-        /// ✅ Sprawdza czy property jest navigation property
-        /// </summary>
-        private bool IsNavigationProperty(PropertyInfo property)
-        {
-            if (IsCollection(property.PropertyType))
-                return false;
-
-            if (IsSimpleType(property.PropertyType))
-                return false;
-
-            if (property.GetCustomAttribute<ForeignKeyAttribute>() != null)
-                return true;
-
-            var propertyType = property.PropertyType;
-            if (Nullable.GetUnderlyingType(propertyType) != null)
-                propertyType = Nullable.GetUnderlyingType(propertyType)!;
-
-            if (propertyType.IsClass &&
-                propertyType != typeof(string) &&
-                propertyType.Namespace?.Contains("Models") == true)
-            {
-                return true;
-            }
-
-            return false;
-        }
-
-        private bool IsCollection(Type type)
-        {
-            return type != typeof(string) &&
-                   typeof(System.Collections.IEnumerable).IsAssignableFrom(type);
-        }
-
-        private bool IsSimpleType(Type type)
-        {
-            return type.IsPrimitive ||
-                   type == typeof(string) ||
-                   type == typeof(decimal) ||
-                   type == typeof(DateTime) ||
-                   type == typeof(Guid) ||
-                   Nullable.GetUnderlyingType(type) != null;
-        }
-
-        /// <summary>
-/// ✅ NAPRAWIONE: Użycie EF.Functions.Like() zamiast Contains() z StringComparison
-/// </summary>
-private IQueryable<T> ApplyFilterToQuery<T>(IQueryable<T> query, ViewerConfig config, string columnName, string op, string value) where T : class
-{
-    try
-    {
-        var property = config.EntityType.GetProperty(columnName);
-        if (property == null)
-        {
-            _logger.LogWarning("Nie znaleziono właściwości {ColumnName} w typie {EntityType}", columnName, typeof(T).Name);
-            return query;
-        }
-
-        var parameter = Expression.Parameter(typeof(T), "x");
-        var propertyAccess = Expression.Property(parameter, property);
-
-        Expression filterExpression;
-
-        if (property.PropertyType == typeof(string))
-        {
-            switch (op)
-            {
-                case "contains":
-                    // ✅ POPRAWKA: Użyj EF.Functions.Like() zamiast Contains() z StringComparison
-                    var likePattern = Expression.Constant($"%{value}%");
-                    var efFunctionsProperty = Expression.Property(null, typeof(EF), nameof(EF.Functions));
-                    var likeMethod = typeof(DbFunctionsExtensions).GetMethod(
-                        nameof(DbFunctionsExtensions.Like),
-                        new[] { typeof(DbFunctions), typeof(string), typeof(string) })!;
-                    filterExpression = Expression.Call(likeMethod, efFunctionsProperty, propertyAccess, likePattern);
-                    break;
-
-                case "notcontains":
-                    var notLikePattern = Expression.Constant($"%{value}%");
-                    var efFunctionsProperty2 = Expression.Property(null, typeof(EF), nameof(EF.Functions));
-                    var likeMethod2 = typeof(DbFunctionsExtensions).GetMethod(
-                        nameof(DbFunctionsExtensions.Like),
-                        new[] { typeof(DbFunctions), typeof(string), typeof(string) })!;
-                    var likeCall = Expression.Call(likeMethod2, efFunctionsProperty2, propertyAccess, notLikePattern);
-                    filterExpression = Expression.Not(likeCall);
-                    break;
-
-                case "equals":
-                    // ✅ Dla equals użyj prostego porównania (SQL Server domyślnie jest case-insensitive)
-                    var valueConstant = Expression.Constant(value, typeof(string));
-                    filterExpression = Expression.Equal(propertyAccess, valueConstant);
-                    break;
-
-                case "notequals":
-                    var notValueConstant = Expression.Constant(value, typeof(string));
-                    filterExpression = Expression.NotEqual(propertyAccess, notValueConstant);
-                    break;
-
-                default:
-                    _logger.LogWarning("Nieznany operator: {Operator}", op);
-                    return query;
-            }
-        }
-        else
-        {
-            var convertedValue = ConvertValue(value, property.PropertyType);
-            var valueConstant = Expression.Constant(convertedValue, property.PropertyType);
-            filterExpression = Expression.Equal(propertyAccess, valueConstant);
-        }
-
-        var lambda = Expression.Lambda<Func<T, bool>>(filterExpression, parameter);
-        return query.Where(lambda);
-    }
-    catch (Exception ex)
-    {
-        _logger.LogError(ex, "Błąd podczas aplikowania filtra {ColumnName} = {Value}", columnName, value);
-        return query;
-    }
-}
 
         private async Task<object?> FindEntityByIdAsync(Type entityType, int id)
         {
-            try
-            {
-                var findMethod = typeof(BrowseModel)
-                    .GetMethod(nameof(FindEntityByIdGenericAsync), BindingFlags.NonPublic | BindingFlags.Instance)
-                    ?.MakeGenericMethod(entityType);
+            var method = typeof(BrowseModel)
+                .GetMethod(nameof(FindEntityByIdGenericAsync), BindingFlags.NonPublic | BindingFlags.Instance)
+                ?.MakeGenericMethod(entityType);
 
-                if (findMethod == null)
-                    return null;
-
-                var task = findMethod.Invoke(this, new object[] { id }) as Task<object>;
-                if (task == null)
-                    return null;
-
-                return await task;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, $"Błąd podczas wyszukiwania encji");
+            if (method == null)
                 return null;
-            }
+
+            var task = method.Invoke(this, new object[] { id }) as Task<object?>;
+            return task != null ? await task : null;
         }
 
         private async Task<object?> FindEntityByIdGenericAsync<T>(int id) where T : class
         {
-            IQueryable<T> query = _context.Set<T>();
-            query = ApplyIncludes(query);
+            var query = _context.Set<T>().AsQueryable();
 
-            var entity = await query.FirstOrDefaultAsync(e => EF.Property<int>(e, "Id") == id);
-            return entity;
+            var idProperty = typeof(T).GetProperty("Id");
+            if (idProperty == null)
+                return null;
+
+            var parameter = Expression.Parameter(typeof(T), "x");
+            var property = Expression.Property(parameter, idProperty);
+            var constant = Expression.Constant(id);
+            var equality = Expression.Equal(property, constant);
+            var lambda = Expression.Lambda<Func<T, bool>>(equality, parameter);
+
+            return await query.FirstOrDefaultAsync(lambda);
         }
 
         private object? ConvertValue(string value, Type targetType)
@@ -506,5 +490,6 @@ private IQueryable<T> ApplyFilterToQuery<T>(IQueryable<T> query, ViewerConfig co
         public string? ForeignKeyDisplayProperty { get; set; }
         public string? ForeignKeyNavigationProperty { get; set; }
         public bool HasOpisMethod { get; set; }
+        public string ChoiceMode { get; set; } = "Standard";
     }
 }
