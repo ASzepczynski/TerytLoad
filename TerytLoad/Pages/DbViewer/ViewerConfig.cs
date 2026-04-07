@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Reflection;
 using AddressLibrary.Attributes;
 
 namespace TerytLoad.Pages.DbViewer
@@ -51,6 +52,10 @@ namespace TerytLoad.Pages.DbViewer
 
                 // Pobierz MemberParam z właściwości
                 var memberParam = prop.GetCustomAttribute<MemberParamAttribute>();
+
+                // Pomiń właściwości oznaczone jako niewidoczne
+                if (memberParam?.Visible == false)
+                    continue;
                 
                 var column = new ColumnConfig
                 {
@@ -194,6 +199,116 @@ namespace TerytLoad.Pages.DbViewer
         /// Tryb wyboru referencji - pochodzi z TableParam klasy DOCELOWEJ
         /// </summary>
         public ChoiceMode ChoiceMode { get; set; } = ChoiceMode.Standard;
+    }
+
+    /// <summary>
+    /// Opcja filtrowania - może być zwykłą kolumną lub ścieżką przez relacje FK (np. "GminaId.Powiat.Nazwa")
+    /// </summary>
+    public class FilterOption
+    {
+        /// <summary>
+        /// Ścieżka filtrowania np. "GminaId", "GminaId.Opis", "GminaId.PowiatId.Nazwa"
+        /// </summary>
+        public string FilterPath { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Etykieta wyświetlana na liście wyboru np. "Gmina.Opis", "Gmina.Powiat.Nazwa"
+        /// </summary>
+        public string DisplayLabel { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Czy to jest filtrowanie po zwykłej kolumnie (nie FK)
+        /// </summary>
+        public bool IsDirectColumn { get; set; }
+
+        /// <summary>
+        /// Buduje listę opcji filtrowania dla danej konfiguracji encji (z rekurencją przez FK)
+        /// </summary>
+        public static List<FilterOption> BuildFor(ViewerConfig config, int maxDepth = 3)
+        {
+            var result = new List<FilterOption>();
+            BuildRecursive(config, "", "", result, maxDepth, 0, new HashSet<string>());
+            return result;
+        }
+
+        private static void BuildRecursive(
+            ViewerConfig config,
+            string pathPrefix,
+            string labelPrefix,
+            List<FilterOption> result,
+            int maxDepth,
+            int depth,
+            HashSet<string> visitedEntities)
+        {
+            if (depth > maxDepth) return;
+            if (!visitedEntities.Add(config.EntityName)) return; // unikaj cykli
+
+            foreach (var col in config.Columns.Where(c => c.IsFilterable))
+            {
+                if (col.IsForeignKey && !string.IsNullOrEmpty(col.ForeignKeyEntity))
+                {
+                    var fkConfig = ViewerRegistry.GetConfig(col.ForeignKeyEntity);
+                    if (fkConfig == null) continue;
+
+                    // Nawigacja pośrednia: używamy nazwy właściwości nawigacyjnej (bez "Id")
+                    var navName = col.ForeignKeyNavigationProperty ?? col.PropertyName.Replace("Id", "");
+                    var fkLabel = string.IsNullOrEmpty(labelPrefix)
+                        ? navName
+                        : $"{labelPrefix}.{navName}";
+                    var fkPath = string.IsNullOrEmpty(pathPrefix)
+                        ? col.PropertyName
+                        : $"{pathPrefix}.{col.PropertyName}";
+
+                    // Opcja: filtrowanie po Opis() tej encji FK - "Gmina.Opis"
+                    if (fkConfig.EntityType != null && HasOpisMethod(fkConfig.EntityType))
+                    {
+                        result.Add(new FilterOption
+                        {
+                            FilterPath = $"{fkPath}.Opis",
+                            DisplayLabel = $"{fkLabel}.Opis",
+                            IsDirectColumn = false
+                        });
+                    }
+
+                    // Opcja: filtrowanie po każdym polu tekstowym tej encji FK
+                    // Ostatni segment = DisplayName z atrybutu, wcześniejsze = nazwa nawigacji
+                    foreach (var nestedCol in fkConfig.Columns.Where(c => c.IsFilterable && !c.IsForeignKey && c.Type == typeof(string)))
+                    {
+                        result.Add(new FilterOption
+                        {
+                            FilterPath = $"{fkPath}.{nestedCol.PropertyName}",
+                            DisplayLabel = $"{fkLabel}.{nestedCol.DisplayName}",
+                            IsDirectColumn = false
+                        });
+                    }
+
+                    // Rekurencja w głąb kolejnych relacji FK
+                    BuildRecursive(fkConfig, fkPath, fkLabel, result, maxDepth, depth + 1,
+                        new HashSet<string>(visitedEntities));
+                }
+                else
+                {
+                    // Zwykła kolumna - dodaj tylko na poziomie 0 (są już w głównej liście)
+                    if (depth == 0)
+                    {
+                        result.Add(new FilterOption
+                        {
+                            FilterPath = col.PropertyName,
+                            DisplayLabel = col.DisplayName,
+                            IsDirectColumn = true
+                        });
+                    }
+                }
+            }
+
+            visitedEntities.Remove(config.EntityName);
+        }
+
+        private static bool HasOpisMethod(Type type)
+        {
+            var method = type.GetMethod("Opis", BindingFlags.Public | BindingFlags.Instance, null, Type.EmptyTypes, null);
+            return method != null && method.ReturnType == typeof(string);
+        }
     }
 
     /// <summary>

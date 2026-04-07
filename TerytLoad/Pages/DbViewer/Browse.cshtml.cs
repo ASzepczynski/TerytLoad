@@ -40,10 +40,18 @@ namespace TerytLoad.Pages.DbViewer
         [BindProperty(SupportsGet = true)]
         public int? ParentId { get; set; }
 
+        // Sortowanie
+        [BindProperty(SupportsGet = true)]
+        public string? SortColumn { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public string? SortDirection { get; set; } = "asc";
+
         public ViewerConfig? Config { get; set; }
         public List<object> Items { get; set; } = new();
         public object? ParentItem { get; set; }
         public string? ParentDescription { get; set; }
+        public List<FilterOption> FilterOptions { get; set; } = new();
 
         public ViewerConfigDto? ConfigDto => Config != null ? new ViewerConfigDto
         {
@@ -97,11 +105,12 @@ namespace TerytLoad.Pages.DbViewer
                 }
             }
 
-            var items = await GetItemsFromDbAsync(Config.EntityType, FilterColumn, FilterOperator, FilterValue);
+            var items = await GetItemsFromDbAsync(Config.EntityType, FilterColumn, FilterOperator, FilterValue, SortColumn, SortDirection);
             if (items == null)
                 return NotFound($"Nie znaleziono DbSet dla: {Entity}");
 
             Items = items;
+            FilterOptions = FilterOption.BuildFor(Config);
             return Page();
         }
 
@@ -238,6 +247,31 @@ namespace TerytLoad.Pages.DbViewer
             }
         }
 
+        public async Task<IActionResult> OnPostDeleteAsync([FromForm] string entity, [FromForm] int id)
+        {
+            var config = ViewerRegistry.GetConfig(entity);
+            if (config == null)
+                return BadRequest("Nieprawidłowa konfiguracja");
+
+            var item = await FindEntityByIdAsync(config.EntityType, id);
+            if (item == null)
+                return NotFound();
+
+            try
+            {
+                _context.Remove(item);
+                await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = $"✅ Usunięto rekord ID={id}";
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Błąd podczas usuwania");
+                TempData["ErrorMessage"] = $"❌ Błąd: {ex.Message}";
+            }
+
+            return RedirectToPage(new { entity });
+        }
+
         public async Task<IActionResult> OnPostSaveAsync([FromForm] string entity, [FromForm] Dictionary<string, string> formData)
         {
             Config = ViewerRegistry.GetConfig(entity);
@@ -249,9 +283,22 @@ namespace TerytLoad.Pages.DbViewer
             if (!formData.ContainsKey("Id") || !int.TryParse(formData["Id"], out var id))
                 return BadRequest("Brak ID");
 
-            var existing = await FindEntityByIdAsync(config.EntityType, id);
-            if (existing == null)
-                return NotFound();
+            bool isNew = id == 0;
+            object item;
+
+            if (isNew)
+            {
+                // Utwórz nową instancję encji
+                item = Activator.CreateInstance(config.EntityType)!;
+                _context.Add(item);
+            }
+            else
+            {
+                var existing = await FindEntityByIdAsync(config.EntityType, id);
+                if (existing == null)
+                    return NotFound();
+                item = existing;
+            }
 
             try
             {
@@ -263,14 +310,17 @@ namespace TerytLoad.Pages.DbViewer
                         if (prop != null && prop.CanWrite)
                         {
                             var convertedValue = ConvertValue(value, col.Type);
-                            prop.SetValue(existing, convertedValue);
+                            prop.SetValue(item, convertedValue);
                         }
                     }
                 }
 
                 await _context.SaveChangesAsync();
 
-                TempData["SuccessMessage"] = $"✅ Zaktualizowano rekord ID={id}";
+                var savedId = config.EntityType.GetProperty("Id")?.GetValue(item);
+                TempData["SuccessMessage"] = isNew
+                    ? $"✅ Dodano nowy rekord ID={savedId}"
+                    : $"✅ Zaktualizowano rekord ID={id}";
                 return RedirectToPage(new { entity });
             }
             catch (Exception ex)
@@ -281,7 +331,7 @@ namespace TerytLoad.Pages.DbViewer
             }
         }
 
-        private async Task<List<object>?> GetItemsFromDbAsync(Type entityType, string? filterColumn = null, string? filterOperator = null, string? filterValue = null)
+        private async Task<List<object>?> GetItemsFromDbAsync(Type entityType, string? filterColumn = null, string? filterOperator = null, string? filterValue = null, string? sortColumn = null, string? sortDirection = null)
         {
             try
             {
@@ -292,7 +342,7 @@ namespace TerytLoad.Pages.DbViewer
                 if (getItemsMethod == null)
                     return null;
 
-                var task = getItemsMethod.Invoke(this, new object?[] { filterColumn, filterOperator, filterValue }) as Task<List<object>>;
+                var task = getItemsMethod.Invoke(this, new object?[] { filterColumn, filterOperator, filterValue, sortColumn, sortDirection }) as Task<List<object>>;
                 return task != null ? await task : null;
             }
             catch (Exception ex)
@@ -302,7 +352,7 @@ namespace TerytLoad.Pages.DbViewer
             }
         }
 
-        private async Task<List<object>> GetItemsFromDbGenericAsync<T>(string? filterColumn, string? filterOperator, string? filterValue) where T : class
+        private async Task<List<object>> GetItemsFromDbGenericAsync<T>(string? filterColumn, string? filterOperator, string? filterValue, string? sortColumn, string? sortDirection) where T : class
         {
             var query = _context.Set<T>().AsQueryable();
 
@@ -310,7 +360,17 @@ namespace TerytLoad.Pages.DbViewer
             {
                 var config = ViewerRegistry.GetConfig(typeof(T).Name);
                 var columnConfig = config?.Columns.FirstOrDefault(c => c.PropertyName == filterColumn);
-                
+
+                // Ścieżka z kropkami (np. "GminaId.Opis" lub "GminaId.PowiatId.Nazwa")
+                if (filterColumn.Contains('.'))
+                {
+                    var allItems = await query.ToListAsync();
+                    var op = filterOperator;
+                    var val = filterValue;
+                    var filtered = allItems.Where(item => MatchByPath(item, filterColumn, op, val)).ToList();
+                    return filtered.Cast<object>().ToList();
+                }
+
                 // Jeśli to kolumna FK
                 if (columnConfig?.IsForeignKey == true && !string.IsNullOrEmpty(columnConfig.ForeignKeyNavigationProperty))
                 {
@@ -413,8 +473,73 @@ namespace TerytLoad.Pages.DbViewer
                 query = query.Take(100);
             }
 
+            // Sortowanie po prostych kolumnach (nie FK)
+            if (!string.IsNullOrEmpty(sortColumn))
+            {
+                try
+                {
+                    var param = Expression.Parameter(typeof(T), "x");
+                    var sortProp = Expression.Property(param, sortColumn);
+                    var sortLambda = Expression.Lambda(sortProp, param);
+                    var orderByMethod = sortDirection?.ToLower() == "desc"
+                        ? typeof(Queryable).GetMethods().First(m => m.Name == "OrderByDescending" && m.GetParameters().Length == 2)
+                        : typeof(Queryable).GetMethods().First(m => m.Name == "OrderBy" && m.GetParameters().Length == 2);
+                    var genericMethod = orderByMethod.MakeGenericMethod(typeof(T), sortProp.Type);
+                    query = (IQueryable<T>)genericMethod.Invoke(null, new object[] { query, sortLambda })!;
+                }
+                catch
+                {
+                    // Ignoruj błąd sortowania – zostaw domyślną kolejność
+                }
+            }
+
             var results = await query.ToListAsync();
             return results.Cast<object>().ToList();
+        }
+
+        /// <summary>
+        /// Porównuje wartość obiektu na ścieżce z kropkami (np. "GminaId.PowiatId.Nazwa")
+        /// Segment "Opis" wywołuje metodę Opis(). Segmenty XxxId przeskakują do właściwości Xxx.
+        /// </summary>
+        private bool MatchByPath(object item, string path, string? op, string value)
+        {
+            var segments = path.Split('.');
+            object? current = item;
+
+            foreach (var segment in segments)
+            {
+                if (current == null) return false;
+
+                if (segment == "Opis")
+                {
+                    var opisMethod = current.GetType()
+                        .GetMethod("Opis", BindingFlags.Public | BindingFlags.Instance, null, Type.EmptyTypes, null);
+                    current = opisMethod?.Invoke(current, null);
+                }
+                else if (segment.EndsWith("Id") && current.GetType().GetProperty(segment[..^2]) is { } navProp)
+                {
+                    // XxxId -> przejdź przez właściwość nawigacyjną Xxx (załadowaną przez AutoInclude)
+                    current = navProp.GetValue(current);
+                }
+                else
+                {
+                    current = current.GetType().GetProperty(segment)?.GetValue(current);
+                }
+            }
+
+            return ApplyStringOperator(current?.ToString() ?? string.Empty, op, value);
+        }
+
+        private bool ApplyStringOperator(string text, string? op, string value)
+        {
+            return op?.ToLower() switch
+            {
+                "contains"    => text.Contains(value, StringComparison.OrdinalIgnoreCase),
+                "notcontains" => !text.Contains(value, StringComparison.OrdinalIgnoreCase),
+                "equals"      => text.Equals(value, StringComparison.OrdinalIgnoreCase),
+                "notequals"   => !text.Equals(value, StringComparison.OrdinalIgnoreCase),
+                _             => text.Contains(value, StringComparison.OrdinalIgnoreCase)
+            };
         }
 
         private async Task<object?> FindEntityByIdAsync(Type entityType, int id)

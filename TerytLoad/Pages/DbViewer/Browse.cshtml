@@ -52,9 +52,9 @@
                     <label class="form-label">Kolumna</label>
                     <select name="FilterColumn" class="form-select" asp-for="FilterColumn">
                         <option value="">-- Wybierz kolumnę --</option>
-                        @foreach (var col in Model.Config?.Columns.Where(c => c.IsFilterable) ?? Enumerable.Empty<ColumnConfig>())
+                        @foreach (var opt in Model.FilterOptions)
                         {
-                            <option value="@col.PropertyName">@col.DisplayName</option>
+                            <option value="@opt.FilterPath" selected="@(Model.FilterColumn == opt.FilterPath)">@opt.DisplayLabel</option>
                         }
                     </select>
                 </div>
@@ -81,7 +81,7 @@
 
     <!-- Tabela wyników -->
     <div class="card">
-        <div class="card-header">
+        <div class="card-header d-flex justify-content-between align-items-center">
             <h5 class="mb-0">
                 Tabela: @Model.Config?.Description
                 <span class="text-muted">(@Model.Items.Count rekordów
@@ -91,6 +91,9 @@
                 }
                 )</span>
             </h5>
+            <button type="button" class="btn btn-success btn-sm" onclick="openNewModal('@Model.Entity')">
+                ➕ Dodaj nowy
+            </button>
         </div>
         <div class="card-body">
             @if (string.IsNullOrEmpty(Model.FilterColumn) && Model.Items.Count == 100)
@@ -110,7 +113,19 @@
                                 {
                                     continue;
                                 }
-                                <th>@col.DisplayName</th>
+                                @if (col.IsForeignKey)
+                                {
+                                    // Kolumny FK - nie sortujemy po ID, tylko po opisie (nie wspierane w SQL)
+                                    <th>@col.DisplayName</th>
+                                }
+                                else
+                                {
+                                    var isSorted = Model.SortColumn == col.PropertyName;
+                                    var nextDir = (isSorted && Model.SortDirection == "asc") ? "desc" : "asc";
+                                    var icon = isSorted ? (Model.SortDirection == "asc" ? " ▲" : " ▼") : "";
+                                    var sortUrl = $"/DbViewer/Browse?entity={Model.Entity}&FilterColumn={Model.FilterColumn}&FilterOperator={Model.FilterOperator}&FilterValue={Model.FilterValue}&ParentEntity={Model.ParentEntity}&ParentId={Model.ParentId}&SortColumn={col.PropertyName}&SortDirection={nextDir}";
+                                    <th><a href="@sortUrl" class="text-decoration-none text-dark">@col.DisplayName@icon</a></th>
+                                }
                             }
                             <th style="width: 100px;">Akcje</th>
                         </tr>
@@ -197,19 +212,30 @@
             <form method="post" asp-page-handler="Save" id="editForm">
                 <input type="hidden" name="entity" value="@Model.Entity" />
                 <div class="modal-header">
-                    <h5 class="modal-title">Edycja: @Model.Config?.Description</h5>
+                    <h5 class="modal-title" id="editModalTitle">Edycja: @Model.Config?.Description</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body" id="editFields">
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anuluj</button>
-                    <button type="submit" class="btn btn-primary">💾 Zapisz</button>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-danger" id="deleteBtn" onclick="confirmDelete()">
+                        🗑️ Usuń
+                    </button>
+                    <div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anuluj</button>
+                        <button type="submit" class="btn btn-primary">💾 Zapisz</button>
+                    </div>
                 </div>
             </form>
         </div>
     </div>
 </div>
+
+<!-- Ukryty formularz usuwania -->
+<form method="post" asp-page-handler="Delete" id="deleteForm" style="display:none">
+    <input type="hidden" name="entity" value="@Model.Entity" />
+    <input type="hidden" name="id" id="deleteId" />
+</form>
 
 <!-- Modal wyszukiwania dla FK Huge -->
 <div class="modal fade" id="searchModal" tabindex="-1">
@@ -288,7 +314,6 @@
                 }
                 
                 const data = await response.json();
-                console.log('Data received:', data);
                 
                 const fieldsContainer = document.getElementById('editFields');
                 fieldsContainer.innerHTML = '';
@@ -296,9 +321,46 @@
                 const idValue = data.Id || data.id || id;
                 fieldsContainer.innerHTML += `<input type="hidden" name="formData[Id]" value="${idValue}" />`;
 
-                const editableColumns = configJson.columns.filter(col => col.isEditable);
-                
-                for (const col of editableColumns) {
+                // Pokaż przycisk Usuń i ustaw ID do usunięcia
+                document.getElementById('deleteBtn').style.display = '';
+                document.getElementById('deleteId').value = idValue;
+                document.getElementById('editModalTitle').textContent = `Edycja: ${configJson.description}`;
+
+                await fillEditFields(data);
+
+                const modal = new bootstrap.Modal(document.getElementById('editModal'));
+                modal.show();
+            } catch (error) {
+                console.error('Error in openEditModal:', error);
+                alert('Błąd: ' + error.message);
+            }
+        }
+
+        async function openNewModal(entity) {
+            if (!configJson || !configJson.columns) {
+                alert('Błąd: Brak konfiguracji słownika.');
+                return;
+            }
+
+            const fieldsContainer = document.getElementById('editFields');
+            fieldsContainer.innerHTML = '';
+            fieldsContainer.innerHTML += `<input type="hidden" name="formData[Id]" value="0" />`;
+
+            // Ukryj przycisk Usuń dla nowego rekordu
+            document.getElementById('deleteBtn').style.display = 'none';
+            document.getElementById('editModalTitle').textContent = `Nowy rekord: ${configJson.description}`;
+
+            await fillEditFields({});
+
+            const modal = new bootstrap.Modal(document.getElementById('editModal'));
+            modal.show();
+        }
+
+        async function fillEditFields(data) {
+            const fieldsContainer = document.getElementById('editFields');
+            const editableColumns = configJson.columns.filter(col => col.isEditable);
+
+            for (const col of editableColumns) {
                     const value = data[col.propertyName] 
                                || data[col.propertyName.charAt(0).toUpperCase() + col.propertyName.slice(1)]
                                || '';
@@ -312,8 +374,7 @@
                         // Sprawdź tryb wyboru referencji
                         if (col.choiceMode === 'Huge') {
                             // Tryb HUGE - załaduj tylko opis dla aktualnej wartości
-                            console.log(`Loading description for: ${col.foreignKeyEntity}, ID=${value}`);
-                            let displayText = `ID: ${value}`;
+                            let displayText = value ? `ID: ${value}` : '';
                             
                             if (value) {
                                 try {
@@ -341,7 +402,6 @@
                             `;
                         } else {
                             // Tryb STANDARD - standardowa lista rozwijana
-                            console.log(`Loading FK options for: ${col.foreignKeyEntity}`);
                             const options = await loadForeignKeyOptions(col.foreignKeyEntity);
                             
                             fieldHtml = `
@@ -367,14 +427,15 @@
                         `;
                     }
                     
+                    
                     fieldsContainer.innerHTML += fieldHtml;
-                }
-                
-                const modal = new bootstrap.Modal(document.getElementById('editModal'));
-                modal.show();
-            } catch (error) {
-                console.error('Error in openEditModal:', error);
-                alert('Błąd: ' + error.message);
+            }
+        }
+
+        function confirmDelete() {
+            const idValue = document.getElementById('deleteId').value;
+            if (confirm(`Czy na pewno chcesz usunąć rekord ID=${idValue}? Tej operacji nie można cofnąć.`)) {
+                document.getElementById('deleteForm').submit();
             }
         }
 
