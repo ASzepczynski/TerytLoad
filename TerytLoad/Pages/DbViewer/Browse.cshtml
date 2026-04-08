@@ -3,13 +3,17 @@
 @using TerytLoad.Pages.DbViewer
 @{
     ViewData["Title"] = Model.Config?.DisplayName ?? "Przeglądarka";
+    if (Model.PickerMode) { Layout = "_PickerLayout"; }
 }
 
-<div class="container-fluid mt-4">
-<div class="d-flex justify-content-between align-items-center mb-3">
-    <h2>@Model.Config?.Icon @Model.Config?.DisplayName</h2>
-    <a href="/DbViewer" class="btn btn-secondary">← Powrót do menu</a>
-</div>
+<div class="container-fluid @(Model.PickerMode ? "" : "mt-4")">
+@if (!Model.PickerMode)
+{
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>@Model.Config?.Icon @Model.Config?.DisplayName</h2>
+        <a href="/DbViewer" class="btn btn-secondary">← Powrót do menu</a>
+    </div>
+}
 
 @* Kontekst rodzica (jeśli przeglądamy relację dziecko) *@
 @if (!string.IsNullOrEmpty(Model.ParentEntity) && Model.ParentId.HasValue)
@@ -25,22 +29,24 @@
 }
 
 @if (TempData["SuccessMessage"] != null)
-    {
-        <div class="alert alert-success alert-dismissible fade show">
-            @TempData["SuccessMessage"]
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-        </div>
-    }
+{
+    <div class="alert alert-success alert-dismissible fade show">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
 
-    @if (TempData["ErrorMessage"] != null)
-    {
-        <div class="alert alert-danger alert-dismissible fade show">
-            @TempData["ErrorMessage"]
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-        </div>
-    }
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
 
-    <!-- Formularz filtrowania -->
+@if (!Model.PickerMode)
+{
+<!-- Formularz filtrowania -->
     <div class="card mb-4">
         <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
             <h5 class="mb-0">🔍 Filtry</h5>
@@ -117,25 +123,29 @@
 
         </div>
     </div>
+} @* koniec @if (!Model.PickerMode) dla panelu filtrów *@
 
-    <!-- Tabela wyników -->
-    <div class="card">
+<!-- Tabela wyników -->
+<div class="card">
         <div class="card-header d-flex justify-content-between align-items-center">
             <h5 class="mb-0">
                 Tabela: @Model.Config?.Description
                 <span class="text-muted">(@Model.Items.Count rekordów
-                @if (string.IsNullOrEmpty(Model.FilterColumn) || string.IsNullOrEmpty(Model.FilterValue))
+                @if (!Model.ActiveFilters.Any())
                 {
                     <text>- maksymalnie 100 pozycji, użyj filtra aby zobaczyć więcej</text>
                 }
                 )</span>
             </h5>
-            <button type="button" class="btn btn-success btn-sm" onclick="openNewModal('@Model.Entity')">
-                ➕ Dodaj nowy
-            </button>
+            @if (!Model.PickerMode)
+            {
+                <button type="button" class="btn btn-success btn-sm" onclick="openNewModal('@Model.Entity')">
+                    ➕ Dodaj nowy
+                </button>
+            }
         </div>
         <div class="card-body">
-            @if (string.IsNullOrEmpty(Model.FilterColumn) && Model.Items.Count == 100)
+            @if (!Model.ActiveFilters.Any() && Model.Items.Count == 100)
             {
                 <div class="alert alert-info">
                     ℹ️ Wyświetlono pierwsze 100 rekordów. Użyj filtrów powyżej, aby zawęzić wyniki.
@@ -204,36 +214,46 @@
                                     }
                                 }
                                 <td>
-                                    <div class="dropdown">
-                                        <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                            ⚙️
+                                    @{
+                                        var idProp = Model.Config!.EntityType.GetProperty("Id");
+                                        var idValue = idProp?.GetValue(item);
+                                    }
+                                    @if (Model.PickerMode)
+                                    {
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="pickerSelect(@idValue); return false;">
+                                            ✔ Wybierz
                                         </button>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                @{
-                                                    var idProp = Model.Config!.EntityType.GetProperty("Id");
-                                                    var idValue = idProp?.GetValue(item);
-                                                }
-                                                <a class="dropdown-item" href="#" onclick="openEditModal('@Model.Entity', @idValue); return false;">
-                                                    ✏️ Edycja
-                                                </a>
-                                            </li>
-                                            @if (Model.Config?.ChildRelationships.Any() == true)
-                                            {
-                                                <li><hr class="dropdown-divider"></li>
-                                                <li><h6 class="dropdown-header">Powiązane rekordy</h6></li>
-                                                @foreach (var childRel in Model.Config.ChildRelationships)
+                                    }
+                                    else
+                                    {
+                                        <div class="dropdown">
+                                            <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                                ⚙️
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#" onclick="openEditModal('@Model.Entity', @idValue); return false;">
+                                                        ✏️ Edycja
+                                                    </a>
+                                                </li>
+                                                @if (Model.Config?.ChildRelationships.Any() == true)
                                                 {
-                                                    var childIdValue = idProp?.GetValue(item);
-                                                    <li>
-                                                        <a class="dropdown-item" href="/DbViewer/Browse?entity=@childRel.ChildEntityName&FilterColumn=@childRel.ForeignKeyPropertyName&FilterOperator=equals&FilterValue=@childIdValue&ParentEntity=@Model.Entity&ParentId=@childIdValue">
-                                                            @childRel.ChildIcon @childRel.ChildDisplayName
-                                                        </a>
-                                                    </li>
+                                                    <li><hr class="dropdown-divider"></li>
+                                                    <li><h6 class="dropdown-header">Powiązane rekordy</h6></li>
+                                                    @foreach (var childRel in Model.Config.ChildRelationships)
+                                                    {
+                                                        var childIdValue = idProp?.GetValue(item);
+                                                        <li>
+                                                            <a class="dropdown-item" href="/DbViewer/Browse?entity=@childRel.ChildEntityName&FilterColumn=@childRel.ForeignKeyPropertyName&FilterOperator=equals&FilterValue=@childIdValue&ParentEntity=@Model.Entity&ParentId=@childIdValue">
+                                                                @childRel.ChildIcon @childRel.ChildDisplayName
+                                                            </a>
+                                                        </li>
+                                                    }
                                                 }
-                                            }
-                                        </ul>
-                                    </div>
+                                            </ul>
+                                        </div>
+                                    }
                                 </td>
                             </tr>
                         }
@@ -244,6 +264,8 @@
     </div>
 </div>
 
+@if (!Model.PickerMode)
+{
 <!-- Modal edycji -->
 <div class="modal fade" id="editModal" tabindex="-1">
     <div class="modal-dialog">
@@ -300,6 +322,25 @@
         </div>
     </div>
 </div>
+} @* koniec @if (!Model.PickerMode) *@
+
+@* Modal pickera (iframe z Browse w trybie PickerMode) *@
+@if (!Model.PickerMode)
+{
+<div class="modal fade" id="pickerModal" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content" style="height:85vh">
+            <div class="modal-header py-2">
+                <h5 class="modal-title" id="pickerModalTitle">Wybierz rekord</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-0" style="overflow:hidden">
+                <iframe id="pickerIframe" src="" style="width:100%;height:100%;border:none"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+}
 
 @section Scripts {
     <script>
@@ -317,6 +358,32 @@
         {
             <text>
             console.error('❌ ConfigDto is NULL!');
+            </text>
+        }
+
+        async function loadForeignKeyOptions(entity) {
+            if (foreignKeyCache[entity]) {
+                return foreignKeyCache[entity];
+            }
+            try {
+                const response = await fetch(`/DbViewer/Browse?handler=ForeignKeyOptions&entity=${entity}`);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const options = await response.json();
+                foreignKeyCache[entity] = options;
+                return options;
+            } catch (error) {
+                console.error(`Error loading FK options for ${entity}:`, error);
+                return [];
+            }
+        }
+
+        @if (Model.PickerMode)
+        {
+            <text>
+        // Tryb pickera: po wybraniu rekordu powiadamiamy okno nadrzędne
+        function pickerSelect(id) {
+            window.parent.pickerSelected(id, '@Model.Entity');
+        }
             </text>
         }
 
@@ -483,70 +550,34 @@
         let searchTimeout = null;
 
         function openSearchModal(entity, fieldName, displayName) {
-            currentSearchEntity = entity;
+            // Otwórz Browse w trybie pickera w iframe
+            const url = `/DbViewer/Browse?entity=${entity}&PickerMode=true&PickerTargetField=${fieldName}`;
+            document.getElementById('pickerIframe').src = url;
+            document.getElementById('pickerModalTitle').textContent = `Wybierz: ${displayName}`;
+
             currentSearchField = fieldName;
-            
-            document.getElementById('searchModalTitle').textContent = `🔍 Wyszukiwanie: ${displayName}`;
-            document.getElementById('searchInput').value = '';
-            document.getElementById('searchResults').innerHTML = '<div class="text-center text-muted"><p>Wpisz co najmniej 3 znaki, aby rozpocząć wyszukiwanie</p></div>';
-            
-            const searchModal = new bootstrap.Modal(document.getElementById('searchModal'));
-            searchModal.show();
-            
-            // Nasłuchuj na wpisywanie
-            document.getElementById('searchInput').oninput = (e) => {
-                clearTimeout(searchTimeout);
-                const query = e.target.value;
-                
-                if (query.length < 3) {
-                    document.getElementById('searchResults').innerHTML = '<div class="text-center text-muted"><p>Wpisz co najmniej 3 znaki, aby rozpocząć wyszukiwanie</p></div>';
-                    return;
-                }
-                
-                searchTimeout = setTimeout(() => performSearch(query), 300);
-            };
+            const modal = new bootstrap.Modal(document.getElementById('pickerModal'));
+            modal.show();
         }
 
-        async function performSearch(query) {
-            const resultsContainer = document.getElementById('searchResults');
-            resultsContainer.innerHTML = '<div class="text-center"><div class="spinner-border" role="status"></div><p>Wyszukiwanie...</p></div>';
-            
-            try {
-                const response = await fetch(`/DbViewer/Browse?handler=Search&entity=${currentSearchEntity}&query=${encodeURIComponent(query)}`);
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                
-                const results = await response.json();
-                
-                if (results.length === 0) {
-                    resultsContainer.innerHTML = '<div class="alert alert-info">Nie znaleziono wyników</div>';
-                    return;
-                }
-                
-                let html = '<div class="list-group">';
-                results.forEach(item => {
-                    html += `
-                        <button type="button" class="list-group-item list-group-item-action" onclick="selectSearchResult(${item.id}, '${item.text.replace(/'/g, "\\'")}')">
-                            ${item.text}
-                        </button>
-                    `;
+        function pickerSelected(id, entity) {
+            // Wywołane przez iframe po wyborze rekordu
+            const fieldName = currentSearchField;
+
+            // Pobierz opis wybranego rekordu
+            fetch(`/DbViewer/Browse?handler=ForeignKeyDescription&entity=${entity}&id=${id}`)
+                .then(r => r.json())
+                .then(data => {
+                    document.getElementById(`fk_${fieldName}`).value = id;
+                    document.getElementById(`fk_display_${fieldName}`).value = data.text || `ID: ${id}`;
+                })
+                .catch(() => {
+                    document.getElementById(`fk_${fieldName}`).value = id;
+                    document.getElementById(`fk_display_${fieldName}`).value = `ID: ${id}`;
                 });
-                html += '</div>';
-                
-                resultsContainer.innerHTML = html;
-            } catch (error) {
-                console.error('Search error:', error);
-                resultsContainer.innerHTML = `<div class="alert alert-danger">Błąd wyszukiwania: ${error.message}</div>`;
-            }
-        }
 
-        function selectSearchResult(id, text) {
-            // Zaktualizuj wartości w formularzu edycji
-            document.getElementById(`fk_${currentSearchField}`).value = id;
-            document.getElementById(`fk_display_${currentSearchField}`).value = text;
-            
-            // Zamknij modal wyszukiwania
-            const searchModal = bootstrap.Modal.getInstance(document.getElementById('searchModal'));
-            searchModal.hide();
+            // Zamknij modal pickera
+            bootstrap.Modal.getInstance(document.getElementById('pickerModal')).hide();
         }
 
         // ── Filtry ────────────────────────────────────────────────────────────

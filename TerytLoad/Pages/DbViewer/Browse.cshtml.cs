@@ -49,6 +49,14 @@ namespace TerytLoad.Pages.DbViewer
         public List<FilterOption> FilterOptions { get; set; } = new();
         public List<FilterCondition> ActiveFilters { get; set; } = new();
 
+        // Tryb pickera (wybór FK) - gdy ustawiony, podmenu Akcja pokazuje tylko "Wybierz"
+        [BindProperty(SupportsGet = true)]
+        public bool PickerMode { get; set; }
+
+        /// <summary>Nazwa pola w formularzu edycji, do którego wróci wybrana wartość</summary>
+        [BindProperty(SupportsGet = true)]
+        public string? PickerTargetField { get; set; }
+
         // Stary parametr – potrzebny przy nawigacji child→parent (przekazuje FilterColumn=XxxId&FilterValue=ID)
         [BindProperty(SupportsGet = true)]
         public string? FilterColumn { get; set; }
