@@ -50,7 +50,13 @@ namespace TerytLoad.Pages.DbViewer
             {
                 var values = config.Columns
                     .Where(c => c.PropertyName != "Id" && !c.IsForeignKey)
-                    .Select(c => type.GetProperty(c.PropertyName)?.GetValue(entity)?.ToString() ?? "")
+                    .Select(c =>
+                    {
+                        var prop = type.GetProperty(c.PropertyName);
+                        if (prop == null || prop.GetIndexParameters().Length > 0) return "";
+                        try { return prop.GetValue(entity)?.ToString() ?? ""; }
+                        catch { return ""; }
+                    })
                     .Where(v => !string.IsNullOrEmpty(v));
 
                 return string.Join(" | ", values);
@@ -67,13 +73,18 @@ namespace TerytLoad.Pages.DbViewer
         {
             var type = entity.GetType();
             var properties = type.GetProperties(BindingFlags.Public | BindingFlags.Instance)
-                .Where(p => p.CanRead && 
-                           p.Name != "Id" && 
+                .Where(p => p.CanRead &&
+                           p.Name != "Id" &&
+                           p.GetIndexParameters().Length == 0 &&
                            IsSimpleType(p.PropertyType))
                 .OrderBy(p => p.Name);
 
             var values = properties
-                .Select(p => p.GetValue(entity)?.ToString() ?? "")
+                .Select(p =>
+                {
+                    try { return p.GetValue(entity)?.ToString() ?? ""; }
+                    catch { return ""; }
+                })
                 .Where(v => !string.IsNullOrEmpty(v));
 
             return string.Join(" | ", values);

@@ -217,7 +217,7 @@ namespace TerytLoad.Pages
                         }
 
                         // Spróbuj dopasować UlicaId używając AddressSearchService
-                        int? ulicaId = null;
+                        int ulicaId = -1;
 
                         if (!string.IsNullOrWhiteSpace(miasto) && !string.IsNullOrWhiteSpace(ulica))
                         {
@@ -287,14 +287,14 @@ namespace TerytLoad.Pages
                     messageBuilder.AppendLine($"   🏙️  Miasto: {office.Miasto}");
                     messageBuilder.AppendLine($"   🛣️  Ulica: {office.Ulica}");
                     messageBuilder.AppendLine($"   🏠 Nr domu: {office.NrDomu}");
-                    messageBuilder.AppendLine($"   🔑 UlicaId: {office.UlicaId?.ToString() ?? "NULL"}");
+                    messageBuilder.AppendLine($"   🔑 UlicaId: {office.UlicaId.ToString()}");
                     messageBuilder.AppendLine($"   ✉️  Email: {office.Email}");
                     messageBuilder.AppendLine($"   🌐 WWW: {office.Www}");
                 }
 
                 // Pokaż przykłady niedopasowanych ulic
                 var unmatchedOffices = await context.UrzedySkarbowe
-                    .Where(u => u.UlicaId == null && u.Ulica != null)
+                    .Where(u => u.UlicaId == -1)
                     .Take(5)
                     .ToListAsync();
 

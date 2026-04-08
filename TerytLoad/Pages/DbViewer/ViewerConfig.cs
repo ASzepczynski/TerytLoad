@@ -154,7 +154,8 @@ namespace TerytLoad.Pages.DbViewer
 
         private static bool IsForeignKeyProperty(PropertyInfo prop)
         {
-            return prop.Name.EndsWith("Id") && prop.PropertyType == typeof(int);
+            var underlying = Nullable.GetUnderlyingType(prop.PropertyType) ?? prop.PropertyType;
+            return prop.Name.EndsWith("Id") && underlying == typeof(int);
         }
 
         private static bool IsSimpleType(Type type)
