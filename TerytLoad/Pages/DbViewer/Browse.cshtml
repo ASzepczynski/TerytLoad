@@ -44,15 +44,13 @@
     </div>
 }
 
-@if (!Model.PickerMode)
-{
 <!-- Formularz filtrowania -->
-    <div class="card mb-4">
-        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-            <h5 class="mb-0">🔍 Filtry</h5>
-            <a href="/DbViewer/Browse?entity=@Model.Entity&ParentEntity=@Model.ParentEntity&ParentId=@Model.ParentId" class="btn btn-sm btn-outline-light">✕ Wyczyść filtry</a>
-        </div>
-        <div class="card-body">
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">🔍 Filtry</h5>
+        <a href="/DbViewer/Browse?entity=@Model.Entity&ParentEntity=@Model.ParentEntity&ParentId=@Model.ParentId&PickerMode=@Model.PickerMode&PickerTargetField=@Model.PickerTargetField" class="btn btn-sm btn-outline-light">✕ Wyczyść filtry</a>
+    </div>
+    <div class="card-body">
 
             @* Serializacja aktywnych filtrów - zawsze obecna, camelCase dla JS *@
             <input type="hidden" id="filtersJson" value="@System.Text.Json.JsonSerializer.Serialize(Model.ActiveFilters, new System.Text.Json.JsonSerializerOptions { PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase })" />
@@ -123,7 +121,6 @@
 
         </div>
     </div>
-} @* koniec @if (!Model.PickerMode) dla panelu filtrów *@
 
 <!-- Tabela wyników -->
 <div class="card">
@@ -172,7 +169,9 @@
                                     var isSorted = Model.SortColumn == col.PropertyName;
                                     var nextDir = (isSorted && Model.SortDirection == "asc") ? "desc" : "asc";
                                     var icon = isSorted ? (Model.SortDirection == "asc" ? " ▲" : " ▼") : "";
-                                    var sortUrl = $"/DbViewer/Browse?entity={Model.Entity}&FilterColumn={Model.FilterColumn}&FilterOperator={Model.FilterOperator}&FilterValue={Model.FilterValue}&ParentEntity={Model.ParentEntity}&ParentId={Model.ParentId}&SortColumn={col.PropertyName}&SortDirection={nextDir}";
+                                    var filtersParam = System.Text.Json.JsonSerializer.Serialize(Model.ActiveFilters, new System.Text.Json.JsonSerializerOptions { PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase });
+                                    var sortUrl = $"/DbViewer/Browse?entity={Model.Entity}&Filters={Uri.EscapeDataString(filtersParam)}&ParentEntity={Model.ParentEntity}&ParentId={Model.ParentId}&SortColumn={col.PropertyName}&SortDirection={nextDir}";
+                                    if (Model.PickerMode) sortUrl += $"&PickerMode=true&PickerTargetField={Model.PickerTargetField}";
                                     <th><a href="@sortUrl" class="text-decoration-none text-dark">@col.DisplayName@icon</a></th>
                                 }
                             }
@@ -661,16 +660,19 @@
         }
 
         function applyFilters() {
-            const json   = JSON.stringify(activeFilters);
-            const entity = '@Model.Entity';
-            const sort   = '@Model.SortColumn';
-            const dir    = '@Model.SortDirection';
-            const parent = '@Model.ParentEntity';
-            const pid    = '@Model.ParentId';
+            const json        = JSON.stringify(activeFilters);
+            const entity      = '@Model.Entity';
+            const sort        = '@Model.SortColumn';
+            const dir         = '@Model.SortDirection';
+            const parent      = '@Model.ParentEntity';
+            const pid         = '@Model.ParentId';
+            const pickerMode  = '@Model.PickerMode'.toLowerCase();
+            const pickerField = '@Model.PickerTargetField';
 
             let url = `/DbViewer/Browse?entity=${entity}&Filters=${encodeURIComponent(json)}`;
-            if (sort)   url += `&SortColumn=${sort}&SortDirection=${dir}`;
-            if (parent) url += `&ParentEntity=${parent}&ParentId=${pid}`;
+            if (sort)        url += `&SortColumn=${sort}&SortDirection=${dir}`;
+            if (parent)      url += `&ParentEntity=${parent}&ParentId=${pid}`;
+            if (pickerMode === 'true') url += `&PickerMode=true&PickerTargetField=${pickerField}`;
             window.location.href = url;
         }
     </script>
