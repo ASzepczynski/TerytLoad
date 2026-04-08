@@ -42,40 +42,79 @@
 
     <!-- Formularz filtrowania -->
     <div class="card mb-4">
-        <div class="card-header bg-primary text-white">
-            <h5 class="mb-0">🔍 Filtrowanie</h5>
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">🔍 Filtry</h5>
+            <a href="/DbViewer/Browse?entity=@Model.Entity&ParentEntity=@Model.ParentEntity&ParentId=@Model.ParentId" class="btn btn-sm btn-outline-light">✕ Wyczyść filtry</a>
         </div>
         <div class="card-body">
-            <form method="get" class="row g-3">
-                <input type="hidden" name="entity" value="@Model.Entity" />
+
+            @* Serializacja aktywnych filtrów - zawsze obecna, camelCase dla JS *@
+            <input type="hidden" id="filtersJson" value="@System.Text.Json.JsonSerializer.Serialize(Model.ActiveFilters, new System.Text.Json.JsonSerializerOptions { PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase })" />
+
+            @* Odznaki aktywnych filtrów - zawsze obecny kontener, JS go wypełnia *@
+            <div id="activeFilters" class="mb-3 d-flex flex-wrap gap-2 align-items-center"
+                 style="@(Model.ActiveFilters.Any() ? "" : "display:none!important")"></div>
+
+            @* Formularz dodawania nowego filtra *@
+            <div class="row g-2 align-items-end">
+
+                @* Spójnik i nawiasy - ukryte przy pierwszym filtrze, JS pokazuje od drugiego *@
+                <div id="connectorGroup" class="col-auto" style="@(Model.ActiveFilters.Any() ? "" : "display:none!important")">
+                    <label class="form-label">Spójnik</label>
+                    <select id="newConnector" class="form-select form-select-sm" style="width:90px">
+                        <option value="AND">AND</option>
+                        <option value="OR">OR</option>
+                    </select>
+                </div>
+                <div id="openParensGroup" class="col-auto" style="@(Model.ActiveFilters.Any() ? "" : "display:none!important")">
+                    <label class="form-label">( przed</label>
+                    <select id="newOpenParens" class="form-select form-select-sm" style="width:70px">
+                        <option value="0">—</option>
+                        <option value="1">(</option>
+                        <option value="2">((</option>
+                    </select>
+                </div>
+
                 <div class="col-md-3">
                     <label class="form-label">Kolumna</label>
-                    <select name="FilterColumn" class="form-select" asp-for="FilterColumn">
-                        <option value="">-- Wybierz kolumnę --</option>
+                    <select id="newColumn" class="form-select form-select-sm">
+                        <option value="">-- Wybierz --</option>
                         @foreach (var opt in Model.FilterOptions)
                         {
-                            <option value="@opt.FilterPath" selected="@(Model.FilterColumn == opt.FilterPath)">@opt.DisplayLabel</option>
+                            <option value="@opt.FilterPath" data-label="@opt.DisplayLabel">@opt.DisplayLabel</option>
                         }
                     </select>
                 </div>
-                <div class="col-md-3">
+                <div class="col-auto">
                     <label class="form-label">Operator</label>
-                    <select name="FilterOperator" class="form-select" asp-for="FilterOperator">
-                        <option value="contains">Zawiera</option>
-                        <option value="notcontains">Nie zawiera</option>
-                        <option value="equals">Równa się</option>
-                        <option value="notequals">Nie równa się</option>
+                    <select id="newOperator" class="form-select form-select-sm" style="width:130px">
+                        <option value="contains">zawiera</option>
+                        <option value="notcontains">nie zawiera</option>
+                        <option value="equals">równa się</option>
+                        <option value="notequals">różni się</option>
                     </select>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <label class="form-label">Wartość</label>
-                    <input type="text" name="FilterValue" class="form-control" asp-for="FilterValue" placeholder="Wprowadź wartość...">
+                    <input type="text" id="newValue" class="form-control form-control-sm" placeholder="Wartość..."
+                           onkeydown="if(event.key==='Enter'){addFilter();}">
                 </div>
-                <div class="col-md-2 d-flex align-items-end">
-                    <button type="submit" class="btn btn-primary me-2">Filtruj</button>
-                    <a href="/DbViewer/Browse?entity=@Model.Entity" class="btn btn-secondary">Wyczyść</a>
+
+                <div id="closeParensGroup" class="col-auto" style="@(Model.ActiveFilters.Any() ? "" : "display:none!important")">
+                    <label class="form-label">) po</label>
+                    <select id="newCloseParens" class="form-select form-select-sm" style="width:70px">
+                        <option value="0">—</option>
+                        <option value="1">)</option>
+                        <option value="2">))</option>
+                    </select>
                 </div>
-            </form>
+
+                <div class="col-auto d-flex gap-2">
+                    <button type="button" class="btn btn-outline-primary btn-sm" onclick="addFilter()">＋ Dodaj</button>
+                    <button type="button" class="btn btn-primary btn-sm" onclick="applyFilters()">▶ Filtruj</button>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -508,6 +547,100 @@
             // Zamknij modal wyszukiwania
             const searchModal = bootstrap.Modal.getInstance(document.getElementById('searchModal'));
             searchModal.hide();
+        }
+
+        // ── Filtry ────────────────────────────────────────────────────────────
+
+        let activeFilters = JSON.parse(document.getElementById('filtersJson')?.value || '[]');
+
+        // Wyrenderuj filtry odczytane z URL przy załadowaniu strony
+        renderFilterBadges();
+
+        function addFilter() {
+            const column   = document.getElementById('newColumn');
+            const operator = document.getElementById('newOperator');
+            const value    = document.getElementById('newValue');
+
+            if (!column.value) { alert('Wybierz kolumnę.'); return; }
+            if (!value.value.trim()) { alert('Podaj wartość.'); return; }
+
+            const label = column.options[column.selectedIndex].dataset.label || column.value;
+
+            const connector   = document.getElementById('newConnector')?.value   ?? 'AND';
+            const openParens  = parseInt(document.getElementById('newOpenParens')?.value  ?? '0');
+            const closeParens = parseInt(document.getElementById('newCloseParens')?.value ?? '0');
+
+            activeFilters.push({
+                connector:   connector,
+                openParens:  openParens,
+                column:      column.value,
+                operator:    operator.value,
+                value:       value.value.trim(),
+                closeParens: closeParens,
+                columnLabel: label
+            });
+
+            // Wyczyść pola
+            column.value  = '';
+            value.value   = '';
+            if (document.getElementById('newOpenParens'))  document.getElementById('newOpenParens').value  = '0';
+            if (document.getElementById('newCloseParens')) document.getElementById('newCloseParens').value = '0';
+
+            renderFilterBadges();
+        }
+
+        function removeFilter(index) {
+            activeFilters.splice(index, 1);
+            // Pierwszy filtr nie ma spójnika
+            if (activeFilters.length > 0) activeFilters[0].connector = 'AND';
+            renderFilterBadges();
+        }
+
+        function renderFilterBadges() {
+            const container = document.getElementById('activeFilters');
+            const hasFilters = activeFilters.length > 0;
+
+            // Pokaż/ukryj kontener odznak
+            container.style.display = hasFilters ? '' : 'none';
+
+            // Pokaż/ukryj spójnik i nawiasy (tylko od drugiego filtra)
+            ['connectorGroup', 'openParensGroup', 'closeParensGroup'].forEach(id => {
+                document.getElementById(id).style.display = hasFilters ? '' : 'none';
+            });
+
+            // Zbuduj odznaki
+            let html = '';
+            activeFilters.forEach((f, i) => {
+                if (i > 0) html += `<span class="badge bg-secondary">${f.connector}</span>`;
+                for (let p = 0; p < f.openParens;  p++) html += `<span class="text-muted fw-bold fs-5">(</span>`;
+                const opLabel = {contains:'zawiera',notcontains:'nie zawiera',equals:'=',notequals:'≠'}[f.operator] ?? f.operator;
+                html += `<span class="badge bg-primary d-flex align-items-center gap-1 fs-6 px-2 py-1">
+                            ${f.columnLabel} ${opLabel} &ldquo;${f.value}&rdquo;
+                            <button type="button" class="btn-close btn-close-white btn-sm ms-1"
+                                    style="font-size:0.6rem"
+                                    onclick="removeFilter(${i})"
+                                    title="Usuń filtr"></button>
+                         </span>`;
+                for (let p = 0; p < f.closeParens; p++) html += `<span class="text-muted fw-bold fs-5">)</span>`;
+            });
+            container.innerHTML = html;
+
+            // Zaktualizuj ukryte pole z JSON
+            document.getElementById('filtersJson').value = JSON.stringify(activeFilters);
+        }
+
+        function applyFilters() {
+            const json   = JSON.stringify(activeFilters);
+            const entity = '@Model.Entity';
+            const sort   = '@Model.SortColumn';
+            const dir    = '@Model.SortDirection';
+            const parent = '@Model.ParentEntity';
+            const pid    = '@Model.ParentId';
+
+            let url = `/DbViewer/Browse?entity=${entity}&Filters=${encodeURIComponent(json)}`;
+            if (sort)   url += `&SortColumn=${sort}&SortDirection=${dir}`;
+            if (parent) url += `&ParentEntity=${parent}&ParentId=${pid}`;
+            window.location.href = url;
         }
     </script>
 }
