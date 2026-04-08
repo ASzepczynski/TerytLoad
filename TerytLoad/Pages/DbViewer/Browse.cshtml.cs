@@ -1,8 +1,12 @@
 ﻿using AddressLibrary.Data;
+using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Spreadsheet;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using System.Text;
 using System.Text.Json;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq.Expressions;
@@ -161,6 +165,123 @@ namespace TerytLoad.Pages.DbViewer
             }
 
             return new();
+        }
+
+        public async Task<IActionResult> OnGetExportExcelAsync()
+        {
+            Config = ViewerRegistry.GetConfig(Entity);
+            if (Config == null)
+                return NotFound($"Nie znaleziono konfiguracji dla: {Entity}");
+
+            ActiveFilters = ParseFilters();
+            var items = await GetItemsFromDbAsync(Config.EntityType, ActiveFilters, SortColumn, SortDirection);
+            if (items == null)
+                return NotFound();
+
+            var headers = Config.Columns.Select(c => c.DisplayName).ToList();
+            var rows = items.Select(item => Config.Columns.Select(col =>
+                GetDisplayValue(item, col, Config)).ToList()).ToList();
+
+            using var ms = new MemoryStream();
+            using (var doc = SpreadsheetDocument.Create(ms, SpreadsheetDocumentType.Workbook))
+            {
+                var workbookPart = doc.AddWorkbookPart();
+                workbookPart.Workbook = new Workbook();
+
+                var worksheetPart = workbookPart.AddNewPart<WorksheetPart>();
+                var sheetData = new SheetData();
+                worksheetPart.Worksheet = new Worksheet(sheetData);
+
+                var sheets = doc.WorkbookPart!.Workbook.AppendChild(new Sheets());
+                sheets.Append(new Sheet
+                {
+                    Id = doc.WorkbookPart.GetIdOfPart(worksheetPart),
+                    SheetId = 1,
+                    Name = Config.DisplayName.Length > 31
+                        ? Config.DisplayName[..31]
+                        : Config.DisplayName
+                });
+
+                // Nagłówki
+                var headerRow = new Row();
+                foreach (var h in headers)
+                    headerRow.Append(new Cell
+                    {
+                        DataType = CellValues.InlineString,
+                        InlineString = new InlineString(new Text(h))
+                    });
+                sheetData.Append(headerRow);
+
+                // Dane
+                foreach (var row in rows)
+                {
+                    var dataRow = new Row();
+                    foreach (var cell in row)
+                        dataRow.Append(new Cell
+                        {
+                            DataType = CellValues.InlineString,
+                            InlineString = new InlineString(new Text(cell ?? string.Empty))
+                        });
+                    sheetData.Append(dataRow);
+                }
+
+                workbookPart.Workbook.Save();
+            }
+
+            var fileName = $"{Entity}_{DateTime.Now:yyyyMMdd_HHmmss}.xlsx";
+            return File(ms.ToArray(),
+                "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                fileName);
+        }
+
+        public async Task<IActionResult> OnGetExportCsvAsync()
+        {
+            Config = ViewerRegistry.GetConfig(Entity);
+            if (Config == null)
+                return NotFound($"Nie znaleziono konfiguracji dla: {Entity}");
+
+            ActiveFilters = ParseFilters();
+            var items = await GetItemsFromDbAsync(Config.EntityType, ActiveFilters, SortColumn, SortDirection);
+            if (items == null)
+                return NotFound();
+
+            const string sep = "|";
+            var sb = new StringBuilder();
+
+            // Nagłówki
+            sb.AppendLine(string.Join(sep, Config.Columns.Select(c => EscapeCsvField(c.DisplayName, sep))));
+
+            // Dane
+            foreach (var item in items)
+            {
+                var cells = Config.Columns.Select(col =>
+                    EscapeCsvField(GetDisplayValue(item, col, Config) ?? string.Empty, sep));
+                sb.AppendLine(string.Join(sep, cells));
+            }
+
+            var bytes = Encoding.UTF8.GetPreamble().Concat(Encoding.UTF8.GetBytes(sb.ToString())).ToArray();
+            var fileName = $"{Entity}_{DateTime.Now:yyyyMMdd_HHmmss}.csv";
+            return File(bytes, "text/csv; charset=utf-8", fileName);
+        }
+
+        private static string? GetDisplayValue(object item, ColumnConfig col, ViewerConfig config)
+        {
+            if (col.IsForeignKey && !string.IsNullOrEmpty(col.ForeignKeyNavigationProperty))
+            {
+                var navProp = config.EntityType.GetProperty(col.ForeignKeyNavigationProperty);
+                var navItem = navProp?.GetValue(item);
+                if (navItem == null) return null;
+                var fkConfig = ViewerRegistry.GetConfig(col.ForeignKeyEntity!);
+                return EntityDescriptionHelper.GetDescription(navItem, fkConfig);
+            }
+            return config.EntityType.GetProperty(col.PropertyName)?.GetValue(item)?.ToString();
+        }
+
+        private static string EscapeCsvField(string value, string sep)
+        {
+            if (value.Contains(sep) || value.Contains('"') || value.Contains('\n'))
+                return "\"" + value.Replace("\"", "\"\"") + "\"";
+            return value;
         }
 
         public async Task<IActionResult> OnGetEditAsync([FromQuery] string entity, [FromQuery] int id)

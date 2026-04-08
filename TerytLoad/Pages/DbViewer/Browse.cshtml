@@ -134,12 +134,36 @@
                 }
                 )</span>
             </h5>
-            @if (!Model.PickerMode)
-            {
-                <button type="button" class="btn btn-success btn-sm" onclick="openNewModal('@Model.Entity')">
-                    ➕ Dodaj nowy
-                </button>
-            }
+            <div class="d-flex gap-2">
+                @{
+                    var exportFiltersParam = System.Text.Json.JsonSerializer.Serialize(Model.ActiveFilters, new System.Text.Json.JsonSerializerOptions { PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase });
+                    var exportBaseUrl = $"/DbViewer/Browse?entity={Model.Entity}&Filters={Uri.EscapeDataString(exportFiltersParam)}&SortColumn={Model.SortColumn}&SortDirection={Model.SortDirection}";
+                }
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ⬇️ Eksport
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><h6 class="dropdown-header">Eksportuj dane</h6></li>
+                        <li>
+                            <a class="dropdown-item" href="@(exportBaseUrl)&handler=ExportExcel">
+                                📗 Excel (.xlsx)
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="@(exportBaseUrl)&handler=ExportCsv">
+                                📄 CSV (separator „|")
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                @if (!Model.PickerMode)
+                {
+                    <button type="button" class="btn btn-success btn-sm" onclick="openNewModal('@Model.Entity')">
+                        ➕ Dodaj nowy
+                    </button>
+                }
+            </div>
         </div>
         <div class="card-body">
             @if (!Model.ActiveFilters.Any() && Model.Items.Count == 100)
