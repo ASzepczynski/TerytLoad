@@ -38,6 +38,8 @@
                             <ul class="dropdown-menu" aria-labelledby="browseDropdown">
                                 <li><a class="dropdown-item" asp-page="/BrowseTeryt"><i class="bi bi-map"></i> Przeglądarka TERYT</a></li>
                                 <li><a class="dropdown-item" asp-page="/Browse"><i class="bi bi-diagram-3"></i> Przeglądarka hierarchii</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" asp-page="/DbViewer/Index"><i class="bi bi-journals"></i> Słowniki</a></li>
                             </ul>
                         </li>
 
@@ -50,14 +52,14 @@
                                 <li><h6 class="dropdown-header">Dane TERYT</h6></li>
                                 <li><a class="dropdown-item" asp-page="/Database"><i class="bi bi-table"></i> Ładuj dane TERYT</a></li>
                                 <li><a class="dropdown-item" asp-page="/BuildHierarchy"><i class="bi bi-diagram-3-fill"></i> Buduj strukturę hierarchiczną</a></li>
+                                <li><a class="dropdown-item" asp-page="/LoadTerytUlicPoprawki"><i class="bi bi-signpost-split"></i> Słowniki ulic (Poprawki + Typy)</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><h6 class="dropdown-header">Kody pocztowe</h6></li>
                                 <li><a class="dropdown-item" asp-page="/LoadPnaCsv"><i class="bi bi-file-earmark-csv"></i> Kody PNA (CSV)</a></li>
-                                <li><a class="dropdown-item" asp-page="/LoadPdf"><i class="bi bi-file-earmark-pdf"></i> Kody PNA (PDF - stare)</a></li>
                                 <li><a class="dropdown-item" asp-page="/LoadPostalCodes"><i class="bi bi-mailbox"></i> Kody pocztowe</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><h6 class="dropdown-header">Słowniki</h6></li>
-                                <li><a class="dropdown-item" asp-page="/LoadTerytUlicPoprawki"><i class="bi bi-signpost-split"></i> Słowniki ulic (Poprawki + Typy)</a></li>
+                                <li><a class="dropdown-item" asp-page="/ProcessTaxOffices"><i class="bi bi-building"></i> Urzędy skarbowe</a></li>
                             </ul>
                         </li>
 
@@ -84,25 +86,13 @@
                                 <li><hr class="dropdown-divider"></li>
                                 <li><h6 class="dropdown-header">Narzędzia</h6></li>
                                 <li><a class="dropdown-item" asp-page="/Tools/FilterAddresses"><i class="bi bi-funnel"></i> Filtruj adresy (błędy)</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- 6. Inne -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" id="otherDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="bi bi-three-dots"></i> Inne
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="otherDropdown">
                                 <li><a class="dropdown-item" asp-page="/ValidateTerytUlicPoprawki"><i class="bi bi-check-circle"></i> Walidacja typów ulic</a></li>
                                 <li><a class="dropdown-item" asp-page="/VerifyPostalCodes"><i class="bi bi-mailbox2"></i> Weryfikacja kodów pocztowych</a></li>
                                 <li><a class="dropdown-item" asp-page="/ExportToExcel"><i class="bi bi-file-earmark-excel"></i> Eksport do Excel</a></li>
-                                <li><a class="dropdown-item" asp-page="/ProcessTaxOffices"><i class="bi bi-building"></i> Urzędy skarbowe</a></li>
                             </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" asp-page="/DbViewer/Index">📚 Słowniki</a>
-                        </li>
+
 
                     </ul>
                 </div>

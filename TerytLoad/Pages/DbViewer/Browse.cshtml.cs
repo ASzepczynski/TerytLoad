@@ -188,6 +188,31 @@ namespace TerytLoad.Pages.DbViewer
                 var workbookPart = doc.AddWorkbookPart();
                 workbookPart.Workbook = new Workbook();
 
+                // Style: jasnozielone tło nagłówków (#C6EFCE)
+                var stylesPart = workbookPart.AddNewPart<WorkbookStylesPart>();
+                stylesPart.Stylesheet = new Stylesheet(
+                    new Fonts(
+                        new Font(),                                                     // font 0 – normalny (dane)
+                        new Font(new Bold())),                                          // font 1 – pogrubiony (nagłówek)
+                    new Fills(
+                        new Fill(new PatternFill { PatternType = PatternValues.None }), // fill 0 – wymagany
+                        new Fill(new PatternFill { PatternType = PatternValues.Gray125 }), // fill 1 – wymagany
+                        new Fill(new PatternFill(                                        // fill 2 – jasnozielony
+                            new ForegroundColor { Rgb = "FFC6EFCE" })
+                        { PatternType = PatternValues.Solid })),
+                    new Borders(
+                        new Border()),                                                  // border 0 – pusty
+                    new CellStyleFormats(
+                        new CellFormat()),                                              // cellStyleFormat 0
+                    new CellFormats(
+                        new CellFormat { FontId = 0, ApplyFont = true },               // styl 0 – dane (normalny)
+                        new CellFormat                                                  // styl 1 – nagłówek
+                        {
+                            FontId = 1, FillId = 2, BorderId = 0,
+                            ApplyFont = true, ApplyFill = true
+                        }));
+                stylesPart.Stylesheet.Save();
+
                 var worksheetPart = workbookPart.AddNewPart<WorksheetPart>();
                 var sheetData = new SheetData();
                 worksheetPart.Worksheet = new Worksheet(sheetData);
@@ -202,13 +227,14 @@ namespace TerytLoad.Pages.DbViewer
                         : Config.DisplayName
                 });
 
-                // Nagłówki
+                // Nagłówki – styl 1 (jasnozielone tło, pogrubienie)
                 var headerRow = new Row();
                 foreach (var h in headers)
                     headerRow.Append(new Cell
                     {
                         DataType = CellValues.InlineString,
-                        InlineString = new InlineString(new Text(h))
+                        InlineString = new InlineString(new Text(h)),
+                        StyleIndex = 1
                     });
                 sheetData.Append(headerRow);
 
