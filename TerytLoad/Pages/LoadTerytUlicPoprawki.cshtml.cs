@@ -393,7 +393,6 @@ namespace TerytLoad.Pages
 
                 if (tytulStopienId == -2)
                 {
-                    _logger.LogError($"Brak tytułu [{item.Tytul}]");
                     tytulStopienId = -1;
                 }
 
