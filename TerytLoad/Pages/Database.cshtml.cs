@@ -1,22 +1,30 @@
 ﻿using AddressLibrary;
 using AddressLibrary.Models;
+using AddressLibrary.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.SignalR;
 using System.IO.Compression;
 using TerytLoad.Configuration;
+using TerytLoad.Hubs;
 
 namespace TerytLoad.Pages
 {
     public class DatabaseModel : PageModel
     {
+        private readonly IHubContext<ProgressHub> _hubContext;
         private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _environment;
 
         [BindProperty]
         public string Message { get; set; } = string.Empty;
 
-        public DatabaseModel(IConfiguration configuration, IWebHostEnvironment environment)
+        public DatabaseModel(
+            IHubContext<ProgressHub> hubContext,
+            IConfiguration configuration,
+            IWebHostEnvironment environment)
         {
+            _hubContext = hubContext;
             _configuration = configuration;
             _environment = environment;
         }
@@ -55,34 +63,64 @@ namespace TerytLoad.Pages
                 var appDataPath = _environment.ContentRootPath;
                 var database = new AddressDatabase(connectionString, appDataPath);
 
-                Message = "🚀 Rozpoczęto ładowanie danych TERYT...{Environment.NewLine}";
-
-                // Znajdź folder z plikami
-                var projectPath = _environment.ContentRootPath;
-                var terytPath = Path.Combine(projectPath, "AppData", "Teryt");
+                var terytPath = Path.Combine(appDataPath, "AppData", "Teryt");
 
                 if (!Directory.Exists(terytPath))
                 {
-                    Message += $"✗ Nie znaleziono folderu: {terytPath}{Environment.NewLine}";
+                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt", 0, 1,
+                        $"❌ Nie znaleziono folderu: {terytPath}");
+                    Message = $"Nie znaleziono folderu: {terytPath}";
                     return Page();
                 }
 
-                Message += $"✓ Znaleziono folder: {terytPath}{Environment.NewLine}";
-
-                // Znajdź wszystkie pliki ZIP
                 var allZipFiles = Directory.GetFiles(terytPath, "*.zip").ToList();
 
                 if (!allZipFiles.Any())
                 {
-                    Message += $"✗ Nie znaleziono plików ZIP w folderze";
+                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt", 0, 1,
+                        "❌ Nie znaleziono plików ZIP w folderze.");
+                    Message = "Nie znaleziono plików ZIP w folderze.";
                     return Page();
                 }
 
-                Message += $"✓ Znaleziono {allZipFiles.Count} plik(ów) ZIP{Environment.NewLine}{Environment.NewLine}";
-
-                var loadedFiles = new List<string>();
+                // Policz łączną liczbę plików CSV do załadowania
                 var tempDir = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString());
                 Directory.CreateDirectory(tempDir);
+
+                // Krok 1 — informacja startowa
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt", 0, 100,
+                    $"Znaleziono {allZipFiles.Count} plik(ów) ZIP. Rozpakowywanie...");
+
+                var loadedFiles = new List<string>();
+                int totalFiles = 0;
+                int doneFiles = 0;
+
+                // Policz najpierw ile plików CSV będziemy ładować
+                foreach (var zipFile in allZipFiles)
+                {
+                    var countPath = Path.Combine(tempDir, "count_" + Path.GetFileNameWithoutExtension(zipFile));
+                    Directory.CreateDirectory(countPath);
+                    ZipFile.ExtractToDirectory(zipFile, countPath);
+                    var csvFiles = Directory.GetFiles(countPath, "*.csv", SearchOption.AllDirectories);
+                    var hasUrzedowy = Path.GetFileName(zipFile).Contains("Urzedowy", StringComparison.OrdinalIgnoreCase);
+                    foreach (var csv in csvFiles)
+                    {
+                        var fn = Path.GetFileName(csv).ToUpper();
+                        if ((fn.Contains("SIMC") || fn.Contains("TERC") || fn.Contains("ULIC")) && hasUrzedowy)
+                            totalFiles++;
+                        else if (fn.Contains("WMRODZ"))
+                            totalFiles++;
+                    }
+                }
+
+                if (totalFiles == 0)
+                {
+                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt", 0, 1,
+                        "❌ Nie znaleziono rozpoznawalnych plików CSV (SIMC, TERC, ULIC, WMRODZ).");
+                    Directory.Delete(tempDir, true);
+                    Message = "Nie znaleziono rozpoznawalnych plików CSV.";
+                    return Page();
+                }
 
                 try
                 {
@@ -90,83 +128,91 @@ namespace TerytLoad.Pages
                     {
                         var zipFileName = Path.GetFileName(zipFile);
                         var hasUrzedowy = zipFileName.Contains("Urzedowy", StringComparison.OrdinalIgnoreCase);
+                        var extractPath = Path.Combine(tempDir, "count_" + Path.GetFileNameWithoutExtension(zipFile));
 
-                        Message += $"📦 Rozpakowywanie: {zipFileName}{Environment.NewLine}";
-
-                        // Rozpakuj ZIP
-                        var extractPath = Path.Combine(tempDir, Path.GetFileNameWithoutExtension(zipFile));
-                        ZipFile.ExtractToDirectory(zipFile, extractPath);
-
-                        // Znajdź pliki CSV
                         var csvFiles = Directory.GetFiles(extractPath, "*.csv", SearchOption.AllDirectories);
-                        Message += $"   Znaleziono {csvFiles.Length} plik(ów) CSV{Environment.NewLine}";
 
                         foreach (var csvFile in csvFiles)
                         {
                             var fileName = Path.GetFileName(csvFile).ToUpper();
+                            string? tableLabel = null;
 
                             if (fileName.Contains("SIMC") && hasUrzedowy)
                             {
-                                Message += $"   🗑️ Czyszczenie tabeli TerytSimc...{Environment.NewLine}";
+                                tableLabel = "SIMC";
+                                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt",
+                                    doneFiles, totalFiles, $"🗑️ Czyszczenie tabeli TerytSimc...");
                                 await database.ClearTableAsync<TerytSimc>();
-
-                                Message += $"   ⏳ Ładowanie SIMC: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
-                                await database.LoadDataFromCsvAsync<TerytSimc>(csvFile);
-                                loadedFiles.Add($"✓ SIMC: {Path.GetFileName(csvFile)}");
                             }
                             else if (fileName.Contains("TERC") && hasUrzedowy)
                             {
-                                Message += $"   🗑️ Czyszczenie tabeli TerytTerc...{Environment.NewLine}";
+                                tableLabel = "TERC";
+                                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt",
+                                    doneFiles, totalFiles, $"🗑️ Czyszczenie tabeli TerytTerc...");
                                 await database.ClearTableAsync<TerytTerc>();
-
-                                Message += $"   ⏳ Ładowanie TERC: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
-                                await database.LoadDataFromCsvAsync<TerytTerc>(csvFile);
-                                loadedFiles.Add($"✓ TERC: {Path.GetFileName(csvFile)}");
                             }
                             else if (fileName.Contains("ULIC") && hasUrzedowy)
                             {
-                                Message += $"   🗑️ Czyszczenie tabeli TerytUlic...{Environment.NewLine}";
+                                tableLabel = "ULIC";
+                                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt",
+                                    doneFiles, totalFiles, $"🗑️ Czyszczenie tabeli TerytUlic...");
                                 await database.ClearTableAsync<TerytUlic>();
-
-                                Message += $"   ⏳ Ładowanie ULIC: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
-                                await database.LoadDataFromCsvAsync<TerytUlic>(csvFile);
-                                loadedFiles.Add($"✓ ULIC: {Path.GetFileName(csvFile)}");
                             }
                             else if (fileName.Contains("WMRODZ"))
                             {
-                                Message += $"   🗑️ Czyszczenie tabeli TerytWmRodz...{Environment.NewLine}";
+                                tableLabel = "WMRODZ";
+                                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt",
+                                    doneFiles, totalFiles, $"🗑️ Czyszczenie tabeli TerytWmRodz...");
                                 await database.ClearTableAsync<TerytWmRodz>();
-
-                                Message += $"   ⏳ Ładowanie WMRODZ: {Path.GetFileName(csvFile)}...{Environment.NewLine}";
-                                await database.LoadDataFromCsvAsync<TerytWmRodz>(csvFile);
-                                loadedFiles.Add($"✓ WMRODZ: {Path.GetFileName(csvFile)}");
                             }
+
+                            if (tableLabel == null)
+                                continue;
+
+                            var progress = new Progress<LoadProgress>(async p =>
+                            {
+                                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt",
+                                    doneFiles, totalFiles,
+                                    $"⏳ {tableLabel}: {p.CurrentOperation}");
+                            });
+
+                            if (tableLabel == "SIMC")
+                                await database.LoadDataFromCsvAsync<TerytSimc>(csvFile, progress);
+                            else if (tableLabel == "TERC")
+                                await database.LoadDataFromCsvAsync<TerytTerc>(csvFile, progress);
+                            else if (tableLabel == "ULIC")
+                                await database.LoadDataFromCsvAsync<TerytUlic>(csvFile, progress);
+                            else if (tableLabel == "WMRODZ")
+                                await database.LoadDataFromCsvAsync<TerytWmRodz>(csvFile, progress);
+
+                            doneFiles++;
+                            loadedFiles.Add($"✓ {tableLabel}: {Path.GetFileName(csvFile)}");
+
+                            await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt",
+                                doneFiles, totalFiles,
+                                $"✓ Załadowano {tableLabel}: {Path.GetFileName(csvFile)}");
                         }
                     }
 
-                    Message += $"{Environment.NewLine}{'=',-50}{Environment.NewLine}";
+                    var summary = $"✅ SUKCES! Załadowano {loadedFiles.Count} plików:{Environment.NewLine}{Environment.NewLine}" +
+                                  string.Join(Environment.NewLine, loadedFiles);
 
-                    if (loadedFiles.Any())
-                    {
-                        Message += $"✅ SUKCES! Załadowano {loadedFiles.Count} plików:{Environment.NewLine}{Environment.NewLine}";
-                        Message += string.Join("{Environment.NewLine}", loadedFiles);
-                    }
-                    else
-                    {
-                        Message += "⚠️ Nie znaleziono rozpoznawalnych plików CSV (SIMC, TERC, ULIC, WMRODZ)";
-                    }
+                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt",
+                        totalFiles, totalFiles, summary);
+
+                    Message = summary;
                 }
                 finally
                 {
                     if (Directory.Exists(tempDir))
-                    {
                         Directory.Delete(tempDir, true);
-                    }
                 }
             }
             catch (Exception ex)
             {
-                Message = $"❌ BŁĄD podczas ładowania plików:{Environment.NewLine}{ex.Message}{Environment.NewLine}{Environment.NewLine}Stack trace:{Environment.NewLine}{ex.StackTrace}";
+                var errorMsg = $"❌ BŁĄD podczas ładowania plików:{Environment.NewLine}{ex.Message}";
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-teryt", 0, 1, errorMsg);
+                Message = errorMsg;
             }
 
             return Page();

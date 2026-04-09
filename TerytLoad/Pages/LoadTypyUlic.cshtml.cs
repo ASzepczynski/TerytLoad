@@ -1,43 +1,40 @@
 using AddressLibrary.Data;
+using AddressLibrary;
 using AddressLibrary.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using AddressLibrary;
+using Microsoft.AspNetCore.SignalR;
+using TerytLoad.Hubs;
 
 namespace TerytLoad.Pages
 {
     public class LoadTypyUlicModel : PageModel
     {
+        private readonly IHubContext<ProgressHub> _hubContext;
         private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _environment;
 
-        public bool IsProcessing { get; set; }
+        public string? Message { get; set; }
         public bool ShowResults { get; set; }
-        public string CurrentOperation { get; set; } = string.Empty;
-        public int TotalCount { get; set; }
-        public int FoundCount { get; set; }
-        public int NotFoundCount { get; set; }
-        public string LogFilePath { get; set; } = string.Empty;
-        public int ProgressPercentage => TotalCount > 0 ? (ProcessedCount * 100 / TotalCount) : 0;
-        private int ProcessedCount { get; set; }
 
-        public LoadTypyUlicModel(IConfiguration configuration, IWebHostEnvironment environment)
+        public LoadTypyUlicModel(
+            IHubContext<ProgressHub> hubContext,
+            IConfiguration configuration,
+            IWebHostEnvironment environment)
         {
+            _hubContext = hubContext;
             _configuration = configuration;
             _environment = environment;
         }
 
         public void OnGet()
         {
-            // Strona startowa
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
             try
             {
-                IsProcessing = true;
-
                 var connectionString = _configuration.GetConnectionString("AddressDatabase")
                     ?? throw new InvalidOperationException("Connection string 'AddressDatabase' not found.");
 
@@ -46,34 +43,49 @@ namespace TerytLoad.Pages
                 var db = new AddressDatabase(connectionString, appDataPath);
                 var context = db.GetContext();
 
-                var loader = new LoadTypyUlicService(context, appDataPath);
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "load-typy-ulic", 0, 100,
+                    "Rozpoczynam ³adowanie TypyUlic...");
 
-                var progress = new Progress<ValidatorProgress>(p =>
+                using var loader = new LoadTypyUlicService(context, appDataPath);
+
+                var progress = new Progress<ValidatorProgress>(async p =>
                 {
-                    CurrentOperation = p.CurrentOperation;
-                    TotalCount = p.TotalCount;
-                    ProcessedCount = p.ProcessedCount;
+                    await _hubContext.Clients.All.SendAsync("ReceiveProgress",
+                        "load-typy-ulic",
+                        p.ProcessedCount,
+                        p.TotalCount > 0 ? p.TotalCount : 100,
+                        p.CurrentOperation);
                 });
 
                 var result = await loader.LoadAsync(progress);
 
-                // Poka¿ wyniki
-                IsProcessing = false;
-                ShowResults = true;
-                CurrentOperation = "Zakoñczono ³adowanie";
-                TotalCount = result.TotalCount;
-                FoundCount = result.FoundCount;
-                NotFoundCount = result.NotFoundCount;
-                LogFilePath = Path.Combine(appDataPath, "AppData", "Logs", "LoadTypyUlic.txt");
+                var logFilePath = Path.Combine(appDataPath, "AppData", "Logs", "LoadTypyUlic.txt");
+                var coverage = result.TotalCount > 0 ? (result.FoundCount * 100.0 / result.TotalCount) : 0;
+                var summary = $"? Zakoñczono ³adowanie TypyUlic{Environment.NewLine}{Environment.NewLine}" +
+                              $"Przetworzonych: {result.TotalCount}{Environment.NewLine}" +
+                              $"Znaleziono w s³owniku: {result.FoundCount}{Environment.NewLine}" +
+                              $"Brak w s³owniku: {result.NotFoundCount}{Environment.NewLine}" +
+                              $"Pokrycie: {coverage:F2}%{Environment.NewLine}{Environment.NewLine}" +
+                              $"?? Log: {logFilePath}";
 
-                loader.Dispose();
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress",
+                    "load-typy-ulic",
+                    result.TotalCount,
+                    result.TotalCount > 0 ? result.TotalCount : 100,
+                    summary);
+
+                ShowResults = true;
+                Message = summary;
 
                 return Page();
             }
             catch (Exception ex)
             {
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress",
+                    "load-typy-ulic", 0, 100,
+                    $"? B³¹d: {ex.Message}");
+
                 ModelState.AddModelError(string.Empty, $"B³¹d: {ex.Message}");
-                IsProcessing = false;
                 return Page();
             }
         }
