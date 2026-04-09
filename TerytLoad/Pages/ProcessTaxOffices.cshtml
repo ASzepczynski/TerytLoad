@@ -25,23 +25,17 @@
                         <div class="alert alert-info">
                             <h6><i class="bi bi-info-circle"></i> Informacje o procesie:</h6>
                             <ul class="mb-0">
-                                <li><strong>Plik źródłowy:</strong> <code>c:\dane\us\UrzedySkarbowe.xlsx</code></li>
+                                <li><strong>Plik źródłowy:</strong> <code>AppData/Dictionaries/UrzedySkarbowe.xlsx</code></li>
                                 <li><strong>Tabela docelowa:</strong> <code>UrzedySkarbowe</code> w bazie danych</li>
                                 <li><strong>Akcja:</strong> Zastąpienie istniejących danych</li>
                                 <li><strong>Dopasowanie ulic:</strong> Automatyczne używając AddressSearchService</li>
                             </ul>
                         </div>
 
-                        <div class="alert alert-warning">
-                            <h6><i class="bi bi-exclamation-triangle"></i> Struktura danych w pliku Excel:</h6>
-                            <p class="mb-1">Dane są odczytywane z kolumny A w następującej kolejności (cyklicznie co 5 wierszy):</p>
-                            <ol class="mb-0">
-                                <li><strong>A1, A6, A11...</strong> - Nazwa urzędu</li>
-                                <li><strong>A2, A7, A12...</strong> - Adres urzędu</li>
-                                <li><strong>A3, A8, A13...</strong> - Telefon/Faks</li>
-                                <li><strong>A4, A9, A14...</strong> - Email</li>
-                                <li><strong>A5, A10, A15...</strong> - Adres WWW</li>
-                            </ol>
+                        <div class="alert alert-secondary">
+                            <h6><i class="bi bi-table"></i> Oczekiwana struktura pliku Excel:</h6>
+                            <p class="mb-1">Pierwszy wiersz to nagłówki, kolejne wiersze to dane:</p>
+                            <code>Nazwa | Kod | Miasto | ulica | NrDomu | Email | WWW | Zasieg</code>
                         </div>
 
                         <div class="d-grid gap-2">
@@ -68,23 +62,23 @@
                     </p>
                     <ul class="small">
                         <li><strong>Nazwa</strong> - nazwa urzędu</li>
-                        <li><strong>Kod</strong> - kod pocztowy (parsowany z adresu)</li>
-                        <li><strong>Miasto</strong> - nazwa miasta (parsowana z adresu)</li>
-                        <li><strong>Ulica</strong> - nazwa ulicy (parsowana z adresu)</li>
-                        <li><strong>NrDomu</strong> - numer budynku (parsowany z adresu)</li>
+                        <li><strong>Kod</strong> - kod pocztowy</li>
+                        <li><strong>Miasto</strong> - nazwa miasta</li>
+                        <li><strong>Ulica</strong> - nazwa ulicy</li>
+                        <li><strong>NrDomu</strong> - numer budynku</li>
                         <li><strong>UlicaId</strong> - automatycznie dopasowany FK do tabeli Ulice</li>
                         <li><strong>Email</strong> - adres email</li>
                         <li><strong>Www</strong> - strona internetowa</li>
+                        <li><strong>Zasieg</strong> - zasięg terytorialny urzędu</li>
                     </ul>
 
                     <hr />
 
                     <h6>Uwagi:</h6>
                     <ul class="small mb-0">
-                        <li>Istniejące dane zostaną usunięte</li>
-                        <li>Adres jest automatycznie parsowany</li>
-                        <li>Format: "ulica nr, kod miasto"</li>
-                        <li>UlicaId dopasowywane przez AddressSearchService</li>
+                        <li>Istniejące dane zostaną usunięte przed importem</li>
+                        <li>UlicaId dopasowywane automatycznie przez AddressSearchService</li>
+                        <li>Plik musi mieć nagłówki w pierwszym wierszu</li>
                     </ul>
                 </div>
             </div>
