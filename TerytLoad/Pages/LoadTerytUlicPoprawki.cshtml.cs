@@ -114,7 +114,6 @@ namespace TerytLoad.Pages
 
             try
             {
-                _logger.LogInformation("=== Rozpoczęcie procesu ładowania słowników ulic w tle ===");
                 _currentOperation = "Inicjalizacja...";
 
                 var connectionString = _configuration.GetConnectionString("AddressDatabase");
@@ -124,7 +123,6 @@ namespace TerytLoad.Pages
                 }
 
                 var appDataPath = _environment.ContentRootPath;
-                _logger.LogInformation($"AppDataPath: {appDataPath}");
 
                 var db = new AddressDatabase(connectionString, appDataPath);
                 var context = db.GetContext();
@@ -132,7 +130,6 @@ namespace TerytLoad.Pages
                 // ========================================
                 // KROK 1: Załaduj TerytUlicPoprawki
                 // ========================================
-                _logger.LogInformation("KROK 1: Ładowanie TerytUlicPoprawki...");
                 _currentOperation = "[TerytUlicPoprawki] Inicjalizacja...";
 
                 poprawkiLoader = new LoadTerytUlicPoprawkiService(context, appDataPath);
@@ -145,7 +142,6 @@ namespace TerytLoad.Pages
                 });
 
                 _resultPoprawki = await poprawkiLoader.LoadAsync(progressPoprawki);
-                _logger.LogInformation($"✓ KROK 1 zakończony. Wstawiono: {_resultPoprawki.InsertedCount}");
 
                 if (!string.IsNullOrEmpty(_resultPoprawki.ErrorMessage))
                 {
@@ -155,21 +151,17 @@ namespace TerytLoad.Pages
                 poprawkiLoader.Dispose();
                 poprawkiLoader = null;
 
-                // Wymuś garbage collection przed kolejnym krokiem
                 GC.Collect();
                 GC.WaitForPendingFinalizers();
                 GC.Collect();
 
-                _logger.LogInformation("Czekanie 3 sekundy przed następnym krokiem...");
                 await Task.Delay(3000);
 
                 // ========================================
                 // KROK 2: Załaduj słownik RAZ z pliku Excel
                 // ========================================
-                _logger.LogInformation("KROK 2: Ładowanie słownika TerytUlicPoprawki do pamięci...");
                 _currentOperation = "[2/2] TypyUlic: Ładowanie słownika z Excel...";
 
-                // Użyj tymczasowego loggera tylko do tego kroku
                 var tempLogger = new PostalCodesLogger(appDataPath, "LoadTypyUlic.txt");
                 await tempLogger.InitializeAsync();
 
@@ -182,12 +174,9 @@ namespace TerytLoad.Pages
                     throw new Exception("Nie udało się załadować słownika TerytUlicPoprawki z Excel");
                 }
 
-                _logger.LogInformation($"✓ Załadowano {sharedDictionary.Count} wpisów ze słownika do pamięci");
-
                 // ========================================
                 // KROK 3: Generuj TypyUlic używając załadowanego słownika
                 // ========================================
-                _logger.LogInformation("KROK 3: Generowanie TypyUlic...");
                 _currentOperation = "[2/2] TypyUlic: Przetwarzanie...";
 
                 _resultTypyUlic = await GenerateTypyUlicAsync(
@@ -202,31 +191,23 @@ namespace TerytLoad.Pages
                     })
                 );
 
-                _logger.LogInformation($"✓ KROK 3 zakończony. Found: {_resultTypyUlic.FoundCount}, NotFound: {_resultTypyUlic.NotFoundCount}");
-
                 stopwatch.Stop();
 
                 _currentOperation = $"✅ Zakończono pomyślnie w {stopwatch.Elapsed.TotalMinutes:F1} min";
                 _isCompleted = true;
-
-                _logger.LogInformation($"=== Proces zakończony pomyślnie w {stopwatch.Elapsed.TotalMinutes:F1} min ===");
             }
             catch (Exception ex)
             {
                 stopwatch.Stop();
 
-                _logger.LogError(ex, "❌ Błąd podczas ładowania słowników ulic");
-
                 _errorMessage = $"Błąd: {ex.Message}";
                 _stackTrace = ex.StackTrace;
 
-                // Loguj szczegółowy błąd z hierarchią InnerException
                 var innerException = ex.InnerException;
                 var depth = 1;
                 while (innerException != null && depth < 5)
                 {
                     _errorMessage += $"\n\n[Inner Exception {depth}]:\n{innerException.Message}";
-                    _logger.LogError($"InnerException {depth}: {innerException.Message}");
                     innerException = innerException.InnerException;
                     depth++;
                 }
@@ -245,8 +226,6 @@ namespace TerytLoad.Pages
                     GC.Collect();
                     GC.WaitForPendingFinalizers();
                     GC.Collect();
-
-                    _logger.LogInformation("Zasoby zwolnione");
                 }
                 catch (Exception disposeEx)
                 {

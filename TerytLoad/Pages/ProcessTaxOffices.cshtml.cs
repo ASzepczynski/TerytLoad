@@ -135,16 +135,16 @@ namespace TerytLoad.Pages
                 messageBuilder.AppendLine($"   • Zapisanych do bazy: {savedCount}");
                 messageBuilder.AppendLine($"   • Dopasowanych ulic (UlicaId): {matchedStreets} ({(rows.Count > 0 ? (double)matchedStreets / rows.Count * 100 : 0):F1}%)");
 
-                // Próbka danych
-                messageBuilder.AppendLine($"\n?? Przyk³adowe dane (pierwsze 5 urzêdów):");
-                var sample = await context.UrzedySkarbowe.Take(5).ToListAsync();
-                foreach (var office in sample)
+                // Urzêdy bez dopasowanej ulicy
+                var unmatched = await context.UrzedySkarbowe
+                    .Where(u => u.UlicaId == -1)
+                    .OrderBy(u => u.Nazwa)
+                    .ToListAsync();
+
+                messageBuilder.AppendLine($"\n?? Urzêdy bez dopasowanej ulicy ({unmatched.Count}):");
+                foreach (var office in unmatched)
                 {
-                    messageBuilder.AppendLine($"\n?? {office.Nazwa}");
-                    messageBuilder.AppendLine($"   ?? {office.Kod} {office.Miasto}, {office.Ulica} {office.NrDomu}");
-                    messageBuilder.AppendLine($"   ?? UlicaId: {office.UlicaId}");
-                    messageBuilder.AppendLine($"   ??  {office.Email}  ?? {office.Www}");
-                    messageBuilder.AppendLine($"   ?? Zasiêg: {office.Zasieg}");
+                    messageBuilder.AppendLine($"   • {office.Nazwa} | {office.Kod} {office.Miasto}, {office.Ulica} {office.NrDomu}");
                 }
 
                 Message = messageBuilder.ToString();
