@@ -1,8 +1,8 @@
-﻿// Copyright (c) 2025-2026 Andrzej Szepczyński. All rights reserved.
+// Copyright (c) 2025-2026 Andrzej Szepczy�ski. All rights reserved.
 
+using AddressLibrary.Cache;
 using AddressLibrary.Data;
-using AddressLibrary.Models;
-using AddressLibrary.Services;
+using AddressLibrary.Services.AddressSearch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
@@ -12,60 +12,55 @@ namespace TerytLoad.Pages
     public class SzukajModel : PageModel
     {
         private readonly AddressDbContext _context;
+        private readonly IWebHostEnvironment _environment;
 
-        public SzukajModel(AddressDbContext context)
+        public SzukajModel(AddressDbContext context, IWebHostEnvironment environment)
         {
-            _context = context;
+            _context     = context;
+            _environment = environment;
         }
 
         [BindProperty]
         public SearchParametersModel SearchParams { get; set; } = new();
 
-        public List<KodPocztowyZAdresem>? Wyniki { get; set; }
-
+        public AddressSearchResult? Wynik { get; set; }
         public string? ErrorMessage { get; set; }
 
-        public void OnGet()
-        {
-            // Pusta strona przy pierwszym wejściu
-        }
+        public void OnGet() { }
 
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
-            {
                 return Page();
-            }
 
             try
             {
-                var searchService = new KodPocztowySearchService(_context);
+                var appDataPath = _environment.ContentRootPath;
 
-                var parameters = new KodPocztowySearchService.SearchParameters
+                var appCache = new AppCache(_context);
+                await appCache.InitializeAsync();
+
+                var searchService = new AddressSearchService(_context, appDataPath);
+                await searchService.InitializeAsync();
+
+                var request = new AddressSearchRequest
                 {
-                    Kod = SearchParams.Kod,
-                    Miasto = SearchParams.Miasto,
-                    Ulica = SearchParams.Ulica,
-                    NumerDomu = SearchParams.NumerDomu,
+                    KodPocztowy     = SearchParams.Kod,
+                    Miasto          = SearchParams.Miasto ?? string.Empty,
+                    Ulica           = SearchParams.Ulica,
+                    NumerDomu       = SearchParams.NumerDomu,
                     NumerMieszkania = SearchParams.NumerMieszkania
                 };
 
-                Wyniki = await searchService.SzukajAsync(parameters);
+                Wynik = await searchService.SearchAsync(request);
 
-                if (Wyniki.Count == 0)
-                {
-                    ErrorMessage = null; // Brak błędu, po prostu brak wyników
-                }
-            }
-            catch (ArgumentException ex)
-            {
-                ErrorMessage = ex.Message;
-                Wyniki = null;
+                if (Wynik.Status != AddressSearchStatus.Success)
+                    ErrorMessage = Wynik.Message;
             }
             catch (Exception ex)
             {
-                ErrorMessage = $"Wystąpił błąd podczas wyszukiwania: {ex.Message}";
-                Wyniki = null;
+                ErrorMessage = $"B��d: {ex.Message}";
+                Wynik = null;
             }
 
             return Page();
@@ -74,22 +69,19 @@ namespace TerytLoad.Pages
         public IActionResult OnPostClear()
         {
             SearchParams = new SearchParametersModel();
-            Wyniki = null;
+            Wynik        = null;
             ErrorMessage = null;
             return Page();
         }
     }
 
-    /// <summary>
-    /// Model dla formularza wyszukiwania
-    /// </summary>
     public class SearchParametersModel
     {
         [Display(Name = "Kod pocztowy")]
-        [RegularExpression(@"^\d{2}-?\d{3}$", ErrorMessage = "Kod pocztowy musi być w formacie XX-XXX")]
+        [RegularExpression(@"^\d{2}-?\d{3}$", ErrorMessage = "Kod pocztowy musi by� w formacie XX-XXX")]
         public string? Kod { get; set; }
 
-        [Display(Name = "Miejscowość")]
+        [Display(Name = "Miejscowo��")]
         public string? Miasto { get; set; }
 
         [Display(Name = "Ulica")]

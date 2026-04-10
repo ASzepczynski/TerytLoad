@@ -1,4 +1,5 @@
 using AddressLibrary;
+using AddressLibrary.Cache;
 using AddressLibrary.Helpers;
 using AddressLibrary.Models;
 using AddressLibrary.Services.AddressSearch;
@@ -54,10 +55,11 @@ namespace TerytLoad.Pages
 
                 await context.Database.EnsureCreatedAsync();
 
-                messageBuilder.AppendLine($"?? Inicjalizujê AddressSearchService...");
-                var searchService = new AddressSearchService(context, appDataPath);
-                await searchService.ReinitializeAsync();
-                messageBuilder.AppendLine($"? AddressSearchService zainicjalizowany\n");
+                messageBuilder.AppendLine($"?? Inicjalizujê cache...");
+                var appCache = new AppCache(context);
+                await appCache.InitializeAsync();
+                var searchService = new AddressSearchService(context, appDataPath, appCache);
+                messageBuilder.AppendLine($"? Cache zainicjalizowany\n");
 
                 // Wyczyœæ istniej¹ce dane
                 var existingCount = await context.UrzedySkarbowe.CountAsync();

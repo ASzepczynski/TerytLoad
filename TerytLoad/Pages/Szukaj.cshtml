@@ -77,90 +77,98 @@
         </div>
     </div>
 
-    @if (Model.Wyniki != null && Model.Wyniki.Count > 0)
+    @if (Model.Wynik != null)
     {
-        <div class="card shadow-sm">
-            <div class="card-header bg-success text-white">
+        var w = Model.Wynik;
+        var statusClass = w.Status == AddressLibrary.Services.AddressSearch.AddressSearchStatus.Success
+            ? "success" : "warning";
+        var statusIcon  = w.Status == AddressLibrary.Services.AddressSearch.AddressSearchStatus.Success
+            ? "check-circle" : "exclamation-circle";
+
+        <div class="card shadow-sm mt-3">
+            <div class="card-header bg-@statusClass text-white">
                 <h5 class="mb-0">
-                    <i class="bi bi-check-circle"></i> Znaleziono @Model.Wyniki.Count wynik(ów)
+                    <i class="bi bi-@statusIcon"></i>
+                    @w.Status
+                    @if (!string.IsNullOrEmpty(w.Message)) { <small class="ms-2">— @w.Message</small> }
                 </h5>
             </div>
-            <div class="card-body p-0">
-                <div class="table-responsive">
-                    <table class="table table-hover table-striped table-sm mb-0">
-                        <thead class="table-light">
-                            <tr>
-                                <th><i class="bi bi-mailbox"></i> Kod</th>
-                                <th><i class="bi bi-signpost-2"></i> Ulica</th>
-                                <th><i class="bi bi-house-door"></i> Numery</th>
-                                <th><i class="bi bi-geo-alt"></i> Miejscowość</th>
-                                <th><i class="bi bi-map"></i> Gmina</th>
-                                <th><i class="bi bi-pin-map"></i> Powiat</th>
-                                <th><i class="bi bi-globe"></i> Województwo</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach (var wynik in Model.Wyniki)
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-sm-3">Kod pocztowy</dt>
+                    <dd class="col-sm-9 fw-bold fs-5">@(w.KodPocztowy?.Kod ?? "—")</dd>
+
+                    <dt class="col-sm-3">Miejscowość</dt>
+                    <dd class="col-sm-9">@(w.Miasto?.Nazwa ?? "—")</dd>
+
+                    <dt class="col-sm-3">Ulica</dt>
+                    <dd class="col-sm-9">
+                        @if (w.Ulica != null)
+                        {
+                            @if (!string.IsNullOrEmpty(w.Ulica.Nazwa2))
                             {
-                                <tr>
-                                    <td class="fw-bold">@wynik.KodPocztowy.Kod</td>
-                                    <td>
-                                        @if (wynik.Ulica != null)
-                                        {
-                                            @if (!string.IsNullOrEmpty(wynik.Ulica.Nazwa2))
-                                            {
-                                                <span class="text-muted small">@wynik.Ulica.Nazwa2</span>
-                                                <br />
-                                            }
-                                            <span>@wynik.Ulica.Nazwa1</span>
-                                        }
-                                        else
-                                        {
-                                            <span class="text-muted fst-italic small">brak ulicy</span>
-                                        }
-                                    </td>
-                                    <td>
-                                        @if (!string.IsNullOrEmpty(wynik.KodPocztowy.Numery))
-                                        {
-                                            <small class="text-muted">@wynik.KodPocztowy.Numery</small>
-                                        }
-                                        else
-                                        {
-                                            <span class="text-muted fst-italic small">wszystkie</span>
-                                        }
-                                    </td>
-                                    <td>@wynik.Miasto?.Nazwa</td>
-                                    <td>
-                                        @if (wynik.Miasto?.Gmina != null)
-                                        {
-                                            <text>@wynik.Miasto.Gmina.Nazwa</text>
-                                            @if (wynik.Miasto.Gmina.RodzajGminy != null)
-                                            {
-                                                <br />
-                                                <small class="text-muted">(@wynik.Miasto.Gmina.RodzajGminy.Nazwa)</small>
-                                            }
-                                        }
-                                    </td>
-                                    <td>@wynik.Miasto?.Gmina?.Powiat?.Nazwa</td>
-                                    <td>@wynik.Miasto?.Gmina?.Powiat?.Wojewodztwo?.Nazwa</td>
-                                </tr>
+                                <span class="text-muted small">@w.Ulica.Nazwa2 </span>
                             }
-                        </tbody>
-                    </table>
-                </div>
+                            <span>@w.Ulica.Nazwa1</span>
+                        }
+                        else { <span class="text-muted fst-italic">brak ulicy</span> }
+                    </dd>
+
+                    <dt class="col-sm-3">Numery w kodzie</dt>
+                    <dd class="col-sm-9">
+                        <small class="text-muted">@(w.KodPocztowy?.Numery ?? "wszystkie")</small>
+                    </dd>
+
+                    @if (w.Miasto?.Gmina != null)
+                    {
+                        <dt class="col-sm-3">Gmina / Powiat / Woj.</dt>
+                        <dd class="col-sm-9">
+                            @w.Miasto.Gmina.Nazwa
+                            @if (w.Miasto.Gmina.Powiat != null)
+                            {
+                                <span class="text-muted"> / @w.Miasto.Gmina.Powiat.Nazwa</span>
+                            }
+                            @if (w.Miasto.Gmina.Powiat?.Wojewodztwo != null)
+                            {
+                                <span class="text-muted"> / @w.Miasto.Gmina.Powiat.Wojewodztwo.Nazwa</span>
+                            }
+                        </dd>
+                    }
+
+                    @if (w.Status == AddressLibrary.Services.AddressSearch.AddressSearchStatus.Success)
+                    {
+                        <dt class="col-sm-3">Metoda dopasowania</dt>
+                        <dd class="col-sm-9">
+                            <small>Miasto: @w.CityMatchingMethod | Ulica: @w.StreetMatchingMethod</small>
+                        </dd>
+                    }
+
+                    @if (!string.IsNullOrEmpty(w.DiagnosticInfo))
+                    {
+                        <dt class="col-sm-3">Diagnostyka</dt>
+                        <dd class="col-sm-9">
+                            <pre class="mb-0 small text-muted" style="white-space: pre-wrap;">@w.DiagnosticInfo</pre>
+                        </dd>
+                    }
+
+                    @if (w.AlternativeMatches?.Count > 0)
+                    {
+                        <dt class="col-sm-3">Alternatywy (@w.AlternativeMatches.Count)</dt>
+                        <dd class="col-sm-9">
+                            @foreach (var alt in w.AlternativeMatches)
+                            {
+                                <span class="badge bg-secondary me-1">@alt.Kod</span>
+                            }
+                        </dd>
+                    }
+                </dl>
             </div>
         </div>
-
-        <div class="alert alert-info mt-3">
-            <h6><i class="bi bi-info-circle"></i> Pełny adres pierwszego wyniku:</h6>
-            <p class="mb-0">@Model.Wyniki.First().PelnyAdres</p>
-        </div>
     }
-    else if (Model.Wyniki != null && Model.Wyniki.Count == 0)
+    else if (Model.Wynik == null && Model.ErrorMessage == null && Request.Method == "POST")
     {
-        <div class="alert alert-warning" role="alert">
-            <h5 class="alert-heading"><i class="bi bi-exclamation-circle"></i> Brak wyników</h5>
-            <p class="mb-0">Nie znaleziono żadnych kodów pocztowych pasujących do podanych kryteriów.</p>
+        <div class="alert alert-warning mt-3">
+            <i class="bi bi-exclamation-circle"></i> Brak wyników dla podanych kryteriów.
         </div>
     }
 
