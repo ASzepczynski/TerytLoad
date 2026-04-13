@@ -1,8 +1,12 @@
 ﻿using AddressLibrary;
+using AddressLibrary;
+using AddressLibrary.Models;
+using AddressLibrary.Services;
 using AddressLibrary.Services.KodyPocztoweLoader;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
+using Microsoft.EntityFrameworkCore;
 using TerytLoad.Hubs;
 using AddressLibrary.Helpers;
 
@@ -44,23 +48,47 @@ namespace TerytLoad.Pages
                     ?? throw new InvalidOperationException("Connection string 'AddressDatabase' not found.");
 
                 var appDataPath = _environment.ContentRootPath;
-                Console.WriteLine($"[LoadPostalCodes] ContentRootPath: {appDataPath}");
-
                 var db = new AddressDatabase(connectionString, appDataPath);
                 var context = db.GetContext();
+
+                // ── KROK 1: Załaduj spispna-cz1.txt do tabeli Pna ─────────────────────
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100,
+                    "⏳ KROK 1/2: Ładowanie pliku spispna-cz1.txt do tabeli Pna...");
+
+                var csvFile = Path.Combine(appDataPath, "AppData", "pna", "spispna-cz1.txt");
+
+                if (!System.IO.File.Exists(csvFile))
+                {
+                    Message = $"❌ Nie znaleziono pliku: {csvFile}";
+                    IsProcessing = false;
+                    ShowResults = true;
+                    return Page();
+                }
+
+                await context.Database.ExecuteSqlRawAsync("DELETE FROM Pna");
+
+                var csvLoader = new PnaCsvLoader(context, appDataPath);
+                var csvProgress = new Progress<PnaCsvLoader.LoadProgressInfo>(info =>
+                {
+                    _ = _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100,
+                        $"  {info.CurrentAction}");
+                });
+                await csvLoader.LoadFromCsvAsync(csvFile, csvProgress);
+
+                var totalCsvRows = context.Pna.Count();
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100,
+                    $"✓ KROK 1/2 zakończony — załadowano {totalCsvRows} rekordów do tabeli Pna");
+
+                // ── KROK 2: Przetwórz Pna → KodyPocztowe ──────────────────────────────
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100,
+                    $"⏳ KROK 2/2: Przetwarzanie PNA → KodyPocztowe...");
 
                 var logFilePath = string.Empty;
 
                 using (var loader = new KodyPocztoweLoaderService(context, appDataPath))
                 {
                     logFilePath = loader.LogFilePath;
-                    Console.WriteLine($"[LoadPostalCodes] Ścieżka logu: {logFilePath}");
 
-                    // Wyślij ścieżkę logu do przeglądarki
-                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100,
-                        $"Rozpoczynam ładowanie kodów pocztowych...{Environment.NewLine}{Environment.NewLine}📄 Log zapisywany do:{Environment.NewLine}{logFilePath}");
-
-                    // ZMIENIONO: Używamy LoadProgressInfo bezpośrednio (jest w namespace)
                     var progress = new Progress<LoadProgressInfo>(async info =>
                     {
                         await _hubContext.Clients.All.SendAsync("ReceiveProgress",
@@ -68,89 +96,40 @@ namespace TerytLoad.Pages
                             info.ProcessedCount,
                             info.TotalCount,
                             info.CurrentOperation);
-
-                        Console.WriteLine($"[{info.PercentageComplete:F1}%] {info.CurrentOperation}");
                     });
 
-                    // var pnaData = context.Pna.Where(x=>x.Ulica.Contains("Świętej Faustyny") && x.Miasto=="Głogów").ToList();
-                     var pnaData = context.Pna.ToList();
-
-                    if (!pnaData.Any())
-                    {
-                        Message = "Brak danych PNA w bazie. Najpierw załaduj dane z pliku PDF na stronie 'Ładowanie PDF'.";
-                        IsProcessing = false;
-                        ShowResults = true;
-                        return Page();
-                    }
-
-                    Console.WriteLine($"Ładowanie {pnaData.Count} rekordów PNA...");
-
+                    var pnaData = context.Pna.ToList();
                     await loader.LoadAsync(pnaData, progress);
                 }
 
-                Console.WriteLine("Ładowanie zakończone, sprawdzam log...");
+                await Task.Delay(500);
 
-                await Task.Delay(1000);
+                var logContent = System.IO.File.Exists(logFilePath)
+                    ? await System.IO.File.ReadAllTextAsync(logFilePath)
+                    : string.Empty;
 
-                if (System.IO.File.Exists(logFilePath))
-                {
-                    Console.WriteLine($"✓ Log istnieje: {logFilePath}");
-                    var logContent = await System.IO.File.ReadAllTextAsync(logFilePath);
+                var summaryStart = logContent.IndexOf("=== Podsumowanie ===");
+                var summary = summaryStart >= 0 ? logContent.Substring(summaryStart) : string.Empty;
 
-                    Console.WriteLine($"Długość logu: {logContent.Length} znaków");
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100,
+                    $"✅ Zakończono{Environment.NewLine}{Environment.NewLine}" +
+                    $"Krok 1: {totalCsvRows} rekordów z pliku spispna-cz1.txt{Environment.NewLine}" +
+                    $"Krok 2: przetwarzanie PNA → KodyPocztowe{Environment.NewLine}{Environment.NewLine}" +
+                    (summary.Length > 0 ? summary : $"📄 Log: {logFilePath}"));
 
-                    var summaryStart = logContent.IndexOf("=== Podsumowanie ===");
-                    if (summaryStart >= 0)
-                    {
-                        var summary = logContent.Substring(summaryStart);
-                        await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100,
-                            $"✓ Zakończono ładowanie kodów pocztowych{Environment.NewLine}{Environment.NewLine}📄 Pełny log zapisany w:{Environment.NewLine}{logFilePath}{Environment.NewLine}{Environment.NewLine}{summary}");
-
-                        Console.WriteLine("Podsumowanie wysłane przez SignalR");
-                    }
-                    else
-                    {
-                        await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100,
-                            $"✓ Zakończono ładowanie kodów pocztowych{Environment.NewLine}{Environment.NewLine}📄 Log zapisany w:{Environment.NewLine}{logFilePath}");
-                        Console.WriteLine("Brak sekcji podsumowania w logu");
-                    }
-
-                    Message = $"📄 Log zapisany w: {logFilePath}{Environment.NewLine}{Environment.NewLine}{new string('=', 80)}{Environment.NewLine}{Environment.NewLine}{logContent}";
-                }
-                else
-                {
-                    Console.WriteLine($"✗ Log NIE istnieje: {logFilePath}");
-
-                    var logsDir = Path.GetDirectoryName(logFilePath);
-                    Console.WriteLine($"Katalog logów: {logsDir}");
-                    Console.WriteLine($"Katalog istnieje: {Directory.Exists(logsDir)}");
-
-                    if (Directory.Exists(logsDir))
-                    {
-                        Console.WriteLine("Zawartość katalogu Logs:");
-                        foreach (var file in Directory.GetFiles(logsDir))
-                        {
-                            Console.WriteLine($"  - {Path.GetFileName(file)}");
-                        }
-                    }
-
-                    await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 100, 100,
-                        $"✓ Zakończono ładowanie kodów pocztowych{Environment.NewLine}{Environment.NewLine}⚠️ Log nie został zapisany");
-                    Message = $"✓ Proces zakończony pomyślnie!{Environment.NewLine}{Environment.NewLine}Oczekiwana ścieżka logu: {logFilePath}{Environment.NewLine}(Log nie został znaleziony - sprawdź logi konsoli)";
-                }
+                Message = $"✅ Zakończono{Environment.NewLine}" +
+                          $"CSV: {totalCsvRows} rekordów, Log: {logFilePath}{Environment.NewLine}" +
+                          $"{new string('=', 60)}{Environment.NewLine}{logContent}";
 
                 IsProcessing = false;
                 ShowResults = true;
-
                 return Page();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"BŁĄD: {ex.Message}");
-                Console.WriteLine($"Stack trace: {ex.StackTrace}");
-
-                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100, $"❌ Błąd: {ex.Message}");
-                Message = $"❌ Błąd: {ex.Message}{Environment.NewLine}{Environment.NewLine}Stack trace:{Environment.NewLine}{ex.StackTrace}";
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "postal-codes", 0, 100,
+                    $"❌ Błąd: {ex.Message}");
+                Message = $"❌ Błąd: {ex.Message}{Environment.NewLine}{ex.StackTrace}";
                 IsProcessing = false;
                 ShowResults = true;
                 return Page();

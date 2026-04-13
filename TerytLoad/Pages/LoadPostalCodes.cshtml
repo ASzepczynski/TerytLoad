@@ -46,24 +46,16 @@
 
     <div class="card mb-4">
         <div class="card-header bg-primary text-white">
-            <h3 class="mb-0">📬 Załaduj kody pocztowe z danych PNA</h3>
+            <h3 class="mb-0">📬 Załaduj kody pocztowe</h3>
         </div>
         <div class="card-body">
-            <p class="card-text">Kliknij poniżej, aby:</p>
+            <p>Proces przebiega w dwóch krokach:</p>
             <ol>
-                <li>Wyczyścić istniejące kody pocztowe</li>
-                <li>Załadować kody pocztowe na podstawie danych z tabeli <strong>Pna</strong></li>
-                <li>Połączyć je z miejscowościami i ulicami</li>
+                <li><strong>Krok 1</strong> — wczytanie pliku <code>AppData/pna/spispna-cz1.txt</code> do tabeli <code>Pna</code></li>
+                <li><strong>Krok 2</strong> — przetworzenie tabeli <code>Pna</code> → <code>KodyPocztowe</code> (dopasowanie miast i ulic)</li>
             </ol>
             <p class="text-warning">
-                <strong>⚠️ Uwaga:</strong> Aby ta operacja się powiodła, musisz wcześniej:
-            </p>
-            <ul class="text-warning">
-                <li>Załadować dane TERYT (strona "Baza danych" lub "Ładowanie PDF")</li>
-                <li>Zbudować strukturę hierarchiczną (strona "Struktura hierarchiczna")</li>
-            </ul>
-            <p class="text-muted">
-                <strong>Informacja:</strong> Proces może potrwać kilka minut w zależności od ilości danych.
+                <strong>⚠️ Uwaga:</strong> Wymagana jest zbudowana struktura hierarchiczna (miasta, ulice).
             </p>
             <form method="post" asp-page-handler="Load" id="loadForm">
                 <button type="submit" class="btn btn-primary btn-lg" id="loadButton">
