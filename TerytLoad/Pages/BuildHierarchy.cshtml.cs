@@ -1,4 +1,4 @@
-﻿using AddressLibrary;
+using AddressLibrary;
 using AddressLibrary.Services.HierarchyBuilders;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.SignalR;
 using System.Text;
 using TerytLoad.Configuration;
 using TerytLoad.Hubs;
+using TerytLoad.Services;
 
 namespace TerytLoad.Pages
 {
@@ -15,11 +16,8 @@ namespace TerytLoad.Pages
         private readonly IWebHostEnvironment _environment;
         private readonly IHubContext<ProgressHub> _hubContext;
 
-        [BindProperty]
-        public string Message { get; set; } = string.Empty;
-
         public BuildHierarchyModel(
-            IConfiguration configuration, 
+            IConfiguration configuration,
             IWebHostEnvironment environment,
             IHubContext<ProgressHub> hubContext)
         {
@@ -32,37 +30,49 @@ namespace TerytLoad.Pages
         {
         }
 
-        public async Task<IActionResult> OnPostBuildAsync()
+        public IActionResult OnPostBuild()
+        {
+            var connectionString = _configuration.GetConnectionString("AddressDatabase")
+                ?? DatabaseConfig.DefaultConnectionString;
+            var appDataPath = _environment.ContentRootPath;
+
+            _ = Task.Run(async () => await RunBuildAsync(connectionString, appDataPath));
+
+            return Page();
+        }
+
+        private async Task RunBuildAsync(string connectionString, string appDataPath)
         {
             try
             {
-                var connectionString = _configuration.GetConnectionString("AddressDatabase")
-                    ?? DatabaseConfig.DefaultConnectionString;
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "build-hierarchy", 0, 10,
+                    "Krok 1/2: Ladowanie slownikow ulic...");
 
-                var appDataPath = _environment.ContentRootPath;
+                var slownikService = new S�ownikUlicLoaderService();
+                await slownikService.LoadAsync(
+                    connectionString,
+                    appDataPath,
+                    new Progress<(string op, int current, int total)>(async p =>
+                    {
+                        await _hubContext.Clients.All.SendAsync("ReceiveProgress",
+                            "build-hierarchy", 0, 10, $"[1/2] {p.op}");
+                    })
+                );
+
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "build-hierarchy", 1, 10,
+                    $"Krok 1/2: Slowniki zaladowane.{Environment.NewLine}Krok 2/2: Budowanie struktury hierarchicznej...");
+
                 var database = new AddressDatabase(connectionString, appDataPath);
 
-                var messageBuilder = new StringBuilder();
-
-                // Wyślij wiadomość startową
-                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "build-hierarchy", 0, 9,
-                    $"⏳ Rozpoczynam budowanie struktury hierarchicznej...{Environment.NewLine}{Environment.NewLine}" +
-                    $"ℹ️ Kody pocztowe NIE są ładowane w tym kroku.{Environment.NewLine}" +
-                    $"   Użyj osobnej strony 'Kody pocztowe' aby je załadować.");
-
-                // Raportowanie postępu przez SignalR
                 var progress = new Progress<BuildProgressInfo>(async info =>
                 {
                     await _hubContext.Clients.All.SendAsync("ReceiveProgress",
                         "build-hierarchy",
-                        info.CurrentStep,
-                        info.TotalSteps,
-                        info.CurrentOperation);
-
-                    Console.WriteLine($"[{info.PercentageComplete:F1}%] {info.CurrentOperation}");
+                        1 + info.CurrentStep,
+                        10,
+                        $"[2/2] {info.CurrentOperation}");
                 });
 
-                // Buduj strukturę hierarchiczną BEZ kodów pocztowych
                 await database.BuildHierarchicalStructureAsync(progress);
 
                 var context = database.GetContext();
@@ -72,23 +82,21 @@ namespace TerytLoad.Pages
                 var mjsCount = context.Miasta.Count(m => m.Id != -1);
                 var ulCount = context.Ulice.Count(u => u.Id != -1);
 
-                var summary = $"✅ SUKCES! Utworzono strukturę hierarchiczną:{Environment.NewLine}{Environment.NewLine}" +
-                             $"✓ Województw: {wojCount}{Environment.NewLine}" +
-                             $"✓ Powiatów: {powCount}{Environment.NewLine}" +
-                             $"✓ Gmin: {gmCount}{Environment.NewLine}" +
-                             $"✓ Miejscowości: {mjsCount}{Environment.NewLine}" +
-                             $"✓ Ulic: {ulCount}{Environment.NewLine}{Environment.NewLine}" +
-                             $"⚠️ Aby załadować kody pocztowe, przejdź do strony 'Kody pocztowe'";
+                var summary =
+                    $"SUKCES_OK Ladowanie hierarchii zakonczone:{Environment.NewLine}{Environment.NewLine}" +
+                    $"Wojewodztw: {wojCount}{Environment.NewLine}" +
+                    $"Powiatow: {powCount}{Environment.NewLine}" +
+                    $"Gmin: {gmCount}{Environment.NewLine}" +
+                    $"Miejscowosci: {mjsCount}{Environment.NewLine}" +
+                    $"Ulic: {ulCount}{Environment.NewLine}{Environment.NewLine}" +
+                    $"Aby zaladowac kody pocztowe, przejdz do strony 'Kody pocztowe'";
 
-                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "build-hierarchy", 9, 9, summary);
-
-                messageBuilder.AppendLine(summary);
-                Message = messageBuilder.ToString();
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "build-hierarchy", 10, 10, summary);
             }
             catch (Exception ex)
             {
                 var messageBuilder = new StringBuilder();
-                messageBuilder.AppendLine("❌ BŁĄD:");
+                messageBuilder.AppendLine("BLAD:");
                 messageBuilder.AppendLine(ex.Message);
                 messageBuilder.AppendLine();
                 messageBuilder.AppendLine("Stack trace:");
@@ -99,9 +107,6 @@ namespace TerytLoad.Pages
                     messageBuilder.AppendLine();
                     messageBuilder.AppendLine("=== INNER EXCEPTION ===");
                     messageBuilder.AppendLine(ex.InnerException.Message);
-                    messageBuilder.AppendLine();
-                    messageBuilder.AppendLine("Inner Stack trace:");
-                    messageBuilder.AppendLine(ex.InnerException.StackTrace);
 
                     if (ex.InnerException.InnerException != null)
                     {
@@ -112,11 +117,10 @@ namespace TerytLoad.Pages
                 }
 
                 var errorMessage = messageBuilder.ToString();
-                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "build-hierarchy", 0, 9, $"❌ {errorMessage}");
-                Message = errorMessage;
+                Console.WriteLine($"[BuildHierarchy ERROR] {errorMessage}");
+                await _hubContext.Clients.All.SendAsync("ReceiveProgress", "build-hierarchy", 0, 10,
+                    $"BLAD_ERR {errorMessage}");
             }
-
-            return Page();
         }
     }
 }

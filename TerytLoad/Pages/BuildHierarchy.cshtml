@@ -1,31 +1,23 @@
-Ôªø@page
+@page
 @model TerytLoad.Pages.BuildHierarchyModel
 @{
-    ViewData["Title"] = "Budowanie struktury hierarchicznej";
+    ViewData["Title"] = "£adowanie hierarchii";
 }
 
 <div class="container mt-4">
-    <h1 class="mb-4">üèóÔ∏è Budowanie struktury hierarchicznej</h1>
+    <h1 class="mb-4"><i class="bi bi-diagram-3-fill"></i> £adowanie hierarchii</h1>
 
-    @if (!string.IsNullOrEmpty(Model.Message))
-    {
-        <div class="alert alert-info alert-dismissible fade show" role="alert">
-            <pre style="white-space: pre-wrap; margin: 0; font-family: 'Courier New', monospace; font-size: 14px;">@Model.Message</pre>
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-    }
-
-    <!-- Progress Bar (ukryty domy≈õlnie) -->
+    <!-- Pasek postÍpu -->
     <div id="progressContainer" style="display: none;" class="mb-4">
         <div class="alert alert-info">
-            <h4 id="progressTitle">‚è≥ Trwa budowanie struktury hierarchicznej...</h4>
+            <h4 id="progressTitle"><i class="bi bi-hourglass-split"></i> Trwa ≥adowanie hierarchii...</h4>
             <div class="progress mt-3" style="height: 30px;">
-                <div id="progressBar" 
-                     class="progress-bar progress-bar-striped progress-bar-animated" 
-                     role="progressbar" 
-                     style="width: 0%;" 
-                     aria-valuenow="0" 
-                     aria-valuemin="0" 
+                <div id="progressBar"
+                     class="progress-bar progress-bar-striped progress-bar-animated"
+                     role="progressbar"
+                     style="width: 0%;"
+                     aria-valuenow="0"
+                     aria-valuemin="0"
                      aria-valuemax="100">
                     0%
                 </div>
@@ -34,33 +26,27 @@
                 Inicjalizacja...
             </div>
             <div id="progressStats" class="mt-2 text-muted">
-                <small>
-                    Krok: <strong><span id="currentStep">0</span></strong> / 
-                    <strong><span id="totalSteps">9</span></strong>
-                </small>
+                <small>Krok: <strong><span id="currentStep">0</span></strong> / <strong><span id="totalSteps">10</span></strong></small>
             </div>
         </div>
     </div>
 
     <div class="card mb-4">
         <div class="card-header bg-warning text-dark">
-            <h3 class="mb-0">üî® Zbuduj strukturƒô hierarchicznƒÖ</h3>
+            <h3 class="mb-0"><i class="bi bi-diagram-3-fill"></i> Za≥aduj hierarchiÍ</h3>
         </div>
         <div class="card-body">
-            <p class="card-text">Kliknij poni≈ºej, aby zbudowaƒá strukturƒô hierarchicznƒÖ Polski na podstawie danych TERYT:</p>
+            <p class="card-text">Kliknij poniøej, aby uruchomiÊ pe≥ne ≥adowanie hierarchii w dwÛch krokach:</p>
             <ol>
-                <li><strong>Wojew√≥dztwa</strong> - 16 wojew√≥dztw</li>
-                <li><strong>Powiaty</strong> - powiaty w ka≈ºdym wojew√≥dztwie</li>
-                <li><strong>Gminy</strong> - gminy w ka≈ºdym powiecie</li>
-                <li><strong>Miejscowo≈õci</strong> - miejscowo≈õci w ka≈ºdej gminie</li>
-                <li><strong>Ulice</strong> - ulice w ka≈ºdej miejscowo≈õci</li>
+                <li><strong>S≥owniki ulic</strong> ñ ≥adowanie TerytUlicPoprawki i generowanie TypyUlic</li>
+                <li><strong>Struktura hierarchiczna</strong> ñ wojewÛdztwa, powiaty, gminy, miejscowoúci, ulice</li>
             </ol>
             <p class="text-danger">
-                <strong>UWAGA:</strong> Ta operacja usunie istniejƒÖce dane hierarchiczne i zbuduje je od nowa. Proces mo≈ºe potrwaƒá kilka minut.
+                <strong>UWAGA:</strong> Ta operacja usunie istniejπce dane hierarchiczne i zbuduje je od nowa. Proces moøe potrwaÊ kilka minut.
             </p>
             <form method="post" asp-page-handler="Build" id="buildForm">
                 <button type="submit" class="btn btn-warning btn-lg" id="buildButton">
-                    <span>üèóÔ∏è</span> Zbuduj strukturƒô hierarchicznƒÖ
+                    <i class="bi bi-diagram-3-fill"></i> Za≥aduj hierarchiÍ
                 </button>
             </form>
         </div>
@@ -70,105 +56,73 @@
 @section Scripts {
     <script src="https://cdn.jsdelivr.net/npm/@@microsoft/signalr@latest/dist/browser/signalr.min.js"></script>
     <script>
-        // Po≈ÇƒÖczenie SignalR
         const connection = new signalR.HubConnectionBuilder()
             .withUrl("/progressHub")
             .withAutomaticReconnect()
             .configureLogging(signalR.LogLevel.Information)
             .build();
 
-        // Obs≈Çuga otrzymania postƒôpu
         connection.on("ReceiveProgress", (operation, current, total, message) => {
-            console.log("ReceiveProgress:", operation, current, total, message);
+            if (operation !== "build-hierarchy") return;
 
-            if (operation === "build-hierarchy") {
-                const progressContainer = document.getElementById("progressContainer");
-                const progressBar = document.getElementById("progressBar");
-                const progressMessage = document.getElementById("progressMessage");
-                const progressTitle = document.getElementById("progressTitle");
-                const currentStep = document.getElementById("currentStep");
-                const totalSteps = document.getElementById("totalSteps");
-                const buildButton = document.getElementById("buildButton");
+            const progressContainer = document.getElementById("progressContainer");
+            const progressBar = document.getElementById("progressBar");
+            const progressMessage = document.getElementById("progressMessage");
+            const progressTitle = document.getElementById("progressTitle");
+            const buildButton = document.getElementById("buildButton");
 
-                // Poka≈º kontener postƒôpu
-                progressContainer.style.display = "block";
+            progressContainer.style.display = "block";
 
-                // Oblicz procent
-                const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
-                
-                // Aktualizuj pasek postƒôpu
-                progressBar.style.width = percentage + "%";
-                progressBar.textContent = percentage + "%";
-                progressBar.setAttribute("aria-valuenow", percentage);
+            const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
+            progressBar.style.width = percentage + "%";
+            progressBar.textContent = percentage + "%";
+            progressBar.setAttribute("aria-valuenow", percentage);
+            progressMessage.textContent = message;
+            document.getElementById("currentStep").textContent = current;
+            document.getElementById("totalSteps").textContent = total;
 
-                // Aktualizuj komunikat
-                progressMessage.textContent = message;
-                
-                // Aktualizuj statystyki
-                currentStep.textContent = current;
-                totalSteps.textContent = total;
-
-                // Zmie≈Ñ wyglƒÖd gdy zako≈Ñczono
-                if (percentage >= 100 || message.startsWith("‚úÖ")) {
-                    progressBar.classList.remove("progress-bar-animated", "progress-bar-striped");
-                    progressBar.classList.add("bg-success");
-                    progressTitle.textContent = "‚úÖ Zako≈Ñczono pomy≈õlnie!";
-                    buildButton.disabled = false;
-                    
-                    // Zmie≈Ñ kontener na success
-                    progressContainer.querySelector('.alert').classList.remove('alert-info');
-                    progressContainer.querySelector('.alert').classList.add('alert-success');
-                }
-
-                // Obs≈Çuga b≈Çƒôd√≥w
-                if (message.startsWith("‚ùå")) {
-                    progressBar.classList.remove("progress-bar-animated", "progress-bar-striped");
-                    progressBar.classList.add("bg-danger");
-                    progressTitle.textContent = "‚ùå WystƒÖpi≈Ç b≈ÇƒÖd";
-                    buildButton.disabled = false;
-                    
-                    // Zmie≈Ñ kontener na danger
-                    progressContainer.querySelector('.alert').classList.remove('alert-info');
-                    progressContainer.querySelector('.alert').classList.add('alert-danger');
-                }
+            if (percentage >= 100 || message.startsWith("SUKCES_OK")) {
+                progressBar.classList.remove("progress-bar-animated", "progress-bar-striped");
+                progressBar.classList.add("bg-success");
+                progressTitle.innerHTML = '<i class="bi bi-check-circle-fill"></i> ZakoÒczono pomyúlnie!';
+                buildButton.disabled = false;
+                progressContainer.querySelector('.alert').classList.remove('alert-info', 'alert-danger');
+                progressContainer.querySelector('.alert').classList.add('alert-success');
+            } else if (message.startsWith("BLAD_ERR")) {
+                progressBar.classList.remove("progress-bar-animated", "progress-bar-striped");
+                progressBar.classList.add("bg-danger");
+                progressTitle.innerHTML = '<i class="bi bi-exclamation-triangle-fill"></i> Wystπpi≥ b≥πd';
+                buildButton.disabled = false;
+                progressContainer.querySelector('.alert').classList.remove('alert-info', 'alert-success');
+                progressContainer.querySelector('.alert').classList.add('alert-danger');
+                console.error("BuildHierarchy error:", message);
             }
         });
 
-        // Start po≈ÇƒÖczenia
         connection.start()
-            .then(() => {
-                console.log("SignalR Connected");
-            })
             .catch(err => {
                 console.error("SignalR Connection Error: ", err);
-                alert("Nie mo≈ºna po≈ÇƒÖczyƒá z serwerem SignalR. Od≈õwie≈º stronƒô i spr√≥buj ponownie.");
+                alert("Nie moøna po≥πczyÊ z serwerem SignalR. Odúwieø stronÍ i sprÛbuj ponownie.");
             });
 
-        // Obs≈Çuga wysy≈Çki formularza
-        document.getElementById("buildForm").addEventListener("submit", function(e) {
+        document.getElementById("buildForm").addEventListener("submit", function () {
             const buildButton = document.getElementById("buildButton");
             const progressContainer = document.getElementById("progressContainer");
-            
-            // Wy≈ÇƒÖcz przycisk
-            buildButton.disabled = true;
-            
-            // Poka≈º kontener postƒôpu
-            progressContainer.style.display = "block";
-            
-            // Zresetuj pasek postƒôpu
             const progressBar = document.getElementById("progressBar");
+
+            buildButton.disabled = true;
+            progressContainer.style.display = "block";
             progressBar.style.width = "0%";
             progressBar.textContent = "0%";
             progressBar.classList.add("progress-bar-animated", "progress-bar-striped");
             progressBar.classList.remove("bg-success", "bg-danger");
-            
-            // Reset kontenera do info
+
             const alertDiv = progressContainer.querySelector('.alert');
             alertDiv.classList.remove('alert-success', 'alert-danger');
             alertDiv.classList.add('alert-info');
-            
-            document.getElementById("progressTitle").textContent = "‚è≥ Trwa budowanie struktury hierarchicznej...";
-            document.getElementById("progressMessage").textContent = "Wysy≈Çanie ≈ºƒÖdania do serwera...";
+
+            document.getElementById("progressTitle").innerHTML = '<i class="bi bi-hourglass-split"></i> Trwa ≥adowanie hierarchii...';
+            document.getElementById("progressMessage").textContent = "Wysy≥anie øπdania do serwera...";
         });
     </script>
 }
