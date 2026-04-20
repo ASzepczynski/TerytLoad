@@ -166,7 +166,20 @@
                                     {
                                         <span class="badge bg-secondary">Rodzaj: @miasto.RodzajMiasta</span>
                                     }
-                                    <small class="text-muted">Symbol: @miasto.Symbol</small>
+                                    <small class="text-muted ms-2">Symbol: @miasto.Symbol</small>
+                                    <small class="text-muted ms-2">
+                                        SymbolPodstawowy: @miasto.SymbolPodstawowy
+                                        @if (miasto.SymbolPodstawowy != miasto.Symbol)
+                                        {
+                                            var nazwaGlowna = Model.SymbolPodstawowyNazwy.GetValueOrDefault(miasto.SymbolPodstawowy);
+                                            if (nazwaGlowna != null)
+                                            {
+                                                <span class="badge bg-warning text-dark ms-1" title="Miejscowość podstawowa">
+                                                    → @nazwaGlowna
+                                                </span>
+                                            }
+                                        }
+                                    </small>
                                 </span>
                             </div>
                         </a>

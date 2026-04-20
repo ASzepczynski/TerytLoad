@@ -17,6 +17,7 @@ namespace TerytLoad.Pages
         public List<TerytTerc> Gminy { get; set; } = new();
         public List<TerytSimc> Miasta { get; set; } = new();
         public List<TerytUlic> Ulice { get; set; } = new();
+        public Dictionary<string, string> SymbolPodstawowyNazwy { get; set; } = new();
 
         [BindProperty(SupportsGet = true)]
         public string? WojKod { get; set; }
@@ -104,6 +105,20 @@ namespace TerytLoad.Pages
                         .Where(s => s.Wojewodztwo + s.Powiat + s.Gmina + s.RodzajGminy == GmiKod)
                         .OrderBy(s => s.Nazwa)
                         .ToListAsync();
+
+                    // Pobierz nazwy dla SymbolPodstawowy z TerytSimc (mog¹ byæ spoza bie¿¹cej gminy)
+                    var symbolePodstawowe = Miasta
+                        .Where(m => m.SymbolPodstawowy != m.Symbol)
+                        .Select(m => m.SymbolPodstawowy)
+                        .Distinct()
+                        .ToList();
+
+                    if (symbolePodstawowe.Any())
+                    {
+                        SymbolPodstawowyNazwy = await context.TerytSimc
+                            .Where(s => symbolePodstawowe.Contains(s.Symbol))
+                            .ToDictionaryAsync(s => s.Symbol, s => s.Nazwa);
+                    }
                 }
             }
 
