@@ -1,0 +1,30 @@
+@page
+@model TerytLoad.Pages.MissingPostalCodesModel
+@{
+    ViewData["Title"] = "Braki kodów pocztowych";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">
+        <i class="bi bi-envelope-x"></i> Braki kodów pocztowych
+    </h1>
+
+    <div class="card">
+        <div class="card-header bg-warning text-dark">
+            <h4 class="mb-0"><i class="bi bi-file-earmark-excel"></i> Eksport do Excela</h4>
+        </div>
+        <div class="card-body">
+            <p>Raport zawiera dwa arkusze:</p>
+            <ul>
+                <li><strong>Miasta bez kodów</strong> – miejscowoœci, które nie maj¹ ¿adnej pozycji w KodyPocztowe</li>
+                <li><strong>Ulice bez kodów</strong> – ulice, które nie maj¹ ¿adnej pozycji w KodyPocztowe</li>
+            </ul>
+            <p class="text-muted">
+                Dla ka¿dej pozycji podawana jest: nazwa, miejscowoœæ, gmina, powiat i województwo.
+            </p>
+            <a asp-page="/MissingPostalCodes" asp-page-handler="Export" class="btn btn-success btn-lg">
+                <i class="bi bi-download"></i> Pobierz raport Excel
+            </a>
+        </div>
+    </div>
+</div>
