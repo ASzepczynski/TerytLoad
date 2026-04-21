@@ -168,7 +168,7 @@ namespace TerytLoad.Services
                     }
                 }
 
-                await InsertUniqueTypyUlicAsync(context, uliceList, logger, progress);
+                await InsertUniqueTypyUlicAsync(context, uliceList, appDataPath, logger, progress);
 
                 logger.LogInfo($"Przetworzono: {result.ProcessedCount}, Znaleziono: {result.FoundCount}, Brak: {result.NotFoundCount}");
                 return result;
@@ -182,15 +182,26 @@ namespace TerytLoad.Services
         private async Task InsertUniqueTypyUlicAsync(
             AddressDbContext context,
             List<TerytUlicPoprawka> uliceList,
+            string appDataPath,
             GeneralLogger logger,
             IProgress<ValidatorProgress>? progress)
         {
             logger.LogInfo("Usuwanie referencji z tabeli Ulice...");
-            await context.Database.ExecuteSqlRawAsync("UPDATE Ulice SET TypUlicyId = NULL WHERE TypUlicyId IS NOT NULL");
+            await context.Database.ExecuteSqlRawAsync("UPDATE Ulice SET TypUlicyId = -1 WHERE TypUlicyId IS NOT NULL AND TypUlicyId != -1");
 
             logger.LogInfo("Czyszczenie tabeli TypyUlic...");
             await context.Database.ExecuteSqlRawAsync("DELETE FROM TypyUlic WHERE Id != -1");
             await context.Database.ExecuteSqlRawAsync("DBCC CHECKIDENT ('TypyUlic', RESEED, 0)");
+
+            // Za³aduj TytulyStopnie z Excela PRZED mapowaniem — bez tego tytu³y nieobecne
+            // w bazie dostawa³y TytulStopienId=-1, przez co TypyUlic by³y b³êdnie zapisywane
+            logger.LogInfo("£adowanie s³ownika TytulyStopnie z Excel...");
+            var tytulyExcelLoader = new TytulyStopnieExcelLoader(context, appDataPath);
+            var tytulyLoadResult = await tytulyExcelLoader.LoadFromExcelAsync(null);
+            if (!string.IsNullOrEmpty(tytulyLoadResult.ErrorMessage))
+                logger.LogWarning($"Ostrze¿enie przy ³adowaniu TytulyStopnie: {tytulyLoadResult.ErrorMessage}");
+            else
+                logger.LogInfo($"? TytulyStopnie: Dodano={tytulyLoadResult.InsertedCount}, Zaktualizowano={tytulyLoadResult.UpdatedCount}");
 
             logger.LogInfo($"Deduplikacja {uliceList.Count} wpisów...");
             var uniqueUliceSet = new HashSet<TypUlicy>(new TypUlicyEqualityComparer());

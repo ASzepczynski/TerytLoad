@@ -22,6 +22,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<AddressDbContext>();
+    await context.Database.EnsureCreatedAsync();
     await AddressLibrary.Data.SchemaMigrator.ApplyAsync(context);
     ViewerRegistry.InitializeFromDbContext(context);
 }
