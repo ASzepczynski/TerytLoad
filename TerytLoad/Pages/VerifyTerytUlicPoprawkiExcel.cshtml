@@ -1,0 +1,89 @@
+@page
+@model TerytLoad.Pages.VerifyTerytUlicPoprawkiExcelModel
+@{
+    ViewData["Title"] = "Weryfikacja TerytUlicPoprawki.xlsx";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h5 class="mb-0">Weryfikacja spójnoœci pliku TerytUlicPoprawki.xlsx</h5>
+    </div>
+    <div class="card-body">
+        <p class="text-muted">
+            Parsuje kolumnê <strong>J</strong> (pe³na nazwa ulicy) i porównuje wynik z rozbiciem na komponenty
+            w kolumnach <strong>A–I</strong> (Cecha, Prefiks, Tytul, Imie, Imie2, Nazwisko, Nazwisko2, Pseudonim, Postfiks).<br />
+            Wynik zapisywany jest do pliku <code>TerytUlicPoprawki_weryf.xlsx</code> w tym samym katalogu.
+        </p>
+
+        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <div class="alert alert-danger">
+                <i class="bi bi-exclamation-triangle"></i>
+                <strong>B³¹d:</strong> @Model.ErrorMessage
+            </div>
+        }
+
+        @if (!Model.ShowResults)
+        {
+            <form method="post" id="verifyForm">
+                <button type="submit" class="btn btn-primary btn-lg" id="btnVerify">
+                    <i class="bi bi-check2-circle"></i> Uruchom weryfikacjê
+                </button>
+                <div id="loadingSpinner" class="mt-3" style="display: none;">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">£adowanie...</span>
+                    </div>
+                    <span class="ms-2">Trwa weryfikacja, proszê czekaæ...</span>
+                </div>
+            </form>
+        }
+    </div>
+</div>
+
+@if (Model.ShowResults)
+{
+    <div class="card">
+        <div class="card-header @(Model.ErrorCount == 0 ? "bg-success" : "bg-warning") text-white">
+            <h5 class="mb-0">
+                @if (Model.ErrorCount == 0)
+                {
+                    <span>? Weryfikacja zakoñczona – brak b³êdów</span>
+                }
+                else
+                {
+                    <span>? Weryfikacja zakoñczona – znaleziono niezgodnoœci</span>
+                }
+            </h5>
+        </div>
+        <div class="card-body">
+            <ul>
+                <li>£¹cznie wierszy: <strong>@Model.TotalCount</strong></li>
+                <li>Przetworzono: <strong>@Model.ProcessedCount</strong></li>
+                <li>
+                    B³êdów (niezgodnoœci):
+                    <strong class="@(Model.ErrorCount == 0 ? "text-success" : "text-danger")">@Model.ErrorCount</strong>
+                </li>
+            </ul>
+            <hr />
+            <p>
+                Plik wynikowy: <code>@Model.OutputPath</code>
+            </p>
+            <form method="post">
+                <button type="submit" class="btn btn-secondary">
+                    <i class="bi bi-arrow-clockwise"></i> Uruchom ponownie
+                </button>
+            </form>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        document.getElementById('verifyForm')?.addEventListener('submit', function () {
+            document.getElementById('btnVerify').disabled = true;
+            document.getElementById('loadingSpinner').style.display = 'block';
+        });
+    </script>
+}
