@@ -24,11 +24,14 @@
     <!-- Pasek postępu -->
     <div id="progress-container" style="display: none;" class="mb-4">
         <div class="card">
-            <div class="card-header bg-primary text-white">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
                 <h5 class="mb-0">
-                    <span class="spinner-border spinner-border-sm me-2"></span>
+                    <span class="spinner-border spinner-border-sm me-2" id="progress-spinner"></span>
                     Postęp weryfikacji
                 </h5>
+                <span id="elapsed-time" class="badge bg-light text-dark fs-6">
+                    <i class="bi bi-stopwatch"></i> 0:00
+                </span>
             </div>
             <div class="card-body">
                 <div class="progress mb-3" style="height: 30px;">
@@ -100,15 +103,114 @@ A1394|31-413|Krakow||1|67|MAŁOPOLSKIE|KRAKÓW|KRAKÓW</pre>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.jsdelivr.net/npm/@@microsoft/signalr@latest/dist/browser/signalr.min.js"></script>
     <script>
-        // Pokaż pasek postępu przy submicie
-        document.querySelector('form').addEventListener('submit', function() {
+        // --- SignalR ---
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/progressHub")
+            .withAutomaticReconnect()
+            .configureLogging(signalR.LogLevel.Warning)
+            .build();
+
+        connection.on("ReceiveProgress", (operation, current, total, message) => {
+            if (operation !== "verify-addresses") return;
+
+            const container   = document.getElementById("progress-container");
+            const bar         = document.getElementById("progress-bar");
+            const pct         = document.getElementById("progress-percentage");
+            const msgPre      = document.getElementById("progress-message");
+            const resultBox   = document.getElementById("result-container");
+            const resultPre   = document.getElementById("result-message");
+            const btn         = document.getElementById("verifyButton");
+
+            container.style.display = "block";
+
+            const percent = total > 0 ? Math.round(current / total * 100) : 0;
+            bar.style.width     = percent + "%";
+            bar.setAttribute("aria-valuenow", percent);
+            pct.textContent     = percent + "%";
+            msgPre.textContent  = message;
+
+            // Auto-scroll wiadomości w dół
+            msgPre.scrollTop = msgPre.scrollHeight;
+
+            const isFinished = percent >= 100 || message.startsWith("✅");
+            const isError    = message.startsWith("❌");
+
+            if (isFinished || isError) {
+                stopTimer();
+                bar.classList.remove("progress-bar-animated", "progress-bar-striped");
+                bar.classList.add(isError ? "bg-danger" : "bg-success");
+                document.getElementById("progress-spinner").style.display = "none";
+
+                // Pokaż wynik końcowy
+                resultBox.style.display = "block";
+                resultPre.textContent   = message;
+                resultBox.querySelector(".alert").className =
+                    "alert " + (isError ? "alert-danger" : "alert-success") + " alert-dismissible fade show";
+
+                btn.disabled = false;
+                btn.innerHTML = '<i class="bi bi-play-fill"></i> Rozpocznij weryfikację';
+            }
+        });
+
+        connection.onreconnecting(() => {
+            document.getElementById("progress-message").textContent += "\n⚠️ Reconnecting do SignalR...";
+        });
+
+        async function startConnection() {
+            try {
+                await connection.start();
+                console.log("SignalR połączony");
+            } catch (err) {
+                console.error("SignalR błąd połączenia:", err);
+                setTimeout(startConnection, 3000);
+            }
+        }
+
+        startConnection();
+
+        // --- Timer ---
+        let timerInterval = null;
+        let startTime     = null;
+
+        function startTimer() {
+            startTime = Date.now();
+            timerInterval = setInterval(() => {
+                const secs    = Math.floor((Date.now() - startTime) / 1000);
+                const minutes = Math.floor(secs / 60);
+                const seconds = String(secs % 60).padStart(2, '0');
+                document.getElementById("elapsed-time").innerHTML =
+                    '<i class="bi bi-stopwatch"></i> ' + minutes + ':' + seconds;
+            }, 1000);
+        }
+
+        function stopTimer() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+        }
+
+        // --- Form submit ---
+        document.querySelector('form').addEventListener('submit', function () {
             document.getElementById("progress-container").style.display = "block";
-            document.getElementById("progress-message").textContent = "Przetwarzanie rozpoczęte...";
-            
-            const button = document.getElementById("verifyButton");
-            button.disabled = true;
-            button.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Przetwarzanie...';
+            document.getElementById("result-container").style.display  = "none";
+            document.getElementById("progress-message").textContent    = "⏳ Oczekiwanie na start procesu...";
+            document.getElementById("elapsed-time").innerHTML          = '<i class="bi bi-stopwatch"></i> 0:00';
+            document.getElementById("progress-spinner").style.display  = "inline-block";
+
+            const bar = document.getElementById("progress-bar");
+            bar.style.width = "0%";
+            bar.classList.remove("bg-success", "bg-danger");
+            bar.classList.add("progress-bar-animated", "progress-bar-striped");
+            document.getElementById("progress-percentage").textContent = "0%";
+
+            const btn = document.getElementById("verifyButton");
+            btn.disabled = true;
+            btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Przetwarzanie...';
+
+            startTimer();
         });
     </script>
 }
