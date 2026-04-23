@@ -1,0 +1,566 @@
+﻿Komunikat|ID|Kraj|Kod|Miejscowość|Ulica|Nr domu|Nr mieszkania|Województwo|Powiat|Gmina
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A01286562|PL|00-043|WARSZAWA|ul.Czackiego 3/5|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Singera,Wszystkie kody mają przypisaną ulicę|A01396300|PL|02-790|WARSZAWA|Sengera|24|2a|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A01429280|PL|00-043|WARSZAWA|Czackiego|3/5|416|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A10487|PL|31-144|KRAKOW|Biskupia|10|14|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A10713|PL|00-043|WARSZAWA|Czackiego|3|5 l.416|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A10994|PL|00-043|WARSZAWA|Czackiego|3|5|ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A110713|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Kaczmarskiego,Wszystkie kody mają przypisaną ulicę|A114706|PL|02-679|WARSZAWA|Jacka Kaczmarskiego|27||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A11480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A11631686|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabrze,Ulica: Agricoli,Wszystkie kody mają przypisaną ulicę|A11702822|PL|41-800|ZABRZE|Georgiusa Agricoli|2||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Józefów,Ulica: Ziarnista,Wszystkie kody mają przypisaną ulicę|A11729768|PL|05-410|JÓZEFÓW|Ziarnista|22||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: Kadłubek (ID=618397),Numer budynku: 22A,Liczba znalezionych kodów: 0|A1180781|PL||CHRZANÓW|KADŁUBKA|22A|7|MAŁOPOLSKIE|CHRZANOWSKI|CHRZANÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Wody,Wszystkie kody mają przypisaną ulicę|A11848465|PL|33-100|TARNÓW|Wiesława Wody|27||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Oraczy,Wszystkie kody mają przypisaną ulicę|A1185963|PL|30-418|KRAKÓW|ORACZY|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: Owocowa (ID=622209),Numer budynku: 8,Liczba znalezionych kodów: 0|A1190891|PL|32-500|CHRZANÓW|Okopowa|8||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Piaseczno,Ulica: Kineskopowa,Wszystkie kody mają przypisaną ulicę|A11952204|PL|05-500|PIASECZNO|Kineskopowa|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bestwina (ID=230629),Ulica: Ludowa (ID=708968),Numer budynku: 5,Liczba znalezionych kodów: 0|A1196570|PL|43-512|BESTWINA|Łanowa|5||ŚLĄSKIE|BIELSKI|CZECHOWICE-DZIEDZICE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1202275|PL|00-043|WARSZAWA|ul -Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rudki,Ulica: Pocztowa,Miejscowość nie ma kodów pocztowych|A1205032|PL|26-007|RUDKI|Pocztowa|13|9|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poraj,Ulica: Ogrodowa,Miejscowość nie ma kodów pocztowych|A1209395|PL|42-297|PORAJ|Ogrodowa|10||ŚLĄSKIE|MYSZKOWSKI|MYSZKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1213241|PL|00-043|WARSZAWA|ul. Tadeusza Czackiego|3/5||MAZOWIECKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1219837|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Słowiański,Wszystkie kody mają przypisaną ulicę|A1223900|PL|31-141|KRAKÓW|pl.Słowiański|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Ofiar Katynia,Wszystkie kody mają przypisaną ulicę|A1230574|PL|37-700|KRAKÓW|Ofiar Katynia|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Szaniawskiego,Wszystkie kody mają przypisaną ulicę|A1239533|PL|30-405|KRAKÓW|Szaniawskiego|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Elektryczna,Wszystkie kody mają przypisaną ulicę|A1242210|PL|00-346|WARSZAWA|Elektryczna|2a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1247525|PL|31-055|KRAKÓW|BISKUPIA|14|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Głogów,Ulica: Powstańców,Wszystkie kody mają przypisaną ulicę|A1248045|PL|67-200|GŁOGÓW|Powstańców|13|2|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: Kadłubek (ID=618397),Numer budynku: 22,Liczba znalezionych kodów: 0|A1248224|PL|32-500|CHRZANÓW|KADŁUBKA|22|A 49|MAŁOPOLSKIE|CHRZANOWSKI|CHRZANÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poraj,Ulica: Mickiewicza,Miejscowość nie ma kodów pocztowych|A1252046|PL|42-297|PORAJ|MICKIEWICZA|48||ŚLĄSKIE|MYSZKOWSKI|MYSZKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żywiec (ID=230514),Ulica: Boczna (ID=740127),Numer budynku: 9a,Liczba znalezionych kodów: 0|A1252419|PL|34-330|ŻYWIEC|Buczka|9a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Limanowa (ID=195204),Ulica: Kamienna (ID=650351),Numer budynku: 452,Liczba znalezionych kodów: 0|A1252655|PL|33-618|LIMANOWA|KAMIENICA|452||MAŁOPOLSKIE|LIMANOWSKI|LIMANOWA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1254951|PL|00-950|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sosnowiec,Ulica: Dietla,Wszystkie kody mają przypisaną ulicę|A1261389|PL|41-200|SOSNOWIEC|Dietla|15A||ŚLĄSKIE|SOSNOWIEC|SOSNOWIEC
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jedlicze (ID=211370),Ulica: Konarskiego (ID=762065),Numer budynku: 46,Liczba znalezionych kodów: 0|A1262853|PL|38-460|JEDLICZE|Tokarskiego|46||PODKARPACKIE|KROSNO|KROSNO
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Głogów,Ulica: Powstańców,Wszystkie kody mają przypisaną ulicę|A1266190|PL|67-200|GŁOGÓW|Powstańców|13|2|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Władysława,Wszystkie kody mają przypisaną ulicę|A1267365|PL|44-240|ŻORY|Os.Księcia Władysława|56|11|ŚLĄSKIE|ŻORY|ŻORY
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: IV Poprzeczna,Wszystkie kody mają przypisaną ulicę|A1269487|PL|04-611|WARSZAWA|IV Poprzeczna|3a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kielce,Ulica: Żołnierzy Misji Pokojowych Organizacji Narodów Zjednoczonych,Wszystkie kody mają przypisaną ulicę|A1270090|PL|25-548|KIELCE|Okrana|44|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Piekary Śląskie,Ulica: Głęboka,Wszystkie kody mają przypisaną ulicę|A1272300|PL|41-940|PIEKARY ŚLĄSKIE|Głęboka|14||ŚLĄSKIE|PIEKARY ŚLĄSKIE|PIEKARY ŚLĄSKIE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Dąbrowskiego,Wszystkie kody mają przypisaną ulicę|A1277825|PL|90-249|ŁÓDŹ|Pl.Dąbrowskigo|3|6|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Ogrodniki,Wszystkie kody mają przypisaną ulicę|A1278102|PL|30-421|KRAKÓW|Ogrodniki|5|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Konstancin-Jeziorna,Ulica: Pułaskiego,Wszystkie kody mają przypisaną ulicę|A1280073|PL|05-510|KONSTANCIN JEZIORNA|Pułaskiego|2||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Szaniawskiego,Wszystkie kody mają przypisaną ulicę|A1280423|PL|30-405|KRAKÓW|Szaniawskiego|18|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kielce,Ulica: Zakładowa,Wszystkie kody mają przypisaną ulicę|A1280549|PL|25-672|KIELCE|Zakładowa|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wrocław,Ulica: Mikołaja,Wszystkie kody mają przypisaną ulicę|A1280796|PL|50-128|WROCŁAW|Św. Mikołaja|32/33|8|DOLNOŚLĄSKIE|WROCŁAW|WROCŁAW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poznań,Ulica: Chrobrego,Wszystkie kody mają przypisaną ulicę|A1283306|PL|60-681|POZNAŃ|Os.Bol.Chrobrego|20|51|WIELKOPOLSKIE|POZNAŃ|POZNAŃ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Katowice,Ulica: Roździeńskiego,Wszystkie kody mają przypisaną ulicę|A1285348|PL|40-203|KATOWICE|Rożdziańskiego|188b||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1286562|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Katowice,Ulica: Roździeńskiego,Wszystkie kody mają przypisaną ulicę|A1287342|PL|40-203|KATOWICE|Raździeńskiego|96|135|ŚLĄSKIE|KATOWICE|KATOWICE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Starogard Gdański (ID=226126),Ulica: Dominika (ID=823908),Numer budynku: 24,Liczba znalezionych kodów: 0|A1288494|PL|83-200|STAROGARD GDAŃSKI|BP Dominki|24||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1289673|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź (ID=179593),Ulica: Jaszowskiego (ID=808385),Numer budynku: 10,Liczba znalezionych kodów: 0|A1289701|PL|90-231|ŁÓDŹ|Jaszuńskiego|10||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz (ID=161781),Ulica: Romańskiego (ID=615817),Numer budynku: 6,Liczba znalezionych kodów: 0|A1290149|PL|85-030|BYDGOSZCZ|Rumińskiego|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Mszana Dolna (ID=194582),Ulica: Zagórzan (ID=630724),Numer budynku: 5,Liczba znalezionych kodów: 0|A1293397|PL|34-730|MSZANA DOLNA|Zagórze|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1296260|PL|30-667|KRAKÓW|Facimech|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Michałowice (ID=199967),Ulica: Bukowa (ID=678486),Numer budynku: 14,Liczba znalezionych kodów: 0|A1297406|PL|05-816|MICHAŁOWICE|Łąkowa|14||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1297638|PL|31-144|KRAKÓW|Biskupia|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Katowice,Ulica: Roździeńskiego,Wszystkie kody mają przypisaną ulicę|A1300008|PL|40-203|KATOWICE|al.Rożdżeńskiego|188||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1303861|PL|30-667|KRAKÓW|Facimiech|16|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Ogrodniki,Wszystkie kody mają przypisaną ulicę|A1304784|PL|30-421|KRAKÓW|Ogrodniki|10a||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Starachowice (ID=233998),Ulica: Rogowskiego (ID=768883),Numer budynku: 9,Liczba znalezionych kodów: 0|A1306216|PL|27-200|STARACHOWICE|Mrozowskiego|9||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1306350|PL|00-043|WARSZAWA|Czackiego|19||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szczecin,Ulica: Nowa,Wszystkie kody mają przypisaną ulicę|A1307735|PL|72-003|SZCZECIN|Sasankowa|25||ZACHODNIOPOMORSKIE|SZCZECIN|SZCZECIN
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Medyczna,Wszystkie kody mają przypisaną ulicę|A1309388|PL|30-688|KRAKÓW|Medyczna|7||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1325193|PL|31-142|KRAKÓW|Biskupia|22|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wrocław,Ulica: Mikołaja,Wszystkie kody mają przypisaną ulicę|A1330234|PL|50-125|WROCŁAW|ul. Św. Mikołaja|8.-11.||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chechło (ID=231168),Ulica: Łąkowa (ID=705637),Numer budynku: 10,Liczba znalezionych kodów: 0|A1333051|PL|95-082|CHECHŁO|Lipowa|10||ŁÓDZKIE|PABIANICKI|DOBROŃ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Katowice,Ulica: Roździeńskiego,Wszystkie kody mają przypisaną ulicę|A1338149|PL|40-203|KATOWICE|Al. Rodzieńskiego|190B||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1342301|PL|30-667|KRAKÓW|Facimiech|14|9|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Brzezinka,Ulica: Męczeństwa Narodów,Miejscowość nie ma kodów pocztowych|A1350054|PL|32-610|BRZEZINKA|Męczeństwa Narodów|8||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1350807|PL|31-144|KRAKÓW|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Biłgoraj (ID=168159),Ulica: Borowskiego (ID=628832),Numer budynku: 3,Liczba znalezionych kodów: 0|A1350928|PL|23-400|BIŁGORAJ|Borelowskiego|3||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chorzów,Ulica: Róż,Wszystkie kody mają przypisaną ulicę|A1362261|PL|32-500|CHORZÓW|Kroczymiech|2||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: 29 Listopada (ID=636516),Numer budynku: 22,Liczba znalezionych kodów: 0|A1368235|PL|32-590|CHRZANÓW|11 Listopada|22|26|MAŁOPOLSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Głogów,Ulica: Powstańców,Wszystkie kody mają przypisaną ulicę|A1368237|PL|67-200|GŁOGÓW|Powstańców|07-mar||DOLNOŚLĄSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Roztoki,Wszystkie kody mają przypisaną ulicę|A1368530|PL|43-316|BIELSKO-BIAŁA|Roztoki|3|120|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sosnowiec,Ulica: Dietla,Wszystkie kody mają przypisaną ulicę|A1370044|PL|41-214|SOSNOWIEC|Dietla|5a|10|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabrze,Ulica: Kroczka,Wszystkie kody mają przypisaną ulicę|A1371744|PL|41-807|ZABRZE|Pl.N.Kroczka|9|1|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Brzesko (ID=187732),Ulica: Makowa (ID=665736),Numer budynku: 17,Liczba znalezionych kodów: 0|A1372044|PL|32-800|BRZESKO|Zamkowa|17||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Częstochowa,Ulica: Mickiewicza,Wszystkie kody mają przypisaną ulicę|A1376591|PL|42-200|CZĘSTOCHOWA|ul. zMickiewicza|16|11|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Brzesko (ID=187732),Ulica: Zagłoby (ID=671195),Numer budynku: 93,Liczba znalezionych kodów: 0|A1377330|PL|32-800|BRZESKO|Zagrody|93||MAŁOPOLSKIE|BRZESKI|BRZESKO
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Będzin,Ulica: Zagórnego,Wszystkie kody mają przypisaną ulicę|A1378193|PL|42-506|BĘDZIN|mjr. Bolesława Zagórnego|18||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz (ID=161781),Ulica: Romańskiego (ID=615817),Numer budynku: 6,Liczba znalezionych kodów: 0|A1383006|PL|85-030|BYGDOSZCZ|Rumińskiego|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Pisarzowice (ID=229303),Ulica: Zaciszna (ID=726074),Numer budynku: 3,Liczba znalezionych kodów: 0|A1386192|PL|43-332|PISARZOWICE|Zacisze|3||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Mysłowice,Ulica: Obrzeżna Zachodnia,Wszystkie kody mają przypisaną ulicę|A1388426|PL|41-400|MYSŁOWICE|ul Onrzeźna Zachodnia 37|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1388449|PL|94-050|ŁÓDŹ|Al.Wyszyńskiego|83|17|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: Kadłubek (ID=618397),Numer budynku: 22A,Liczba znalezionych kodów: 0|A1390384|PL|32-500|CHRZANÓW|Kadłubka|22A|52|MAŁOPOLSKIE|CHRZANOWSKI|CHRZANÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Radłów (ID=187202),Ulica: Leśna (ID=800661),Numer budynku: 93,Liczba znalezionych kodów: 0|A1390627|PL|33-130|RADŁÓW|ul. Bohaterów Września|93||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice,Ulica: Usługowa,Wszystkie kody mają przypisaną ulicę|A1390931|PL|44-100|GLIWICE|ul. Usługowa|20||ŚLĄSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Częstochowa,Ulica: Tokarzewskiego-Karaszewicza,Wszystkie kody mają przypisaną ulicę|A1391103|PL|42-221|CZĘSTOCHOWA|Ul. Tokarzewskiego-Karaszewicz|17||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Roztoki,Wszystkie kody mają przypisaną ulicę|A1391712|PL|43-316|BIELSKO-BIAŁA|Ul. Roztoki|1|19|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sosnowiec,Ulica: Dietla,Wszystkie kody mają przypisaną ulicę|A1391826|PL|41-200|SOSNOWIEC|Dietla|16||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Dębowa,Wszystkie kody mają przypisaną ulicę|A1393867|PL|44-240|ŻORY|Dębowa|25||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Roztoki,Wszystkie kody mają przypisaną ulicę|A1393894|PL|43-316|BIELSKO-BIAŁA|Ul. Roztoki|3|94|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Koszyce Wielkie (ID=192142),Ulica: Wąska (ID=668456),Numer budynku: 35,Liczba znalezionych kodów: 0|A1394556|PL|33-111|KOSZYCE WIELKIE|Wolska|35||MAŁOPOLSKIE|TARNOWSKI|TARNÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sosnowiec,Ulica: Dietla,Wszystkie kody mają przypisaną ulicę|A1394600|PL|41-214|SOSNOWIEC|Dietla|7a|9|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jędrzejów (ID=235846),Ulica: Krzywoustego (ID=767628),Numer budynku: 3,Liczba znalezionych kodów: 0|A1394776|PL|28-300|JĘDRZEJÓW|Bolesława Krzywouste|3||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1394915|PL|31-144|KRAKÓW|Biskupia|20||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Oraczy,Wszystkie kody mają przypisaną ulicę|A1395756|PL|30-418|KRAKÓW|Oraczy|12|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Skalbmierz (ID=236669),Ulica: Sokoła (ID=767162),Numer budynku: 3,Liczba znalezionych kodów: 0|A1396262|PL|28-530|SKALBMIERZ|Szkolna|3||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Skarżysko-Kamienna (ID=234026),Ulica: Sokola (ID=754633),Numer budynku: 15,Liczba znalezionych kodów: 0|A1396600|PL|26-110|SKARŻYSKO KAMIENNA|Sokołów|15|50|ŚWIĘTOKRZYSKIE|SKARŻYSKI|SKARŻYSKO-KAMIENNA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wrocław,Ulica: Mikołaja,Wszystkie kody mają przypisaną ulicę|A1396785|PL|50-126|WROCŁAW|Św. Mikołaja|72||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Drzycim (ID=160949),Ulica: Szkolna (ID=645369),Numer budynku: 1,Liczba znalezionych kodów: 0|A1398729|PL|86-140|DRZYCIM|Szklana|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Józefów,Ulica: Skłodowskiej,Wszystkie kody mają przypisaną ulicę|A1399718|PL|05-420|JÓZEFÓW|ul.Skłodowskiej|22a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Głogów,Ulica: Powstańców,Wszystkie kody mają przypisaną ulicę|A1400690|PL|67-200|GŁOGÓW|Powstańców|9|5|DOLNOŚLĄSKIE|GŁOGOWSKI|GŁOGÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Trzebinia (ID=228749),Ulica: Łowiecka (ID=750770),Numer budynku: 10,Liczba znalezionych kodów: 0|A1402340|PL||TRZEBINIA|ul.Łokietka|10||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: ROW,Wszystkie kody mają przypisaną ulicę|A1404193|PL|44-217|RYBNIK|Zebrzydowska|117||ŚLĄSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kielce,Ulica: Maja,Wszystkie kody mają przypisaną ulicę|A1406050|PL|25-372|KIELCE|Seminaryjna|11|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1409857|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Olsztyn,Ulica: Poznańskiego,Wszystkie kody mają przypisaną ulicę|A1410881|PL|10-767|OLSZTYN|POZNAŃSKIEGO|13||WARMIŃSKO-MAZURSKIE|OLSZTYN|OLSZTYN
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wrocław,Ulica: Sikorskiego,Wszystkie kody mają przypisaną ulicę|A141151|PL|53-659|WROCŁAW|Gen. ładysława Sikorskiego|2-8||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Władysława,Wszystkie kody mają przypisaną ulicę|A1411525|PL|44-240|ŻORY|oś.Księcia Władysława|13G|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wolsztyn (ID=250331),Ulica: Pogodna (ID=787200),Numer budynku: 16,Liczba znalezionych kodów: 0|A1411538|PL||WOLSZTYN|ul.Podgórna|16||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory (ID=230027),Ulica: Władysława (ID=789943),Numer budynku: 3G,Liczba znalezionych kodów: 0|A1412065|PL|44-240|ŻORY|Os. Księcia Władysła|3G|10|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Władysława,Wszystkie kody mają przypisaną ulicę|A1412881|PL|44-240|ŻORY|oś.Księcia Władysława|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Baligród (ID=216730),Ulica: Kościa (ID=863544),Numer budynku: 9,Liczba znalezionych kodów: 0|A1414546|PL|38-606|BALIGRÓD|Ul. Ks. Tomasza Kosc|9||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Bartnicza,Wszystkie kody mają przypisaną ulicę|A1415130|PL|43-300|BIELSKO-BIAŁA|Bartnicza|13||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Królewska,Wszystkie kody mają przypisaną ulicę|A1416088|PL|30-134|KRAKÓW|ul. Młynówka Królewska|2||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jastrzębie,Ulica: Zielony Gaj,Wszystkie kody mają przypisaną ulicę|A1416164|PL|44-335|JASTRZĘBIE|Ul. Zielona|39|34|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Leżajsk (ID=216633),Ulica: Witosa (ID=750095),Numer budynku: 1,Liczba znalezionych kodów: 0|A1416522|PL|37-300|LEŻAJSK|ul. Wincentego Wito|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bolesławiec (ID=157506),Ulica: Konopnickiej (ID=612848),Numer budynku: 34,Liczba znalezionych kodów: 0|A1417723|PL|59-700|BOLESŁAWIEC|Ul. Marii Konopnicki|34||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Nowa Dęba (ID=215906),Ulica: Kościuszki (ID=675645),Numer budynku: 108,Liczba znalezionych kodów: 0|A1417757|PL|39-460|NOWA DĘBA|Ul.Tadeusza Kościusz|108|31|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1418656|PL|00-950|WARSZAWA|ul.Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1419867|PL|31-144|KRAKÓW|Biskupia|22|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Ogrodniki,Wszystkie kody mają przypisaną ulicę|A1420015|PL|30-421|KRAKÓW|Ogrodniki|7|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: ROW,Wszystkie kody mają przypisaną ulicę|A1421859|PL|44-253|RYBNIK|Patryjotów|40A|9|ŚLĄSKIE|RYBNIK|RYBNIK
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Reda (ID=225781),Ulica: Derdowskiego (ID=720688),Numer budynku: 7,Liczba znalezionych kodów: 0|A1423680|PL|84-240|REDA|ul.Dedrowskiego|7|19|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1424738|PL|00-043|WARSZAWA|Czackiego|3|5|MAZOWIECKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Bogdanowicza,Wszystkie kody mają przypisaną ulicę|A1429124|PL|30-405|KRAKÓW|Bogdanowicza|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1429280|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1430041|PL|30-667|KRAKÓW|Facimiech|12a|37|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Baló,Wszystkie kody mają przypisaną ulicę|A1430913|PL|02-793|WARSZAWA|PŁK. ZOLTANA BALO|4|8|MAZOWIECKIE|WARSZAWA|URSYNÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1432683|PL|31-144|KRAKÓW|Biskupia|2|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1436030|PL|00-043|WARSZAWA|Czackiego|3/5|115|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Krosno (ID=215473),Ulica: Kisielewskiego (ID=680955),Numer budynku: 8,Liczba znalezionych kodów: 0|A1436371|PL|38-400|KROSNO|Stefana Kisielewskie|8|4|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Roztoki,Wszystkie kody mają przypisaną ulicę|A1436694|PL|43-316|BIELSKO-BIAŁA|Roztoki|3|42|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraśnik,Ulica: Zielińskiego,Wszystkie kody mają przypisaną ulicę|A1436798|PL|23-210|KRAŚNIK|Zielińskiego|11|3|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Szaniawskiego,Wszystkie kody mają przypisaną ulicę|A1436866|PL|30-405|KRAKÓW|Szaniawskiego|14||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Rayskiego,Wszystkie kody mają przypisaną ulicę|A1438779|PL|31-866|KRAKÓW|Skrażyńskiego|4|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Głowienka (ID=211453),Ulica: Nadbrzeżna (ID=741460),Numer budynku: 160,Liczba znalezionych kodów: 0|A1439165|PL|38-455|GŁOWIENKA|Nadrzeczna|160||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Andrychów (ID=194556),Ulica: Klonowa (ID=669070),Numer budynku: 3,Liczba znalezionych kodów: 0|A1439234|PL|34-120|ANDRYCHÓW|Kolorowa|3||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jędrzejów (ID=235846),Ulica: Przypkowskiego (ID=746364),Numer budynku: 44,Liczba znalezionych kodów: 0|A1439251|PL|28-300|JĘDRZEJÓW|Feliksa Przypkowskie|44||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Leżajsk (ID=216633),Ulica: Jadwigi-Królowej (ID=824787),Numer budynku: 5,Liczba znalezionych kodów: 0|A1439733|PL|37-300|LEŻAJSK|Świętej Jadwigi Królowej|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Odrzykoń (ID=213452),Ulica: Cebuli (ID=749818),Numer budynku: 6,Liczba znalezionych kodów: 0|A1439800|PL|38-406|ODRZYKOŃ|prof.Stanisława Cebu|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Bogdanowicza,Wszystkie kody mają przypisaną ulicę|A1441612|PL|30-405|KRAKÓW|Bogdanowicza|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Oświęcim (ID=194794),Ulica: Orłowskiego (ID=661217),Numer budynku: 3,Liczba znalezionych kodów: 0|A1442831|PL|32-600|OŚWIĘCIM|Aleksandra Orłowskie|3|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kolbuszowa (ID=216379),Ulica: Przerwy-Tetmajera (ID=741415),Numer budynku: 4a,Liczba znalezionych kodów: 0|A1443187|PL|36-100|KOLBUSZOWA|Kazimierza Przerwy-Tetmajera/1|4a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Przy Torze,Wszystkie kody mają przypisaną ulicę|A1445180|PL||KRAKÓW|Przy Torze|15||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1445716|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Górzyca (ID=172275),Ulica: Makowa (ID=828065),Numer budynku: 8b,Liczba znalezionych kodów: 0|A1451548|PL|44-350|GORZYCA|Zamkowa|8b|1|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1454989|PL|31-144|KRAKÓW|Biskupia|3|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gdańsk (ID=225469),Ulica: Krzyżanowskiej (ID=893553),Numer budynku: 17,Liczba znalezionych kodów: 0|A1456721|PL|80-271|GDAŃSK|Krzyżanowskiego|17|6|POMORSKIE|GDAŃSK|GDAŃSK
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wodzisław Śląski,Ulica: Gałczyńskiego,Wszystkie kody mają przypisaną ulicę|A1457626|PL|44-300|WODZISŁAW ŚL.|Gałczyńskiego|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Dębowa,Wszystkie kody mają przypisaną ulicę|A1462338|PL|44-240|ŻORY|Dębowa|25||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sanok (ID=214991),Ulica: Stara (ID=674807),Numer budynku: 2,Liczba znalezionych kodów: 0|A1463881|PL|38-500|SANOK|ks. Zygmunta Gorazdo|2|25|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Klucze (ID=182536),Ulica: Górna (ID=653719),Numer budynku: 19,Liczba znalezionych kodów: 0|A1463917|PL|32-310|KLUCZE|Główna|19||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: Krucza (ID=622200),Numer budynku: 9,Liczba znalezionych kodów: 0|A1464131|PL|32-500|CHRZANÓW|Urocza|9||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Nowa Wieś,Ulica: Nowowiejska,Miejscowość nie ma kodów pocztowych|A1464742|PL|42-690|NOWA WIEŚ|ul. Wiejska|123||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ciągowice,Ulica: 1 Maja,Miejscowość nie ma kodów pocztowych|A1466533|PL|42-450|CIĄGOWICE|1 Maja|25|2|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Oświęcim (ID=194794),Ulica: Orłowskiego (ID=661217),Numer budynku: 60,Liczba znalezionych kodów: 0|A1467002|PL|32-600|OŚWIĘCIM|Aleksandra Orłowskie|60|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Oświęcim (ID=194794),Ulica: Łukowa (ID=654503),Numer budynku: 9,Liczba znalezionych kodów: 0|A1467290|PL|32-600|OŚWIĘCIM BROSZKOWICE|Klubowa|9||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Szaniawskiego,Wszystkie kody mają przypisaną ulicę|A1467747|PL|30-405|KRAKÓW|Szaniawskiego|17||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1468336|PL|31-144|KRAKÓW|Biskupia|22|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1468522|PL|30-667|KRAKÓW|ul.Facimiech|3|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kostrzyn (ID=203690),Ulica: Górna (ID=885397),Numer budynku: 21,Liczba znalezionych kodów: 0|A1468602|PL|66-470|KOSTRZYN|Główna|21|1|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Na Grządkach,Wszystkie kody mają przypisaną ulicę|A1468818|PL|30-421|KRAKÓW|Na grządkach|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Filomatów,Wszystkie kody mają przypisaną ulicę|A1469512|PL|43-300|BIELSKO-BIAŁA|Filomatów|11||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szczecin,Ulica: Brylantowa,Wszystkie kody mają przypisaną ulicę|A1469624|PL|71-235|SZCZECIN|Brylantowa|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Kaczmarskiego,Wszystkie kody mają przypisaną ulicę|A14706|PL|02-679|WARSZAWA|Jacka Kaczmarskiego|27||ŁÓDZKIE|WIELUŃSKI|WIERZCHLAS
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chełm (ID=169873),Ulica: Skalskiego (ID=821282),Numer budynku: 16,Liczba znalezionych kodów: 0|A1475087|PL|22-100|CHEŁM|ul.I Armii Wojska Polskiego 16|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice,Ulica: Piłsudskiego,Wszystkie kody mają przypisaną ulicę|A1475113|PL|44-106|GLIWICE|ul.Piłsudskiego 9|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Traugutta,Wszystkie kody mają przypisaną ulicę|A1475602|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Traugutta,Wszystkie kody mają przypisaną ulicę|A1475603|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Traugutta,Wszystkie kody mają przypisaną ulicę|A1475606|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Traugutta,Wszystkie kody mają przypisaną ulicę|A1475607|PL|00-950|WARSZAWA|ul.Traugutta 7/9|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poczesna (ID=226867),Ulica: Łąkowa (ID=743160),Numer budynku: 1,Liczba znalezionych kodów: 0|A1476082|PL|42-262|POCZESNA|UL.BANKOWA 1|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bolków (ID=157606),Ulica: Rynek (ID=619639),Numer budynku: 1,Liczba znalezionych kodów: 0|A1476353|PL|58-575|BOLKÓW|RYNEK RATUSZ 1|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Biała (ID=174874),Ulica: Sadowa (ID=630271),Numer budynku: 2,Liczba znalezionych kodów: 0|A1476745|PL|98-350|BIAŁA|UL.RZĄDOWA 2|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kowalewo Pomorskie (ID=163159),Ulica: 1 Stycznia (ID=911862),Numer budynku: 14,Liczba znalezionych kodów: 0|A1476873|PL|87-410|KOWALEWO POMORSKIE|UL.23 STYCZNIA 14|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ciechanów,Ulica: Szczurzynek,Wszystkie kody mają przypisaną ulicę|A1477166|PL|06-400|CIECHANÓW|ul.Rynek 8|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Lwówek Śląski (ID=157297),Ulica: Łąkowa (ID=634647),Numer budynku: 12,Liczba znalezionych kodów: 0|A1477313|PL|59-700|BOLESŁAWIEC ŚLĄSKI|ul.Bankowa 12|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1477388|PL|00-950|WARSZAWA|ul.Czackiego 21/23|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chełm (ID=169873),Ulica: Skalskiego (ID=821282),Numer budynku: 41,Liczba znalezionych kodów: 0|A1477401|PL|22-100|CHEŁM|ul.I Armii Wojska Polskiego 41|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poraj,Ulica: Górnicza,Miejscowość nie ma kodów pocztowych|A1478011|PL|42-297|PORAJ|ul.Górnicza|14||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Dąbrowskiego,Wszystkie kody mają przypisaną ulicę|A1478018|PL|00-950|WARSZAWA|pl.J.H. Dąbrowskiego 3|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Dynasy,Wszystkie kody mają przypisaną ulicę|A1481102|PL|00-354|WARSZAWA|Dynasy|4|14|MAZOWIECKIE|WARSZAWA|ŚRÓDMIEŚCIE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Piaseczno,Ulica: Polskiego Państwa Podziemnego,Wszystkie kody mają przypisaną ulicę|A1481318|PL|05-820|PIASECZNO|Piasta|13||MAZOWIECKIE|PRUSZKOWSKI|PIASTÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1525684|PL|00-950|WARSZAWA|Czackiego|15|17|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1603663|PL|94-047|ŁÓDŹ|ul.Wyszyńskiego|33|11|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1607876|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1609118|PL|94-047|ŁÓDŹ|Wyszyńskiego|58|25|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Radom,Ulica: Malczewskiego,Wszystkie kody mają przypisaną ulicę|A1609879|PL|26-600|RADOM|Malczeskiego|25||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsk (ID=196414),Ulica: Makowa (ID=816101),Numer budynku: 47,Liczba znalezionych kodów: 0|A1612346|PL|17-100|Bielsk|Zamkowa|47||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ciągowice,Ulica: Kopalniana,Miejscowość nie ma kodów pocztowych|A1612471|PL|42-450|CIĄGOWICE|Kopalniana|9||ŚLĄSKIE|ZAWIERCIAŃSKI|ŁAZY
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dąbrowa (ID=248830),Ulica: Morelowa (ID=778642),Numer budynku: 1,Liczba znalezionych kodów: 0|A1612561|PL|42-530|Dąbrowa|Hotelowa|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Włoszczowa (ID=236771),Ulica: Kraszewskiego (ID=816365),Numer budynku: 49,Liczba znalezionych kodów: 0|A1613875|PL|29-100|Włoszczowa|Ignacego Kraszewskie|49||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=189697),Numer budynku: 430,Liczba znalezionych kodów: 0|A1614488|PL|32-852|Dębno|Sufczyn|430||MAŁOPOLSKIE|BRZESKI|DĘBNO
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poczesna (ID=226867),Ulica: Łąkowa (ID=743160),Numer budynku: 24,Liczba znalezionych kodów: 0|A1614594|PL|42-262|Poczesna|Laurowa|24||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Starachowice (ID=233998),Ulica: Rogowskiego (ID=768883),Numer budynku: 12,Liczba znalezionych kodów: 0|A1615779|PL|27-200|Starachowice|Mrozowskiego|12||ŚWIĘTOKRZYSKIE|STARACHOWICKI|STARACHOWICE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Nowy Sącz (ID=194793),Ulica: 1 Brygady (ID=809585),Numer budynku: 16,Liczba znalezionych kodów: 0|A1616500|PL|33-300|Nowy Sącz|I-Brygady|16|26|MAŁOPOLSKIE|NOWY SĄCZ|NOWY SĄCZ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Baligród (ID=216730),Ulica: Kościa (ID=863544),Numer budynku: 8,Liczba znalezionych kodów: 0|A1616501|PL|38-606|Baligród|księdza Tomasza Kośc|8||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Leżajsk (ID=216633),Ulica: Jadwigi-Królowej (ID=824787),Numer budynku: 21,Liczba znalezionych kodów: 0|A1616676|PL|37-300|Leżajsk|Św. Jadwigii Królowej|21||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Brzesko (ID=187732),Ulica: Makowa (ID=665736),Numer budynku: 78,Liczba znalezionych kodów: 0|A1619049|PL|32-800|BRZESKO|Zamkowa|78||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Dębnicki,Wszystkie kody mają przypisaną ulicę|A1620627|PL|30-319|KRAKÓW|Rynek Dędnicki|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: Kadłubek (ID=618397),Numer budynku: 30B,Liczba znalezionych kodów: 0|A1621822|PL|32-500|CHRZANÓW|Kadłubka|30B|7|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Na Grządkach,Wszystkie kody mają przypisaną ulicę|A1621921|PL|30-421|KRAKÓW|Na Grządkach|16||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1623928|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Filomatów,Wszystkie kody mają przypisaną ulicę|A1625850|PL|43-300|BIELSKO-BIAŁA|Filomatów|5|1|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Szaniawskiego,Wszystkie kody mają przypisaną ulicę|A1629452|PL|30-405|KRAKÓW|Szaniawskiego|29||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: Kadłubek (ID=618397),Numer budynku: 43,Liczba znalezionych kodów: 0|A1629634|PL|32-500|CHRZANÓW|Kadłubka|43||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zielonki (ID=193155),Ulica: Bankowa (ID=630775),Numer budynku: 6,Liczba znalezionych kodów: 0|A1630922|PL||ZIELONKI|ul.Bukowa|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1631686|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1633284|PL|30-667|Kraków|Facimiech|12A|43|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraśnik,Ulica: Zielińskiego,Wszystkie kody mają przypisaną ulicę|A1635221|PL|23-210|Kraśnik|Księdza Zielińskiego|10|16|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=189697),Numer budynku: 430,Liczba znalezionych kodów: 0|A1636562|PL|32-852|Sufczyn||430||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jędrzejów (ID=235846),Ulica: Artymiaka (ID=828973),Numer budynku: 8,Liczba znalezionych kodów: 0|A1636896|PL|28-300|Jędrzejów|Dr Antoniego Artymia|8|2|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1637565|PL|94-047|Łódź|Kard. Wyszyńskiego|52|4|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dąbrowa Górnicza,Ulica: Toruńska,Wszystkie kody mają przypisaną ulicę|A1639874|PL|41-303|DĄBROWA GÓRNICZA|Toruńska|7||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: Wyszyńskiego (ID=855070),Numer budynku: 7,Liczba znalezionych kodów: 0|A1642115|PL|32-500|Chrzanów|Kardynała Wyszyńskeigo|7|68|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ciągowice,Ulica: Zacisze,Miejscowość nie ma kodów pocztowych|A1642530|PL|42-450|Ciągowice|Zacisze|19||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1643044|PL|94-047|Łódź|Wyszyńskiego|68|70|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dąbrowa Górnicza,Ulica: Budowniczych Huty Katowice,Wszystkie kody mają przypisaną ulicę|A1643139|PL|41-303|Dąbrowa Górnicza|Buczka|3C|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Władysława,Wszystkie kody mają przypisaną ulicę|A1643806|PL|44-240|ŻORY|os.Księcia Władysława|10D|6|ŚLĄSKIE|ŻORY|ŻORY
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Otwock,Ulica: Mysia,Wszystkie kody mają przypisaną ulicę|A1645523|PL|05-400|OTWOCK|Mysia|5|7|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kielce,Ulica: Zamkowy,Wszystkie kody mają przypisaną ulicę|A1645714|PL|25-010|KIELCE|Plac Zamkowy|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chorzów,Ulica: Muzyków,Wszystkie kody mają przypisaną ulicę|A1646787|PL|41-500|CHORZÓW|Aleja Muzyków 1|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kielce,Ulica: Zakładowa,Wszystkie kody mają przypisaną ulicę|A1649524|PL|25-670|KIELCE|Zakładowa|4||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Kostki,Wszystkie kody mają przypisaną ulicę|A1650055|PL|33-100|TARNÓW|ul.Św.St.Kostki 3a|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zrębice,Ulica: Główna,Miejscowość nie ma kodów pocztowych|A1651897|PL|42-256|ZRĘBICE|ul.Główna 17|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1652873|PL|30-668|KRAKÓW|Polonijna|16|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Józefów,Ulica: Rozkoszna,Wszystkie kody mają przypisaną ulicę|A1652889|PL|05-410|JÓZEFÓW|Rozkoszna|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Słupska,Wszystkie kody mają przypisaną ulicę|A1653837|PL|30-405|KRAKÓW|Słupska|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Józefów,Ulica: Skłodowskiej,Wszystkie kody mają przypisaną ulicę|A1655310|PL|05-420|JÓZEFÓW|M.C.Skłodowskiej|33||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Janów Lubelski (ID=168866),Ulica: Kilińskiego (ID=843730),Numer budynku: 11,Liczba znalezionych kodów: 0|A1656395|PL|23-204|KRAŚNIK LUBELSKI|Księdza Zielińskiego|11|8|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Międzyrzecz (ID=172476),Ulica: Wesoła (ID=634690),Numer budynku: 45,Liczba znalezionych kodów: 0|A1656598|PL|66-300|MIĘDZYRZECZ|Wysoka|45||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1657794|PL|31-144|Kraków|Biskupia|6|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Gwarków,Wszystkie kody mają przypisaną ulicę|A1659113|PL|44-240|Żory|os. Gwarków|32c|1|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Opoczno (ID=178351),Ulica: Krzywoustego (ID=911968),Numer budynku: 8,Liczba znalezionych kodów: 0|A1659231|PL|26-300|Opoczno|Bolesława Krzywouste|8||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łańcut (ID=216696),Ulica: Kąty (ID=750032),Numer budynku: 49,Liczba znalezionych kodów: 0|A1659276|PL|37-100|Łańcut|Kardynała Stefana Wy|49|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1659893|PL|30-667|Kraków|Facimiech|18|36|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Włoszczowa (ID=236771),Ulica: Kraszewskiego (ID=816365),Numer budynku: 49,Liczba znalezionych kodów: 0|A1660498|PL|29-100|Włoszczowa|Ignacego Kraszewskie|49||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Krzywa,Wszystkie kody mają przypisaną ulicę|A1660845|PL|43-382|Bielsko-Biała|Krzywa|36||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Katowice,Ulica: Jasińskiego,Wszystkie kody mają przypisaną ulicę|A1662327|PL|40-586|Katowice|Jasieńskiego|9||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kostrzyn (ID=203690),Ulica: Górna (ID=885397),Numer budynku: 21,Liczba znalezionych kodów: 0|A1663093|PL|66-470|Kostrzyn|Główna|21|1|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1663387|PL|30-667|Kraków|Facimiech|18|36|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabierzów,Ulica: Na Stoku,Wszystkie kody mają przypisaną ulicę|A1664272|PL|32-080|ZABIERZÓW|os.Na Stoku|7||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jastrzębie-Zdrój,Ulica: Jadwigi,Wszystkie kody mają przypisaną ulicę|A1664717|PL|44-330|Jastrzębie Zdrój|Królowej Jadwigi|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Lasowice Małe,Ulica: Stawowa,Miejscowość nie ma kodów pocztowych|A1666154|PL|46-282|Lasowice Małe|Stawowa|22||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Roztoka-Brzeziny (ID=187302),Numer budynku: 160,Liczba znalezionych kodów: 0|A1666329|PL|33-316|Roztoka Brzeziny||160||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1668621|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1670837|PL|94-051|ŁÓDŹ|Wyszyńskiego|93|20|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Leszno (ID=249753),Ulica: Górowska (ID=825843),Numer budynku: 40A,Liczba znalezionych kodów: 0|A1672453|PL|64-100|LESZNO|Mórkowska|40A||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Balladyny,Wszystkie kody mają przypisaną ulicę|A1675154|PL|43-382|BIELSKO-BIAŁA|Balladyny|12||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1676491|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jastrzębie-Zdrój,Ulica: Miarki,Wszystkie kody mają przypisaną ulicę|A1677015|PL|44-330|JASTRZĘBIE ZDRÓJ|Karola Miarki|21||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1677244|PL|94-050|ŁÓDŹ|Wyszyńskiego|83|4|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1678483|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: 1 Dywizji Pancernej,Wszystkie kody mają przypisaną ulicę|A1679080|PL|43-300|BIELSKO-BIAŁA|I Dywizji Pancernej|45||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A16813|PL|30-667|KRAKÓW|Facimiech|14|15|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1682195|PL|30-667|Kraków|Facimiech|18|33|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jastrzębie-Zdrój,Ulica: Okrzei,Wszystkie kody mają przypisaną ulicę|A1682251|PL|44-337|Jastrzębie Zdrój|Okrzei|28||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jastrzębie-Zdrój,Ulica: Okrzei,Wszystkie kody mają przypisaną ulicę|A1682361|PL|44-337|Jastrzębie-Zdrój|Okrzei|12C||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: Spółdzielcza,Wszystkie kody mają przypisaną ulicę|A1682660|PL|44-274|Rybnik|Spółdzielcza|20||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Krosno (ID=215473),Ulica: Popiełuszki (ID=681541),Numer budynku: 99,Liczba znalezionych kodów: 0|A1682732|PL|38-400|Krosno|Ks.Jerzego Popiełusz|99|2|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zielona Góra,Ulica: Zeusa,Wszystkie kody mają przypisaną ulicę|A1683090|PL|65-530|Zielona Góra|Zawadzkiego Tadeusza|17|3|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Szarych Szeregów,Wszystkie kody mają przypisaną ulicę|A1683658|PL|33-101|Tarnów|Szarych Szeregow|14||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1683722|PL|31-144|Kraków|Biskupia|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łańcut (ID=216696),Ulica: Kąty (ID=750032),Numer budynku: 10,Liczba znalezionych kodów: 0|A1683776|PL|37-100|Łańcut|Kard. Stefana Wyszyń|10||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Starachowice (ID=233998),Ulica: Prądzyńskiego (ID=768936),Numer budynku: 4,Liczba znalezionych kodów: 0|A1686688|PL|27-200|Starachowice|Ignacego Prądzyńskie|4|34|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Oświęcim (ID=194794),Ulica: Orłowskiego (ID=661217),Numer budynku: 34,Liczba znalezionych kodów: 0|A1687732|PL|32-600|Oświęcim|Aleksandra Orłowskie|34|9|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: Spółdzielcza,Wszystkie kody mają przypisaną ulicę|A1689396|PL|44-274|Rybnik|Spółdzielcza|14||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=193245),Numer budynku: 52,Liczba znalezionych kodów: 0|A1690406|PL|38-312|Ropa||52||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sosnowiec,Ulica: Stoczniowców,Wszystkie kody mają przypisaną ulicę|A1690443|PL|41-208|Sosnowiec|Stoczniowców|3A|3|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1690851|PL|94-047|Łódź|Wyszyńskiego|47|29|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Brzezinka,Ulica: Brzozowa,Miejscowość nie ma kodów pocztowych|A1691391|PL|32-610|Brzezinka|Brzozowa|36||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1691474|PL|30-144|KRAKÓW|Biskupia|3|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Władysława,Wszystkie kody mają przypisaną ulicę|A1694342|PL|44-240|ŻORY|Ks.Władysława|13G|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Legionowo,Ulica: Szarych Szeregów,Wszystkie kody mają przypisaną ulicę|A1694846|PL|05-119|LEGIONOWO|Szarych Szeregów|17||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dąbrowa Górnicza,Ulica: Jamki,Wszystkie kody mają przypisaną ulicę|A1696191|PL||DĄBROWA GÓRNICZA|Jana Majewskiego|339|17|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chyliczki,Ulica: Wschodnia,Miejscowość nie ma kodów pocztowych|A1702373|PL|05-510|CHYLICZKI|Wschodnia|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz (ID=161781),Ulica: Romańskiego (ID=615817),Numer budynku: 6,Liczba znalezionych kodów: 0|A1704728|PL|85-011|BYDGOSZCZ|Rumińskiego|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory (ID=230027),Ulica: Władysława (ID=789943),Numer budynku: 1G,Liczba znalezionych kodów: 0|A1707664|PL|44-240|Żory|os. Księcia Władysła|1G|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jastrzębie-Zdrój,Ulica: Miarki,Wszystkie kody mają przypisaną ulicę|A1707719|PL|44-330|Jastrzębie-Zdrój|Karola Miarki|1|46|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Podklasztor,Ulica: Turzyniec,Miejscowość nie ma kodów pocztowych|A1708416|PL|22-440|Podklasztor|Turzyniec|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Ogrodniki,Wszystkie kody mają przypisaną ulicę|A1708530|PL|30-421|Kraków|Ogrodniki|1|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Częstochowa,Ulica: Tokarzewskiego-Karaszewicza,Wszystkie kody mają przypisaną ulicę|A1709374|PL|42-200|Częstochowa|Tokarzewskiego-Karaszewicza|23||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Górka-Zabłocie,Ulica: Kościelna,Miejscowość nie ma kodów pocztowych|A1709446|PL|22-530|Górka-Zabłocie|kościelna|7||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Bartnicza,Wszystkie kody mają przypisaną ulicę|A1710455|PL|43-300|Bielsko-Biała|Bartnicza|17|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Oświęcim (ID=194794),Ulica: Zajazdowa (ID=654515),Numer budynku: 14,Liczba znalezionych kodów: 0|A1710664|PL|32-600|Oświęcim|Dojazdowa|14||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Przy Torze,Wszystkie kody mają przypisaną ulicę|A1710977|PL|30-421|Kraków|Przy Torze|14 A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: Staffa,Wszystkie kody mają przypisaną ulicę|A1713175|PL|44-274|Rybnik|Staffa|10c||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ciągowice,Ulica: Zwycięstwa,Miejscowość nie ma kodów pocztowych|A1713924|PL|42-450|Ciągowice|Zwycięstwa|51||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poznań (ID=250342),Ulica: Chrobrego (ID=773343),Numer budynku: 32,Liczba znalezionych kodów: 0|A1714877|PL|60-681|Poznań|os.Bolesława Chrobre|32|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szyce,Ulica: Wesoła,Wszystkie kody mają przypisaną ulicę|A1715426|PL|32-085|Szyce|Wesoła|28||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dąbrowa Górnicza,Ulica: Budowniczych Huty Katowice,Wszystkie kody mają przypisaną ulicę|A1715833|PL|41-300|DĄBROWA GÓRNICZA|Buczka|3c|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sulejówek,Ulica: Sielankowa,Wszystkie kody mają przypisaną ulicę|A1717012|PL|05-070|SULEJÓWEK|Sielankowa|4|2|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Otwock,Ulica: Sowińskiego,Wszystkie kody mają przypisaną ulicę|A1717424|PL|05-402|OTWOCK|Sowińskiego|20||MAZOWIECKIE|OTWOCKI|OTWOCK
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Starachowice (ID=233998),Ulica: Rogowskiego (ID=768883),Numer budynku: 5,Liczba znalezionych kodów: 0|A1718134|PL|27-200|STARACHOWICE|Mrozowskiego|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Otwock,Ulica: Lisia,Wszystkie kody mają przypisaną ulicę|A1719198|PL|05-400|OTWOCK|Lisia|2||MAZOWIECKIE|OTWOCKI|OTWOCK
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kamieniec Wrocławski (ID=154823),Ulica: Sadowa (ID=627016),Numer budynku: 85,Liczba znalezionych kodów: 0|A1719561|PL|55-002|KAMIENIEC WROCŁAWSKI|Stawowa|85||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Luboszyce (ID=208738),Ulica: Brzozowa (ID=795452),Numer budynku: 6,Liczba znalezionych kodów: 0|A1719579|PL|46-022|LUBOSZYCE|Brzegowa|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wojcieszyce,Ulica: Parkowa,Miejscowość nie ma kodów pocztowych|A1722594|PL|66-415|WOJCIESZYCE|Parkowa|33||LUBUSKIE|GORZOWSKI|KŁODAWA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kielce,Ulica: Maja,Wszystkie kody mają przypisaną ulicę|A1722926|PL|25-372|KIELCE|Seminaryjna|18|36|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wręczyca Wielka (ID=227326),Ulica: Parkowa (ID=712366),Numer budynku: 16,Liczba znalezionych kodów: 0|A1723630|PL|42-130|WRĘĆZYCA WIELKA|Zamkowa|16||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Lubin (ID=157620),Ulica: Krupińskiego (ID=634872),Numer budynku: 15/3,Liczba znalezionych kodów: 0|A1724066|PL|59-300|LUBIN|ul.Krasińskiego 15/3|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz (ID=161781),Ulica: Romańskiego (ID=615817),Numer budynku: 6,Liczba znalezionych kodów: 0|A1724590|PL|85-030|BYDGOSZCZ|Rumińskiego|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Krzywa,Wszystkie kody mają przypisaną ulicę|A1726287|PL|43-300|BIELSKO-BIAŁA|ul.Krzywa 36|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Władysława,Wszystkie kody mają przypisaną ulicę|A1729919|PL|44-240|ŻORY|OS.KS.WŁADYSŁAWA|2H|5|ŚLĄSKIE|ŻORY|ŻORY
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chełm (ID=169873),Ulica: Bratkowa (ID=615597),Numer budynku: 4,Liczba znalezionych kodów: 0|A1730700|PL|22-100|CHEŁM|Bartkowa|4||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Przesmyk,Wszystkie kody mają przypisaną ulicę|A1733869|PL|43-382|Bielsko-Biała|Przesmyk|12||ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gorzelnia,Ulica: Wielkoborska,Miejscowość nie ma kodów pocztowych|A1734493|PL|42-290|GORZELNIA|Wielkoborska|4||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Przemyśl (ID=215127),Ulica: Paderewskiego (ID=700635),Numer budynku: 20,Liczba znalezionych kodów: 0|A1735314|PL|37-700|Przemyśl|Ignacego Paderewskie|20|50|PODKARPACKIE|PRZEMYŚL|PRZEMYŚL
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bąków,Ulica: Orzeszkowej,Miejscowość nie ma kodów pocztowych|A1736749|PL|37-464|Bąków|Orzeszkowej|90||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kurzelów (ID=236534),Ulica: Brożka (ID=856821),Numer budynku: 12,Liczba znalezionych kodów: 0|A1736897|PL|29-100|Kurzelów|Buczka|12||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Ogrodniki,Wszystkie kody mają przypisaną ulicę|A1738752|PL|30-421|Kraków|Ogrodniki|4|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Osiedle,Wszystkie kody mają przypisaną ulicę|A1739876|PL|33-100|Tarnów|Osiedle|29||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Szaniawskiego,Wszystkie kody mają przypisaną ulicę|A1739880|PL|30-405|Kraków|Szaniawskiego|23||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1740578|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1740585|PL|94-042|ŁÓDŹ|Wyszyńskiego|12|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Grajewo (ID=222466),Ulica: Broniewskiego (ID=889990),Numer budynku: 4,Liczba znalezionych kodów: 0|A1741325|PL|19-200|GRAJEWO|Broniweskiego|4|16|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Ogrodniki,Wszystkie kody mają przypisaną ulicę|A1742873|PL|30-421|KRAKÓW|ul.Ogrodniki 4/4|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chrzanów (ID=195254),Ulica: Wyszyńskiego (ID=855070),Numer budynku: 1/14,Liczba znalezionych kodów: 0|A1746728|PL|32-500|CHRZANÓW|ul.Kardynała Wyszyńskeigo 1/14|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chyliczki,Ulica: Łamana,Miejscowość nie ma kodów pocztowych|A1751085|PL|05-510|CHYLICZKI|Łamana|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Otwock,Ulica: Marusarzówny,Wszystkie kody mają przypisaną ulicę|A1752202|PL|05-402|OTWOCK|Marusarzówny|32||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1755218|PL|94-047|ŁÓDŹ|WYSZYŃSKIEGO|68|34A|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Roztoki,Wszystkie kody mają przypisaną ulicę|A1756495|PL|43-300|Bielsko-Biała|Roztoki|1|16|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jarosław (ID=210652),Ulica: Kopernika (ID=915862),Numer budynku: 1,Liczba znalezionych kodów: 0|A1758423|PL|37-500|Jarosław|os. Mikołaja Koperni|1|111|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Busko-Zdrój (ID=235132),Ulica: Sady (ID=907276),Numer budynku: 24,Liczba znalezionych kodów: 0|A1760309|PL|28-100|Busko-Zdrój|os. Gen. Władysława|24|23|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Oraczy,Wszystkie kody mają przypisaną ulicę|A1760351|PL|30-418|Kraków|Oraczy|5|6|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1761972|PL|00-043|WARSZAWA|ul.Czackiego 3/5|||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1762725|PL|00-043|WARSZAWA|T. Czackiego|3/5|405|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chorzów,Ulica: AKS,Wszystkie kody mają przypisaną ulicę|A1763084|PL|41-503|CHORZÓW|Marii Curie Skłodowskiej|30||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kalisz (ID=249717),Ulica: Główny Rynek (ID=805462),Numer budynku: 15,Liczba znalezionych kodów: 0|A1764557|PL|62-800|KALISZ|Gł.Rynek|15||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Środa Śląska (ID=157576),Ulica: Szkolna (ID=646421),Numer budynku: 1,Liczba znalezionych kodów: 0|A1769721|PL|55-300|ŚRODA ŚLĄSKA|Szklana|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rzgów (ID=179748),Ulica: Smugowa (ID=912150),Numer budynku: 3a,Liczba znalezionych kodów: 0|A1769907|PL|95-030|RZGÓW|Usługowa|3a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1772350|PL|94-047|ŁÓDŹ|Wyszyńskiego|63|27|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poznań,Ulica: Miedziana,Wszystkie kody mają przypisaną ulicę|A1775052|PL|60-118|POZNAŃ|Miedziana|3||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dopiewo (ID=248831),Ulica: Lipowa (ID=805725),Numer budynku: 37,Liczba znalezionych kodów: 0|A1777146|PL|62-070|DOPIEWO|Cisowa|37|2|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Krościenko nad Dunajcem (ID=185589),Ulica: Wojtyły - Papieża (ID=903263),Numer budynku: 78,Liczba znalezionych kodów: 0|A1777581|PL|34-450|KROŚCIENKO N/D|Karola Wojtyły-Papieża|78||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zagnańsk (ID=235985),Ulica: Wrzosowa (ID=737132),Numer budynku: 2,Liczba znalezionych kodów: 0|A1780020|PL|26-050|Zagnańsk|Brzozowa|2||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=193245),Numer budynku: 66,Liczba znalezionych kodów: 0|A1780123|PL|38-312|Ropa||66||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Oraczy,Wszystkie kody mają przypisaną ulicę|A1782092|PL|30-418|Kraków|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1782813|PL|31-144|Kraków|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chyliczki,Ulica: Budowlana,Miejscowość nie ma kodów pocztowych|A1787519|PL|05-500|CHYLICZKI|Budowlana|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Na Grządkach,Wszystkie kody mają przypisaną ulicę|A1789392|PL|30-421|KRAKÓW|Na Grządkach|1|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1789614|PL|00-043|WARSZAWA|Czackiego|7/9|11|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Iława,Ulica: Sikorskiego,Wszystkie kody mają przypisaną ulicę|A1789615|PL|14-200|IŁAWA|SIKORSKIEGO|41||WARMIŃSKO-MAZURSKIE|IŁAWSKI|IŁAWA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Przyborów (ID=187115),Numer budynku: 398,Liczba znalezionych kodów: 0|A1791400|PL|32-825|BORZĘCIN|Przyborów|398||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Oraczy,Wszystkie kody mają przypisaną ulicę|A1795007|PL|30-418|KRAKÓW|Oraczy|14|4|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1796961|PL|00-043|WARSZAWA|Czackiego|3/5|121|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A17971|PL|30-667|KRAKÓW|Facimiech|16|17|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Alberta,Wszystkie kody mają przypisaną ulicę|A1803951|PL|30-444|Kraków|Św. Brata Alberta|8||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Leżajsk (ID=216633),Ulica: Jadwigi-Królowej (ID=824787),Numer budynku: 33a,Liczba znalezionych kodów: 0|A1804149|PL|37-300|Leżajsk|Świętej Jadwigi Królowej|33a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Knurów,Ulica: Chabrowa,Wszystkie kody mają przypisaną ulicę|A1804240|PL|44-190|Knurów|Chabrowa|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Częstochowa,Ulica: Tokarzewskiego-Karaszewicza,Wszystkie kody mają przypisaną ulicę|A1804883|PL|42-221|Częstochowa|Tokarzewskiego-Karaszewicza|10||ŚLĄSKIE|CZĘSTOCHOWA|CZĘSTOCHOWA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Libiąż (ID=182040),Ulica: Paderewskiego (ID=636558),Numer budynku: 1,Liczba znalezionych kodów: 0|A1806586|PL|32-590|Libiąż|Ignacego Paderewskie|1|67|MAŁOPOLSKIE|CHRZANOWSKI|LIBIĄŻ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=189697),Numer budynku: 442,Liczba znalezionych kodów: 0|A1806943|PL|32-852|Sufczyn||442||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: Staffa,Wszystkie kody mają przypisaną ulicę|A1807077|PL|44-274|Rybnik|Leopolda Staffa|23||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1807142|PL|94-047|Łódź|Wyszyńskiego|43|7|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Mrożka,Wszystkie kody mają przypisaną ulicę|A1807588|PL|33-100|Tarnów|Sławomira Mrożka|5|3|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Biała,Wszystkie kody mają przypisaną ulicę|A1808159|PL|33-102|TARNÓW|Biała|42||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Krościenko nad Dunajcem (ID=185589),Ulica: Wojtyły - Papieża (ID=903263),Numer budynku: 10,Liczba znalezionych kodów: 0|A1808625|PL|34-450|KROŚCIENKO N.DUNAJCEM|Karola Wojtyły-Papieża|10||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Alwernia (ID=185175),Ulica: Zimowa (ID=821272),Numer budynku: 21,Liczba znalezionych kodów: 0|A1809023|PL|32-566|ALWERNIA|Zamkowa|21||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=187348),Numer budynku: 700,Liczba znalezionych kodów: 0|A1810043|PL|33-316|ROŻNÓW||700||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Ujazdowski,Wszystkie kody mają przypisaną ulicę|A1810923|PL|00-583|WARSZAWA|Ujazdowske|9||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabierzów,Ulica: Pogorzany,Wszystkie kody mają przypisaną ulicę|A1811|PL|32-080|ZABIERZÓW|Pogorzany|16||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Otwock,Ulica: Wojska Polskiego,Wszystkie kody mają przypisaną ulicę|A1813611|PL|05-402|OTWOCK|Wojska Polskiego|26||MAZOWIECKIE|OTWOCKI|OTWOCK
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Przy Torze,Wszystkie kody mają przypisaną ulicę|A1814195|PL|30-421|KRAKÓW|PRZY TORZE|14A||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Traugutta,Wszystkie kody mają przypisaną ulicę|A1815032|PL|00-067|WARSZAWA|Traugutta|7|9|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chyliczki,Ulica: Orzechowa,Miejscowość nie ma kodów pocztowych|A1815108|PL|05-500|CHYLICZKI|Orzechowa|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice,Ulica: Einsteina,Wszystkie kody mają przypisaną ulicę|A1822051|PL|44-109|GLIWICE|Alberta Einstaina|36||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1826139|PL|31-144|Kraków|Biskupia|20|3|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: Śliwki,Wszystkie kody mają przypisaną ulicę|A1827396|PL|44-206|Rybnik|Księdza Śliwki|20||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Krępiec,Ulica: Reymonta,Wszystkie kody mają przypisaną ulicę|A1828636|PL|21-007|Krępiec|Reymonta|40B||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bąków,Ulica: Zacisze,Miejscowość nie ma kodów pocztowych|A1829165|PL|37-464|Bąków|Zacisze|17||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1830918|PL|30-683|Kraków|Facimiech|6C||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Roztoki,Wszystkie kody mają przypisaną ulicę|A1831294|PL|43-300|Bielsko-Biała|Roztoki|3|70|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice,Ulica: Elsnera,Wszystkie kody mają przypisaną ulicę|A1834217|PL|44-105|GLIWICE|Elsnera|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1834797|PL|30-668|KRAKÓW|Polonijna|16|11|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabierzów,Ulica: Rynek,Wszystkie kody mają przypisaną ulicę|A1836037|PL|32-080|ZABIERZÓW|Pl.Rynek|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabierzów,Ulica: Rynek,Wszystkie kody mają przypisaną ulicę|A1836378|PL|32-080|ZABIERZÓW|Rynek|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Mielec (ID=216079),Ulica: Startowa (ID=842973),Numer budynku: 58,Liczba znalezionych kodów: 0|A1836579|PL|32-651|MIELEC|Stawowa|58||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Piaseczno,Ulica: Kineskopowa,Wszystkie kody mają przypisaną ulicę|A1838480|PL|05-500|PIASECZNO|Kineskopowa|1B|126|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1839215|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1841683|PL|30-668|KRAKÓW|Polonijna|21|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Oraczy,Wszystkie kody mają przypisaną ulicę|A1842226|PL|30-418|KRAKÓW|ORACZY|5|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kalisz (ID=249717),Ulica: Główny Rynek (ID=805462),Numer budynku: 15,Liczba znalezionych kodów: 0|A1842486|PL|62-800|KALISZ|Gł.Rynek|15||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: nad Sudołem,Wszystkie kody mają przypisaną ulicę|A1842634|PL|31-228|KRAKÓW|nad Sudołem|6||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wojcieszyce,Ulica: Parkowa,Miejscowość nie ma kodów pocztowych|A1844097|PL|66-415|WOJCIESZYCE|Parkowa|33||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Lęda (ID=162324),Numer budynku: LS12,Liczba znalezionych kodów: 0|A1846502|PL||LEEDS|Leeds|LS12|2TU|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kosakowo (ID=222736),Ulica: Krokusowa (ID=753096),Numer budynku: 9b,Liczba znalezionych kodów: 0|A1846587|PL|81-198|KOSAKOWO|Kokosowa|9b||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Na Grządkach,Wszystkie kody mają przypisaną ulicę|A1847781|PL|30-421|KRAKÓW|Na Grządkach|2|1|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Wody,Wszystkie kody mają przypisaną ulicę|A1848465|PL|33-100|TARNÓW|Wiesława Wody|27||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Traugutta,Wszystkie kody mają przypisaną ulicę|A1848976|PL|00-067|WARSZAWA|ul. Romualda Traugutta|3|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Zagłoby,Wszystkie kody mają przypisaną ulicę|A1849038|PL|92-430|ŁÓDŹ|ZAGŁOBY|18|6|ŁÓDZKIE|ŁÓDŹ|ŁÓDŹ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Piaseczno,Ulica: Kineskopowa,Wszystkie kody mają przypisaną ulicę|A1849489|PL|05-500|PIASECZNO|Kineskopowa|1D||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: Staffa,Wszystkie kody mają przypisaną ulicę|A1854187|PL|44-274|Rybnik|Staffa|10 c||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: Pod Hałdą,Wszystkie kody mają przypisaną ulicę|A1854597|PL|44-206|Rybnik|Pod Hałdą|29a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Siedlce,Ulica: Liliowa,Wszystkie kody mają przypisaną ulicę|A1855316|PL|08-110|Siedlce|Liliowa|14||MAZOWIECKIE|SIEDLCE|SIEDLCE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabrze,Ulica: Goethego,Wszystkie kody mają przypisaną ulicę|A1856465|PL|41-800|Zabrze|Goethego|16|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: 1 Dywizji Pancernej,Wszystkie kody mają przypisaną ulicę|A1865902|PL|43-300|BIELOSKO- BIAŁA|1 Dywizji Pancernej|45|206|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dąbrowa Górnicza,Ulica: Toruńska,Wszystkie kody mają przypisaną ulicę|A1865904|PL|41-300|DĄBROWA GÓRNICZA|Toruńska|7||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Stare Babice (ID=200056),Ulica: Bajkowa (ID=895800),Numer budynku: 1a,Liczba znalezionych kodów: 0|A1867924|PL|05-082|STARE BABICE ZIELONKI PARC|Parkowa|1a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Konstancin-Jeziorna,Ulica: Pułaskiego,Wszystkie kody mają przypisaną ulicę|A1870183|PL|05-510|KONSTANCIN-JEZIORNA|Kazimierza Pułaskiego|76||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Władysława,Wszystkie kody mają przypisaną ulicę|A1870640|PL|44-240|ŻORY|Oś.Księcia Władysława|5E|26|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chorzów,Ulica: AKS,Wszystkie kody mają przypisaną ulicę|A1871568|PL|41-503|CHORZÓW|Marii Skłodowskie Curie|30||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów Opolski,Ulica: Kopernika,Miejscowość nie ma kodów pocztowych|A1872007|PL||TARNÓW OPOLSKI|Kopernika|17a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Lublin,Ulica: Krupskiego,Wszystkie kody mają przypisaną ulicę|A1872388|PL|59-300|LUBLIN|KRUPIŃSKIEGO|95A||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=187348),Numer budynku: 617,Liczba znalezionych kodów: 0|A1872847|PL|33-318|Rożnów||617|1|MAŁOPOLSKIE|NOWOSĄDECKI|GRÓDEK NAD DUNAJCEM
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Iława,Ulica: Dobrawy,Wszystkie kody mają przypisaną ulicę|A1873495|PL|14-200|Iława|Dobrawy|3||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1873895|PL|30-667|Kraków|Facimiech|3b||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice,Ulica: Elsnera,Wszystkie kody mają przypisaną ulicę|A1874296|PL|44-105|Gliwice|Józefa Elsnera|41E||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Głogów Małopolski (ID=216580),Ulica: Parkowa (ID=668804),Numer budynku: 9a,Liczba znalezionych kodów: 0|A1874629|PL|36-060|Głogów Małopolski|Piaskowa|9a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1874893|PL|30-667|Kraków|Facimiech|4b|12|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jaworzyna Śląska (ID=157234),Ulica: Piaskowa (ID=800886),Numer budynku: 5,Liczba znalezionych kodów: 0|A1879235|PL|58-140|JAWORZYNA ŚLĄZKA|Parkowa|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1879559|PL|00-043|WARSZAWA|Czackiego|3/5|302|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gorzelnia,Ulica: Podlaska,Miejscowość nie ma kodów pocztowych|A1879996|PL|42-290|GORZELNIA|Podlaska|12||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kotla (ID=156348),Ulica: Głogowska (ID=612040),Numer budynku: 57,Liczba znalezionych kodów: 0|A1880569|PL|67-210|KOTLA|GŁOGÓWKO|57||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Michałów Rudnicki,Ulica: Częstochowska,Miejscowość nie ma kodów pocztowych|A1882460|PL|42-270|MICHAŁÓW RUDNICKI|Częstochowska|10||ŚLĄSKIE|CZĘSTOCHOWSKI|KŁOMNICE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1884526|PL|00-043|WARSZAWA|Czackiego|3/5|21|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łosice (ID=206291),Ulica: "Zenona" (ID=659675),Numer budynku: 3,Liczba znalezionych kodów: 0|A1884701|PL|08-200|ŁOSICE|Majora Zenona|3||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: 1 Dywizji Pancernej,Wszystkie kody mają przypisaną ulicę|A1886638|PL|43-300|BIELSKO-BIAŁA|1 Dywizji Pancernej|45||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1886955|PL|30-668|KRAKÓW|Polonijna|7|183|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1888268|PL|31-144|KRAKÓW|Biskupia|10|2|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Częstochowa,Ulica: Tokarzewskiego-Karaszewicza,Wszystkie kody mają przypisaną ulicę|A1888625|PL|42-200|CZĘSTOCHOWA|TOKARZEWSKIEGO-KARASZEWICZA|27||ŚLĄSKIE|CZĘSTOCHOWA|CZĘSTOCHOWA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1889396|PL|94-047|ŁÓDŹ|Wyszyńskiego|33|8|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: 1 Dywizji Pancernej,Wszystkie kody mają przypisaną ulicę|A1890864|PL|43-300|BIELSKO BIAŁA|1 Dywizji Pancernej|45||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Przybysławice (ID=193149),Ulica: Malinowa (ID=901082),Numer budynku: 6,Liczba znalezionych kodów: 0|A1891833|PL|32-088|PRZYBYSŁAWICE|Daliowa|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Straszyn (ID=225764),Ulica: Starogardzka (ID=730877),Numer budynku: 77,Liczba znalezionych kodów: 0|A1892198|PL|83-010|STRASZYN K. GDAŃSKA|Starogrodzka|77||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łaziska Górne,Ulica: Głowińskiego,Wszystkie kody mają przypisaną ulicę|A1894028|PL|43-173|Łaziska Górne|Głowińskiego|26B|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1894095|PL|30-668|Kraków|Polonijna|7|160|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1894795|PL|30-668|Kraków|Polonijna|7|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1894814|PL|30-668|Kraków|Polonijna|11|8|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Na Grządkach,Wszystkie kody mają przypisaną ulicę|A1896098|PL|30-421|Kraków|Na Grządkach|5a|6|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Osówiec,Ulica: Wrzosowa,Wszystkie kody mają przypisaną ulicę|A1897065|PL|86-014|Osówiec / Sicienko|Wrzosowa|4||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1897425|PL|30-668|Kraków|Polonijna|11|94|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Bogdanowicza,Wszystkie kody mają przypisaną ulicę|A1898012|PL|30-405|Kraków|Bogdanowicza|4||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dęblin (ID=168387),Ulica: 15 Pułku Piechoty "Wilków" (ID=653033),Numer budynku: 3,Liczba znalezionych kodów: 0|A1898547|PL|08-530|DĘBLIN|15 Pułku Piechoty Wilków|3||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gryfice (ID=254198),Ulica: Starogrodzka (ID=763664),Numer budynku: 1,Liczba znalezionych kodów: 0|A1899228|PL|72-300|GRYFICE|Starogardzka|1|2|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poznań,Ulica: Jadwigi,Wszystkie kody mają przypisaną ulicę|A1902273|PL|61-872|POZNAŃ|Królowej Jadwogi|43||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=187348),Numer budynku: 700,Liczba znalezionych kodów: 0|A1904021|PL|33-316|ROŻNÓW||700||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Inowrocław (ID=163059),Ulica: Ikara (ID=808870),Numer budynku: 41A,Liczba znalezionych kodów: 0|A1905227|PL|88-100|INOWROCŁAW|Sikora|41A||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gdańsk,Ulica: Bartoszewskiego,Wszystkie kody mają przypisaną ulicę|A1905709|PL|80-862|GDAŃSK|Pl. Władysława Bartoszewskiego|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1907283|PL|94-042|ŁÓDŹ|Wyszyńskiego|24|46|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Rozwojowa,Wszystkie kody mają przypisaną ulicę|A1908328|PL|33-100|TARNÓW|Rozwojowa|49||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Iława,Ulica: Sikorskiego,Wszystkie kody mają przypisaną ulicę|A1909004|PL|14-200|IŁAWA|Sikorskiego|45||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Szaniawskiego,Wszystkie kody mają przypisaną ulicę|A1915048|PL|30-405|KRAKÓW|Szaniawskiego|29||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Andrychów (ID=194556),Ulica: Sanaka (ID=795344),Numer budynku: 5,Liczba znalezionych kodów: 0|A1916482|PL|34-120|Andrychów|Ks. Jana Nowaka|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wojcieszyce,Ulica: Słoneczna,Miejscowość nie ma kodów pocztowych|A1916774|PL|66-415|Wojcieszyce|Słoneczna|14||LUBUSKIE|GORZOWSKI|KŁODAWA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1917280|PL|30-668|Kraków|Polonijna|7|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Lanckorona (ID=189198),Ulica: Marka (ID=884129),Numer budynku: 52,Liczba znalezionych kodów: 0|A1917285|PL|34-143|Lanckorona|Barska|52||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Nowy Dwór Mazowiecki,Ulica: Diamentowa,Wszystkie kody mają przypisaną ulicę|A1918470|PL|05-101|Nowy Dwór Mazowiecki|diamentowa|6a||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1919257|PL|30-667|Kraków|Facimiech|9|7|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Oraczy,Wszystkie kody mają przypisaną ulicę|A1919789|PL|30-418|Kraków|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1919896|PL|30-667|Kraków|Facimiech|16|48|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chełm (ID=169873),Ulica: Wyszyńskiego (ID=623655),Numer budynku: 2B,Liczba znalezionych kodów: 0|A1926902|PL|22-100|CHEŁM|ul. Prymasa Stefana Wyszyńskie|2B||LUBELSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ostrołęka,Ulica: Waltera,Wszystkie kody mają przypisaną ulicę|A1927117|PL|07-410|OSTROŁĘKA|księdza Edmunda Waltera|6||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Pileckiego,Wszystkie kody mają przypisaną ulicę|A1928353|PL|44-240|ŻORY|Pileckiego|31||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Piaseczno,Ulica: Kineskopowa,Wszystkie kody mają przypisaną ulicę|A1929084|PL|05-500|PIASECZNO|Kineskopowa|1|114|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ruda Śląska,Ulica: Barbary,Wszystkie kody mają przypisaną ulicę|A1929686|PL|41-709|RUDA ŚLĄSKA|Szyb Barbary|2||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Poznań (ID=250342),Ulica: Czapskiego (ID=808490),Numer budynku: 3,Liczba znalezionych kodów: 0|A1930255|PL|61-712|POZNAŃ|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1932596|PL|00-043|WARSZAWA|Czackiego|3|5/502|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kielce,Ulica: Żołnierzy Misji Pokojowych Organizacji Narodów Zjednoczonych,Wszystkie kody mają przypisaną ulicę|A1932732|PL|25-548|KIELCE|Okrana|34|30|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szyce,Ulica: Nasza,Wszystkie kody mają przypisaną ulicę|A1935848|PL|32-085|SZYCE|NASZA|1C||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kocmyrzów (ID=189465),Ulica: Łąkowa (ID=840830),Numer budynku: 22,Liczba znalezionych kodów: 0|A1937558|PL|32-010|Kocmyrzów|ul. Parkowa|22||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1938047|PL|30-668|Kraków|ul. Polonijna|11|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Szaniawskiego,Wszystkie kody mają przypisaną ulicę|A1939805|PL|30-405|Kraków|ul.Szaniawskiego|12a||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dąbrowa Tarnowska (ID=195242),Ulica: Rynek (ID=837344),Numer budynku: 3,Liczba znalezionych kodów: 0|A1940451|PL|33-200|Dąbrowa Tarnowska|ul. Kardynała Stefana Wyszyńsk|3|34|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Mikołów,Ulica: Sikorek,Wszystkie kody mają przypisaną ulicę|A1940670|PL|43-190|Mikołów|Sikorek|10||ŚLĄSKIE|MIKOŁOWSKI|MIKOŁÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Katowice,Ulica: Sówki,Wszystkie kody mają przypisaną ulicę|A1940960|PL|40-057|Katowice|ul. Skłodowskiej-Curie|44|14|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tomaszów Lubelski (ID=166489),Ulica: Majdańska (ID=657119),Numer budynku: 5,Liczba znalezionych kodów: 0|A1941349|PL|22-600|Tomaszów Lubelski|ul. Majdanek|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Osiedle,Wszystkie kody mają przypisaną ulicę|A1941517|PL|33-100|Tarnów|ul. Osiedle|30||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice,Ulica: Elsnera,Wszystkie kody mają przypisaną ulicę|A1941643|PL|44-105|Gliwice|ul.Elsnera|40||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szyce,Ulica: Wesoła,Wszystkie kody mają przypisaną ulicę|A1942253|PL|32-085|SZYCE|ul. Wesoła|48||MAŁOPOLSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szyce,Ulica: Krajobrazowa,Wszystkie kody mają przypisaną ulicę|A1942409|PL|32-085|SZYCE|KRAJOBRAZOWA|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1943252|PL|30-668|KRAKÓW|POLONIJNA|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1944927|PL|30-668|KRAKÓW|POLONIJNA|21|28|MAŁOPOLSKIE|KRAKÓW|KRAKÓW-PODGÓRZE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Pękowice (ID=193168),Ulica: Jurajska (ID=631937),Numer budynku: 50b,Liczba znalezionych kodów: 0|A1944945|PL|32-087|PĘKOWICE|Jurajskie|50b||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice,Ulica: Piłsudskiego,Wszystkie kody mają przypisaną ulicę|A1946611|PL|44-100|GLIWICE|Pl. Piłsudskiego|6|3|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Technologiczna,Wszystkie kody mają przypisaną ulicę|A1946716|PL|33-100|TARNÓW|Technologiczna|14A||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Rozwojowa,Wszystkie kody mają przypisaną ulicę|A1947316|PL|33-100|TARNÓW|Rozwojowa|9||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jastrzębie-Zdrój,Ulica: Okrzei,Wszystkie kody mają przypisaną ulicę|A1949872|PL|44-337|JASTRZĘBIE-ZDRÓJ|ul. Okrzei|12D||ŚLĄSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1952519|PL|00-043|WARSZAWA|Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Piaseczno,Ulica: Kineskopowa,Wszystkie kody mają przypisaną ulicę|A1953571|PL|05-500|PIASECZNO|Kineskopowa|1||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żary (ID=172468),Ulica: Wyszyńskiego (ID=871897),Numer budynku: 4,Liczba znalezionych kodów: 0|A1954117|PL|68-200|ŻARY|Pl.Kard.St.Wyszyńskeigo|4||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łomianki Dolne,Ulica: Lutosławskiego,Wszystkie kody mają przypisaną ulicę|A1956099|PL|05-092|ŁOMIANKI DOLNE|Lutosławskiego|7||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1958269|PL|94-047|ŁÓDŹ|Wyszyńskiego|38||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabierzów,Ulica: Śliczna,Wszystkie kody mają przypisaną ulicę|A1959463|PL|32-080|ZABIERZÓW|ul. Śliczna|29||MAŁOPOLSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Cisiec (ID=229714),Ulica: Wyszyńskiego (ID=747960),Numer budynku: 218,Liczba znalezionych kodów: 0|A1960734|PL|34-350|Cisiec|ul. Prymasa Stefana Wyszyńskie|218|-|ŚLĄSKIE|ŻYWIECKI|WĘGIERSKA GÓRKA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A1961284|PL|30-668|Kraków|ul. Polonijna|7|40|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kalisz (ID=249717),Ulica: Wyszyńskiego (ID=889983),Numer budynku: 26,Liczba znalezionych kodów: 0|A1961592|PL|62-800|Kalisz|ul. Prymasa Stefana Wyszyńskie|26|70|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ostrołęka,Ulica: Borówkowa,Wszystkie kody mają przypisaną ulicę|A1962006|PL|07-401|Ostrołęka|ul. Borówkowa|9||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|A1962212|PL|31-144|Kraków|ul. Biskupia|14|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Narama (ID=184603),Ulica: Leśna (ID=882666),Numer budynku: 10,Liczba znalezionych kodów: 0|A1962512|PL|32-095|Narama|ul. Ojca Generała Stanisława T|10||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Będzin,Ulica: Zagórnego,Wszystkie kody mają przypisaną ulicę|A1965084|PL|42-506|Będzin|ul. Zagórnego|21|20|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Dynasy,Wszystkie kody mają przypisaną ulicę|A1965623|PL|00-354|WARSZAWA|DYNASY|6|9|MAZOWIECKIE|WARSZAWA|WARSZAWA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Rozwojowa,Wszystkie kody mają przypisaną ulicę|A1965770|PL|33-100|TARNÓW|ROZWOJOWA|47A||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=193245),Numer budynku: 10,Liczba znalezionych kodów: 0|A1966297|PL|38-312|ROPA||10|10|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1968340|PL|94-042|ŁÓDŹ|al.ks.kard.Stefana Wyszyńskieg|7A|19|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Oława (ID=157481),Ulica: Brzozowa (ID=645004),Numer budynku: 1A,Liczba znalezionych kodów: 0|A1978627|PL|55-200|OŁAWA|Brzegowa|1A||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A1980456|PL|00-043|WARSZAWA|Czackiego|15|17|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rzgów (ID=179748),Ulica: Łąkowa (ID=910875),Numer budynku: 2,Liczba znalezionych kodów: 0|A1982153|PL|62-585|RZGÓW|Lipowa|2|Sławsk|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gorzów Wielkopolski (ID=171189),Ulica: Siedzikówny - Inki (ID=914715),Numer budynku: 23A,Liczba znalezionych kodów: 0|A1982525|PL|66-400|GORZÓW WIELKOPOLSKI|Danuty Siedzikówny-Inki|23A|12|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1982956|PL|30-667|KRAKÓW|FACIMIECH|12A|12|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=193245),Numer budynku: 52,Liczba znalezionych kodów: 0|A1987026|PL|38-312|Ropa||52||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sulejówek,Ulica: Sielankowa,Wszystkie kody mają przypisaną ulicę|A1987073|PL|05-070|SULEJÓWEK|Sielankowa|9|1|MAZOWIECKIE|MIŃSKI|SULEJÓWEK
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|A1987468|PL|30-667|Kraków|ul. Facimiech|18|36|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=189697),Numer budynku: 498,Liczba znalezionych kodów: 0|A1988630|PL|32-852|Sufczyn||498||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Bartnicza,Wszystkie kody mają przypisaną ulicę|A1990494|PL|43-300|Bielsko-Biała|ul.Bartnicza|11|25|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Stalowa Wola (ID=215560),Ulica: Wyszyńskiego (ID=675124),Numer budynku: 19,Liczba znalezionych kodów: 0|A1990868|PL|37-450|Stalowa Wola|ul. Prymasa Stefana Wyszyńskie|19|19|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Roztoki,Wszystkie kody mają przypisaną ulicę|A1990879|PL|43-316|Bielsko-Biała|ul. Roztoki|7|37|ŚLĄSKIE|BIELSKO-BIAŁA|BIELSKO-BIAŁA
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ponikiew,Ulica: Wadowicka,Miejscowość nie ma kodów pocztowych|A1991719|PL|34-100|Ponikiew|Wadowicka|330||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ponikiew,Ulica: Jodłowa,Miejscowość nie ma kodów pocztowych|A1991735|PL|34-100|Ponikiew|Jodłowa|77||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gródek (ID=190464),Numer budynku: B/N,Liczba znalezionych kodów: 0|A1992132|PL|33-318|GRÓDEK N/DUNAJCEM|Gródek n/Dunajcem|B/N||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Olsztyn,Ulica: Rejewskiego,Wszystkie kody mają przypisaną ulicę|A1992138|PL|10-683|OLSZTYN|Rajewskiego|5||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Nowy Sącz (ID=194793),Ulica: Rozwadowskiego (ID=673653),Numer budynku: 19,Liczba znalezionych kodów: 0|A1992201|PL|33-300|NOWY SĄCZ|ul. gen. Tadeusza Rozwadowskie|19||MAŁOPOLSKIE||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Oleśnica (ID=157530),Ulica: Wileńska (ID=644699),Numer budynku: 28,Liczba znalezionych kodów: 0|A1992772|PL|56-400|OLEŚNICA|Wijeska|28||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Na Grządkach,Wszystkie kody mają przypisaną ulicę|A1992809|PL|30-421|KRAKÓW|Na Grządkach|5|6|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź,Ulica: Wyszyńskiego,Wszystkie kody mają przypisaną ulicę|A1993416|PL|94-047|ŁÓDŹ|al.Ks.Kardynała S.Wszyńskiego|43|9|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bydgoszcz,Ulica: im. 16 Pułku Ułanów Wielkopolskich,Wszystkie kody mają przypisaną ulicę|A1993995|PL|85-319|BYDGOSZCZ|16 Pułku Ułanów Wielkopolskich|14||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów,Ulica: Rozwojowa,Wszystkie kody mają przypisaną ulicę|A1995208|PL|33-100|TARNÓW|Rozwojowa|41||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|A21289673|PL|30-668|KRAKÓW|Polonijna|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Bielsko-Biała,Ulica: Rudawka,Wszystkie kody mają przypisaną ulicę|A21372949|PL|43-300|BIELSKO-BIAŁA|Rudawka|80||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A21631686|PL|00-043|WARSZAWA|Czckiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Jaworzno,Ulica: Dobrej Energii,Wszystkie kody mają przypisaną ulicę|A21869139|PL|43-603|JAWORZNO|DOBREJ ENERGII|11||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|A31429280|PL|00-043|WARSZAWA|ul.Czackiego|3|5|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Jordana,Wszystkie kody mają przypisaną ulicę|A71178986|PL|00-050|WARSZAWA|Jordana|25||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|AP1480775|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa,Ulica: Czackiego,Wszystkie kody mają przypisaną ulicę|AP1640036|PL|00-043|WARSZAWA|Czackiego|3/5|121|||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Biskupia,Wszystkie kody mają przypisaną ulicę|AP1676491|PL|31-144|KRAKÓW|Biskupia|1||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|F1318300|PL|30-668|KRAKÓW|Polonijna|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szyce,Ulica: Nasza,Wszystkie kody mają przypisaną ulicę|K1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|K1614835|PL|30-668|KRAKÓW|Polonijna|19|13|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|K1777946|PL|30-667|KRAKÓW|Facimiech|4B|19|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|S1436631|PL|30-668|KRAKÓW|Polonijna|11|11|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|S1686521|PL|30-668|KRAKÓW|Polonijna|7|99|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Oraczy,Wszystkie kody mają przypisaną ulicę|T1185371|PL|30-065|KRAKÓW|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|T1318300|PL|30-668|KRAKÓW|ul.Polonijna|7|202|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|T1369355|PL|30-667|KRAKÓW|Facimiech|12A|16|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szyce,Ulica: Nasza,Wszystkie kody mają przypisaną ulicę|T1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Krowodrza Górka,Wszystkie kody mają przypisaną ulicę|T17064|PL||Krakow|Krowodra Górka|22|91|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Facimiech,Wszystkie kody mają przypisaną ulicę|T1777946|PL|30-667|KRAKÓW|Facimiech|4B|19|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Oraczy,Wszystkie kody mają przypisaną ulicę|TU1185371|PL|30-065|KRAKÓW|Oraczy|5|5|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Sapiehy,Wszystkie kody mają przypisaną ulicę|TU1367837|PL|31-644|KRAKÓW|Sapiechy|33||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|TU1368464|PL|30-668|Kraków|Polonijna|7|142|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Koszyce Wielkie (ID=192142),Ulica: Wąska (ID=668456),Numer budynku: 35,Liczba znalezionych kodów: 0|TU1394556|PL|33-111|KOSZYCE WIELKIE|Wolska|35||MAŁOPOLSKIE|TARNOWSKI|TARNÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szyce,Ulica: Nasza,Wszystkie kody mają przypisaną ulicę|TU1460647|PL|32-085|SZYCE|Nasza|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Polonijna,Wszystkie kody mają przypisaną ulicę|TU1614835|PL|30-668|KRAKÓW|Polonijna|19|13|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Krowodrza Górka,Wszystkie kody mają przypisaną ulicę|TU17064|PL||Krakow|Krowodra Górka|22|91|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Sapiehy,Wszystkie kody mają przypisaną ulicę|ZA1330979|PL|31-644|KRAKÓW|Sapiechy|21||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik,Ulica: Spółdzielcza,Wszystkie kody mają przypisaną ulicę|ZA1347521|PL|44-274|RYBNIK|SPÓŁDZIELCZA|14||ŚLĄSKIE|RYBNIK|RYBNIK
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków,Ulica: Sapiehy,Wszystkie kody mają przypisaną ulicę|ZA1367837|PL|31-644|KRAKÓW|Sapiechy|33||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Koszyce Wielkie (ID=192142),Ulica: Wąska (ID=668456),Numer budynku: 35,Liczba znalezionych kodów: 0|ZA1394556|PL|33-111|KOSZYCE WIELKIE|Wolska|35||MAŁOPOLSKIE|TARNOWSKI|TARNÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Żory,Ulica: Władysława,Wszystkie kody mają przypisaną ulicę|ZA1417999|PL|44-240|ŻORY|os.Ks.Władysława|10a|38|ŚLĄSKIE|ŻORY|ŻORY
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Andrychów (ID=194556),Ulica: Klonowa (ID=669070),Numer budynku: 3,Liczba znalezionych kodów: 0|ZA1439234|PL|34-120|ANDRYCHÓW|Kolorowa|3||MAŁOPOLSKIE|WADOWICKI|ANDRYCHÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Szyce,Ulica: Nasza,Wszystkie kody mają przypisaną ulicę|ZA1460647|PL|32-085|SZYCE|NASZA|5||MAŁOPOLSKIE|KRAKOWSKI|WIELKA WIEŚ
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Nowa Wieś,Ulica: Nowowiejska,Miejscowość nie ma kodów pocztowych|ZA1464742|PL|42-690|NOWA WIEŚ|Wiejska|123||ŚLĄSKIE|TARNOGÓRSKI|TARNOWSKIE GÓRY
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Nawojowa Góra (ID=183040),Ulica: Pałasińskiej (ID=626487),Numer budynku: 23,Liczba znalezionych kodów: 0|ZA1668137|PL|32-065|NAWOJOWA GÓRA|PAŁASZYŃSKIEJ|23||MAŁOPOLSKIE|KRAKOWSKI|KRZESZOWICE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabierzów,Ulica: Na Stoku,Wszystkie kody mają przypisaną ulicę|ZA1685721|PL|32-080|ZABIERZÓW|Osiedle Na Stoku|1||MAŁOPOLSKIE|KRAKOWSKI|ZABIERZÓW
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chybie (ID=230425),Ulica: Kolejowa (ID=749219),Numer budynku: 2,Liczba znalezionych kodów: 0|ZA1707758|PL|43-520|CHYBIE|Kolorowa|2||ŚLĄSKIE|CIESZYŃSKI|CHYBIE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gorzeń Górny,Ulica: Zakopiańska,Miejscowość nie ma kodów pocztowych|ZA1782500|PL|34-100|Gorzeń Górny|Zakopiańska|194||MAŁOPOLSKIE|WADOWICKI|WADOWICE
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łaziska Górne,Ulica: Głowińskiego,Wszystkie kody mają przypisaną ulicę|ZA1894028|PL|43-173|Łaziska Górne|Głowińskiego|26B|6|ŚLĄSKIE|MIKOŁOWSKI|ŁAZISKA GÓRNE

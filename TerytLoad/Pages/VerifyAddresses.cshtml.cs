@@ -132,7 +132,9 @@ namespace TerytLoad.Pages
                 var readStartTime = DateTime.Now;
                 //var dataLines0 = await GenericFileLoader.LoadFromFileAsync<Adres>(adresyFilePath);
                 var dataLines0 = await GenericFileLoader.LoadFromFileWithHeaderMappingAsync<Adres>(adresyFilePath);
-                var errorLines = await GenericFileLoader.LoadFromFileAsync<Adres>(bladFilePath);
+                var errorLines = System.IO.File.Exists(bladFilePath)
+                    ? await GenericFileLoader.LoadFromFileAsync<Adres>(bladFilePath)
+                    : new List<Adres>();
 
 // Poniższe można zamieniać z DataLines
 //                var errorIds = new HashSet<string>(errorLines.Select(x => x.Id));
@@ -194,6 +196,11 @@ namespace TerytLoad.Pages
                     var lineStartTime = DateTime.Now;
 
                     processedCount++;
+
+
+//
+// Tutaj procesuje się pojedyncza linia
+//
 
                     var result = await ProcessLineAsync(item, searchService);
                     results.Add(result);
