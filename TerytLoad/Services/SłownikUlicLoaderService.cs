@@ -241,7 +241,7 @@ namespace TerytLoad.Services
                 context.ChangeTracker.Clear();
 
                 insertedCount += batch.Count;
-                logger.LogInfo($"? Wstawiono partiê {i / batchSize + 1}: {insertedCount}/{uniqueUlice.Count}");
+                // logger.LogInfo($"? Wstawiono partiê {i / batchSize + 1}: {insertedCount}/{uniqueUlice.Count}");
 
                 progress?.Report(new ValidatorProgress
                 {
