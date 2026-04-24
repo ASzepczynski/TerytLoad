@@ -55,7 +55,7 @@ namespace TerytLoad.Pages
                 return Page();
             }
 
-            var outputFolder= System.IO.Path.Combine(_env.ContentRootPath, DataDirectory);
+            var outputFolder = System.IO.Path.Combine(_env.ContentRootPath, DataDirectory);
 
             var appDataPath = System.IO.Path.Combine(outputFolder, InputFilePath);
             Console.WriteLine($"[VerifyAddresses] Pełna ścieżka: {appDataPath}");
@@ -136,10 +136,10 @@ namespace TerytLoad.Pages
                     ? await GenericFileLoader.LoadFromFileAsync<Adres>(bladFilePath)
                     : new List<Adres>();
 
-// Poniższe można zamieniać z DataLines
-//                var errorIds = new HashSet<string>(errorLines.Select(x => x.Id));
-//                var dataLines = dataLines0.Where(x => errorIds.Contains(x.Id)).ToList();
-                 var dataLines=dataLines0;
+                // Poniższe można zamieniać z DataLines
+                //                var errorIds = new HashSet<string>(errorLines.Select(x => x.Id));
+                //                var dataLines = dataLines0.Where(x => errorIds.Contains(x.Id)).ToList();
+                var dataLines = dataLines0;
 
                 var readTime = (DateTime.Now - readStartTime).TotalMilliseconds;
 
@@ -189,18 +189,18 @@ namespace TerytLoad.Pages
 
                 Console.WriteLine($"[VerifyAddresses] ========== ROZPOCZĘCIE PĘTLI PRZETWARZANIA ({DateTime.Now:HH:mm:ss.fff}) ==========");
 
-//               foreach (var item in dataLines.Where(x=>x.Ulica!=null && x.Ulica.Contains("Kadłubka")))
+                // foreach (var item in dataLines.Where(x=>x.Id== "A1346398"))
 
-                 foreach (var item in dataLines)
+                foreach (var item in dataLines)
                 {
                     var lineStartTime = DateTime.Now;
 
                     processedCount++;
 
 
-//
-// Tutaj procesuje się pojedyncza linia
-//
+                    //
+                    // Tutaj procesuje się pojedyncza linia
+                    //
 
                     var result = await ProcessLineAsync(item, searchService);
                     results.Add(result);
@@ -274,8 +274,13 @@ namespace TerytLoad.Pages
                 var saveTime = (DateTime.Now - saveStartTime).TotalSeconds;
 
                 var totalTime = (DateTime.Now - totalStartTime).TotalSeconds;
+                var totalEndTime = DateTime.Now;
 
                 var summary = $"✅ Zakończono weryfikację!{Environment.NewLine}{Environment.NewLine}" +
+                             $"🕐 Czas:{Environment.NewLine}" +
+                             $"   • Start:      {totalStartTime:yyyy-MM-dd HH:mm:ss}{Environment.NewLine}" +
+                             $"   • Koniec:     {totalEndTime:yyyy-MM-dd HH:mm:ss}{Environment.NewLine}" +
+                             $"   • Czas trwania: {TimeSpan.FromSeconds(totalTime):hh\\:mm\\:ss}{Environment.NewLine}{Environment.NewLine}" +
                              $"📊 Statystyki:{Environment.NewLine}" +
                              $"   • Przetworzono: {processedCount:N0} rekordów{Environment.NewLine}" +
                              $"   • Sukces: {successCount:N0}{Environment.NewLine}" +
@@ -372,37 +377,28 @@ namespace TerytLoad.Pages
                     NumerMieszkania = string.IsNullOrWhiteSpace(item.NrLokalu) ? null : item.NrLokalu
                 };
 
-                var plik = System.IO.Path.Combine(_env.ContentRootPath, DataDirectory,"Przetworzono.txt");
+                var plik = System.IO.Path.Combine(_env.ContentRootPath, DataDirectory, "Przetworzono.txt");
                 var values = item.GetType()
                     .GetProperties(BindingFlags.Instance | BindingFlags.Public)
                     .Select(p => p.GetValue(item));
 
-                var razem=string.Join("|", values);
+                var razem = string.Join("|", values);
                 System.IO.File.AppendAllText(plik, razem + Environment.NewLine);
 
                 var searchResult = await searchService.SearchAsync(request);
 
                 // Budowanie nowaUlica
                 var nowaUlica = "";
-                if (searchResult.Ulica != null)
-                {
-                    string sPrefix;
-                    switch (searchResult.Ulica.CechaUlicy.Skrot)
-                    {
-                        case "rynek":
-                            sPrefix = "";
-                            break;
-                        case "inne":
-                            sPrefix = "";
-                            break;
-                        default:
-                            sPrefix = searchResult.Ulica.CechaUlicy.Skrot ?? "";
-                            break;
-                    }
-                    ;
-                    nowaUlica = $"{sPrefix} {searchResult.Ulica.Nazwa1}".Trim();
-                }
 
+                var ul = searchResult.Ulica;
+                if (ul != null)
+                {
+                    nowaUlica = $"{ul.CechaUlicy.Opis()} {ul.TypUlicy.Opis()}".Trim();
+                    if (ul.Dzielnica!="")
+                    {
+                        nowaUlica = $"{nowaUlica} {ul.Dzielnica}".Trim();
+                    }
+                }
                 // ✅ POPRAWIONE: Używaj GetOverallMethod() zamiast sprawdzania Message
                 string method = searchResult.GetOverallMethod() == MatchingMethod.Fuzzy ? "Fuzzy" : "Strict";
 

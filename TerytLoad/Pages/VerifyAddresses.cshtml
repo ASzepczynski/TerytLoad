@@ -172,12 +172,11 @@ A1394|31-413|Krakow||1|67|MAŁOPOLSKIE|KRAKÓW|KRAKÓW</pre>
 
         // --- Timer ---
         let timerInterval = null;
-        let startTime     = null;
 
-        function startTimer() {
-            startTime = Date.now();
+        function startTimer(fromTimestamp) {
+            if (timerInterval) clearInterval(timerInterval);
             timerInterval = setInterval(() => {
-                const secs    = Math.floor((Date.now() - startTime) / 1000);
+                const secs    = Math.floor((Date.now() - fromTimestamp) / 1000);
                 const minutes = Math.floor(secs / 60);
                 const seconds = String(secs % 60).padStart(2, '0');
                 document.getElementById("elapsed-time").innerHTML =
@@ -190,10 +189,22 @@ A1394|31-413|Krakow||1|67|MAŁOPOLSKIE|KRAKÓW|KRAKÓW</pre>
                 clearInterval(timerInterval);
                 timerInterval = null;
             }
+            sessionStorage.removeItem('verifyStartTime');
+        }
+
+        // Wznów timer jeśli strona się przeładowała podczas trwającego procesu
+        const savedStart = sessionStorage.getItem('verifyStartTime');
+        if (savedStart) {
+            document.getElementById("progress-container").style.display = "block";
+            document.getElementById("progress-spinner").style.display   = "inline-block";
+            startTimer(parseInt(savedStart));
         }
 
         // --- Form submit ---
         document.querySelector('form').addEventListener('submit', function () {
+            const now = Date.now();
+            sessionStorage.setItem('verifyStartTime', now);
+
             document.getElementById("progress-container").style.display = "block";
             document.getElementById("result-container").style.display  = "none";
             document.getElementById("progress-message").textContent    = "⏳ Oczekiwanie na start procesu...";
@@ -210,7 +221,7 @@ A1394|31-413|Krakow||1|67|MAŁOPOLSKIE|KRAKÓW|KRAKÓW</pre>
             btn.disabled = true;
             btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Przetwarzanie...';
 
-            startTimer();
+            startTimer(now);
         });
     </script>
 }

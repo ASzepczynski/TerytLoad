@@ -1,64 +1,13 @@
 ﻿Komunikat|ID|Kraj|Kod|Miasto|Ulica|NrDomu|NrLokalu|Wojewodztwo|Powiat|Gmina
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków (ID=4235931),Ulica:  (ID=12449536),Numer budynku: 3,Liczba znalezionych kodów: 0|A1223900|PL|31-141|KRAKÓW|pl.Słowiański|3||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków (ID=4235931),Ulica:  (ID=12316211),Numer budynku: 104,Liczba znalezionych kodów: 0|A1229705|PL|02-200|KRAKÓW|oś.Żeromskiego|104||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa (ID=4247064),Ulica:  (ID=12444822),Numer budynku: 45,Liczba znalezionych kodów: 0|A1231760|PL||WARSZAWA|ul.Waszyngtona|45|51|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa (ID=4247064),Ulica:  (ID=12328785),Numer budynku: 1,Liczba znalezionych kodów: 0|A1243366|PL|00-906|WARSZAWA|al.Żwirki i Wigury|1||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 12,Liczba znalezionych kodów: 0|A1354058|PL|33-100|TARNÓW|oś. Legionów|12|32|MAŁOPOLSKIE||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Chorzów (ID=4271614),Ulica:  (ID=12407550),Numer budynku: 63,Liczba znalezionych kodów: 0|A1358686|PL|32-500|CHORZÓW|al.Henryka|63||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa (ID=4247064),Ulica:  (ID=12328785),Numer budynku: 93,Liczba znalezionych kodów: 0|A1383022|PL|02-089|WARSZAWA|al.Żwirki i Wigury|93||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 10,Liczba znalezionych kodów: 0|A1393456|PL|33-100|TARNÓW|Os.Legionów|10|47|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabrze (ID=4271850),Ulica:  (ID=12411080),Numer budynku: 1,Liczba znalezionych kodów: 0|A1401861|PL|41-807|ZABRZE|ul.Szczęście Ludwika|1||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa (ID=4247064),Ulica:  (ID=12328785),Numer budynku: 95,Liczba znalezionych kodów: 0|A1404540|PL|02-089|WARSZAWA|al.Żwirki i Wigury|95||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa (ID=4247064),Ulica:  (ID=12328785),Numer budynku: 31,Liczba znalezionych kodów: 0|A1405655|PL|02-091|WARSZAWA|Al.Żwirki i Wigury|31||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Warszawa (ID=4247064),Ulica:  (ID=12328785),Numer budynku: 31,Liczba znalezionych kodów: 0|A1411161|PL|02-091|WARSZAWA|Al.Żwirki i Wigury|31||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 3,Liczba znalezionych kodów: 0|A1417326|PL|33-100|TARNÓW|Os.Legionów|3|20|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Katowice (ID=4268986),Ulica:  (ID=12465924),Numer budynku: 88a,Liczba znalezionych kodów: 0|A1425363|PL||KATOWICE|ul.Rożdzieńskiego|88a||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 10,Liczba znalezionych kodów: 0|A1427732|PL|33-100|TARNÓW|Os.Legionów|10|16|MAŁOPOLSKIE|TARNÓW|TARNÓW
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Grabno (ID=4233039),Numer budynku: zubeck,Liczba znalezionych kodów: 0|A1436617|PL|32-830|GRABNO|Grabno|zubeck||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 3,Liczba znalezionych kodów: 0|A1441332|PL|33-100|TARNÓW|os.Legionów|3|114|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zabrze (ID=4271850),Ulica:  (ID=12404924),Numer budynku: 404,Liczba znalezionych kodów: 0|A1456294|PL|41-806|ZABRZE|Al.Wolności|404||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik (ID=4269090),Ulica:  (ID=12398207),Numer budynku: 1,Liczba znalezionych kodów: 0|A1457640|PL|44-200|RYBNIK|ul.Rynek|1||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 6,Liczba znalezionych kodów: 0|A1470135|PL|33-100|TARNÓW|os.Legionów|6|76|MAŁOPOLSKIE|TARNÓW|TARNÓW
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sosnowiec (ID=4271546),Ulica:  (ID=12535913),Numer budynku: 6,Liczba znalezionych kodów: 0|A1474856|PL|41-200|SOSNOWIEC|ul.Zwycięstwa 6|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice (ID=4270390),Ulica:  (ID=12536610),Numer budynku: 9,Liczba znalezionych kodów: 0|A1475113|PL|44-106|GLIWICE|ul.Piłsudskiego 9|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wrocław (ID=4198223),Ulica:  (ID=12321589),Numer budynku: 34,Liczba znalezionych kodów: 0|A1475183|PL|50-951|WROCŁAW|ul.Rynek 34|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Płock (ID=4245427),Ulica:  (ID=12495604),Numer budynku: 13,Liczba znalezionych kodów: 0|A1475623|PL|09-401|PŁOCK|ul.Kobylińskiego 13|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tychy (ID=4271570),Ulica:  (ID=12405082),Numer budynku: 55,Liczba znalezionych kodów: 0|A1475740|PL|43-100|TYCHY|ul.Niepodległości 55|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Częstochowa (ID=4269082),Ulica:  (ID=12413593),Numer budynku: 54,Liczba znalezionych kodów: 0|A1475884|PL|42-217|CZĘSTOCHOWA|ul.Jana Pawła II 54|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Legionowo (ID=4246921),Ulica:  (ID=12465771),Numer budynku: 4,Liczba znalezionych kodów: 0|A1475934|PL|05-120|LEGIONOWO|UL.RYNEK 4|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rybnik (ID=4269090),Ulica:  (ID=12398207),Numer budynku: 10,Liczba znalezionych kodów: 0|A1476209|PL|44-200|RYBNIK|UL.RYNEK 10|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Nowa Ruda (ID=4195683),Ulica:  (ID=12276919),Numer budynku: 16,Liczba znalezionych kodów: 0|A1476889|PL|57-400|NOWA RUDA|UL.RYNEK 16|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wrocław (ID=4198223),Ulica:  (ID=12321589),Numer budynku: 9/11,Liczba znalezionych kodów: 0|A1477242|PL|50-950|WROCŁAW|ul.Rynek 9/11|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Wrocław (ID=4198223),Ulica:  (ID=12321589),Numer budynku: 9/11,Liczba znalezionych kodów: 0|A1477350|PL|50-950|WROCŁAW|ul.Rynek 9/11|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Płock (ID=4245427),Ulica:  (ID=12495604),Numer budynku: 4,Liczba znalezionych kodów: 0|A1477982|PL|09-400|PŁOCK|ul.Kobylińskiego 4|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Płock (ID=4245427),Ulica:  (ID=12353897),Numer budynku: 8,Liczba znalezionych kodów: 0|A1478068|PL|09-400|PŁOCK|ul.Nowy Rynek 8|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź (ID=4220192),Ulica:  (ID=12543928),Numer budynku: 33,Liczba znalezionych kodów: 0|A1603663|PL|94-047|ŁÓDŹ|ul.Wyszyńskiego|33|11|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=4230296),Numer budynku: 430,Liczba znalezionych kodów: 0|A1614488|PL|32-852|Dębno|Sufczyn|430||MAŁOPOLSKIE|BRZESKI|DĘBNO
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 11,Liczba znalezionych kodów: 0|A1616383|PL|33-100|Tarnów|os.Legionów|11|12|MAŁOPOLSKIE|TARNOWSKI|TARNÓW
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice (ID=4270390),Ulica:  (ID=12369185),Numer budynku: 10,Liczba znalezionych kodów: 0|A1619630|PL|44-100|GLIWICE|ul.Piastów|10||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Gliwice (ID=4270390),Ulica:  (ID=12369185),Numer budynku: 10,Liczba znalezionych kodów: 0|A1619631|PL|44-100|GLIWICE|ul.Piastów|10||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 3,Liczba znalezionych kodów: 0|A1633829|PL|33-100|Tarnów|os.Legionów|3|94|||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=4230296),Numer budynku: 430,Liczba znalezionych kodów: 0|A1636562|PL|32-852|Sufczyn||430||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Zawiercie (ID=4270593),Ulica:  (ID=12377947),Numer budynku: 6,Liczba znalezionych kodów: 0|A1645043|PL|42-400|ZAWIERCIE|ul.Sikorskiego 6|||||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Roztoka-Brzeziny (ID=4227901),Numer budynku: 160,Liczba znalezionych kodów: 0|A1666329|PL|33-316|Roztoka Brzeziny||160||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12330032),Numer budynku: 17,Liczba znalezionych kodów: 0|A1666359|PL|33-100|Tarnów|os.WESTERPLATTE|17|82|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków (ID=4235931),Ulica:  (ID=12315676),Numer budynku: 30,Liczba znalezionych kodów: 0|A1667241|PL|30-059|KRAKÓW|Al.Mackiewicza|30||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=4233844),Numer budynku: 52,Liczba znalezionych kodów: 0|A1690406|PL|38-312|Ropa||52||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Płock (ID=4245427),Ulica:  (ID=12516636),Numer budynku: 38,Liczba znalezionych kodów: 0|A1729684|PL|09-400|PŁOCK|ul.Jachowicza 38|||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 5,Liczba znalezionych kodów: 0|A1759390|PL|33-100|Tarnów|Os.Legionów|5|67|||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=4233844),Numer budynku: 66,Liczba znalezionych kodów: 0|A1780123|PL|38-312|Ropa||66||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Przyborów (ID=4227714),Numer budynku: 398,Liczba znalezionych kodów: 0|A1791400|PL|32-825|BORZĘCIN|Przyborów|398||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12324554),Numer budynku: 6,Liczba znalezionych kodów: 0|A1805459|PL|33-100|Tarnów|os.Legionów|6|86|||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=4230296),Numer budynku: 442,Liczba znalezionych kodów: 0|A1806943|PL|32-852|Sufczyn||442||||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=4227947),Numer budynku: 700,Liczba znalezionych kodów: 0|A1810043|PL|33-316|ROŻNÓW||700||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12436574),Numer budynku: 11,Liczba znalezionych kodów: 0|A1828146|PL|33-100|Tarnów|Os.Ablewicza|11|42|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Łódź (ID=4220192),Ulica:  (ID=12564944),Numer budynku: 34a,Liczba znalezionych kodów: 0|A1844278|PL|90-237|ŁÓDŹ|pl.Matejki|34a||||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=4227947),Numer budynku: 617,Liczba znalezionych kodów: 0|A1872847|PL|33-318|Rożnów||617|1|MAŁOPOLSKIE|NOWOSĄDECKI|GRÓDEK NAD DUNAJCEM
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=4227947),Numer budynku: 700,Liczba znalezionych kodów: 0|A1904021|PL|33-316|ROŻNÓW||700||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Tarnów (ID=4235587),Ulica:  (ID=12330032),Numer budynku: 5,Liczba znalezionych kodów: 0|A1939267|PL|33-100|Tarnów|os.Westerplatte|5|26|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Pruszków (ID=4246594),Ulica:  (ID=12464628),Numer budynku: 36,Liczba znalezionych kodów: 0|A1940079|PL|05-800|Pruszków|ul.Armii Krajowej|36|2|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dąbrowa Górnicza (ID=4269432),Ulica:  (ID=12522455),Numer budynku: 11,Liczba znalezionych kodów: 0|A1962646|PL|41-300|Dąbrowa Górnicza|al.Majakowskiego|11|23|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Kraków (ID=4235931),Ulica:  (ID=12306227),Numer budynku: 4,Liczba znalezionych kodów: 0|A1963995|PL|31-231|Kraków|pl.Bociana|4|65|MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=4233844),Numer budynku: 10,Liczba znalezionych kodów: 0|A1966297|PL|38-312|ROPA||10|10|||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=4233844),Numer budynku: 52,Liczba znalezionych kodów: 0|A1987026|PL|38-312|Ropa||52||||
 Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=4230296),Numer budynku: 498,Liczba znalezionych kodów: 0|A1988630|PL|32-852|Sufczyn||498||||

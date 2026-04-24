@@ -2344,6 +2344,7 @@ Numer domu jest wymagany/|A1408288|PL|30-022|KRAKÓW|RYDLA|||MAŁOPOLSKIE|KRAKÓ
 Numer domu jest wymagany/|A1408292|PL|71-712|KRAKÓW|NAWOJKI GRAMATYKA|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Numer domu jest wymagany/|A1409462|PL||KRAKÓW|ul.Poselska|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Numer domu jest wymagany/|A1409546|PL||KRAKÓW|ul.|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
+Numer domu jest wymagany/|A1409920|PL|40-032|KATOWICE|Pl.|||||
 Numer domu jest wymagany/|A1410300|PL||ŚWINOUJŚCIE|ul.Bunkrowa|||||
 Numer domu jest wymagany/|A1410359|PL|99-232|ZYGRYW|ul.|||||
 Numer domu jest wymagany/|A1410393|PL||ANGLIA|20 Eden Way|||||
@@ -2530,6 +2531,7 @@ Numer domu jest wymagany/|A1437568|PL|32-620|BRZESZCZE|Szymanowskiego|||||
 Numer domu jest wymagany/|A1437769|PL|33-393|MARCINKOWICE||||||
 Numer domu jest wymagany/|A1438259|PL|22-151|JANÓW|Sienkiewicza|||||
 Numer domu jest wymagany/|A1439565|PL|14-100|OSTRÓDA|Drwęcka|||||
+Numer domu jest wymagany/|A1439972|PL|47-300|KRAPKOWICE|Osiedle 1000 Lecia|||||
 Numer domu jest wymagany/|A1440183|PL|38-722|RUDENKA||||||
 Numer domu jest wymagany/|A1440252|PL|32-400|MYŚLENICE|os. 1000-lecia|||||
 Numer domu jest wymagany/|A1441959|PL|41-219|SOSNOWIEC|Długosza|||||
@@ -2856,6 +2858,7 @@ Numer domu jest wymagany/|A1474919|PL|25-519|KIELCE|Tysiąclecia Państwa Polski
 Numer domu jest wymagany/|A1474971|PL|32-300|OLKUSZ|ul.Króla Kazimierza Wielkiego|||||
 Numer domu jest wymagany/|A1475020|PL|00-987|WARSZAWA|ul. ks. Ignacego Kłopotowskieg|||||
 Numer domu jest wymagany/|A1475033|PL|43-300|BIELSKO-BIAŁA|Stojałowskiego|||||
+Numer domu jest wymagany/|A1475291|PL|44-240|ŻORY|Męczenników Oświęcimskich|||||
 Numer domu jest wymagany/|A1475304|PL|28-142|TUCZĘPY||||||
 Numer domu jest wymagany/|A1475345|PL|38-322|ŁUŻNA||||||
 Numer domu jest wymagany/|A1475423|PL|39-225|JODŁOWA||||||
@@ -2930,6 +2933,7 @@ Numer domu jest wymagany/|A1476906|PL|87-851|BONIEWO||||||
 Numer domu jest wymagany/|A1476942|PL|23-412|ŁUKOWA||||||
 Numer domu jest wymagany/|A1476951|PL|22-604|TARNAWATKA||||||
 Numer domu jest wymagany/|A1476961|PL|23-425|BISZCZA||||||
+Numer domu jest wymagany/|A1476963|PL|68-100|ŻAGAŃ|Skarbowa|||||
 Numer domu jest wymagany/|A1477184|PL|31-926|KRAKÓW|os.Centrum B|||MAŁOPOLSKIE|KRAKÓW|KRAKÓW
 Numer domu jest wymagany/|A1477346|PL|56-400|OLEŚNICA|Rynek-Ratusz|||||
 Numer domu jest wymagany/|A1477377|PL|58-100|ŚWIDNICA ŚLĄSKA|pl.1000-lecia Państwa Polskiego|||||
