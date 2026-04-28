@@ -81,7 +81,10 @@
             document.getElementById("currentStep").textContent = current;
             document.getElementById("totalSteps").textContent = total;
 
-            if (percentage >= 100 || message.startsWith("SUKCES_OK")) {
+            if (message.startsWith("SUKCES_OK")) {
+                progressBar.style.width = "100%";
+                progressBar.textContent = "100%";
+                progressBar.setAttribute("aria-valuenow", 100);
                 progressBar.classList.remove("progress-bar-animated", "progress-bar-striped");
                 progressBar.classList.add("bg-success");
                 progressTitle.innerHTML = '<i class="bi bi-check-circle-fill"></i> Zakoñczono pomyœlnie!';
