@@ -216,14 +216,14 @@ namespace TerytLoad.Services
 
                 uniqueUliceSet.Add(new TypUlicy
                 {
-                    Prefiks = item.Prefiks?.Length > 200 ? item.Prefiks.Substring(0, 200) : item.Prefiks,
+                    Prefiks = (item.Prefiks ?? string.Empty).Length > 200 ? (item.Prefiks ?? string.Empty).Substring(0, 200) : (item.Prefiks ?? string.Empty),
                     TytulStopienId = tytulStopienId,
-                    Imie = item.Imie?.Length > 200 ? item.Imie.Substring(0, 200) : item.Imie,
-                    Imie2 = item.Imie2?.Length > 200 ? item.Imie2.Substring(0, 200) : item.Imie2,
-                    Nazwisko = item.Nazwisko?.Length > 200 ? item.Nazwisko.Substring(0, 200) : item.Nazwisko,
-                    Nazwisko2 = item.Nazwisko2?.Length > 200 ? item.Nazwisko2.Substring(0, 200) : item.Nazwisko2,
-                    Pseudonim = item.Pseudonim?.Length > 200 ? item.Pseudonim.Substring(0, 200) : item.Pseudonim,
-                    Postfiks = item.Postfiks?.Length > 200 ? item.Postfiks.Substring(0, 200) : item.Postfiks
+                    Imie = (item.Imie ?? string.Empty).Length > 200 ? (item.Imie ?? string.Empty).Substring(0, 200) : (item.Imie ?? string.Empty),
+                    Imie2 = (item.Imie2 ?? string.Empty).Length > 200 ? (item.Imie2 ?? string.Empty).Substring(0, 200) : (item.Imie2 ?? string.Empty),
+                    Nazwisko = (item.Nazwisko ?? string.Empty).Length > 200 ? (item.Nazwisko ?? string.Empty).Substring(0, 200) : (item.Nazwisko ?? string.Empty),
+                    Nazwisko2 = (item.Nazwisko2 ?? string.Empty).Length > 200 ? (item.Nazwisko2 ?? string.Empty).Substring(0, 200) : (item.Nazwisko2 ?? string.Empty),
+                    Pseudonim = (item.Pseudonim ?? string.Empty).Length > 200 ? (item.Pseudonim ?? string.Empty).Substring(0, 200) : (item.Pseudonim ?? string.Empty),
+                    Postfiks = (item.Postfiks ?? string.Empty).Length > 200 ? (item.Postfiks ?? string.Empty).Substring(0, 200) : (item.Postfiks ?? string.Empty)
                 });
             }
 
