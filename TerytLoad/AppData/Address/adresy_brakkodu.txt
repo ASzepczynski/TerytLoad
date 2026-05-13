@@ -1,13 +1,7 @@
 ﻿Komunikat|ID|Kraj|Kod|Miasto|Ulica|NrDomu|NrLokalu|Wojewodztwo|Powiat|Gmina
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Grabno (ID=4233039),Numer budynku: zubeck,Liczba znalezionych kodów: 0|A1436617|PL|32-830|GRABNO|Grabno|zubeck||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=4230296),Numer budynku: 430,Liczba znalezionych kodów: 0|A1636562|PL|32-852|Sufczyn||430||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Roztoka-Brzeziny (ID=4227901),Numer budynku: 160,Liczba znalezionych kodów: 0|A1666329|PL|33-316|Roztoka Brzeziny||160||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=4233844),Numer budynku: 52,Liczba znalezionych kodów: 0|A1690406|PL|38-312|Ropa||52||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=4233844),Numer budynku: 66,Liczba znalezionych kodów: 0|A1780123|PL|38-312|Ropa||66||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=4230296),Numer budynku: 442,Liczba znalezionych kodów: 0|A1806943|PL|32-852|Sufczyn||442||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=4227947),Numer budynku: 700,Liczba znalezionych kodów: 0|A1810043|PL|33-316|ROŻNÓW||700||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=4227947),Numer budynku: 617,Liczba znalezionych kodów: 0|A1872847|PL|33-318|Rożnów||617|1|MAŁOPOLSKIE|NOWOSĄDECKI|GRÓDEK NAD DUNAJCEM
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Rożnów (ID=4227947),Numer budynku: 700,Liczba znalezionych kodów: 0|A1904021|PL|33-316|ROŻNÓW||700||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=4233844),Numer budynku: 10,Liczba znalezionych kodów: 0|A1966297|PL|38-312|ROPA||10|10|||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=4233844),Numer budynku: 52,Liczba znalezionych kodów: 0|A1987026|PL|38-312|Ropa||52||||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=4230296),Numer budynku: 498,Liczba znalezionych kodów: 0|A1988630|PL|32-852|Sufczyn||498||||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=9427552),Numer budynku: 66,Liczba znalezionych kodów: 0|40001549|Polska|38-312|Ropa||66||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sękowa (ID=9423078),Numer budynku: Męcina,Liczba znalezionych kodów: 0|40008541|Polska|38-307|Sękowa||Męcina||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dębno (ID=9423991),Numer budynku: Maszki,Liczba znalezionych kodów: 0|40012857|Polska|32-828|Dębno||Maszki||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=9427552),Numer budynku: 10,Liczba znalezionych kodów: 0|40035297|Polska|38-312|Ropa||10||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=9427552),Numer budynku: 52,Liczba znalezionych kodów: 0|40035861|Polska|38-312|Ropa||52||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=9424004),Numer budynku: 498,Liczba znalezionych kodów: 0|40037873|Polska|32-852|Sufczyn||498||Małopolskie||

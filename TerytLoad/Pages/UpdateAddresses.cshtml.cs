@@ -89,12 +89,42 @@ namespace TerytLoad.Pages
                 messageBuilder.AppendLine($"🔍 Znaleziono {existingIds.Count} istniejących rekordów w bazie");
 
                 var addressesToAdd = new List<Adres>();
+                // Przygotuj plik dla adresów zagranicznych
+                var inputDir = Path.GetDirectoryName(filePath) ?? ".";
+                var foreignPath = Path.Combine(inputDir, "adresy_obce.txt");
+                var foreignHeaderWritten = System.IO.File.Exists(foreignPath);
                 int skippedCount = 0;
                 int duplicateCount = 0;
 
                 foreach (var line in dataLines)
                 {
                     var parts = line.Split('|');
+
+                    // Jeśli kraj jest inny niż PL lub Polska — zapisz do adresy_obce.txt i pomiń przetwarzanie
+                    var country = parts.Length > 1 ? parts[1].Trim() : string.Empty;
+                    if (!string.Equals(country, "PL", StringComparison.OrdinalIgnoreCase)
+                        && !string.Equals(country, "Polska", StringComparison.OrdinalIgnoreCase)
+                        && !string.IsNullOrEmpty(country))
+                    {
+                        try
+                        {
+                            // Jeśli plik nie istnieje i oryginalny plik miał nagłówek, zapisz nagłówek
+                            if (!foreignHeaderWritten && hasHeader)
+                            {
+                                await System.IO.File.WriteAllTextAsync(foreignPath, lines[0] + Environment.NewLine, Encoding.UTF8);
+                                foreignHeaderWritten = true;
+                            }
+
+                            await System.IO.File.AppendAllTextAsync(foreignPath, line + Environment.NewLine, Encoding.UTF8);
+                        }
+                        catch
+                        {
+                            // ignoruj błędy zapisu do pliku zagranicznych, ale zlicz jako pominięte
+                        }
+
+                        skippedCount++;
+                        continue;
+                    }
 
                     // ✅ DODANE: Usuń tekst w nawiasach kwadratowych z każdego elementu
                     for (int i = 0; i < parts.Length; i++)

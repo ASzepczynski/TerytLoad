@@ -1,0 +1,20 @@
+@page
+@model TerytLoad.Pages.Tools.ImportSapAddressesModel
+@{
+    ViewData["Title"] = "Import SAP addresses";
+}
+
+<div class="container mt-4">
+    <h1>Import SAP addresses (address_sap.xlsx ? address_sap.txt)</h1>
+
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert alert-info">@Html.Raw(Model.Message.Replace("\n","<br/>"))</div>
+    }
+
+    <form method="post" asp-page-handler="Convert">
+        <p>Plik wejœciowy: <code>AppData/Address/address_sap.xlsx</code></p>
+        <p>Plik wyjœciowy: <code>AppData/Address/address_sap.txt</code></p>
+        <button type="submit" class="btn btn-primary">Konwertuj</button>
+    </form>
+</div>

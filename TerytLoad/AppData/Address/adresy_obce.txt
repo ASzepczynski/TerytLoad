@@ -1,0 +1,1029 @@
+﻿Komentarz|Id|Kraj|Kod|Miasto|Ulica|NrDomu|NrLokalu|Wojewodztwo|Powiat|Gmina
+|10000983|Australia|6053|Bayswater|Drake Street|1||||
+|10001239|Słowacja|018 41|Dubnica nad Vahom|Centrum I|39||||
+|10001439|Hiszpania|47005|Valladolid|C.Carcel De La Corona|6||||
+|10001557|Włochy|60044|Fabriano An|Giacomo Brodolini|26||||
+|10002091|Ukraina|31636|Kraków|Osiedle Oświecenia|44||||
+|10002096|Szwecja|740 11|Lanna|Bibacken|63||||
+|10002135|Finlandia|83500|Outokumpu|Maamiehenkatu|3||||
+|10002179|Ukraina|87525|Mariupol|Bulwar B.Chmielnickiego|18||||
+|10002582|Rumunia|200409|Craiova|Calea Unirii 2|bloc 4||||
+|10002777|Zjednoczone Królestwo|G44 3UL|Glasgow|Nethercliffe Avenue|50||||
+|10003127|Tajwan|TW-622|Dalin Township|Zhongxing Rd|789||||
+|10003188|Brazylia|21321-500|Rio De Janeiro|Rua Recreio|N54||||
+|10003205|Austria|9954|Schlaiten|Plone|25||||
+|10003228|Turcja||Silivri|Savci Beyler|3||||
+|10003277|Meksyk||Tapeji Del Rio|Adolfo Lopez Mateos|6||||
+|10003277|Meksyk||Tapeji Del Rio|Adolfo Lopez Mateos|6||||
+|10003451|Ukraina|03148|Kijów|Wołodymyra Pokotyła|3||||
+|10003478|Kolumbia||Kraków|Ul. Rostafińskiego|6||||
+|10003517|Ukraina|65058|Odessa|Szampanskiyka|2/1||||
+|10003521|Zjednoczone Królestwo|LE8 OLH|Leicester|Springfield Crescent|32||||
+|10003529|Czechy|267 12|Lodenice-Janska|Horni|88||||
+|10003599|Pakistan|PK-44000|Nilore Islamabad|Street No 1|9||||
+|10003626|Peru|BR-7155112|Lago Norte|Conjunto|2 QL7||||
+|10003626|Peru||Lago Norte|Conjunto|2QL7||||
+|10003628|Niemcy|45657|Recklinghausen|Paul-Schurholz-Str.|7||||
+|10003661|Tajlandia|13160|Bankrot|Soi 5|222||||
+|10003751|Jordania|13110|Zarqa|Saleem Street, Wadilahajar|14||||
+|10004001|Pakistan|PK-54000|Lahore|Al-Rehman Garden Phase Ii|M-BLOC||||
+|10004011|Bangladesz|1214|Dhaka|Samada Tower ,3/4 South Mughda|8C||||
+|10004037|Indie|736179|Coochbehar|Sri Ramkrishna Sarani|303||||
+|10004108|Pakistan|1500|Tehsil Yasin Village Hundu||91||||
+|10004137|Zjednoczone Emiraty Arabskie|AE-1210|Al Ain|Zyed Bin Sultan Street|Hotel||||
+|10004137|Zjednoczone Emiraty Arabskie|AE-1210|Al Ain|Zayed Bin Sultan Street|Hotel||||
+|10004171|Niemcy|45657|Recklinghausen|Paul-Schurholz-Str.|7||||
+|10004194|Brazylia|21931-290|Rio de Janeiro|Zeferino Galvao|11||||
+|10004208|Niemcy|98694|Ilmenau|Am Denkmal|25||||
+|10004211|Chiny|310030|Sandun Town|Dunyu Road|C8||||
+|10004261|Ukraina|43006|Łuck|Vynnychenka|16||||
+|10004286|Japonia|061-1371|Eniwa, Hokkaido|Megumino Higashi|2-2-4||||
+|10004286|Japonia|061-1371|Eniwa, Hokkaido|Megumino Higashi|2-2-4||||
+|10004324|Niemcy|24149|Kiel|Hertzstrasse  157|||||
+|10004325|Czechy|757 01|Valasske Mezirici|Smetanova|703||||
+|10004337|Bangladesz|1214|Dhaka|Samada Tower ,3/4 South Mughda|8C||||
+|10004355|Zjednoczone Królestwo|SO173SG|Southampton|Kitchener|70||||
+|10004363|Niemcy|01324|Dresden|Hermann-Hesse Str.|11||||
+|10004374|Ukraina|78300|Sniatyn|First Grudnia Street|25||||
+|10004393|Niemcy|01326|Dresden|Waldmuellerstr.|1 B||||
+|10004394|Włochy|20085|Locate Di Triulzi (Mi)|Via Cavalli|11||||
+|10004395|Szwajcaria|1162|St-Prex|Ch. De La Scierie|10||||
+|10004428|USA|06443|Madison, Ct|Winterhill Rd.|68||||
+|10004441|Pakistan|50700|GUJRAT|KANG CHANNAN|0||||
+|10004445|Zjednoczone Królestwo|GB-CO6SB||Throwers, Gaston Street|||||
+|10004446|Finlandia|38100|Sastamala|Horniontie|424||||
+|10004458|Ukraina|79071|Lwów|Włodzimierza Wielkiego|125||||
+|10004528|Hiszpania|50420|Cadrete|Abanto|6||||
+|10004614|Ukraina|62418|PISOCHYN|ST. KVARTALNA|9||||
+|10004614|Ukraina|62418|PISOCHYN|ST. KVARTALNA|9||||
+|10004615|Włochy|16144|GENUA|VIA FEREGGIANO|2B||||
+|10004616|Chiny|276700|Linyi, Prowincja Shandong|Cangshanbeilu|14||||
+|10006145|Ukraina|81110|Lwowska Obl., Zimna Woda|Kropywnyckoho|2||||
+|10007915|Niemcy|45657|Recklinghausen|Paul-Schurholz-Str.|7||||
+|20000226|Szwecja|740 11|Lanna|Bibacken|63||||
+|20000763|Hiszpania|47005|Valladolid|C.Carcel De La Corona|6||||
+|20000850|Szwajcaria|8132|Egg|Rainstrasse|9||||
+|20000953|Australia|6053|Bayswater|Drake Street|1||||
+|20001027|Finlandia|83500|Outokumpu|Maamiehenkatu|3||||
+|20001065|USA|06443|Madison, Ct|Winterhill Rd.|68||||
+|20001080|Austria|8700|Leoben|Gubattagasse|2||||
+|20001147|Szwajcaria|5200|Brugg|Mullermattstrasse|5a||||
+|20001225|USA|78737|Austin Texas Usa|Trail Driver St|13331||||
+|20001362|Botswana|1715|Gaborone|Plot 73897,Phakalane|UNIT3||||
+|20001363|Gruzja|0160|Tbilisi|Mitskevich|25||||
+|20001439|Francja|21270|Binges|Allee Du Clos De Longs Journax|18||||
+|20001654|Ukraina|76005|Ivano-Frankivsk|Chornovola|132||||
+|20001763|Indie|700101|Calcutta|Sukanta Park|67||||
+|20001791|Niemcy|15236|Frankfurt (Oder)|Winzerring|13||||
+|20001803|Włochy|27100|Pavia|Via Vittadini|3||||
+|20001889|Indie|700101|Calcutta|Sukanta Park|67||||
+|20001943|Ukraina|31636|Kraków|Osiedle Oświecenia|44||||
+|20002048|Francja|78640|Neauphle-Le-Chateau|Bis Avenue De La Republique|33||||
+|20002137|Węgry|9400|Sopron|Rozsa U.|11||||
+|20002146|Belgia|8560|Wevelgem|Bieststraat|115||||
+|20002199|Indie|700054|Kolkata (Westbengal)|P-1/7 Cit Scheme Viim|BLOCK||||
+|20002321|Rumunia|200409|Craiova|Calea Unirii 2|bloc 4||||
+|20002529|USA|90036|Los Angeles, California|Burnside Ave|830||||
+|20002539|Japonia|981-3214|Sendai|Yakata|3-21||||
+|20002597|Ukraina|78300|Sniatyn|First Grudnia Street|25||||
+|20002612|Chiny||Chengdu|Huzhu Road|603||||
+|20002693|Ukraina|78405|Nadwirna|Ivana Franka|6a||||
+|20002750|Zjednoczone Emiraty Arabskie||DUBAI|PEARLZ BY DANUBE 920|920||||
+|20002830|Włochy|31047|Ponte Di Piave|Via Roma|61||||
+|20002968|Niemcy|45657|Recklinghausen|Paul-Schurholz-Str.|7||||
+|20003051|Francja|01630|Saint Genis Pouilly|Rue Jules Ferry|215||||
+|20003074|Chiny|276700|Linyi, Prowincja Shandong|Cangshanbeilu|14||||
+|20003075|Pakistan|46300|Rawalpindi|Street 05, Lane 02, Gulshan Da|DD44||||
+|20003077|Indie|700078|Jadavgarh, Haltu, Kasba, K||3/8||||
+|20003239|Węgry|1067|Budapest|Csengery|64||||
+|20003241|Ukraina|79049|Lwów|Vernadskoho|6||||
+|20003242|Francja|54180|Houdemont|Rue Antoine De Soreau|4||||
+|20003345|Ukraina|03148|Kijów|Wołodymyra Pokotyła|3||||
+|20003346|Włochy|35125|Padova|Via T.U.Barbarani|5||||
+|20003383|Pakistan|70150|Matiari, Sindh|C/O Ghulam Nabi Soomro, Mir Ha|432||||
+|20003400|Czechy|267 12|Lodenice-Janska|Horni|88||||
+|20003445|Turcja||Balikesir|Cumhuriyet Street|Mert/1||||
+|20003525|Ukraina|76019|Iwano-Frankiwsk|Halytska|64||||
+|20003553|Francja|31300|Toulouse|Rue Hippolyte Prevost|4||||
+|20003572|Ukraina|78431|Ivano-Frankivsk|Shevchenka|57||||
+|20003573|Ukraina|76026|Ivano-Frankivsk|Suhomlynskego|2||||
+|20003592|Hiszpania|15009|A Coruna|Luis Quintas Goyanes|8||||
+|20003615|Rumunia|710134|Botosani|Ale.Nucului|7||||
+|20003618|Ukraina|79013|Lwów|Saharova|12||||
+|20003621|Ukraina|76000|Ivano-Frankivsk|Tychyny|8||||
+|20003622|Ukraina|76019|Ivano-Frankivsk|Tychyny|8||||
+|20003627|Ukraina|76019|Ivano-Frankivsk|Pulivia|15A||||
+|20003628|Ukraina|78000|Uhornyky|Luhova|4||||
+|20003629|Ukraina|77316|Vistova|Karakaya|4||||
+|20003630|Ukraina|76009|Ivano-Frankivsk|Molodizhna|46||||
+|20003631|Ukraina|76009|Ivano-Frankivsk|Halytska|147||||
+|20003632|Ukraina|76006|Ivano-Frankivsk|Ivasiuk|11||||
+|20003699|Ukraina|76019|Ivano-Frankivsk|Heroiv Mariupolia|17||||
+|20003700|Ukraina|76493|Krykhivtsi|Dvirska|30||||
+|20003701|Ukraina|78240|Korshiv|Horyany|28||||
+|20003702|Ukraina|81780|Zhuravno|Slobidka|42||||
+|20003703|Ukraina|44731|Ustyluh|Lypova|24||||
+|20003704|Norwegia|0858|Oslo|Rolf E.Stenersens Alle|28B||||
+|20003710|Słowacja|040 01|Kosice|Vojenska|1||||
+|20003722|Irak|44001|Erbil|Close To Akar Gas Station|01||||
+|20003724|Egipt|31527|Tanta|El-Santa|Tag El||||
+|20003734|Ukraina|76000|Ivano-Frankivsk|Nezaleznosti|179B||||
+|20003821|Niemcy|09559|Freiberg|Berthelsdorfer|192||||
+|20003847|Ukraina|76010|Ivano-Frankivsk|Voronoho|3||||
+|20003866|USA|10314|Nowy Jork|Elie Ct|18||||
+|20003933|Niemcy|01187|Dresden|Munchner Platz|2||||
+|20003940|Włochy|60124|Ancona|Via Redipuglia|10||||
+|20003974|Serbia|RS-11000|Belgrad|Mike Alasa|38||||
+|20003985|Niemcy|98694|Ilmenau|Am Denkmal|25||||
+|20004042|Indie|110078|Delhi|B-202 Staff Quarters, Type-4|GGSIPU||||
+|20004100|Arabia Saudyjs.|23955-0000|Thuwal|4700 King Abdullah University|G-1801||||
+|20004107|Ukraina|76020|Ivano-Frankivsk|Parkova|18A||||
+|20004108|Ukraina|76019|Ivano-Frankivsk|Berehova|20||||
+|20004109|Ukraina|76014|Ivano-Frakivsk|Natsional Noi Hvardii|22||||
+|20004110|Ukraina|76010|Ivano-Frankivsk|Northern Boulevard|11||||
+|20004111|Ukraina|77423|Uhryniu Village|Polubotka|3B||||
+|20004112|Ukraina|76026|Ivano-Frankivsk|Sukhomlynskoho|4/1||||
+|20004113|Ukraina|76000|Ivano-Frankivsk|Hetman Mazepa|183||||
+|20004114|Ukraina|78701|Verkhovyna|Ivan Franko|107||||
+|20004122|Łotwa|LV-1021|Riga|Plavnieku Iela|5||||
+|20004123|Francja|77400|Dampmart|Rue Antoinette Labour|11||||
+|20004124|Francja|31200|Toulouse|Rue Temponieres|7||||
+|20004126|Francja|31200|Toulouse|Avenue De Fronton|119||||
+|20004127|Francja|31400|Toulouse|Rue Louis Antoine Bougainville|29||||
+|20004148|Niemcy|45309|Essen|Kleiner Bruch|48A||||
+|20004157|Francja|01630|Challex|1 Rue Des Ecoles Batiment|A||||
+|20004161|Niemcy|14469|Potsdam|Voltaireweg|6A||||
+|20004195|Ukraina|61058|Kharkiv|Kultury|11||||
+|20004231|Chiny|510630|Tianhe|Zhongshanda Dao|293||||
+|20004282|Włochy|35010|Padova|Via Otto Febbriao|3||||
+|20004304|Ukraina|76019|Ivano-Frankivsk|Northern Boulevard|11||||
+|20004305|Ukraina|76014|Ivano-Frankivsk|Konovaltsia|106A||||
+|20004306|Ukraina|77450|Zahvizdia|Vasylia Stefanyka|34||||
+|20004307|Ukraina|76005|Ivano-Frankivsk|Drahomanova|7||||
+|20004308|Ukraina|77324|Verkhnya|Nova|16||||
+|20004309|Ukraina|76026|Ivano-Frankivsk|Sukhomlynskogo|5||||
+|20004310|Ukraina|76026|Ivano-Frankivsk|Hetmana Mazepy|175A||||
+|20004311|Ukraina|76005|Ivano-Frankivsk|Viacheslav Chornovil|138||||
+|20004327|Francja|92230|Gennevilliers|4 Rue De Bergkamen|BAT.B||||
+|20004328|Francja|31100|Toulouse|37 Rue Vestrepain|A2||||
+|20004329|Francja|31400|Toulouse|6 Rue Bouloc|N.A.||||
+|20004330|Włochy|00133|Rome|Maruggio|11||||
+|20004331|Pakistan|64200|Abbasia Town|02|266/B||||
+|20004332|Niemcy|40225|Duseldorf|Bittweg|124D||||
+|20004334|Luksemburg|4035|Esch-Sur-Alzette|Rue Nelson Mandela|2||||
+|20004335|Włochy|00155|Rome|Via Roberto Lepetit|9||||
+|20004339|Zjednoczone Królestwo|L176AG|Liverpool|Mersey Road|15||||
+|20004342|Chiny|276000|Linyi, Shandong Province|Cangshan North Road, Yinxiangc|14||||
+|20004343|Indie|394516|Surat|Ntpc Township, Surat|B-1||||
+|20004347|Chile|4811230|Temuco|Francisco Salazar|01145||||
+|20004348|Ukraina|43006|Łuck|Vynnychenka|16||||
+|20004369|Ukraina|10003|Żytomierz|Ul.Lesi Ukrainki|2||||
+|20004387|Szwajcaria|1205|Geneve|Place Des Augustins|17||||
+|20004389|Szwajcaria|8852|Altendorf|Brandweid|22B||||
+|20004399|Ukraina|76494|Ivano-Frankivsk|Malanjuka Petra|52/5||||
+|20004400|Ukraina|78351|Illintsi|Skhilna|15||||
+|20004401|Ukraina|76019|Ivano-Frankivsk|Northern Boulevard|11||||
+|20004402|Ukraina|76002|Ivano-Frankivsk|Gnat Khotkevich Street 44|3||||
+|20004403|Ukraina|77475|Krasylivka|Zelena|35A||||
+|20004405|Francja|31400|Toulouse|Rue Marc Pelegrin|4||||
+|20004406|Francja|31400|Toulouse|4 Avenue Eduard Belin|2018/2||||
+|20004407|Francja|31300|Toulouse|4 Impaasse De Lisieux|ACCTP||||
+|20004408|Francja|31200|Toulouse|Avenue De Fronton|3||||
+|20004409|Włochy|00133|Roma|Via Fratelli Poggini|59||||
+|20004442|Japonia|168-0072|Tokyo|4-11-29 Takaido Higashi Sugina|brak||||
+|20004496|Zjednoczone Emiraty Arabskie|22638|Abu Zabi|Matar Bin Thani Al Rumaithi St|91||||
+|20004535|Niemcy|91054|Bavaria|Am Alten Weiher|12||||
+|20004538|Ukraina|79005|Lwów|I.Franko|23||||
+|20004539|Niemcy|48149|Munster|Raesfeld Strasse|11A||||
+|20004590|Ukraina|43006|Łuck|Vynnychenka|16||||
+|20004591|Włochy|75100|Matera|Via Gandhi|2||||
+|20004602|Włochy|10134|Torino|Corso Giambone|55||||
+|20004603|Belgia|9090|Melle|Schauwegemstraat|62||||
+|20004621|Ukraina|79021|Lwów|Kulparkivska|180||||
+|20004632|Egipt|22511|Etay Elbaroud|Quelishan-Etay elbaroud- Elbehirra|3||||
+|20004649|Niemcy|01326|Dresden|Waldmuellerstr.|1 B||||
+|20004661|Zjednoczone Królestwo|BS3 IRU|Bristol|Frayne Road|10||||
+|20004703|Chiny||Guangzhou Hainzhu District|40 Guangzhi R.Xinghui Haizhu B|C2||||
+|20004705|Hiszpania|08197|Sant Cugat Del Valles|Passeig Rossinyol|100||||
+|20004736|Szwajcaria|3013|Bern|Lerberstrasse|30||||
+|20004756|Francja|49000|Angers|Rue Pierre Melgrani|73||||
+|20004770|Norwegia|9020|Tromsdalen|Theodor Hagerups Veg|20||||
+|20004771|Włochy|74123|Taranto|Via Filippo Turati|15||||
+|20004820|Zjednoczone Królestwo|SE280LZ|Londyn|Tideslea Path|88||||
+|20004862|Izrael|5290002|Tel Aviv|Huberman 8|8||||
+|20004869|USA|01721|Ashalnd|Winter St|117||||
+|20004889|Włochy|33100|Udine|Via G.Freschi|31||||
+|20005165|Tajlandia|13160|Bankrot|Soi 5|222||||
+|20005175|Chiny|410012|Changsha|Yuelu Street|12||||
+|20005188|Chiny|410205|CHANGSHA|YNGHU STREET|22||||
+|20005189|Zjednoczone Królestwo|LE12 6LY|EAST LEAKE|COSTOCK RD, BROOK FURLONG FARM|2||||
+|20005220|Hiszpania|28911|Las Rozas de Madrid|C/Cetreria|101||||
+|20005243|Niemcy|78048|VILLINGEN-SCHWENNINGEN|HUBBAUERWEG|26||||
+|20005311|Słowacja|020 01|Puchov|Stafanikowa|828||||
+|20005312|Malezja|41050|Klang Selangor|No 14 Jalan Rodat|19||||
+|20005313|Wietnam|100000|Hanoi|Dong Ngac Ward|N04||||
+|20005314|Wietnam|132260|Hanoi|Hoai Duc Ward|B||||
+|20005323|Austria|9954|Schlaiten|Plone|25||||
+|20005512|Niemcy|78048|Villingen-Swenningen|Hubbauerweg|26||||
+|20005517|Zjednoczone Królestwo|LE12 6LY|East Leake|Costock Rd, Brook Furlong Farm|2||||
+|20005518|Chiny|410012|Changsha|Yuelu Street|12||||
+|20005519|Argentyna|1602|Vicente Lopez|Italia|1530||||
+|20005520|Argentyna|1437|Ciudad Autonom De Buenosai|Diogenes Taborda|152||||
+|20005521|Argentyna|C1225AAR|Ciudad Autonoma De Buenosa|Independencia|2246||||
+|20005522|Argentyna|9011|Caleta Olivia|13 De Diciembre|2257||||
+|20005523|Argentyna|1427|Buenos Aires|Elcano|3665||||
+|20005524|Argentyna|1405|Ciudad Autonoma De Buenosa|Honorio Pueyrredon|375||||
+|20005525|Argentyna|1425|Ciudad Autonoma De Buenosa|Raul Scalabrini Ortiz|2887||||
+|20005526|Argentyna|1428|Capital Federal|Vuelta De Obligado|2687||||
+|20005527|Brazylia|68455151|Tucurui|Rua H,Santa Monica|9A||||
+|20005528|Brazylia|59148-326|Parnamirim|Sao Bernardo|14||||
+|20005529|Chiny|410205|Changsha|Yanghu Street|22||||
+|20005530|Brazylia|59080470|Natal|Rua Doutor Sebastiao Zuza De M|4450||||
+|20005531|Brazylia|25965-175|Teresopolis|Rua Doutor Oliveira|646||||
+|20005532|Brazylia|59082-010|Natal|Rua Pastor Gabino Brelaz|1397||||
+|20005533|Brazylia|29043028|Vitoria|Oswaldo Cruz|439||||
+|20005534|Brazylia|29101782|Vila Velha|Hugo Musso|1720||||
+|20005535|Brazylia|59075-250|Natal, Rio Grande Do Norte|Amintas Barros|4863||||
+|20005536|Brazylia|68488000|Breu Branco|Cateto|36||||
+|20005537|Chile|2350204|Valparaiso|Blanco Viel|229||||
+|20005538|Chile|8350363|Santiago|Cueto|518||||
+|20005539|Chile|2580066|Vina Del Mar|Lopez|162||||
+|20005540|Chile|2820000|Rancagua|Totihue|555||||
+|20005541|Chile|2510000|Concon|Los Olivillos|440||||
+|20005542|Chile|8420511|Santiago|Santa Maria|383||||
+|20005543|Chile|2511460|Concon|Av Bosques De Montemar Oriente|1779||||
+|20005544|Chile|2451081|Villa Alemana|Pasaje Miguel Angel|133||||
+|20005545|Kolumbia|110311|Bogota|Calle 24|906||||
+|20005546|Kolumbia|11011|Bogota|Calle 19#9-50|TORRE||||
+|20005547|Kolumbia|110111|Bogota|Dg 55#3a-29|N/A||||
+|20005548|Kolumbia|111511|Bogota|Cr 24a#19-03 Sur|BL4 E4||||
+|20005549|Kostaryka|21001|Ciudad Quesada|La Llanada|CASA 2||||
+|20005550|Kostaryka|11401|Urbanizacion Ana Lorena|Diag 53|2D||||
+|20005551|Panama|7069|Chorrera|51 Norte|1045||||
+|20005552|Panama|507|Panama|Calle Del Rio|PRADER||||
+|20005553|Peru|15491|Lima|Amauta B|23||||
+|20005554|Peru|04001|Arequipa|Av.28 De Julio|206||||
+|20005555|Wenezuela|1201|Los Teques|El Encanto, First Stage|ROMA||||
+|20005556|Wenezuela|1020|Caracas|5 De Julio, El Coronal|NA||||
+|20005557|Wenezuela|2115|Turmero|2|11||||
+|20005558|Wenezuela|1010|Distrito Capital|Av. Fuerzas Armadas Sur|RESID||||
+|20005559|Wenezuela|1080|Caracas|Manzanares|5||||
+|20005567|Hiszpania|28911|Las Rozas De Madryt|C/Cetreria|101||||
+|20005579|Czarnogóra|85330|Kotor|Sveta Vraca|6||||
+|20005702|Ukraina|79000|Lwów|Rynek Square|45||||
+|20005741|Egipt|31527|Tanta|El-Santa|Tag El||||
+|20005742|Czechy|636 00|Brno|Andryskova|19||||
+|20005743|Czechy|628 00|Brno|Bżenecka|4199/7||||
+|20005808|Indie|232110|District- Chandauli, Uttar Pradesh|Village-Kurami|3||||
+|20005809|Pakistan|35200|Jhang|Village Kot Essa Shah, Post Office Kot Essa Shah|272||||
+|20005813|Szwajcaria|1162|St-Prex|Ch. De La Scierie|10||||
+|20005817|Indie|110049|Delhi|Shampur Jat|156||||
+|20005850|Wietnam|550000|Da Nang City|Phuoc Truong|6||||
+|20005851|Wietnam|011909|Hanoi|Group|4A||||
+|20005852|Wietnam|700000|Ho Chi Minh City|Nguyen Luong Banq|C4||||
+|20005854|Wietnam|100000|Hanoi|Tam Trinh|C38||||
+|20005855|Wietnam|700000|Ho Chi Minh City|Van Tien Dung Street|brak||||
+|20005856|Wietnam|700000|Ho Chi Minh City|Lu Thuong Kiet|A5||||
+|20005857|Wietnam|100000|Hanoi|Nui Truc Street|20||||
+|20005858|Wietnam|100000|Hanoi|Le Trong Tan Street|80||||
+|20005900|Egipt|11837|Cairo|Elshorouk City ,9th District ,Building 21,No 7|7||||
+|20005908|Włochy|20085|Locate Di Triulzi (Mi)|Via Cavalli|11||||
+|20005911|Niemcy|01324|Dresden|Hermann-Hesse Str.|11||||
+|20005921|Indie|332021|Bajaj Gram, Sanwali, Sikar , Rajasthan|Near- Hotel Jodhpur Desi Thath|94||||
+|20005956|Ukraina|79052|Lwów|Siaivo str.|11||||
+|20005957|Ukraina|36022|Poltava|Staryi Podil|8||||
+|20005976|Indie|411048|Pune|House No 0869, Patilwasti, Yewalewadi, Kondhwa Bk|,||||
+|20006056|Hiszpania|50013|Zaragoza|Luis Braille|21||||
+|20006067|USA|47906|West Lafayette|Gardenia Drive|97||||
+|30000116|Portugalia|2530-102|Lourinha|Carlos Luis Reis Silva|5||||
+|40000107|Albania|1001|Tirana|Rr. Muhamet Deliu, Pallatet "Merkaj"|22||||
+|40000223|Niemcy|59320|Ennigerloh|Gartenstrasse|12||||
+|40000996|Kazachstan|A05D6K4|Almaty|Ul. Zharokov|91||||
+|40001377|Białoruś|210095|Mińsk|Ul. Plechanowa|52/1||||
+|40001972|Białoruś|211413|Połock|Ul. E. Polockoj|29||||
+|40002181|Ukraina|11700|Nowograd-Wołyński|Ul. Akademika Łysina|18||||
+|40002233|Białoruś|225417|Baranowicze|2 Zaułek Zaszczytny|12||||
+|40002239|Ukraina|12110|Irszanśk|Ul. Gulija|17||||
+|40002240|Ukraina|31362|Rozsosza|Ul. Nabereżna|4||||
+|40002242|Białoruś|224009|Brześć|Ul.Putewaja|5||||
+|40003640|Ukraina|91711|Nowograd Wołyński|Ul. Makarenki|39A||||
+|40003811|Albania|1016|Tirana|Rr. Androkli Kostallari|11||||
+|40003812|Albania|3401|Librazhd|Ushtaraku|112||||
+|40003814|Ukraina|77111|Ivano-Frankivsk|Ul. Konovaltsa|9||||
+|40003815|Ukraina|77111|Ukraina|O.Basarab 2|2||||
+|40003816|Ukraina|76010|Iwano-Frankiwsk|Ul. Vyshnevskoho|8||||
+|40003817|Ukraina|77423|Uhryniw|Ul. Kozacka|29||||
+|40003822|Białoruś|224028|Brześć|Partyzanski Prospekt|11V||||
+|40004331|Ukraina|80100|Chervonograd|Molodizhna|7||||
+|40004340|Egipt|02154|Kijów|Entuziastow|5||||
+|40004356|Białoruś|224000|Brześć|Ul. Breskich Dewizij|15B||||
+|40004409|Ukraina|57232|Mykolaiv|Ul.Sinna|9||||
+|40004436|Białoruś|220085|Mińsk|Al. Rokossowskogo|105||||
+|40004444|Ukraina|29000|Chmielnicki|Ul. Kraszewskiego|7||||
+|40004480|Ukraina|54048|Mikołajów|Ul. Sylikatna|283||||
+|40004491|Ukraina|43010|Łuck|Ul.Dubniwska|34||||
+|40004514|Federacja Rosyjska|224013|Brześć|Ul.Mopra|12||||
+|40004776|Albania|3401|Librazhd|Ushtaraku|112||||
+|40004783|Ukraina|04209|Kijów|Linia 11|5||||
+|40004979|Białoruś|230030|Grodno|Miełowyje Gory|12||||
+|40005121|Ukraina|76010|Iwano-Frankiwsk|Ul. Vyshnevskoho|8||||
+|40005131|Białoruś|220140|Mińsk|Ul. Prityckogo|73||||
+|40005303|Ukraina|77423|Uhryniw|Ul. Kozacka|29||||
+|40005391|Ukraina|89607|Mukachevo|Ul. Rosvygovska|28||||
+|40005425|Ukraina|76018|Iwano-Frankiwsk|Hetmana Mazepy|11B||||
+|40005427|Białoruś|220055|Minsk|Kamennogorskaja|108||||
+|40005716|Ukraina|76005|Ivano-Frankivsk|Chornovola|132||||
+|40005727|Chile|7511101|Santiago|Daniel Martner|2002||||
+|40005787|Kolumbia||Kraków|Ul. Rostafińskiego|6||||
+|40005818|Wietnam|100000|Hanoi|Hoang Quoc Viet|E7||||
+|40005896|Chiny||Chengdu|Huzhu Road|603||||
+|40005900|Indie|711204|Kolkata|2c Ns Road, Shantinagar Housing Society, Bld-6,|Floor-||||
+|40005922|Angola||(Kraków-Nowa Huta)|Ul.Bolesława Orlińskiego|10C||||
+|40005941|Ukraina|78300|Sniatyn|First Grudnia Street|25||||
+|40006040|Białoruś|231390|Raduń|Ul.Prytyckiego|33||||
+|40006190|Indie|122017|Gurugram, Haryana|2704|Sector||||
+|40006310|Białoruś|224012|Brześć|Ul. Zielonaja|22||||
+|40006455|Białoruś|224002|Brześć|Uł. Żukowa|8||||
+|40006494|Białoruś|225417|Baranowicze|2 Zaułek Zaszczytny|12||||
+|40006535|Białoruś|230009|Grodno|Ul.Blk|4||||
+|40006748|Ukraina|65000|Odessa|Ul. Skisna|74/76||||
+|40006767|Ukraina|12500|Korostyszew|Ul. Potiekhina|18||||
+|40006773|Białoruś|230010|Grodno|Al. Janki Kupały|84||||
+|40006819|Białoruś|230029|Grodno|Ul. Tolstogo|29||||
+|40006965|Ukraina|18028|Czerkasy|Ul. Atamanovskogo|26||||
+|40006970|Ukraina|48500|Chortkiv|Ul. Sichynskoho|14||||
+|40006993|Ukraina|78405|Nadwirna|Ivana Franka|6a||||
+|40007001|Białoruś|224022|Brześć|Ul Suworowa|90||||
+|40007002|Białoruś|224020|Brześć|Ul.Fruktowaja|50||||
+|40007025|Białoruś|230005|Grodno|Ul. Dzierżyńskiego|58/1||||
+|40007052|Białoruś|231592|Mosty|Lenina|20a||||
+|40007054|Białoruś|224005|Brześć|Zauł. 1 Maja|13||||
+|40007076|Benin|01 BP 04|Abomey-Calavi|Csb Womey-Centre|1||||
+|40007086|Federacja Rosyjska|236022|Kaliningrad|Ul. Czernyszewskogo|40||||
+|40007134|Białoruś|220040|Mińsk|Ul. Biedy|27||||
+|40007411|Ukraina|11700|Nowograd-Wołyński|Ul. Akademika Łysina|18||||
+|40007572|Indonezja|42121|Serang|Bhayangkara, Grand Serang Asri Residence 01/10|0/14||||
+|40007597|Wietnam|530000|Hue|Phan Chu Trinh|386/3||||
+|40007610|Wietnam|100000|Gia Lam, Ha Noi, Vietnam|Nguyen Duc Thuan|502||||
+|40007617|Jordania|13110|Zarqa|Saleem Street, Wadilahajar|14||||
+|40007638|Ukraina|40020|Sumy|Kurskyi Ave|43||||
+|40007672|Irak|32015|Diali - Al - Saadiya|50|45||||
+|40007684|Włochy|31047|Ponte Di Piave|Via Roma|61||||
+|40007742|Pakistan|13100|Muzaffarabad Ajk|Old Court Road Dhakki Mohalla|Ward 1||||
+|40007805|Indonezja|10650|Jakarta/Kemayoran|Jl. H. Ung|D31||||
+|40007828|Indie|841239|Mairwa, Siwan|At- Mairwa Dham, Near Electric Office|3305||||
+|40007893|Białoruś|231900|Wołkowysk|Ul. Chołmista|3||||
+|40008001|Białoruś|220065|Mińsk|Sportowa|75||||
+|40008091|Uzbekistan|100000|Tashkent|Markaz-1|41||||
+|40008107|Białoruś|224007|Brześć|Vasnietsova|46||||
+|40008180|Litwa|13149|Vilnius, Vilniaus Raj.|Šv. Faustinos G.|17||||
+|40008242|Białoruś|210095|Mińsk|Ul. Plechanowa|52/1||||
+|40008347|Białoruś|230020|Grodno|Kabiaka|8||||
+|40008605|Ukraina|77311|Kałusz|Korytowskiego|31||||
+|40008643|Białoruś|224032|Brześć|Molodogwardejskaya|16/1||||
+|40008706|Białoruś|230029|Grodno|Ul. Tolstogo|29||||
+|40008846|Białoruś|220116|Mińsk|Alibiegowa|16||||
+|40008856|Białoruś|220123|Mińsk|Ul. Maksima Bahdanowicza|55||||
+|40008861|Ukraina|73000|Chersoń|Ul. Soborna|2||||
+|40008872|Białoruś|225710|Pińsk|Ul. Komsomolskaja|61||||
+|40008880|Ukraina|48500|Czortków|Ul. Romana Shukhevycha|2A||||
+|40008897|Białoruś|224000|Brześć|Ul. Janki Kupaly|22/2||||
+|40008916|Białoruś|230012|Grodno|Zauł. Dzierżyńskiego|10A||||
+|40009346|Niemcy|45657|Recklinghausen|Paul-Schurholz-Str.|7||||
+|40009347|Białoruś|225038|Brześć|Charytończyka|15||||
+|40009351|Zimbabwe|00000|Zvishavane|New Low Density Mimosa Mine|Hse no||||
+|40009367|Ukraina|69121|Zaparoże|Ul. Kurhanna|12||||
+|40009368|Ukraina|40034|Sumy|Ul. Internacjonalistów|57B||||
+|40009388|Turcja||Silivri|Savci Beyler|3||||
+|40009401|Pakistan|47040|Wah Model Town, Wah Cantt|Lane No 19, Phase 2|26||||
+|40009414|Pakistan|47030|Wah Cantt|Gudwal, Wah Cantt, Rawalpindi|26-G/1||||
+|40009438|Pakistan|25000|Peshawar Kpk|Street 12,Sector F 9,Phase 6,|272||||
+|40009456|Pakistan|43260|Attock|Village Rawal, Tehseel And Post Office Pindi Gheb|Attock||||
+|40009512|Kolumbia||Krakow|Os. Handlowe|8||||
+|40009524|Chiny|276700|Linyi, Prowincja Shandong|Cangshanbeilu|14||||
+|40009529|Pakistan|46300|Rawalpindi|Street 05, Lane 02, Gulshan Da|DD44||||
+|40009531|Indie|400022|Sion, Mumbai|Pratiksha Nagar Depot Road|101||||
+|40009537|Francja|73200|Mercury||2025||||
+|40009556|Indie|700078|Jadavgarh, Haltu, Kasba, K||3/8||||
+|40009571|Indie|723149|Purulia|Vill-Satara.|P.O-KU||||
+|40009793|Białoruś|220000|Mińsk|Ul.Timiriaziewa|92||||
+|40010075|Białoruś|222201|Smolewiczy|Ul. Golubiewa|10||||
+|40010114|Ukraina|08500|Fastiv|V.Vynnychenka|5||||
+|40010152|Białoruś|223710|Soligorsk|Lienina|14||||
+|40010340|Myanmar|11041|Kamayut|Pyay Road|05||||
+|40010381|Maroko|30100|Fes|Hay Tellal Route Meknes|N 133||||
+|40010427|Ukraina|08296|Vorzel|Kvitkova|46||||
+|40010459|Myanmar|11062|Mayangone|Tapinshwehtee Street|356||||
+|40010699|Korea Południowa|63217|Jeju-Si|Cheonggyul-Ro 5 Gil|2||||
+|40010733|Turcja|54100|Adapazari|Semerciler Street|7||||
+|40010940|Korea Południowa|16658|103-218,|432,Jeongjo-Ro, Gwonseon-Gu, Suwon-Si,|103-21||||
+|40011028|Białoruś|222811|Marijna Gorka|Ul. Proletarskaja|43||||
+|40011061|Kolumbia|080012|Barranquilla|Cl 64   28-28|105||||
+|40011177|Ukraina|36021|Poltava|Iwana Mazepy|22||||
+|40011243|Ukraina|45400|Novovolynsk|6- Microdistrict|8||||
+|40011365|USA|53705|Madison|Orchard Dr.|306||||
+|40011366|Turcja|07230|Antalya|Çalayan District / Yal Street / 2086. Street|8th Fl||||
+|40011368|Ghana|20093|Kigali|Kg 670 Street|8A||||
+|40011412|Ukraina|04209|Kijów|Linia 11|5||||
+|40011413|Ukraina|04209|Kijów|Linia 11|5||||
+|40011754|Albania|1001|Tirana|Rruga Disha|7||||
+|40012352|Białoruś|220095|Mińsk|Ul. Yakubowa|56/1||||
+|40012465|Irlandia||Kraków|Ul. Konarskiego|25||||
+|40012626|Ukraina|12500|Korostyszew|Ul. Potiekhina|18||||
+|40012689|Syria||Kraków|Ul.Tadeusza Romanowicza|1||||
+|40012792|Białoruś|220136|Mińsk|Ul.Nalibokskaya|28||||
+|40012872|Kolumbia||Bogotá, Conjunto Parque Central Ponteved|Cll 95 # 71 - 31|Bloque||||
+|40013040|Ukraina|68355|Odessa|Ul. Suvorova|40||||
+|40013091|Ukraina|78000|Ivano-Frankivsk|Halytska St|167||||
+|40013158|Białoruś|220117|Mińsk|Prospekt Gaziety "Zwiezda"|57||||
+|40013174|Ukraina|65011|Odessa|Ul. Uspenska|81||||
+|40013205|Ukraina|79000|Lwów|Ul. Mohylnickogo|28||||
+|40013210|Ukraina|73013|Chersoń|Kijowska|9||||
+|40013266|Wietnam|500000|Binh Duong|Ul. Phan Boi Chau|80||||
+|40013282|Ukraina|51937|Kamianske|Prospekt Peremohy|14||||
+|40013531|Kanada|L5N 8K1|Mississauga|Lisgar Drive|6090||||
+|40013629|Ukraina|18007|Czerkasy|Ul. Gagarina|45||||
+|40014051|Ukraina|11700|Nowograd-Wołyński|Ul. Akademika Łysina|18||||
+|40014569|Angola|020-25|Luanda|Ul. Rua Da Parabolica|25||||
+|40014726|Białoruś|230005|Grodno|Ul. Dzierżyńskiego|23B||||
+|40015010|Angola|01-000|Sumbe|Ul. Sao Joao|32||||
+|40015232|Ukraina|54000|Mishkovo-Pohorelovo|Ul. Suvorova|14||||
+|40015329|Pakistan|30-065|Krakow|Tokarskiego|2||||
+|40015331|Meksyk|54715|Cuautitlán Izcalli|Bosques De Los Milagros|6||||
+|40015332|Meksyk|54100|Tlalnepantla De Baz|Ejercito Del Trabajo|6||||
+|40015333|Meksyk|54100|Col. San Lucas P., Tlanlepantla|Cda. Venustiano Carranza|6||||
+|40015338|Ukraina|76008|Iwano-Frankiwsk|Khimikiv|15a||||
+|40015339|Ukraina|76006|Iwano-Frankiwsk|Vovchynetska|202||||
+|40015344|Ukraina|02183|Kyiv|Shuhevycha Street|30 A||||
+|40015346|Ukraina|84300|Kramatorsk|Parkova|93||||
+|40015348|Ukraina|78060|Obertyn|Bogdana Khmelnitskogo|21||||
+|40015353|Ukraina|54049|Mikołajów|Mendeleewa|51||||
+|40015357|Ukraina|76000|Ivano-Frankivsk|Suhomlynskogo|4-3||||
+|40015359|Ukraina|87525|Mariupol|Khmelnytskoho|18||||
+|40015364|Ukraina|04454|Rembertów|Aleja Generala Antoniego Chruschela Montera|37/39||||
+|40015367|Ukraina|65104|Odessa|Academician Williams|74||||
+|40015368|Ukraina|79071|Lwów|Kulparkowska|133||||
+|40015372|Ukraina|03061|Kyiv|Novopoleva|79||||
+|40015378|Indie|232110|District- Chandauli, Uttar Pradesh|Village-Kurami|3||||
+|40015383|Ukraina|76494|Ivano-Frankivsk|Zarichna|101A||||
+|40015394|Ukraina|02140|Kyiv|Bazhana|36||||
+|40015397|Egipt|11841|New Cairo|348- Dar Masr  Elqornofil|348||||
+|40015403|Indie|782447|Lumding|Haflong Road, Tiniali|1/847||||
+|40015455|Indie|332021|Bajaj Gram, Sanwali, Sikar , Rajasthan|Near- Hotel Jodhpur Desi Thath|94||||
+|40015491|Egipt|22511|Etay Elbaroud|Quelishan-Etay elbaroud- Elbehirra|3||||
+|40015494|Pakistan|70150|Matiari, Sindh|C/O Ghulam Nabi Soomro, Mir Ha|432||||
+|40015499|Pakistan|25000|Hayatabad, Peshawar|18|446||||
+|40015508|Nigeria|101123|Ilorin|Arefunwe Street|8||||
+|40015525|Indie|741250|Kalyani|Gokulpur East(Near Swapan Smriti Sangha))|277/2||||
+|40015534|Pakistan|46500|Wahcantt|Street No 9, E Block, New City Phase Ii, Wahcantt|E19||||
+|40015547|Indonezja|65154|Malang|Jl. Kapi Suwida|16H/18||||
+|40015550|Chiny|014030|Baotou City|Room 2303,Unit 2,Building 6, Wanjun,Wenhua Street|6-2303||||
+|40015557|Ukraina|11700|Nowograd-Wołyński|Ul. Akademika Łysina|18||||
+|40015564|Indie|695008|Trivandrum|Saraswathy Bhavan , Tc|44/407||||
+|40015565|Pakistan|30065|Krakow|Juliana Tokarskeigo 2|106||||
+|40015566|Indie|700054|Kolkata|Manicktala Main Road|1/Q||||
+|40015567|Pakistan|40100|Sargodha, Punjab|2, Cheema Colony|67||||
+|40015572|Ukraina|76018|Iwano-Frankiwsk|Ul. Zaliznychna|9a||||
+|40015573|Ukraina|76018|Iwano-Frankiwsk|Ul. Szota Rustaweliu|13a||||
+|40015574|Ukraina|36020|Poltava|Ul. Getmana Sagadachnogo|8a||||
+|40015575|Białoruś|230021|Grodno|Małyszczyńska|15||||
+|40015576|Ukraina|72100|Primorsk|Ul. Bankowa|149||||
+|40015577|Ukraina|36021|Poltava|Ul. Hrushevskogo|2||||
+|40015578|Ukraina|76019|Iwano-Frankiwsk|Ul. Pavla Tychyny|8||||
+|40015848|Białoruś|220000|Mińsk|Ul.Timiriaziewa|92||||
+|40015896|Kenia||Niepołomice|Ul.Wielicka|40||||
+|40015977|Mongolia|67197|Khuvsgul|Galt Soum|4-10-2||||
+|40015993|Ukraina|69069|Zaporoże|Ul. Ladozka|22||||
+|40016027|Ukraina|08163|Chabany|Ul. Vinogradna|2||||
+|40016135|Ukraina|03067|Kijów|Mashynobudivna|21-A||||
+|40016374|Ukraina|87500|Mariupol|Ul.Grecka|80||||
+|40016447|Białoruś|220123|Minsk|Horuzey|10-1||||
+|40016556|Ukraina|79012|Lviv|Pohyla|7||||
+|40016585|Ukraina|79013|Lviv|Kotliarevskoho|41||||
+|40016586|Indie|673317|Thalakulathur, Kerala|Sravnam ( Thazhe Puthona ), Annassery|-||||
+|40016647|Ukraina|76006|Ivano-Frankivsk|Ul. Symonenka|39||||
+|40016672|Mongolia|16000|Ulaanbaatar|Narnii Khoroolol|28||||
+|40016754|Indie|502032|Hyderabad|Sapthagiri Residency|New sa||||
+|40016781|Białoruś|220089|Minsk|Pr. Dziarzynskaha|26||||
+|40016838|Ukraina|79026|Lviv|Ostrogradskih|14||||
+|40016862|Korea Południowa|12797|Gwangju-Si|314, Marudeul-Gil|113 do||||
+|40016881|Białoruś|231282|Lida|Iwjewska|6||||
+|40016894|Izrael|3780800|Givat Ada|Harimon|18||||
+|40016937|Białoruś|224000|Brest|Ul. Zielona|22||||
+|40016940|Jemen|66255|Najran|Almafraq|1||||
+|40016942|Mongolia|48090|Mandalgobi|Ul. Narlag|26D||||
+|40016954|Serbia||Kraków|Ul. Stanisława Lema|26||||
+|40016996|Indie|700047|Kolkata|Nsc Bose Road|255/57||||
+|40017018|Mongolia|15141|Ulanbator|Chingeltei|6-24-7||||
+|40017029|Ukraina|65123|Kryzhanivka, Odeski Obwód|Ul. Boczarowa Generała|56||||
+|40017069|Mongolia|18-040|Ułanbator|Ul. Zaluus|D-8||||
+|40017091|Egipt|11672|Cairo|Al Sayed Al Mabrouk, At Teraa Al Boulaqeyah, Shubra, Cairo G|28||||
+|40017143|Myanmar|11041|Yangon|Pyay Road, Kamayut  Township|No.507||||
+|40017184|Litwa|14186|Salden, Vilniaus Raj.|Žemynos|14||||
+|40017198|Białoruś|220056|Mińsk|Ulitsa Geroyev 120-Y Divizii|17||||
+|40017252|Myanmar|11211|Tamwe, Yangon|155th|No.10||||
+|40017253|Ukraina|36004|Poltava|Ul. Aleksander Bedny|16||||
+|40017288|Ukraina|36000|Poltava|Konstitucii|13||||
+|40017358|Indie|673010|Kozhikode|Sreevas,Thaneepathal Venger Po, Kozhikode|-||||
+|40017367|Zjednoczone Emiraty Arabskie|856|Dubai|Dubai Nadd Al Hamar Street 11b|11b||||
+|40017426|Ukraina|81115|Obroshyne|Kruta|29a||||
+|40017452|Pakistan|0000|Ajman|Al Rashidiya|2||||
+|40017527|USA|60630|Chicago|North Lamon Ave.|4447||||
+|40017548|Ukraina|61000|Kharkiv|Per. Vesnanyi|4||||
+|40017559|Honduras|11101|Comayaguela||1119||||
+|40017561|Myanmar|11051|Yangon|Aye Yeik Mon 9th Street|10||||
+|40017619|Ukraina|46000|Ternopil|Szpytalna|3||||
+|40017626|Ukraina|61000|Charków|Prospekt Ludwig Swobody|51A||||
+|40017640|Niemcy|15010|Ulanbaatar|Czingeltei District|5||||
+|40017666|Turcja|07230|Antalya|Çalayan District / Yal Street / 2086. Street|8th Fl||||
+|40017667|Nigeria|100001|Lagos State|Eyita|13||||
+|40017808|Ukraina|08135|Chaiki|Pecherska|6||||
+|40018061|Białoruś|230021|Grodno|Małyszczyńska|15||||
+|40018159|Ukraina|02000|Kijów|Ul. Harmatna|51||||
+|40018194|Ukraina|03148|Kijów|Ul. Urliwska|9||||
+|40018374|Ukraina|84300|Kramatorsk|Bulwar Konstruktorówmaszyn|59||||
+|40018488|Ukraina|61115|Charków|Al. Aleksandrowski|122a||||
+|40018666|Ukraina|87510|Mariupol|Ul.Markelova|21||||
+|40018770|Ukraina|49040|Dnipro|Ul. Topolyna|7A||||
+|40018800|Ukraina|02072|Kyiv|Chavdar|4||||
+|40018815|Ukraina|45400|Nowowołyńsk|15 Mikrookręg|10||||
+|40018840|Niemcy|13587|Berlin|Schönwalder Allee|26||||
+|40018866|Ukraina|36004|Poltava|Ul. Golowka|4||||
+|40018877|Ukraina|40009|Sumy|Billopilskij Szlach|30||||
+|40018879|Ukraina|79034|Lviv|Kos  Anatolskoho|22||||
+|40018916|Turcja||Balikesir|Cumhuriyet Street|Mert/1||||
+|40018922|Ukraina|82300|Boryslav|Kovaliva|39||||
+|40018926|Ukraina|03087|Kyiv|Volynska|6||||
+|40018928|Ukraina|82100|Drohobych|Vasylia Stusa|4a||||
+|40018935|Ukraina|79012|Lviv|Karpyntsya|7||||
+|40018940|Ukraina|76000|Ivano-Frankivsk|Olga Kysylewska|32||||
+|40018941|Ukraina|82600|Skole|Danylo Halytskii|58||||
+|40018944|Ukraina|76008|Ivano-Frankivsk|Halytska|147||||
+|40018949|Ukraina|79034|Lviv|Ternopilska|12b||||
+|40018956|Ukraina|76019|Ivano-Frankivsk|Zakliński|13||||
+|40018957|Ukraina|79049|Lviv|Vernadskogo|8||||
+|40018975|Ukraina|80700|Zolochiv|S. Krushelnytska|21||||
+|40018977|Ukraina|79008|Lviv|Patriarch Dimitriy Yaremy|7||||
+|40018980|Ukraina|48210|Hrymailiv|Pulyuya|5||||
+|40018993|Pakistan|51480|Tehsil Sambrial, District Sialkot|Uchian Kharolian|00||||
+|40018995|Azerbejdżan|AZ1018|Baku|Oksigen|13E||||
+|40019015|Ukraina|81012|Seredkevychi|Ul. Shevchenka|6||||
+|40019031|Białoruś|222120|Borysów|Ul. Watutina|22||||
+|40019035|Ukraina|77300|Kalush|Ul. Ivasiuka|6||||
+|40019211|Ukraina|02166|Kijów|Ul. Kubanskoi Ukrainy|41A||||
+|40019246|Białoruś|223011|Atolino|Ul. Polewaja|2||||
+|40019321|Ukraina|02160|Kijów|Ul.Regeneratorna|4||||
+|40019334|Ukraina|75024|Chersoń|Ul. Biała Akacja|1||||
+|40019447|Ukraina|08743|Dolyna|Myru|22||||
+|40019593|Białoruś|231282|Lida|Lotnaja|12||||
+|40019611|Mongolia|17031|Ulanbaatar|10th Khoroo|1||||
+|40019691|Ukraina|08500|Fastiv|V.Vynnychenka|5||||
+|40019728|Białoruś|220045|Mińsk|Pr. Dzerzhinskogo|131||||
+|40019741|Ukraina|11254|Andrijewyczi|Ul. Orłowszczyna|64||||
+|40019958|Ukraina|85114|Kostyantynivka|Belousova|14||||
+|40019987|Białoruś|220131|Mińsk|Zaułek Papierniański|9||||
+|40020039|Białoruś|213500|Kryczew|Ul. Kolhoznaya|53||||
+|40020070|Ukraina|04114|Kyiv|Vyshhorodska 45|7||||
+|40020077|Białoruś|231300|Lida|Ul. Koopieratywnaja|24||||
+|40020079|Białoruś|224025|Brześć|Ul. Aerodromnaja|60||||
+|40020124|Ukraina|03124|Kyiv|Blv.Vaclav Gavel|6/7a||||
+|40020238|Ukraina|50000|Kryvyi Rih|Martina-Shymanovskogo|19B||||
+|40020257|Turcja|38000|Kayseri|Mevlana Street|34||||
+|40020295|Białoruś|224002|Brest|Ul. Vorovskogo|27||||
+|40020340|Mongolia|18081|Ulaanbaatar|Labor Union|110||||
+|40020416|Białoruś|231281|Lida|Ul. Varshavskaya|44||||
+|40020646|Ukraina|08300|Boryspil|Robitnycza|19||||
+|40020929|Białoruś|222531|Kleck|Ul. Sovetskaya|77A||||
+|40021793|Ukraina|25030|Kropywnycki|Ul. Akademika Korolewa|38||||
+|40021803|Japonia|337-0033|Saitama,Minuma-Ka|Mikura|1426-2||||
+|40021807|Ukraina|79000|Lwów|Rynek Square|45||||
+|40021808|Ukraina|76009|Iwano-Frankiwsk|Ul. Wolodymyra Iwasiuka|46||||
+|40021810|Ukraina|82400|M. Stryj|Krasivskogo|8||||
+|40021821|Białoruś|231337|Iwie|Ul. Młodzieżowa|26||||
+|40021831|Indie|691004|Kilikolloor, Kollam|Lekshmi Bhavan, Vivekananda Nagar|86||||
+|40021844|Irak|44001|Erbil|Close To Akar Gas Station|01||||
+|40021857|Bangladesz|1214|Dhaka|Samada Tower ,3/4 South Mughda|8C||||
+|40021887|Indie|560049|Bengaluru|4th Main, 12th Cross, V4 Bliss Apt Vinayaka Layout|101||||
+|40021888|Indie|411048|Pune|House No 0869, Patilwasti, Yewalewadi, Kondhwa Bk|,||||
+|40021893|Kolumbia|111711|Bogota|Cr 7  2-46|1||||
+|40021896|Egipt|4222051|Cairo/Darelsalam|Hanfyelattar|11||||
+|40021923|Egipt|31527|Tanta|El-Santa|Tag El||||
+|40021935|Irak|46012|Chwarqurna|Kurdistan|10||||
+|40021948|Indie|440030|Nagpur|Om Nagar|62||||
+|40021955|Egipt|11837|Cairo|Elshorouk City ,9th District ,Building 21,No 7|7||||
+|40021956|Pakistan|250000|University Town City, Peshawar|Syed Jamal Ud Din Afghani Road|73D3||||
+|40021975|Indonezja|65111|Malang, East Java|Perumahan Bukit Cemara Tujuh|Block||||
+|40021993|Indie|712136|Chandannagar|Makhan Chatterjee Lane, Fatakgora|NA||||
+|40021995|Jemen|AL MANSOOR|Aden|90th|7||||
+|40021998|Ukraina|90415|Lypcha|Ul. Vchytelska|16||||
+|40021999|Mongolia|38 130|Ulaanbaatar|Har Hoshuu 1|38||||
+|40022535|Białoruś|220068|Mińsk|Ul. Kahouskaya|28a||||
+|40022536|Ukraina|02160|Kyiv|Ul. Reheneratorna 4|5||||
+|40022553|Białoruś|224014|Brest|Jasnaja|3||||
+|40022554|Białoruś|220121|Mińsk|Ul. Prytyckogo|47||||
+|40022852|Indie|173204|Kasauli  Himachal Pradesh India|Air Force Station|P92||||
+|40022854|Indie|600116|Chennai|3rd Cross Street|No 33,||||
+|40022856|Zimbabwe|+263|Harare|Mt Pleasant Heights|672||||
+|40022858|Algieria|15000|Tizi Ouzou|Coop Cité Universitaire M'Douha|B04||||
+|40022859|Algieria|23000|Annaba|Lot 151 S/Achor Elrym Annaba|151||||
+|40022860|Białoruś|220020|Minsk|Naroczanskaja|4||||
+|40022861|Chiny|610051|Chengdu|Jianshe Alley, Sunny Era, Taiyanggongyuan, Chenghua District|13||||
+|40022862|Białoruś|230008|Grodno|Ul.Tereszkowej|46||||
+|40022863|Białoruś|220055|Mińsk|Ul. Nalibokskaja|10||||
+|40022864|Białoruś|220092|Minsk|Ui. Bieruta|24/2||||
+|40022865|Białoruś|220067|Minsk|Igumenskiy Trakt|14||||
+|40022866|Ukraina|79034|Lviv|Heroiv Krut|11||||
+|40022867|Białoruś|220095|Mińsk|Jakubawa|56/1||||
+|40022869|Ukraina|79032|Lwów|Ul. Pasiczna|98||||
+|40022871|Białoruś|220113|Mińsk|Ul. Uschodniaja|52||||
+|40022872|Austria|1180|Vienna|Buchleitengasse|36||||
+|40022875|USA|89002|Henderson|Santa Helena Ave|940||||
+|40022909|Ukraina|03194|Kyiv|Kol'Tsov Blvd.|14E||||
+|40022911|Jemen|-|Sana'A|Haddah Street|3||||
+|40023190|Izrael|30010|Um El Fahem|Sharafa|brak||||
+|40023433|Myanmar|12021|Kyaikhta|Thazin Street|336||||
+|40023434|Mongolia|17031|Ulanbaatar|10th Khoroo|1||||
+|40023515|Turcja|34730|Istanbul|Yesil Bahar|8||||
+|40023516|Uzbekistan|151080|Kokand|Pakhtakor|45||||
+|40023517|Turcja|41040|Kocaeli|Yeşilkent|8||||
+|40023519|Egipt|35728|Sherbien||bosat||||
+|40023520|Indie|574151|Mangalore|Gurupura Kaikamba|761953||||
+|40023522|Turcja|34535|Istanbul|Sinanoba Mahallesi Istiklal Sitesi|I-11||||
+|40023523|Ekwador|170802|Quito|Alfredo Baquerizo Moreno Y Pablo Palacios|N8-29||||
+|40023526|Mauritius|73348|Vacoas-Phoenix|Solferino No.5|5||||
+|40023527|Ukraina|18000|Cherkassy|Heroiv Dnipra|85||||
+|40023529|Turcja|16003|Bursa|Altinşehr Mah. Muammer Aksoy Cad.|75D||||
+|40023530|Turcja|34876|Stanbul|Yosun|3||||
+|40023531|Ukraina|76000|Iwano-Frankiwsk|Symonenka|11||||
+|40023532|Ukraina|08500|Fastiv|Ul. Jarosława Mudrego|38||||
+|40023561|USA|23059|Glen Allen, Va|New Town Ct|11500||||
+|40023585|Białoruś|231900|Wołkowysk|Ul. Kalinina|82||||
+|40023586|Ukraina|02000|Kyiv|Marychanska|13||||
+|40023588|Ukraina|03150|Kiev|Ul. Kazymyra Malevycha|89||||
+|40023589|Ukraina|84100|Slavyansk|Noviy Pobut|21||||
+|40023788|Francuskie Terytoria Południowe||Rzeczyca Długa||180a||||
+|40023997|Irlandia||Ilkowice|Ul. Rudno|85||||
+|40024048|Pakistan|0000|Ajman|Al Rashidiya|2||||
+|40024049|Ukraina|61000|Kharkiv|Per. Vesnanyi|4||||
+|40024576|Ukraina|76008|Ivano-Frankivsk|Fedkovycha|70-b||||
+|40025096|Turcja||Kraków|Os. Szkolne|30||||
+|40025309|Ukraina|79019|Lviv|Pid Dubom|26a||||
+|40025416|Turcja|34197|Istanbul|Bahçelievler Yenibosna Merkez Mahallesi|40||||
+|40025450|Litwa|05229|Wilno|Taikos|184||||
+|40025451|Federacja Rosyjska|654018|Nowokuźnieck|Prospekt Druzhby|30||||
+|40025452|Białoruś|231391|Wies Voronovo|Swobody|18||||
+|40025453|Ukraina|77423|Uhryniv|Ul. Nezalezhnosti|206||||
+|40025470|Białoruś|223026|Borowliany|Ul. Internacionalnaja|24/3||||
+|40025472|Ukraina|02095|Kijów|Ul. Kniazhyi Zaton|3||||
+|40025475|Białoruś|231300|Lida|Ul. Kooperatywnaja|24||||
+|40025688|Białoruś|222120|Borysów|Ul. Watutina|22||||
+|40025746|Demokratyczna Republika Konga|70-20|Likasi|Av. Kilwa|7||||
+|40025748|Białoruś|246021|Homel|Lugovaya|78a||||
+|40025750|Białoruś|224008|Brześć|Ul. Monastyrskaya|10||||
+|40026058|Białoruś|220095|Mińsk|Ul. Yakubowa|56/1||||
+|40026131|Białoruś|220116|Mińsk|Ul. Alibiegova|8||||
+|40026132|Białoruś|220012|Mińsk|Ul. Kalinina|19a||||
+|40026152|Ukraina|63304|Krasnohrad|Ul. Kharkivska|125||||
+|40026153|Ukraina|69036|Zaporizhzhia|Ul.Stalevariv|25a||||
+|40026154|Korea Południowa|30153|Sejong-Si|27, Daepyeong 1-Gil|103||||
+|40026155|Białoruś|225003|Bujaki||29||||
+|40026156|Białoruś|224005|Brześć|Ul. Puszkinska|4||||
+|40026157|Ukraina|08316|W. Petropavlivska|Ul. Zielona|34||||
+|40026366|Białoruś|213500|Kryczew|Ul. Kolhoznaya|53||||
+|40026402|USA|63112|St. Louis|Nina Pl|5861||||
+|40026404|Ukraina|58003|Chernivtsi|Olzycha|46||||
+|40026405|Ukraina|01001|Kyiv|Viacheslava Chornovola|29||||
+|40026406|Ukraina|07301|Vyshhorod|Ul. Kalinova|118||||
+|40026429|Białoruś|220140|Minsk|Burdziejnaha|20||||
+|40026433|Białoruś|220025|Mińsk|Ul. Slobodskaja|119||||
+|40026578|Grecja|133 41|Ano Liosia|Ul. Taigetou|12||||
+|40026752|Mongolia|15160|Ulaanbaatar||19||||
+|40027057|Białoruś|220092|Minsk|Bieruta|24/2||||
+|40027059|Białoruś|230021|Grodno|Tawłaja|64||||
+|40027060|Ukraina|10020|Żytomierz|Ul. Pokoju|25||||
+|40027067|Ukraina|61177|Charków|Ul.Zolochivska|30/1||||
+|40027398|Białoruś|231391|Werenowo|Zaułek Komunalny|8||||
+|40027702|Ukraina|40001|Sumy|Ul. Gorkogo|21||||
+|40027735|Ukraina|02000|Kijów|Ul. Harmatna|51||||
+|40027736|Ukraina|02000|Kijów|Ul. Harmatna|51||||
+|40027994|Ukraina|49055|Dnipro|Ul. Nowokrymskaja|5||||
+|40028049|Białoruś|246028|Homel|Ul.Sovietskaya|97||||
+|40028121|Ukraina|80040|Zhvyrka|Ul. Shevchenka|49||||
+|40028216|Litwa|08118|Wilno|Vytauto G.|19||||
+|40028407|Białoruś|230005|Grodno|Ul. Dzierżyńskiego|23B||||
+|40028418|Sri Lanka|81700|Weligama|Rabinelgewatta|220/43||||
+|40028420|Syria|-|Tartous City|Al Gameah|16||||
+|40028423|Indie|799004|Agartala|Sharat Palli|457||||
+|40028425|Etiopia|-|Shambu|-|-||||
+|40028428|Kenia|81-60215|Marimanti|Kibunga|001||||
+|40028429|Kenia|108-20116|Nakuru|Gilgil|0||||
+|40028430|Kenia|361 00 902|Lusiqetti|-|-||||
+|40028432|Zambia|-|Lusaka|Off Pendeza Road|5||||
+|40028433|Kenia|60595-0020|Nairobi|Dennis Pritt Road|-||||
+|40028435|Indie|639004|Karur||11/254||||
+|40028443|Ukraina|36029|Poltava|Novozenkovsky|4A||||
+|40028454|Francja|21000|Dijon|Blairet|4||||
+|40028458|Francja|37290|Preuilly-Sur-Claise|Rue De La Petite Chandelle|1||||
+|40028475|Nigeria|340283|Akure|Emmanuel Avenue Deeper Life Camp Road Futa Northgate|11||||
+|40028476|Mongolia|16052|Ulaanbaatar|Bayangol District|27th k||||
+|40028477|Mongolia|13370-0061|Ulaanbaatar|15th Khoroo, Bayanzurkh District|178||||
+|40028478|Chiny|221400|Yang Zhou|Jiefangeast Road,Yizheng County, Yangzhou City, Jiangsu Prov|103 Me||||
+|40028479|Niger|01250|Adana|Mithat Özsan Blv|99||||
+|40028480|Pakistan|8700|Leoben|Jahnstrasse|7||||
+|40028481|Pakistan|8700|Leoben|Jahnstrasse|7||||
+|40028483|Jemen|6001196|Ibb|Al-Thalatheen St.|14||||
+|40028491|Białoruś|210029|Witebsk|Ul. Smoleńska|4/2||||
+|40028493|Azerbejdżan|AZ1010|Baku|Babadagh|81||||
+|40028495|Nigeria|004|Igboho|Ebedi|05||||
+|40028515|Iran|34676|Istanbul|Uskudar|21||||
+|40028536|Indie|639004|Karur||11/254||||
+|40028537|Iran|06934|Ankara|S Gokcek Mah. Keremkent Sitesi Sincan|26B||||
+|40028542|Indie|193401|Pattan, Baramulla|Goom Ahmad Pora,|H-112||||
+|40028543|Etiopia|378|Jimma|Kitto Furdissa|M6301||||
+|40028546|Pakistan|35200|Jhang|Village Kot Essa Shah, Post Office Kot Essa Shah|272||||
+|40028557|Pakistan|44000|Islamabad|Plot No. 84, Street No.03, Sector H-8/1,|84||||
+|40028570|Egipt|81511|Aswan|Elshaikh Haroun - Elshaheed Mohamed Ahmed Awad|170||||
+|40028585|Indie|799004|Agartala|Sharat Palli|457||||
+|40028587|Ukraina|59206|Chornoguz|Hnat Khotkevych|4||||
+|40028596|Ukraina|33018|Rivne|Stelmakha|1B||||
+|40028608|Pakistan|52250|Gujranwala|Bzar No2, Street No 5, Mohalla Sheikhu Colony|2||||
+|40028624|Pakistan|75300|Gulshan-E-Iqbal, Karachi|Sehba Akhter Road|A-231/||||
+|40028627|Chiny|311101|Hangzhou, Zhejiang Province|No.1501 Tongsheng Road|16||||
+|40028634|Chiny|276000|Linyi, Shandong Province|Cangshan North Road, Yinxiangc|14||||
+|40028638|Indie|212104|Prayagraj||184||||
+|40028650|Chiny|157513|Muling County, Mudanjiang City|Linghe Road|D403||||
+|40028651|Indie|394516|Surat|Ntpc Township, Surat|B-1||||
+|40028686|Pakistan|1500|Tehsil Yasin Village Hundu||91||||
+|40028689|Indie|560102|Bengaluru|879, 26th Cross, 17th Main, Sector 3, Hsr Layout,|879||||
+|40028702|Etiopia|378|Jimma|Kabele 02 Bossa Addis|403||||
+|40028703|Etiopia|226|Chiro|Ul. Chiro|1||||
+|40028704|Tanzania|14110|Dar-Es-Salaam|Madare St.|14||||
+|40028707|Nigeria|900103|Abuja|Nyanya|Block||||
+|40028710|Syria|-|Damascus|Nisreen Street, Altadamon|-||||
+|40028712|Malawi|305208|Zomba|14th Avenue Mulunguzi|1402||||
+|40028717|Wyb. Kości Sł.|221000|Xuzhou||06||||
+|40028718|Kongo|221000|Xuzhou|Huayuecng|30||||
+|40028719|Nigeria|340283|Akure|Suncity Villa Futa-Northgate|11||||
+|40028720|Nigeria|900242|Garki, Abuja|Uromi Close|67||||
+|40028721|Syria|-|Tartous City|Al Gameah|16||||
+|40028722|Nigeria|232111|Osogbo|Ofatedo Street|D55||||
+|40028723|Nigeria|240220|Ilorin|Ero-Omo Street|1||||
+|40028726|Mongolia|14171-0069|Ulaanbaatar|Sukhbaatar District 11th Khoroo|11||||
+|40028751|Ukraina|10003|Żytomierz|Ul.Lesi Ukrainki|2||||
+|40028763|Białoruś|230023|Grodno|Dominikanskaya|7||||
+|40029229|Ukraina|78405|Nadwórna|Kruszelnyckiej|16A||||
+|40029231|Ukraina|29000|Chmielnicki|Ul. Puliuja|7||||
+|40029234|Ukraina|79013|Lwów|Kolessy|14||||
+|40029237|Ukraina|50047|Krzywy Róg|Ul. Karbyszewa|9||||
+|40029432|Białoruś|231337|Iwie|Ul. Młodzieżowa|26||||
+|40029493|Indie|690526|Kollam|Panackal Puthen Veedu|1||||
+|40029494|Algieria|15000|Tizi Ouzou|Cité 300 Logs, Boukhalfa|G2||||
+|40029495|Turcja|06690|Ankara|Mesnevi Street|46||||
+|40029542|Ukraina|04700|Brovary|Symona Petliury 21b|21b||||
+|40029543|Indie|345055|Dubai|Muhaisnah 4, Al Wasl Building|R434||||
+|40029545|Białoruś|212011|Mohylew|Ul. Krupskoi|61||||
+|40029546|Ukraina|79010|Lviv|Ul. Chernihivska|17||||
+|40029547|Białoruś|220035|Minsk|Griboyedov St.|2a||||
+|40029548|Algieria|16000|Algiers|Cité 100 Logements Tixeraine-Bir Khadem|14||||
+|40029549|Ukraina|81135|Zubra|Ul. Skovorody|8a||||
+|40029551|Białoruś|224026|Brześć|Bierestowaja|26||||
+|40029553|Białoruś|222370|Iwieniec|Ul. Zasłonowa|2||||
+|40029554|Ukraina|02002|Kyiv|Sheptytskoho|3||||
+|40029555|Białoruś|225404|Baranowicze|Ul. Ordżonikidze|16||||
+|40029556|Białoruś|220131|Minsk|Shirokaya|100||||
+|40029557|Indie|600069|Chennai|11 West Street|B-Bloc||||
+|40029558|Białoruś|220025|Mińsk|Ul.Kosmonawtów|38||||
+|40029561|Białoruś|246017|Homiel|Ul. Krestyanskaya|40||||
+|40029562|Mongolia|976|Ulaanbaatar|Bzd 26r Khoroo Parkside Residence|822||||
+|40029566|Białoruś|220045|Minsk|Ul. Napalieona Ordy|45||||
+|40029567|Białoruś|220087|Minsk|Napalieona Ordy|45||||
+|40029568|Ukraina|08171|Chotiw|Ul. Junosti|24||||
+|40029573|Mongolia|13380|Ulaanbaatar|Ul. Ituul|11||||
+|40030099|Myanmar|11201|Yangon||6||||
+|40030100|Białoruś|220037|Minsk|2 Per.Bagrationa|19||||
+|40030101|Ukraina|03150|Kiev|Ul. Kazymyra Malevycha|89||||
+|40030168|Turcja|34876|Stanbul|Yosun|3||||
+|40030169|Egipt|00000|Suez||125||||
+|40030170|Algieria|22000|Sidi Bel Abbes|Rue La Macta|05||||
+|40030171|Sri Lanka|70200|Embilipitiya|Udagama Road|No.177||||
+|40030172|Kuwejt|53704|Al Ahmadi|Mangaf, Block 4, Street 28|38||||
+|40030173|Turcja|34776|Stanbul|Madenler Mah.|4||||
+|40030174|Turcja|48700|Marmaris/Mula, Türkiye|Çldr Mahallesi|Kemal||||
+|40030175|Turcja|10500|Balkesir|Ihlamur Sokak|9||||
+|40030199|Turcja|34290|Stanbul|Çalkuşu Sokak|A-202||||
+|40030200|Nigeria|961102|Abuja||1017||||
+|40030201|Indie|641603|Tiruppur|Maruthachalapuram Main Road|15/62A||||
+|40030204|Uzbekistan|151080|Kokand|Pakhtakor|45||||
+|40030205|Meksyk|58260|Morelia|Av. Ventura Puente. Col. Chapultepec Sur.|891||||
+|40030207|Ukraina|02091|Kyiv|Charkivske Shose|168-||||
+|40030208|Ukraina|09100|Bila Tserkva|Vodopijna|20||||
+|40030218|Turcja|26010|Eskisehir|Batkent Mahallesi Arasck Sokak|35||||
+|40030222|Czechy|737 01|Czeski Cieszyn|Ul. Divadelni|15||||
+|40030224|Chiny|650000|Kunming|Jiaochang North Road No.440|73||||
+|40030646|Irlandia||Rzeszów|Ul. Stokrotek|13||||
+|40030732|Ukraina|79037|Lwów|Ul.Roztochya|168||||
+|40030733|Pakistan|0000|Ajman|Al Rashidiya|2||||
+|40030744|Ruanda|0000|Kigali (Gasabo)|Kg 384 Street|5||||
+|40031233|Chiny|215000|Suzhou||11||||
+|40031733|Ukraina|76003|Iwano-Frankiwsk|Stusa|39D||||
+|40031735|Ukraina|37461|Rudka|Myru|66||||
+|40032111|Ukraina|08500|Fastiv|Ul. Jarosława Mudrego|38||||
+|40032246|Białoruś|220113|Mińsk|Ul. Bialinskaha|54||||
+|40032247|Ukraina|02217|Kijów|Ul. Mykoly Zakrevs'Koho|37||||
+|40032253|Ukraina|49041|Dnipro|Ul. Zaporizkie Szose|74||||
+|40032254|Ukraina|76018|Ivano-Frankivsk|Ul. Hetmana Mazepy|11A||||
+|40032256|Ukraina|79020|Lwów|Ul. Varshavska|201a||||
+|40032257|Ukraina|14029|Czernihów|Riatuwalnykiw|35||||
+|40032258|Białoruś|220086|Mińsk|Ul. Kalinowskiego|52||||
+|40032275|Albania|1025|Tirana|Rr. Androkli Kostallari, Ndertesa 11|HYRJA||||
+|40032276|Ukraina|82100|Drohobych|Ilnytskoho|15||||
+|40032279|Białoruś|220015|Minsk|Ul. Kireenko|5||||
+|40032725|Ukraina|03150|Kijów|Ul. Velyka Vasylkivska|102||||
+|40032727|Białoruś|231300|Lida|Ul. Tuchaczewskiego|101a||||
+|40032975|Turcja|34050|Istanbul|Nazperver|50||||
+|40032976|Białoruś|220116|Mińsk|Prospekt Gazety Prawda|16||||
+|40032992|Ukraina|03189|Kyiv|Yulii Zdanovskoi Street|50/2||||
+|40032997|Ukraina|07354|Novy Petrivci|Ul. Kanerska|23||||
+|40032998|Mongolia|65-137|Tsetserleg|3rd Bag|4||||
+|40033000|Ukraina|76000|Iwano-Frankiwsk|Ul. Wowczynetska|194A||||
+|40033011|Ukraina|51933|Kamjanskie|Al. Swobody|72||||
+|40033012|Ukraina|63304|Krasnohrad|3-Mikrorajon|7||||
+|40033238|Białoruś|225003|Bujaki||29||||
+|40033239|Białoruś|224005|Brześć|Ul. Puszkinska|4||||
+|40033255|Turcja|22800|Kesan|Buyuk Camii Mah. Cin Ali Cad.|16||||
+|40033256|Białoruś|220045|Minsk|Yana Chachota Street|42||||
+|40033270|Ukraina|02217|Kyiv|Cherwonoj Kalyny Prospect|2w||||
+|40033271|Albania|4503|Lezhe|Smt|15||||
+|40033272|Ukraina|03148|Kijów|Ul. Zhmerynska|16||||
+|40033277|Turcja|06450|Ankara|961st Street Mursel Uluc|1||||
+|40033630|Białoruś|222306|Molodechno|17 Sentyabrya|10||||
+|40033631|Białoruś|220125|Mińsk|Ul. Lozinskaja|16||||
+|40033632|Białoruś|225295|Iwacewicze|Ul. Czertkowa|29||||
+|40033633|Białoruś|220067|Minsk|Shpileuskaha|56||||
+|40033635|Białoruś|220101|Mińsk|Ul. Jakubowa|6||||
+|40033636|Ukraina|39706|Wilna Tereszkiwka|Ul. Centralna|43||||
+|40033792|Irlandia||Moszczenica|Ul. Gorlicka|70||||
+|40033932|Ukraina|73013|Chersoń|Zaułek Spartakowski|33||||
+|40034282|Białoruś|220101|Minsk|Plekhanova|65||||
+|40034723|Białoruś|246028|Homel|Ul.Sovietskaya|97||||
+|40035295|Francja|06200|Nice|61bis Avenue Corniche Fleurie|gerani||||
+|40035303|Etiopia|14183|Addis Ababa|Akaki Kality|01||||
+|40035311|Białoruś|230017|Grodno|Ul. O. Solomowoj|135||||
+|40035312|Ukraina|09212|Kijów|Tymoshenko|13||||
+|40035313|Ukraina|03117|Kijów|Av. Artylleryjski|9A||||
+|40035336|Etiopia|260|Dambi Dollo|03|new||||
+|40035385|Austria|1070|Vienna|Burggasse|76||||
+|40035393|Francja|92600|Asnieres Sur Seine|Rue Maurice Bokanowski|17||||
+|40035455|Turcja||Kraków|Ul. Juliana Tokarskiego|2||||
+|40035477|Ukraina|48500|Czortków|Ul. Romana Shukhevycha|2A||||
+|40035497|Chiny|610000|Chengdu|Tianfu Avenue|No1388||||
+|40035498|Chiny|333000|Jingdezhen||0||||
+|40035499|Pakistan|64200|Rahim Yar Khan|Habib Colony, Street No.5, Opposite To Girls Elementary Scho|7||||
+|40035517|Iran|51687|Tabriz|vilahsahr Street|85||||
+|40035523|Etiopia|378|Jimma|Jimma|06||||
+|40035524|Wietnam|100000|Hanoi|336 Nguyen Trai Street|336||||
+|40035525|Włochy|50019|Sesto Fiorentino|Via Imbriani|53||||
+|40035526|Pakistan|44000|Islamabad|Plot No. 84, Street No.03, Sector H-8/1,|84||||
+|40035527|Indie|685509|Kumily|Valiyakandam|Megha||||
+|40035528|Egipt|6783504|Samannoud|Egypt|No num||||
+|40035529|Egipt|31527|Tanta|Ismail Soliman St., Tanta, Egypt|16||||
+|40035533|Iran|79771|Parsian||1||||
+|40035534|Pakistan|42200|Mianwali|Street 4 Bilal Town Paf Road Near Mm Alam Residential Colony|Nazir||||
+|40035535|Etiopia|260|City|025|025||||
+|40035537|Nigeria|340110|Akure|42 Lydia Street Bennyrose Futa Southgate Akure|42||||
+|40035538|Nigeria|200109|Ibadan|Ab Suberu Street, Alarere Estate, Iwo Road|2||||
+|40035539|Azerbejdżan|AZ1129|Baku|Nasraddin Tusi|28||||
+|40035539|Azerbejdżan|AZ1000|Baku|Nasraddin Tusi|28||||
+|40035540|Turcja|10680|Balikesir|Turplu Mah. Turplu 7 Sokak No:3|3||||
+|40035546|Ukraina|33016|Rivne|Konovaltsia|2||||
+|40036057|Ukraina|61082|Charków|Aleja Bohaterów Charkowa|212||||
+|40036058|Ukraina|08703|Obukhiv|Ul. Kyivska|170||||
+|40036061|Ukraina|46018|Ternopil|Ul. Karpenka|3||||
+|40036064|Ukraina|07400|Browary|Ul. Niepodległości|9 A||||
+|40036203|Irlandia||Andrychów|Ul. Podgórska|2A||||
+|40036335|Turcja|38560|Kayseri|Menekşe|7||||
+|40036336|Irak|42001|Duhok|Mersin Tower|B||||
+|40036337|Turcja|06460|Ankara|Kabil|2||||
+|40036338|Chiny|610051|Chengdu, Sichuan|Office Building 1, Ifs, 1 Hongxing Road Section 3|Room 2||||
+|40036339|Chile|9670000|Talagante|Camino Interior Lauracea|1566||||
+|40036341|USA|28167|Union Mills|Pine Tree Road|234||||
+|40036342|Turcja|34654|Istanbul|Canan|100||||
+|40036343|USA|21061|Glen Burnie|Ray Lane|1316||||
+|40036344|Ukraina|55214|Pervomaisk|Ul.Kamyanomostivska|19||||
+|40036345|Ukraina|04108|Kyiv|European Union Avenue|19 A||||
+|40036346|Turcja|07077|Antalya|1153. Street|C||||
+|40036347|Ukraina|79067|Lviv|Hlyniansky Tract|153A||||
+|40036348|Algieria|25008|Constantine|Cite 20 Aout 55|BT A3||||
+|40036349|Ukraina|02096|Kyiv|Yuriia Paskhalina St|17||||
+|40036350|Ukraina|10004|Żytomierz|Ul. Heroiv Desantnykiv|10||||
+|40036351|Turcja|45500|Manisa / Soma /Turkiye|Kurtulus Mah. Hurriyet Bulvari|1/A||||
+|40036352|Ukraina|79035|Lviv|Zelena|115Zh||||
+|40036353|Ukraina|04209|Kyiv|Heroiv Dnipra|7||||
+|40036356|Izrael|7537903|Rishon Lezion|Haim Saraf|4a||||
+|40036360|Białoruś|220089|Mińsk|Ul. Zheleznodorozhnaya|44||||
+|40036361|Ukraina|02099|Kyiv|Ul. Vereshera|26/28||||
+|40036363|Ukraina|21000|Winnica|Ul.Rodiona Skaleckoho|6||||
+|40036365|Ukraina|79004|Lwów|Ul. Włodzimierza Wielkiego|3||||
+|40036508|Irlandia||Rzeszów|Ul. Kardynała Karola Wojtyły|36L||||
+|40036733|Irlandia||Skała|Ul. Parkowa|31||||
+|40036822|Albania||Kraków|Ul. Józefa Chełmońskiego|162||||
+|40036826|Irlandia||Wieliczka|Ul. Ochota|4-ZD||||
+|40036955|Algieria|16000|Algiers|Cité 100 Logements Tixeraine-Bir Khadem|14||||
+|40037041|Indie|691304|Kerala|Pullichira Po, Kollam|Nicy B||||
+|40037042|Algieria|15127|Azazga|Mokena|.||||
+|40037045|Liban|1300|Tripoli|Boy'S School District|120||||
+|40037046|Ukraina|79011|Lviv|Ul.Dmytra Vitovskoho|11||||
+|40037048|Ukraina|79005|Lviv|Archypenko Str.|32||||
+|40037051|Ukraina|25006|Kropiwnycki|Ul. Mykoły Sadowskiego|41/5||||
+|40037053|Ukraina|84619|Horlówka|Ul. Svetlaya|65||||
+|40037068|Izrael|4951703|Petah Tikva|Ben Gurion|25||||
+|40037106|Irlandia||Harklowa|Ul. Nowotarska|95||||
+|40037195|Irlandia||Rączna||743||||
+|40037275|Irlandia||Grębów|Ul. Piaski|115||||
+|40037698|Ukraina|07301|Vyshhorod|Ul. Kalinova|118||||
+|40037772|Rumunia|727099|Solonetu Nou||1208||||
+|40037813|Białoruś|210027|Witebsk|Ul. Czerniachowskiego|32||||
+|40037822|Białoruś|225295|Iwacewicze|Ul.Miechanizatorów|7G||||
+|40037899|Wenezuela||Kraków|Ul. Bajeczna|12||||
+|40038201|Pakistan|46000|Rawalpindi|Haider Ali Street|BV-73||||
+|40038519|Ukraina|76010|Ivano-Frankivsk|Ul.Volodymyra Velykogo|13||||
+|40038735|Ukraina|79012|Lwów|Ul.Czerwonoi Kalyny|72||||
+|40038794|Irlandia||Zamość|Ul. Młodzieżowa|6||||
+|40039045|Ukraina|65025|Odessa|Ul. Krymska|84||||
+|40039064|Irlandia||Jastrzębie-Zdrój|Ul. Stawowa|35a||||
+|40039241|Białoruś|222120|Borysów|Ul. Watutina|22||||
+|40039550|Irlandia||Gorlice|Ul. Tuwima|2||||
+|40040039|Ukraina|03150|Kijów|Ul. Velyka Vasylkivska|102||||
+|40040090|Turcja|34788|Istanbul|Cumhuriyet Mh Sadircan Sk Teras Cekmekoy Evleri Cekmeköy|15||||
+|40040091|Ukraina|39619|Krzemieńczuk|Ul. Czumackyj Szlach|53||||
+|40040092|Ukraina|10001|Żytomierz|Ul. Hoholiwska|55||||
+|40040093|Ukraina|65122|Odesa|Ul. Akademika Korolowa|79||||
+|40040094|Białoruś|211321|Vitebsk|6 Lesnaya|28||||
+|40040095|Ukraina|79013|Lwów|Ul. Nechuja-Lewickiego|21||||
+|40040098|Ukraina|33000|Rivne|Massif Zoraniy|49||||
+|40040099|Ukraina|81130|Sokilnyki|Ul. Iwana Sirki|25a||||
+|40040102|Ukraina|65000|Odessa|Ul. Machtowa|20||||
+|40040104|Ukraina|79042|Lviv|Ul. Generala Yunakiva|9 G||||
+|40040109|Ukraina|61000|Charków|Ul. Architektów|22||||
+|40040385|Indie|560037|Bengaluru|Ul. Basava Nagar|231||||
+|40040387|Ukraina|79070|Lviv|Hnata Hotkevych|44||||
+|40040731|Ukraina|03148|Kijów|Ul. Zhmerynska|16||||
+|40040806|Ukraina|79020|Lviv|Pancha Street|18 B||||
+|40041180|Ukraina|70037|Lyutserna|Ul. Soniaczna|1A||||
+|40041293|Irlandia||Pusta Wola||68||||
+|40041855|Ukraina|03049|Kijów|Ul. Shovkunenka|8/20||||
+|40042395|Ukraina|07354|Novy Petrivci|Ul. Kanerska|23||||
+|40042506|Ukraina|61157|Kharkiv|Ul. Vlasenko|170||||
+|40042628|Ukraina|76014|Ivano-Frankivsk|Konovaltsia|106A||||
+|40042659|Japonia|173-0004|Tokyo|Itabashi|Bonu-r||||
+|40042661|Japonia|238-0013|Yokosuka|Heisei-Cho|Sophia||||
+|40042671|Nigeria|340241|Akure|Danjuma Street|44||||
+|40042672|Chile|2451081|Villa Alemana|Pasaje Miguel Angel|133||||
+|40042674|Argentyna|C1225AAR|Ciudad Autonoma De Buenosa|Independencia|2246||||
+|40042675|Argentyna|1602|Vicente Lopez|Italia|1530||||
+|40042676|Argentyna|1437|Ciudad Autonom De Buenosai|Diogenes Taborda|152||||
+|40042677|Argentyna|9011|Caleta Olivia|13 De Diciembre|2257||||
+|40042678|Argentyna|1427|Buenos Aires|Elcano|3665||||
+|40042679|Argentyna|1405|Ciudad Autonoma De Buenosa|Honorio Pueyrredon|375||||
+|40042680|Argentyna|1425|Ciudad Autonoma De Buenosa|Raul Scalabrini Ortiz|2887||||
+|40042681|Argentyna|1428|Capital Federal|Vuelta De Obligado|2687||||
+|40042682|Brazylia|68455151|Tucurui|Rua H,Santa Monica|9A||||
+|40042683|Brazylia|59148-326|Parnamirim|Sao Bernardo|14||||
+|40042684|Brazylia|59080470|Natal|Rua Doutor Sebastiao Zuza De M|4450||||
+|40042685|Brazylia|25965-175|Teresopolis|Rua Doutor Oliveira|646||||
+|40042686|Brazylia|59082-010|Natal|Rua Pastor Gabino Brelaz|1397||||
+|40042687|Brazylia|29043028|Vitoria|Oswaldo Cruz|439||||
+|40042688|Brazylia|29101782|Vila Velha|Hugo Musso|1720||||
+|40042689|Brazylia|59075-250|Natal, Rio Grande Do Norte|Amintas Barros|4863||||
+|40042690|Brazylia|68488000|Breu Branco|Cateto|36||||
+|40042691|Chile|2350204|Valparaiso|Blanco Viel|229||||
+|40042692|Chile|8350363|Santiago|Cueto|518||||
+|40042693|Chile|2580066|Vina Del Mar|Lopez|162||||
+|40042694|Wenezuela|1080|Caracas|Manzanares|5||||
+|40042695|Chile|2820000|Rancagua|Totihue|555||||
+|40042696|Wenezuela|1010|Distrito Capital|Av. Fuerzas Armadas Sur|RESID||||
+|40042697|Chile|2510000|Concon|Los Olivillos|440||||
+|40042698|Wenezuela|2115|Turmero|2|11||||
+|40042699|Wenezuela|1020|Caracas|5 De Julio, El Coronal|NA||||
+|40042700|Chile|8420511|Santiago|Santa Maria|383||||
+|40042701|Wenezuela|1201|Los Teques|El Encanto, First Stage|ROMA||||
+|40042702|Chile|2511460|Concon|Av Bosques De Montemar Oriente|1779||||
+|40042703|Peru|04001|Arequipa|Av.28 De Julio|206||||
+|40042704|Peru|15491|Lima|Amauta B|23||||
+|40042705|Chile|2451081|Villa Alemana|Pasaje Miguel Angel|133||||
+|40042706|Panama|507|Panama|Calle Del Rio|PRADER||||
+|40042707|Panama|7069|Chorrera|51 Norte|1045||||
+|40042708|Kolumbia|110311|Bogota|Calle 24|906||||
+|40042709|Kostaryka|11401|Urbanizacion Ana Lorena|Diag 53|2D||||
+|40042710|Kolumbia|11011|Bogota|Calle 19#9-50|TORRE||||
+|40042711|Kostaryka|21001|Ciudad Quesada|La Llanada|CASA 2||||
+|40042712|Kolumbia|110111|Bogota|Dg 55#3a-29|N/A||||
+|40042713|Kolumbia|111511|Bogota|Cr 24a#19-03 Sur|BL4 E4||||
+|40042732|Turcja|01920|Adana|493|65||||
+|40042733|Turcja|06610|Ankara|Dogukent Caddesi|A Blok||||
+|40042734|Chiny|200120|Shanghai|Zhangdong Road|2281 L||||
+|40042744|Białoruś|220046|Mińsk|Ul. Soltysa|199||||
+|40042746|Japonia|299-0203|Sodegaura|Takaya|1142||||
+|40043157|Kolumbia|176001|Valles de la florida|Calle|71||CALDAS||
+|40043164|Meksyk|21270|Mexicall|Plutarco Elias Calles|#559||||
+|40043227|Palestyna||Hebron|-Ahli Hospital Street|0||||

@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.SignalR;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using TerytLoad.Hubs;
 
 namespace TerytLoad.Pages
@@ -140,6 +141,37 @@ namespace TerytLoad.Pages
                 //                var errorIds = new HashSet<string>(errorLines.Select(x => x.Id));
                 //                var dataLines = dataLines0.Where(x => errorIds.Contains(x.Id)).ToList();
                 var dataLines = dataLines0;
+
+                // Wyodrębnij adresy z obcymi krajami i zapisz je do adresy_obce.txt
+                var foreignList = dataLines.Where(a => !string.IsNullOrWhiteSpace(a.Kraj)
+                                                      && !string.Equals(a.Kraj, "PL", StringComparison.OrdinalIgnoreCase)
+                                                      && !string.Equals(a.Kraj, "Polska", StringComparison.OrdinalIgnoreCase))
+                                           .ToList();
+
+                if (foreignList.Count > 0)
+                {
+                    try
+                    {
+                        var foreignPath = System.IO.Path.Combine(appDataFolder, "adresy_obce.txt");
+                        // Zapisz w tym samym formacie co adresy.txt
+                        await AddressLibrary.Helpers.ExcelTableWriter.WriteToTextFileAsync(foreignList, foreignPath, '|', Encoding.UTF8, includeHeader: true);
+                        Console.WriteLine($"[VerifyAddresses] Zapisano {foreignList.Count} adresów obcych do: {foreignPath}");
+
+                        await _hubContext.Clients.All.SendAsync("ReceiveProgress",
+                            "verify-addresses",
+                            0,
+                            dataLines.Count(),
+                            $"ℹ️ Zapisano {foreignList.Count} adresów z obcymi krajami do: adresy_obce.txt");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"[VerifyAddresses] Błąd zapisu adresy_obce.txt: {ex.Message}");
+                    }
+
+                    // Usuń obce adresy z listy do przetworzenia
+                    var foreignIds = new HashSet<string>(foreignList.Select(x => x.Id));
+                    dataLines = dataLines.Where(a => !foreignIds.Contains(a.Id)).ToList();
+                }
 
                 var readTime = (DateTime.Now - readStartTime).TotalMilliseconds;
 
@@ -399,6 +431,7 @@ namespace TerytLoad.Pages
                         nowaUlica = $"{nowaUlica} {ul.Dzielnica}".Trim();
                     }
                 }
+                nowaUlica = Regex.Replace(nowaUlica, @"\s+", " ").Trim();
                 // ✅ POPRAWIONE: Używaj GetOverallMethod() zamiast sprawdzania Message
                 string method = searchResult.GetOverallMethod() == MatchingMethod.Fuzzy ? "Fuzzy" : "Strict";
 
