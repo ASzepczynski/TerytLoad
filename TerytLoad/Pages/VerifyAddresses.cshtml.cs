@@ -415,7 +415,7 @@ namespace TerytLoad.Pages
                     .Select(p => p.GetValue(item));
 
                 var razem = string.Join("|", values);
-                System.IO.File.AppendAllText(plik, razem + Environment.NewLine);
+                System.IO.File.WriteAllText(plik, razem + Environment.NewLine);
 
                 var searchResult = await searchService.SearchAsync(request);
 
@@ -425,7 +425,8 @@ namespace TerytLoad.Pages
                 var ul = searchResult.Ulica;
                 if (ul != null)
                 {
-                    nowaUlica = $"{ul.CechaUlicy.Opis()} {ul.TypUlicy.Opis()}".Trim();
+                    nowaUlica = ul.NazwaTeryt;
+
                     if (ul.Dzielnica!="")
                     {
                         nowaUlica = $"{nowaUlica} {ul.Dzielnica}".Trim();

@@ -1,0 +1,2 @@
+﻿Id|Kraj|Kod|Miasto|Ulica|NrDomu|NrLokalu|Wojewodztwo|Powiat|Gmina
+10000122|Polska|30-611|Kraków|Halszki|24||Małopolskie|Kraków|
