@@ -1,7 +1,7 @@
 ﻿Komunikat|ID|Kraj|Kod|Miasto|Ulica|NrDomu|NrLokalu|Wojewodztwo|Powiat|Gmina
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=9827068),Numer budynku: 66,Liczba znalezionych kodów: 0|40001549|Polska|38-312|Ropa||66||Małopolskie||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sękowa (ID=9822594),Numer budynku: Męcina,Liczba znalezionych kodów: 0|40008541|Polska|38-307|Sękowa||Męcina||Małopolskie||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dębno (ID=9823507),Numer budynku: Maszki,Liczba znalezionych kodów: 0|40012857|Polska|32-828|Dębno||Maszki||Małopolskie||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=9827068),Numer budynku: 10,Liczba znalezionych kodów: 0|40035297|Polska|38-312|Ropa||10||Małopolskie||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=9827068),Numer budynku: 52,Liczba znalezionych kodów: 0|40035861|Polska|38-312|Ropa||52||Małopolskie||
-Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=9823520),Numer budynku: 498,Liczba znalezionych kodów: 0|40037873|Polska|32-852|Sufczyn||498||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=9926947),Numer budynku: 66,Liczba znalezionych kodów: 0|40001549|Polska|38-312|Ropa||66||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sękowa (ID=9922473),Numer budynku: Męcina,Liczba znalezionych kodów: 0|40008541|Polska|38-307|Sękowa||Męcina||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Dębno (ID=9923386),Numer budynku: Maszki,Liczba znalezionych kodów: 0|40012857|Polska|32-828|Dębno||Maszki||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=9926947),Numer budynku: 10,Liczba znalezionych kodów: 0|40035297|Polska|38-312|Ropa||10||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Ropa (ID=9926947),Numer budynku: 52,Liczba znalezionych kodów: 0|40035861|Polska|38-312|Ropa||52||Małopolskie||
+Nie znaleziono kodu pocztowego dla podanych parametrów/Miasto: Sufczyn (ID=9923399),Numer budynku: 498,Liczba znalezionych kodów: 0|40037873|Polska|32-852|Sufczyn||498||Małopolskie||

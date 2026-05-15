@@ -400,10 +400,23 @@ namespace TerytLoad.Pages
                     };
                 }
 
+                // Prepare AddressSearchRequest
+                string inputMiasto = item.Miasto ?? string.Empty;
+                string inputDzielnica = string.Empty;
+
+                // Jeśli miasto ma postać: "Kraków (Krowodrza)" - rozdzielimy je na miasto i dzielnicę
+                var m = Regex.Match(inputMiasto, "^\\s*(.*?)\\s*\\((.*?)\\)\\s*$");
+                if (m.Success)
+                {
+                    inputMiasto = m.Groups[1].Value.Trim();
+                    inputDzielnica = m.Groups[2].Value.Trim();
+                }
+
                 var request = new AddressSearchRequest
                 {
                     KodPocztowy = hasKod ? item.Kod : null,
-                    Miasto = item.Miasto,
+                    Miasto = inputMiasto,
+                    Dzielnica = inputDzielnica,
                     Ulica = hasUlica ? item.Ulica : null,
                     NumerDomu = string.IsNullOrWhiteSpace(item.NrDomu) ? null : item.NrDomu,
                     NumerMieszkania = string.IsNullOrWhiteSpace(item.NrLokalu) ? null : item.NrLokalu
